@@ -500,24 +500,21 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', () => {
-        console.log('Step 1: DOM loaded. Looking for authButton...');
         const authButton = document.getElementById('authButton');
 
         if (authButton) {
-          console.log('Step 2: authButton was found! Attaching click listener.');
           authButton.addEventListener('click', async (e) => {
-            console.log('Step 3: authButton was clicked!');
             e.preventDefault();
             
             if (typeof auth0Client !== 'undefined' && auth0Client) {
-              console.log('Step 4: auth0Client is available. Calling login().');
-              login();
-            } else {
-              console.error('ERROR: auth0Client was not available when the button was clicked.');
+              const isAuthenticated = await auth0Client.isAuthenticated();
+              if (isAuthenticated) {
+                logout(); // If logged in, log out
+              } else {
+                login(); // If not logged in, log in
+              }
             }
           });
-        } else {
-          console.error('CRITICAL ERROR: authButton was NOT found on the page.');
         }
       });
     </script>
