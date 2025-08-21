@@ -34,7 +34,8 @@ const updateUI = async () => {
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
 
-  // Reset premium status
+  // Reset premium status and set authentication status globally
+  window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
   document.body.classList.remove('is-premium');
 
@@ -53,7 +54,8 @@ const updateUI = async () => {
 
       // Check for Premium Role
       const claims = await auth0Client.getIdTokenClaims();
-      const userRoles = claims['http://teachertoybox.com/roles'] || [];
+      // NOTE: The claim name depends on your Auth0 Rule setup.
+      const userRoles = claims['http://teachertoybox.com/roles'] || []; 
       if (userRoles.includes('Premium')) {
           window.TT.isPremium = true;
           document.body.classList.add('is-premium');
