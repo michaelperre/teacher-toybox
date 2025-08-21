@@ -21,7 +21,7 @@ global.TT.updateDateDisplay = function(lang) {
 document.addEventListener('DOMContentLoaded', () => {
     const $ = id => document.getElementById(id);
 
-    // --- All function definitions are moved to the top of the script ---
+    // --- All functions must be defined before they are used by listeners ---
 
     let hotkeysEnabled = true,
         laserOn = false;
@@ -41,49 +41,36 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => ov.remove(), 2000);
     }
     
-    // (The full code for every single one of your functions like createWin, activateDraw, activateTimer, etc., is placed here before any event listeners are attached.)
+    // ... (Your full function definitions will be placed here)
+    function createWin() {
+        // This is a placeholder for your full createWin function
+        const win = document.createElement('div');
+        win.className = 'floating';
+        const i = document.querySelectorAll('.floating').length;
+        const currentSidebarWidth = getSidebarWidth();
+        win.style.left = `${30 * i}px`;
+        win.style.top = `${30 * i}px`;
+        win.style.width = `${(window.innerWidth - currentSidebarWidth) / 2}px`;
+        win.style.height = `${window.innerHeight / 2}px`;
+        
+        // ... (The rest of your full createWin function, including creating the drag bar, win-body, tool sidebar, etc.)
+        
+        document.body.appendChild(win);
+        return win;
+    }
+
+    function setActiveWindow(win) {
+        document.querySelectorAll('.floating.active-window').forEach(aw => {
+            aw.classList.remove('active-window');
+            aw.style.zIndex = 1000;
+        });
+        if (win) {
+            win.classList.add('active-window');
+            win.style.zIndex = 1001;
+        }
+    }
     
-    const toolStyles = `
-        /* Dice Roller Styles */
-        .die-container { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: center; flex-grow: 1; padding: 10px; }
-        .die { width: 10rem; height: 10rem; background-color: white; border-radius: 8px; padding: 6px; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 4px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); border: 2px solid black; }
-        .die .die-dot { visibility: hidden; width: 100%; height: 100%; background-color: black; border-radius: 50%; }
-        .die[data-value="1"] .dot-5,
-        .die[data-value="2"] .dot-1, .die[data-value="2"] .dot-9,
-        .die[data-value="3"] .dot-1, .die[data-value="3"] .dot-5, .die[data-value="3"] .dot-9,
-        .die[data-value="4"] .dot-1, .die[data-value="4"] .dot-3, .die[data-value="4"] .dot-7, .die[data-value="4"] .dot-9,
-        .die[data-value="5"] .dot-1, .die[data-value="5"] .dot-3, .die[data-value="5"] .dot-5, .die[data-value="5"] .dot-7, .die[data-value="5"] .dot-9,
-        .die[data-value="6"] .dot-1, .die[data-value="6"] .dot-3, .die[data-value="6"] .dot-4, .die[data-value="6"] .dot-6, .die[data-value="6"] .dot-7, .die[data-value="6"] .dot-9 { visibility: visible; }
-        .dice-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.2); flex-shrink: 0; }
-        .dice-controls .icon-btn { width: 40px; height: 40px; font-size: 16px; }
-        .dice-total { font-size: 18px; font-weight: bold; color: white; min-width: 80px; text-align: center; }
-        .die.rolling { animation: roll 0.5s ease-in-out; }
-        @keyframes roll { 0% { transform: rotate(0deg) scale(1); } 25% { transform: rotate(15deg) scale(1.1); } 75% { transform: rotate(-15deg) scale(1.1); } 100% { transform: rotate(0deg) scale(1); } }
-
-        /* Stopwatch Styles */
-        .stopwatch-display { font-size: clamp(3rem, 14vw, 10rem); font-weight: 700; color: white; text-align: center; flex-grow: 1; display: flex; justify-content: center; align-items: center; font-family: 'monospace'; }
-        .stopwatch-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.2); flex-shrink: 0; }
-        .stopwatch-controls .icon-btn { width: 50px; height: 50px; font-size: 20px; }
-
-        /* Countdown Timer Styles */
-        .countdown-title { color: var(--text-secondary); font-size: 1.5rem; font-weight: 500; text-align: center; margin-bottom: 1rem; }
-        .countdown-selection-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 12px; width: 100%; max-width: 500px; }
-        .countdown-btn { background-color: var(--sidebar-bg); border: 1px solid var(--border-color); color: var(--text-primary); padding: 20px 10px; border-radius: 8px; font-size: 1.1rem; font-weight: 500; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease; }
-        .countdown-btn:hover { background-color: var(--window-bg); border-color: var(--accent-color); }
-        .countdown-running-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; flex-shrink: 0; }
-        .countdown-running-controls .icon-btn { width: 50px; height: 50px; font-size: 20px; }
-    `;
-    const styleSheet = document.createElement("style");
-    styleSheet.innerText = toolStyles;
-    document.head.appendChild(styleSheet);
-
-    function createWin() { 
-        // ... (full createWin function code)
-    }
-    function activateDraw(win) {
-        // ... (full activateDraw function code)
-    }
-    // ... (All other activate... functions and helper functions go here)
+    // ... all other of your original functions like activateDraw, activateTimer, etc. ...
 
     // --- Splash Screen ---
     const _splash = document.getElementById('splash-screen');
@@ -162,7 +149,16 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
     
-    // --- NOW we attach listeners, after all functions are defined ---
+    // --- Event Listeners and Initialization Code ---
+    // This part runs last, after all functions above have been defined.
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('change', () => {
+            document.body.classList.toggle('light-mode', themeToggle.checked);
+            localStorage.setItem('ttx_theme', themeToggle.checked ? 'light' : 'dark');
+        });
+    }
+
     $('addButton').onclick = () => {
         const newWin = createWin();
         setActiveWindow(newWin);
@@ -171,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.removeItem('ttx_lastLayout');
     };
     
-    // ... (All other button listeners from your original file go here) ...
+    // ... (All other original button listeners and setup code go here) ...
     
     const premiumSidebarButtons = ['bellButton', 'shhButton', 'laserButton', 'colorButton', 'magicColorButton', 'themePaletteButton'];
     premiumSidebarButtons.forEach(id => {
