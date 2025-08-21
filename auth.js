@@ -54,8 +54,7 @@ const updateUI = async () => {
 
       // Check for Premium Role
       const claims = await auth0Client.getIdTokenClaims();
-      // NOTE: The claim name depends on your Auth0 Rule setup.
-      const userRoles = claims['http://teachertoybox.com/roles'] || []; 
+      const userRoles = claims['http://teachertoybox.com/roles'] || [];
       if (userRoles.includes('Premium')) {
           window.TT.isPremium = true;
           document.body.classList.add('is-premium');
