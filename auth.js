@@ -4,10 +4,8 @@ let auth0Client = null;
 // 1. Configure the Auth0 Client
 const configureClient = async () => {
   auth0Client = await auth0.createAuth0Client({
-    // V V V V  REPLACE THIS LINE V V V V
-    domain: "teachertoybox.uk.auth0.com", // e.g., "teachertoybox.uk.auth0.com"
-    // V V V V  REPLACE THIS LINE V V V V
-    clientId: "olhwjFTXOIx1mxJB2cn2BHVb1Vny1jZa", // e.g., "a1b2c3d4e5f6g7h8i9j0"
+    domain: "teachertoybox.uk.auth0.com",
+    clientId: "olhwjFTXOIx1mxJB2cn2BHVb1Vny1jZa",
     authorizationParams: {
       redirect_uri: window.location.origin
     }
@@ -33,24 +31,42 @@ const initializeAuth = async () => {
 // 4. Update UI based on authentication state
 const updateUI = async () => {
   const isAuthenticated = await auth0Client.isAuthenticated();
-  const loginButton = document.getElementById("loginButton");
-  const logoutButton = document.getElementById("logoutButton");
+  const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
 
-  if (isAuthenticated) {
-    loginButton.style.display = "none";
-    logoutButton.style.display = "flex";
+  // Reset premium status
+  window.TT.isPremium = false;
+  document.body.classList.remove('is-premium');
 
-    const user = await auth0Client.getUser();
-    if (user && userProfileElement) {
-        userProfileElement.innerHTML = `<img src="${user.picture}" alt="${user.name}" style="width: 40px; height: 40px; border-radius: 50%;">`;
-        userProfileElement.style.display = 'flex';
+  if (authButton) {
+    if (isAuthenticated) {
+      // --- Logged In State ---
+      authButton.title = "Log Out";
+      authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
+      authButton.classList.remove('premium-login-style'); // Remove gold style
+      
+      const user = await auth0Client.getUser();
+      if (user && userProfileElement) {
+          userProfileElement.innerHTML = `<img src="${user.picture}" alt="${user.name}" style="width: 40px; height: 40px; border-radius: 50%;">`;
+          userProfileElement.style.display = 'flex';
+      }
+
+      // Check for Premium Role
+      const claims = await auth0Client.getIdTokenClaims();
+      const userRoles = claims['http://teachertoybox.com/roles'] || [];
+      if (userRoles.includes('Premium')) {
+          window.TT.isPremium = true;
+          document.body.classList.add('is-premium');
+      }
+
+    } else {
+      // --- Logged Out State ---
+      authButton.title = "Premium Login";
+      authButton.innerHTML = `<i class="fas fa-crown"></i>`;
+      authButton.classList.add('premium-login-style'); // Add gold style
+
+      if (userProfileElement) userProfileElement.style.display = 'none';
     }
-
-  } else {
-    loginButton.style.display = "flex";
-    logoutButton.style.display = "none";
-    if (userProfileElement) userProfileElement.style.display = 'none';
   }
 };
 
