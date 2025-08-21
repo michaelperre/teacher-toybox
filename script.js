@@ -24,6 +24,8 @@ global.TT.updateDateDisplay = function(lang) {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('script.js: File has started running.'); // <-- DEBUG MESSAGE 1
+    // --- Splash Screen ---
     const _splash = document.getElementById('splash-screen');
     if (_splash) {
         setTimeout(() => {
@@ -49,11 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
         premiumTooltip.style.left = `${rect.left - premiumTooltip.offsetWidth - 10}px`;
         premiumTooltip.classList.add('visible');
 
-        // NEW: Find the icon and add the halo effect
         const icon = targetElement.querySelector('i');
         if (icon) {
             icon.classList.add('halo');
-            // Remove the class after the animation is done so it can be re-triggered
             setTimeout(() => {
                 icon.classList.remove('halo');
             }, 2000);
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         tooltipTimeout = setTimeout(() => {
             premiumTooltip.classList.remove('visible');
-        }, 2000); // Hide after 2 seconds
+        }, 2000);
     };
 
     const premiumModal = $('premium-modal');
@@ -111,83 +111,108 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
     
-    // ... (keep all your other functions like themeToggle, createWin, activateDraw, etc. exactly as they were) ...
-    // NOTE: For brevity, the full code of the other functions is omitted here, but should be kept in your file.
-
-    function createWin() {
-        // ... (entire createWin function setup is the same) ...
-        const tools = [
-            { key: 'd', icon: 'fas fa-pencil-alt', func: activateDraw, title: 'Drawing Canvas (D)' },
-            { key: 't', icon: 'fas fa-font', func: activateType, title: 'Text Editor (T)' },
-            { key: '0', icon: 'fas fa-list-ol', func: activateNumberedList, title: 'Numbered List (0)' },
-            { key: 'w', icon: 'fas fa-camera', func: activateCam, title: 'Webcam (W)', premium: true },
-            { key: 'v', icon: 'fas fa-images', func: activateCarousel, title: 'Photo Carousel (V)', premium: true },
-            { key: 'o', icon: 'fas fa-stopwatch', func: activateTimer, title: 'Countdown Timer (O)', premium: true },
-            { key: 'h', icon: 'fas fa-hourglass-start', func: activateStopwatch, title: 'Stopwatch (H)', premium: true },
-            { key: 'g', icon: 'fas fa-dice', func: activateDiceRoller, title: 'Dice Roller (G)', premium: true },
-            { key: 'a', icon: 'fas fa-balance-scale', func: activateForAndAgainst, title: 'For/Against Counter (A)', premium: true },
-            { key: 'u', icon: 'fas fa-calculator', func: activateCalculator, title: 'Calculator (U)', premium: true }
-        ];
-
-        tools.forEach(tool => {
-            const btn = document.createElement('button');
-            btn.className = 'icon-btn';
-            if (tool.premium) {
-                btn.classList.add('premium-feature');
-            }
-            btn.dataset.hotkey = tool.key;
-            btn.innerHTML = `<i class="${tool.icon}"></i>`;
-            
-            btn.onclick = (e) => {
-                if (tool.premium && !window.TT.isPremium) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    if (window.TT.isAuthenticated) {
-                        openPremiumModal();
-                    } else {
-                        showTooltip(btn, "<i class='fas fa-crown'></i> Upgrade to Premium to unlock this function");
-                    }
-                    return;
-                }
-                cleanupWindowTools(win);
-                tool.func(win);
-            };
-
-            const hotkeyLabel = document.createElement('span');
-            hotkeyLabel.className = 'hotkey-label';
-            hotkeyLabel.textContent = tool.key.toUpperCase();
-            const tooltip = document.createElement('span');
-            tooltip.className = 'tooltip';
-            tooltip.textContent = tool.title;
-            btn.append(hotkeyLabel, tooltip);
-            winSidebar.appendChild(btn);
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('change', () => {
+            document.body.classList.toggle('light-mode', themeToggle.checked);
+            localStorage.setItem('ttx_theme', themeToggle.checked ? 'light' : 'dark');
         });
-
-        // ... (rest of createWin function is the same) ...
-        return win;
     }
 
-    // ... (keep the rest of your script.js code including all the activate... functions) ...
+    const getSidebarWidth = () => $('sidebar').offsetWidth;
 
-    const premiumSidebarButtons = ['bellButton', 'shhButton', 'laserButton', 'colorButton', 'magicColorButton', 'themePaletteButton'];
-    premiumSidebarButtons.forEach(id => {
-        const button = $(id);
-        if (button) {
-            button.classList.add('premium-feature');
-            const originalOnclick = button.onclick;
-            button.onclick = (e) => {
-                if (!window.TT.isPremium) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    if (window.TT.isAuthenticated) {
-                        openPremiumModal();
-                    } else {
-                        showTooltip(button, "<i class='fas fa-crown'></i> Upgrade to Premium to unlock this function");
-                    }
-                    return;
-                }
-                if (originalOnclick) originalOnclick.call(button, e);
-            };
+    let lastWindowWidth = window.innerWidth;
+    let lastWindowHeight = window.innerHeight;
+
+    const clockButton = $('clockButton');
+    const digitalClockBar = $('digital-clock-bar');
+    const hourHand = document.querySelector('.hour-hand');
+    const minuteHand = document.querySelector('.minute-hand');
+    const secondHand = document.querySelector('.second-hand');
+
+    function setClocks() {
+        const now = new Date();
+        const seconds = now.getSeconds();
+        const minutes = now.getMinutes();
+        const hours = now.getHours();
+        const secondsDeg = (seconds / 60) * 360;
+        const minutesDeg = (minutes / 60) * 360 + (seconds / 60) * 6;
+        const hoursDeg = (hours / 12) * 360 + (minutes / 60) * 30;
+        
+        if (hourHand && minuteHand && secondHand) {
+            if (secondsDeg < 1) { 
+                secondHand.style.transition = 'none';
+            } else {
+                secondHand.style.transition = '';
+            }
+            secondHand.style.transform = `rotate(${secondsDeg}deg)`;
+            minuteHand.style.transform = `rotate(${minutesDeg}deg)`;
+            hourHand.style.transform = `rotate(${hoursDeg}deg)`;
         }
-    });
+        if (digitalClockBar) {
+            const digitalHours = String(hours).padStart(2, '0');
+            const digitalMinutes = String(minutes).padStart(2, '0');
+            const digitalSeconds = String(seconds).padStart(2, '0');
+            digitalClockBar.textContent = `${digitalHours}:${digitalMinutes}:${digitalSeconds}`;
+        }
+    }
+
+    if (clockButton) {
+        clockButton.addEventListener('click', () => {
+            clockButton.classList.toggle('active');
+            digitalClockBar.classList.toggle('open');
+        });
+        if (digitalClockBar) {
+            digitalClockBar.addEventListener('mouseenter', () => {
+                clockButton.classList.remove('active');
+                digitalClockBar.classList.remove('open');
+            });
+        }
+        setClocks();
+        setInterval(setClocks, 1000);
+    }
+    
+    const dateDisplay = $('date-display');
+    if (dateDisplay) {
+      const closeEnlargedDate = () => {
+        const backdrop = document.querySelector('.date-backdrop');
+        if (dateDisplay.classList.contains('date-enlarged')) {
+          dateDisplay.classList.remove('date-enlarged');
+        }
+        if (backdrop) {
+          backdrop.style.opacity = '0';
+          setTimeout(() => backdrop.remove(), 400);
+        }
+      };
+      const openEnlargedDate = () => {
+        if (!dateDisplay.classList.contains('date-enlarged')) {
+          dateDisplay.classList.add('date-enlarged');
+          const backdrop = document.createElement('div');
+          backdrop.className = 'date-backdrop';
+          backdrop.addEventListener('click', closeEnlargedDate);
+          document.body.appendChild(backdrop);
+          setTimeout(() => backdrop.style.opacity = '1', 10);
+        }
+      };
+      dateDisplay.addEventListener('click', () => {
+        if (dateDisplay.classList.contains('date-enlarged')) {
+          closeEnlargedDate();
+        } else {
+          openEnlargedDate();
+        }
+      });
+    }
+    
+    // ... (keep all the other functions like toolStyles, hotkeysEnabled, dragCounter, etc.) ...
+    
+    console.log('script.js: About to attach button listeners...'); // <-- DEBUG MESSAGE 2
+    $('addButton').onclick = () => {
+        const newWin = createWin();
+        setActiveWindow(newWin);
+        showOverlay('+');
+        layoutState.activeLayout = null;
+        localStorage.removeItem('ttx_lastLayout');
+    };
+
+    // ... (rest of the file remains unchanged) ...
 });
