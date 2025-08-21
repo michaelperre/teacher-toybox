@@ -1,0 +1,85 @@
+/**
+ * info-window.css
+ * © 2025 TeacherToybox.com. All Rights Reserved.
+ *
+ * Styles exclusively for the "Information" window.
+ */
+
+.info-language-selector-wrap {
+    display: none;
+}
+.info-window-logo {
+    display: block;
+    height: 72px;
+    width: auto;
+    margin: 10px auto 24px auto;
+}
+.info-content-wrapper {
+    padding: 2vh 5vw; /* Use viewport height for vertical padding */
+    height: 100%;
+    overflow-y: hidden; /* Remove scrollbar */
+    font-size: clamp(10px, 1.6vh, 18px); /* Dynamic font size based on viewport height */
+    opacity: 0;
+}
+.info-content-wrapper.info-fade-in {
+    animation: fadeIn 0.5s ease-in 1s forwards;
+}
+.info-content-wrapper h2 {
+    color: var(--text-primary);
+    margin-bottom: 0.5em;
+    font-size: 1.8em; /* Scale relative to the new base font size */
+}
+.info-content-wrapper h3 {
+    color: var(--accent-color);
+    margin-top: 1.5em; /* Tighter margin */
+    margin-bottom: 0.5em; /* Tighter margin */
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.3em;
+    font-size: 1.4em; /* Scale relative to the new base font size */
+}
+.info-content-wrapper p {
+    color: var(--text-secondary);
+    line-height: 1.6; /* Tighter line-height */
+    margin-bottom: 0.8em; /* Tighter margin */
+}
+.info-content-wrapper ul {
+    list-style: none;
+    padding-left: 0;
+}
+.info-content-wrapper li {
+    margin-bottom: 0.8em; /* Tighter margin */
+    line-height: 1.5; /* Tighter line-height */
+    color: var(--text-secondary);
+    padding-left: 22px;
+    position: relative;
+}
+.info-content-wrapper li::before {
+    content: '✓';
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+.info-content-wrapper li strong {
+    color: var(--text-primary);
+}
+.info-content-wrapper::-webkit-scrollbar { display: none; }
+
+/* --- RTL Language Support for Info Window --- */
+html[lang="ar"] .info-content-wrapper,
+html[lang="fa"] .info-content-wrapper {
+    text-align: right;
+    direction: rtl;
+}
+
+html[lang="ar"] .info-content-wrapper li,
+html[lang="fa"] .info-content-wrapper li {
+    padding-left: 0;
+    padding-right: 22px;
+}
+
+html[lang="ar"] .info-content-wrapper li::before,
+html[lang="fa"] .info-content-wrapper li::before {
+    left: auto;
+    right: 0;
+}

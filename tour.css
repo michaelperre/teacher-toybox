@@ -1,0 +1,78 @@
+/*
+ * tour.css
+ * Styles for the guided walkthrough tour.
+ * © 2025 TeacherToybox.com. All Rights Reserved.
+ */
+
+:root {
+    /* This variable is now used by the highlight's box-shadow to create the dimming effect */
+    --tour-overlay-color: rgba(0, 0, 0, 0.6);
+    --tour-tooltip-bg: #333;
+    --tour-tooltip-text: #f5f5f5;
+    --tour-highlight-color: var(--accent-color, #3862C4);
+}
+
+/* The .tour-backdrop element has been removed */
+
+.tour-highlight-element {
+    position: fixed;
+    z-index: 30001;
+    /* This box-shadow creates the overlay effect by drawing a huge shadow around the element. The inner glow has been removed for a sharper look. */
+    box-shadow: 0 0 0 9999px var(--tour-overlay-color);
+    border-radius: 8px;
+    transition: top 0.4s ease-in-out, left 0.4s ease-in-out, width 0.4s ease-in-out, height 0.4s ease-in-out;
+    pointer-events: none;
+}
+
+.tour-tooltip {
+    position: fixed;
+    z-index: 30002;
+    background-color: var(--tour-tooltip-bg);
+    color: var(--tour-tooltip-text);
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    max-width: 320px;
+    font-size: 15px;
+    line-height: 1.6;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tour-tooltip h4 {
+    margin: 0 0 8px 0;
+    color: var(--accent-hover, #58a6ff);
+    font-size: 16px;
+}
+
+.tour-tooltip p {
+    margin: 0 0 15px 0;
+}
+
+.tour-tooltip-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tour-progress {
+    font-size: 12px;
+    color: var(--text-secondary, #aeb0b4);
+}
+
+.tour-next-btn {
+    background-color: var(--tour-highlight-color);
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.tour-next-btn:hover {
+    background-color: var(--accent-hover, #58a6ff);
+}

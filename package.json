@@ -1,0 +1,16 @@
+{
+  "name": "teacher-fix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "auth0": "^4.28.0",
+    "stripe": "^18.4.0"
+  }
+}
