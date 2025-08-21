@@ -255,7 +255,7 @@ body.light-mode.no-grid {
     border: 2px solid var(--accent-color);
     z-index: 1001;
 }
-.floating.hidden {
+.hidden {
     opacity: 0;
     pointer-events: none;
 }
@@ -1447,6 +1447,7 @@ body.light-mode #feedback-comment {
 }
 
 /* --- Premium Login Button Style --- */
+/* UPDATED SELECTOR */
 .btn.premium-login-style {
     background-color: #FFD700; /* Gold */
     color: #2c2c2e; /* Dark grey for icon contrast */
