@@ -26,6 +26,20 @@ const initializeAuth = async () => {
   await configureClient();
   await handleRedirectCallback();
   await updateUI();
+
+  // NEW: Add the event listener here to ensure auth0Client exists
+  const authButton = document.getElementById('authButton');
+  if (authButton) {
+    authButton.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const isAuthenticated = await auth0Client.isAuthenticated();
+      if (isAuthenticated) {
+        logout(); // If logged in, log out
+      } else {
+        login(); // If not logged in, log in
+      }
+    });
+  }
 };
 
 // 4. Update UI based on authentication state
@@ -43,7 +57,7 @@ const updateUI = async () => {
       // --- Logged In State ---
       authButton.title = "Log Out";
       authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
-      authButton.classList.remove('premium-login-style'); // Remove gold style
+      authButton.classList.remove('premium-login-style');
       
       const user = await auth0Client.getUser();
       if (user && userProfileElement) {
@@ -63,7 +77,7 @@ const updateUI = async () => {
       // --- Logged Out State ---
       authButton.title = "Premium Login";
       authButton.innerHTML = `<i class="fas fa-crown"></i>`;
-      authButton.classList.add('premium-login-style'); // Add gold style
+      authButton.classList.add('premium-login-style');
 
       if (userProfileElement) userProfileElement.style.display = 'none';
     }
