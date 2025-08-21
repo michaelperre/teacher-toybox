@@ -1447,11 +1447,11 @@ body.light-mode #feedback-comment {
 }
 
 /* --- Premium Login Button Style --- */
-#loginButton {
+.btn.premium-login-style {
     background-color: #FFD700; /* Gold */
     color: #2c2c2e; /* Dark grey for icon contrast */
 }
 
-#loginButton:hover {
+.btn.premium-login-style:hover {
     background-color: #f0c400; /* Slightly darker gold for hover */
 }
