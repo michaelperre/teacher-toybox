@@ -1,0 +1,6 @@
+# Allow all web crawlers to access the entire site.
+User-agent: *
+Allow: /
+
+# Point search engines to the sitemap for better indexing.
+Sitemap: https://www.teachertoybox.com/sitemap.xml
