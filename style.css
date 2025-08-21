@@ -1447,7 +1447,6 @@ body.light-mode #feedback-comment {
 }
 
 /* --- Premium Login Button Style --- */
-/* UPDATED SELECTOR */
 .btn.premium-login-style {
     background-color: #FFD700; /* Gold */
     color: #2c2c2e; /* Dark grey for icon contrast */
