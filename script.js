@@ -2572,7 +2572,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })();
     });
 
-    // *** MODIFIED: Add premium checks for sidebar buttons ***
     const premiumSidebarButtons = ['bellButton', 'shhButton', 'laserButton', 'colorButton', 'magicColorButton', 'themePaletteButton'];
     premiumSidebarButtons.forEach(id => {
         const button = $(id);
