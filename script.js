@@ -1,193 +1,87 @@
-/**
- * script.js
- * © 2025 TeacherToybox.com. All Rights Reserved.
- */
+// auth.js
+let auth0Client = null;
 
-// Core bootstrap & shared state
-const global = window;
-global.TT = global.TT || {};
-global.TT.isAuthenticated = false;
-global.TT.isPremium = false;
-
-global.TT.updateDateDisplay = function(lang) {
-    const dateDisplay = document.getElementById('date-display');
-    if (!dateDisplay) return;
-    const today = new Date();
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    const formatter = new Intl.DateTimeFormat(lang, options);
-    dateDisplay.textContent = formatter.format(today);
+// 1. Configure the Auth0 Client
+const configureClient = async () => {
+  auth0Client = await auth0.createAuth0Client({
+    domain: "teachertoybox.uk.auth0.com",
+    clientId: "olhwjFTXOIx1mxJB2cn2BHVb1Vny1jZa",
+    authorizationParams: {
+      redirect_uri: window.location.origin
+    }
+  });
 };
 
-document.addEventListener('DOMContentLoaded', () => {
-    const $ = id => document.getElementById(id);
+// 2. Handle the redirect after login
+const handleRedirectCallback = async () => {
+  const params = new URLSearchParams(window.location.search);
+  if (params.has("code") && params.has("state")) {
+    await auth0Client.handleRedirectCallback();
+    window.history.replaceState({}, document.title, "/");
+  }
+};
 
-    // --- All functions must be defined before they are used by listeners ---
+// 3. Main function to initialize authentication
+const initializeAuth = async () => {
+  await configureClient();
+  await handleRedirectCallback();
+  await updateUI();
+};
 
-    let hotkeysEnabled = true,
-        laserOn = false;
-    let layoutState = { activeLayout: null, isVisible: true };
-    const gridSizePx = 20;
-    const defaultAccentColor = getComputedStyle(document.documentElement).getPropertyValue('--accent-color').trim();
-    let dragCounter = 0;
-    
-    // --- All Helper and Tool Activation Functions Defined First ---
+// 4. Update UI based on authentication state
+const updateUI = async () => {
+  const isAuthenticated = await auth0Client.isAuthenticated();
+  const authButton = document.getElementById("authButton");
+  const userProfileElement = document.getElementById("userProfile");
 
-    function showOverlay(txt) {
-        const ov = document.createElement('div');
-        ov.className = 'overlay-number';
-        ov.textContent = txt;
-        document.body.appendChild(ov);
-        setTimeout(() => { ov.style.opacity = 0; ov.style.transform = 'translate(-50%, -50%) scale(1.5)'; }, 10);
-        setTimeout(() => ov.remove(), 2000);
+  // Reset premium status
+  window.TT.isPremium = false;
+  document.body.classList.remove('is-premium');
+
+  if (authButton) {
+    if (isAuthenticated) {
+      // --- Logged In State ---
+      authButton.title = "Log Out";
+      authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
+      authButton.classList.remove('premium-login-style'); // Remove gold style
+      
+      const user = await auth0Client.getUser();
+      if (user && userProfileElement) {
+          userProfileElement.innerHTML = `<img src="${user.picture}" alt="${user.name}" style="width: 40px; height: 40px; border-radius: 50%;">`;
+          userProfileElement.style.display = 'flex';
+      }
+
+      // Check for Premium Role
+      const claims = await auth0Client.getIdTokenClaims();
+      const userRoles = claims['http://teachertoybox.com/roles'] || [];
+      if (userRoles.includes('Premium')) {
+          window.TT.isPremium = true;
+          document.body.classList.add('is-premium');
+      }
+
+    } else {
+      // --- Logged Out State ---
+      authButton.title = "Premium Login";
+      authButton.innerHTML = `<i class="fas fa-crown"></i>`;
+      authButton.classList.add('premium-login-style'); // Add gold style
+
+      if (userProfileElement) userProfileElement.style.display = 'none';
     }
-    
-    // ... (Your full function definitions will be placed here)
-    function createWin() {
-        // This is a placeholder for your full createWin function
-        const win = document.createElement('div');
-        win.className = 'floating';
-        const i = document.querySelectorAll('.floating').length;
-        const currentSidebarWidth = getSidebarWidth();
-        win.style.left = `${30 * i}px`;
-        win.style.top = `${30 * i}px`;
-        win.style.width = `${(window.innerWidth - currentSidebarWidth) / 2}px`;
-        win.style.height = `${window.innerHeight / 2}px`;
-        
-        // ... (The rest of your full createWin function, including creating the drag bar, win-body, tool sidebar, etc.)
-        
-        document.body.appendChild(win);
-        return win;
-    }
+  }
+};
 
-    function setActiveWindow(win) {
-        document.querySelectorAll('.floating.active-window').forEach(aw => {
-            aw.classList.remove('active-window');
-            aw.style.zIndex = 1000;
-        });
-        if (win) {
-            win.classList.add('active-window');
-            win.style.zIndex = 1001;
-        }
-    }
-    
-    // ... all other of your original functions like activateDraw, activateTimer, etc. ...
+// 5. Login and Logout functions (made globally accessible)
+window.login = async () => {
+  await auth0Client.loginWithRedirect();
+};
 
-    // --- Splash Screen ---
-    const _splash = document.getElementById('splash-screen');
-    if (_splash) {
-        setTimeout(() => {
-            _splash.style.opacity = '0';
-            setTimeout(() => _splash.remove(), 500);
-        }, 1000);
+window.logout = () => {
+  auth0Client.logout({
+    logoutParams: {
+      returnTo: window.location.origin
     }
+  });
+};
 
-    // --- Tooltip Logic ---
-    const premiumTooltip = document.createElement('div');
-    premiumTooltip.id = 'premium-tooltip';
-    document.body.appendChild(premiumTooltip);
-    let tooltipTimeout;
-    const showTooltip = (targetElement, message) => {
-        clearTimeout(tooltipTimeout);
-        const rect = targetElement.getBoundingClientRect();
-        premiumTooltip.innerHTML = message;
-        premiumTooltip.style.top = `${rect.top + (rect.height / 2) - (premiumTooltip.offsetHeight / 2)}px`;
-        premiumTooltip.style.left = `${rect.left - premiumTooltip.offsetWidth - 10}px`;
-        premiumTooltip.classList.add('visible');
-        const icon = targetElement.querySelector('i');
-        if (icon) {
-            icon.classList.add('halo');
-            setTimeout(() => icon.classList.remove('halo'), 2000);
-        }
-        tooltipTimeout = setTimeout(() => {
-            premiumTooltip.classList.remove('visible');
-        }, 2000);
-    };
-
-    // --- Premium Modal Logic ---
-    const premiumModal = $('premium-modal');
-    const premiumBackdrop = $('premium-backdrop');
-    const closePremiumBtn = $('close-premium-modal-btn');
-    const goPremiumBtn = $('go-premium-btn');
-    const openPremiumModal = () => {
-        if (premiumBackdrop && premiumModal) {
-            premiumBackdrop.classList.remove('hidden');
-            premiumModal.classList.remove('hidden');
-        }
-    };
-    const closePremiumModal = () => {
-        if (premiumBackdrop && premiumModal) {
-            premiumBackdrop.classList.add('hidden');
-            premiumModal.classList.add('hidden');
-        }
-    };
-    if (premiumBackdrop) premiumBackdrop.onclick = closePremiumModal;
-    if (closePremiumBtn) closePremiumBtn.onclick = closePremiumModal;
-    if (goPremiumBtn) {
-        goPremiumBtn.onclick = async () => {
-            if (!await auth0Client.isAuthenticated()) {
-                login();
-                return;
-            }
-            const user = await auth0Client.getUser();
-            const stripe = Stripe('YOUR_STRIPE_PUBLISHABLE_KEY'); 
-            const priceId = 'price_1RyXtBFCA6YfGQjz7BUMxTQo';
-            try {
-                const response = await fetch('/api/create-checkout-session', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ userId: user.sub, priceId: priceId }),
-                });
-                if (!response.ok) {
-                    throw new Error('Failed to create checkout session.');
-                }
-                const { sessionId } = await response.json();
-                await stripe.redirectToCheckout({ sessionId });
-            } catch (error) {
-                console.error("Error redirecting to checkout:", error);
-                alert("Could not connect to the payment service. Please try again later.");
-            }
-        };
-    }
-    
-    // --- Event Listeners and Initialization Code ---
-    // This part runs last, after all functions above have been defined.
-    const themeToggle = document.getElementById('theme-toggle');
-    if (themeToggle) {
-        themeToggle.addEventListener('change', () => {
-            document.body.classList.toggle('light-mode', themeToggle.checked);
-            localStorage.setItem('ttx_theme', themeToggle.checked ? 'light' : 'dark');
-        });
-    }
-
-    $('addButton').onclick = () => {
-        const newWin = createWin();
-        setActiveWindow(newWin);
-        showOverlay('+');
-        layoutState.activeLayout = null;
-        localStorage.removeItem('ttx_lastLayout');
-    };
-    
-    // ... (All other original button listeners and setup code go here) ...
-    
-    const premiumSidebarButtons = ['bellButton', 'shhButton', 'laserButton', 'colorButton', 'magicColorButton', 'themePaletteButton'];
-    premiumSidebarButtons.forEach(id => {
-        const button = $(id);
-        if (button) {
-            button.classList.add('premium-feature');
-            const originalOnclick = button.onclick;
-            button.onclick = (e) => {
-                if (!window.TT.isPremium) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    if (window.TT.isAuthenticated) {
-                        openPremiumModal();
-                    } else {
-                        showTooltip(button, "<i class='fas fa-crown'></i> Upgrade to Premium to unlock this function");
-                    }
-                    return;
-                }
-                if (originalOnclick) originalOnclick.call(button, e);
-            };
-        }
-    });
-});
+// Initialize Auth0 when the page loads
+window.addEventListener('load', initializeAuth);

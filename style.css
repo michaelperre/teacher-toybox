@@ -119,6 +119,8 @@ body.light-mode.no-grid {
 .btn:active { transform: scale(0.95); }
 #laserButton.active { background: var(--danger-color); }
 
+/* --- Styles for #clockButton removed to use default .btn theme --- */
+
 #clockButton.active {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
@@ -1444,103 +1446,8 @@ body.light-mode #feedback-comment {
     color: var(--text-primary) !important;
 }
 
-/* --- Premium Feature and Modal Styles --- */
-.btn.premium-feature::after,
-.win-sidebar .icon-btn.premium-feature::after {
-    content: '👑';
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    font-size: 14px;
-    line-height: 1;
-    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.5));
-}
-
-.win-sidebar .icon-btn.premium-feature::after {
-    font-size: 10px;
-    top: -2px;
-    right: -2px;
-}
-
-body:not(.is-premium) .premium-feature {
-    opacity: 0.7;
-    cursor: not-allowed;
-}
-
-#premium-backdrop {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    z-index: 26000;
-    transition: opacity 0.3s ease;
-}
-#premium-backdrop.hidden, #premium-modal.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-#premium-modal {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 420px;
-    background: var(--sidebar-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    z-index: 26001;
-    padding: 24px;
-    color: var(--text-primary);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-#premium-modal h3 {
-    text-align: center;
-    margin: 0 0 12px;
-    font-size: 1.6rem;
-    color: #FFD700; /* Gold */
-}
-#premium-modal p {
-    text-align: center;
-    color: var(--text-secondary);
-    margin: 0 0 20px;
-}
-.premium-features-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 24px;
-    text-align: left;
-}
-.premium-features-list li {
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.premium-features-list .fa-check-circle {
-    color: var(--success-color);
-}
-#close-premium-modal-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 28px;
-    color: var(--text-secondary);
-    cursor: pointer;
-    line-height: 1;
-}
-#go-premium-btn {
-    width: 100%;
-    background-color: var(--success-color);
-}
-#go-premium-btn:hover {
-    background-color: var(--success-hover);
-}
-
 /* --- Premium Login Button Style --- */
+/* UPDATED SELECTOR */
 .btn.premium-login-style {
     background-color: #FFD700; /* Gold */
     color: #2c2c2e; /* Dark grey for icon contrast */
@@ -1548,46 +1455,4 @@ body:not(.is-premium) .premium-feature {
 
 .btn.premium-login-style:hover {
     background-color: #f0c400; /* Slightly darker gold for hover */
-}
-
-/* --- Premium Feature Tooltip --- */
-#premium-tooltip {
-    position: fixed;
-    z-index: 10002;
-    background-color: var(--sidebar-bg);
-    color: var(--text-primary);
-    padding: 8px 14px;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: 500;
-    white-space: nowrap;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    border: 1px solid var(--border-color);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    transform: scale(0.8);
-}
-
-#premium-tooltip.visible {
-    opacity: 1;
-    transform: scale(1);
-}
-
-/* --- Halo Animation for Premium Tooltip --- */
-@keyframes halo-effect {
-  0% {
-    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7);
-  }
-  70% {
-    box-shadow: 0 0 20px 10px rgba(255, 215, 0, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
-  }
-}
-
-.halo {
-  border-radius: 50%; /* Makes the shadow circular */
-  animation: halo-effect 2s ease-out;
 }
