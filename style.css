@@ -119,8 +119,6 @@ body.light-mode.no-grid {
 .btn:active { transform: scale(0.95); }
 #laserButton.active { background: var(--danger-color); }
 
-/* --- Styles for #clockButton removed to use default .btn theme --- */
-
 #clockButton.active {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
@@ -1446,8 +1444,103 @@ body.light-mode #feedback-comment {
     color: var(--text-primary) !important;
 }
 
+/* --- Premium Feature and Modal Styles --- */
+.btn.premium-feature::after,
+.win-sidebar .icon-btn.premium-feature::after {
+    content: '👑';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 14px;
+    line-height: 1;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.5));
+}
+
+.win-sidebar .icon-btn.premium-feature::after {
+    font-size: 10px;
+    top: -2px;
+    right: -2px;
+}
+
+body:not(.is-premium) .premium-feature {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+#premium-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 26000;
+    transition: opacity 0.3s ease;
+}
+#premium-backdrop.hidden, #premium-modal.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+#premium-modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 420px;
+    background: var(--sidebar-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    z-index: 26001;
+    padding: 24px;
+    color: var(--text-primary);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#premium-modal h3 {
+    text-align: center;
+    margin: 0 0 12px;
+    font-size: 1.6rem;
+    color: #FFD700; /* Gold */
+}
+#premium-modal p {
+    text-align: center;
+    color: var(--text-secondary);
+    margin: 0 0 20px;
+}
+.premium-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+    text-align: left;
+}
+.premium-features-list li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.premium-features-list .fa-check-circle {
+    color: var(--success-color);
+}
+#close-premium-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    line-height: 1;
+}
+#go-premium-btn {
+    width: 100%;
+    background-color: var(--success-color);
+}
+#go-premium-btn:hover {
+    background-color: var(--success-hover);
+}
+
 /* --- Premium Login Button Style --- */
-/* UPDATED SELECTOR */
 .btn.premium-login-style {
     background-color: #FFD700; /* Gold */
     color: #2c2c2e; /* Dark grey for icon contrast */
@@ -1455,4 +1548,74 @@ body.light-mode #feedback-comment {
 
 .btn.premium-login-style:hover {
     background-color: #f0c400; /* Slightly darker gold for hover */
+}
+
+/* --- NEW: Upgrade Button Style --- */
+#upgradeButton {
+    background-color: #FFD700; /* Gold */
+    color: #2c2c2e; /* Dark grey for icon contrast */
+    display: none; /* Hidden by default, shown by auth.js */
+}
+#upgradeButton:hover {
+    background-color: #f0c400; /* Slightly darker gold for hover */
+}
+
+/* --- NEW: Upgrade Panel Styles (similar to Feedback Panel) --- */
+#upgrade-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 25000;
+    transition: opacity 0.3s ease;
+}
+#upgrade-backdrop.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+#upgrade-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    background: var(--sidebar-bg);
+    border-left: 1px solid var(--border-color);
+    box-shadow: -10px 0 30px rgba(0,0,0,0.3);
+    z-index: 25001;
+    padding: 24px;
+    color: var(--text-primary);
+    transform: translateX(100%);
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#upgrade-panel.open {
+    transform: translateX(0);
+}
+#upgrade-panel h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #FFD700; /* Gold */
+}
+#upgrade-panel p {
+    margin: 0 0 8px;
+    color: var(--text-secondary);
+}
+#close-upgrade-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    line-height: 1;
+}
+#panel-upgrade-btn {
+    margin-top: auto; /* Pushes to the bottom */
 }
