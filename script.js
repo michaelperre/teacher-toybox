@@ -1,9 +1,6 @@
 /**
  * script.js
  * © 2025 TeacherToybox.com. All Rights Reserved.
- *
- * This script is the intellectual property of TeacherToybox.com.
- * Unauthorized copying or distribution is strictly prohibited.
  */
 
 // Core bootstrap & shared state
@@ -2532,6 +2529,12 @@ document.addEventListener('DOMContentLoaded', () => {
             hotkeysEnabled = true;
         }
     
+        // Check if the click is on the background or title, but NOT on the language picker.
+        const isClickOnLangPicker = e.target.closest('#lang-picker-wrap');
+        if (isClickOnLangPicker) {
+            return; // Exit the function early if the language picker was clicked.
+        }
+
         if (e.target === document.body || e.target.closest('#site-title')) {
             document.body.classList.toggle('no-grid');
     
