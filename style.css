@@ -817,7 +817,10 @@ body.is-dragging .drop-zone {
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
     transition: all 0.2s ease;
-    /* Explicit width and height are removed to inherit the square shape from the .btn class */
+    
+    /* ADDED: Explicitly set width and height to the responsive variable */
+    width: var(--btn-size);
+    height: var(--btn-size);
 }
 
 #tabletLinkButton i {
