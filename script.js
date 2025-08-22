@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const $ = id => document.getElementById(id);
 
     // *** Premium Modal Logic for tool usage ***
+    // This logic for the modal is no longer used, as we are now using a slide-out panel.
     const premiumModal = $('premium-modal');
     const premiumBackdrop = $('premium-backdrop');
     const closePremiumBtn = $('close-premium-modal-btn');
