@@ -1405,7 +1405,8 @@ body.light-mode .calc-btn.ac:hover {
 body.light-mode .die {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
-body.light-mode #feedback-panel {
+body.light-mode #feedback-panel,
+body.light-mode #upgrade-panel {
     background: var(--sidebar-bg);
 }
 body.light-mode #feedback-comment {
@@ -1505,13 +1506,14 @@ body:not(.is-premium) .premium-feature {
     box-shadow: 0 3px 7px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.5);
 }
 
-/* --- Improved Upgrade Panel Styles (Corrected Alignment) --- */
+/* --- Improved Upgrade Panel Styles (Corrected Alignment & Scrolling) --- */
 #upgrade-panel {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    padding: 40px 24px;
+    padding: 24px;
+    padding-top: 50px;
     box-sizing: border-box;
     position: fixed;
     top: 0;
@@ -1534,49 +1536,54 @@ body:not(.is-premium) .premium-feature {
 #upgrade-panel .upgrade-panel-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Horizontally center all content */
-    gap: 16px;
+    align-items: center;
+    gap: 12px;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding-right: 15px;
+    margin-right: -15px;
 }
 
 #upgrade-panel h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
-    font-size: 1.8rem;
+    gap: 10px;
+    font-size: 1.6rem;
     font-weight: 700;
     margin: 0;
     color: #FFD700;
 }
 
 #upgrade-panel h3 .fa-crown {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 #upgrade-panel p {
     max-width: 300px;
-    line-height: 1.6;
+    line-height: 1.5;
     color: var(--text-secondary);
     margin: 0;
+    font-size: 0.95rem;
 }
 
 .premium-features-list {
     list-style: none;
     padding: 0;
-    margin: 16px 0; /* Adjusted margin */
+    margin: 12px 0;
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
     width: 100%;
-    max-width: 300px; /* Ensure list width matches paragraph */
+    max-width: 300px;
 }
 
 .premium-features-list li {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .premium-features-list li strong {
@@ -1585,21 +1592,22 @@ body:not(.is-premium) .premium-feature {
 
 .premium-features-list .fa-check-circle {
     color: var(--success-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     flex-shrink: 0;
 }
 
 #panel-upgrade-btn {
     background-color: var(--success-color);
-    padding: 14px 24px;
-    font-size: 1.1rem;
+    padding: 12px 24px;
+    font-size: 1rem;
     font-weight: 700;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     transition: all 0.2s ease;
     width: fit-content;
-    align-self: center; /* Center the button within the main flex container */
+    align-self: center;
     margin-top: 24px;
+    flex-shrink: 0;
 }
 
 #panel-upgrade-btn:hover {
