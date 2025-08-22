@@ -842,11 +842,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearInterval(win.activeInterval);
                 win.activeInterval = null;
                 elapsedTime = Date.now() - startTime; 
-                startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
+                startStopBtn.innerHTML = '<i class="fas fa-pause"></i>'; 
             } else { 
                 startTime = Date.now() - elapsedTime; 
                 win.activeInterval = setInterval(() => { elapsedTime = Date.now() - startTime; formatTime(); }, 10); 
-                startStopBtn.innerHTML = '<i class="fas fa-pause"></i>'; 
+                startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
             } 
             isRunning = !isRunning; 
         };
