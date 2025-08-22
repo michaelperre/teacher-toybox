@@ -1489,13 +1489,20 @@ body:not(.is-premium) .premium-feature {
     cursor: not-allowed;
 }
 
+/* --- Gold Upgrade Button Style --- */
 #upgradeButton {
-    background-color: #FFD700;
-    color: #2c2c2e;
-    display: none;
+    /* A vibrant gold gradient for a more premium feel */
+    background: linear-gradient(to bottom, #FEEA91, #F9AB00);
+    border: 1px solid #C47E00;
+    color: #4D3200; /* Darker text/icon for better contrast */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.4);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    display: none; /* This is overridden by auth.js when the user is not premium */
 }
+
 #upgradeButton:hover {
-    background-color: #f0c400;
+    background: linear-gradient(to bottom, #FFEF9E, #F9B600);
+    box-shadow: 0 3px 7px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.5);
 }
 
 /* --- Improved Upgrade Panel Styles (Corrected Alignment) --- */
