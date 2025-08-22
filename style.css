@@ -1510,7 +1510,6 @@ body:not(.is-premium) .premium-feature {
 #upgrade-panel {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: center;
     padding: 24px;
     padding-top: 50px;
@@ -1519,7 +1518,7 @@ body:not(.is-premium) .premium-feature {
     top: 0;
     right: 0;
     width: 100%;
-    max-width: 400px;
+    max-width: 450px; /* Increased from 400px */
     height: 100%;
     background: var(--sidebar-bg);
     border-left: 1px solid var(--border-color);
@@ -1560,7 +1559,7 @@ body:not(.is-premium) .premium-feature {
 }
 
 #upgrade-panel p {
-    max-width: 300px;
+    max-width: 350px; /* Increased from 300px */
     line-height: 1.5;
     color: var(--text-secondary);
     margin: 0;
@@ -1576,7 +1575,7 @@ body:not(.is-premium) .premium-feature {
     flex-direction: column;
     gap: 12px;
     width: 100%;
-    max-width: 300px;
+    max-width: 350px; /* Increased from 300px */
 }
 
 .premium-features-list li {
