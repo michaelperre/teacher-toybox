@@ -33,7 +33,6 @@ const updateUI = async () => {
   const isAuthenticated = await auth0Client.isAuthenticated();
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
-  const upgradeButton = document.getElementById("upgradeButton");
 
   // Reset premium status and set authentication status globally
   window.TT.isAuthenticated = isAuthenticated;
@@ -45,8 +44,7 @@ const updateUI = async () => {
       // --- Logged In State ---
       authButton.title = "Log Out";
       authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
-      authButton.classList.remove('premium-login-style');
-      if (upgradeButton) upgradeButton.style.display = 'flex'; // Show upgrade button when logged in
+      authButton.classList.remove('premium-login-style'); // Remove gold style
       
       const user = await auth0Client.getUser();
       if (user && userProfileElement) {
@@ -60,17 +58,15 @@ const updateUI = async () => {
       if (userRoles.includes('Premium')) {
           window.TT.isPremium = true;
           document.body.classList.add('is-premium');
-          if (upgradeButton) upgradeButton.style.display = 'none'; // Hide upgrade button if already premium
       }
 
     } else {
-      // --- Logged Out State (REDESIGNED) ---
-      authButton.title = "Login"; // Tooltip changed to "Login"
-      authButton.innerHTML = `<i class="fas fa-sign-in-alt"></i>`; // Icon changed to standard sign-in
-      authButton.classList.remove('premium-login-style'); // Gold style removed
+      // --- Logged Out State ---
+      authButton.title = "Premium Login";
+      authButton.innerHTML = `<i class="fas fa-crown"></i>`;
+      authButton.classList.add('premium-login-style'); // Add gold style
 
       if (userProfileElement) userProfileElement.style.display = 'none';
-      if (upgradeButton) upgradeButton.style.display = 'none'; // Hide upgrade button when logged out
     }
   }
 };
