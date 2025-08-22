@@ -1537,8 +1537,12 @@ body:not(.is-premium) .premium-feature {
     gap: 12px;
     flex: 1 1 auto;
     overflow-y: auto;
-    padding-right: 15px;
-    margin-right: -15px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#upgrade-panel .upgrade-panel-content::-webkit-scrollbar {
+    display: none;
 }
 
 #upgrade-panel h3 {
@@ -1546,21 +1550,24 @@ body:not(.is-premium) .premium-feature {
     flex-direction: row;
     align-items: center;
     gap: 12px;
-    font-size: 1.6rem;
+    font-size: clamp(1.4rem, 4vw, 1.6rem);
     font-weight: 700;
-    margin: 0;
+    margin: 0 0 8px 0;
     color: #FFD700;
+    align-self: center;
 }
 
 #upgrade-panel h3 .fa-crown {
-    font-size: 1.8rem;
+    font-size: clamp(1.6rem, 5vw, 1.8rem);
 }
 
 #upgrade-panel p {
     line-height: 1.5;
     color: var(--text-secondary);
     margin: 0;
-    font-size: 0.95rem;
+    font-size: clamp(0.85rem, 2.5vw, 0.95rem);
+    text-align: center;
+    align-self: center;
 }
 
 .premium-features-table {
@@ -1599,13 +1606,13 @@ body:not(.is-premium) .premium-feature {
     font-weight: 700;
     color: var(--text-primary);
     padding-right: 12px;
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 2.2vw, 0.9rem);
     width: 30%;
 }
 
 /* Column 3: The Description */
 .premium-features-table td:nth-child(3) {
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 2.2vw, 0.9rem);
     color: var(--text-secondary);
     width: 100%;
 }
@@ -1619,8 +1626,8 @@ body:not(.is-premium) .premium-feature {
 
 #panel-upgrade-btn {
     background-color: var(--success-color);
-    padding: 24px 24px;
-    font-size: 1.1rem;
+    padding: clamp(16px, 3vh, 24px) clamp(20px, 5vw, 24px);
+    font-size: clamp(1rem, 3vw, 1.1rem);
     font-weight: 700;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
