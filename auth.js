@@ -39,14 +39,14 @@ const updateUI = async () => {
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
   document.body.classList.remove('is-premium');
-
+  
   if (authButton) {
     if (isAuthenticated) {
       // --- Logged In State ---
       authButton.title = "Log Out";
       authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
-      authButton.classList.remove('premium-login-style'); // Remove gold style
-      
+      authButton.classList.remove('premium-login-style'); // Remove old gold style
+
       const user = await auth0Client.getUser();
       if (user && userProfileElement) {
           userProfileElement.innerHTML = `<img src="${user.picture}" alt="${user.name}" style="width: 40px; height: 40px; border-radius: 50%;">`;
@@ -66,10 +66,9 @@ const updateUI = async () => {
 
     } else {
       // --- Logged Out State ---
-      authButton.title = "Premium Login";
-      authButton.innerHTML = `<i class="fas fa-crown"></i>`;
-      authButton.classList.add('premium-login-style'); // Add gold style
-
+      authButton.title = "Log In / Sign Up";
+      authButton.innerHTML = `<i class="fas fa-sign-in-alt"></i>`;
+      
       if (userProfileElement) userProfileElement.style.display = 'none';
       if (upgradeButton) upgradeButton.style.display = 'flex';
     }
