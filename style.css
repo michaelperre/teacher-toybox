@@ -193,14 +193,16 @@ body.light-mode.no-grid {
 #extra-tools-container,
 #layout-tools-container,
 #management-tools-container,
-#help-tools-container {
+#help-tools-container,
+#upgrade-tools-container {
     position: relative;
 }
 
 #extra-tools-bar,
 #layout-bar,
 #management-bar,
-#help-bar {
+#help-bar,
+#upgrade-panel {
     position: absolute;
     right: 100%;
     top: 50%;
@@ -223,7 +225,8 @@ body.light-mode.no-grid {
 #extra-tools-bar.open,
 #layout-bar.open,
 #management-bar.open,
-#help-bar.open {
+#help-bar.open,
+#upgrade-panel.open {
     transform: translateY(-50%) translateX(0);
     opacity: 1;
     pointer-events: auto;
@@ -1552,59 +1555,63 @@ body:not(.is-premium) .premium-feature {
 
 /* --- NEW: Upgrade Button Style --- */
 #upgradeButton {
-    background-color: #FFD700; /* Gold */
-    color: #2c2c2e; /* Dark grey for icon contrast */
-    display: none; /* Hidden by default, shown by auth.js */
+    background-color: #FFD700;
+    color: #2c2c2e;
+    display: none;
+    /* This will be shown/hidden by auth.js */
 }
 #upgradeButton:hover {
-    background-color: #f0c400; /* Slightly darker gold for hover */
+    background-color: #f0c400;
 }
 
-/* --- NEW: Upgrade Panel Styles (similar to Feedback Panel) --- */
-#upgrade-backdrop {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    z-index: 25000;
-    transition: opacity 0.3s ease;
-}
-#upgrade-backdrop.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-#upgrade-panel {
-    position: fixed;
-    top: 0;
-    right: 0;
+/* --- NEW: Upgrade Panel Styles (similar to other slide-out panels) --- */
+#upgrade-tools-container {
+    position: relative;
     width: 100%;
-    max-width: 400px;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#upgrade-panel {
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%) translateX(20px);
+    width: auto;
     background: var(--sidebar-bg);
-    border-left: 1px solid var(--border-color);
-    box-shadow: -10px 0 30px rgba(0,0,0,0.3);
-    z-index: 25001;
-    padding: 24px;
-    color: var(--text-primary);
-    transform: translateX(100%);
-    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 1px solid var(--border-color);
+    border-right: none;
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 8px 0 0 8px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    z-index: 2001;
+    color: var(--text-primary);
+    max-width: 300px;
 }
 #upgrade-panel.open {
-    transform: translateX(0);
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
 }
+
 #upgrade-panel h3 {
     margin: 0;
     font-size: 1.5rem;
-    color: #FFD700; /* Gold */
+    color: #FFD700;
 }
+
 #upgrade-panel p {
     margin: 0 0 8px;
     color: var(--text-secondary);
 }
+
 #close-upgrade-btn {
     position: absolute;
     top: 10px;
@@ -1615,7 +1622,9 @@ body:not(.is-premium) .premium-feature {
     color: var(--text-secondary);
     cursor: pointer;
     line-height: 1;
+    padding: 5px;
 }
 #panel-upgrade-btn {
-    margin-top: auto; /* Pushes to the bottom */
+    width: 100%;
+}
 }
