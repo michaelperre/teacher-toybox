@@ -99,7 +99,9 @@ body.light-mode.no-grid {
 .btn {
     position: relative;
     width: var(--btn-size);
-    height: var(--btn-size);
+    aspect-ratio: 1 / 1; /* This forces the height to match the width */
+    height: auto; /* Unset the fixed height to allow aspect-ratio to work */
+    flex-shrink: 0; /* Prevent buttons from being squished by the flex container */
     background-color: var(--accent-color);
     border: none;
     border-radius: 8px;
@@ -817,8 +819,6 @@ body.is-dragging .drop-zone {
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
     transition: all 0.2s ease;
-    
-    /* ADDED: Explicitly set width and height to the responsive variable */
     width: var(--btn-size);
     height: var(--btn-size);
 }
