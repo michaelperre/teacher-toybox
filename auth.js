@@ -33,6 +33,7 @@ const updateUI = async () => {
   const isAuthenticated = await auth0Client.isAuthenticated();
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
+  const upgradeButton = document.getElementById("upgradeButton");
 
   // Reset premium status and set authentication status globally
   window.TT.isAuthenticated = isAuthenticated;
@@ -58,6 +59,9 @@ const updateUI = async () => {
       if (userRoles.includes('Premium')) {
           window.TT.isPremium = true;
           document.body.classList.add('is-premium');
+          if (upgradeButton) upgradeButton.style.display = 'none';
+      } else {
+          if (upgradeButton) upgradeButton.style.display = 'flex';
       }
 
     } else {
@@ -67,6 +71,7 @@ const updateUI = async () => {
       authButton.classList.add('premium-login-style'); // Add gold style
 
       if (userProfileElement) userProfileElement.style.display = 'none';
+      if (upgradeButton) upgradeButton.style.display = 'flex';
     }
   }
 };

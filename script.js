@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const $ = id => document.getElementById(id);
 
-    // *** NEW: Add Premium Modal Logic ***
+    // *** Premium Modal Logic for tool usage ***
     const premiumModal = $('premium-modal');
     const premiumBackdrop = $('premium-backdrop');
     const closePremiumBtn = $('close-premium-modal-btn');
@@ -1959,7 +1959,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const isLightMode = document.body.classList.contains('light-mode');
                 const bgColor = isLightMode ? '#FFFFFF' : '#333'; 
-
                 tempCtx.fillStyle = bgColor;
                 tempCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
                 
@@ -2116,6 +2115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('layout-bar').classList.remove('open');
         $('management-bar').classList.remove('open');
         $('help-bar').classList.remove('open');
+        $('upgrade-panel').classList.remove('open');
         $('extra-tools-bar').classList.toggle('open');
     };
 
@@ -2125,6 +2125,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('extra-tools-bar').classList.remove('open');
         $('management-bar').classList.remove('open');
         $('help-bar').classList.remove('open');
+        $('upgrade-panel').classList.remove('open');
         $('layout-bar').classList.toggle('open');
     };
 
@@ -2134,6 +2135,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('extra-tools-bar').classList.remove('open');
         $('layout-bar').classList.remove('open');
         $('help-bar').classList.remove('open');
+        $('upgrade-panel').classList.remove('open');
         $('management-bar').classList.toggle('open');
     };
     
@@ -2143,11 +2145,69 @@ document.addEventListener('DOMContentLoaded', () => {
         $('extra-tools-bar').classList.remove('open');
         $('layout-bar').classList.remove('open');
         $('management-bar').classList.remove('open');
+        $('upgrade-panel').classList.remove('open');
         $('help-bar').classList.toggle('open');
     };
+    
+    const upgradeButton = $('upgradeButton');
+    const upgradePanel = $('upgrade-panel');
+
+    if (upgradeButton) {
+        upgradeButton.onclick = (e) => {
+            e.stopPropagation();
+            if (closeInfoIfOpen()) return;
+            $('extra-tools-bar').classList.remove('open');
+            $('layout-bar').classList.remove('open');
+            $('management-bar').classList.remove('open');
+            $('help-bar').classList.remove('open');
+            upgradePanel.classList.toggle('open');
+        };
+    }
+
+    // New logic for the upgrade panel's upgrade button
+    const panelUpgradeBtn = $('panel-upgrade-btn');
+    if (panelUpgradeBtn) {
+        panelUpgradeBtn.onclick = async () => {
+            if (!await auth0Client.isAuthenticated()) {
+                login(); // Prompt login if not authenticated
+                return;
+            }
+
+            const user = await auth0Client.getUser();
+            const stripe = Stripe('YOUR_STRIPE_PUBLISHABLE_KEY'); 
+            const priceId = 'price_1RyXtBFCA6YfGQjz7BUMxTQo';
+
+            try {
+                const response = await fetch('/api/create-checkout-session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ userId: user.sub, priceId: priceId }),
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to create checkout session.');
+                }
+
+                const { sessionId } = await response.json();
+                await stripe.redirectToCheckout({ sessionId });
+            } catch (error) {
+                console.error("Error redirecting to checkout:", error);
+                alert("Could not connect to the payment service. Please try again later.");
+            }
+        };
+    }
+    
+    // Close the upgrade panel
+    const closeUpgradeBtn = $('close-upgrade-btn');
+    if (closeUpgradeBtn) {
+      closeUpgradeBtn.onclick = (e) => {
+        e.stopPropagation();
+        upgradePanel.classList.remove('open');
+      };
+    }
 
     // Auto-retract for sliding toolbars
-    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout;
+    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout, upgradeTimeout;
     const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
         const button = $(buttonId);
         const bar = $(barId);
@@ -2169,6 +2229,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupToolbarAutoRetract('extraToolsButton', 'extra-tools-bar', extraToolsTimeout);
     setupToolbarAutoRetract('managementButton', 'management-bar', managementTimeout);
     setupToolbarAutoRetract('helpButton', 'help-bar', helpTimeout);
+    setupToolbarAutoRetract('upgradeButton', 'upgrade-panel', upgradeTimeout);
     
     // Feedback Panel Logic
     const feedbackButton = $('feedbackButton');
@@ -2386,7 +2447,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'c': 'colorButton', 'm': 'magicColorButton', 'b': 'bellButton', 's': 'shhButton', 
             'p': 'laserButton', '/': 'managementButton', 'r': 'refreshButton', 'x': 'extraToolsButton', 
             'l': 'screenButton', 'k': 'clockButton', 'j': 'shareButton', 'f': 'feedbackButton',
-            'z': 'themePaletteButton', '?': 'helpButton'
+            'z': 'themePaletteButton', '?': 'helpButton', 'u': 'upgradeButton'
         };
 
         const key = e.key.toLowerCase();
@@ -2481,7 +2542,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     document.addEventListener('click', () => {
-        document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
+        document.querySelectorAll('.custom-color-palette, #color-palette, #upgrade-panel').forEach(p => {
             if (p) p.classList.add('hidden');
         });
         
@@ -2571,21 +2632,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })();
     });
-
-    const premiumSidebarButtons = ['bellButton', 'shhButton', 'laserButton', 'colorButton', 'magicColorButton', 'themePaletteButton'];
-    premiumSidebarButtons.forEach(id => {
-        const button = $(id);
-        if (button) {
-            button.classList.add('premium-feature');
-            const originalOnclick = button.onclick;
-            button.onclick = (e) => {
-                if (!window.TT.isPremium) {
-                    e.stopPropagation();
-                    openPremiumModal();
-                    return;
-                }
-                if (originalOnclick) originalOnclick.call(button, e);
-            };
-        }
-    });
+    
+    // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
+    // Old premiumSidebarButtons array removed.
 });
