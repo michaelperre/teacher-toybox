@@ -1600,6 +1600,7 @@ body:not(.is-premium) .premium-feature {
     color: var(--text-primary);
     padding-right: 12px;
     font-size: 0.9rem;
+    width: 30%;
 }
 
 /* Column 3: The Description */
