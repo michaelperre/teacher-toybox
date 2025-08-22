@@ -806,7 +806,7 @@ body.is-dragging .drop-zone {
 /* --- Tablet Edition Button Styling --- */
 #tabletLinkButton {
     display: flex;
-    flex-direction: column; /* Stack icon and text vertically */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2px;
@@ -824,7 +824,7 @@ body.is-dragging .drop-zone {
 }
 
 #tabletLinkButton i {
-    font-size: 1.2em; /* Make the icon slightly larger than the text */
+    font-size: 1.2em;
 }
 
 #tabletLinkButton:hover {
@@ -1265,7 +1265,6 @@ body.light-mode .hand-cap { stroke: var(--text-primary); fill: var(--text-primar
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 0;
 }
 .theme-switch {
     position: relative;
@@ -1503,6 +1502,18 @@ body:not(.is-premium) .premium-feature {
 #upgradeButton:hover {
     background: linear-gradient(to bottom, #FFEF9E, #F9B600);
     box-shadow: 0 3px 7px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.5);
+}
+
+/* --- Invisible Button Container for Theme Switch --- */
+#theme-switch-container {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    cursor: default !important;
+}
+
+#theme-switch-container:active {
+    transform: none !important;
 }
 
 /* --- Improved Upgrade Panel Styles (Left Aligned) --- */
