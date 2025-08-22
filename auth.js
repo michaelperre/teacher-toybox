@@ -45,7 +45,7 @@ const updateUI = async () => {
       // --- Logged In State ---
       authButton.title = "Log Out";
       authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
-
+      
       const user = await auth0Client.getUser();
       if (user && userProfileElement) {
           userProfileElement.innerHTML = `<img src="${user.picture}" alt="${user.name}" style="width: 40px; height: 40px; border-radius: 50%;">`;
