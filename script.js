@@ -2210,7 +2210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Auto-retract for sliding toolbars
-    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout, upgradeTimeout;
+    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout;
     const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
         const button = $(buttonId);
         const bar = $(barId);
@@ -2547,11 +2547,17 @@ document.addEventListener('DOMContentLoaded', () => {
         // Close all slide-out panels if the click is outside
         const isClickInsideAnyBar = e.target.closest('#sidebar-main-controls');
         if (!isClickInsideAnyBar) {
+            // Close simple toolbars
             $('layout-bar').classList.remove('open');
             $('management-bar').classList.remove('open');
             $('extra-tools-bar').classList.remove('open');
             $('help-bar').classList.remove('open');
-            $('upgrade-panel').classList.remove('open');
+
+            // Use the dedicated close functions to also hide the backdrops
+            closeUpgradePanel();
+            closeFeedbackPanel();
+            
+            // Close color palettes
             document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
                 if (p) p.classList.add('hidden');
             });
