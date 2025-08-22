@@ -380,12 +380,6 @@ document.addEventListener('DOMContentLoaded', () => {
             vid.controls = true;
             vid.autoplay = true;
             cont.appendChild(vid);
-        } else if (file.type.startsWith('audio/')) {
-            const aud = document.createElement('audio');
-            aud.src = url;
-            aud.controls = true;
-            aud.autoplay = true;
-            cont.appendChild(aud);
         } else if (file.name.toLowerCase().endsWith('.pptx') || file.name.toLowerCase().endsWith('.ppt')) {
             cont.innerHTML = `
                 <div class="unsupported-file-message">
@@ -842,11 +836,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearInterval(win.activeInterval);
                 win.activeInterval = null;
                 elapsedTime = Date.now() - startTime; 
-                startStopBtn.innerHTML = '<i class="fas fa-pause"></i>'; 
+                startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
             } else { 
                 startTime = Date.now() - elapsedTime; 
                 win.activeInterval = setInterval(() => { elapsedTime = Date.now() - startTime; formatTime(); }, 10); 
-                startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
+                startStopBtn.innerHTML = '<i class="fas fa-pause"></i>'; 
             } 
             isRunning = !isRunning; 
         };
