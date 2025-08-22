@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const closePremiumBtn = $('close-premium-modal-btn');
     const goPremiumBtn = $('go-premium-btn');
 
+    // These functions are no longer used for the modal, but kept for context.
     const openPremiumModal = () => {
         if (premiumBackdrop && premiumModal) {
             premiumBackdrop.classList.remove('hidden');
@@ -65,9 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             premiumModal.classList.add('hidden');
         }
     };
-
-    if (premiumBackdrop) premiumBackdrop.onclick = closePremiumModal;
-    if (closePremiumBtn) closePremiumBtn.onclick = closePremiumModal;
+    // The event listeners for these are now removed.
 
     if (goPremiumBtn) {
         goPremiumBtn.onclick = async () => {
