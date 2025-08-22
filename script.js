@@ -2155,10 +2155,13 @@ document.addEventListener('DOMContentLoaded', () => {
         upgradeButton.onclick = (e) => {
             e.stopPropagation();
             if (closeInfoIfOpen()) return;
+            // Close other panels
             $('extra-tools-bar').classList.remove('open');
             $('layout-bar').classList.remove('open');
             $('management-bar').classList.remove('open');
             $('help-bar').classList.remove('open');
+            
+            // Toggle the upgrade panel
             upgradePanel.classList.toggle('open');
         };
     }
@@ -2423,7 +2426,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (isHalfH) {
                 if (e.key === 'ArrowDown' && onTopHalf) {
                     activeWin.style.top = `${halfH}px`;
-                } else if (e.key === 'ArrowUp' && !onTopHalf) {
+                } else if (e.key === 'ArrowUp' && onBottomHalf) {
                     activeWin.style.top = '0px';
                 }
             } else if (isQuarter) {
@@ -2540,10 +2543,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     
-    document.addEventListener('click', () => {
-        document.querySelectorAll('.custom-color-palette, #color-palette, #upgrade-panel').forEach(p => {
-            if (p) p.classList.add('hidden');
-        });
+    document.addEventListener('click', (e) => {
+        // Close all slide-out panels if the click is outside
+        const isClickInsideAnyBar = e.target.closest('#sidebar-main-controls');
+        if (!isClickInsideAnyBar) {
+            $('layout-bar').classList.remove('open');
+            $('management-bar').classList.remove('open');
+            $('extra-tools-bar').classList.remove('open');
+            $('help-bar').classList.remove('open');
+            $('upgrade-panel').classList.remove('open');
+            document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
+                if (p) p.classList.add('hidden');
+            });
+        }
         
     (function() {
       let demoOpen = false;

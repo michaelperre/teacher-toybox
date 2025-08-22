@@ -45,7 +45,6 @@ const updateUI = async () => {
       // --- Logged In State ---
       authButton.title = "Log Out";
       authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
-      authButton.classList.remove('premium-login-style'); // Remove old gold style
 
       const user = await auth0Client.getUser();
       if (user && userProfileElement) {
