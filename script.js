@@ -2232,7 +2232,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setupToolbarAutoRetract('extraToolsButton', 'extra-tools-bar', extraToolsTimeout);
     setupToolbarAutoRetract('managementButton', 'management-bar', managementTimeout);
     setupToolbarAutoRetract('helpButton', 'help-bar', helpTimeout);
-    setupToolbarAutoRetract('upgradeButton', 'upgrade-panel', upgradeTimeout);
     
     // Feedback Panel Logic
     const feedbackButton = $('feedbackButton');
