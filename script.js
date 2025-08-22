@@ -47,13 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const $ = id => document.getElementById(id);
 
     // *** Premium Modal Logic for tool usage ***
-    // This logic for the modal is no longer used, as we are now using a slide-out panel.
     const premiumModal = $('premium-modal');
     const premiumBackdrop = $('premium-backdrop');
     const closePremiumBtn = $('close-premium-modal-btn');
     const goPremiumBtn = $('go-premium-btn');
 
-    // These functions are no longer used for the modal, but kept for context.
     const openPremiumModal = () => {
         if (premiumBackdrop && premiumModal) {
             premiumBackdrop.classList.remove('hidden');
@@ -67,7 +65,9 @@ document.addEventListener('DOMContentLoaded', () => {
             premiumModal.classList.add('hidden');
         }
     };
-    // The event listeners for these are now removed.
+
+    if (premiumBackdrop) premiumBackdrop.onclick = closePremiumModal;
+    if (closePremiumBtn) closePremiumBtn.onclick = closePremiumModal;
 
     if (goPremiumBtn) {
         goPremiumBtn.onclick = async () => {

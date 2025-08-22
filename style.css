@@ -1210,10 +1210,80 @@ body.is-dragging .drop-zone {
     cursor: not-allowed;
 }
 
+/* --- NEW: Upgrade Button Style --- */
+#upgradeButton {
+    background-color: #FFD700;
+    color: #2c2c2e;
+    display: none;
+}
+#upgradeButton:hover {
+    background-color: #f0c400;
+}
+
+/* --- NEW: Upgrade Panel Styles (similar to Feedback Panel) --- */
+#upgrade-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 25000;
+    transition: opacity 0.3s ease;
+}
+#upgrade-backdrop.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+#upgrade-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    background: var(--sidebar-bg);
+    border-left: 1px solid var(--border-color);
+    box-shadow: -10px 0 30px rgba(0,0,0,0.3);
+    z-index: 25001;
+    padding: 24px;
+    color: var(--text-primary);
+    transform: translateX(100%);
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#upgrade-panel.open {
+    transform: translateX(0);
+}
+#upgrade-panel h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #FFD700;
+}
+#upgrade-panel p {
+    margin: 0 0 8px;
+    color: var(--text-secondary);
+}
+#close-upgrade-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    line-height: 1;
+    padding: 5px;
+}
+#panel-upgrade-btn {
+    margin-top: auto; /* Pushes to the bottom */
+}
 
 /* --- CLEANED UP AND CORRECTED STYLES --- */
 #lang-picker-wrap {
-    position: fixed !important;
+    position: fixed !important; /* Position in the bottom right */
     bottom: 20px !important;
     right: calc(var(--sidebar-width) + 10px) !important;
     margin: 0 !important;
@@ -1385,9 +1455,6 @@ body.light-mode .calculator-display {
     background-color: #ffffff;
     color: var(--text-primary);
 }
-body.light-mode #calc-expression {
-    color: var(--text-secondary);
-}
 body.light-mode .calculator-buttons {
     background-color: #e0e2e7;
 }
@@ -1498,84 +1565,11 @@ body:not(.is-premium) .premium-feature {
     cursor: not-allowed;
 }
 
-#premium-backdrop {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    z-index: 26000;
-    transition: opacity 0.3s ease;
-}
-#premium-backdrop.hidden, #premium-modal.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-#premium-modal {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 420px;
-    background: var(--sidebar-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    z-index: 26001;
-    padding: 24px;
-    color: var(--text-primary);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-#premium-modal h3 {
-    text-align: center;
-    margin: 0 0 12px;
-    font-size: 1.6rem;
-    color: #FFD700; /* Gold */
-}
-#premium-modal p {
-    text-align: center;
-    color: var(--text-secondary);
-    margin: 0 0 20px;
-}
-.premium-features-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 24px;
-    text-align: left;
-}
-.premium-features-list li {
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.premium-features-list .fa-check-circle {
-    color: var(--success-color);
-}
-#close-premium-modal-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 28px;
-    color: var(--text-secondary);
-    cursor: pointer;
-    line-height: 1;
-}
-#go-premium-btn {
-    width: 100%;
-    background-color: var(--success-color);
-}
-#go-premium-btn:hover {
-    background-color: var(--success-hover);
-}
-
 /* --- NEW: Upgrade Button Style --- */
 #upgradeButton {
     background-color: #FFD700;
     color: #2c2c2e;
-    display: none;
+    display: flex;
 }
 #upgradeButton:hover {
     background-color: #f0c400;
@@ -1929,84 +1923,11 @@ body:not(.is-premium) .premium-feature {
     cursor: not-allowed;
 }
 
-#premium-backdrop {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    z-index: 26000;
-    transition: opacity 0.3s ease;
-}
-#premium-backdrop.hidden, #premium-modal.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-#premium-modal {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 420px;
-    background: var(--sidebar-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    z-index: 26001;
-    padding: 24px;
-    color: var(--text-primary);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-#premium-modal h3 {
-    text-align: center;
-    margin: 0 0 12px;
-    font-size: 1.6rem;
-    color: #FFD700; /* Gold */
-}
-#premium-modal p {
-    text-align: center;
-    color: var(--text-secondary);
-    margin: 0 0 20px;
-}
-.premium-features-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 24px;
-    text-align: left;
-}
-.premium-features-list li {
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.premium-features-list .fa-check-circle {
-    color: var(--success-color);
-}
-#close-premium-modal-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 28px;
-    color: var(--text-secondary);
-    cursor: pointer;
-    line-height: 1;
-}
-#go-premium-btn {
-    width: 100%;
-    background-color: var(--success-color);
-}
-#go-premium-btn:hover {
-    background-color: var(--success-hover);
-}
-
 /* --- NEW: Upgrade Button Style --- */
 #upgradeButton {
     background-color: #FFD700;
     color: #2c2c2e;
-    display: flex;
+    display: none;
 }
 #upgradeButton:hover {
     background-color: #f0c400;
