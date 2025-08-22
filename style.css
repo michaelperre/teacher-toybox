@@ -803,27 +803,25 @@ body.is-dragging .drop-zone {
 
 /* --- Tablet Edition Button Styling --- */
 #tabletLinkButton {
-    display: flex !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    align-items: center;
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
     justify-content: center;
-    flex-shrink: 0;
-    text-align: center;
+    align-items: center;
+    gap: 2px;
     text-decoration: none;
-    line-height: 1;
+    line-height: 1.1;
     font-weight: 500;
-    padding: 0 2px;
-    border-radius: 8px;
-    width: 90% !important;
-    height: var(--btn-size) !important;
-    font-size: 11px !important;
-
-    /* Matching mobile.html's .desktop-btn */
+    font-size: 10px;
+    padding: 4px 2px;
     background-color: transparent;
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
     transition: all 0.2s ease;
+    /* Explicit width and height are removed to inherit the square shape from the .btn class */
+}
+
+#tabletLinkButton i {
+    font-size: 1.2em; /* Make the icon slightly larger than the text */
 }
 
 #tabletLinkButton:hover {
