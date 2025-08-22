@@ -2143,26 +2143,40 @@ document.addEventListener('DOMContentLoaded', () => {
         $('help-bar').classList.toggle('open');
     };
     
+    // --- Upgrade Panel Logic ---
     const upgradeButton = $('upgradeButton');
     const upgradePanel = $('upgrade-panel');
-
-    if (upgradeButton) {
-        upgradeButton.onclick = (e) => {
-            e.stopPropagation();
-            if (closeInfoIfOpen()) return;
-            // Close other panels
-            $('extra-tools-bar').classList.remove('open');
-            $('layout-bar').classList.remove('open');
-            $('management-bar').classList.remove('open');
-            $('help-bar').classList.remove('open');
-            
-            // Toggle the upgrade panel
-            upgradePanel.classList.toggle('open');
-        };
-    }
-
-    // New logic for the upgrade panel's upgrade button
+    const upgradeBackdrop = $('upgrade-backdrop');
+    const closeUpgradeBtn = $('close-upgrade-btn');
     const panelUpgradeBtn = $('panel-upgrade-btn');
+
+    const openUpgradePanel = (e) => {
+        if (e) e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+
+        // Close other side panels for a clean UI
+        $('extra-tools-bar').classList.remove('open');
+        $('layout-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+
+        if (upgradeBackdrop && upgradePanel) {
+            upgradeBackdrop.classList.remove('hidden');
+            upgradePanel.classList.add('open');
+        }
+    };
+
+    const closeUpgradePanel = () => {
+        if (upgradePanel && upgradeBackdrop) {
+            upgradePanel.classList.remove('open');
+            upgradeBackdrop.classList.add('hidden');
+        }
+    };
+
+    if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
+    if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
+    if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
+
     if (panelUpgradeBtn) {
         panelUpgradeBtn.onclick = async () => {
             if (!await auth0Client.isAuthenticated()) {
@@ -2171,8 +2185,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const user = await auth0Client.getUser();
+            // IMPORTANT: Replace with your Stripe PUBLISHABLE Key
             const stripe = Stripe('YOUR_STRIPE_PUBLISHABLE_KEY'); 
-            const priceId = 'price_1RyXtBFCA6YfGQjz7BUMxTQo';
+            const priceId = 'price_1RyXtBFCA6YfGQjz7BUMxTQo'; // Your Price ID
 
             try {
                 const response = await fetch('/api/create-checkout-session', {
@@ -2192,15 +2207,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert("Could not connect to the payment service. Please try again later.");
             }
         };
-    }
-    
-    // Close the upgrade panel
-    const closeUpgradeBtn = $('close-upgrade-btn');
-    if (closeUpgradeBtn) {
-      closeUpgradeBtn.onclick = (e) => {
-        e.stopPropagation();
-        upgradePanel.classList.remove('open');
-      };
     }
 
     // Auto-retract for sliding toolbars
