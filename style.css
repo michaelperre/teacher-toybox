@@ -1489,8 +1489,23 @@ body:not(.is-premium) .premium-feature {
     cursor: not-allowed;
 }
 
-/* --- Improved Upgrade Panel Styles --- */
+#upgradeButton {
+    background-color: #FFD700;
+    color: #2c2c2e;
+    display: none;
+}
+#upgradeButton:hover {
+    background-color: #f0c400;
+}
+
+/* --- Improved Upgrade Panel Styles (Corrected Alignment) --- */
 #upgrade-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px 24px;
+    box-sizing: border-box;
     position: fixed;
     top: 0;
     right: 0;
@@ -1501,14 +1516,8 @@ body:not(.is-premium) .premium-feature {
     border-left: 1px solid var(--border-color);
     box-shadow: -10px 0 30px rgba(0,0,0,0.3);
     z-index: 25001;
-    color: var(--text-primary);
     transform: translateX(100%);
     transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-between;
-    padding: 40px 24px 40px 24px;
 }
 
 #upgrade-panel.open {
@@ -1518,6 +1527,7 @@ body:not(.is-premium) .premium-feature {
 #upgrade-panel .upgrade-panel-content {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Horizontally center all content */
     gap: 16px;
 }
 
@@ -1528,9 +1538,8 @@ body:not(.is-premium) .premium-feature {
     gap: 12px;
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 0 0 8px 0;
+    margin: 0;
     color: #FFD700;
-    align-self: center;
 }
 
 #upgrade-panel h3 .fa-crown {
@@ -1539,19 +1548,21 @@ body:not(.is-premium) .premium-feature {
 
 #upgrade-panel p {
     max-width: 300px;
-    margin: 0 auto;
     line-height: 1.6;
     color: var(--text-secondary);
+    margin: 0;
 }
 
 .premium-features-list {
     list-style: none;
     padding: 0;
-    margin: 24px 0;
+    margin: 16px 0; /* Adjusted margin */
     text-align: left;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 100%;
+    max-width: 300px; /* Ensure list width matches paragraph */
 }
 
 .premium-features-list li {
@@ -1580,8 +1591,8 @@ body:not(.is-premium) .premium-feature {
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     transition: all 0.2s ease;
     width: fit-content;
-    align-self: center;
-    margin-top: 16px;
+    align-self: center; /* Center the button within the main flex container */
+    margin-top: 24px;
 }
 
 #panel-upgrade-btn:hover {
