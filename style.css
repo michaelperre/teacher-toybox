@@ -196,6 +196,10 @@ body.light-mode.no-grid {
 #help-tools-container,
 #upgrade-tools-container {
     position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #extra-tools-bar,
@@ -327,17 +331,19 @@ body.light-mode.no-grid {
 }
 .icon-btn {
     position: relative;
-    width: 60px; height: 60px;
-    background: var(--accent-color);
+    width: var(--btn-size);
+    height: var(--btn-size);
+    background-color: var(--accent-color);
     border: none;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 24px;
+    font-size: calc(var(--btn-size) * 0.45);
+    font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.4s ease, transform 0.1s ease;
+    transition: background-color 0.4s ease, transform 0.1s ease, border-color 0.2s ease;
 }
 .icon-btn:hover { background-color: var(--accent-hover); }
 .icon-btn:active { transform: scale(0.95); }
@@ -1543,22 +1549,11 @@ body:not(.is-premium) .premium-feature {
     background-color: var(--success-hover);
 }
 
-/* --- Premium Login Button Style --- */
-.btn.premium-login-style {
-    background-color: #FFD700; /* Gold */
-    color: #2c2c2e; /* Dark grey for icon contrast */
-}
-
-.btn.premium-login-style:hover {
-    background-color: #f0c400; /* Slightly darker gold for hover */
-}
-
 /* --- NEW: Upgrade Button Style --- */
 #upgradeButton {
     background-color: #FFD700;
     color: #2c2c2e;
-    display: none;
-    /* This will be shown/hidden by auth.js */
+    display: flex;
 }
 #upgradeButton:hover {
     background-color: #f0c400;
@@ -1572,7 +1567,6 @@ body:not(.is-premium) .premium-feature {
     justify-content: center;
     align-items: center;
 }
-
 #upgrade-panel {
     position: absolute;
     right: 100%;
@@ -1606,12 +1600,10 @@ body:not(.is-premium) .premium-feature {
     font-size: 1.5rem;
     color: #FFD700;
 }
-
 #upgrade-panel p {
     margin: 0 0 8px;
     color: var(--text-secondary);
 }
-
 #close-upgrade-btn {
     position: absolute;
     top: 10px;
@@ -1626,5 +1618,4 @@ body:not(.is-premium) .premium-feature {
 }
 #panel-upgrade-btn {
     width: 100%;
-}
 }
