@@ -1656,3 +1656,7 @@ body:not(.is-premium) .premium-feature {
 #authButton:hover {
     background-color: var(--success-hover);
 }
+
+#authButton.logout-btn {
+    background-color: var(--danger-color);
+}
