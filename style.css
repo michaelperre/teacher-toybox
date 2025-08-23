@@ -810,6 +810,7 @@ body.is-dragging .drop-zone {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 2px;
     text-decoration: none;
     line-height: 1.1;
@@ -820,8 +821,6 @@ body.is-dragging .drop-zone {
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
     transition: all 0.2s ease;
-    width: var(--btn-size);
-    height: var(--btn-size);
 }
 
 #tabletLinkButton i {
