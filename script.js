@@ -2548,8 +2548,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     document.addEventListener('click', (e) => {
         // Close all slide-out panels if the click is outside
-        const isClickInsideAnyBar = e.target.closest('#sidebar-main-controls');
-        if (!isClickInsideAnyBar) {
+        const isClickInsideSidebar = e.target.closest('#sidebar-main-controls');
+        const isClickInsideFeedbackPanel = e.target.closest('#feedback-panel');
+        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel) {
             // Close simple toolbars
             $('layout-bar').classList.remove('open');
             $('management-bar').classList.remove('open');
