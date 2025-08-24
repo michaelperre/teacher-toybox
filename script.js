@@ -1869,19 +1869,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     $('colorButton').onclick = () => {
-        if (closeInfoIfOpen()) return;
-        $('colorPicker').click();
-        layoutState.activeLayout = null;
-        localStorage.removeItem('ttx_lastLayout');
+        if (window.TT.isPremium) {
+            if (closeInfoIfOpen()) return;
+            $('colorPicker').click();
+            layoutState.activeLayout = null;
+            localStorage.removeItem('ttx_lastLayout');
+        } else {
+            openPremiumModal();
+        }
     };
     
     const colorPalette = $('color-palette');
     const themePaletteButton = $('themePaletteButton');
     if (themePaletteButton) {
         themePaletteButton.onclick = (e) => {
-            e.stopPropagation();
-            if (closeInfoIfOpen()) return;
-            colorPalette.classList.toggle('hidden');
+            if (window.TT.isPremium) {
+                e.stopPropagation();
+                if (closeInfoIfOpen()) return;
+                colorPalette.classList.toggle('hidden');
+            } else {
+                openPremiumModal();
+            }
         };
     }
     
@@ -1917,73 +1925,77 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let lastMagicClick = 0;
     $('magicColorButton').onclick = async() => {
-        if (closeInfoIfOpen()) return;
-        const now = Date.now();
-        if (now - lastMagicClick < 300) {
-            applyAccentColor(defaultAccentColor);
-            localStorage.setItem('ttx_accentColor', defaultAccentColor);
-            showOverlay('↺');
-            lastMagicClick = 0;
-            layoutState.activeLayout = null;
-            return;
-        }
-        lastMagicClick = now;
-        const colorCounts = new Map();
-        const tempCanvas = document.createElement('canvas');
-        const tempCtx = tempCanvas.getContext('2d', { willReadFrequently: true });
-        const sources = document.querySelectorAll('.floating:not(.hidden) img, .floating:not(.hidden) canvas');
-        if (sources.length === 0) {
-            showOverlay('?');
-            return;
-        }
-        showOverlay('...');
-        for (const el of sources) {
-            try {
-                if (el.tagName === 'IMG') {
-                    if (!el.complete) await new Promise(resolve => { el.onload = resolve; });
-                    tempCanvas.width = el.naturalWidth;
-                    tempCanvas.height = el.naturalHeight;
-                } else {
-                    tempCanvas.width = el.width;
-                    tempCanvas.height = el.height;
-                }
-
-                const isLightMode = document.body.classList.contains('light-mode');
-                const bgColor = isLightMode ? '#FFFFFF' : '#333'; 
-                tempCtx.fillStyle = bgColor;
-                tempCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
-                
-                tempCtx.drawImage(el, 0, 0);
-                
-                const data = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height).data;
-                for (let i = 0; i < data.length; i += 20) {
-                    const [r, g, b, a] = [data[i], data[i + 1], data[i + 2], data[i + 3]];
-                    if (a < 128 || (Math.abs(r - g) < 20 && Math.abs(g - b) < 20) || (r < 20 && g < 20 && b < 20) || (r > 235 && g > 235 && b > 235)) {
-                        continue;
-                    }
-                    const quantR = r >> 4,
-                        quantG = g >> 4,
-                        quantB = b >> 4;
-                    const key = `${quantR},${quantG},${quantB}`;
-                    colorCounts.set(key, (colorCounts.get(key) || 0) + 1);
-                }
-            } catch (err) {
-                console.error("Could not process element for color extraction:", err);
+        if (window.TT.isPremium) {
+            if (closeInfoIfOpen()) return;
+            const now = Date.now();
+            if (now - lastMagicClick < 300) {
+                applyAccentColor(defaultAccentColor);
+                localStorage.setItem('ttx_accentColor', defaultAccentColor);
+                showOverlay('↺');
+                lastMagicClick = 0;
+                layoutState.activeLayout = null;
+                return;
             }
-        }
-        if (colorCounts.size === 0) {
-            showOverlay('?');
-            return;
-        }
-        const prominentColorKey = [...colorCounts.entries()].reduce((a, e) => e[1] > a[1] ? e : a)[0];
-        const [r, g, b] = prominentColorKey.split(',').map(c => (parseInt(c) << 4) | (parseInt(c)));
-        const toHex = c => c.toString(16).padStart(2, '0');
-        const finalColor = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+            lastMagicClick = now;
+            const colorCounts = new Map();
+            const tempCanvas = document.createElement('canvas');
+            const tempCtx = tempCanvas.getContext('2d', { willReadFrequently: true });
+            const sources = document.querySelectorAll('.floating:not(.hidden) img, .floating:not(.hidden) canvas');
+            if (sources.length === 0) {
+                showOverlay('?');
+                return;
+            }
+            showOverlay('...');
+            for (const el of sources) {
+                try {
+                    if (el.tagName === 'IMG') {
+                        if (!el.complete) await new Promise(resolve => { el.onload = resolve; });
+                        tempCanvas.width = el.naturalWidth;
+                        tempCanvas.height = el.naturalHeight;
+                    } else {
+                        tempCanvas.width = el.width;
+                        tempCanvas.height = el.height;
+                    }
 
-        applyAccentColor(finalColor);
-        localStorage.setItem('ttx_accentColor', finalColor);
-        showOverlay('🎨');
-        layoutState.activeLayout = null;
+                    const isLightMode = document.body.classList.contains('light-mode');
+                    const bgColor = isLightMode ? '#FFFFFF' : '#333'; 
+                    tempCtx.fillStyle = bgColor;
+                    tempCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
+                    
+                    tempCtx.drawImage(el, 0, 0);
+                    
+                    const data = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height).data;
+                    for (let i = 0; i < data.length; i += 20) {
+                        const [r, g, b, a] = [data[i], data[i + 1], data[i + 2], data[i + 3]];
+                        if (a < 128 || (Math.abs(r - g) < 20 && Math.abs(g - b) < 20) || (r < 20 && g < 20 && b < 20) || (r > 235 && g > 235 && b > 235)) {
+                            continue;
+                        }
+                        const quantR = r >> 4,
+                            quantG = g >> 4,
+                            quantB = b >> 4;
+                        const key = `${quantR},${quantG},${quantB}`;
+                        colorCounts.set(key, (colorCounts.get(key) || 0) + 1);
+                    }
+                } catch (err) {
+                    console.error("Could not process element for color extraction:", err);
+                }
+            }
+            if (colorCounts.size === 0) {
+                showOverlay('?');
+                return;
+            }
+            const prominentColorKey = [...colorCounts.entries()].reduce((a, e) => e[1] > a[1] ? e : a)[0];
+            const [r, g, b] = prominentColorKey.split(',').map(c => (parseInt(c) << 4) | (parseInt(c)));
+            const toHex = c => c.toString(16).padStart(2, '0');
+            const finalColor = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+
+            applyAccentColor(finalColor);
+            localStorage.setItem('ttx_accentColor', finalColor);
+            showOverlay('🎨');
+            layoutState.activeLayout = null;
+        } else {
+            openPremiumModal();
+        }
     };
 
     $('bellButton').onclick = () => {
@@ -2014,6 +2026,9 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     function showShareModal() {
+        const lang = localStorage.getItem('ttx_lang') || 'en';
+        const dict = window.I18N[lang] || window.I18N.en;
+        
         const url = "https://www.teachertoybox.com";
         const text = "Check out Teacher Toybox! A free interactive digital whiteboard for classrooms with fun and engaging tools.";
         const title = "Teacher Toybox";
@@ -2025,7 +2040,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.className = 'share-modal';
         modal.innerHTML = `
             <button class="close-modal-btn">&times;</button>
-            <h3>Spread the Word!</h3>
+            <h3 data-i18n="panel.share.title">${window.t(dict, 'panel.share.title')}</h3>
             <p class="share-intro-text">Like this free tool? Help other teachers discover it!</p>
             <div class="share-grid">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" class="share-grid-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
@@ -2184,7 +2199,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const user = await auth0Client.getUser();
             // IMPORTANT: Replace with your Stripe PUBLISHABLE Key
             const stripe = Stripe('YOUR_STRIPE_PUBLISHABLE_KEY'); 
-            const priceId = 'price_1RyXtBFCA6YfGQjz7BUMxTQo'; // Your Price ID
+            const priceId = 'YOUR_PRICE_ID'; // Your Price ID
 
             try {
                 const response = await fetch('/api/create-checkout-session', {
@@ -2207,7 +2222,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Auto-retract for sliding toolbars
-    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout, upgradeTimeout;
+    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout;
     const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
         const button = $(buttonId);
         const bar = $(barId);
@@ -2229,7 +2244,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setupToolbarAutoRetract('extraToolsButton', 'extra-tools-bar', extraToolsTimeout);
     setupToolbarAutoRetract('managementButton', 'management-bar', managementTimeout);
     setupToolbarAutoRetract('helpButton', 'help-bar', helpTimeout);
-    setupToolbarAutoRetract('upgradeButton', 'upgrade-panel', upgradeTimeout);
     
     // Feedback Panel Logic
     const feedbackButton = $('feedbackButton');
@@ -2530,6 +2544,12 @@ document.addEventListener('DOMContentLoaded', () => {
             hotkeysEnabled = true;
         }
     
+        // Check if the click is on the background or title, but NOT on the language picker.
+        const isClickOnLangPicker = e.target.closest('#lang-picker-wrap');
+        if (isClickOnLangPicker) {
+            return; // Exit the function early if the language picker was clicked.
+        }
+
         if (e.target === document.body || e.target.closest('#site-title')) {
             document.body.classList.toggle('no-grid');
     
@@ -2542,14 +2562,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     document.addEventListener('click', (e) => {
-        // Close all slide-out panels if the click is outside
-        const isClickInsideAnyBar = e.target.closest('#sidebar-main-controls');
-        if (!isClickInsideAnyBar) {
+        // Close all slide-out panels if the click is outside of the interactive areas
+        const isClickInsideSidebar = e.target.closest('#sidebar-main-controls');
+        const isClickInsideFeedbackPanel = e.target.closest('#feedback-panel');
+        const isClickInsideUpgradePanel = e.target.closest('#upgrade-panel');
+
+        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel) {
+            // Close simple toolbars
             $('layout-bar').classList.remove('open');
             $('management-bar').classList.remove('open');
             $('extra-tools-bar').classList.remove('open');
             $('help-bar').classList.remove('open');
-            $('upgrade-panel').classList.remove('open');
+
+            // Use the dedicated close functions to also hide the backdrops
+            closeUpgradePanel();
+            closeFeedbackPanel();
+            
+            // Close color palettes
             document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
                 if (p) p.classList.add('hidden');
             });
@@ -2645,4 +2674,3 @@ document.addEventListener('DOMContentLoaded', () => {
     // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
     // Old premiumSidebarButtons array removed.
 });
-}
