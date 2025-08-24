@@ -2629,4 +2629,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
     // Old premiumSidebarButtons array removed.
     
-    // Listen for the custom event
+    // Listen for the custom event from auth.js
+    document.addEventListener('postLoginAction', (e) => {
+        if (e.detail === 'upgrade') {
+            // The user just logged in with the intent to upgrade.
+            // Instead of showing the panel again, proceed directly to checkout.
+            setTimeout(() => {
+                initiateCheckout();
+            }, 500); // 500ms delay to ensure UI is ready
+        }
+    });
+
+});
