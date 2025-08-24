@@ -39,13 +39,13 @@ const updateUI = async () => {
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
   document.body.classList.remove('is-premium');
-
+  
   if (authButton) {
     if (isAuthenticated) {
       // --- Logged In State ---
       authButton.title = "Log Out";
       authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
-      authButton.classList.add('logout-btn'); // Add class for red color
+      authButton.classList.add('logout-btn');
       
       const user = await auth0Client.getUser();
       if (user && userProfileElement) {
@@ -68,7 +68,7 @@ const updateUI = async () => {
       // --- Logged Out State ---
       authButton.title = "Log In / Sign Up";
       authButton.innerHTML = `<i class="fas fa-sign-in-alt"></i>`;
-      authButton.classList.remove('logout-btn'); // Remove class to revert to green
+      authButton.classList.remove('logout-btn');
       
       if (userProfileElement) userProfileElement.style.display = 'none';
       if (upgradeButton) upgradeButton.style.display = 'flex';
@@ -89,5 +89,5 @@ window.logout = () => {
   });
 };
 
-// Start the authentication process when the window loads
-window.onload = initializeAuth;
+// Initialize Auth0 when the page loads
+window.addEventListener('load', initializeAuth);

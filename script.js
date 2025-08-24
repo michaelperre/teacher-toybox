@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const user = await auth0Client.getUser();
             // IMPORTANT: Replace with your Stripe PUBLISHABLE Key
             const stripe = Stripe('YOUR_STRIPE_PUBLISHABLE_KEY'); 
-            const priceId = 'price_1RyXtBFCA6YfGQjz7BUMxTQo'; // Your Price ID is now here!
+            const priceId = 'YOUR_PRICE_ID'; // Your Price ID is now here!
 
             try {
                 // This fetch call requires your backend serverless function to be running
@@ -2207,7 +2207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Auto-retract for sliding toolbars
-    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout;
+    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout, upgradeTimeout;
     const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
         const button = $(buttonId);
         const bar = $(barId);
@@ -2229,6 +2229,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupToolbarAutoRetract('extraToolsButton', 'extra-tools-bar', extraToolsTimeout);
     setupToolbarAutoRetract('managementButton', 'management-bar', managementTimeout);
     setupToolbarAutoRetract('helpButton', 'help-bar', helpTimeout);
+    setupToolbarAutoRetract('upgradeButton', 'upgrade-panel', upgradeTimeout);
     
     // Feedback Panel Logic
     const feedbackButton = $('feedbackButton');
@@ -2529,12 +2530,6 @@ document.addEventListener('DOMContentLoaded', () => {
             hotkeysEnabled = true;
         }
     
-        // Check if the click is on the background or title, but NOT on the language picker.
-        const isClickOnLangPicker = e.target.closest('#lang-picker-wrap');
-        if (isClickOnLangPicker) {
-            return; // Exit the function early if the language picker was clicked.
-        }
-
         if (e.target === document.body || e.target.closest('#site-title')) {
             document.body.classList.toggle('no-grid');
     
@@ -2548,20 +2543,13 @@ document.addEventListener('DOMContentLoaded', () => {
     
     document.addEventListener('click', (e) => {
         // Close all slide-out panels if the click is outside
-        const isClickInsideSidebar = e.target.closest('#sidebar-main-controls');
-        const isClickInsideFeedbackPanel = e.target.closest('#feedback-panel');
-        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel) {
-            // Close simple toolbars
+        const isClickInsideAnyBar = e.target.closest('#sidebar-main-controls');
+        if (!isClickInsideAnyBar) {
             $('layout-bar').classList.remove('open');
             $('management-bar').classList.remove('open');
             $('extra-tools-bar').classList.remove('open');
             $('help-bar').classList.remove('open');
-
-            // Use the dedicated close functions to also hide the backdrops
-            closeUpgradePanel();
-            closeFeedbackPanel();
-            
-            // Close color palettes
+            $('upgrade-panel').classList.remove('open');
             document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
                 if (p) p.classList.add('hidden');
             });
@@ -2657,3 +2645,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
     // Old premiumSidebarButtons array removed.
 });
+}
