@@ -1877,27 +1877,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     $('colorButton').onclick = () => {
-        if (window.TT.isPremium) {
-            if (closeInfoIfOpen()) return;
-            $('colorPicker').click();
-            layoutState.activeLayout = null;
-            localStorage.removeItem('ttx_lastLayout');
-        } else {
-            openUpgradePanel();
-        }
+        if (closeInfoIfOpen()) return;
+        $('colorPicker').click();
+        layoutState.activeLayout = null;
+        localStorage.removeItem('ttx_lastLayout');
     };
     
     const colorPalette = $('color-palette');
     const themePaletteButton = $('themePaletteButton');
     if (themePaletteButton) {
         themePaletteButton.onclick = (e) => {
-            if (window.TT.isPremium) {
-                e.stopPropagation();
-                if (closeInfoIfOpen()) return;
-                colorPalette.classList.toggle('hidden');
-            } else {
-                openUpgradePanel();
-            }
+            e.stopPropagation();
+            if (closeInfoIfOpen()) return;
+            colorPalette.classList.toggle('hidden');
         };
     }
     
@@ -1933,77 +1925,73 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let lastMagicClick = 0;
     $('magicColorButton').onclick = async() => {
-        if (window.TT.isPremium) {
-            if (closeInfoIfOpen()) return;
-            const now = Date.now();
-            if (now - lastMagicClick < 300) {
-                applyAccentColor(defaultAccentColor);
-                localStorage.setItem('ttx_accentColor', defaultAccentColor);
-                showOverlay('↺');
-                lastMagicClick = 0;
-                layoutState.activeLayout = null;
-                return;
-            }
-            lastMagicClick = now;
-            const colorCounts = new Map();
-            const tempCanvas = document.createElement('canvas');
-            const tempCtx = tempCanvas.getContext('2d', { willReadFrequently: true });
-            const sources = document.querySelectorAll('.floating:not(.hidden) img, .floating:not(.hidden) canvas');
-            if (sources.length === 0) {
-                showOverlay('?');
-                return;
-            }
-            showOverlay('...');
-            for (const el of sources) {
-                try {
-                    if (el.tagName === 'IMG') {
-                        if (!el.complete) await new Promise(resolve => { el.onload = resolve; });
-                        tempCanvas.width = el.naturalWidth;
-                        tempCanvas.height = el.naturalHeight;
-                    } else {
-                        tempCanvas.width = el.width;
-                        tempCanvas.height = el.height;
-                    }
-
-                    const isLightMode = document.body.classList.contains('light-mode');
-                    const bgColor = isLightMode ? '#FFFFFF' : '#333'; 
-                    tempCtx.fillStyle = bgColor;
-                    tempCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
-                    
-                    tempCtx.drawImage(el, 0, 0);
-                    
-                    const data = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height).data;
-                    for (let i = 0; i < data.length; i += 20) {
-                        const [r, g, b, a] = [data[i], data[i + 1], data[i + 2], data[i + 3]];
-                        if (a < 128 || (Math.abs(r - g) < 20 && Math.abs(g - b) < 20) || (r < 20 && g < 20 && b < 20) || (r > 235 && g > 235 && b > 235)) {
-                            continue;
-                        }
-                        const quantR = r >> 4,
-                            quantG = g >> 4,
-                            quantB = b >> 4;
-                        const key = `${quantR},${quantG},${quantB}`;
-                        colorCounts.set(key, (colorCounts.get(key) || 0) + 1);
-                    }
-                } catch (err) {
-                    console.error("Could not process element for color extraction:", err);
-                }
-            }
-            if (colorCounts.size === 0) {
-                showOverlay('?');
-                return;
-            }
-            const prominentColorKey = [...colorCounts.entries()].reduce((a, e) => e[1] > a[1] ? e : a)[0];
-            const [r, g, b] = prominentColorKey.split(',').map(c => (parseInt(c) << 4) | (parseInt(c)));
-            const toHex = c => c.toString(16).padStart(2, '0');
-            const finalColor = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
-
-            applyAccentColor(finalColor);
-            localStorage.setItem('ttx_accentColor', finalColor);
-            showOverlay('🎨');
+        if (closeInfoIfOpen()) return;
+        const now = Date.now();
+        if (now - lastMagicClick < 300) {
+            applyAccentColor(defaultAccentColor);
+            localStorage.setItem('ttx_accentColor', defaultAccentColor);
+            showOverlay('↺');
+            lastMagicClick = 0;
             layoutState.activeLayout = null;
-        } else {
-            openUpgradePanel();
+            return;
         }
+        lastMagicClick = now;
+        const colorCounts = new Map();
+        const tempCanvas = document.createElement('canvas');
+        const tempCtx = tempCanvas.getContext('2d', { willReadFrequently: true });
+        const sources = document.querySelectorAll('.floating:not(.hidden) img, .floating:not(.hidden) canvas');
+        if (sources.length === 0) {
+            showOverlay('?');
+            return;
+        }
+        showOverlay('...');
+        for (const el of sources) {
+            try {
+                if (el.tagName === 'IMG') {
+                    if (!el.complete) await new Promise(resolve => { el.onload = resolve; });
+                    tempCanvas.width = el.naturalWidth;
+                    tempCanvas.height = el.naturalHeight;
+                } else {
+                    tempCanvas.width = el.width;
+                    tempCanvas.height = el.height;
+                }
+
+                const isLightMode = document.body.classList.contains('light-mode');
+                const bgColor = isLightMode ? '#FFFFFF' : '#333'; 
+                tempCtx.fillStyle = bgColor;
+                tempCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
+                
+                tempCtx.drawImage(el, 0, 0);
+                
+                const data = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height).data;
+                for (let i = 0; i < data.length; i += 20) {
+                    const [r, g, b, a] = [data[i], data[i + 1], data[i + 2], data[i + 3]];
+                    if (a < 128 || (Math.abs(r - g) < 20 && Math.abs(g - b) < 20) || (r < 20 && g < 20 && b < 20) || (r > 235 && g > 235 && b > 235)) {
+                        continue;
+                    }
+                    const quantR = r >> 4,
+                        quantG = g >> 4,
+                        quantB = b >> 4;
+                    const key = `${quantR},${quantG},${quantB}`;
+                    colorCounts.set(key, (colorCounts.get(key) || 0) + 1);
+                }
+            } catch (err) {
+                console.error("Could not process element for color extraction:", err);
+            }
+        }
+        if (colorCounts.size === 0) {
+            showOverlay('?');
+            return;
+        }
+        const prominentColorKey = [...colorCounts.entries()].reduce((a, e) => e[1] > a[1] ? e : a)[0];
+        const [r, g, b] = prominentColorKey.split(',').map(c => (parseInt(c) << 4) | (parseInt(c)));
+        const toHex = c => c.toString(16).padStart(2, '0');
+        const finalColor = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+
+        applyAccentColor(finalColor);
+        localStorage.setItem('ttx_accentColor', finalColor);
+        showOverlay('🎨');
+        layoutState.activeLayout = null;
     };
 
     $('bellButton').onclick = () => {
