@@ -343,7 +343,10 @@
             </table>
         </div>
         <div class="upgrade-button-container">
-            <button id="panel-upgrade-btn" class="submit-btn">Upgrade Now for $2 / Month</button>
+            <button id="panel-upgrade-btn" class="submit-btn">
+                <div class="price-big">$2 per month</div>
+                <div class="price-small">$24 billed annually</div>
+            </button>
         </div>
     </div>
 
@@ -357,7 +360,7 @@
         window.I18N = {
           en: { 
               meta: { title: "Teacher Toybox | Free Interactive Digital Whiteboard for Classrooms", titleShort: "Teacher Toybox | Interactive Whiteboard", description: "Teacher Toybox is a free interactive digital whiteboard with timers, dice and more to make lessons engaging. No installation required.", keywords: "digital whiteboard, interactive whiteboard, teacher tools, classroom resources, free teacher tools, online timer, classroom activities, education" }, 
-              site: { subtitle: "A whiteboard built by teachers for teachers." }, 
+              site: { brand: "Teacher Toybox", subtitle: "A whiteboard built by teachers for teachers." }, 
               lang: { label: "Language" }, 
               btn: { tablet: "Tablet Edition", "tablet.title": "Switch to Tablet Edition", clock: "Toggle Live Clock (K)", add: "Add New Window (N)", layouts: "Toggle Layouts (L)", colour: "Website Colour (X)", color: "Select Accent Color (C)", magic: "Extract Color from Content (M)", themePalette: "Theme Palette (Z)", bell: "Ring Bell (B)", shh: "Shush Sound (S)", "shh.label": "Shh", management: "Classroom Management Tools (/)", help: "Help & Resources (?)", laser: "Toggle Laser Pointer (P)", tour: "Start Guided Tour", demo: "Show Demo Video", info: "Show Information", refresh: "Refresh Page (R)", share: "Share with a Friend (J)", feedback: "Provide Feedback (F)", coffee: "Buy Me a Coffee (Y)", upgrade: "Upgrade to Premium (U)" }, 
               layout: { 1: "Layout 1: Full Screen (1)", 2: "Layout 2: Split Vertical (2)", 3: "Layout 3: Main Left (3)", 4: "Layout 4: Main Right (4)", 5: "Layout 5: Four Quadrants (5)", 6: "Layout 6: Tall Right Column (6)", 7: "Layout 7: 1-2-2 Column (7)" },
@@ -421,7 +424,6 @@
           document.documentElement.lang = lang;
     
           document.querySelectorAll('[data-i18n]').forEach(el => {
-            if (el.dataset.i18n === 'site.brand') return;
             const val = t(dict, el.dataset.i18n) || t(I18N.en, el.dataset.i18n);
             if (typeof val === 'string') el.textContent = val;
           });
