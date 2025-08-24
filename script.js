@@ -2220,14 +2220,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 currentRating = 0;
                 updateStars();
                 submitFeedbackBtn.disabled = false;
-<<<<<<< HEAD
                 submitFeedbackBtn.style.backgroundColor = '';
                 submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButton') || 'Submit';
-=======
-                const lang = localStorage.getItem('ttx_lang') || 'en';
-                const dict = window.I18N[lang] || window.I18N.en;
-                submitFeedbackBtn.textContent = window.t(dict, 'panel.feedback.submit');
->>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
             }, 400);
         }
     }
@@ -2260,19 +2254,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert('Please provide a rating or a comment.');
                 return;
             }
-<<<<<<< HEAD
             const currentLang = localStorage.getItem('ttx_lang') || 'en';
 
             submitFeedbackBtn.disabled = true;
             submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButtonSending') || 'Sending...';
-=======
-
-            const lang = localStorage.getItem('ttx_lang') || 'en';
-            const dict = window.I18N[lang] || window.I18N.en;
-
-            submitFeedbackBtn.disabled = true;
-            submitFeedbackBtn.textContent = window.t(dict, 'panel.feedback.sending');
->>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
 
             const formData = new FormData();
             formData.append('rating', currentRating);
@@ -2284,11 +2269,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     headers: { 'Accept': 'application/json' }
                 });
                 if (response.ok) {
-<<<<<<< HEAD
                     submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButtonSuccess') || 'Thank You!';
-=======
-                    submitFeedbackBtn.textContent = window.t(dict, 'panel.feedback.thanks');
->>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
                     submitFeedbackBtn.style.backgroundColor = 'var(--success-color)';
                     setTimeout(closeFeedbackPanel, 1500);
                 } else { throw new Error('Form submission failed'); }
@@ -2296,11 +2277,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.error('Error submitting feedback:', error);
                 alert('Sorry, there was an error sending your feedback.');
                 submitFeedbackBtn.disabled = false;
-<<<<<<< HEAD
                 submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButton') || 'Submit';
-=======
-                submitFeedbackBtn.textContent = window.t(dict, 'panel.feedback.submit');
->>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
             }
         };
     }
@@ -2645,8 +2622,7 @@ document.addEventListener('DOMContentLoaded', () => {
           });
       }
     })();
-    });
-    
+
     // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
     // Old premiumSidebarButtons array removed.
     
