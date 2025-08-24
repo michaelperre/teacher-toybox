@@ -2682,4 +2682,3 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 500); // 500ms delay
         }
     });
-});

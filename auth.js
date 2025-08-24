@@ -12,12 +12,18 @@ const configureClient = async () => {
   });
 };
 
-// 2. Handle the redirect after login
+// 2. Handle the redirect after login [UPDATED]
 const handleRedirectCallback = async () => {
   const params = new URLSearchParams(window.location.search);
   if (params.has("code") && params.has("state")) {
-    await auth0Client.handleRedirectCallback();
+    const { appState } = await auth0Client.handleRedirectCallback();
     window.history.replaceState({}, document.title, "/");
+    
+    // Check if we need to perform an action after login
+    if (appState && appState.target === 'upgrade') {
+      // Fire a custom event that our main script can listen for
+      document.dispatchEvent(new CustomEvent('postLoginAction', { detail: 'upgrade' }));
+    }
   }
 };
 
@@ -76,9 +82,11 @@ const updateUI = async () => {
   }
 };
 
-// 5. Login and Logout functions (made globally accessible)
-window.login = async () => {
-  await auth0Client.loginWithRedirect();
+// 5. Login and Logout functions (made globally accessible) [UPDATED]
+window.login = async (action = 'default') => {
+  await auth0Client.loginWithRedirect({
+    appState: { target: action }
+  });
 };
 
 window.logout = () => {
