@@ -2536,6 +2536,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (p) p.classList.add('hidden');
             });
         }
+    });
         
     (function() {
       let demoOpen = false;
@@ -2622,7 +2623,7 @@ document.addEventListener('DOMContentLoaded', () => {
           });
       }
     })();
-    
+
     // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
     // Old premiumSidebarButtons array removed.
     
