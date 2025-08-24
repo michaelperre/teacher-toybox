@@ -15,11 +15,6 @@
             window.location.href = 'mobile.html';
         }
     </script>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
     
     <meta content="Engage your classroom with Teacher Toybox, a free interactive digital whiteboard with built-in tools like timers, dice, a drawing canvas, and multimedia support. No installation required." name="description"/>
     <meta content="Teacher Toybox: Free Interactive Digital Whiteboard" property="og:title"/>
@@ -276,11 +271,11 @@
 
     <div id="feedback-backdrop" class="hidden"></div>
     <div id="feedback-panel">
-        <button id="close-feedback-btn" title="Close">&times;</button>
-        <h3 data-i18n="panel.feedback.title">Provide Feedback</h3>
-        <p>We'd love to hear your thoughts!</p>
+        <button id="close-feedback-btn" title="Close" data-i18n-title="panel.close">&times;</button>
+        <h3 data-i18n="panel.feedback.title">Your Feedback</h3>
+        <p data-i18n="panel.feedback.intro">We'd love to hear your thoughts!</p>
         <fieldset class="form-group">
-            <legend>How would you rate your experience?</legend>
+            <legend data-i18n="panel.feedback.rating_label">How would you rate your experience?</legend>
             <div id="feedback-rating" class="star-rating">
                 <i class="fas fa-star" data-value="1"></i>
                 <i class="fas fa-star" data-value="2"></i>
@@ -290,67 +285,67 @@
             </div>
         </fieldset>
         <div class="form-group">
-            <label for="feedback-comment">Comments</label>
-            <textarea id="feedback-comment" rows="5" placeholder="Tell us what you liked or what could be improved..."></textarea>
+            <label for="feedback-comment" data-i18n="panel.feedback.comment_label">Comments</label>
+            <textarea id="feedback-comment" rows="5" placeholder="Tell us what you liked or what could be improved..." data-i18n-placeholder="panel.feedback.comment_placeholder"></textarea>
         </div>
-        <button id="submit-feedback-btn" class="submit-btn">Submit</button>
+        <button id="submit-feedback-btn" class="submit-btn" data-i18n="panel.feedback.submit_button">Submit</button>
     </div>
     <div id="upgrade-backdrop" class="hidden"></div>
     <div id="upgrade-panel">
-        <button id="close-upgrade-btn" title="Close">&times;</button>
+        <button id="close-upgrade-btn" title="Close" data-i18n-title="panel.close">&times;</button>
         <div class="upgrade-panel-content">
             <h3 data-i18n="panel.upgrade.title"><i class="fas fa-crown"></i> Go Premium</h3>
-            <p>Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!</p>
+            <p data-i18n="panel.upgrade.intro">Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!</p>
             
             <table class="premium-features-table">
                 <tbody>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Unlock All Tools</strong></td>
-                        <td>Get immediate access to every premium tool.</td>
+                        <td><strong data-i18n="panel.upgrade.feature1_title">Unlock All Tools</strong></td>
+                        <td data-i18n="panel.upgrade.feature1_desc">Get immediate access to every premium tool.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Webcam &amp; Document Camera</strong></td>
-                        <td>Use your webcam for live demonstrations.</td>
+                        <td><strong data-i18n="panel.upgrade.feature2_title">Webcam &amp; Document Camera</strong></td>
+                        <td data-i18n="panel.upgrade.feature2_desc">Use your webcam for live demonstrations.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Photo Carousel</strong></td>
-                        <td>Create engaging visual stories and slideshows.</td>
+                        <td><strong data-i18n="panel.upgrade.feature3_title">Photo Carousel</strong></td>
+                        <td data-i18n="panel.upgrade.feature3_desc">Create engaging visual stories and slideshows.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Gamify Lessons</strong></td>
-                        <td>Use the Dice Roller and Counters to make learning fun.</td>
+                        <td><strong data-i18n="panel.upgrade.feature4_title">Gamify Lessons</strong></td>
+                        <td data-i18n="panel.upgrade.feature4_desc">Use the Dice Roller and Counters to make learning fun.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Manage Time</strong></td>
-                        <td>Effortlessly manage classroom time with timers and stopwatches.</td>
+                        <td><strong data-i18n="panel.upgrade.feature5_title">Manage Time</strong></td>
+                        <td data-i18n="panel.upgrade.feature5_desc">Effortlessly manage classroom time with timers and stopwatches.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Advanced Control</strong></td>
-                        <td>Adjust opacity and layer your windows for the perfect setup.</td>
+                        <td><strong data-i18n="panel.upgrade.feature6_title">Advanced Control</strong></td>
+                        <td data-i18n="panel.upgrade.feature6_desc">Adjust opacity and layer your windows for the perfect setup.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Future Tools</strong></td>
-                        <td>Automatically get every new premium tool we release.</td>
+                        <td><strong data-i18n="panel.upgrade.feature7_title">Future Tools</strong></td>
+                        <td data-i18n="panel.upgrade.feature7_desc">Automatically get every new premium tool we release.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Support Development</strong></td>
-                        <td>Help keep the core platform free for all teachers.</td>
+                        <td><strong data-i18n="panel.upgrade.feature8_title">Support Development</strong></td>
+                        <td data-i18n="panel.upgrade.feature8_desc">Help keep the core platform free for all teachers.</td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <div class="upgrade-button-container">
             <button id="panel-upgrade-btn" class="submit-btn">
-                <div class="price-big">$2 per month</div>
-                <div class="price-small">$24 billed annually</div>
+                <div class="price-big" data-i18n="panel.upgrade.price_monthly">$2 per month</div>
+                <div class="price-small" data-i18n="panel.upgrade.price_annually">$24 billed annually</div>
             </button>
         </div>
     </div>
@@ -369,7 +364,27 @@
               lang: { label: "Language" }, 
               btn: { tablet: "Tablet Edition", "tablet.title": "Switch to Tablet Edition", clock: "Toggle Live Clock (K)", add: "Add New Window (N)", layouts: "Toggle Layouts (L)", colour: "Website Colour (X)", color: "Select Accent Color (C)", magic: "Extract Color from Content (M)", themePalette: "Theme Palette (Z)", bell: "Ring Bell (B)", shh: "Shush Sound (S)", "shh.label": "Shh", management: "Classroom Management Tools (/)", help: "Help & Resources (?)", laser: "Toggle Laser Pointer (P)", tour: "Start Guided Tour", demo: "Show Demo Video", info: "Show Information", refresh: "Refresh Page (R)", share: "Share with a Friend (J)", feedback: "Provide Feedback (F)", coffee: "Buy Me a Coffee (Y)", upgrade: "Upgrade to Premium (U)" }, 
               layout: { 1: "Layout 1: Full Screen (1)", 2: "Layout 2: Split Vertical (2)", 3: "Layout 3: Main Left (3)", 4: "Layout 4: Main Right (4)", 5: "Layout 5: Four Quadrants (5)", 6: "Layout 6: Tall Right Column (6)", 7: "Layout 7: 1-2-2 Column (7)" },
-              panel: { "upgrade.title": "Go Premium", "share.title": "Spread the Word!", "feedback.title": "Provide Feedback" }
+              panel: { 
+                "upgrade.title": "Go Premium", 
+                "upgrade.intro": "Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!",
+                "upgrade.feature1_title": "Unlock All Tools", "upgrade.feature1_desc": "Get immediate access to every premium tool.",
+                "upgrade.feature2_title": "Webcam & Document Camera", "upgrade.feature2_desc": "Use your webcam for live demonstrations.",
+                "upgrade.feature3_title": "Photo Carousel", "upgrade.feature3_desc": "Create engaging visual stories and slideshows.",
+                "upgrade.feature4_title": "Gamify Lessons", "upgrade.feature4_desc": "Use the Dice Roller and Counters to make learning fun.",
+                "upgrade.feature5_title": "Manage Time", "upgrade.feature5_desc": "Effortlessly manage classroom time with timers and stopwatches.",
+                "upgrade.feature6_title": "Advanced Control", "upgrade.feature6_desc": "Adjust opacity and layer your windows for the perfect setup.",
+                "upgrade.feature7_title": "Future Tools", "upgrade.feature7_desc": "Automatically get every new premium tool we release.",
+                "upgrade.feature8_title": "Support Development", "upgrade.feature8_desc": "Help keep the core platform free for all teachers.",
+                "upgrade.price_monthly": "$2 per month", "upgrade.price_annually": "$24 billed annually",
+                "share.title": "Spread the Word!", 
+                "feedback.title": "Your Feedback", 
+                "feedback.intro": "We'd love to hear your thoughts!",
+                "feedback.rating_label": "How would you rate your experience?",
+                "feedback.comment_label": "Comments",
+                "feedback.comment_placeholder": "Tell us what you liked or what could be improved...",
+                "feedback.submit_button": "Submit",
+                "panel.close": "Close"
+              }
           },
           cs: { 
               meta: { title: "Teacher Toybox | Zdarma interaktivní tabule pro učitele", titleShort: "Teacher Toybox | Interaktivní tabule", description: "Teacher Toybox je zdarma interaktivní digitální tabule s časovači, kostkami a dalšími nástroji. Není potřeba instalace.", keywords: "digitální tabule, interaktivní tabule, nástroje pro učitele, zdroje pro třídu, bezplatné nástroje pro učitele, online časovač, aktivity ve třídě, vzdělávání" }, 
@@ -377,9 +392,57 @@
               lang: { label: "Jazyk" }, 
               btn: { tablet: "Tabletová verze", "tablet.title": "Přepnout na tabletovou verzi", clock: "Zobrazit/skryt živé hodiny (K)", add: "Přidat nové okno (N)", layouts: "Přepnout nástroje rozložení (L)", colour: "Barva webu (X)", color: "Zvolit zvýrazňovací barvu (C)", magic: "Extrahovat barvu z obsahu (M)", themePalette: "Paleta motivů (Z)", bell: "Zazvonit (B)", shh: "Zvuk Ticho (S)", "shh.label": "Pšš", management: "Nástroje pro správu třídy (/)", help: "Nápověda a zdroje (?)", laser: "Přepnout laserové ukazovátko (P)", tour: "Spustit prohlídku", demo: "Zobrazit ukázkové video", info: "Zobrazit informace", refresh: "Obnovit stránku (R)", share: "Sdílet s přítelem (J)", feedback: "Zpětná vazba (F)", coffee: "Pozvat na kávu (Y)", upgrade: "Přejít na Premium (U)" }, 
               layout: { 1: "Rozvržení 1: Celá obrazovka (1)", 2: "Rozvržení 2: Vertikální rozdělení (2)", 3: "Rozvržení 3: Vlevo hlavní (3)", 4: "Rozvržení 4: Vpravo hlavní (4)", 5: "Rozvržení 5: Čtyři kvadranty (5)", 6: "Rozvržení 6: Vysoký pravý sloupec (6)", 7: "Rozvržení 7: 1-2-2 sloupce (7)" },
-              panel: { "upgrade.title": "Přejít na Premium", "share.title": "Šířit dál!", "feedback.title": "Poskytnout zpětnou vazbu" }
+              panel: { 
+                "upgrade.title": "Přejít na Premium", 
+                "upgrade.intro": "Rozšiřte svou třídu odemknutím všech interaktivních nástrojů v Teacher Toybox!",
+                "upgrade.feature1_title": "Odemknout všechny nástroje", "upgrade.feature1_desc": "Získejte okamžitý přístup ke všem prémiovým nástrojům.",
+                "upgrade.feature2_title": "Webkamera a dokumentová kamera", "upgrade.feature2_desc": "Použijte svou webkameru pro živé demonstrace.",
+                "upgrade.feature3_title": "Fotokaruzel", "upgrade.feature3_desc": "Vytvářejte poutavé vizuální příběhy a prezentace.",
+                "upgrade.feature4_title": "Gamifikace lekcí", "upgrade.feature4_desc": "Použijte házecí kostky a počítadla, aby učení bylo zábavné.",
+                "upgrade.feature5_title": "Řízení času", "upgrade.feature5_desc": "Snadno spravujte čas ve třídě pomocí časovačů a stopek.",
+                "upgrade.feature6_title": "Pokročilé ovládání", "upgrade.feature6_desc": "Upravte průhlednost a vrstvy oken pro dokonalé nastavení.",
+                "upgrade.feature7_title": "Budoucí nástroje", "upgrade.feature7_desc": "Automaticky získáte každý nový prémiový nástroj, který vydáme.",
+                "upgrade.feature8_title": "Podpořte vývoj", "upgrade.feature8_desc": "Pomozte udržet základní platformu zdarma pro všechny učitele.",
+                "upgrade.price_monthly": "2 $ měsíčně", "upgrade.price_annually": "24 $ účtováno ročně",
+                "share.title": "Rozšiřte to!", 
+                "feedback.title": "Vaše zpětná vazba",
+                "feedback.intro": "Rádi bychom slyšeli vaše myšlenky!",
+                "feedback.rating_label": "Jak byste ohodnotili svou zkušenost?",
+                "feedback.comment_label": "Komentáře",
+                "feedback.comment_placeholder": "Řekněte nám, co se vám líbilo nebo co by se dalo zlepšit...",
+                "feedback.submit_button": "Odeslat",
+                "panel.close": "Zavřít"
+              }
           },
-          // ... (Translations for other languages would go here)
+          uk: { // Ukrainian
+              meta: { title: "Teacher Toybox | Безкоштовна інтерактивна дошка для вчителів", titleShort: "Teacher Toybox | Інтерактивна дошка", description: "Teacher Toybox - це безкоштовна інтерактивна цифрова дошка з таймерами, кубиками та іншими інструментами, щоб зробити уроки захоплюючими. Не потребує встановлення.", keywords: "цифрова дошка, інтерактивна дошка, інструменти для вчителя, ресурси для класу, безкоштовні інструменти для вчителя, онлайн таймер, активності в класі, освіта" },
+              site: { subtitle: "Безкоштовна інтерактивна цифрова дошка" },
+              lang: { label: "Мова" },
+              btn: { tablet: "Версія для планшета", "tablet.title": "Перейти на версію для планшета", clock: "Увімк./вимк. годинник (K)", add: "Додати нове вікно (N)", layouts: "Перемкнути макети (L)", colour: "Колір сайту (X)", color: "Обрати колір акценту (C)", magic: "Витягти колір з контенту (M)", themePalette: "Палітра тем (Z)", bell: "Дзвінок (B)", shh: "Звук 'Тсс' (S)", "shh.label": "Тсс", management: "Інструменти управління класом (/)", help: "Довідка та ресурси (?)", laser: "Увімк./вимк. лазер (P)", tour: "Розпочати тур", demo: "Показати відео-демо", info: "Показати інформацію", refresh: "Оновити сторінку (R)", share: "Поділитися з другом (J)", feedback: "Зворотній зв'язок (F)", coffee: "Купити каву (Y)", upgrade: "Перейти на Premium (U)" },
+              layout: { 1: "Макет 1: Повний екран (1)", 2: "Макет 2: Вертикальний розділ (2)", 3: "Макет 3: Головний ліворуч (3)", 4: "Макет 4: Головний праворуч (4)", 5: "Макет 5: Чотири квадранти (5)", 6: "Макет 6: Висока права колонка (6)", 7: "Макет 7: 1-2-2 колонки (7)" },
+              panel: {
+                "upgrade.title": "Перейти на Premium",
+                "upgrade.intro": "Покращіть свій клас, розблокувавши кожен інтерактивний інструмент у Teacher Toybox!",
+                "upgrade.feature1_title": "Розблокувати всі інструменти", "upgrade.feature1_desc": "Отримайте негайний доступ до кожного преміум-інструменту.",
+                "upgrade.feature2_title": "Веб-камера і документ-камера", "upgrade.feature2_desc": "Використовуйте свою веб-камеру для живих демонстрацій.",
+                "upgrade.feature3_title": "Фотокарусель", "upgrade.feature3_desc": "Створюйте захоплюючі візуальні історії та слайд-шоу.",
+                "upgrade.feature4_title": "Гейміфікація уроків", "upgrade.feature4_desc": "Використовуйте кубики та лічильники, щоб зробити навчання веселим.",
+                "upgrade.feature5_title": "Керування часом", "upgrade.feature5_desc": "Легко керуйте часом у класі за допомогою таймерів та секундомірів.",
+                "upgrade.feature6_title": "Розширене керування", "upgrade.feature6_desc": "Налаштуйте прозорість та шари вікон для ідеального налаштування.",
+                "upgrade.feature7_title": "Майбутні інструменти", "upgrade.feature7_desc": "Автоматично отримуйте кожен новий преміум-інструмент, який ми випускаємо.",
+                "upgrade.feature8_title": "Підтримати розробку", "upgrade.feature8_desc": "Допоможіть зберегти основну платформу безкоштовною для всіх вчителів.",
+                "upgrade.price_monthly": "2 $ за місяць", "upgrade.price_annually": "24 $ щорічно",
+                "share.title": "Поширити інформацію!",
+                "feedback.title": "Ваш відгук",
+                "feedback.intro": "Ми будемо раді почути ваші думки!",
+                "feedback.rating_label": "Як би ви оцінили свій досвід?",
+                "feedback.comment_label": "Коментарі",
+                "feedback.comment_placeholder": "Розкажіть, що вам сподобалося або що можна покращити...",
+                "feedback.submit_button": "Відправити",
+                "panel.close": "Закрити"
+              }
+          },
+          // ... (rest of translations)
         };
     
         window.t = function(dict, path) {
@@ -437,6 +500,12 @@
             const key = el.dataset.i18nTitle;
             const val = t(dict, key) || t(I18N.en, key);
             if (typeof val === 'string') el.setAttribute('title', val);
+          });
+          
+          document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.dataset.i18nPlaceholder;
+            const val = t(dict, key) || t(I18N.en, key);
+            if (typeof val === 'string') el.setAttribute('placeholder', val);
           });
     
           const shh = document.getElementById('shhButton');
