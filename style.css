@@ -209,9 +209,9 @@ body.light-mode.no-grid {
 #management-bar,
 #help-bar {
     position: absolute;
-    right: calc(100% + 10px); /* Position to the left of the parent, with a 10px gap */
+    right: 100%;
     top: 50%;
-    transform: translateY(-50%); /* Center vertically */
+    transform: translateY(-50%) translateX(10px);
     width: auto;
     background: var(--sidebar-bg);
     border: 1px solid var(--border-color);
