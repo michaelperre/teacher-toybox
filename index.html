@@ -83,8 +83,10 @@
     <link href="tour.css" rel="stylesheet"/>
     <link href="numbered-list.css" rel="stylesheet"/>
     <link href="info-window.css" rel="stylesheet"/>
+    
     <script src="https://js.stripe.com/v3/"></script>
     <script src="https://cdn.auth0.com/js/auth0-spa-js/2.1/auth0-spa-js.production.js"></script>
+    
     <style>
         /* Splash screen overlay */
         #splash-screen {
@@ -124,10 +126,11 @@
           white-space: nowrap;
         }
       </style>
+    
+    <script src="script.js" defer></script>
+    <script src="auth.js" defer></script>
     <script src="numbered-list.js" defer></script>
     <script src="info-text.js" defer></script>
-    <script src="auth.js"></script>
-    <script src="script.js" defer></script>
     <script src="tour.js" defer></script>
 </head>
 <body>
@@ -290,22 +293,34 @@
             </div>
         </fieldset>
         <div class="form-group">
+<<<<<<< HEAD
             <label for="feedback-comment" data-i18n="panel.feedback.commentsLabel">Comments</label>
             <textarea id="feedback-comment" rows="5" placeholder="Tell us what you liked or what could be improved..."></textarea>
         </div>
         <button id="submit-feedback-btn" class="submit-btn" data-i18n="panel.feedback.submitButton">Submit</button>
+=======
+            <label for="feedback-comment" data-i18n="panel.feedback.commentLabel">Comments</label>
+            <textarea id="feedback-comment" rows="5" data-i18n-placeholder="panel.feedback.commentPlaceholder" placeholder="Tell us what you liked or what could be improved..."></textarea>
+        </div>
+        <button id="submit-feedback-btn" class="submit-btn" data-i18n="panel.feedback.submit">Submit</button>
+>>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
     </div>
     <div id="upgrade-backdrop" class="hidden"></div>
     <div id="upgrade-panel">
         <button id="close-upgrade-btn" title="Close">&times;</button>
         <div class="upgrade-panel-content">
+<<<<<<< HEAD
             <h3 data-i18n="panel.upgrade.title"><i class="fas fa-crown"></i> Go Premium</h3>
+=======
+            <h3><i class="fas fa-crown"></i> <span data-i18n="panel.upgrade.title">Go Premium</span></h3>
+>>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
             <p data-i18n="panel.upgrade.intro">Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!</p>
             
             <table class="premium-features-table">
                 <tbody>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
+<<<<<<< HEAD
                         <td><strong data-i18n="panel.upgrade.feature1_title">Unlock All Tools</strong></td>
                         <td data-i18n="panel.upgrade.feature1_desc">Get immediate access to every premium tool.</td>
                     </tr>
@@ -343,14 +358,53 @@
                         <td><i class="fas fa-check-circle"></i></td>
                         <td><strong data-i18n="panel.upgrade.feature8_title">Support Development</strong></td>
                         <td data-i18n="panel.upgrade.feature8_desc">Help keep the core platform free for all teachers.</td>
+=======
+                        <td><strong data-i18n="panel.upgrade.f1_title">Unlock All Tools</strong></td>
+                        <td data-i18n="panel.upgrade.f1_desc">Get immediate access to every premium tool.</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><strong data-i18n="panel.upgrade.f2_title">Webcam &amp; Document Camera</strong></td>
+                        <td data-i18n="panel.upgrade.f2_desc">Use your webcam for live demonstrations.</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><strong data-i18n="panel.upgrade.f3_title">Photo Carousel</strong></td>
+                        <td data-i18n="panel.upgrade.f3_desc">Create engaging visual stories and slideshows.</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><strong data-i18n="panel.upgrade.f4_title">Gamify Lessons</strong></td>
+                        <td data-i18n="panel.upgrade.f4_desc">Use the Dice Roller and Counters to make learning fun.</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><strong data-i18n="panel.upgrade.f5_title">Manage Time</strong></td>
+                        <td data-i18n="panel.upgrade.f5_desc">Effortlessly manage classroom time with timers and stopwatches.</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><strong data-i18n="panel.upgrade.f6_title">Advanced Control</strong></td>
+                        <td data-i18n="panel.upgrade.f6_desc">Adjust opacity and layer your windows for the perfect setup.</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><strong data-i18n="panel.upgrade.f7_title">Future Tools</strong></td>
+                        <td data-i18n="panel.upgrade.f7_desc">Automatically get every new premium tool we release.</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><strong data-i18n="panel.upgrade.f8_title">Support Development</strong></td>
+                        <td data-i18n="panel.upgrade.f8_desc">Help keep the core platform free for all teachers.</td>
+>>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
                     </tr>
                 </tbody>
             </table>
         </div>
         <div class="upgrade-button-container">
             <button id="panel-upgrade-btn" class="submit-btn">
-                <div class="price-big">$2 per month</div>
-                <div class="price-small">$24 billed annually</div>
+                <div class="price-big">$2 <span data-i18n="panel.upgrade.perMonth">per month</span></div>
+                <div class="price-small">$24 <span data-i18n="panel.upgrade.billedAnnually">billed annually</span></div>
             </button>
         </div>
     </div>
@@ -370,6 +424,7 @@
               btn: { tablet: "Tablet Edition", "tablet.title": "Switch to Tablet Edition", clock: "Toggle Live Clock (K)", add: "Add New Window (N)", layouts: "Toggle Layouts (L)", colour: "Website Colour (X)", color: "Select Accent Color (C)", magic: "Extract Color from Content (M)", themePalette: "Theme Palette (Z)", bell: "Ring Bell (B)", shh: "Shush Sound (S)", "shh.label": "Shh", management: "Classroom Management Tools (/)", help: "Help & Resources (?)", laser: "Toggle Laser Pointer (P)", tour: "Start Guided Tour", demo: "Show Demo Video", info: "Show Information", refresh: "Refresh Page (R)", share: "Share with a Friend (J)", feedback: "Provide Feedback (F)", coffee: "Buy Me a Coffee (Y)", upgrade: "Upgrade to Premium (U)" }, 
               layout: { 1: "Layout 1: Full Screen (1)", 2: "Layout 2: Split Vertical (2)", 3: "Layout 3: Main Left (3)", 4: "Layout 4: Main Right (4)", 5: "Layout 5: Four Quadrants (5)", 6: "Layout 6: Tall Right Column (6)", 7: "Layout 7: 1-2-2 Column (7)" },
               panel: { 
+<<<<<<< HEAD
                   "upgrade.title": "Go Premium",
                   "upgrade.intro": "Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!",
                   "upgrade.feature1_title": "Unlock All Tools", "upgrade.feature1_desc": "Get immediate access to every premium tool.",
@@ -380,15 +435,37 @@
                   "upgrade.feature6_title": "Advanced Control", "upgrade.feature6_desc": "Adjust opacity and layer your windows for the perfect setup.",
                   "upgrade.feature7_title": "Future Tools", "upgrade.feature7_desc": "Automatically get every new premium tool we release.",
                   "upgrade.feature8_title": "Support Development", "upgrade.feature8_desc": "Help keep the core platform free for all teachers.",
+=======
+>>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
                   "share.title": "Spread the Word!", 
                   "feedback.title": "Provide Feedback",
                   "feedback.intro": "We'd love to hear your thoughts!",
                   "feedback.ratingLegend": "How would you rate your experience?",
+<<<<<<< HEAD
                   "feedback.commentsLabel": "Comments",
                   "feedback.commentsPlaceholder": "Tell us what you liked or what could be improved...",
                   "feedback.submitButton": "Submit",
                   "feedback.submitButtonSending": "Sending...",
                   "feedback.submitButtonSuccess": "Thank You!"
+=======
+                  "feedback.commentLabel": "Comments",
+                  "feedback.commentPlaceholder": "Tell us what you liked or what could be improved...",
+                  "feedback.submit": "Submit",
+                  "feedback.sending": "Sending...",
+                  "feedback.thanks": "Thank You!",
+                  "upgrade.title": "Go Premium",
+                  "upgrade.intro": "Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!",
+                  "upgrade.f1_title": "Unlock All Tools", "upgrade.f1_desc": "Get immediate access to every premium tool.",
+                  "upgrade.f2_title": "Webcam & Document Camera", "upgrade.f2_desc": "Use your webcam for live demonstrations.",
+                  "upgrade.f3_title": "Photo Carousel", "upgrade.f3_desc": "Create engaging visual stories and slideshows.",
+                  "upgrade.f4_title": "Gamify Lessons", "upgrade.f4_desc": "Use the Dice Roller and Counters to make learning fun.",
+                  "upgrade.f5_title": "Manage Time", "upgrade.f5_desc": "Effortlessly manage classroom time with timers and stopwatches.",
+                  "upgrade.f6_title": "Advanced Control", "upgrade.f6_desc": "Adjust opacity and layer your windows for the perfect setup.",
+                  "upgrade.f7_title": "Future Tools", "upgrade.f7_desc": "Automatically get every new premium tool we release.",
+                  "upgrade.f8_title": "Support Development", "upgrade.f8_desc": "Help keep the core platform free for all teachers.",
+                  "upgrade.perMonth": "per month",
+                  "upgrade.billedAnnually": "billed annually"
+>>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
               }
           },
           cs: { 
@@ -398,6 +475,7 @@
               btn: { tablet: "Tabletová verze", "tablet.title": "Přepnout na tabletovou verzi", clock: "Zobrazit/skryt živé hodiny (K)", add: "Přidat nové okno (N)", layouts: "Přepnout nástroje rozložení (L)", colour: "Barva webu (X)", color: "Zvolit zvýrazňovací barvu (C)", magic: "Extrahovat barvu z obsahu (M)", themePalette: "Paleta motivů (Z)", bell: "Zazvonit (B)", shh: "Zvuk Ticho (S)", "shh.label": "Pšš", management: "Nástroje pro správu třídy (/)", help: "Nápověda a zdroje (?)", laser: "Přepnout laserové ukazovátko (P)", tour: "Spustit prohlídku", demo: "Zobrazit ukázkové video", info: "Zobrazit informace", refresh: "Obnovit stránku (R)", share: "Sdílet s přítelem (J)", feedback: "Zpětná vazba (F)", coffee: "Pozvat na kávu (Y)", upgrade: "Přejít na Premium (U)" }, 
               layout: { 1: "Rozvržení 1: Celá obrazovka (1)", 2: "Rozvržení 2: Vertikální rozdělení (2)", 3: "Rozvržení 3: Vlevo hlavní (3)", 4: "Rozvržení 4: Vpravo hlavní (4)", 5: "Rozvržení 5: Čtyři kvadranty (5)", 6: "Rozvržení 6: Vysoký pravý sloupec (6)", 7: "Rozvržení 7: 1-2-2 sloupce (7)" },
               panel: { 
+<<<<<<< HEAD
                   "upgrade.title": "Přejít na Premium",
                   "upgrade.intro": "Vylepšete svou třídu odemknutím všech interaktivních nástrojů v Teacher Toybox!",
                   "upgrade.feature1_title": "Odemknout všechny nástroje", "upgrade.feature1_desc": "Získejte okamžitý přístup ke všem prémiovým nástrojům.",
@@ -408,10 +486,13 @@
                   "upgrade.feature6_title": "Pokročilé ovládání", "upgrade.feature6_desc": "Upravte průhlednost a vrstvěte okna pro dokonalé nastavení.",
                   "upgrade.feature7_title": "Budoucí nástroje", "upgrade.feature7_desc": "Automaticky získejte každý nový prémiový nástroj, který vydáme.",
                   "upgrade.feature8_title": "Podpořte vývoj", "upgrade.feature8_desc": "Pomozte udržet základní platformu zdarma pro všechny učitele.",
+=======
+>>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
                   "share.title": "Šířit dál!", 
                   "feedback.title": "Poskytnout zpětnou vazbu",
                   "feedback.intro": "Rádi bychom slyšeli vaše názory!",
                   "feedback.ratingLegend": "Jak byste ohodnotili svou zkušenost?",
+<<<<<<< HEAD
                   "feedback.commentsLabel": "Komentáře",
                   "feedback.commentsPlaceholder": "Řekněte nám, co se vám líbilo nebo co by se dalo vylepšit...",
                   "feedback.submitButton": "Odeslat",
@@ -420,6 +501,27 @@
               }
           },
           // ... (Translations for other languages would go here)
+=======
+                  "feedback.commentLabel": "Komentáře",
+                  "feedback.commentPlaceholder": "Řekněte nám, co se vám líbilo nebo co by se dalo vylepšit...",
+                  "feedback.submit": "Odeslat",
+                  "feedback.sending": "Odesílání...",
+                  "feedback.thanks": "Děkujeme!",
+                  "upgrade.title": "Přejít na Premium",
+                  "upgrade.intro": "Vylepšete svou třídu odemknutím všech interaktivních nástrojů v Teacher Toybox!",
+                  "upgrade.f1_title": "Odemknout všechny nástroje", "upgrade.f1_desc": "Získejte okamžitý přístup ke všem prémiovým nástrojům.",
+                  "upgrade.f2_title": "Webkamera a kamera na dokumenty", "upgrade.f2_desc": "Použijte svou webkameru pro živé ukázky.",
+                  "upgrade.f3_title": "Fotokaruzel", "upgrade.f3_desc": "Vytvářejte poutavé vizuální příběhy a prezentace.",
+                  "upgrade.f4_title": "Gamifikujte hodiny", "upgrade.f4_desc": "Použijte kostky a počítadla, aby bylo učení zábavné.",
+                  "upgrade.f5_title": "Spravujte čas", "upgrade.f5_desc": "Snadno spravujte čas ve třídě pomocí časovačů a stopek.",
+                  "upgrade.f6_title": "Pokročilé ovládání", "upgrade.f6_desc": "Upravte průhlednost a vrstvěte okna pro dokonalé nastavení.",
+                  "upgrade.f7_title": "Budoucí nástroje", "upgrade.f7_desc": "Automaticky získejte každý nový prémiový nástroj, který vydáme.",
+                  "upgrade.f8_title": "Podpořte vývoj", "upgrade.f8_desc": "Pomozte udržet základní platformu zdarma pro všechny učitele.",
+                  "upgrade.perMonth": "měsíčně",
+                  "upgrade.billedAnnually": "účtováno ročně"
+              }
+          }
+>>>>>>> 4177ca8bb435a6543fb139e59d4aa5046b75e1bc
         };
     
         window.t = function(dict, path) {
@@ -485,6 +587,12 @@
               if (placeholderText) feedbackComment.setAttribute('placeholder', placeholderText);
           }
     
+          document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.dataset.i18nPlaceholder;
+            const val = t(dict, key) || t(I18N.en, key);
+            if (typeof val === 'string') el.setAttribute('placeholder', val);
+          });
+
           const shh = document.getElementById('shhButton');
           if (shh) {
             const label = t(dict, 'btn.shh.label') || 'Shh';
