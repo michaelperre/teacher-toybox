@@ -63,40 +63,48 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // --- NEW: Reusable function to start the checkout process ---
+    const initiateCheckout = async () => {
+      // This function assumes the user is authenticated.
+      try {
+        const user = await auth0Client.getUser();
+        if (!user) {
+          throw new Error("User not found after authentication.");
+        }
+        // IMPORTANT: Replace with your Stripe PUBLISHABLE Key
+        const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF'); // UPDATED KEY
+        const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo'; // UPDATED KEY
+
+        const response = await fetch('/api/create-checkout-session', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ userId: user.sub, priceId: priceId }),
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to create checkout session.');
+        }
+
+        const { sessionId } = await response.json();
+        await stripe.redirectToCheckout({ sessionId });
+      } catch (error) {
+        console.error("Error redirecting to checkout:", error);
+        alert("Could not connect to the payment service. Please try again later.");
+      }
+    };
+    // --- END of new function ---
+
     if (premiumBackdrop) premiumBackdrop.onclick = closePremiumModal;
     if (closePremiumBtn) closePremiumBtn.onclick = closePremiumModal;
 
     if (goPremiumBtn) {
         goPremiumBtn.onclick = async () => {
             if (!await auth0Client.isAuthenticated()) {
-                login('upgrade'); // CORRECTED
+                login('upgrade'); // Redirects to login with upgrade intent
                 return;
             }
-
-            const user = await auth0Client.getUser();
-            // IMPORTANT: Replace with your Stripe PUBLISHABLE Key
-            const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF'); // UPDATED KEY
-            const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo'; // UPDATED KEY
-
-            try {
-                // This fetch call requires your backend serverless function to be running
-                const response = await fetch('/api/create-checkout-session', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ userId: user.sub, priceId: priceId }),
-                });
-
-                if (!response.ok) {
-                    throw new Error('Failed to create checkout session.');
-                }
-
-                const { sessionId } = await response.json();
-
-                await stripe.redirectToCheckout({ sessionId });
-            } catch (error) {
-                console.error("Error redirecting to checkout:", error);
-                alert("Could not connect to the payment service. Please try again later.");
-            }
+            // If already logged in, go straight to checkout
+            initiateCheckout();
         };
     }
 
@@ -2192,31 +2200,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (panelUpgradeBtn) {
         panelUpgradeBtn.onclick = async () => {
             if (!await auth0Client.isAuthenticated()) {
-                login('upgrade');
+                login('upgrade'); // Redirects to login with upgrade intent
                 return;
             }
-
-            const user = await auth0Client.getUser();
-            const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF'); // UPDATED KEY
-            const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo'; // UPDATED KEY
-
-            try {
-                const response = await fetch('/api/create-checkout-session', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ userId: user.sub, priceId: priceId }),
-                });
-
-                if (!response.ok) {
-                    throw new Error('Failed to create checkout session.');
-                }
-
-                const { sessionId } = await response.json();
-                await stripe.redirectToCheckout({ sessionId });
-            } catch (error) {
-                console.error("Error redirecting to checkout:", error);
-                alert("Could not connect to the payment service. Please try again later.");
-            }
+            // If already logged in, go straight to checkout
+            initiateCheckout();
         };
     }
 
@@ -2676,10 +2664,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Listen for the custom event from auth.js
     document.addEventListener('postLoginAction', (e) => {
         if (e.detail === 'upgrade') {
-            // We need a short delay to ensure the UI has updated after login
+            // The user just logged in with the intent to upgrade.
+            // Instead of showing the panel again, proceed directly to checkout.
             setTimeout(() => {
-                openUpgradePanel();
-            }, 500); // 500ms delay
+                initiateCheckout();
+            }, 500); // 500ms delay to ensure UI is ready
         }
     });
 
