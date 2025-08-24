@@ -2623,7 +2623,7 @@ document.addEventListener('DOMContentLoaded', () => {
           });
       }
     })();
-
+    
     // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
     // Old premiumSidebarButtons array removed.
     
@@ -2637,5 +2637,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 500); // 500ms delay to ensure UI is ready
         }
     });
-
 });
