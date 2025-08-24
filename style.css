@@ -209,15 +209,14 @@ body.light-mode.no-grid {
 #management-bar,
 #help-bar {
     position: absolute;
-    right: 100%;
+    right: calc(100% + 10px); /* Position to the left of the parent, with a 10px gap */
     top: 50%;
-    transform: translateY(-50%) translateX(20px);
+    transform: translateY(-50%); /* Center vertically */
     width: auto;
     background: var(--sidebar-bg);
     border: 1px solid var(--border-color);
     border-right: none;
     padding: 8px;
-    margin-right: 8px;
     border-radius: 8px 0 0 8px;
     display: flex;
     gap: 8px;
