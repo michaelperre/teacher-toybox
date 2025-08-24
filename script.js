@@ -44,22 +44,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const $ = id => document.getElementById(id);
 
     // *** Premium Modal Logic for tool usage ***
-    const premiumModal = $('premium-modal');
-    const premiumBackdrop = $('premium-backdrop');
-    const closePremiumBtn = $('close-premium-modal-btn');
-    const goPremiumBtn = $('go-premium-btn');
+    const upgradePanel = $('upgrade-panel');
+    const upgradeBackdrop = $('upgrade-backdrop');
+    const closeUpgradeBtn = $('close-upgrade-btn');
+    const panelUpgradeBtn = $('panel-upgrade-btn');
 
-    const openPremiumModal = () => {
-        if (premiumBackdrop && premiumModal) {
-            premiumBackdrop.classList.remove('hidden');
-            premiumModal.classList.remove('hidden');
+    const openUpgradePanel = () => {
+        if (upgradeBackdrop && upgradePanel) {
+            upgradeBackdrop.classList.remove('hidden');
+            upgradePanel.classList.add('open');
         }
     };
 
-    const closePremiumModal = () => {
-        if (premiumBackdrop && premiumModal) {
-            premiumBackdrop.classList.add('hidden');
-            premiumModal.classList.add('hidden');
+    const closeUpgradePanel = () => {
+        if (upgradeBackdrop && upgradePanel) {
+            upgradeBackdrop.classList.add('hidden');
+            upgradePanel.classList.remove('open');
         }
     };
 
@@ -94,11 +94,11 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     // --- END of new function ---
 
-    if (premiumBackdrop) premiumBackdrop.onclick = closePremiumModal;
-    if (closePremiumBtn) closePremiumBtn.onclick = closePremiumModal;
+    if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
+    if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
-    if (goPremiumBtn) {
-        goPremiumBtn.onclick = async () => {
+    if (panelUpgradeBtn) {
+        panelUpgradeBtn.onclick = async () => {
             if (!await auth0Client.isAuthenticated()) {
                 login('upgrade'); // Redirects to login with upgrade intent
                 return;
@@ -1545,7 +1545,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.innerHTML = `<i class="${tool.icon}"></i>`;
             btn.onclick = () => {
                 if (tool.premium && !window.TT.isPremium) {
-                    openPremiumModal();
+                    openUpgradePanel();
                     return;
                 }
                 cleanupWindowTools(win);
@@ -1883,7 +1883,7 @@ document.addEventListener('DOMContentLoaded', () => {
             layoutState.activeLayout = null;
             localStorage.removeItem('ttx_lastLayout');
         } else {
-            openPremiumModal();
+            openUpgradePanel();
         }
     };
     
@@ -1896,7 +1896,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (closeInfoIfOpen()) return;
                 colorPalette.classList.toggle('hidden');
             } else {
-                openPremiumModal();
+                openUpgradePanel();
             }
         };
     }
@@ -2002,7 +2002,7 @@ document.addEventListener('DOMContentLoaded', () => {
             showOverlay('🎨');
             layoutState.activeLayout = null;
         } else {
-            openPremiumModal();
+            openUpgradePanel();
         }
     };
 
@@ -2129,7 +2129,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('layout-bar').classList.remove('open');
         $('management-bar').classList.remove('open');
         $('help-bar').classList.remove('open');
-        $('upgrade-panel').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
         $('extra-tools-bar').classList.toggle('open');
     };
 
@@ -2139,7 +2139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('extra-tools-bar').classList.remove('open');
         $('management-bar').classList.remove('open');
         $('help-bar').classList.remove('open');
-        $('upgrade-panel').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
         $('layout-bar').classList.toggle('open');
     };
 
@@ -2149,7 +2149,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('extra-tools-bar').classList.remove('open');
         $('layout-bar').classList.remove('open');
         $('help-bar').classList.remove('open');
-        $('upgrade-panel').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
         $('management-bar').classList.toggle('open');
     };
     
@@ -2159,39 +2159,12 @@ document.addEventListener('DOMContentLoaded', () => {
         $('extra-tools-bar').classList.remove('open');
         $('layout-bar').classList.remove('open');
         $('management-bar').classList.remove('open');
-        $('upgrade-panel').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
         $('help-bar').classList.toggle('open');
     };
     
     // --- Upgrade Panel Logic ---
     const upgradeButton = $('upgradeButton');
-    const upgradePanel = $('upgrade-panel');
-    const upgradeBackdrop = $('upgrade-backdrop');
-    const closeUpgradeBtn = $('close-upgrade-btn');
-    const panelUpgradeBtn = $('panel-upgrade-btn');
-
-    const openUpgradePanel = (e) => {
-        if (e) e.stopPropagation();
-        if (closeInfoIfOpen()) return;
-
-        // Close other side panels for a clean UI
-        $('extra-tools-bar').classList.remove('open');
-        $('layout-bar').classList.remove('open');
-        $('management-bar').classList.remove('open');
-        $('help-bar').classList.remove('open');
-
-        if (upgradeBackdrop && upgradePanel) {
-            upgradeBackdrop.classList.remove('hidden');
-            upgradePanel.classList.add('open');
-        }
-    };
-
-    const closeUpgradePanel = () => {
-        if (upgradePanel && upgradeBackdrop) {
-            upgradePanel.classList.remove('open');
-            upgradeBackdrop.classList.add('hidden');
-        }
-    };
 
     if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
     if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
@@ -2556,10 +2529,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel) {
             // Close simple toolbars
-            $('layout-bar').classList.remove('open');
-            $('management-bar').classList.remove('open');
-            $('extra-tools-bar').classList.remove('open');
-            $('help-bar').classList.remove('open');
+            if($('layout-bar')) $('layout-bar').classList.remove('open');
+            if($('management-bar')) $('management-bar').classList.remove('open');
+            if($('extra-tools-bar')) $('extra-tools-bar').classList.remove('open');
+            if($('help-bar')) $('help-bar').classList.remove('open');
 
             // Use the dedicated close functions to also hide the backdrops
             closeUpgradePanel();
