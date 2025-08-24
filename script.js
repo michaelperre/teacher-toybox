@@ -2212,6 +2212,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function closeFeedbackPanel() {
         if(feedbackPanel && feedbackBackdrop) {
+            const currentLang = localStorage.getItem('ttx_lang') || 'en';
             feedbackPanel.classList.remove('open');
             feedbackBackdrop.classList.add('hidden');
             setTimeout(() => {
@@ -2219,7 +2220,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 currentRating = 0;
                 updateStars();
                 submitFeedbackBtn.disabled = false;
-                submitFeedbackBtn.textContent = 'Submit';
+                submitFeedbackBtn.style.backgroundColor = '';
+                submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButton') || 'Submit';
             }, 400);
         }
     }
@@ -2252,8 +2254,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert('Please provide a rating or a comment.');
                 return;
             }
+            const currentLang = localStorage.getItem('ttx_lang') || 'en';
+
             submitFeedbackBtn.disabled = true;
-            submitFeedbackBtn.textContent = 'Sending...';
+            submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButtonSending') || 'Sending...';
+
             const formData = new FormData();
             formData.append('rating', currentRating);
             formData.append('comment', comment);
@@ -2264,7 +2269,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     headers: { 'Accept': 'application/json' }
                 });
                 if (response.ok) {
-                    submitFeedbackBtn.textContent = 'Thank You!';
+                    submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButtonSuccess') || 'Thank You!';
                     submitFeedbackBtn.style.backgroundColor = 'var(--success-color)';
                     setTimeout(closeFeedbackPanel, 1500);
                 } else { throw new Error('Form submission failed'); }
@@ -2272,7 +2277,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.error('Error submitting feedback:', error);
                 alert('Sorry, there was an error sending your feedback.');
                 submitFeedbackBtn.disabled = false;
-                submitFeedbackBtn.textContent = 'Submit';
+                submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButton') || 'Submit';
             }
         };
     }
