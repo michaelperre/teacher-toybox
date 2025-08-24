@@ -1,5 +1,6 @@
-# Environment variables
-.env.local
+# Dependencies
+/node_modules
 
-# Node dependencies
-node_modules
+# Environment Variables
+.env.local
+.env.local.txt
