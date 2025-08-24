@@ -2219,7 +2219,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 currentRating = 0;
                 updateStars();
                 submitFeedbackBtn.disabled = false;
-                submitFeedbackBtn.textContent = 'Submit';
+                const lang = localStorage.getItem('ttx_lang') || 'en';
+                const dict = window.I18N[lang] || window.I18N.en;
+                submitFeedbackBtn.textContent = window.t(dict, 'panel.feedback.submit');
             }, 400);
         }
     }
@@ -2252,8 +2254,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert('Please provide a rating or a comment.');
                 return;
             }
+
+            const lang = localStorage.getItem('ttx_lang') || 'en';
+            const dict = window.I18N[lang] || window.I18N.en;
+
             submitFeedbackBtn.disabled = true;
-            submitFeedbackBtn.textContent = 'Sending...';
+            submitFeedbackBtn.textContent = window.t(dict, 'panel.feedback.sending');
+
             const formData = new FormData();
             formData.append('rating', currentRating);
             formData.append('comment', comment);
@@ -2264,7 +2271,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     headers: { 'Accept': 'application/json' }
                 });
                 if (response.ok) {
-                    submitFeedbackBtn.textContent = 'Thank You!';
+                    submitFeedbackBtn.textContent = window.t(dict, 'panel.feedback.thanks');
                     submitFeedbackBtn.style.backgroundColor = 'var(--success-color)';
                     setTimeout(closeFeedbackPanel, 1500);
                 } else { throw new Error('Form submission failed'); }
@@ -2272,7 +2279,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.error('Error submitting feedback:', error);
                 alert('Sorry, there was an error sending your feedback.');
                 submitFeedbackBtn.disabled = false;
-                submitFeedbackBtn.textContent = 'Submit';
+                submitFeedbackBtn.textContent = window.t(dict, 'panel.feedback.submit');
             }
         };
     }
@@ -2622,15 +2629,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
     // Old premiumSidebarButtons array removed.
     
-    // Listen for the custom event from auth.js
-    document.addEventListener('postLoginAction', (e) => {
-        if (e.detail === 'upgrade') {
-            // The user just logged in with the intent to upgrade.
-            // Instead of showing the panel again, proceed directly to checkout.
-            setTimeout(() => {
-                initiateCheckout();
-            }, 500); // 500ms delay to ensure UI is ready
-        }
-    });
-
-});
+    // Listen for the custom event

@@ -278,9 +278,9 @@
     <div id="feedback-panel">
         <button id="close-feedback-btn" title="Close">&times;</button>
         <h3 data-i18n="panel.feedback.title">Provide Feedback</h3>
-        <p>We'd love to hear your thoughts!</p>
+        <p data-i18n="panel.feedback.intro">We'd love to hear your thoughts!</p>
         <fieldset class="form-group">
-            <legend>How would you rate your experience?</legend>
+            <legend data-i18n="panel.feedback.ratingLegend">How would you rate your experience?</legend>
             <div id="feedback-rating" class="star-rating">
                 <i class="fas fa-star" data-value="1"></i>
                 <i class="fas fa-star" data-value="2"></i>
@@ -290,67 +290,67 @@
             </div>
         </fieldset>
         <div class="form-group">
-            <label for="feedback-comment">Comments</label>
-            <textarea id="feedback-comment" rows="5" placeholder="Tell us what you liked or what could be improved..."></textarea>
+            <label for="feedback-comment" data-i18n="panel.feedback.commentLabel">Comments</label>
+            <textarea id="feedback-comment" rows="5" data-i18n-placeholder="panel.feedback.commentPlaceholder" placeholder="Tell us what you liked or what could be improved..."></textarea>
         </div>
-        <button id="submit-feedback-btn" class="submit-btn">Submit</button>
+        <button id="submit-feedback-btn" class="submit-btn" data-i18n="panel.feedback.submit">Submit</button>
     </div>
     <div id="upgrade-backdrop" class="hidden"></div>
     <div id="upgrade-panel">
         <button id="close-upgrade-btn" title="Close">&times;</button>
         <div class="upgrade-panel-content">
-            <h3 data-i18n="panel.upgrade.title"><i class="fas fa-crown"></i> Go Premium</h3>
-            <p>Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!</p>
+            <h3><i class="fas fa-crown"></i> <span data-i18n="panel.upgrade.title">Go Premium</span></h3>
+            <p data-i18n="panel.upgrade.intro">Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!</p>
             
             <table class="premium-features-table">
                 <tbody>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Unlock All Tools</strong></td>
-                        <td>Get immediate access to every premium tool.</td>
+                        <td><strong data-i18n="panel.upgrade.f1_title">Unlock All Tools</strong></td>
+                        <td data-i18n="panel.upgrade.f1_desc">Get immediate access to every premium tool.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Webcam &amp; Document Camera</strong></td>
-                        <td>Use your webcam for live demonstrations.</td>
+                        <td><strong data-i18n="panel.upgrade.f2_title">Webcam &amp; Document Camera</strong></td>
+                        <td data-i18n="panel.upgrade.f2_desc">Use your webcam for live demonstrations.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Photo Carousel</strong></td>
-                        <td>Create engaging visual stories and slideshows.</td>
+                        <td><strong data-i18n="panel.upgrade.f3_title">Photo Carousel</strong></td>
+                        <td data-i18n="panel.upgrade.f3_desc">Create engaging visual stories and slideshows.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Gamify Lessons</strong></td>
-                        <td>Use the Dice Roller and Counters to make learning fun.</td>
+                        <td><strong data-i18n="panel.upgrade.f4_title">Gamify Lessons</strong></td>
+                        <td data-i18n="panel.upgrade.f4_desc">Use the Dice Roller and Counters to make learning fun.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Manage Time</strong></td>
-                        <td>Effortlessly manage classroom time with timers and stopwatches.</td>
+                        <td><strong data-i18n="panel.upgrade.f5_title">Manage Time</strong></td>
+                        <td data-i18n="panel.upgrade.f5_desc">Effortlessly manage classroom time with timers and stopwatches.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Advanced Control</strong></td>
-                        <td>Adjust opacity and layer your windows for the perfect setup.</td>
+                        <td><strong data-i18n="panel.upgrade.f6_title">Advanced Control</strong></td>
+                        <td data-i18n="panel.upgrade.f6_desc">Adjust opacity and layer your windows for the perfect setup.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Future Tools</strong></td>
-                        <td>Automatically get every new premium tool we release.</td>
+                        <td><strong data-i18n="panel.upgrade.f7_title">Future Tools</strong></td>
+                        <td data-i18n="panel.upgrade.f7_desc">Automatically get every new premium tool we release.</td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-check-circle"></i></td>
-                        <td><strong>Support Development</strong></td>
-                        <td>Help keep the core platform free for all teachers.</td>
+                        <td><strong data-i18n="panel.upgrade.f8_title">Support Development</strong></td>
+                        <td data-i18n="panel.upgrade.f8_desc">Help keep the core platform free for all teachers.</td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <div class="upgrade-button-container">
             <button id="panel-upgrade-btn" class="submit-btn">
-                <div class="price-big">$2 per month</div>
-                <div class="price-small">$24 billed annually</div>
+                <div class="price-big">$2 <span data-i18n="panel.upgrade.perMonth">per month</span></div>
+                <div class="price-small">$24 <span data-i18n="panel.upgrade.billedAnnually">billed annually</span></div>
             </button>
         </div>
     </div>
