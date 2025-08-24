@@ -1788,7 +1788,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         const supportedLangs = {
             en: "English", cs: "Čeština", uk: "Українська", zh: "中文（简体）", hi: "हिन्दी", 
-            es: "Español", fr: "Français", ar: "العربية", fa: "فارسی", pt: "Português", ru: "Русский"
+            es: "Español", fr: "Français", ar: "العربية", fa: "فارसी", pt: "Português", ru: "Русский"
         };
         
         Object.entries(supportedLangs).forEach(([code, name]) => {
