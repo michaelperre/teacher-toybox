@@ -69,14 +69,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (goPremiumBtn) {
         goPremiumBtn.onclick = async () => {
             if (!await auth0Client.isAuthenticated()) {
-                login(); // Prompt login if not authenticated
+                login('upgrade'); // CORRECTED
                 return;
             }
 
             const user = await auth0Client.getUser();
             // IMPORTANT: Replace with your Stripe PUBLISHABLE Key
-            const stripe = Stripe('YOUR_STRIPE_PUBLISHABLE_KEY'); 
-            const priceId = 'YOUR_PRICE_ID'; // Your Price ID is now here!
+            const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF'); // UPDATED KEY
+            const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo'; // UPDATED KEY
 
             try {
                 // This fetch call requires your backend serverless function to be running
@@ -2192,14 +2192,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (panelUpgradeBtn) {
         panelUpgradeBtn.onclick = async () => {
             if (!await auth0Client.isAuthenticated()) {
-                login(); // Prompt login if not authenticated
+                login('upgrade');
                 return;
             }
 
             const user = await auth0Client.getUser();
-            // IMPORTANT: Replace with your Stripe PUBLISHABLE Key
-            const stripe = Stripe('YOUR_STRIPE_PUBLISHABLE_KEY'); 
-            const priceId = 'YOUR_PRICE_ID'; // Your Price ID
+            const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF'); // UPDATED KEY
+            const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo'; // UPDATED KEY
 
             try {
                 const response = await fetch('/api/create-checkout-session', {
@@ -2673,4 +2672,14 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
     // Old premiumSidebarButtons array removed.
+    
+    // Listen for the custom event from auth.js
+    document.addEventListener('postLoginAction', (e) => {
+        if (e.detail === 'upgrade') {
+            // We need a short delay to ensure the UI has updated after login
+            setTimeout(() => {
+                openUpgradePanel();
+            }, 500); // 500ms delay
+        }
+    });
 });
