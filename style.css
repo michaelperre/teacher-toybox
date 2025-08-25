@@ -1701,6 +1701,7 @@ body.light-mode #date-display.date-enlarged {
 
 body.light-mode .text-editor-control-btn {
     background-color: rgba(0, 0, 0, 0.08); /* Light grey for light mode */
+    color: var(--text-primary); /* Dark icon for light mode */
 }
 
 body.light-mode .text-editor-control-btn:hover {
