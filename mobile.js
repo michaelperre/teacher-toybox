@@ -1,3 +1,9 @@
+// Core bootstrap & shared state
+const global = window;
+global.TT = global.TT || {};
+global.TT.isAuthenticated = false;
+global.TT.isPremium = false;
+
 // --- Splash Screen Helper ---
 (function() {
   var armed = false;
