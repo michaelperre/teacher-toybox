@@ -73,6 +73,29 @@
     <audio id="bellSound" preload="auto" src="bell.mp3"></audio>
     <audio id="shhSound" preload="auto" src="shh.mp3"></audio>
     
+    <div id="upgrade-backdrop" class="visible"></div>
+    <div id="upgrade-panel" class="visible">
+        <button id="close-upgrade-btn" title="Close">&times;</button>
+        <div class="upgrade-panel-content">
+            <h3 data-i18n="panel.upgrade.title"><i class="fas fa-crown"></i> Go Premium</h3>
+            <p data-i18n="panel.upgrade.intro">Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!</p>
+            
+            <ul class="premium-features-list">
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature1_title">Unlock All Tools</strong><span data-i18n="panel.upgrade.feature1_desc">Get immediate access to every premium tool.</span></div></li>
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature2_title">Webcam &amp; Document Camera</strong><span data-i18n="panel.upgrade.feature2_desc">Use your webcam for live demonstrations.</span></div></li>
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature3_title">Photo Carousel</strong><span data-i18n="panel.upgrade.feature3_desc">Create engaging visual stories and slideshows.</span></div></li>
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature4_title">Gamify Lessons</strong><span data-i18n="panel.upgrade.feature4_desc">Use the Dice Roller and Counters to make learning fun.</span></div></li>
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature8_title">Support Development</strong><span data-i18n="panel.upgrade.feature8_desc">Help keep the core platform free for all teachers.</span></div></li>
+            </ul>
+        </div>
+        <div class="upgrade-button-container">
+            <button id="panel-upgrade-btn" class="submit-btn">
+                <div class="price-big" data-i18n="panel.upgrade.priceBig">$2 per month</div>
+                <div class="price-small" data-i18n="panel.upgrade.priceSmall">$24 billed annually</div>
+            </button>
+        </div>
+    </div>
+
     <script src="mobile.js"></script>
 </body>
 </html>

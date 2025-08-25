@@ -32,6 +32,10 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+body.no-scroll {
+    overflow: hidden;
+}
+
 /* --- Top Bar --- */
 #top-bar {
     display: flex;
@@ -801,4 +805,141 @@ html, body {
     color: #FFD700; /* Gold */
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
     pointer-events: none;
+}
+
+/* --- Upgrade Panel Styles --- */
+#upgrade-backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+#upgrade-backdrop.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#upgrade-panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 85vh;
+    background-color: #252527;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(100%);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#upgrade-panel.visible {
+    transform: translateY(0);
+}
+
+#close-upgrade-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.3);
+    border: none;
+    color: var(--text-secondary);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.upgrade-panel-content {
+    padding: 25px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.upgrade-panel-content h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: #FFD700;
+}
+.upgrade-panel-content h3 .fas {
+    margin-right: 8px;
+}
+
+.upgrade-panel-content p {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.premium-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.premium-features-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+.premium-features-list .fas {
+    color: var(--success-color);
+    font-size: 20px;
+    margin-top: 2px;
+}
+.premium-features-list div {
+    display: flex;
+    flex-direction: column;
+}
+.premium-features-list strong {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+.premium-features-list span {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+.upgrade-button-container {
+    padding: 20px;
+    padding-top: 15px;
+    background-color: rgba(0,0,0,0.2);
+    border-top: 1px solid var(--border-color);
+    padding-bottom: calc(20px + env(safe-area-inset-bottom));
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    background: var(--accent-color);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.submit-btn:hover {
+    background: var(--accent-hover);
+}
+.price-big {
+    font-size: 18px;
+    font-weight: 700;
+}
+.price-small {
+    font-size: 12px;
+    opacity: 0.8;
 }
