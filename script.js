@@ -2203,28 +2203,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentRating = 0;
 
-    function translateFeedbackPanel() {
-        const lang = localStorage.getItem('ttx_lang') || 'en';
-        const dict = window.I18N[lang] || window.I18N.en;
-
-        const title = document.querySelector('#feedback-panel h3');
-        const intro = document.querySelector('#feedback-panel p');
-        const legend = document.querySelector('#feedback-panel legend');
-        const commentsLabel = document.querySelector('#feedback-panel label[for="feedback-comment"]');
-        const commentsInput = document.getElementById('feedback-comment');
-        const submitBtn = document.getElementById('submit-feedback-btn');
-
-        if (title) title.textContent = window.t(dict, 'panel.feedback.title');
-        if (intro) intro.textContent = window.t(dict, 'panel.feedback.intro');
-        if (legend) legend.textContent = window.t(dict, 'panel.feedback.ratingLegend');
-        if (commentsLabel) commentsLabel.textContent = window.t(dict, 'panel.feedback.commentsLabel');
-        if (commentsInput) commentsInput.placeholder = window.t(dict, 'panel.feedback.commentsPlaceholder');
-        if (submitBtn) submitBtn.textContent = window.t(dict, 'panel.feedback.submitButton');
-    }
-
     function openFeedbackPanel() {
         if(feedbackBackdrop && feedbackPanel) {
-            translateFeedbackPanel(); // Re-translate the panel every time it opens
             feedbackBackdrop.classList.remove('hidden');
             feedbackPanel.classList.add('open');
         }
