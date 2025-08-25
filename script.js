@@ -1792,6 +1792,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const bar = w.querySelector('.drag-bar');
         if (bar) bar.style.display = 'none';
 
+        const closeBtn = document.createElement('button');
+        closeBtn.className = 'info-close-btn';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.title = 'Close';
+        closeBtn.onclick = (e) => {
+            e.stopPropagation(); // Prevent the main window's onclick from firing
+            closeInfoIfOpen();
+        };
+        w.appendChild(closeBtn);
+
         const winSidebar = w.querySelector('.win-sidebar');
         if (winSidebar) winSidebar.style.display = 'none';
         
@@ -1810,10 +1820,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const infoWrapper = document.createElement('div');
         infoWrapper.className = 'info-content-wrapper';
     
-        // Store references to the new elements for the global update function
         infoWindowElements.wrapper = infoWrapper;
         
-        // Render the initial text based on the currently selected language
         const initialLang = localStorage.getItem('ttx_lang') || 'en';
         renderInfoTextForWindow(initialLang);
 
@@ -1835,7 +1843,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(fitInfoWindowText, 50);
     
         w.onclick = (e) => {
-            // Check if the click is on the background to close it
             if (e.target === w || e.target === v || e.target === mainArea) {
                  closeInfoIfOpen();
             }
