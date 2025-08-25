@@ -35,6 +35,93 @@ const infoTranslations = {
         ],
         conclusion: "Teacher Toybox combines the best of a physical whiteboard, a media player, and essential teaching gadgets into one free, flexible, and fun-to-use package designed for the future of education."
     },
+    'es': {
+        title: "¡Bienvenido a Teacher Toybox!",
+        subtitle: "Tu centro de mando dinámico para el aula de hoy. Teacher Toybox combina herramientas digitales esenciales en una interfaz flexible e intuitiva diseñada para la enseñanza moderna y adaptativa.",
+        section1_title: "Aprendizaje Personalizado y Mejorado con IA",
+        section1_points: [
+            "Lienzos Dinámicos: Ve más allá de una simple pizarra. Crea múltiples ventanas para diferentes actividades, facilitando rutas de aprendizaje personalizadas para estudiantes individuales o grupos.",
+            "Contenido Adaptable: Arrastra y suelta imágenes, PDFs, videos y más. Usa nuestra función 'Color Mágico' (M) para adaptar automáticamente el tema de la interfaz a tu contenido, creando un entorno de aprendizaje cohesivo e inmersivo.",
+            "Diseños Flexibles: Cambia instantáneamente entre diseños como Pantalla Dividida o Cuatro Cuadrantes para organizar la información para diversos estilos de enseñanza, desde la instrucción directa hasta el trabajo en grupo colaborativo."
+        ],
+        section2_title: "Una 'Caja de Juguetes' de Herramientas Inmersivas y Atractivas",
+        section2_points: [
+            "Pizarra Interactiva: Un lienzo de dibujo con todas las funciones y una barra de anotaciones de fácil acceso para notas rápidas, lluvia de ideas o anotaciones en vivo sobre cualquier contenido.",
+            "Gamificación y Temporizadores: Aumenta la participación con herramientas como el Lanzador de Dados (G) para juegos de matemáticas o lecciones de probabilidad. Usa el Temporizador de Cuenta Regresiva (O) y el Cronómetro (H) incorporados para gestionar actividades y mantener el ritmo de la lección.",
+            "Centro Multimedia: Usa el Carrusel de Fotos (V) para narración visual, la Webcam (W) como cámara de documentos para demostraciones físicas, y el Editor de Texto (T) para tomar notas en vivo o dar instrucciones."
+        ],
+        section3_title: "Gestión de Aula Simplificada",
+        section3_points: [
+            "Señales de Atención: Usa el sonido de 'Campana' (B) para señalar transiciones o llamar la atención de la clase, y un sonido de 'Shh' (S) como un recordatorio amable para guardar silencio.",
+            "Puntero Láser Digital: Dirige el enfoque de los estudiantes a partes específicas de la pantalla con el Puntero (P) durante las presentaciones sin marcar el contenido en sí.",
+            "Control sin Esfuerzo: Con teclas de acceso rápido para casi todas las funciones (como N para añadir una ventana), puedes gestionar el entorno del aula de forma fluida sin interrumpir el flujo de tu lección."
+        ],
+        section4_title: "Accesible y Seguro por Diseño",
+        section4_points: [
+            "No se necesita instalación: Como plataforma basada en la web, Teacher Toybox funciona en cualquier ordenador con un navegador moderno, lo que lo hace perfecto para el aprendizaje híbrido y diverso hardware escolar.",
+            "Soporte Multilingüe: El panel de información (?) está disponible en más de diez idiomas, haciéndolo accesible a una comunidad global de educadores.",
+            "Enfocado en la Privacidad: Todo el procesamiento de archivos ocurre directamente en tu navegador. Tus archivos nunca se suben a un servidor, garantizando total privacidad y seguridad."
+        ],
+        conclusion: "Teacher Toybox combina lo mejor de una pizarra física, un reproductor multimedia y artilugios de enseñanza esenciales en un paquete gratuito, flexible y divertido de usar, diseñado para el futuro de la educación."
+    },
+    'fr': {
+        title: "Bienvenue sur Teacher Toybox !",
+        subtitle: "Votre centre de commande dynamique pour la salle de classe d'aujourd'hui. Teacher Toybox intègre des outils numériques essentiels dans une interface flexible et intuitive, conçue pour un enseignement moderne et adaptatif.",
+        section1_title: "Apprentissage Personnalisé et Amélioré par l'IA",
+        section1_points: [
+            "Canevas Dynamiques: Allez au-delà d'un simple tableau blanc. Créez plusieurs fenêtres pour différentes activités, facilitant des parcours d'apprentissage personnalisés pour les élèves individuellement ou en groupe.",
+            "Contenu Adaptatif: Glissez-déposez des images, des PDF, des vidéos, et plus encore. Utilisez notre fonction 'Couleur Magique' (M) pour thématiser automatiquement l'interface en fonction de votre contenu, créant un environnement d'apprentissage cohérent et immersif.",
+            "Dispositions Flexibles: Basculez instantanément entre des dispositions comme l'Écran Partagé ou les Quatre Quadrants pour organiser l'information pour des styles d'enseignement variés, de l'instruction directe au travail de groupe collaboratif."
+        ],
+        section2_title: "Une 'Boîte à Jouets' d'Outils Immersifs et Captivants",
+        section2_points: [
+            "Tableau Blanc Interactif: Un canevas de dessin complet avec une barre d'annotation facile d'accès pour des notes rapides, du brainstorming ou des annotations en direct sur n'importe quel contenu.",
+            "Gamification et Minuteurs: Augmentez l'engagement avec des outils comme le Lanceur de Dés (G) pour les jeux de mathématiques ou les leçons de probabilité. Utilisez le Compte à Rebours (O) et le Chronomètre (H) intégrés pour gérer les activités et maintenir le rythme de la leçon.",
+            "Pôle Multimédia: Utilisez le Carrousel de Photos (V) pour la narration visuelle, la Webcam (W) comme une caméra de documents pour les démonstrations physiques, et l'Éditeur de Texte (T) pour la prise de notes en direct ou les instructions."
+        ],
+        section3_title: "Gestion de Classe Simplifiée",
+        section3_points: [
+            "Signaux d'Attention: Utilisez le son de 'Cloche' (B) pour signaler les transitions ou attirer l'attention de la classe, et un son de 'Chut' (S) pour un rappel en douceur au silence.",
+            "Pointeur Laser Numérique: Dirigez l'attention des élèves vers des parties spécifiques de l'écran avec le Pointeur (P) pendant les présentations sans marquer le contenu lui-même.",
+            "Contrôle sans Effort: Avec des raccourcis clavier pour presque toutes les fonctions (comme N pour ajouter une fenêtre), vous pouvez gérer l'environnement de la classe de manière fluide sans interrompre le déroulement de votre leçon."
+        ],
+        section4_title: "Accessible et Sécurisé par Conception",
+        section4_points: [
+            "Aucune Installation Requise: En tant que plateforme web, Teacher Toybox fonctionne sur n'importe quel ordinateur avec un navigateur moderne, ce qui le rend parfait pour l'apprentissage hybride et divers équipements scolaires.",
+            "Support Multilingue: Le panneau d'information (?) est disponible dans plus de dix langues, le rendant accessible à une communauté mondiale d'éducateurs.",
+            "Axé sur la Confidentialité: Tout le traitement des fichiers se fait directement dans votre navigateur. Vos fichiers ne sont jamais téléchargés sur un serveur, garantissant une confidentialité et une sécurité totales."
+        ],
+        conclusion: "Teacher Toybox combine le meilleur d'un tableau blanc physique, d'un lecteur multimédia et de gadgets pédagogiques essentiels dans un package gratuit, flexible et amusant à utiliser, conçu pour l'avenir de l'éducation."
+    },
+    'ar': {
+        title: "مرحباً بك في Teacher Toybox!",
+        subtitle: "مركز القيادة الديناميكي الخاص بك للفصل الدراسي اليوم. يدمج Teacher Toybox الأدوات الرقمية الأساسية في واجهة مرنة وبديهية مصممة للتعليم الحديث والتكيفي.",
+        section1_title: "تعلم معزز بالذكاء الاصطناعي وشخصي",
+        section1_points: [
+            "لوحات ديناميكية: تجاوز السبورة البسيطة. أنشئ نوافذ متعددة لأنشطة مختلفة، مما يسهل مسارات التعلم المخصصة للطلاب الفرديين أو المجموعات.",
+            "محتوى تكيفي: اسحب وأفلت الصور وملفات PDF ومقاطع الفيديو والمزيد. استخدم ميزة 'اللون السحري' (M) الخاصة بنا لتطبيق سمة الواجهة تلقائيًا على المحتوى الخاص بك، مما يخلق بيئة تعليمية متماسكة وغامرة.",
+            "تخطيطات مرنة: قم بالتبديل الفوري بين التخطيطات مثل الشاشة المقسمة أو الأرباع الأربعة لتنظيم المعلومات لأنماط التدريس المتنوعة، من التعليم المباشر إلى العمل الجماعي التعاوني."
+        ],
+        section2_title: "صندوق ألعاب من الأدوات الغامرة والجذابة",
+        section2_points: [
+            "السبورة التفاعلية: لوحة رسم كاملة الميزات مع شريط تعليقات يسهل الوصول إليه للملاحظات السريعة أو العصف الذهني أو التعليقات المباشرة على أي محتوى.",
+            "التلعيب والمؤقتات: عزز المشاركة بأدوات مثل رامي النرد (G) لألعاب الرياضيات أو دروس الاحتمالات. استخدم مؤقت العد التنازلي (O) وساعة الإيقاف (H) المدمجين لإدارة الأنشطة والحفاظ على وتيرة الدرس.",
+            "مركز الوسائط المتعددة: استخدم دوّار الصور (V) لسرد القصص المرئية، وكاميرا الويب (W) ككاميرا مستندات للعروض المادية، ومحرر النصوص (T) لتدوين الملاحظات المباشرة أو التعليمات."
+        ],
+        section3_title: "إدارة مبسطة للفصول الدراسية",
+        section3_points: [
+            "إشارات الانتباه: استخدم صوت 'الجرس' (B) للإشارة إلى الانتقالات أو جذب انتباه الفصل، وصوت 'صه' (S) لتذكير لطيف بالهدوء.",
+            "مؤشر الليزر الرقمي: وجه تركيز الطلاب إلى أجزاء معينة من الشاشة باستخدام المؤشر (P) أثناء العروض التقديمية دون وضع علامات على المحتوى نفسه.",
+            "تحكم سهل: مع مفاتيح الاختصار لكل وظيفة تقريبًا (مثل N لإضافة نافذة)، يمكنك إدارة بيئة الفصل الدراسي بسلاسة دون كسر تدفق الدرس."
+        ],
+        section4_title: "مصمم ليكون سهل الوصول وآمن",
+        section4_points: [
+            "لا حاجة للتثبيت: كمنصة قائمة على الويب، يعمل Teacher Toybox على أي جهاز كمبيوتر به متصفح حديث، مما يجعله مثاليًا للتعلم المختلط والأجهزة المدرسية المتنوعة.",
+            "دعم متعدد اللغات: لوحة المعلومات (؟) متاحة بأكثر من عشر لغات، مما يجعلها في متناول مجتمع عالمي من المعلمين.",
+            "التركيز على الخصوصية: تتم معالجة جميع الملفات مباشرة في متصفحك. لا يتم تحميل ملفاتك أبدًا على خادم، مما يضمن الخصوصية والأمان التامين."
+        ],
+        conclusion: "يجمع Teacher Toybox بين أفضل ما في السبورة المادية ومشغل الوسائط والأدوات التعليمية الأساسية في حزمة واحدة مجانية ومرنة وممتعة للاستخدام مصممة لمستقبل التعليم."
+    },
     'de': {
         title: "Willkommen bei Teacher Toybox!",
         subtitle: "Ihr dynamisches Kommandozentrum für das Klassenzimmer von heute. Teacher Toybox vereint wesentliche digitale Werkzeuge in einer flexiblen, intuitiven Benutzeroberfläche, die für modernen, anpassungsfähigen Unterricht konzipiert wurde.",
