@@ -8,8 +8,8 @@ const auth0 = new ManagementClient({
     clientSecret: process.env.AUTH0_MGMT_CLIENT_SECRET,
 });
 
-// Vercel requires this config object to correctly handle the raw webhook body
-export const config = {
+// CORRECTED: Use module.exports for consistency with the rest of the file
+module.exports.config = {
     api: {
         bodyParser: false,
     },
@@ -24,7 +24,7 @@ async function buffer(readable) {
     return Buffer.concat(chunks);
 }
 
-module.exports = async (req, res) => {
+const webhookHandler = async (req, res) => {
     const buf = await buffer(req);
     const sig = req.headers['stripe-signature'];
     const endpointSecret = process.env.STRIPE_WEBHOOK_SECRET;
@@ -43,13 +43,23 @@ module.exports = async (req, res) => {
         const session = event.data.object;
         const userId = session.client_reference_id;
 
+        if (!userId) {
+            return res.status(400).send('Webhook Error: Missing client_reference_id (userId) in checkout session.');
+        }
+
         try {
-            // Get the 'Premium' role ID from Auth0
-            const roles = await auth0.getRoles({ name_filter: 'Premium' });
-            if (roles.length > 0) {
-                const premiumRoleId = roles[0].id;
-                // Assign the 'Premium' role to the user who just paid
-                await auth0.assignRolestoUser({ id: userId }, { roles: [premiumRoleId] });
+            // CORRECTED: The function is auth0.roles.getAll and the response has a `data` property
+            const rolesResponse = await auth0.roles.getAll({ name: 'Premium' });
+            
+            if (rolesResponse.data && rolesResponse.data.length > 0) {
+                const premiumRoleId = rolesResponse.data[0].id;
+                
+                // CORRECTED: The function is auth0.users.assignRoles
+                await auth0.users.assignRoles({ id: userId }, { roles: [premiumRoleId] });
+                
+                console.log(`Successfully assigned Premium role to user ${userId}`);
+            } else {
+                throw new Error("Could not find the 'Premium' role in Auth0.");
             }
         } catch (err) {
              console.error('Auth0 role assignment failed:', err);
@@ -60,3 +70,5 @@ module.exports = async (req, res) => {
     // Send a success response back to Stripe
     res.status(200).json({ received: true });
 };
+
+module.exports = webhookHandler;
