@@ -11,7 +11,7 @@
     --danger-dark: #c82333;
     --success-color: #28a745;
     --success-dark: #218838;
-    --success-hover: #34c759;
+    --success-hover: #218838;
 }
 
 html, body {
@@ -923,31 +923,46 @@ body.no-scroll {
 }
 
 .upgrade-button-container {
-    padding: 15px 25px;
-    /* Removed background and border for a cleaner look */
-    background-color: transparent;
-    border-top: none;
-    padding-bottom: calc(20px + env(safe-area-inset-bottom));
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: calc(env(safe-area-inset-bottom));
 }
 
-.submit-btn {
-    width: 100%;
-    padding: 15px;
-    border-radius: 12px;
+#panel-upgrade-btn {
+    background-color: var(--success-color);
+    padding: clamp(16px, 3vh, 24px) clamp(20px, 5vw, 24px);
+    font-size: clamp(1rem, 3vw, 1.1rem);
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    width: fit-content;
+    margin: 0;
+    flex-shrink: 0;
     border: none;
-    background: var(--accent-color);
     color: white;
     cursor: pointer;
-    transition: background-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: auto;
 }
-.submit-btn:hover {
-    background: var(--accent-hover);
+
+#panel-upgrade-btn:hover {
+    background-color: var(--success-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
 }
-.price-big {
-    font-size: 18px;
+
+#panel-upgrade-btn .price-big {
+    font-size: clamp(1.2rem, 3.5vw, 2.2rem);
     font-weight: 700;
 }
-.price-small {
-    font-size: 12px;
+
+#panel-upgrade-btn .price-small {
+    font-size: clamp(0.7rem, 2vw, 0.8rem);
+    font-weight: normal;
     opacity: 0.8;
+    margin-top: 4px;
 }
