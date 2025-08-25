@@ -144,6 +144,7 @@ html, body {
     height: 100%;
     border-radius: 16px;
     transition: color 0.2s ease, background-color 0.2s ease;
+    position: relative; /* Needed to position the premium icon */
 }
 
 .nav-btn.active {
@@ -778,4 +779,27 @@ html, body {
 .control-btn-large:hover {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
+}
+
+/* --- Premium Feature Icon Styles --- */
+.premium-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    color: white;
+    background-color: #bfa02c;
+    padding: 2px 5px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    pointer-events: none;
+}
+
+.nav-btn[data-premium="true"] > .fas:first-of-type {
+   opacity: 0.65;
+}
+
+.nav-btn[data-premium="true"].active > .fas:first-of-type {
+   opacity: 1;
 }
