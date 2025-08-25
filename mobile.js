@@ -12,12 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
             clockEl.textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
         }
         if (dateEl) {
-            const day = now.getDate();
-            let suffix = 'th';
-            if (day === 1 || day === 21 || day === 31) suffix = 'st';
-            else if (day === 2 || day === 22) suffix = 'nd';
-            else if (day === 3 || day === 23) suffix = 'rd';
-            dateEl.textContent = `${day}${suffix} ${now.toLocaleDateString([], { month: 'long' })}`;
+            const day = String(now.getDate()).padStart(2, '0');
+            const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+            const year = now.getFullYear().toString().slice(-2);
+            dateEl.textContent = `${day}/${month}/${year}`;
         }
     }
     updateClock();
