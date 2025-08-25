@@ -1731,6 +1731,59 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // These functions need to be accessible to buildInfoWindow and the new global update function.
+    // We define them here, within the main DOMContentLoaded scope.
+    let infoWindowElements = {}; // To hold references to the info window's DOM elements
+
+    const renderInfoTextForWindow = (langCode) => {
+        if (!infoWindowElements.wrapper) return;
+        const t = infoTranslations[langCode] || infoTranslations['en'];
+        let htmlContent = `<img src="ttlogo.png" alt="Teacher Toybox Logo" class="info-window-logo"><h2>${t.title}</h2><p>${t.subtitle}</p>`;
+        for (let i = 1; i <= 4; i++) {
+            if (t[`section${i}_title`]) {
+                htmlContent += `<h3>${t[`section${i}_title`]}</h3><ul>`;
+                t[`section${i}_points`].forEach(point => {
+                    const parts = point.split(/:(.+)/s);
+                    htmlContent += `<li><strong>${parts[0]}:</strong> ${parts.length > 1 ? parts[1].trim() : ''}</li>`;
+                });
+                htmlContent += `</ul>`;
+            }
+        }
+        htmlContent += `<p><em>${t.conclusion}</em></p>`;
+        infoWindowElements.wrapper.innerHTML = htmlContent;
+    };
+
+    const fitInfoWindowText = () => {
+        if (!infoWindowElements.wrapper) return;
+        infoWindowElements.wrapper.style.fontSize = '';
+    
+        let minSize = 8;
+        let maxSize = parseFloat(window.getComputedStyle(infoWindowElements.wrapper).fontSize);
+        let finalSize = minSize;
+    
+        for (let i = 0; i < 10; i++) {
+            let midSize = (minSize + maxSize) / 2;
+            infoWindowElements.wrapper.style.fontSize = `${midSize}px`;
+    
+            if (infoWindowElements.wrapper.scrollHeight > infoWindowElements.wrapper.clientHeight) {
+                maxSize = midSize;
+            } else {
+                finalSize = midSize;
+                minSize = midSize;
+            }
+        }
+        infoWindowElements.wrapper.style.fontSize = `${finalSize}px`;
+    };
+
+    // This new global function allows the main translation script to update the info window
+    window.TT.updateInfoWindowLanguage = (lang) => {
+        const infoWindow = document.querySelector('.info-content-wrapper');
+        if (infoWindow) { // Only run if the info window is open
+            renderInfoTextForWindow(lang);
+            fitInfoWindowText();
+        }
+    };
+
     function buildInfoWindow(showAnim = true) {
         clearWins();
         const w = createWin();
@@ -1763,96 +1816,34 @@ document.addEventListener('DOMContentLoaded', () => {
         const infoWrapper = document.createElement('div');
         infoWrapper.className = 'info-content-wrapper';
     
-        const renderInfoText = (langCode) => {
-            const t = infoTranslations[langCode] || infoTranslations['en'];
-            let htmlContent = `<img src="ttlogo.png" alt="Teacher Toybox Logo" class="info-window-logo"><h2>${t.title}</h2><p>${t.subtitle}</p>`;
-            for (let i = 1; i <= 4; i++) {
-                if (t[`section${i}_title`]) {
-                    htmlContent += `<h3>${t[`section${i}_title`]}</h3><ul>`;
-                    t[`section${i}_points`].forEach(point => {
-                        const parts = point.split(/:(.+)/s);
-                        htmlContent += `<li><strong>${parts[0]}:</strong> ${parts.length > 1 ? parts[1].trim() : ''}</li>`;
-                    });
-                    htmlContent += `</ul>`;
-                }
-            }
-            htmlContent += `<p><em>${t.conclusion}</em></p>`;
-            infoWrapper.innerHTML = htmlContent;
-        };
+        // Store references to the new elements for the global update function
+        infoWindowElements.wrapper = infoWrapper;
         
-        const langSelectorWrap = document.createElement('div');
-        langSelectorWrap.className = 'info-language-selector-wrap';
-        
-        const langSelect = document.createElement('select');
-        langSelect.className = 'info-language-selector';
-        
-        const supportedLangs = {
-            en: "English", cs: "Čeština", uk: "Українська", zh: "中文（简体）", hi: "हिन्दी", 
-            es: "Español", fr: "Français", ar: "العربية", fa: "فارسی", pt: "Português", ru: "Русский"
-        };
-        
-        Object.entries(supportedLangs).forEach(([code, name]) => {
-            if (infoTranslations[code]) {
-                const option = document.createElement('option');
-                option.value = code;
-                option.textContent = name;
-                langSelect.appendChild(option);
-            }
-        });
-        
-        langSelect.addEventListener('change', (e) => {
-            renderInfoText(e.target.value);
-            setTimeout(fitText, 0); 
-        });
+        // Render the initial text based on the currently selected language
+        const initialLang = localStorage.getItem('ttx_lang') || 'en';
+        renderInfoTextForWindow(initialLang);
 
-        langSelectorWrap.appendChild(langSelect);
-
-        const initialLang = ($('langSelect') && $('langSelect').value) || localStorage.getItem('ttx_lang') || 'en';
-        langSelect.value = initialLang;
-        renderInfoText(initialLang);
-
-        v.append(langSelectorWrap, infoWrapper);
+        v.append(infoWrapper);
         if(mainArea) mainArea.appendChild(v);
     
         setTimeout(() => {
             infoWrapper.classList.add('info-fade-in');
         }, 10);
     
-        const fitText = () => {
-            if (!infoWrapper) return;
-            infoWrapper.style.fontSize = '';
-        
-            let minSize = 8;
-            let maxSize = parseFloat(window.getComputedStyle(infoWrapper).fontSize);
-            let finalSize = minSize;
-        
-            for (let i = 0; i < 10; i++) {
-                let midSize = (minSize + maxSize) / 2;
-                infoWrapper.style.fontSize = `${midSize}px`;
-        
-                if (infoWrapper.scrollHeight > infoWrapper.clientHeight) {
-                    maxSize = midSize;
-                } else {
-                    finalSize = midSize;
-                    minSize = midSize;
-                }
-            }
-            infoWrapper.style.fontSize = `${finalSize}px`;
-        };
-    
         if (mainArea) {
             const resizeObserver = new ResizeObserver(() => {
-                requestAnimationFrame(fitText);
+                requestAnimationFrame(fitInfoWindowText);
             });
             resizeObserver.observe(mainArea);
             w.toolResizeObserver = resizeObserver;
         }
     
-        setTimeout(fitText, 50);
+        setTimeout(fitInfoWindowText, 50);
     
         w.onclick = (e) => {
-            if (!e.target.closest('.info-language-selector')) {
-                closeInfoIfOpen();
+            // Check if the click is on the background to close it
+            if (e.target === w || e.target === v || e.target === mainArea) {
+                 closeInfoIfOpen();
             }
         };
     
