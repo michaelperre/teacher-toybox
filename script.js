@@ -2047,6 +2047,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (laserButton) {
             laserButton.onclick = toggle;
         }
+
+        // Expose the turnOff function to the global scope
+        global.TT.turnOffLaser = turnOff;
     })();
 
     $('infoButton').onclick = () => {
@@ -2134,6 +2137,9 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     $('refreshButton').onclick = () => {
+        if (global.TT.turnOffLaser) {
+            global.TT.turnOffLaser();
+        }
         clearWins();
         showOverlay('🗑️');
         layoutState.activeLayout = null;
