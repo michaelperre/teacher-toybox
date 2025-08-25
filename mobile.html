@@ -24,7 +24,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="preload" href="ttlogo.png" as="image" type="image/png">
     <link href="party.png" rel="icon" type="image/png"/>
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -62,18 +61,42 @@
         </div>
     <div id="bottom-nav">
         <button aria-label="Draw" class="nav-btn active" data-tool="draw"><i class="fas fa-pencil-alt"></i></button>
-        <button aria-label="Stopwatch" class="nav-btn" data-tool="timer"><i class="fas fa-hourglass-start"></i></button>
-        <button aria-label="Dice" class="nav-btn" data-tool="dice"><i class="fas fa-dice"></i></button>
-        <button aria-label="Timer" class="nav-btn" data-tool="countdown"><i class="fas fa-stopwatch"></i></button>
+        <button aria-label="Stopwatch (Premium)" class="nav-btn" data-tool="timer" data-premium="true" title="Premium Users Only"><i class="fas fa-hourglass-start"></i><i class="fas fa-crown premium-icon"></i></button>
+        <button aria-label="Dice (Premium)" class="nav-btn" data-tool="dice" data-premium="true" title="Premium Users Only"><i class="fas fa-dice"></i><i class="fas fa-crown premium-icon"></i></button>
+        <button aria-label="Timer (Premium)" class="nav-btn" data-tool="countdown" data-premium="true" title="Premium Users Only"><i class="fas fa-stopwatch"></i><i class="fas fa-crown premium-icon"></i></button>
         <button aria-label="Calculator" class="nav-btn" data-tool="calculator"><i class="fas fa-calculator"></i></button>
         <button aria-label="Numbered List" class="nav-btn" data-tool="numbered-list"><i class="fas fa-list-ol"></i></button>
-        <button aria-label="For/Against" class="nav-btn" data-tool="for-against"><i class="fas fa-balance-scale"></i></button>
+        <button aria-label="For/Against (Premium)" class="nav-btn" data-tool="for-against" data-premium="true" title="Premium Users Only"><i class="fas fa-balance-scale"></i><i class="fas fa-crown premium-icon"></i></button>
         <button aria-label="Bell" class="nav-btn" data-tool="bell"><i class="fas fa-bell"></i></button>
         <button aria-label="Shush" class="nav-btn" data-tool="shh"><i class="fas fa-volume-mute"></i></button>
     </div>
     <audio id="bellSound" preload="auto" src="bell.mp3"></audio>
     <audio id="shhSound" preload="auto" src="shh.mp3"></audio>
     
+    <div id="upgrade-backdrop"></div>
+    <div id="upgrade-panel">
+        <button id="close-upgrade-btn" title="Close">&times;</button>
+        <div class="upgrade-panel-content">
+            <h3><i class="fas fa-crown"></i> <span data-i18n="panel.upgrade.title">Go Premium</span></h3>
+            <p data-i18n="panel.upgrade.intro">Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!</p>
+            
+            <ul class="premium-features-list">
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature1_title">Unlock All Tools</strong><span data-i18n="panel.upgrade.feature1_desc">Get immediate access to every premium tool.</span></div></li>
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature2_title">Webcam &amp; Document Camera</strong><span data-i18n="panel.upgrade.feature2_desc">Use your webcam for live demonstrations.</span></div></li>
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature3_title">Photo Carousel</strong><span data-i18n="panel.upgrade.feature3_desc">Create engaging visual stories and slideshows.</span></div></li>
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature4_title">Gamify Lessons</strong><span data-i18n="panel.upgrade.feature4_desc">Use the Dice Roller and Counters to make learning fun.</span></div></li>
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature5_title">Manage Time</strong><span data-i18n="panel.upgrade.feature5_desc">Use timers and stopwatches to manage class activities.</span></div></li>
+                <li><i class="fas fa-check-circle"></i> <div><strong data-i18n="panel.upgrade.feature8_title">Support Development</strong><span data-i18n="panel.upgrade.feature8_desc">Help keep the core platform free for all teachers.</span></div></li>
+            </ul>
+        </div>
+        <div class="upgrade-button-container">
+            <button id="panel-upgrade-btn" class="submit-btn">
+                <div class="price-big" data-i18n="panel.upgrade.priceBig">$2 per month</div>
+                <div class="price-small" data-i18n="panel.upgrade.priceSmall">$24 billed annually</div>
+            </button>
+        </div>
+    </div>
+
     <script src="mobile.js"></script>
 </body>
 </html>
