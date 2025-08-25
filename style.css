@@ -1482,6 +1482,10 @@ body.light-mode #feedback-comment {
     filter: drop-shadow(0 1px 1px rgba(0,0,0,0.5));
 }
 
+body.is-premium .premium-feature::after {
+    display: none;
+}
+
 .win-sidebar .icon-btn.premium-feature::after {
     font-size: 10px;
     top: -2px;
