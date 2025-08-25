@@ -1,6 +1,147 @@
+// --- Splash Screen Helper ---
+(function() {
+  var armed = false;
+  function closeSplash() {
+    if (armed) return; armed = true;
+    var s = document.getElementById('splash-screen');
+    if (!s) return;
+    try { s.style.opacity = '0'; } catch(_) {}
+    setTimeout(function() { if (s && s.parentNode) s.parentNode.removeChild(s); }, 520);
+  }
+  function arm() { setTimeout(closeSplash, 1000); }
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    arm();
+  } else {
+    document.addEventListener('DOMContentLoaded', arm, { once: true });
+  }
+  setTimeout(closeSplash, 3500);
+})();
+
+// --- Internationalization (i18n) Logic ---
+(function () {
+  const SUPPORTED = {
+    en:"English", cs:"Čeština", uk:"Українська", zh:"中文（简体）", hi:"हिन्दी",
+    es:"Español", fr:"Français", ar:"العربية", fa:"فارسی", pt:"Português", ru:"Русский"
+  };
+  const I18N = {
+    en:{ meta:{ title:"Teacher Toybox Mobile | Interactive Whiteboard Tools",
+                titleShort:"Teacher Toybox Mobile",
+                description:"Mobile/tablet version of the free interactive digital whiteboard with timers, dice and more." },
+         top:{ desktop:"Desktop Edition" } },
+    cs:{ meta:{ title:"Teacher Toybox Mobil | Interaktivní nástroje",
+                titleShort:"Teacher Toybox Mobil",
+                description:"Mobilní/tabletová verze zdarma interaktivní digitální tabule s časovači, kostkami a dalšími nástroji." },
+         top:{ desktop:"Desktopová verze" } },
+    uk:{ meta:{ title:"Teacher Toybox Мобільна | Інтерактивні інструменти",
+                titleShort:"Teacher Toybox Мобільна",
+                description:"Мобільна/планшетна версія безкоштовної інтерактивної цифрової дошки з таймерами, кубиками тощо." },
+         top:{ desktop:"Десктопна версія" } },
+    zh:{ meta:{ title:"Teacher Toybox 移动版 | 互动工具",
+                titleShort:"Teacher Toybox 移动版",
+                description:"免费互动数字白板的移动/平板版本，内置计时器、掷骰子等。" },
+         top:{ desktop:"桌面版" } },
+    hi:{ meta:{ title:"Teacher Toybox موبائل | इंटरेक्टिव टूल्स",
+                titleShort:"Teacher Toybox मोबाइल",
+                description:"निःशुल्क इंटरैक्टिव डिजिटल वाइटबोर्ड का मोबाइल/टैबलेट संस्करण, जिसमें टाइमर, पासा आदि शामिल हैं।" },
+         top:{ desktop:"डेскटॉप संस्करण" } },
+    es:{ meta:{ title:"Teacher Toybox Móvil | Herramientas interactivas",
+                titleShort:"Teacher Toybox Móvil",
+                description:"Versión móvil/tableta de la pizarra digital interactiva gratuita con temporizadores, dados y más." },
+         top:{ desktop:"Versión de escritorio" } },
+    fr:{ meta:{ title:"Teacher Toybox Mobile | Outils interactifs",
+                titleShort:"Teacher Toybox Mobile",
+                description:"Version mobile/tablette du tableau blanc numérique interactif gratuit avec minuteurs, dés, etc." },
+         top:{ desktop:"Version bureau" } },
+    ar:{ meta:{ title:"Teacher Toybox للجوال | أدوات تفاعلية",
+                titleShort:"Teacher Toybox للجوال",
+                description:"نسخة الهاتف/الجهاز اللوحي من السبورة الرقمية التفاعلية المجانية עם مؤقتات ونرد والمزيد." },
+         top:{ desktop:"نسخة سطح المكتب" } },
+    fa:{ meta:{ title:"Teacher Toybox موبایل | ابزارهای تعاملی",
+                titleShort:"Teacher Toybox موبایل",
+                description:"نسخهٔ موبایل/تبلت وایت‌بورد دیجیتال تعاملی رایگان با تایمر و تاس و ابزارهای دیگر." },
+         top:{ desktop:"نسخهٔ دسکتاپ" } },
+    pt:{ meta:{ title:"Teacher Toybox Mobile | Ferramentas interativas",
+                titleShort:"Teacher Toybox Mobile",
+                description:"Versão móvel/tablet do quadro branco digital interativo gratuito com cronômetros, dados e mais." },
+         top:{ desktop:"Versão desktop" } },
+    ru:{ meta:{ title:"Teacher Toybox Мобильный | Интерактивные инструменты",
+                titleShort:"Teacher Toybox Мобильный",
+                description:"Мобильная/планшетная версия бесплатной интерактивной цифровой доски с таймерами, кубиками и др." },
+         top:{ desktop:"Десктоп‑версия" } }
+  };
+
+  function t(dict, path) {
+    try { return path.split('.').reduce((o,k)=> o && o[k]!==undefined ? o[k] : undefined, dict); }
+    catch { return undefined; }
+  }
+
+  function updateMeta(lang) {
+    const d = I18N[lang] || I18N.en;
+    const title = t(d,'meta.title'), short = t(d,'meta.titleShort') || title, desc = t(d,'meta.description');
+    if (title) document.title = title;
+    if (desc) {
+      const m = document.querySelector('meta[name="description"]'); if (m) m.setAttribute('content', desc);
+      const ogd = document.querySelector('meta[property="og:description"]'); if (ogd) ogd.setAttribute('content', desc);
+      const twd = document.querySelector('meta[name="twitter:description"]'); if (twd) twd.setAttribute('content', desc);
+    }
+    if (short) {
+      const ogt = document.querySelector('meta[property="og:title"]'); if (ogt) ogt.setAttribute('content', short);
+      const twt = document.querySelector('meta[name="twitter:title"]'); if (twt) twt.setAttribute('content', short);
+    }
+  }
+
+  function regionDefault() {
+    const saved = localStorage.getItem('ttx_lang');
+    const supported = Object.keys(SUPPORTED);
+    if (saved && supported.includes(saved)) return saved;
+    const nav = (navigator.language||'en').split('-');
+    const base = (nav[0]||'en').toLowerCase();
+    const region = (nav[1]||'').toUpperCase();
+    const map = {
+      'CZ':'cs','UA':'uk',
+      'CN':'zh','HK':'zh','MO':'zh','TW':'zh','SG':'zh','MY':'zh',
+      'IN':'hi',
+      'ES':'es','MX':'es','AR':'es','CL':'es','CO':'es','PE':'es',
+      'FR':'fr','BE':'fr','CH':'fr','CA':'fr',
+      'AE':'ar','SA':'ar','EG':'ar','MA':'ar','DZ':'ar',
+      'IR':'fa',
+      'PT':'pt','BR':'pt',
+      'RU':'ru','BY':'ru','KZ':'ru',
+      'US':'en','GB':'en','AU':'en','NZ':'en','IE':'en','CA':'en'
+    };
+    if (map[region]) return map[region];
+    if (supported.includes(base)) return base;
+    return 'en';
+  }
+
+  function applyLang(lang) {
+    localStorage.setItem('ttx_lang', lang);
+    document.documentElement.lang = lang;
+    const d = I18N[lang] || I18N.en;
+    const desk = document.querySelector('.desktop-btn');
+    if (desk) desk.textContent = t(d,'top.desktop') || 'Desktop Edition';
+    updateMeta(lang);
+  }
+
+  function init() {
+    const def = regionDefault();
+    applyLang(def);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+
+
+// --- Main Application Logic ---
 document.addEventListener('DOMContentLoaded', () => {
     const mainContent = document.getElementById('main-content');
     const navButtons = document.querySelectorAll('.nav-btn');
+    
+    // --- Premium User Simulation ---
+    // Set to `true` to simulate a premium user and unlock features
+    const isPremiumUser = false;
 
     // --- Clock and Date ---
     function updateClock() {
@@ -740,6 +881,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Event Listeners for Navigation ---
     navButtons.forEach(button => {
         const tool = button.dataset.tool;
+        const isPremiumFeature = button.dataset.premium === 'true';
+
         if (tool === 'bell' || tool === 'shh') {
             button.addEventListener('click', () => {
                 const soundId = tool + 'Sound';
@@ -751,7 +894,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 showOverlay(tool === 'bell' ? 'fa-bell' : 'Shh', tool === 'bell');
             });
         } else {
-            button.addEventListener('click', () => loadTool(tool));
+            button.addEventListener('click', () => {
+                if (isPremiumFeature && !isPremiumUser) {
+                    alert('This feature is for Premium users only.');
+                    return; // Prevent the tool from loading
+                }
+                loadTool(tool);
+            });
         }
     });
 
