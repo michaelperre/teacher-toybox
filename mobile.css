@@ -888,6 +888,9 @@ body.no-scroll {
 }
 
 .premium-features-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 15px; /* 20px vertical gap, 15px horizontal gap */
     list-style: none;
     padding: 0;
     margin: 0;
@@ -895,9 +898,8 @@ body.no-scroll {
 .premium-features-list li {
     display: flex;
     align-items: flex-start;
-    gap: 15px;
-    /* Increased spacing between list items */
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 0; /* Remove old margin */
 }
 .premium-features-list .fas {
     color: var(--success-color);
@@ -910,14 +912,12 @@ body.no-scroll {
 }
 .premium-features-list strong {
     font-size: 16px;
-    /* Made the feature title slightly bolder */
     font-weight: 600;
     color: var(--text-primary);
 }
 .premium-features-list span {
     font-size: 14px;
     color: var(--text-secondary);
-    /* Adjusted line height and margin for readability */
     line-height: 1.3;
     margin-top: 2px;
 }
