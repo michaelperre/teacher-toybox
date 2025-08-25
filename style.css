@@ -1681,3 +1681,33 @@ body:not(.is-premium) .premium-feature {
 #authButton.logout-btn:hover {
     background-color: var(--warning-hover);
 }
+
+/* --- Enlarged Date Light Mode Styles --- */
+body.light-mode .date-backdrop {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+body.light-mode #date-display.date-enlarged {
+    color: #000000;
+    text-shadow: none;
+}
+
+/* --- Text Editor Button Styles --- */
+.text-editor-control-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.light-mode .text-editor-control-btn {
+    background-color: rgba(0, 0, 0, 0.08); /* Light grey for light mode */
+}
+
+body.light-mode .text-editor-control-btn:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* --- Light Mode Feedback Button Icon Fix --- */
+body.light-mode #feedbackButton {
+    color: #ffffff !important;
+}

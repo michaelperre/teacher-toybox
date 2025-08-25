@@ -10,51 +10,61 @@ document.addEventListener('DOMContentLoaded', () => {
     // A flag to ignore programmatic clicks during tour actions
     let isPerformingAction = false;
 
-    const tourSteps = [
-        {
-            element: '#addButton',
-            title: 'Welcome to Teacher Toybox!',
-            content: 'This is your digital classroom command center. Let\'s quickly walk through the main controls. Click "Next" to continue.',
-        },
-        {
-            element: '#addButton',
-            title: 'Add a Window',
-            content: 'This button adds a new window. If one isn\'t open already, I\'ll click it for you so we can look at the window tools.',
-            action: () => {
-                if (document.querySelectorAll('.floating').length === 0) {
-                    document.getElementById('addButton')?.click();
-                }
-            } 
-        },
-        {
-            element: '.floating .win-sidebar',
-            title: 'Window Tool Palette',
-            content: 'Excellent! This is the tool palette for the new window. It has tools like a drawing canvas and text editor.',
-        },
-        {
-            element: '.floating .win-sidebar .icon-btn[data-hotkey="d"]',
-            title: 'Drawing Canvas',
-            content: 'For example, clicking this button turns the window into an interactive whiteboard. Let\'s try it.',
-            action: () => document.querySelector('.floating .win-sidebar .icon-btn[data-hotkey="d"]')?.click() 
-        },
-        {
-            element: '#screenButton',
-            title: 'Arrange Your Screen',
-            content: 'This button reveals preset layouts. You can instantly organize your windows into splitscreen, quadrants, and more.',
-            action: () => document.querySelector('#screenButton')?.click() 
-        },
-        {
-            element: '.floating .drag-bar',
-            title: 'Move & Resize',
-            content: 'You can also drag this bar to move windows, and resize them from any edge or corner.',
-        },
-        {
-            element: '#helpButton',
-            title: 'Help & Resources',
-            content: 'That\'s the basics! This button groups together the tour, demo video, and more information. Click \'Finish\' to start exploring.',
-            action: () => document.getElementById('helpButton')?.click()
-        }
-    ];
+    let tourSteps = []; // This will be populated with translated text when the tour starts.
+
+    /**
+     * Generates the tour steps array with text in the specified language.
+     * @param {string} lang - The language code (e.g., 'en', 'es').
+     * @returns {Array} An array of tour step objects.
+     */
+    function getTourSteps(lang) {
+        const dict = window.I18N[lang] || window.I18N.en;
+        return [
+            {
+                element: '#addButton',
+                title: window.t(dict, 'tour.step1.title'),
+                content: window.t(dict, 'tour.step1.content'),
+            },
+            {
+                element: '#addButton',
+                title: window.t(dict, 'tour.step2.title'),
+                content: window.t(dict, 'tour.step2.content'),
+                action: () => {
+                    if (document.querySelectorAll('.floating').length === 0) {
+                        document.getElementById('addButton')?.click();
+                    }
+                } 
+            },
+            {
+                element: '.floating .win-sidebar',
+                title: window.t(dict, 'tour.step3.title'),
+                content: window.t(dict, 'tour.step3.content'),
+            },
+            {
+                element: '.floating .win-sidebar .icon-btn[data-hotkey="d"]',
+                title: window.t(dict, 'tour.step4.title'),
+                content: window.t(dict, 'tour.step4.content'),
+                action: () => document.querySelector('.floating .win-sidebar .icon-btn[data-hotkey="d"]')?.click() 
+            },
+            {
+                element: '#screenButton',
+                title: window.t(dict, 'tour.step5.title'),
+                content: window.t(dict, 'tour.step5.content'),
+                action: () => document.querySelector('#screenButton')?.click() 
+            },
+            {
+                element: '.floating .drag-bar',
+                title: window.t(dict, 'tour.step6.title'),
+                content: window.t(dict, 'tour.step6.content'),
+            },
+            {
+                element: '#helpButton',
+                title: window.t(dict, 'tour.step7.title'),
+                content: window.t(dict, 'tour.step7.content'),
+                action: () => document.getElementById('helpButton')?.click()
+            }
+        ];
+    }
 
     let currentStep = 0;
     let highlight, tooltip;
@@ -184,6 +194,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function startTour() {
         if (isTourActive) return;
         isTourActive = true;
+        
+        // Get the current language and generate the translated tour steps
+        const currentLang = localStorage.getItem('ttx_lang') || 'en';
+        tourSteps = getTourSteps(currentLang);
+
         currentStep = 0;
         createTourElements();
         showStep(currentStep);
