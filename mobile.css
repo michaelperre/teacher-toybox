@@ -794,7 +794,7 @@ body.no-scroll {
 }
 
 /* --- Premium Feature Icon Styles --- */
-.premium-icon {
+.nav-btn i.premium-icon {
     position: absolute;
     top: 50%;
     left: 50%;
