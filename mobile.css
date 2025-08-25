@@ -784,8 +784,11 @@ html, body {
 /* --- Premium Feature Icon Styles --- */
 .premium-icon {
     position: absolute;
-    top: 8px;
-    right: 12px;
+    /* Position the crown starting from the center of the button */
+    top: 50%;
+    left: 50%;
+    /* Nudge the crown to the top-right corner of the main icon */
+    transform: translate(8px, -10px);
     font-size: 10px;
     color: #FFD700; /* Gold */
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
