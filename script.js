@@ -708,9 +708,10 @@ document.addEventListener('DOMContentLoaded', () => {
         ctrl.style.cssText = 'display:flex;justify-content:center;gap:12px;padding:8px;';
         ['fas fa-plus', 'fas fa-minus'].forEach(icon => {
             const b = document.createElement('button');
-            b.className = 'icon-btn';
+            b.className = 'icon-btn text-editor-control-btn'; // Added new class
             b.innerHTML = `<i class="${icon}"></i>`;
-            b.style.width = '40px'; b.style.height = '40px'; b.style.fontSize = '16px'; b.style.background = 'rgba(255, 255, 255, 0.1)';
+            b.style.width = '40px'; b.style.height = '40px'; b.style.fontSize = '16px';
+            // The hardcoded background style has been removed from the line above
             b.onclick = () => { const sz = parseInt(getComputedStyle(ta).fontSize, 10); ta.style.fontSize = `${sz + (icon.includes('plus') ? 6 : -6)}px`; };
             ctrl.appendChild(b);
         });
@@ -1912,6 +1913,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const g = parseInt(color.slice(3, 5), 16);
         const b = parseInt(color.slice(5, 7), 16);
         document.documentElement.style.setProperty('--accent-color-rgb', `${r}, ${g}, ${b}`);
+    }
+
+    const originalColorButton = $('originalColorButton');
+    if (originalColorButton) {
+        originalColorButton.onclick = () => {
+            if (closeInfoIfOpen()) return;
+            applyAccentColor(defaultAccentColor);
+            localStorage.setItem('ttx_accentColor', defaultAccentColor);
+            showOverlay('↺');
+            layoutState.activeLayout = null;
+        };
     }
 
     let lastMagicClick = 0;
