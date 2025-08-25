@@ -801,7 +801,7 @@ body.no-scroll {
     left: 50%;
     /* Nudge the crown to the top-right corner of the main icon */
     transform: translate(8px, -10px);
-    font-size: 2.5px;
+    font-size: 1.25px;
     color: #FFD700; /* Gold */
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
     pointer-events: none;
