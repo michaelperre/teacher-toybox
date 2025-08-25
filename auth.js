@@ -59,8 +59,10 @@ const updateUI = async () => {
           userProfileElement.style.display = 'flex';
       }
 
-      // Check for Premium Role
+      // **FIX:** Force a refresh of the token from the server to get the latest roles
+      await auth0Client.getTokenSilently({ cacheMode: 'off' });
       const claims = await auth0Client.getIdTokenClaims();
+      
       const userRoles = claims['http://teachertoybox.com/roles'] || [];
       if (userRoles.includes('Premium')) {
           window.TT.isPremium = true;
