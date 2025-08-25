@@ -125,11 +125,11 @@ html, body {
     justify-content: space-around;
     align-items: center;
     background-color: var(--bar-bg);
-    height: 170px; /* Doubled from 85px */
+    height: 85px; /* Halved from 170px */
     border-top: 1px solid var(--border-color);
     flex-shrink: 0;
-    padding: 10px 0; /* Increased padding for balance */
-    padding-bottom: calc(10px + env(safe-area-inset-bottom));
+    padding: 5px 0; /* Halved from 10px */
+    padding-bottom: calc(5px + env(safe-area-inset-bottom));
 }
 
 .nav-btn {
@@ -158,7 +158,7 @@ html, body {
 }
 
 .nav-btn i {
-    font-size: 52px; /* Doubled from 26px */
+    font-size: 26px; /* Halved from 52px */
 }
 
 /* --- General Tool Styles --- */
