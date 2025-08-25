@@ -1,1 +1,103 @@
-const _0x34e6e3=_0x3074;(function(_0xf63700,_0x28b338){const _0x383733=_0x3074,_0x437a56=_0xf63700();while(!![]){try{const _0x4caa3e=parseInt(_0x383733(0xd6))/0x1+parseInt(_0x383733(0xdc))/0x2*(-parseInt(_0x383733(0xf2))/0x3)+parseInt(_0x383733(0xce))/0x4*(-parseInt(_0x383733(0xe1))/0x5)+-parseInt(_0x383733(0xf1))/0x6*(parseInt(_0x383733(0xdf))/0x7)+parseInt(_0x383733(0xe2))/0x8*(parseInt(_0x383733(0xef))/0x9)+-parseInt(_0x383733(0xc8))/0xa+parseInt(_0x383733(0xcd))/0xb;if(_0x4caa3e===_0x28b338)break;else _0x437a56['push'](_0x437a56['shift']());}catch(_0xc5f97b){_0x437a56['push'](_0x437a56['shift']());}}}(_0x4c2a,0xcb552));let auth0Client=null;function _0x4c2a(){const _0x38a978=['45gUXrXN','postLoginAction','213126ZHlUPP','1041hMWFBa','logout','dispatchEvent','default','upgradeButton','<i\x20class=\x22fas\x20fa-sign-in-alt\x22></i>','loginWithRedirect','remove','is-premium','display','search','has','Premium','2709910sOovcG','title','history','handleRedirectCallback','body','35760637ZRXywG','52XOdAaM','origin','createAuth0Client','flex','state','upgrade','Log\x20In\x20/\x20Sign\x20Up','\x22\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x22>','1188183hxlSue','authButton','isAuthenticated','location','Log\x20Out','getTokenSilently','7646dKBiEW','add','none','259uoNVKx','code','528860xnPaJf','1088936Dsrvdq','replaceState','classList','innerHTML','target','<i\x20class=\x22fas\x20fa-sign-out-alt\x22></i>','getElementById','\x22\x20alt=\x22','addEventListener','<img\x20src=\x22','logout-btn','load','getUser'];_0x4c2a=function(){return _0x38a978;};return _0x4c2a();}function _0x3074(_0x2a4029,_0x2ce896){const _0x4c2aad=_0x4c2a();return _0x3074=function(_0x3074cd,_0x5b3067){_0x3074cd=_0x3074cd-0xbc;let _0x48171c=_0x4c2aad[_0x3074cd];return _0x48171c;},_0x3074(_0x2a4029,_0x2ce896);}const configureClient=async()=>{const _0x41ddac=_0x3074;auth0Client=await auth0[_0x41ddac(0xd0)]({'domain':'teachertoybox.uk.auth0.com','clientId':'olhwjFTXOIx1mxJB2cn2BHVb1Vny1jZa','authorizationParams':{'redirect_uri':window[_0x41ddac(0xd9)][_0x41ddac(0xcf)]}});},handleRedirectCallback=async()=>{const _0x2b6aee=_0x3074,_0x549fd7=new URLSearchParams(window[_0x2b6aee(0xd9)][_0x2b6aee(0xc5)]);if(_0x549fd7[_0x2b6aee(0xc6)](_0x2b6aee(0xe0))&&_0x549fd7[_0x2b6aee(0xc6)](_0x2b6aee(0xd2))){const {appState:_0x1b3f8f}=await auth0Client[_0x2b6aee(0xcb)]();window[_0x2b6aee(0xca)][_0x2b6aee(0xe3)]({},document[_0x2b6aee(0xc9)],'/'),_0x1b3f8f&&_0x1b3f8f[_0x2b6aee(0xe6)]===_0x2b6aee(0xd3)&&document[_0x2b6aee(0xbd)](new CustomEvent(_0x2b6aee(0xf0),{'detail':_0x2b6aee(0xd3)}));}},initializeAuth=async()=>{await configureClient(),await handleRedirectCallback(),await updateUI();},updateUI=async()=>{const _0x5e18c8=_0x3074,_0x809102=await auth0Client[_0x5e18c8(0xd8)](),_0x14bf8c=document[_0x5e18c8(0xe8)](_0x5e18c8(0xd7)),_0x5c0398=document[_0x5e18c8(0xe8)]('userProfile'),_0x10d5c1=document[_0x5e18c8(0xe8)](_0x5e18c8(0xbf));window['TT'][_0x5e18c8(0xd8)]=_0x809102,window['TT']['isPremium']=![],document['body'][_0x5e18c8(0xe4)][_0x5e18c8(0xc2)]('is-premium');if(_0x14bf8c){if(_0x809102){_0x14bf8c[_0x5e18c8(0xc9)]=_0x5e18c8(0xda),_0x14bf8c[_0x5e18c8(0xe5)]=_0x5e18c8(0xe7),_0x14bf8c['classList'][_0x5e18c8(0xdd)](_0x5e18c8(0xec));const _0x40d0e3=await auth0Client[_0x5e18c8(0xee)]();_0x40d0e3&&_0x5c0398&&(_0x5c0398[_0x5e18c8(0xe5)]=_0x5e18c8(0xeb)+_0x40d0e3['picture']+_0x5e18c8(0xe9)+_0x40d0e3['name']+_0x5e18c8(0xd5),_0x5c0398['style'][_0x5e18c8(0xc4)]=_0x5e18c8(0xd1));await auth0Client[_0x5e18c8(0xdb)]({'cacheMode':'off'});const _0x111764=await auth0Client['getIdTokenClaims'](),_0x8908c6=_0x111764['http://teachertoybox.com/roles']||[];if(_0x8908c6['includes'](_0x5e18c8(0xc7))){window['TT']['isPremium']=!![],document[_0x5e18c8(0xcc)][_0x5e18c8(0xe4)][_0x5e18c8(0xdd)](_0x5e18c8(0xc3));if(_0x10d5c1)_0x10d5c1['style'][_0x5e18c8(0xc4)]=_0x5e18c8(0xde);}else{if(_0x10d5c1)_0x10d5c1['style']['display']=_0x5e18c8(0xd1);}}else{_0x14bf8c['title']=_0x5e18c8(0xd4),_0x14bf8c[_0x5e18c8(0xe5)]=_0x5e18c8(0xc0),_0x14bf8c[_0x5e18c8(0xe4)][_0x5e18c8(0xc2)](_0x5e18c8(0xec));if(_0x5c0398)_0x5c0398['style'][_0x5e18c8(0xc4)]=_0x5e18c8(0xde);if(_0x10d5c1)_0x10d5c1['style'][_0x5e18c8(0xc4)]=_0x5e18c8(0xd1);}}};window['login']=async(_0x5206e9=_0x34e6e3(0xbe))=>{const _0x25afe3=_0x34e6e3;await auth0Client[_0x25afe3(0xc1)]({'appState':{'target':_0x5206e9}});},window[_0x34e6e3(0xbc)]=()=>{const _0xb69627=_0x34e6e3;auth0Client['logout']({'logoutParams':{'returnTo':window[_0xb69627(0xd9)][_0xb69627(0xcf)]}});},window[_0x34e6e3(0xea)](_0x34e6e3(0xed),initializeAuth);
+// auth.js
+let auth0Client = null;
+
+// 1. Configure the Auth0 Client
+const configureClient = async () => {
+  auth0Client = await auth0.createAuth0Client({
+    domain: "teachertoybox.uk.auth0.com",
+    clientId: "olhwjFTXOIx1mxJB2cn2BHVb1Vny1jZa",
+    authorizationParams: {
+      redirect_uri: window.location.origin
+    }
+  });
+};
+
+// 2. Handle the redirect after login [UPDATED]
+const handleRedirectCallback = async () => {
+  const params = new URLSearchParams(window.location.search);
+  if (params.has("code") && params.has("state")) {
+    const { appState } = await auth0Client.handleRedirectCallback();
+    window.history.replaceState({}, document.title, "/");
+    
+    // Check if we need to perform an action after login
+    if (appState && appState.target === 'upgrade') {
+      // Fire a custom event that our main script can listen for
+      document.dispatchEvent(new CustomEvent('postLoginAction', { detail: 'upgrade' }));
+    }
+  }
+};
+
+// 3. Main function to initialize authentication
+const initializeAuth = async () => {
+  await configureClient();
+  await handleRedirectCallback();
+  await updateUI();
+};
+
+// 4. Update UI based on authentication state
+const updateUI = async () => {
+  const isAuthenticated = await auth0Client.isAuthenticated();
+  const authButton = document.getElementById("authButton");
+  const userProfileElement = document.getElementById("userProfile");
+  const upgradeButton = document.getElementById("upgradeButton");
+
+  // Reset premium status and set authentication status globally
+  window.TT.isAuthenticated = isAuthenticated;
+  window.TT.isPremium = false;
+  document.body.classList.remove('is-premium');
+  
+  if (authButton) {
+    if (isAuthenticated) {
+      // --- Logged In State ---
+      authButton.title = "Log Out";
+      authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
+      authButton.classList.add('logout-btn');
+      
+      const user = await auth0Client.getUser();
+      if (user && userProfileElement) {
+          userProfileElement.innerHTML = `<img src="${user.picture}" alt="${user.name}" style="width: 40px; height: 40px; border-radius: 50%;">`;
+          userProfileElement.style.display = 'flex';
+      }
+
+      // **FIX:** Force a refresh of the token from the server to get the latest roles
+      await auth0Client.getTokenSilently({ cacheMode: 'off' });
+      const claims = await auth0Client.getIdTokenClaims();
+      
+      const userRoles = claims['http://teachertoybox.com/roles'] || [];
+      if (userRoles.includes('Premium')) {
+          window.TT.isPremium = true;
+          document.body.classList.add('is-premium');
+          if (upgradeButton) upgradeButton.style.display = 'none';
+      } else {
+          if (upgradeButton) upgradeButton.style.display = 'flex';
+      }
+
+    } else {
+      // --- Logged Out State ---
+      authButton.title = "Log In / Sign Up";
+      authButton.innerHTML = `<i class="fas fa-sign-in-alt"></i>`;
+      authButton.classList.remove('logout-btn');
+      
+      if (userProfileElement) userProfileElement.style.display = 'none';
+      if (upgradeButton) upgradeButton.style.display = 'flex';
+    }
+  }
+};
+
+// 5. Login and Logout functions (made globally accessible) [UPDATED]
+window.login = async (action = 'default') => {
+  await auth0Client.loginWithRedirect({
+    appState: { target: action }
+  });
+};
+
+window.logout = () => {
+  auth0Client.logout({
+    logoutParams: {
+      returnTo: window.location.origin
+    }
+  });
+};
+
+// Initialize Auth0 when the page loads
+window.addEventListener('load', initializeAuth);
