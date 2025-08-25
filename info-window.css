@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * info-window.css
  * © 2025 TeacherToybox.com. All Rights Reserved.
@@ -17,7 +18,7 @@
 .info-content-wrapper {
     padding: 2vh 5vw; /* Use viewport height for vertical padding */
     height: 100%;
-    overflow-y: hidden; /* Remove scrollbar */
+    overflow-y: auto; /* Changed to auto to allow scrolling on small screens */
     font-size: clamp(10px, 1.6vh, 18px); /* Dynamic font size based on viewport height */
     opacity: 0;
 }
@@ -65,6 +66,27 @@
 }
 .info-content-wrapper::-webkit-scrollbar { display: none; }
 
+/* --- NEW: Close Button Styles --- */
+.info-window-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    z-index: 10;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+.info-window-close-btn:hover {
+    color: var(--text-primary);
+    transform: scale(1.1);
+}
+
 /* --- RTL Language Support for Info Window --- */
 html[lang="ar"] .info-content-wrapper,
 html[lang="fa"] .info-content-wrapper {
@@ -83,3 +105,6 @@ html[lang="fa"] .info-content-wrapper li::before {
     left: auto;
     right: 0;
 }
+=======
+.info-language-selector-wrap{display:none}.info-window-logo{display:block;height:72px;width:auto;margin:10px auto 24px auto}.info-content-wrapper{padding:2vh 5vw;height:100%;overflow-y:hidden;font-size:clamp(10px,1.6vh,18px);opacity:0}.info-content-wrapper.info-fade-in{animation:fadeIn .5s ease-in 1s forwards}.info-content-wrapper h2{color:var(--text-primary);margin-bottom:.5em;font-size:1.8em}.info-content-wrapper h3{color:var(--accent-color);margin-top:1.5em;margin-bottom:.5em;border-bottom:1px solid var(--border-color);padding-bottom:.3em;font-size:1.4em}.info-content-wrapper p{color:var(--text-secondary);line-height:1.6;margin-bottom:.8em}.info-content-wrapper ul{list-style:none;padding-left:0}.info-content-wrapper li{margin-bottom:.8em;line-height:1.5;color:var(--text-secondary);padding-left:22px;position:relative}.info-content-wrapper li::before{content:'✓';color:var(--accent-color);position:absolute;left:0;font-weight:700}.info-content-wrapper li strong{color:var(--text-primary)}.info-content-wrapper::-webkit-scrollbar{display:none}html[lang=ar] .info-content-wrapper,html[lang=fa] .info-content-wrapper{text-align:right;direction:rtl}html[lang=ar] .info-content-wrapper li,html[lang=fa] .info-content-wrapper li{padding-left:0;padding-right:22px}html[lang=ar] .info-content-wrapper li::before,html[lang=fa] .info-content-wrapper li::before{left:auto;right:0}
+>>>>>>> 54517d8e6840767c5733137bd26a9b42cd90c238
