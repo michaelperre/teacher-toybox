@@ -1,149 +1,6 @@
-// --- Splash Screen Helper ---
-(function() {
-  var armed = false;
-  function closeSplash() {
-    if (armed) return; armed = true;
-    var s = document.getElementById('splash-screen');
-    if (!s) return;
-    try { s.style.opacity = '0'; } catch(_) {}
-    setTimeout(function() { if (s && s.parentNode) s.parentNode.removeChild(s); }, 520);
-  }
-  function arm() { setTimeout(closeSplash, 1000); }
-  if (document.readyState === 'complete' || document.readyState === 'interactive') {
-    arm();
-  } else {
-    document.addEventListener('DOMContentLoaded', arm, { once: true });
-  }
-  setTimeout(closeSplash, 3500);
-})();
-
-// --- Internationalization (i18n) Logic ---
-(function () {
-  const SUPPORTED = {
-    en:"English", cs:"Čeština", uk:"Українська", zh:"中文（简体）", hi:"हिन्दी",
-    es:"Español", fr:"Français", ar:"العربية", fa:"فارسی", pt:"Português", ru:"Русский"
-  };
-  const I18N = {
-    en:{ 
-        meta:{ title:"Teacher Toybox Mobile | Interactive Whiteboard Tools",
-               titleShort:"Teacher Toybox Mobile",
-               description:"Mobile/tablet version of the free interactive digital whiteboard with timers, dice and more." },
-        top:{ desktop:"Desktop Edition" },
-        panel: {
-            upgrade: { title: "Go Premium", intro: "Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!", feature1_title: "Unlock All Tools", feature1_desc: "Get immediate access to every premium tool.", feature2_title: "Webcam & Document Camera", feature2_desc: "Use your webcam for live demonstrations.", feature3_title: "Photo Carousel", feature3_desc: "Create engaging visual stories and slideshows.", feature4_title: "Gamify Lessons", feature4_desc: "Use the Dice Roller and Counters to make learning fun.", feature8_title: "Support Development", feature8_desc: "Help keep the core platform free for all teachers.", priceBig: "$2 per month", priceSmall: "$24 billed annually" }
-        }
-    },
-    es:{ 
-        meta:{ title:"Teacher Toybox Móvil | Herramientas interactivas",
-               titleShort:"Teacher Toybox Móvil",
-               description:"Versión móvil/tableta de la pizarra digital interactiva gratuita con temporizadores, dados y más." },
-        top:{ desktop:"Versión de escritorio" },
-        panel: {
-            upgrade: { title: "Hazte Premium", intro: "¡Potencia tu aula desbloqueando todas las herramientas interactivas de Teacher Toybox!", feature1_title: "Desbloquea Todo", feature1_desc: "Obtén acceso inmediato a todas las herramientas premium.", feature2_title: "Webcam y Cámara de Documentos", feature2_desc: "Usa tu webcam para demostraciones en vivo.", feature3_title: "Carrusel de Fotos", feature3_desc: "Crea historias visuales y presentaciones atractivas.", feature4_title: "Gamifica las Lecciones", feature4_desc: "Usa el Lanzador de Dados y los Contadores para que aprender sea divertido.", feature8_title: "Apoya el Desarrollo", feature8_desc: "Ayuda a mantener la plataforma principal gratuita para todos los profesores.", priceBig: "$2 por mes", priceSmall: "$24 facturados anualmente" }
-        }
-    }
-    // (Add other languages here in the same format)
-  };
-
-  function t(dict, path) {
-    try { return path.split('.').reduce((o,k)=> o && o[k]!==undefined ? o[k] : undefined, dict); }
-    catch { return undefined; }
-  }
-
-  function updateMeta(lang) {
-    const d = I18N[lang] || I18N.en;
-    const title = t(d,'meta.title'), short = t(d,'meta.titleShort') || title, desc = t(d,'meta.description');
-    if (title) document.title = title;
-    if (desc) {
-      const m = document.querySelector('meta[name="description"]'); if (m) m.setAttribute('content', desc);
-      const ogd = document.querySelector('meta[property="og:description"]'); if (ogd) ogd.setAttribute('content', desc);
-      const twd = document.querySelector('meta[name="twitter:description"]'); if (twd) twd.setAttribute('content', desc);
-    }
-    if (short) {
-      const ogt = document.querySelector('meta[property="og:title"]'); if (ogt) ogt.setAttribute('content', short);
-      const twt = document.querySelector('meta[name="twitter:title"]'); if (twt) twt.setAttribute('content', short);
-    }
-  }
-
-  function regionDefault() {
-    const saved = localStorage.getItem('ttx_lang');
-    const supported = Object.keys(SUPPORTED);
-    if (saved && supported.includes(saved)) return saved;
-    const nav = (navigator.language||'en').split('-');
-    const base = (nav[0]||'en').toLowerCase();
-    const region = (nav[1]||'').toUpperCase();
-    const map = {
-      'CZ':'cs','UA':'uk',
-      'CN':'zh','HK':'zh','MO':'zh','TW':'zh','SG':'zh','MY':'zh',
-      'IN':'hi',
-      'ES':'es','MX':'es','AR':'es','CL':'es','CO':'es','PE':'es',
-      'FR':'fr','BE':'fr','CH':'fr','CA':'fr',
-      'AE':'ar','SA':'ar','EG':'ar','MA':'ar','DZ':'ar',
-      'IR':'fa',
-      'PT':'pt','BR':'pt',
-      'RU':'ru','BY':'ru','KZ':'ru',
-      'US':'en','GB':'en','AU':'en','NZ':'en','IE':'en','CA':'en'
-    };
-    if (map[region]) return map[region];
-    if (supported.includes(base)) return base;
-    return 'en';
-  }
-
-  function applyLang(lang) {
-    localStorage.setItem('ttx_lang', lang);
-    document.documentElement.lang = lang;
-    const d = I18N[lang] || I18N.en;
-    const desk = document.querySelector('.desktop-btn');
-    if (desk) desk.textContent = t(d,'top.desktop') || 'Desktop Edition';
-    updateMeta(lang);
-    
-    // Apply all data-i18n translations
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const val = t(d, el.dataset.i18n) || t(I18N.en, el.dataset.i18n);
-        if (typeof val === 'string') el.textContent = val;
-    });
-  }
-
-  function init() {
-    const def = regionDefault();
-    applyLang(def);
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else { init(); }
-})();
-
-
-// --- Main Application Logic ---
 document.addEventListener('DOMContentLoaded', () => {
     const mainContent = document.getElementById('main-content');
     const navButtons = document.querySelectorAll('.nav-btn');
-    
-    // --- Premium User Simulation ---
-    // Set to `true` to simulate a premium user and unlock features
-    const isPremiumUser = false;
-
-    // --- Upgrade Panel Logic ---
-    const upgradePanel = document.getElementById('upgrade-panel');
-    const upgradeBackdrop = document.getElementById('upgrade-backdrop');
-    const closeUpgradeBtn = document.getElementById('close-upgrade-btn');
-
-    function showUpgradePanel() {
-        document.body.classList.add('no-scroll');
-        upgradeBackdrop.classList.add('visible');
-        upgradePanel.classList.add('visible');
-    }
-
-    function hideUpgradePanel() {
-        document.body.classList.remove('no-scroll');
-        upgradeBackdrop.classList.remove('visible');
-        upgradePanel.classList.remove('visible');
-    }
-
-    closeUpgradeBtn.addEventListener('click', hideUpgradePanel);
-    upgradeBackdrop.addEventListener('click', hideUpgradePanel);
-
 
     // --- Clock and Date ---
     function updateClock() {
@@ -883,8 +740,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Event Listeners for Navigation ---
     navButtons.forEach(button => {
         const tool = button.dataset.tool;
-        const isPremiumFeature = button.dataset.premium === 'true';
-
         if (tool === 'bell' || tool === 'shh') {
             button.addEventListener('click', () => {
                 const soundId = tool + 'Sound';
@@ -896,13 +751,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 showOverlay(tool === 'bell' ? 'fa-bell' : 'Shh', tool === 'bell');
             });
         } else {
-            button.addEventListener('click', () => {
-                if (isPremiumFeature && !isPremiumUser) {
-                    showUpgradePanel(); // Show panel instead of alert
-                    return;
-                }
-                loadTool(tool);
-            });
+            button.addEventListener('click', () => loadTool(tool));
         }
     });
 
