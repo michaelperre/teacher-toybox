@@ -12,6 +12,7 @@
     --success-color: #28a745;
     --success-dark: #218838;
     --success-hover: #218838;
+    --warning-color: #FF9500;
 }
 
 html, body {
@@ -158,6 +159,10 @@ body.no-scroll {
 
 .nav-btn.active {
     color: var(--accent-color);
+}
+
+#authButton.logout-btn {
+    color: var(--warning-color);
 }
 
 .nav-btn i {
