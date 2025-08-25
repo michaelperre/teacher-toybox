@@ -24,50 +24,25 @@
     es:"Español", fr:"Français", ar:"العربية", fa:"فارسی", pt:"Português", ru:"Русский"
   };
   const I18N = {
-    en:{ meta:{ title:"Teacher Toybox Mobile | Interactive Whiteboard Tools",
-                titleShort:"Teacher Toybox Mobile",
-                description:"Mobile/tablet version of the free interactive digital whiteboard with timers, dice and more." },
-         top:{ desktop:"Desktop Edition" } },
-    cs:{ meta:{ title:"Teacher Toybox Mobil | Interaktivní nástroje",
-                titleShort:"Teacher Toybox Mobil",
-                description:"Mobilní/tabletová verze zdarma interaktivní digitální tabule s časovači, kostkami a dalšími nástroji." },
-         top:{ desktop:"Desktopová verze" } },
-    uk:{ meta:{ title:"Teacher Toybox Мобільна | Інтерактивні інструменти",
-                titleShort:"Teacher Toybox Мобільна",
-                description:"Мобільна/планшетна версія безкоштовної інтерактивної цифрової дошки з таймерами, кубиками тощо." },
-         top:{ desktop:"Десктопна версія" } },
-    zh:{ meta:{ title:"Teacher Toybox 移动版 | 互动工具",
-                titleShort:"Teacher Toybox 移动版",
-                description:"免费互动数字白板的移动/平板版本，内置计时器、掷骰子等。" },
-         top:{ desktop:"桌面版" } },
-    hi:{ meta:{ title:"Teacher Toybox موبائل | इंटरेक्टिव टूल्स",
-                titleShort:"Teacher Toybox मोबाइल",
-                description:"निःशुल्क इंटरैक्टिव डिजिटल वाइटबोर्ड का मोबाइल/टैबलेट संस्करण, जिसमें टाइमर, पासा आदि शामिल हैं।" },
-         top:{ desktop:"डेскटॉप संस्करण" } },
-    es:{ meta:{ title:"Teacher Toybox Móvil | Herramientas interactivas",
-                titleShort:"Teacher Toybox Móvil",
-                description:"Versión móvil/tableta de la pizarra digital interactiva gratuita con temporizadores, dados y más." },
-         top:{ desktop:"Versión de escritorio" } },
-    fr:{ meta:{ title:"Teacher Toybox Mobile | Outils interactifs",
-                titleShort:"Teacher Toybox Mobile",
-                description:"Version mobile/tablette du tableau blanc numérique interactif gratuit avec minuteurs, dés, etc." },
-         top:{ desktop:"Version bureau" } },
-    ar:{ meta:{ title:"Teacher Toybox للجوال | أدوات تفاعلية",
-                titleShort:"Teacher Toybox للجوال",
-                description:"نسخة الهاتف/الجهاز اللوحي من السبورة الرقمية التفاعلية المجانية עם مؤقتات ونرد والمزيد." },
-         top:{ desktop:"نسخة سطح المكتب" } },
-    fa:{ meta:{ title:"Teacher Toybox موبایل | ابزارهای تعاملی",
-                titleShort:"Teacher Toybox موبایل",
-                description:"نسخهٔ موبایل/تبلت وایت‌بورد دیجیتال تعاملی رایگان با تایمر و تاس و ابزارهای دیگر." },
-         top:{ desktop:"نسخهٔ دسکتاپ" } },
-    pt:{ meta:{ title:"Teacher Toybox Mobile | Ferramentas interativas",
-                titleShort:"Teacher Toybox Mobile",
-                description:"Versão móvel/tablet do quadro branco digital interativo gratuito com cronômetros, dados e mais." },
-         top:{ desktop:"Versão desktop" } },
-    ru:{ meta:{ title:"Teacher Toybox Мобильный | Интерактивные инструменты",
-                titleShort:"Teacher Toybox Мобильный",
-                description:"Мобильная/планшетная версия бесплатной интерактивной цифровой доски с таймерами, кубиками и др." },
-         top:{ desktop:"Десктоп‑версия" } }
+    en:{ 
+        meta:{ title:"Teacher Toybox Mobile | Interactive Whiteboard Tools",
+               titleShort:"Teacher Toybox Mobile",
+               description:"Mobile/tablet version of the free interactive digital whiteboard with timers, dice and more." },
+        top:{ desktop:"Desktop Edition" },
+        panel: {
+            upgrade: { title: "Go Premium", intro: "Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!", feature1_title: "Unlock All Tools", feature1_desc: "Get immediate access to every premium tool.", feature2_title: "Webcam & Document Camera", feature2_desc: "Use your webcam for live demonstrations.", feature3_title: "Photo Carousel", feature3_desc: "Create engaging visual stories and slideshows.", feature4_title: "Gamify Lessons", feature4_desc: "Use the Dice Roller and Counters to make learning fun.", feature8_title: "Support Development", feature8_desc: "Help keep the core platform free for all teachers.", priceBig: "$2 per month", priceSmall: "$24 billed annually" }
+        }
+    },
+    es:{ 
+        meta:{ title:"Teacher Toybox Móvil | Herramientas interactivas",
+               titleShort:"Teacher Toybox Móvil",
+               description:"Versión móvil/tableta de la pizarra digital interactiva gratuita con temporizadores, dados y más." },
+        top:{ desktop:"Versión de escritorio" },
+        panel: {
+            upgrade: { title: "Hazte Premium", intro: "¡Potencia tu aula desbloqueando todas las herramientas interactivas de Teacher Toybox!", feature1_title: "Desbloquea Todo", feature1_desc: "Obtén acceso inmediato a todas las herramientas premium.", feature2_title: "Webcam y Cámara de Documentos", feature2_desc: "Usa tu webcam para demostraciones en vivo.", feature3_title: "Carrusel de Fotos", feature3_desc: "Crea historias visuales y presentaciones atractivas.", feature4_title: "Gamifica las Lecciones", feature4_desc: "Usa el Lanzador de Dados y los Contadores para que aprender sea divertido.", feature8_title: "Apoya el Desarrollo", feature8_desc: "Ayuda a mantener la plataforma principal gratuita para todos los profesores.", priceBig: "$2 por mes", priceSmall: "$24 facturados anualmente" }
+        }
+    }
+    // (Add other languages here in the same format)
   };
 
   function t(dict, path) {
@@ -121,6 +96,12 @@
     const desk = document.querySelector('.desktop-btn');
     if (desk) desk.textContent = t(d,'top.desktop') || 'Desktop Edition';
     updateMeta(lang);
+    
+    // Apply all data-i18n translations
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const val = t(d, el.dataset.i18n) || t(I18N.en, el.dataset.i18n);
+        if (typeof val === 'string') el.textContent = val;
+    });
   }
 
   function init() {
@@ -142,6 +123,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Premium User Simulation ---
     // Set to `true` to simulate a premium user and unlock features
     const isPremiumUser = false;
+
+    // --- Upgrade Panel Logic ---
+    const upgradePanel = document.getElementById('upgrade-panel');
+    const upgradeBackdrop = document.getElementById('upgrade-backdrop');
+    const closeUpgradeBtn = document.getElementById('close-upgrade-btn');
+
+    function showUpgradePanel() {
+        document.body.classList.add('no-scroll');
+        upgradeBackdrop.classList.add('visible');
+        upgradePanel.classList.add('visible');
+    }
+
+    function hideUpgradePanel() {
+        document.body.classList.remove('no-scroll');
+        upgradeBackdrop.classList.remove('visible');
+        upgradePanel.classList.remove('visible');
+    }
+
+    closeUpgradeBtn.addEventListener('click', hideUpgradePanel);
+    upgradeBackdrop.addEventListener('click', hideUpgradePanel);
+
 
     // --- Clock and Date ---
     function updateClock() {
@@ -896,8 +898,8 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             button.addEventListener('click', () => {
                 if (isPremiumFeature && !isPremiumUser) {
-                    alert('This feature is for Premium users only.');
-                    return; // Prevent the tool from loading
+                    showUpgradePanel(); // Show panel instead of alert
+                    return;
                 }
                 loadTool(tool);
             });
