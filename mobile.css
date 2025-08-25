@@ -161,7 +161,7 @@ body.no-scroll {
 }
 
 .nav-btn i {
-    font-size: 26px;
+    font-size: 52px;
 }
 
 /* --- General Tool Styles --- */
@@ -799,8 +799,8 @@ body.no-scroll {
     top: 50%;
     left: 50%;
     /* Position the crown on the top-right of the main icon */
-    transform: translate(13px, -13px);
-    font-size: 10px; /* A clear, legible size for a badge */
+    transform: translate(26px, -26px);
+    font-size: 5px; /* A clear, legible size for a badge */
     color: #FFD700; /* Gold */
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
     pointer-events: none;
