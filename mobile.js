@@ -1,9 +1,3 @@
-// Core bootstrap & shared state
-const global = window;
-global.TT = global.TT || {};
-global.TT.isAuthenticated = false;
-global.TT.isPremium = false;
-
 // --- Splash Screen Helper ---
 (function() {
   var armed = false;
@@ -34,19 +28,13 @@ global.TT.isPremium = false;
         meta:{ title:"Teacher Toybox Mobile | Interactive Whiteboard Tools",
                titleShort:"Teacher Toybox Mobile",
                description:"Mobile/tablet version of the free interactive digital whiteboard with timers, dice and more." },
-        top:{ desktop:"Desktop Edition" },
-        panel: {
-            upgrade: { title: "Go Premium", intro: "Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!", feature1_title: "Unlock All Tools", feature1_desc: "Get immediate access to every premium tool.", feature2_title: "Webcam & Document Camera", feature2_desc: "Use your webcam for live demonstrations.", feature3_title: "Photo Carousel", feature3_desc: "Create engaging visual stories and slideshows.", feature4_title: "Gamify Lessons", feature4_desc: "Use the Dice Roller and Counters to make learning fun.", feature8_title: "Support Development", feature8_desc: "Help keep the core platform free for all teachers.", priceBig: "$2 per month", priceSmall: "$24 billed annually" }
-        }
+        top:{ desktop:"Desktop Edition" }
     },
     es:{ 
         meta:{ title:"Teacher Toybox Móvil | Herramientas interactivas",
                titleShort:"Teacher Toybox Móvil",
                description:"Versión móvil/tableta de la pizarra digital interactiva gratuita con temporizadores, dados y más." },
-        top:{ desktop:"Versión de escritorio" },
-        panel: {
-            upgrade: { title: "Hazte Premium", intro: "¡Potencia tu aula desbloqueando todas las herramientas interactivas de Teacher Toybox!", feature1_title: "Desbloquea Todo", feature1_desc: "Obtén acceso inmediato a todas las herramientas premium.", feature2_title: "Webcam y Cámara de Documentos", feature2_desc: "Usa tu webcam para demostraciones en vivo.", feature3_title: "Carrusel de Fotos", feature3_desc: "Crea historias visuales y presentaciones atractivas.", feature4_title: "Gamifica las Lecciones", feature4_desc: "Usa el Lanzador de Dados y los Contadores para que aprender sea divertido.", feature8_title: "Apoya el Desarrollo", feature8_desc: "Ayuda a mantener la plataforma principal gratuita para todos los profesores.", priceBig: "$2 por mes", priceSmall: "$24 facturados anualmente" }
-        }
+        top:{ desktop:"Versión de escritorio" }
     }
     // (Add other languages here in the same format)
   };
@@ -125,31 +113,6 @@ global.TT.isPremium = false;
 document.addEventListener('DOMContentLoaded', () => {
     const mainContent = document.getElementById('main-content');
     const navButtons = document.querySelectorAll('.nav-btn');
-    
-    // This will be updated by auth.js
-    let isPremiumUser = false;
-
-    // --- Upgrade Panel Logic ---
-    const upgradePanel = document.getElementById('upgrade-panel');
-    const upgradeBackdrop = document.getElementById('upgrade-backdrop');
-    const closeUpgradeBtn = document.getElementById('close-upgrade-btn');
-    const panelUpgradeBtn = document.getElementById('panel-upgrade-btn');
-
-    function showUpgradePanel() {
-        document.body.classList.add('no-scroll');
-        upgradeBackdrop.classList.add('visible');
-        upgradePanel.classList.add('visible');
-    }
-
-    function hideUpgradePanel() {
-        document.body.classList.remove('no-scroll');
-        upgradeBackdrop.classList.remove('visible');
-        upgradePanel.classList.remove('visible');
-    }
-
-    if(closeUpgradeBtn) closeUpgradeBtn.addEventListener('click', hideUpgradePanel);
-    if(upgradeBackdrop) upgradeBackdrop.addEventListener('click', hideUpgradePanel);
-
 
     // --- Clock and Date ---
     function updateClock() {
@@ -217,10 +180,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadCalculatorTool() { /* ... full function code ... */ }
     function loadNumberedListTool() { /* ... full function code ... */ }
 
+
     // --- Event Listeners for Navigation ---
     navButtons.forEach(button => {
         const tool = button.dataset.tool;
-        const isPremiumFeature = button.dataset.premium === 'true';
 
         if (tool === 'bell' || tool === 'shh') {
             button.addEventListener('click', () => {
@@ -234,11 +197,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         } else {
             button.addEventListener('click', () => {
-                isPremiumUser = window.TT.isPremium || false;
-                if (isPremiumFeature && !isPremiumUser) {
-                    showUpgradePanel();
-                    return;
-                }
                 loadTool(tool);
             });
         }
@@ -246,40 +204,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Initial Load ---
     loadTool('draw');
-
-    // --- ADDED: Upgrade Button Functionality ---
-    const initiateCheckout = async () => {
-        try {
-            const user = await auth0Client.getUser();
-            if (!user) {
-              throw new Error("User not found after authentication.");
-            }
-            const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF');
-            const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo';
-    
-            const response = await fetch('/api/create-checkout-session', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ userId: user.sub, priceId: priceId }),
-            });
-    
-            if (!response.ok) throw new Error('Failed to create checkout session.');
-    
-            const { sessionId } = await response.json();
-            await stripe.redirectToCheckout({ sessionId });
-        } catch (error) {
-            console.error("Error redirecting to checkout:", error);
-            alert("Could not connect to the payment service. Please try again later.");
-        }
-    };
-
-    if (panelUpgradeBtn) {
-        panelUpgradeBtn.onclick = async () => {
-            if (!window.TT.isAuthenticated) {
-                login('upgrade'); // Redirects to login with upgrade intent
-                return;
-            }
-            initiateCheckout();
-        };
-    }
 });
