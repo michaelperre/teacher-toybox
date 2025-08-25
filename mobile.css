@@ -1,3 +1,811 @@
+:root {
+    --accent-color-rgb: 56, 142, 255;
+    --accent-color: #388eff;
+    --accent-hover: #58a6ff;
+    --bg-color: #1c1c1e;
+    --bar-bg: #2c2c2e;
+    --border-color: rgba(88, 88, 91, 0.5);
+    --text-primary: #f2f2f7;
+    --text-secondary: #aeb0b4;
+    --danger-color: #ff453a;
+    --danger-dark: #c82333;
+    --success-color: #28a745;
+    --success-dark: #218838;
+    --success-hover: #34c759;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    touch-action: manipulation;
+    height: 100vh;
+    height: 100dvh;
+    overscroll-behavior-y: contain;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+/* --- Top Bar --- */
+#top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bar-bg);
+    padding: 0 15px;
+    height: 50px;
+    border-bottom: 1px solid var(--border-color);
+    flex-shrink: 0;
+    padding-top: env(safe-area-inset-top);
+}
+
+#site-title-mobile {
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    text-decoration: none;
+    color: inherit;
+}
+
+#site-logo-mobile {
+    height: 22px; 
+}
+
+#clock-date {
+    text-align: right;
+}
+
+#clock {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#date {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.desktop-btn {
+    display: none;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 4px 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+.desktop-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--text-primary);
+    border-color: var(--accent-color);
+}
+
+@media (min-width: 1025px) {
+    .desktop-btn {
+        display: inline-block;
+    }
+}
+
+
+/* --- Main Content Area --- */
+#main-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.tool-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* --- Bottom Navigation Bar --- */
+#bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bar-bg);
+    height: 85px; 
+    border-top: 1px solid var(--border-color);
+    flex-shrink: 0;
+    padding: 5px 0;
+    padding-bottom: calc(5px + env(safe-area-inset-bottom));
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    border-radius: 16px;
+    transition: color 0.2s ease, background-color 0.2s ease, transform 0.1s ease;
+    position: relative; /* Needed to position the premium icon */
+}
+
+.nav-btn:active {
+    transform: scale(0.92);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-btn.active {
+    color: var(--accent-color);
+}
+
+.nav-btn i {
+    font-size: 52px;
+}
+
+/* --- General Tool Styles --- */
+.tool-controls {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.tool-btn {
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool-btn:active {
+    transform: scale(0.95);
+}
+
+/* --- Drawing Tool --- */
+#draw-canvas {
+    touch-action: none;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+#draw-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 3px;
+    padding: 4px;
+    background: rgba(44, 44, 46, 0.8);
+    border-radius: 12px;
+    align-items: center;
+}
+.color-swatch {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+#draw-controls input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 8px;
+    background: #555;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+#draw-controls input[type="range"]:hover {
+    opacity: 1;
+}
+#draw-controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: var(--accent-color);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#draw-controls input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: var(--accent-color);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.tool-btn-draw {
+    background: none;
+    border: 2px solid transparent;
+    color: var(--text-secondary);
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.tool-btn-draw:hover {
+    background: rgba(255,255,255,0.1);
+    color: var(--text-primary);
+}
+.color-swatch.active, .tool-btn-draw.active {
+    border-color: white;
+    color: white;
+}
+
+
+/* --- Timer/Stopwatch/Countdown Tool --- */
+#main-content.timer-active {
+     padding: 8px;
+     padding-bottom: calc(8px + env(safe-area-inset-bottom));
+}
+
+.timer-display {
+    font-weight: 700;
+    font-family: 'monospace';
+    line-height: 1;
+}
+.countdown-display-wrapper {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.countdown-display-wrapper svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.countdown-time {
+    position: relative;
+    z-index: 1;
+}
+.countdown-selection-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    width: 100%;
+    max-width: 900px;
+}
+.countdown-btn {
+    background-color: var(--bar-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 25px 15px;
+    border-radius: 12px;
+    font-size: 36px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.countdown-title {
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: var(--text-secondary);
+}
+
+/* --- Dice Tool --- */
+.tool-container.dice-active {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 0;
+    padding-bottom: env(safe-area-inset-bottom, 0);
+}
+.die-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.die { 
+    box-sizing: border-box; 
+    background-color: white; 
+    border-radius: 12px; 
+    padding: 9px; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 6px; 
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); 
+}
+.die .die-dot { 
+    visibility: hidden; 
+    width: 100%; 
+    height: 100%; 
+    background-color: black; 
+    border-radius: 50%; 
+}
+.die[data-value="1"] .dot-5,
+.die[data-value="2"] .dot-1, .die[data-value="2"] .dot-9,
+.die[data-value="3"] .dot-1, .die[data-value="3"] .dot-5, .die[data-value="3"] .dot-9,
+.die[data-value="4"] .dot-1, .die[data-value="4"] .dot-3, .die[data-value="4"] .dot-7, .die[data-value="4"] .dot-9,
+.die[data-value="5"] .dot-1, .die[data-value="5"] .dot-3, .die[data-value="5"] .dot-5, .die[data-value="5"] .dot-7, .die[data-value="5"] .dot-9,
+.die[data-value="6"] .dot-1, .die[data-value="6"] .dot-3, .die[data-value="6"] .dot-4, .die[data-value="6"] .dot-6, .die[data-value="6"] .dot-7, .die[data-value="6"] .dot-9 { visibility: visible; }
+
+.die.rolling {
+    animation: roll 0.5s ease-in-out;
+}
+@keyframes roll {
+    0% { transform: rotate(0deg) scale(1); }
+    25% { transform: rotate(15deg) scale(1.1); }
+    75% { transform: rotate(-15deg) scale(1.1); }
+    100% { transform: rotate(0deg) scale(1); }
+}
+.dice-controls { 
+    background-color: var(--bg-color); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 8px; 
+    padding: 8px;
+    padding-bottom: calc(env(safe-area-inset-bottom, 0) + 8px);
+    flex-wrap: nowrap; 
+}
+.dice-controls .tool-btn {
+    width: clamp(36px, 7vh, 56px);
+    height: clamp(36px, 7vh, 56px);
+    font-size: clamp(16px, 2.2vh, 24px);
+    border-radius: 12px;
+}
+.dice-controls .dice-total {
+    font-size: clamp(12px, 1.9vh, 16px);
+    min-width: 72px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* --- For and Against Tool --- */
+#main-content.for-against-active {
+    padding: 8px;
+    padding-bottom: calc(8px + env(safe-area-inset-bottom));
+}
+.for-against-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 8px;
+    box-sizing: border-box;
+}
+.for-against-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-radius: 16px;
+    padding: clamp(10px, 3vmin, 25px);
+    box-sizing: border-box;
+    transition: transform 0.15s ease;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    min-height: 0; /* Prevents overflow on short screens */
+}
+.for-against-panel:active {
+    transform: scale(0.98);
+}
+.for-panel {
+    background: linear-gradient(135deg, var(--success-color), var(--success-dark));
+}
+.against-panel {
+    background: linear-gradient(135deg, var(--danger-color), var(--danger-dark));
+}
+.for-against-panel h2 {
+    font-size: clamp(1.2rem, 4.5vmin, 2.2rem);
+    margin: 0 0 10px 0;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+.for-against-display {
+    font-size: clamp(4rem, 28vmin, 15rem);
+    font-weight: 900;
+    line-height: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.for-against-controls {
+    display: flex;
+    gap: clamp(8px, 2vmin, 15px);
+    align-items: center;
+    margin-top: 10px;
+}
+.for-against-controls .tool-btn {
+    width: clamp(38px, 9vmin, 55px);
+    height: clamp(38px, 9vmin, 55px);
+    font-size: clamp(16px, 3.5vmin, 22px);
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+.for-against-controls .tool-btn:active {
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* --- Overlay Icon for Sounds --- */
+.overlay-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    font-size: 25vh;
+    font-weight: 700;
+    color: var(--text-primary);
+    opacity: 1;
+    z-index: 100;
+    pointer-events: none;
+    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* --- Splash screen overlay --- */
+#splash-screen {
+    position: fixed;
+    inset: 0;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+#splash-screen img {
+    height: 110px;
+    width: auto;
+}
+
+/* === Calculator UI === */
+#main-content.calculator-active {
+    padding: 8px;
+    padding-bottom: calc(8px + env(safe-area-inset-bottom));
+}
+.calculator-grid {
+    border-radius: 18px;
+    background: radial-gradient(120% 120% at 50% -10%, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 60%), #1b1b1d;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.45), 0 1px 0 rgba(255,255,255,0.06) inset;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.calculator-display {
+    padding: 20px 22px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#calc-expression, #calc-input {
+    font-variant-numeric: tabular-nums lining-nums;
+    letter-spacing: 0.25px;
+}
+#calc-expression {
+    font-size: clamp(14px, 3.5vw, 18px);
+    opacity: 0.85;
+    font-weight: 500;
+    line-height: 1.25;
+    color: var(--text-secondary);
+    min-height: 1.25em;
+}
+#calc-input {
+    font-size: clamp(24px, 10vw, 60px);
+    line-height: 1.1;
+    text-shadow: 0 2px 18px rgba(0,0,0,0.5);
+    color: var(--text-primary);
+    word-wrap: break-word;
+}
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 8px;
+    padding: 10px;
+    background: transparent;
+}
+.calc-btn {
+    position: relative;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+    box-shadow: 0 1px 0 rgba(255,255,255,0.06) inset, 0 10px 22px rgba(0,0,0,0.4);
+    transition: transform 0.06s ease, box-shadow 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    padding: 12px 8px;
+    text-align: center;
+    font-size: clamp(14px, 5vw, 28px);
+    color: var(--text-primary);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calc-btn:hover { border-color: rgba(var(--accent-color-rgb), 0.4); }
+.calc-btn:focus-visible {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.8), 0 0 0 4px rgba(var(--accent-color-rgb), 0.75);
+}
+.calc-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 0 0 rgba(0,0,0,0), 0 2px 10px rgba(0,0,0,0.5) inset;
+}
+.calc-btn.function {
+    color: var(--text-secondary);
+    background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+}
+.calc-btn.operator {
+    color: #f1f2f7;
+    background: linear-gradient(180deg, #35363a, #2a2b2f);
+    border-color: rgba(255,255,255,0.1);
+}
+.calc-btn.operator:hover {
+    background: linear-gradient(180deg, rgba(var(--accent-color-rgb),0.35), rgba(var(--accent-color-rgb),0.18));
+    color: #fff;
+    border-color: rgba(var(--accent-color-rgb), 0.55);
+}
+.calc-btn.ac {
+    background: linear-gradient(180deg, #ff665d, #d94b42);
+    color: #fff;
+    border: none;
+    font-weight: 800;
+}
+.calc-btn.equals {
+    background: linear-gradient(180deg, var(--accent-color), #2a57c3);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 12px 26px rgba(56,98,196,0.55), 0 1px 0 rgba(255,255,255,0.25) inset;
+    font-weight: 800;
+}
+.calc-btn.equals:active { animation: pulse 120ms ease-out; }
+@keyframes pulse {
+    0% { transform: translateY(0); box-shadow: 0 10px 24px rgba(56,98,196,0.55), 0 1px 0 rgba(255,255,255,0.25) inset; }
+    50% { transform: translateY(1px); box-shadow: 0 4px 14px rgba(56,98,196,0.45), 0 1px 0 rgba(255,255,255,0.15) inset; }
+    100% { transform: translateY(0); }
+}
+.calc-btn .ripple {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(0.85);
+    background: radial-gradient(120% 120% at var(--x,50%) var(--y,50%), rgba(255,255,255,0.35), transparent 40%);
+    animation: ripple 450ms ease-out;
+}
+@keyframes ripple {
+    0% { opacity: 0.0; transform: scale(0.9); }
+    20% { opacity: 0.7; transform: scale(1.0); }
+    100% { opacity: 0.0; transform: scale(1.1); }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 767px) {
+    .calculator-grid {
+        width: 80%;
+    }
+    .countdown-btn {
+        font-size: 18px;
+        padding: 20px 10px;
+    }
+}
+
+/* Styles for short screens */
+@media (max-height: 720px) {
+    .calculator-display {
+        padding: 10px 22px;
+    }
+    .calculator-buttons {
+        gap: 5px;
+        padding: 8px;
+    }
+    .calc-btn {
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .calc-btn.equals {
+        border-radius: 12px;
+    }
+}
+
+/* Switches to a vertical layout on narrow/short screens */
+@media (max-width: 420px), (max-height: 420px) {
+    .for-against-container {
+        flex-direction: column;
+    }
+}
+
+/* --- Numbered List Tool Styles --- */
+#main-content.numbered-list-active {
+    padding: 8px;
+}
+.numbered-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.list-title {
+    text-align: center;
+    font-size: clamp(3rem, 12vmin, 4.4rem);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 8px 0;
+    padding: 4px 8px;
+    border-radius: 6px;
+    cursor: text;
+    outline: none;
+    transition: background-color 0.2s;
+}
+.list-title:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.list-table-wrapper {
+    flex-grow: 1;
+    overflow-y: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.list-table tr {
+    border-bottom: 1px solid var(--border-color);
+}
+.list-table td {
+    padding: 20px;
+    vertical-align: middle;
+}
+.list-table tr:last-child {
+    border-bottom: none;
+}
+.col-number {
+    width: 60px;
+    text-align: center;
+    color: var(--text-secondary);
+    font-weight: 500;
+    padding-right: 0 !important;
+    font-size: 2rem;
+}
+.col-text input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-size: 2rem;
+    outline: none;
+    padding: 4px 0;
+}
+.col-counter {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.counter-value {
+    font-weight: 700;
+    font-size: 2.2em;
+    min-width: 25px;
+    text-align: center;
+}
+.counter-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 2.2em;
+    transition: background-color 0.2s;
+}
+.counter-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.list-controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 12px;
+    flex-shrink: 0;
+}
+.control-btn-large {
+    width: clamp(45px, 12vmin, 60px);
+    height: clamp(45px, 12vmin, 60px);
+    font-size: clamp(1rem, 4vmin, 1.5rem);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    cursor: pointer;
+    background-color: var(--bar-bg);
+    transition: all 0.2s;
+}
+.control-btn-large:active {
+    transform: scale(0.95);
+}
+.control-btn-large:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+/* --- Premium Feature Icon Styles --- */
+.nav-btn i.premium-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* Position the crown on the top-right of the main icon */
+    transform: translate(26px, -26px);
+    font-size: 17px;
+    color: #FFD700; /* Gold */
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+    pointer-events: none;
+}
+
 /* --- Upgrade Panel Styles --- */
 #upgrade-backdrop {
     position: fixed;
