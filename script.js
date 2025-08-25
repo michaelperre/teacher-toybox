@@ -252,8 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
     styleSheet.innerText = toolStyles;
     document.head.appendChild(styleSheet);
 
-    let hotkeysEnabled = true,
-        laserOn = false;
+    let hotkeysEnabled = true;
     let layoutState = { activeLayout: null, isVisible: true };
     const gridSizePx = 20;
     const defaultAccentColor = getComputedStyle(document.documentElement).getPropertyValue('--accent-color').trim();
@@ -288,11 +287,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return true;
         }
         return false;
-    }
-
-    function moveLaser(e) {
-        const d = document.getElementById('laserDot');
-        if (d) d.style.transform = `translate(${e.clientX - 11}px, ${e.clientY - 11}px) scale(1)`;
     }
 
     function showOverlay(txt) {
@@ -708,10 +702,9 @@ document.addEventListener('DOMContentLoaded', () => {
         ctrl.style.cssText = 'display:flex;justify-content:center;gap:12px;padding:8px;';
         ['fas fa-plus', 'fas fa-minus'].forEach(icon => {
             const b = document.createElement('button');
-            b.className = 'icon-btn text-editor-control-btn'; // Added new class
+            b.className = 'icon-btn text-editor-control-btn';
             b.innerHTML = `<i class="${icon}"></i>`;
             b.style.width = '40px'; b.style.height = '40px'; b.style.fontSize = '16px';
-            // The hardcoded background style has been removed from the line above
             b.onclick = () => { const sz = parseInt(getComputedStyle(ta).fontSize, 10); ta.style.fontSize = `${sz + (icon.includes('plus') ? 6 : -6)}px`; };
             ctrl.appendChild(b);
         });
@@ -2009,16 +2002,52 @@ document.addEventListener('DOMContentLoaded', () => {
         s.currentTime = 0;
         s.play().catch(() => {})
     };
-    $('laserButton').onclick = function() {
-        if (closeInfoIfOpen()) return;
-        laserOn = !laserOn;
-        this.classList.toggle('active', laserOn);
-        if (laserOn) { const d = document.createElement('div');
-            d.id = 'laserDot';
-            document.body.appendChild(d);
-            document.addEventListener('pointermove', moveLaser); } else { document.removeEventListener('pointermove', moveLaser);
-            document.getElementById('laserDot')?.remove(); }
-    };
+
+    // --- Laser Pointer Module ---
+    (function() {
+        let isActive = false;
+        let laserDotElement = null;
+
+        const updatePosition = (e) => {
+            if (!laserDotElement) return;
+            // The offset (-10px) centers the 20px dot on the cursor's coordinates.
+            const x = e.clientX - 10;
+            const y = e.clientY - 10;
+            laserDotElement.style.transform = `translate(${x}px, ${y}px)`;
+        };
+
+        const turnOn = () => {
+            if (isActive) return;
+            laserDotElement = document.createElement('div');
+            laserDotElement.id = 'laserDot';
+            document.body.appendChild(laserDotElement);
+            document.addEventListener('pointermove', updatePosition);
+            $('laserButton').classList.add('active');
+            isActive = true;
+        };
+
+        const turnOff = () => {
+            if (!isActive) return;
+            document.removeEventListener('pointermove', updatePosition);
+            if (laserDotElement) {
+                laserDotElement.remove();
+                laserDotElement = null;
+            }
+            $('laserButton').classList.remove('active');
+            isActive = false;
+        };
+
+        const toggle = () => {
+            if (closeInfoIfOpen()) return;
+            isActive ? turnOff() : turnOn();
+        };
+
+        // Assign the toggle function to the button click event.
+        const laserButton = $('laserButton');
+        if (laserButton) {
+            laserButton.onclick = toggle;
+        }
+    })();
 
     $('infoButton').onclick = () => {
         handleLayout('info', () => buildInfoWindow(true));
@@ -2105,9 +2134,6 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     $('refreshButton').onclick = () => {
-        if (laserOn) {
-            $('laserButton').click();
-        }
         clearWins();
         showOverlay('🗑️');
         layoutState.activeLayout = null;
