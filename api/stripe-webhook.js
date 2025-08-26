@@ -53,7 +53,7 @@ export default async function handler(req, res) {
     }
 
     try {
-      // Assign the 'Premium' role to the user in Auth0.
+      // **THE IMPORTANT FIX**: Assign the 'Premium' role to the user in Auth0.
       await auth0.users.assignRoles({ id: userId }, { roles: [premiumRoleId] });
       console.log(`Successfully assigned Premium role to user ${userId}`);
     } catch (err) {
