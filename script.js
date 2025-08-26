@@ -30,8 +30,15 @@ global.TT.updateDateDisplay = function(lang) {
 global.TT.initiateCheckout = async () => {
   try {
     const user = await auth0Client.getUser();
-    if (!user) {
-      throw new Error("User not found after authentication.");
+    
+    // --- DEBUGGING LINE ADDED ---
+    console.log("Attempting to start checkout for user:", user);
+    
+    // --- ROBUST USER CHECK ADDED ---
+    if (!user || !user.sub) {
+      console.error("Could not identify user before checkout. Aborting.");
+      alert("Could not identify user. Please try logging in again.");
+      return; // Stop the function here
     }
 
     const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
@@ -73,6 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const upgradeBackdrop = $('upgrade-backdrop');
     const closeUpgradeBtn = $('close-upgrade-btn');
     const panelUpgradeBtn = $('panel-upgrade-btn');
+    const upgradeButton = $('upgradeButton');
 
     const openUpgradePanel = () => {
         if (upgradeBackdrop && upgradePanel) {
@@ -88,13 +96,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
     if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
     if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
     if (panelUpgradeBtn) {
+        // --- LOGIC CORRECTED ---
+        // This button now only has one job: send the user to log in or sign up.
+        // auth.js will handle calling the initiateCheckout function after the redirect.
         panelUpgradeBtn.onclick = () => {
-            // This button now only has one job: send the user to log in.
-            // auth.js will handle calling the checkout function after the redirect.
             login('upgrade'); 
         };
     }
@@ -2162,22 +2172,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (upgradePanel) upgradePanel.classList.remove('open');
         $('help-bar').classList.toggle('open');
     };
-    
-    const upgradeButton = $('upgradeButton');
-
-    if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
-    if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
-    if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
-
-    if (panelUpgradeBtn) {
-        panelUpgradeBtn.onclick = async () => {
-            if (!await auth0Client.isAuthenticated()) {
-                login('upgrade');
-                return;
-            }
-            global.TT.initiateCheckout();
-        };
-    }
 
     let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout;
     const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
@@ -2245,7 +2239,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (feedbackButton) feedbackButton.onclick = openFeedbackPanel;
-    if (closeFeedbackBtn) closeFeedbackBtn.onclick = closeUpgradePanel;
+    if (closeFeedbackBtn) closeFeedbackBtn.onclick = closeFeedbackPanel;
     if (feedbackBackdrop) feedbackBackdrop.onclick = closeFeedbackPanel;
 
     stars.forEach(star => {
