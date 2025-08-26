@@ -31,14 +31,12 @@ global.TT.initiateCheckout = async () => {
   try {
     const user = await auth0Client.getUser();
     
-    // --- DEBUGGING LINE ADDED ---
     console.log("Attempting to start checkout for user:", user);
     
-    // --- ROBUST USER CHECK ADDED ---
     if (!user || !user.sub) {
       console.error("Could not identify user before checkout. Aborting.");
       alert("Could not identify user. Please try logging in again.");
-      return; // Stop the function here
+      return;
     }
 
     const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
@@ -61,6 +59,56 @@ global.TT.initiateCheckout = async () => {
     alert("Could not connect to the payment service. Please try again later.");
   }
 };
+
+// 1. New function to handle checking for premium status after payment.
+async function checkForPremiumStatus() {
+    // Create a temporary message for the user
+    const statusDiv = document.createElement('div');
+    statusDiv.textContent = 'Finalizing your premium access...';
+    statusDiv.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--accent-color, #3862C4);
+        color: white;
+        padding: 12px 24px;
+        border-radius: 8px;
+        z-index: 50000;
+        font-weight: 500;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    `;
+    document.body.appendChild(statusDiv);
+
+    const maxAttempts = 10;
+    let attempt = 0;
+
+    const intervalId = setInterval(async () => {
+        attempt++;
+        try {
+            // This method fetches the LATEST user information from Auth0
+            const claims = await auth0Client.getIdTokenClaims();
+            const userRoles = claims['http://teachertoybox.com/roles'] || [];
+
+            if (userRoles.includes('Premium')) {
+                clearInterval(intervalId);
+                await updateUI(); // This function from auth.js will refresh the UI
+                statusDiv.textContent = 'Welcome to Premium! ✨';
+                statusDiv.style.backgroundColor = 'var(--success-color)';
+                setTimeout(() => statusDiv.remove(), 4000);
+                return;
+            }
+        } catch (e) {
+            console.error("Error while checking for premium status:", e);
+        }
+
+        if (attempt >= maxAttempts) {
+            clearInterval(intervalId);
+            statusDiv.textContent = 'There was a delay updating your account. Please refresh the page.';
+            statusDiv.style.backgroundColor = 'var(--danger-color)';
+        }
+    }, 3000); // Check for the new role every 3 seconds
+}
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -101,9 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
     if (panelUpgradeBtn) {
-        // --- LOGIC CORRECTED ---
-        // This button now only has one job: send the user to log in or sign up.
-        // auth.js will handle calling the initiateCheckout function after the redirect.
         panelUpgradeBtn.onclick = () => {
             login('upgrade'); 
         };
@@ -2620,4 +2665,18 @@ document.addEventListener('DOMContentLoaded', () => {
           });
       }
     })();
+
+    // 2. New logic to check for the '?payment=success' URL parameter and trigger the status check.
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('payment') === 'success') {
+        // We need to wait for the Auth0 client to be ready before we check
+        const checkAuthReady = setInterval(() => {
+            if (typeof auth0Client !== 'undefined' && auth0Client) {
+                clearInterval(checkAuthReady);
+                checkForPremiumStatus();
+                // Clean the URL so the check doesn't run on every refresh
+                window.history.replaceState({}, document.title, "/");
+            }
+        }, 100);
+    }
 });
