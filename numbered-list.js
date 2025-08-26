@@ -1,1 +1,137 @@
-function _0x5abb(_0x30ad30,_0xa81670){const _0x27a588=_0x27a5();return _0x5abb=function(_0x5abbb9,_0x200b5f){_0x5abbb9=_0x5abbb9-0x180;let _0x3136f4=_0x27a588[_0x5abbb9];return _0x3136f4;},_0x5abb(_0x30ad30,_0xa81670);}(function(_0x39cb63,_0x5292f7){const _0x314b7c=_0x5abb,_0x2fd862=_0x39cb63();while(!![]){try{const _0x2044c6=parseInt(_0x314b7c(0x1ac))/0x1+-parseInt(_0x314b7c(0x188))/0x2*(-parseInt(_0x314b7c(0x19f))/0x3)+-parseInt(_0x314b7c(0x18f))/0x4*(-parseInt(_0x314b7c(0x19e))/0x5)+-parseInt(_0x314b7c(0x180))/0x6*(-parseInt(_0x314b7c(0x190))/0x7)+parseInt(_0x314b7c(0x18d))/0x8+parseInt(_0x314b7c(0x1a8))/0x9*(-parseInt(_0x314b7c(0x191))/0xa)+-parseInt(_0x314b7c(0x195))/0xb;if(_0x2044c6===_0x5292f7)break;else _0x2fd862['push'](_0x2fd862['shift']());}catch(_0x3d00aa){_0x2fd862['push'](_0x2fd862['shift']());}}}(_0x27a5,0xdb559));function activateNumberedList(_0x7b846){const _0x4eb064=_0x5abb,_0x1b257=_0x7b846[_0x4eb064(0x18e)](_0x4eb064(0x193));if(!_0x1b257)return;_0x1b257[_0x4eb064(0x192)]='',_0x1b257[_0x4eb064(0x186)]['padding']='0',_0x7b846['dataset']['tool']=_0x4eb064(0x1ae);const _0x525cfd=document[_0x4eb064(0x1af)](_0x4eb064(0x1b0));_0x525cfd[_0x4eb064(0x187)]=_0x4eb064(0x18a);const _0x378bed=document[_0x4eb064(0x1af)]('h2');_0x378bed[_0x4eb064(0x187)]=_0x4eb064(0x181),_0x378bed[_0x4eb064(0x1ad)]=!![],_0x378bed[_0x4eb064(0x1b3)]=_0x4eb064(0x197),_0x378bed[_0x4eb064(0x1a2)]('focus',()=>{const _0x346290=_0x4eb064;_0x378bed[_0x346290(0x1b3)]==='The\x20List'&&(_0x378bed[_0x346290(0x1b3)]='');}),_0x378bed['addEventListener'](_0x4eb064(0x1a4),()=>{const _0x3cdde7=_0x4eb064;_0x378bed[_0x3cdde7(0x1b3)][_0x3cdde7(0x19a)]()===''&&(_0x378bed[_0x3cdde7(0x1b3)]='The\x20List');});const _0x1e7950=document[_0x4eb064(0x1af)](_0x4eb064(0x1b0));_0x1e7950[_0x4eb064(0x187)]='list-table-wrapper';const _0x3bfb0f=document[_0x4eb064(0x1af)](_0x4eb064(0x184));_0x3bfb0f[_0x4eb064(0x187)]=_0x4eb064(0x19c);const _0x29b751=document['createElement'](_0x4eb064(0x1bb));_0x3bfb0f['appendChild'](_0x29b751),_0x1e7950[_0x4eb064(0x189)](_0x3bfb0f);const _0x519aa8=document[_0x4eb064(0x1af)]('div');_0x519aa8[_0x4eb064(0x187)]=_0x4eb064(0x1a5);const _0x2b47b7=document[_0x4eb064(0x1af)](_0x4eb064(0x1a3));_0x2b47b7[_0x4eb064(0x187)]='control-btn-large',_0x2b47b7[_0x4eb064(0x192)]=_0x4eb064(0x1b5),_0x2b47b7[_0x4eb064(0x19b)]=_0x4eb064(0x1b9);const _0x756e5d=document[_0x4eb064(0x1af)](_0x4eb064(0x1a3));_0x756e5d[_0x4eb064(0x187)]=_0x4eb064(0x19d),_0x756e5d[_0x4eb064(0x192)]=_0x4eb064(0x18b),_0x756e5d[_0x4eb064(0x19b)]=_0x4eb064(0x1aa);const _0x310fed=document[_0x4eb064(0x1af)](_0x4eb064(0x1a3));_0x310fed[_0x4eb064(0x187)]=_0x4eb064(0x19d),_0x310fed[_0x4eb064(0x192)]='<i\x20class=\x22fas\x20fa-sync-alt\x22></i>',_0x310fed[_0x4eb064(0x19b)]=_0x4eb064(0x199),_0x519aa8[_0x4eb064(0x198)](_0x2b47b7,_0x756e5d,_0x310fed);const _0x4d3ffb=()=>{const _0x1f2006=_0x4eb064,_0x1b0750=_0x29b751['insertRow'](),_0x8b2bfc=_0x29b751['rows']['length'],_0x4e7f97=_0x1b0750[_0x1f2006(0x1a7)]();_0x4e7f97['className']=_0x1f2006(0x1b1),_0x4e7f97[_0x1f2006(0x1b3)]=_0x8b2bfc;const _0x3fcd63=_0x1b0750['insertCell']();_0x3fcd63['className']=_0x1f2006(0x182);const _0x1d6755=document['createElement'](_0x1f2006(0x194));_0x1d6755['type']=_0x1f2006(0x1a6),_0x1d6755[_0x1f2006(0x1a0)]=_0x1f2006(0x1b8)+_0x8b2bfc+_0x1f2006(0x1ba),_0x3fcd63[_0x1f2006(0x189)](_0x1d6755);const _0x429f9f=_0x1b0750[_0x1f2006(0x1a7)]();_0x429f9f[_0x1f2006(0x187)]=_0x1f2006(0x18c);const _0x485223=document['createElement'](_0x1f2006(0x1a3));_0x485223[_0x1f2006(0x187)]=_0x1f2006(0x1a9),_0x485223['textContent']='-';const _0x3e874e=document[_0x1f2006(0x1af)](_0x1f2006(0x183));_0x3e874e[_0x1f2006(0x187)]=_0x1f2006(0x1ab),_0x3e874e[_0x1f2006(0x1b3)]='0';const _0x46e4ab=document[_0x1f2006(0x1af)]('button');_0x46e4ab[_0x1f2006(0x187)]=_0x1f2006(0x1a9),_0x46e4ab[_0x1f2006(0x1b3)]='+',_0x46e4ab[_0x1f2006(0x1a1)]=()=>{const _0x56cef1=_0x1f2006;let _0xc6a1dc=parseInt(_0x3e874e[_0x56cef1(0x1b3)],0xa);_0x3e874e[_0x56cef1(0x1b3)]=_0xc6a1dc+0x1;},_0x485223[_0x1f2006(0x1a1)]=()=>{const _0x55149b=_0x1f2006;let _0x3207e5=parseInt(_0x3e874e[_0x55149b(0x1b3)],0xa);_0x3207e5>0x0&&(_0x3e874e['textContent']=_0x3207e5-0x1);},_0x429f9f[_0x1f2006(0x198)](_0x485223,_0x3e874e,_0x46e4ab);},_0x2c6f6e=()=>{const _0x521dd1=_0x4eb064;Array[_0x521dd1(0x1b4)](_0x29b751[_0x521dd1(0x1b7)])[_0x521dd1(0x1b2)]((_0x5554f2,_0x4ceffc)=>{const _0x3101aa=_0x521dd1;_0x5554f2[_0x3101aa(0x1b6)][0x0][_0x3101aa(0x1b3)]=_0x4ceffc+0x1;});},_0x7ce150=()=>{const _0x13b88b=_0x4eb064;_0x29b751[_0x13b88b(0x192)]='',_0x378bed[_0x13b88b(0x1b3)]='The\x20List';for(let _0x4d23c4=0x0;_0x4d23c4<0x3;_0x4d23c4++){_0x4d3ffb();}};_0x2b47b7[_0x4eb064(0x1a1)]=_0x4d3ffb,_0x756e5d[_0x4eb064(0x1a1)]=()=>{const _0xd8cd10=_0x4eb064;_0x29b751['rows'][_0xd8cd10(0x185)]>0x1&&_0x29b751[_0xd8cd10(0x196)](-0x1);},_0x310fed['onclick']=_0x7ce150,_0x525cfd[_0x4eb064(0x198)](_0x378bed,_0x1e7950,_0x519aa8),_0x1b257[_0x4eb064(0x189)](_0x525cfd),_0x7ce150();}function _0x27a5(){const _0x268122=['addEventListener','button','blur','list-controls','text','insertCell','3117717YUWUJQ','counter-btn','Remove\x20Row','counter-value','912161JsXBai','contentEditable','numbered-list','createElement','div','col-number','forEach','textContent','from','<i\x20class=\x22fas\x20fa-plus\x22></i>','cells','rows','Item\x20','Add\x20Row','...','tbody','96090PXNSaS','list-title','col-text','span','table','length','style','className','108796RpsthK','appendChild','numbered-list-container','<i\x20class=\x22fas\x20fa-minus\x22></i>','col-counter','6021816zISwdK','querySelector','192244AfcUpx','665gEzogW','50irkYDw','innerHTML','.win-main-area','input','27470366ngCKZf','deleteRow','The\x20List','append','Reset\x20List','trim','title','list-table','control-btn-large','185zSKxcw','9OdDAzU','placeholder','onclick'];_0x27a5=function(){return _0x268122;};return _0x27a5();}
+/* numbered-list.js */
+
+function activateNumberedList(win) {
+    const mainArea = win.querySelector('.win-main-area');
+    if (!mainArea) return;
+
+    mainArea.innerHTML = '';
+    mainArea.style.padding = '0';
+    win.dataset.tool = 'numbered-list';
+
+    const container = document.createElement('div');
+    container.className = 'numbered-list-container';
+
+    // 1. Editable Title
+    const title = document.createElement('h2');
+    title.className = 'list-title';
+    title.contentEditable = true;
+    title.textContent = 'The List';
+
+    title.addEventListener('focus', () => {
+        if (title.textContent === 'The List') {
+            title.textContent = '';
+        }
+    });
+
+    title.addEventListener('blur', () => {
+        if (title.textContent.trim() === '') {
+            title.textContent = 'The List';
+        }
+    });
+
+    // 2. Table for the list
+    const tableWrapper = document.createElement('div');
+    tableWrapper.className = 'list-table-wrapper';
+    const table = document.createElement('table');
+    table.className = 'list-table';
+    const tbody = document.createElement('tbody');
+    table.appendChild(tbody);
+    tableWrapper.appendChild(table);
+
+    // 3. Bottom Controls
+    const controls = document.createElement('div');
+    controls.className = 'list-controls';
+
+    const addRowBtn = document.createElement('button');
+    addRowBtn.className = 'control-btn-large';
+    addRowBtn.innerHTML = '<i class="fas fa-plus"></i>';
+    addRowBtn.title = 'Add Row';
+
+    const removeRowBtn = document.createElement('button');
+    removeRowBtn.className = 'control-btn-large';
+    removeRowBtn.innerHTML = '<i class="fas fa-minus"></i>';
+    removeRowBtn.title = 'Remove Row';
+
+    const resetBtn = document.createElement('button');
+    resetBtn.className = 'control-btn-large';
+    resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
+    resetBtn.title = 'Reset List';
+
+    controls.append(addRowBtn, removeRowBtn, resetBtn);
+
+    // --- Helper Functions ---
+    const createRow = () => {
+        const row = tbody.insertRow();
+        const rowNumber = tbody.rows.length;
+
+        // Column 1: Number
+        const cellNum = row.insertCell();
+        cellNum.className = 'col-number';
+        cellNum.textContent = rowNumber;
+
+        // Column 2: Text Input
+        const cellText = row.insertCell();
+        cellText.className = 'col-text';
+        const textInput = document.createElement('input');
+        textInput.type = 'text';
+        textInput.placeholder = `Item ${rowNumber}...`;
+        cellText.appendChild(textInput);
+
+        // Column 3: Counter
+        const cellCounter = row.insertCell();
+        cellCounter.className = 'col-counter';
+        const minusBtn = document.createElement('button');
+        minusBtn.className = 'counter-btn';
+        minusBtn.textContent = '-';
+        const valueSpan = document.createElement('span');
+        valueSpan.className = 'counter-value';
+        valueSpan.textContent = '0';
+        const plusBtn = document.createElement('button');
+        plusBtn.className = 'counter-btn';
+        plusBtn.textContent = '+';
+
+        plusBtn.onclick = () => {
+            let currentValue = parseInt(valueSpan.textContent, 10);
+            valueSpan.textContent = currentValue + 1;
+        };
+
+        minusBtn.onclick = () => {
+            let currentValue = parseInt(valueSpan.textContent, 10);
+            if (currentValue > 0) {
+                valueSpan.textContent = currentValue - 1;
+            }
+        };
+
+        cellCounter.append(minusBtn, valueSpan, plusBtn);
+    };
+    
+    const updateRowNumbers = () => {
+        Array.from(tbody.rows).forEach((row, index) => {
+            row.cells[0].textContent = index + 1;
+        });
+    };
+
+    const setupInitialState = () => {
+        tbody.innerHTML = '';
+        title.textContent = 'The List';
+        for (let i = 0; i < 3; i++) {
+            createRow();
+        }
+    };
+
+    // --- Event Listeners for Controls ---
+    addRowBtn.onclick = createRow;
+
+    removeRowBtn.onclick = () => {
+        if (tbody.rows.length > 1) { // Prevent removing all rows
+            tbody.deleteRow(-1);
+        }
+    };
+
+    resetBtn.onclick = setupInitialState;
+
+    // Build the final structure and initialize
+    container.append(title, tableWrapper, controls);
+    mainArea.appendChild(container);
+    setupInitialState();
+}

@@ -1,1 +1,222 @@
-const _0x41d8b3=_0x4a00;function _0x4a00(_0x190bc6,_0x2b34f6){const _0x298231=_0x2982();return _0x4a00=function(_0x4a00b7,_0x2e6747){_0x4a00b7=_0x4a00b7-0x71;let _0x1711d6=_0x298231[_0x4a00b7];return _0x1711d6;},_0x4a00(_0x190bc6,_0x2b34f6);}(function(_0x4664a4,_0x4e97ef){const _0x421ef3=_0x4a00,_0x52964d=_0x4664a4();while(!![]){try{const _0x6a5171=-parseInt(_0x421ef3(0xa4))/0x1*(parseInt(_0x421ef3(0x9a))/0x2)+parseInt(_0x421ef3(0xb6))/0x3+parseInt(_0x421ef3(0x8c))/0x4+parseInt(_0x421ef3(0x85))/0x5*(-parseInt(_0x421ef3(0x72))/0x6)+parseInt(_0x421ef3(0x7c))/0x7*(-parseInt(_0x421ef3(0xbb))/0x8)+-parseInt(_0x421ef3(0x81))/0x9+parseInt(_0x421ef3(0xa7))/0xa*(parseInt(_0x421ef3(0xa5))/0xb);if(_0x6a5171===_0x4e97ef)break;else _0x52964d['push'](_0x52964d['shift']());}catch(_0x2c2e9d){_0x52964d['push'](_0x52964d['shift']());}}}(_0x2982,0x706ec),document[_0x41d8b3(0x9d)]('DOMContentLoaded',()=>{const _0x24e66f=_0x41d8b3;let _0x2219b4=![],_0x27139b=![],_0x7d3e10=[];function _0x48760e(_0x4309bc){const _0x1deed1=_0x4a00,_0x2a4628=window[_0x1deed1(0xa9)][_0x4309bc]||window[_0x1deed1(0xa9)]['en'];return[{'element':'#addButton','title':window['t'](_0x2a4628,_0x1deed1(0xa8)),'content':window['t'](_0x2a4628,_0x1deed1(0x91))},{'element':_0x1deed1(0xc2),'title':window['t'](_0x2a4628,_0x1deed1(0x8d)),'content':window['t'](_0x2a4628,_0x1deed1(0x77)),'action':()=>{const _0x4db43a=_0x1deed1;document['querySelectorAll'](_0x4db43a(0xa3))[_0x4db43a(0x8b)]===0x0&&document[_0x4db43a(0x82)](_0x4db43a(0x78))?.[_0x4db43a(0xb4)]();}},{'element':_0x1deed1(0x99),'title':window['t'](_0x2a4628,_0x1deed1(0xab)),'content':window['t'](_0x2a4628,_0x1deed1(0x87))},{'element':_0x1deed1(0xad),'title':window['t'](_0x2a4628,'tour.step4.title'),'content':window['t'](_0x2a4628,_0x1deed1(0x88)),'action':()=>document[_0x1deed1(0x8a)]('.floating\x20.win-sidebar\x20.icon-btn[data-hotkey=\x22d\x22]')?.[_0x1deed1(0xb4)]()},{'element':_0x1deed1(0xa6),'title':window['t'](_0x2a4628,'tour.step5.title'),'content':window['t'](_0x2a4628,_0x1deed1(0xb1)),'action':()=>document['querySelector'](_0x1deed1(0xa6))?.[_0x1deed1(0xb4)]()},{'element':_0x1deed1(0xb0),'title':window['t'](_0x2a4628,_0x1deed1(0x74)),'content':window['t'](_0x2a4628,'tour.step6.content')},{'element':_0x1deed1(0xb9),'title':window['t'](_0x2a4628,_0x1deed1(0xba)),'content':window['t'](_0x2a4628,_0x1deed1(0x83)),'action':()=>document[_0x1deed1(0x82)](_0x1deed1(0xae))?.[_0x1deed1(0xb4)]()}];}let _0x505517=0x0,_0x61c565,_0x25a036;function _0x4a9ff3(){const _0x529d25=_0x4a00;_0x61c565=document['createElement']('div'),_0x61c565[_0x529d25(0xbf)]='tour-highlight-element',_0x25a036=document[_0x529d25(0x97)](_0x529d25(0x93)),_0x25a036[_0x529d25(0xbf)]=_0x529d25(0x9e),document[_0x529d25(0x90)][_0x529d25(0xb3)](_0x61c565,_0x25a036);}function _0xfd7563(_0x537858){const _0x300963=_0x7d3e10[_0x537858];setTimeout(()=>{const _0x3a546b=_0x4a00,_0x442b6b=document[_0x3a546b(0x8a)](_0x300963[_0x3a546b(0xaa)]);if(!_0x442b6b){console['warn'](_0x3a546b(0xc4)+_0x300963['element']),_0x59684d();return;}const _0x2c0739=_0x442b6b[_0x3a546b(0x8f)]();_0x61c565['style'][_0x3a546b(0x86)]=_0x2c0739[_0x3a546b(0x86)]-0x5+'px',_0x61c565[_0x3a546b(0xc1)][_0x3a546b(0x9c)]=_0x2c0739[_0x3a546b(0x9c)]-0x5+'px',_0x61c565[_0x3a546b(0xc1)][_0x3a546b(0x71)]=_0x2c0739['width']+0xa+'px',_0x61c565[_0x3a546b(0xc1)]['height']=_0x2c0739[_0x3a546b(0xb7)]+0xa+'px',_0x25a036[_0x3a546b(0x7f)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>'+_0x300963[_0x3a546b(0xbe)]+_0x3a546b(0xa2)+_0x300963[_0x3a546b(0xa1)]+_0x3a546b(0xc0)+(_0x537858+0x1)+_0x3a546b(0x84)+_0x7d3e10[_0x3a546b(0x8b)]+_0x3a546b(0x79)+(_0x537858===_0x7d3e10[_0x3a546b(0x8b)]-0x1?_0x3a546b(0x7a):'Next')+_0x3a546b(0xb5);const _0x2ce7f9=_0x25a036[_0x3a546b(0x8f)](),_0x1a934a=0xa,_0x14d93d=window[_0x3a546b(0x80)]-_0x2c0739[_0x3a546b(0x75)];let _0x13ac11;_0x14d93d>=_0x2ce7f9['height']+_0x1a934a+0xf?_0x13ac11=_0x2c0739[_0x3a546b(0x75)]+0xf:_0x13ac11=_0x2c0739[_0x3a546b(0x86)]-_0x2ce7f9[_0x3a546b(0xb7)]-0xf;let _0x4f00de=_0x2c0739[_0x3a546b(0x9c)]+_0x2c0739[_0x3a546b(0x71)]/0x2-_0x2ce7f9[_0x3a546b(0x71)]/0x2;_0x13ac11=Math[_0x3a546b(0xb8)](_0x1a934a,Math[_0x3a546b(0x8e)](_0x13ac11,window[_0x3a546b(0x80)]-_0x2ce7f9['height']-_0x1a934a)),_0x4f00de=Math[_0x3a546b(0xb8)](_0x1a934a,Math[_0x3a546b(0x8e)](_0x4f00de,window[_0x3a546b(0x7b)]-_0x2ce7f9[_0x3a546b(0x71)]-_0x1a934a)),_0x25a036['style'][_0x3a546b(0x86)]=_0x13ac11+'px',_0x25a036[_0x3a546b(0xc1)][_0x3a546b(0x9c)]=_0x4f00de+'px',_0x25a036[_0x3a546b(0xc1)]['opacity']='1',_0x25a036[_0x3a546b(0xc1)][_0x3a546b(0xaf)]=_0x3a546b(0x73),_0x25a036[_0x3a546b(0x8a)]('.tour-next-btn')[_0x3a546b(0x9d)]('click',_0x261a5e,{'once':!![]});},0x96);}function _0x261a5e(_0x53b4bd){const _0x6fd6fc=_0x4a00;if(_0x53b4bd)_0x53b4bd['stopPropagation']();const _0x15a7f1=_0x7d3e10[_0x505517];_0x15a7f1[_0x6fd6fc(0x94)]&&(_0x27139b=!![],_0x15a7f1['action'](),setTimeout(()=>{_0x27139b=![];},0x64));_0x505517++;if(_0x505517>=_0x7d3e10[_0x6fd6fc(0x8b)])_0x59684d();else{const _0x31f23c=_0x15a7f1[_0x6fd6fc(0x94)]?0x190:0x32;setTimeout(()=>_0xfd7563(_0x505517),_0x31f23c);}}function _0x59684d(){const _0x194485=_0x4a00;if(!_0x2219b4)return;_0x2219b4=![],localStorage[_0x194485(0xac)]('ttx_tour_completed','true'),document[_0x194485(0x90)]['removeEventListener'](_0x194485(0xb4),_0xcb2409);if(_0x25a036)_0x25a036['style'][_0x194485(0x76)]='0';if(_0x61c565)_0x61c565['style'][_0x194485(0x96)]='0\x200\x200\x209999px\x20rgba(0,\x200,\x200,\x200)';document[_0x194485(0x8a)](_0x194485(0xb2))?.[_0x194485(0x9f)][_0x194485(0x95)](_0x194485(0x7e)),document[_0x194485(0x8a)](_0x194485(0xa0))?.['classList']['remove']('open'),document[_0x194485(0x8a)]('#extra-tools-bar')?.['classList'][_0x194485(0x95)](_0x194485(0x7e)),document[_0x194485(0x8a)](_0x194485(0xc3))?.['classList'][_0x194485(0x95)](_0x194485(0x7e)),setTimeout(()=>{const _0x49e16f=_0x194485;if(_0x61c565&&_0x61c565[_0x49e16f(0x92)])_0x61c565[_0x49e16f(0x95)]();if(_0x25a036&&_0x25a036[_0x49e16f(0x92)])_0x25a036['remove']();},0x190);}function _0xcb2409(_0x12ef3d){const _0x503951=_0x4a00;if(_0x27139b)return;if(_0x25a036&&_0x25a036[_0x503951(0xbc)](_0x12ef3d[_0x503951(0x89)]))return;_0x59684d();}function _0xc6765(){const _0x2dfedf=_0x4a00;if(_0x2219b4)return;_0x2219b4=!![];const _0x215329=localStorage['getItem'](_0x2dfedf(0x7d))||'en';_0x7d3e10=_0x48760e(_0x215329),_0x505517=0x0,_0x4a9ff3(),_0xfd7563(_0x505517),setTimeout(()=>{const _0x58e587=_0x2dfedf;document[_0x58e587(0x90)][_0x58e587(0x9d)](_0x58e587(0xb4),_0xcb2409);},0x64);}const _0x2fa353=document[_0x24e66f(0x82)](_0x24e66f(0x9b));_0x2fa353&&_0x2fa353['addEventListener'](_0x24e66f(0xb4),_0xc6765),!localStorage[_0x24e66f(0x98)](_0x24e66f(0xbd))&&setTimeout(_0xc6765,0x5dc);}));function _0x2982(){const _0x279e6f=['boxShadow','createElement','getItem','.floating\x20.win-sidebar','187314aGMJVM','tourButton','left','addEventListener','tour-tooltip','classList','#management-bar','content','</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','.floating','6oQhgXo','284878NSKLkh','#screenButton','410msGrkI','tour.step1.title','I18N','element','tour.step3.title','setItem','.floating\x20.win-sidebar\x20.icon-btn[data-hotkey=\x22d\x22]','helpButton','transform','.floating\x20.drag-bar','tour.step5.content','#layout-bar','append','click','</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','289767NeQgoD','height','max','#helpButton','tour.step7.title','42008jmGVbP','contains','ttx_tour_completed','title','className','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tour-tooltip-footer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22tour-progress\x22>','style','#addButton','#help-bar','Tour\x20element\x20not\x20found:\x20','width','12mIQSXe','translateY(0)','tour.step6.title','bottom','opacity','tour.step2.content','addButton','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22tour-next-btn\x22>','Finish','innerWidth','203vygePg','ttx_lang','open','innerHTML','innerHeight','4860360ylsYFt','getElementById','tour.step7.content','\x20/\x20','352945jKdgEZ','top','tour.step3.content','tour.step4.content','target','querySelector','length','2790224EJifuu','tour.step2.title','min','getBoundingClientRect','body','tour.step1.content','parentNode','div','action','remove'];_0x2982=function(){return _0x279e6f;};return _0x2982();}
+/*
+ * tour.js
+ * Logic for the guided walkthrough tour.
+ * © 2025 TeacherToybox.com. All Rights Reserved.
+ */
+
+document.addEventListener('DOMContentLoaded', () => {
+    // A flag to prevent the tour from starting automatically if it's already running
+    let isTourActive = false;
+    // A flag to ignore programmatic clicks during tour actions
+    let isPerformingAction = false;
+
+    let tourSteps = []; // This will be populated with translated text when the tour starts.
+
+    /**
+     * Generates the tour steps array with text in the specified language.
+     * @param {string} lang - The language code (e.g., 'en', 'es').
+     * @returns {Array} An array of tour step objects.
+     */
+    function getTourSteps(lang) {
+        const dict = window.I18N[lang] || window.I18N.en;
+        return [
+            {
+                element: '#addButton',
+                title: window.t(dict, 'tour.step1.title'),
+                content: window.t(dict, 'tour.step1.content'),
+            },
+            {
+                element: '#addButton',
+                title: window.t(dict, 'tour.step2.title'),
+                content: window.t(dict, 'tour.step2.content'),
+                action: () => {
+                    if (document.querySelectorAll('.floating').length === 0) {
+                        document.getElementById('addButton')?.click();
+                    }
+                } 
+            },
+            {
+                element: '.floating .win-sidebar',
+                title: window.t(dict, 'tour.step3.title'),
+                content: window.t(dict, 'tour.step3.content'),
+            },
+            {
+                element: '.floating .win-sidebar .icon-btn[data-hotkey="d"]',
+                title: window.t(dict, 'tour.step4.title'),
+                content: window.t(dict, 'tour.step4.content'),
+                action: () => document.querySelector('.floating .win-sidebar .icon-btn[data-hotkey="d"]')?.click() 
+            },
+            {
+                element: '#screenButton',
+                title: window.t(dict, 'tour.step5.title'),
+                content: window.t(dict, 'tour.step5.content'),
+                action: () => document.querySelector('#screenButton')?.click() 
+            },
+            {
+                element: '.floating .drag-bar',
+                title: window.t(dict, 'tour.step6.title'),
+                content: window.t(dict, 'tour.step6.content'),
+            },
+            {
+                element: '#helpButton',
+                title: window.t(dict, 'tour.step7.title'),
+                content: window.t(dict, 'tour.step7.content'),
+                action: () => document.getElementById('helpButton')?.click()
+            }
+        ];
+    }
+
+    let currentStep = 0;
+    let highlight, tooltip;
+
+    function createTourElements() {
+        highlight = document.createElement('div');
+        highlight.className = 'tour-highlight-element';
+
+        tooltip = document.createElement('div');
+        tooltip.className = 'tour-tooltip';
+
+        document.body.append(highlight, tooltip);
+    }
+
+    function showStep(index) {
+        const step = tourSteps[index];
+        
+        setTimeout(() => {
+            const targetElement = document.querySelector(step.element);
+            if (!targetElement) {
+                console.warn(`Tour element not found: ${step.element}`);
+                endTour();
+                return;
+            }
+
+            const rect = targetElement.getBoundingClientRect();
+            
+            highlight.style.top = `${rect.top - 5}px`;
+            highlight.style.left = `${rect.left - 5}px`;
+            highlight.style.width = `${rect.width + 10}px`;
+            highlight.style.height = `${rect.height + 10}px`;
+
+            tooltip.innerHTML = `
+                <h4>${step.title}</h4>
+                <p>${step.content}</p>
+                <div class="tour-tooltip-footer">
+                    <span class="tour-progress">${index + 1} / ${tourSteps.length}</span>
+                    <button class="tour-next-btn">${index === tourSteps.length - 1 ? 'Finish' : 'Next'}</button>
+                </div>
+            `;
+
+            const tooltipRect = tooltip.getBoundingClientRect();
+
+            // --- MODIFIED: Robust tooltip positioning logic ---
+            const margin = 10; // 10px margin from the screen edges
+
+            // 1. Determine preferred vertical position (prefer below, then above)
+            const spaceBelow = window.innerHeight - rect.bottom;
+            let tooltipTop;
+            if (spaceBelow >= tooltipRect.height + margin + 15) {
+                tooltipTop = rect.bottom + 15;
+            } else {
+                tooltipTop = rect.top - tooltipRect.height - 15;
+            }
+
+            // 2. Determine initial horizontal position (centered on target)
+            let tooltipLeft = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
+
+            // 3. Final clamping to GUARANTEE the tooltip is always inside the viewport.
+            tooltipTop = Math.max(margin, Math.min(tooltipTop, window.innerHeight - tooltipRect.height - margin));
+            tooltipLeft = Math.max(margin, Math.min(tooltipLeft, window.innerWidth - tooltipRect.width - margin));
+            // --- END OF MODIFICATION ---
+
+            tooltip.style.top = `${tooltipTop}px`;
+            tooltip.style.left = `${tooltipLeft}px`;
+            
+            tooltip.style.opacity = '1';
+            tooltip.style.transform = 'translateY(0)';
+
+            tooltip.querySelector('.tour-next-btn').addEventListener('click', nextStep, { once: true });
+        }, 150); // Delay to allow UI to update from actions
+    }
+
+    function nextStep(event) {
+        if (event) event.stopPropagation();
+
+        const step = tourSteps[currentStep];
+        if (step.action) {
+            isPerformingAction = true;
+            step.action();
+            setTimeout(() => { isPerformingAction = false; }, 100);
+        }
+
+        currentStep++;
+        if (currentStep >= tourSteps.length) {
+            endTour();
+        } else {
+            const delay = step.action ? 400 : 50;
+            setTimeout(() => showStep(currentStep), delay);
+        }
+    }
+
+    function endTour() {
+        if (!isTourActive) return;
+        isTourActive = false;
+
+        // Set a flag in localStorage so the tour doesn't auto-start next time.
+        localStorage.setItem('ttx_tour_completed', 'true');
+
+        document.body.removeEventListener('click', handleGlobalClick);
+
+        if (tooltip) tooltip.style.opacity = '0';
+        if (highlight) highlight.style.boxShadow = '0 0 0 9999px rgba(0, 0, 0, 0)';
+        
+        // Close all pop-out bars for a clean exit
+        document.querySelector('#layout-bar')?.classList.remove('open');
+        document.querySelector('#management-bar')?.classList.remove('open');
+        document.querySelector('#extra-tools-bar')?.classList.remove('open');
+        document.querySelector('#help-bar')?.classList.remove('open');
+
+        setTimeout(() => {
+            if (highlight && highlight.parentNode) highlight.remove();
+            if (tooltip && tooltip.parentNode) tooltip.remove();
+        }, 400);
+    }
+    
+    function handleGlobalClick(event) {
+        if (isPerformingAction) {
+            return;
+        }
+        if (tooltip && tooltip.contains(event.target)) {
+            return;
+        }
+        endTour();
+    }
+
+    function startTour() {
+        if (isTourActive) return;
+        isTourActive = true;
+        
+        // Get the current language and generate the translated tour steps
+        const currentLang = localStorage.getItem('ttx_lang') || 'en';
+        tourSteps = getTourSteps(currentLang);
+
+        currentStep = 0;
+        createTourElements();
+        showStep(currentStep);
+        
+        setTimeout(() => {
+            document.body.addEventListener('click', handleGlobalClick);
+        }, 100);
+    }
+
+    // --- Tour Initiation Logic ---
+
+    const tourButton = document.getElementById('tourButton');
+    if (tourButton) {
+        tourButton.addEventListener('click', startTour);
+    }
+
+    // Check if the tour has been completed before, and only start if it hasn't.
+    if (!localStorage.getItem('ttx_tour_completed')) {
+        setTimeout(startTour, 1500); 
+    }
+});
