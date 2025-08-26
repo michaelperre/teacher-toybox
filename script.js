@@ -25,6 +25,36 @@ global.TT.updateDateDisplay = function(lang) {
     dateDisplay.textContent = formatter.format(today);
 };
 
+// **THE FIX**: Move the checkout function to the global scope
+// so it can be called directly by auth.js after a login redirect.
+global.TT.initiateCheckout = async () => {
+  try {
+    const user = await auth0Client.getUser();
+    if (!user) {
+      throw new Error("User not found after authentication.");
+    }
+
+    const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
+    const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H';
+
+    const response = await fetch('/api/create-checkout-session', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId: user.sub, priceId: priceId }),
+    });
+
+    if (!response.ok) {
+      throw new Error('Failed to create checkout session.');
+    }
+
+    const { sessionId } = await response.json();
+    await stripe.redirectToCheckout({ sessionId });
+  } catch (error) {
+    console.error("Error redirecting to checkout:", error);
+    alert("Could not connect to the payment service. Please try again later.");
+  }
+};
+
 
 document.addEventListener('DOMContentLoaded', () => {
     // --- Splash Screen ---
@@ -58,64 +88,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- **UPDATED AND MORE ROBUST CHECKOUT FUNCTION** ---
-    const initiateCheckout = async () => {
-      try {
-        // This will attempt to refresh the user's session in the background.
-        // If the session is expired and cannot be refreshed, it will throw a 'login_required' error.
-        await auth0Client.getTokenSilently(); 
-        
-        const user = await auth0Client.getUser();
-        
-        // If for any reason we still don't have a user, force a login.
-        if (!user) {
-          login('upgrade');
-          return; 
-        }
-
-        // Use the TEST keys for Stripe.
-        const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
-        const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H';
-
-        const response = await fetch('/api/create-checkout-session', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ userId: user.sub, priceId: priceId }),
-        });
-
-        if (!response.ok) {
-          const errorBody = await response.json();
-          throw new Error(errorBody.error || 'Failed to create checkout session.');
-        }
-
-        const { sessionId } = await response.json();
-        await stripe.redirectToCheckout({ sessionId });
-
-      } catch (error) {
-        // The Auth0 SDK throws an error with a specific 'error' property if login is required.
-        if (error.error === 'login_required') {
-          // If the session is invalid, trigger the login flow. This is the fix.
-          login('upgrade');
-        } else {
-          // For any other error (e.g., network, Stripe API), show the user a message.
-          console.error("Error redirecting to checkout:", error);
-          alert("Could not connect to the payment service. Please try again later.");
-        }
-      }
-    };
-    // --- END of updated function ---
-
     if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
     if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
     if (panelUpgradeBtn) {
-        panelUpgradeBtn.onclick = async () => {
-            // This initial check is a quick check. The robust check is now inside initiateCheckout.
-            if (!await auth0Client.isAuthenticated()) {
-                login('upgrade');
-                return;
-            }
-            initiateCheckout();
+        panelUpgradeBtn.onclick = () => {
+            // This button now only has one job: send the user to log in.
+            // auth.js will handle calling the checkout function after the redirect.
+            login('upgrade'); 
         };
     }
 
@@ -132,7 +112,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let lastWindowWidth = window.innerWidth;
     let lastWindowHeight = window.innerHeight;
 
-    // --- New Clock Feature ---
     const clockButton = $('clockButton');
     const digitalClockBar = $('digital-clock-bar');
     const hourHand = document.querySelector('.hour-hand');
@@ -155,7 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 secondHand.style.transition = '';
             }
-
             secondHand.style.transform = `rotate(${secondsDeg}deg)`;
             minuteHand.style.transform = `rotate(${minutesDeg}deg)`;
             hourHand.style.transform = `rotate(${hoursDeg}deg)`;
@@ -174,18 +152,15 @@ document.addEventListener('DOMContentLoaded', () => {
             clockButton.classList.toggle('active');
             digitalClockBar.classList.toggle('open');
         });
-
         if (digitalClockBar) {
             digitalClockBar.addEventListener('mouseenter', () => {
                 clockButton.classList.remove('active');
                 digitalClockBar.classList.remove('open');
             });
         }
-        
         setClocks();
         setInterval(setClocks, 1000);
     }
-    // --- End New Clock Feature ---
 
     const dateDisplay = $('date-display');
     if (dateDisplay) {
@@ -199,20 +174,16 @@ document.addEventListener('DOMContentLoaded', () => {
           setTimeout(() => backdrop.remove(), 400);
         }
       };
-    
       const openEnlargedDate = () => {
         if (!dateDisplay.classList.contains('date-enlarged')) {
           dateDisplay.classList.add('date-enlarged');
           const backdrop = document.createElement('div');
           backdrop.className = 'date-backdrop';
-          
           backdrop.addEventListener('click', closeEnlargedDate);
-          
           document.body.appendChild(backdrop);
           setTimeout(() => backdrop.style.opacity = '1', 10);
         }
       };
-    
       dateDisplay.addEventListener('click', () => {
         if (dateDisplay.classList.contains('date-enlarged')) {
           closeEnlargedDate();
