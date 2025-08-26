@@ -60,7 +60,7 @@ global.TT.initiateCheckout = async () => {
   }
 };
 
-// 1. New function to handle checking for premium status after payment.
+// 1. Final, robust function to handle the post-payment experience.
 async function checkForPremiumStatus() {
     // Create a temporary message for the user
     const statusDiv = document.createElement('div');
@@ -104,8 +104,12 @@ async function checkForPremiumStatus() {
 
         if (attempt >= maxAttempts) {
             clearInterval(intervalId);
-            statusDiv.textContent = 'There was a delay updating your account. Please refresh the page.';
+            statusDiv.textContent = 'There was a delay updating your account. Refreshing the page...';
             statusDiv.style.backgroundColor = 'var(--danger-color)';
+            // Fallback: Reload the page after showing the delay message.
+            setTimeout(() => {
+                location.reload();
+            }, 3000);
         }
     }, 3000); // Check for the new role every 3 seconds
 }
@@ -2673,7 +2677,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const checkAuthReady = setInterval(() => {
             if (typeof auth0Client !== 'undefined' && auth0Client) {
                 clearInterval(checkAuthReady);
-                finalizePremiumAccess();
+                checkForPremiumStatus();
                 // Clean the URL so the check doesn't run on every refresh
                 window.history.replaceState({}, document.title, "/");
             }
