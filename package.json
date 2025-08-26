@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "auth0": "^4.28.0",
+    "micro": "^10.0.1",
     "stripe": "^18.4.0"
   }
 }
