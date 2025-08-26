@@ -1,33 +1,48 @@
-// /api/create-checkout-session.js
-
-// This requires the stripe library: npm install stripe
+// Import the official Stripe library.
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 export default async function handler(req, res) {
-  if (req.method === 'POST') {
-    try {
-      const { priceId } = req.body;
-
-      // Create a Checkout Session
-      const session = await stripe.checkout.sessions.create({
-        payment_method_types: ['card'],
-        line_items: [
-          {
-            price: priceId,
-            quantity: 1,
-          },
-        ],
-        mode: 'subscription',
-        success_url: `${req.headers.origin}/?session_id={CHECKOUT_SESSION_ID}`,
-        cancel_url: `${req.headers.origin}/`,
-      });
-
-      res.status(200).json({ sessionId: session.id });
-    } catch (err) {
-      res.status(500).json({ error: { message: err.message } });
-    }
-  } else {
+  // Only allow POST requests.
+  if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
-    res.status(405).end('Method Not Allowed');
+    return res.status(405).end('Method Not Allowed');
+  }
+
+  const { userId, priceId } = req.body;
+
+  // Basic validation to ensure we have the necessary data.
+  if (!userId || !priceId) {
+    return res.status(400).json({ error: 'Missing required parameters: userId and priceId' });
+  }
+
+  try {
+    // Get the base URL from the request headers.
+    const origin = req.headers.origin || 'https://www.teachertoybox.com';
+
+    // Create a Checkout Session with Stripe.
+    const session = await stripe.checkout.sessions.create({
+      payment_method_types: ['card'],
+      line_items: [
+        {
+          price: priceId,
+          quantity: 1,
+        },
+      ],
+      mode: 'subscription',
+      // Define the URLs Stripe will redirect to on success or cancellation.
+      success_url: `${origin}/?payment=success`,
+      cancel_url: `${origin}/?payment=cancelled`,
+      
+      // **THE IMPORTANT FIX**: Pass the Auth0 user ID to Stripe.
+      // This links the Stripe payment directly to the user in your system.
+      client_reference_id: userId,
+    });
+
+    // Return the session ID to the front-end.
+    res.status(200).json({ sessionId: session.id });
+
+  } catch (err) {
+    console.error('Stripe API Error:', err.message);
+    res.status(err.statusCode || 500).json({ error: err.message });
   }
 }

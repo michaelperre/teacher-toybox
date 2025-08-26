@@ -1,74 +1,68 @@
-// /api/stripe-webhook.js
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-const { ManagementClient } = require('auth0');
+import { buffer } from 'micro';
+import { ManagementClient } from 'auth0';
 
+// Initialize the Stripe library with your secret key.
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+
+// Initialize the Auth0 Management Client.
 const auth0 = new ManagementClient({
-    domain: process.env.AUTH0_DOMAIN,
-    clientId: process.env.AUTH0_MGMT_CLIENT_ID,
-    clientSecret: process.env.AUTH0_MGMT_CLIENT_SECRET,
+  domain: process.env.AUTH0_DOMAIN,
+  clientId: process.env.AUTH0_M2M_CLIENT_ID,
+  clientSecret: process.env.AUTH0_M2M_CLIENT_SECRET,
 });
 
-// CORRECTED: Use module.exports for consistency with the rest of the file
-module.exports.config = {
-    api: {
-        bodyParser: false,
-    },
+// Vercel's body parser can interfere with Stripe's signature verification.
+// We disable it for this specific route.
+export const config = {
+  api: {
+    bodyParser: false,
+  },
 };
 
-// Helper function to buffer the request from Stripe
-async function buffer(readable) {
-    const chunks = [];
-    for await (const chunk of readable) {
-        chunks.push(typeof chunk === 'string' ? Buffer.from(chunk) : chunk);
+export default async function handler(req, res) {
+  if (req.method !== 'POST') {
+    res.setHeader('Allow', 'POST');
+    return res.status(405).end('Method Not Allowed');
+  }
+
+  const buf = await buffer(req);
+  const sig = req.headers['stripe-signature'];
+  const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
+
+  let event;
+
+  try {
+    // Verify the event came from Stripe.
+    event = stripe.webhooks.constructEvent(buf, sig, webhookSecret);
+  } catch (err) {
+    console.error(`Stripe webhook signature error: ${err.message}`);
+    return res.status(400).send(`Webhook Error: ${err.message}`);
+  }
+
+  // Handle the checkout.session.completed event.
+  if (event.type === 'checkout.session.completed') {
+    const session = event.data.object;
+    
+    // Extract the Auth0 User ID from the session.
+    const userId = session.client_reference_id;
+    const premiumRoleId = process.env.AUTH0_PREMIUM_ROLE_ID;
+
+    if (!userId) {
+      console.error('Webhook Error: Missing client_reference_id (userId) in checkout session.');
+      return res.status(400).send('Webhook Error: Missing client_reference_id.');
     }
-    return Buffer.concat(chunks);
-}
-
-const webhookHandler = async (req, res) => {
-    const buf = await buffer(req);
-    const sig = req.headers['stripe-signature'];
-    const endpointSecret = process.env.STRIPE_WEBHOOK_SECRET;
-
-    let event;
 
     try {
-        // Verify the event is genuinely from Stripe
-        event = stripe.webhooks.constructEvent(buf.toString(), sig, endpointSecret);
+      // Assign the 'Premium' role to the user in Auth0.
+      await auth0.users.assignRoles({ id: userId }, { roles: [premiumRoleId] });
+      console.log(`Successfully assigned Premium role to user ${userId}`);
     } catch (err) {
-        return res.status(400).send(`Webhook Error: ${err.message}`);
+      console.error(`Auth0 API Error: Failed to assign role to user ${userId}`, err);
+      // Return a 500 error so Stripe will retry the webhook.
+      return res.status(500).json({ error: 'Failed to assign role in Auth0.' });
     }
+  }
 
-    // Handle the 'payment successful' event
-    if (event.type === 'checkout.session.completed') {
-        const session = event.data.object;
-        const userId = session.client_reference_id;
-
-        if (!userId) {
-            return res.status(400).send('Webhook Error: Missing client_reference_id (userId) in checkout session.');
-        }
-
-        try {
-            // CORRECTED: The function is auth0.roles.getAll and the response has a `data` property
-            const rolesResponse = await auth0.roles.getAll({ name: 'Premium' });
-            
-            if (rolesResponse.data && rolesResponse.data.length > 0) {
-                const premiumRoleId = rolesResponse.data[0].id;
-                
-                // CORRECTED: The function is auth0.users.assignRoles
-                await auth0.users.assignRoles({ id: userId }, { roles: [premiumRoleId] });
-                
-                console.log(`Successfully assigned Premium role to user ${userId}`);
-            } else {
-                throw new Error("Could not find the 'Premium' role in Auth0.");
-            }
-        } catch (err) {
-             console.error('Auth0 role assignment failed:', err);
-             return res.status(500).json({ error: 'Failed to assign role.' });
-        }
-    }
-    
-    // Send a success response back to Stripe
-    res.status(200).json({ received: true });
-};
-
-module.exports = webhookHandler;
+  // Acknowledge receipt of the event.
+  res.status(200).json({ received: true });
+}
