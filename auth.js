@@ -9,8 +9,7 @@ const configureClient = async () => {
     authorizationParams: {
       redirect_uri: window.location.origin
     },
-    // **THE FIX**: These settings create a more durable login session
-    // that is not affected by browser privacy settings in incognito mode.
+    // These settings create a more durable login session
     useRefreshTokens: true,
     cacheLocation: 'localstorage'
   });
@@ -23,8 +22,15 @@ const handleRedirectCallback = async () => {
     const { appState } = await auth0Client.handleRedirectCallback();
     window.history.replaceState({}, document.title, "/");
     
+    // **THE FIX**: If the user's goal was to upgrade,
+    // call the checkout function directly now that they are logged in.
     if (appState && appState.target === 'upgrade') {
-      document.dispatchEvent(new CustomEvent('postLoginAction', { detail: 'upgrade' }));
+      // We use a short timeout to ensure the rest of the app has initialized.
+      setTimeout(() => {
+        if (window.TT && typeof window.TT.initiateCheckout === 'function') {
+          window.TT.initiateCheckout();
+        }
+      }, 500);
     }
   }
 };
