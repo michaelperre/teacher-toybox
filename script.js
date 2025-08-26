@@ -379,6 +379,15 @@ document.addEventListener('DOMContentLoaded', () => {
             vid.controls = true;
             vid.autoplay = true;
             cont.appendChild(vid);
+        } else if (file.type.startsWith('audio/')) {
+            const aud = document.createElement('audio');
+            aud.src = url;
+            aud.controls = true;
+            aud.autoplay = true;
+            cont.appendChild(aud);
+            mainArea.style.display = 'flex';
+            mainArea.style.alignItems = 'center';
+            mainArea.style.justifyContent = 'center';
         } else if (file.name.toLowerCase().endsWith('.pptx') || file.name.toLowerCase().endsWith('.ppt')) {
             cont.innerHTML = `
                 <div class="unsupported-file-message">
