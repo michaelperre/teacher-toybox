@@ -25,6 +25,36 @@ global.TT.updateDateDisplay = function(lang) {
     dateDisplay.textContent = formatter.format(today);
 };
 
+// **THE FIX**: Move the checkout function to the global scope
+// so it can be called directly by auth.js after a login redirect.
+global.TT.initiateCheckout = async () => {
+  try {
+    const user = await auth0Client.getUser();
+    if (!user) {
+      throw new Error("User not found after authentication.");
+    }
+
+    const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
+    const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H';
+
+    const response = await fetch('/api/create-checkout-session', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId: user.sub, priceId: priceId }),
+    });
+
+    if (!response.ok) {
+      throw new Error('Failed to create checkout session.');
+    }
+
+    const { sessionId } = await response.json();
+    await stripe.redirectToCheckout({ sessionId });
+  } catch (error) {
+    console.error("Error redirecting to checkout:", error);
+    alert("Could not connect to the payment service. Please try again later.");
+  }
+};
+
 
 document.addEventListener('DOMContentLoaded', () => {
     // --- Splash Screen ---
@@ -58,45 +88,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- Initiate Checkout Function ---
-    const initiateCheckout = async () => {
-      try {
-        const user = await auth0Client.getUser();
-        if (!user) {
-          // If there's still no user after the login redirect, show an error.
-          throw new Error("User not found after authentication.");
-        }
-
-        const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
-        const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H';
-
-        const response = await fetch('/api/create-checkout-session', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ userId: user.sub, priceId: priceId }),
-        });
-
-        if (!response.ok) {
-          throw new Error('Failed to create checkout session.');
-        }
-
-        const { sessionId } = await response.json();
-        await stripe.redirectToCheckout({ sessionId });
-      } catch (error) {
-        console.error("Error redirecting to checkout:", error);
-        alert("Could not connect to the payment service. Please try again later.");
-      }
-    };
-
     if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
     if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
-    // --- **UPDATED LOGIC** ---
     if (panelUpgradeBtn) {
         panelUpgradeBtn.onclick = () => {
-            // Always trigger the login flow to ensure a fresh, valid session.
-            // If the user is already logged in, Auth0 redirects them back immediately.
-            // The 'postLoginAction' event listener below will then call initiateCheckout.
+            // This button now only has one job: send the user to log in.
+            // auth.js will handle calling the checkout function after the redirect.
             login('upgrade'); 
         };
     }
@@ -2177,7 +2175,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 login('upgrade');
                 return;
             }
-            initiateCheckout();
+            global.TT.initiateCheckout();
         };
     }
 
@@ -2628,12 +2626,4 @@ document.addEventListener('DOMContentLoaded', () => {
           });
       }
     })();
-    
-    document.addEventListener('postLoginAction', (e) => {
-        if (e.detail === 'upgrade') {
-            setTimeout(() => {
-                initiateCheckout();
-            }, 500);
-        }
-    });
 });
