@@ -1505,7 +1505,6 @@ body:not(.is-premium) .premium-feature {
     color: #4D3200; /* Darker text/icon for better contrast */
     box-shadow: 0 2px 5px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.4);
     text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-    display: none; /* This is overridden by auth.js when the user is not premium */
 }
 
 #upgradeButton:hover {
@@ -1752,4 +1751,8 @@ body.light-mode .info-close-btn {
 body.light-mode .info-close-btn:hover {
     background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+body.is-premium #upgradeButton {
+    display: none;
 }

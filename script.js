@@ -71,9 +71,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!user) {
           throw new Error("User not found after authentication.");
         }
-        // IMPORTANT: Replace with your Stripe PUBLISHABLE Key
-        const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF'); // UPDATED KEY
-        const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo'; // UPDATED KEY
+        // IMPORTANT: These are your new TEST keys
+        const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW'); // UPDATED TEST KEY
+        const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H'; // UPDATED TEST KEY
 
         const response = await fetch('/api/create-checkout-session', {
           method: 'POST',
