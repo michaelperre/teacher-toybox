@@ -6,7 +6,7 @@
 // Core bootstrap & shared state
 const global = window;
 global.TT = global.TT || {};
-global.TT.isPremium = false; // Add premium status to global state
+global.TT.isPremium = false;
 
 // --- Date Display & Localization ---
 global.TT.updateDateDisplay = function(lang) {
@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const $ = id => document.getElementById(id);
 
-    // *** Premium Modal Logic for tool usage ***
     const upgradePanel = $('upgrade-panel');
     const upgradeBackdrop = $('upgrade-backdrop');
     const closeUpgradeBtn = $('close-upgrade-btn');
@@ -59,22 +58,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- **UPDATED AND MORE ROBUST CHECKOUT FUNCTION** ---
+    // --- Initiate Checkout Function ---
     const initiateCheckout = async () => {
       try {
-        // This will attempt to refresh the user's session in the background.
-        // If the session is expired and cannot be refreshed, it will throw a 'login_required' error.
-        await auth0Client.getTokenSilently(); 
-        
         const user = await auth0Client.getUser();
-        
-        // If for any reason we still don't have a user, force a login.
         if (!user) {
-          login('upgrade');
-          return; 
+          // If there's still no user after the login redirect, show an error.
+          throw new Error("User not found after authentication.");
         }
 
-        // Use the TEST keys for Stripe.
         const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
         const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H';
 
@@ -85,38 +77,27 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         if (!response.ok) {
-          const errorBody = await response.json();
-          throw new Error(errorBody.error || 'Failed to create checkout session.');
+          throw new Error('Failed to create checkout session.');
         }
 
         const { sessionId } = await response.json();
         await stripe.redirectToCheckout({ sessionId });
-
       } catch (error) {
-        // The Auth0 SDK throws an error with a specific 'error' property if login is required.
-        if (error.error === 'login_required') {
-          // If the session is invalid, trigger the login flow. This is the fix.
-          login('upgrade');
-        } else {
-          // For any other error (e.g., network, Stripe API), show the user a message.
-          console.error("Error redirecting to checkout:", error);
-          alert("Could not connect to the payment service. Please try again later.");
-        }
+        console.error("Error redirecting to checkout:", error);
+        alert("Could not connect to the payment service. Please try again later.");
       }
     };
-    // --- END of updated function ---
 
     if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
     if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
+    // --- **UPDATED LOGIC** ---
     if (panelUpgradeBtn) {
-        panelUpgradeBtn.onclick = async () => {
-            // This initial check is a quick check. The robust check is now inside initiateCheckout.
-            if (!await auth0Client.isAuthenticated()) {
-                login('upgrade');
-                return;
-            }
-            initiateCheckout();
+        panelUpgradeBtn.onclick = () => {
+            // Always trigger the login flow to ensure a fresh, valid session.
+            // If the user is already logged in, Auth0 redirects them back immediately.
+            // The 'postLoginAction' event listener below will then call initiateCheckout.
+            login('upgrade'); 
         };
     }
 
@@ -133,7 +114,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let lastWindowWidth = window.innerWidth;
     let lastWindowHeight = window.innerHeight;
 
-    // --- New Clock Feature ---
     const clockButton = $('clockButton');
     const digitalClockBar = $('digital-clock-bar');
     const hourHand = document.querySelector('.hour-hand');
@@ -156,7 +136,6 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 secondHand.style.transition = '';
             }
-
             secondHand.style.transform = `rotate(${secondsDeg}deg)`;
             minuteHand.style.transform = `rotate(${minutesDeg}deg)`;
             hourHand.style.transform = `rotate(${hoursDeg}deg)`;
@@ -175,18 +154,15 @@ document.addEventListener('DOMContentLoaded', () => {
             clockButton.classList.toggle('active');
             digitalClockBar.classList.toggle('open');
         });
-
         if (digitalClockBar) {
             digitalClockBar.addEventListener('mouseenter', () => {
                 clockButton.classList.remove('active');
                 digitalClockBar.classList.remove('open');
             });
         }
-        
         setClocks();
         setInterval(setClocks, 1000);
     }
-    // --- End New Clock Feature ---
 
     const dateDisplay = $('date-display');
     if (dateDisplay) {
@@ -200,20 +176,16 @@ document.addEventListener('DOMContentLoaded', () => {
           setTimeout(() => backdrop.remove(), 400);
         }
       };
-    
       const openEnlargedDate = () => {
         if (!dateDisplay.classList.contains('date-enlarged')) {
           dateDisplay.classList.add('date-enlarged');
           const backdrop = document.createElement('div');
           backdrop.className = 'date-backdrop';
-          
           backdrop.addEventListener('click', closeEnlargedDate);
-          
           document.body.appendChild(backdrop);
           setTimeout(() => backdrop.style.opacity = '1', 10);
         }
       };
-    
       dateDisplay.addEventListener('click', () => {
         if (dateDisplay.classList.contains('date-enlarged')) {
           closeEnlargedDate();
