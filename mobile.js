@@ -1,1 +1,758 @@
-function _0x2e04(_0x50c2dd,_0xd011b0){const _0x4f45a4=_0x4f45();return _0x2e04=function(_0x2e0436,_0x393f58){_0x2e0436=_0x2e0436-0x1a6;let _0x387d76=_0x4f45a4[_0x2e0436];return _0x387d76;},_0x2e04(_0x50c2dd,_0xd011b0);}const _0x5d2097=_0x2e04;(function(_0x501171,_0x4dbc21){const _0x281913=_0x2e04,_0x325370=_0x501171();while(!![]){try{const _0x1308d8=-parseInt(_0x281913(0x1fd))/0x1+parseInt(_0x281913(0x229))/0x2+parseInt(_0x281913(0x1a6))/0x3*(-parseInt(_0x281913(0x200))/0x4)+-parseInt(_0x281913(0x1d8))/0x5+parseInt(_0x281913(0x22c))/0x6*(-parseInt(_0x281913(0x27c))/0x7)+parseInt(_0x281913(0x250))/0x8*(-parseInt(_0x281913(0x27e))/0x9)+parseInt(_0x281913(0x1d0))/0xa;if(_0x1308d8===_0x4dbc21)break;else _0x325370['push'](_0x325370['shift']());}catch(_0x45ff4e){_0x325370['push'](_0x325370['shift']());}}}(_0x4f45,0x381f7),document['addEventListener'](_0x5d2097(0x23e),()=>{const _0x4f8068=_0x5d2097,_0x29042b=document[_0x4f8068(0x28a)](_0x4f8068(0x248)),_0x1a0f5a=document[_0x4f8068(0x1b8)](_0x4f8068(0x22d));function _0x1b5c36(){const _0xcfc0f1=_0x4f8068,_0x507f00=new Date(),_0x35a8e3=document[_0xcfc0f1(0x28a)]('clock'),_0x173f21=document['getElementById'](_0xcfc0f1(0x1db));_0x35a8e3&&(_0x35a8e3[_0xcfc0f1(0x283)]=_0x507f00[_0xcfc0f1(0x1b6)]([],{'hour':_0xcfc0f1(0x1f0),'minute':_0xcfc0f1(0x1f0)}));if(_0x173f21){const _0x12c88e=String(_0x507f00['getDate']())['padStart'](0x2,'0'),_0x20ab03=String(_0x507f00['getMonth']()+0x1)[_0xcfc0f1(0x27a)](0x2,'0'),_0x12038e=_0x507f00['getFullYear']()[_0xcfc0f1(0x262)]()[_0xcfc0f1(0x202)](-0x2);_0x173f21[_0xcfc0f1(0x283)]=_0x12c88e+'/'+_0x20ab03+'/'+_0x12038e;}}_0x1b5c36(),setInterval(_0x1b5c36,0x3e8);function _0x5d55ce(_0x49a9be){const _0x3d8ce0=_0x4f8068;_0x29042b[_0x3d8ce0(0x278)]='',_0x29042b['className']='main-content',_0x1a0f5a[_0x3d8ce0(0x1f1)](_0x22f144=>_0x22f144[_0x3d8ce0(0x1e2)][_0x3d8ce0(0x223)](_0x3d8ce0(0x1e5)));const _0x26b863=document[_0x3d8ce0(0x273)](_0x3d8ce0(0x1ab)+_0x49a9be+'\x22]');if(_0x26b863)_0x26b863[_0x3d8ce0(0x1e2)][_0x3d8ce0(0x1cc)]('active');switch(_0x49a9be){case _0x3d8ce0(0x1da):_0x12a292();break;case _0x3d8ce0(0x25f):_0x5cd092();break;case'dice':_0x264bed();break;case _0x3d8ce0(0x1fb):_0x1bf95b();break;case _0x3d8ce0(0x280):_0x211982();break;case'numbered-list':_0x2c38b7();break;case _0x3d8ce0(0x1de):_0x288b67();break;}}function _0x26a650(_0x453ba8,_0xa2ba84=!![]){const _0x4c3511=_0x4f8068,_0xa42402=document[_0x4c3511(0x1c7)](_0xa2ba84?'i':_0x4c3511(0x246));_0xa42402[_0x4c3511(0x1b4)]=_0x4c3511(0x242);if(_0xa2ba84)_0xa42402[_0x4c3511(0x1e2)][_0x4c3511(0x1cc)]('fas',_0x453ba8);else _0xa42402[_0x4c3511(0x283)]=_0x453ba8;_0x29042b[_0x4c3511(0x1ba)](_0xa42402),setTimeout(()=>{const _0x36e8cb=_0x4c3511;_0xa42402[_0x36e8cb(0x27b)][_0x36e8cb(0x1b3)]=0x0,_0xa42402['style'][_0x36e8cb(0x291)]=_0x36e8cb(0x1f5);},0x32),setTimeout(()=>_0xa42402[_0x4c3511(0x223)](),0x41a);}function _0x12a292(){const _0x589331=_0x4f8068,_0x4215e6=document[_0x589331(0x1c7)](_0x589331(0x243));_0x4215e6['id']=_0x589331(0x20c),_0x29042b[_0x589331(0x1ba)](_0x4215e6);const _0x464881=document['createElement'](_0x589331(0x246));_0x464881['id']='draw-controls';const _0x26621b=['#FFFFFF','#FF3B30','#FF9500',_0x589331(0x24a),'#34C759',_0x589331(0x1b0),_0x589331(0x1d7)];_0x26621b[_0x589331(0x1f1)]((_0x38897d,_0x70352)=>{const _0x8c851c=_0x589331,_0x190454=document[_0x8c851c(0x1c7)](_0x8c851c(0x246));_0x190454[_0x8c851c(0x1b4)]=_0x8c851c(0x24b),_0x190454[_0x8c851c(0x27b)][_0x8c851c(0x28e)]=_0x38897d;if(_0x70352===0x0)_0x190454[_0x8c851c(0x1e2)][_0x8c851c(0x1cc)](_0x8c851c(0x1e5));_0x190454[_0x8c851c(0x214)]=()=>{const _0x174ab8=_0x8c851c;_0x3b4f79[_0x174ab8(0x25e)]=_0x174ab8(0x1d2),_0x3b4f79[_0x174ab8(0x27d)]=_0x38897d,_0x464881[_0x174ab8(0x273)](_0x174ab8(0x26e))?.[_0x174ab8(0x1e2)][_0x174ab8(0x223)](_0x174ab8(0x1e5)),_0x190454[_0x174ab8(0x1e2)]['add'](_0x174ab8(0x1e5));},_0x464881[_0x8c851c(0x1ba)](_0x190454);});const _0x138978=document[_0x589331(0x1c7)]('input');_0x138978[_0x589331(0x20b)]=_0x589331(0x1d9),_0x138978[_0x589331(0x299)]=0x1,_0x138978[_0x589331(0x258)]=0x32,_0x138978[_0x589331(0x1e4)]=0x5,_0x138978[_0x589331(0x204)]=_0x3aed26=>{const _0x5cfee0=_0x589331;_0x3b4f79[_0x5cfee0(0x220)]=_0x3aed26['target'][_0x5cfee0(0x1e4)];};const _0x15a46d=document[_0x589331(0x1c7)](_0x589331(0x279));_0x15a46d[_0x589331(0x1b4)]=_0x589331(0x1f8),_0x15a46d[_0x589331(0x278)]=_0x589331(0x24d),_0x15a46d['onclick']=()=>{const _0x3d16dc=_0x589331;_0x3b4f79[_0x3d16dc(0x25e)]=_0x3d16dc(0x274),_0x464881[_0x3d16dc(0x273)](_0x3d16dc(0x26e))?.[_0x3d16dc(0x1e2)][_0x3d16dc(0x223)](_0x3d16dc(0x1e5)),_0x15a46d[_0x3d16dc(0x1e2)][_0x3d16dc(0x1cc)]('active');};const _0x14531b=document[_0x589331(0x1c7)](_0x589331(0x279));_0x14531b[_0x589331(0x1b4)]='tool-btn-draw',_0x14531b[_0x589331(0x278)]=_0x589331(0x264),_0x14531b[_0x589331(0x214)]=()=>{const _0x4dc8a=_0x589331;_0x4a5324['length']>0x0&&_0x3b4f79['putImageData'](_0x4a5324[_0x4dc8a(0x211)](),0x0,0x0);};const _0x4d22ed=document[_0x589331(0x1c7)](_0x589331(0x279));_0x4d22ed[_0x589331(0x1b4)]='tool-btn-draw',_0x4d22ed[_0x589331(0x278)]='<i\x20class=\x22fas\x20fa-trash\x22></i>',_0x4d22ed[_0x589331(0x214)]=()=>{const _0xbd1fd7=_0x589331;_0x3b4f79[_0xbd1fd7(0x213)](0x0,0x0,_0x4215e6[_0xbd1fd7(0x1af)],_0x4215e6[_0xbd1fd7(0x1ad)]),_0x4a5324[_0xbd1fd7(0x216)]=0x0;},_0x464881[_0x589331(0x21c)](_0x138978,_0x15a46d,_0x14531b,_0x4d22ed),_0x29042b[_0x589331(0x1ba)](_0x464881);const _0x3b4f79=_0x4215e6[_0x589331(0x1b9)]('2d');let _0x54ce15=![];const _0x4a5324=[];function _0x2367c2(){const _0xe7becd=_0x589331;if(_0x4a5324['length']>0x14)_0x4a5324[_0xe7becd(0x1ae)]();_0x4a5324['push'](_0x3b4f79[_0xe7becd(0x21e)](0x0,0x0,_0x4215e6[_0xe7becd(0x1af)],_0x4215e6[_0xe7becd(0x1ad)]));}function _0x96866f(){const _0x2c50b1=_0x589331,_0x4f095d=_0x4a5324[_0x2c50b1(0x216)]>0x0?_0x4a5324[_0x4a5324[_0x2c50b1(0x216)]-0x1]:null,_0xa71423=_0x3b4f79[_0x2c50b1(0x25e)];_0x4215e6[_0x2c50b1(0x1af)]=_0x29042b[_0x2c50b1(0x1dd)],_0x4215e6[_0x2c50b1(0x1ad)]=_0x29042b[_0x2c50b1(0x1ac)];if(_0x4f095d)_0x3b4f79[_0x2c50b1(0x226)](_0x4f095d,0x0,0x0);_0x3b4f79[_0x2c50b1(0x25e)]=_0xa71423,_0x3b4f79[_0x2c50b1(0x294)]=_0x2c50b1(0x285);const _0x28849c=_0x464881[_0x2c50b1(0x273)](_0x2c50b1(0x233));_0x28849c&&(_0x3b4f79[_0x2c50b1(0x27d)]=_0x28849c[_0x2c50b1(0x27b)][_0x2c50b1(0x28e)]),_0x3b4f79[_0x2c50b1(0x220)]=_0x138978['value'];}window[_0x589331(0x1f3)](_0x589331(0x1a9),_0x96866f),_0x96866f();const _0x208a56=_0x75e72f=>{const _0x5a224c=_0x589331,_0x26d9c4=_0x4215e6['getBoundingClientRect'](),_0x12dfaa=_0x75e72f[_0x5a224c(0x275)]?_0x75e72f['touches'][0x0]:_0x75e72f;return{'x':_0x12dfaa['clientX']-_0x26d9c4[_0x5a224c(0x1c6)],'y':_0x12dfaa[_0x5a224c(0x269)]-_0x26d9c4[_0x5a224c(0x265)]};};_0x4215e6[_0x589331(0x1f3)](_0x589331(0x1c1),_0x3c553b=>{const _0x1afb8c=_0x589331;_0x2367c2(),_0x54ce15=!![];const _0x274d6b=_0x208a56(_0x3c553b);_0x3b4f79[_0x1afb8c(0x1f2)](),_0x3b4f79['moveTo'](_0x274d6b['x'],_0x274d6b['y']);}),_0x4215e6['addEventListener'](_0x589331(0x263),_0x2f9736=>{const _0x33ba45=_0x589331;if(_0x54ce15){const _0x2a9f77=_0x208a56(_0x2f9736);_0x3b4f79[_0x33ba45(0x1ef)](_0x2a9f77['x'],_0x2a9f77['y']),_0x3b4f79[_0x33ba45(0x228)]();}}),_0x4215e6[_0x589331(0x1f3)](_0x589331(0x1ca),()=>_0x54ce15=![]),_0x4215e6['addEventListener'](_0x589331(0x1f4),()=>_0x54ce15=![]);}function _0x5cd092(){const _0x47bcae=_0x4f8068;_0x29042b[_0x47bcae(0x1b4)]=_0x47bcae(0x210);const _0x4a3063=document[_0x47bcae(0x1c7)](_0x47bcae(0x246));_0x4a3063[_0x47bcae(0x1b4)]=_0x47bcae(0x1c5),_0x4a3063['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22timer-display\x22>00:00.00</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tool-controls\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22startStopBtn\x22\x20class=\x22tool-btn\x22\x20style=\x22background-color:\x20var(--success-color);\x22><i\x20class=\x22fas\x20fa-play\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22resetBtn\x22\x20class=\x22tool-btn\x22\x20style=\x22background-color:\x20var(--danger-color);\x22><i\x20class=\x22fas\x20fa-sync-alt\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20',_0x29042b[_0x47bcae(0x1ba)](_0x4a3063);const _0x119859=_0x4a3063[_0x47bcae(0x273)](_0x47bcae(0x1c9)),_0x427505=_0x4a3063[_0x47bcae(0x273)](_0x47bcae(0x289)),_0x567318=_0x4a3063[_0x47bcae(0x273)]('#resetBtn'),_0x43fd98=_0x2353f0=>{const _0x3df0e7=_0x47bcae,_0x4a9b7f=_0x2353f0['clientWidth'],_0x4c47a8=_0x4a9b7f/4.6;_0x119859['style'][_0x3df0e7(0x23f)]=_0x4c47a8+'px';},_0x4a680f=new ResizeObserver(_0x1b3c6d=>{const _0x54fb5b=_0x47bcae;for(let _0x20fc19 of _0x1b3c6d){_0x43fd98(_0x20fc19[_0x54fb5b(0x256)]);}});_0x4a680f[_0x47bcae(0x235)](_0x4a3063),_0x43fd98(_0x4a3063);let _0x400dc2=null,_0x359a18=0x0,_0x454f56=0x0,_0x18d12c=![];const _0x19d54f=()=>{const _0x79b0f3=_0x47bcae,_0xe79256=_0x359a18,_0x23e8f1=String(Math[_0x79b0f3(0x1cb)](_0xe79256/0xea60))['padStart'](0x2,'0'),_0xbbe43c=String(Math['floor'](_0xe79256%0xea60/0x3e8))[_0x79b0f3(0x27a)](0x2,'0'),_0x4450d7=String(Math[_0x79b0f3(0x1cb)](_0xe79256%0x3e8/0xa))[_0x79b0f3(0x27a)](0x2,'0');_0x119859[_0x79b0f3(0x283)]=_0x23e8f1+':'+_0xbbe43c+'.'+_0x4450d7;};_0x427505[_0x47bcae(0x214)]=()=>{const _0x3fbd19=_0x47bcae;_0x18d12c?(clearInterval(_0x400dc2),_0x359a18=Date['now']()-_0x454f56,_0x427505[_0x3fbd19(0x278)]=_0x3fbd19(0x218)):(_0x454f56=Date[_0x3fbd19(0x21b)]()-_0x359a18,_0x400dc2=setInterval(()=>{_0x359a18=Date['now']()-_0x454f56,_0x19d54f();},0xa),_0x427505[_0x3fbd19(0x278)]=_0x3fbd19(0x282)),_0x18d12c=!_0x18d12c;},_0x567318[_0x47bcae(0x214)]=()=>{const _0x2181b5=_0x47bcae;clearInterval(_0x400dc2),_0x18d12c=![],_0x359a18=0x0,_0x427505[_0x2181b5(0x278)]=_0x2181b5(0x218),_0x19d54f();};}function _0x264bed(){const _0x284b54=_0x4f8068;_0x29042b['className']=_0x284b54(0x20e),_0x29042b[_0x284b54(0x278)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22die-container\x22\x20role=\x22group\x22\x20aria-label=\x22Dice\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tool-controls\x20dice-controls\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22addDieBtn\x22\x20class=\x22tool-btn\x22\x20style=\x22background-color:\x20var(--accent-color);\x22\x20aria-label=\x22Add\x20die\x22><i\x20class=\x22fas\x20fa-plus\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22removeDieBtn\x22\x20class=\x22tool-btn\x22\x20style=\x22background-color:\x20var(--accent-color);\x22\x20aria-label=\x22Remove\x20die\x22><i\x20class=\x22fas\x20fa-minus\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22rollBtn\x22\x20class=\x22tool-btn\x22\x20style=\x22background-color:\x20var(--success-color);\x22\x20aria-label=\x22Roll\x20dice\x22><i\x20class=\x22fas\x20fa-dice-d6\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22shakeBtn\x22\x20class=\x22tool-btn\x22\x20style=\x22background-color:\x20var(--bar-bg);\x20border:\x201px\x20solid\x20var(--border-color);\x22\x20aria-label=\x22Enable\x20shake\x20to\x20roll\x22\x20aria-pressed=\x22false\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-mobile-alt\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22dice-total\x22\x20aria-live=\x22polite\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';const _0x2fd922=_0x29042b[_0x284b54(0x273)]('.die-container'),_0x43b5ee=_0x29042b[_0x284b54(0x273)](_0x284b54(0x21d)),_0x5f49cf=_0x29042b[_0x284b54(0x273)](_0x284b54(0x249)),_0x9adaf9=_0x29042b[_0x284b54(0x273)](_0x284b54(0x1d1)),_0x2b6f84=_0x29042b[_0x284b54(0x273)](_0x284b54(0x286)),_0x153c6d=_0x29042b[_0x284b54(0x273)](_0x284b54(0x1ff));let _0x47f8b9=0x1;const _0x37fe62=0xc;function _0x2df9ef(_0x5364e3=0x1){const _0x36d4a4=_0x284b54,_0x560e12=document['createElement']('div');_0x560e12['className']=_0x36d4a4(0x1bc),_0x560e12['setAttribute'](_0x36d4a4(0x253),_0x36d4a4(0x1c2)),_0x560e12[_0x36d4a4(0x1ea)][_0x36d4a4(0x1e4)]=_0x5364e3;for(let _0xab272=0x1;_0xab272<=0x9;_0xab272++){const _0xf31562=document[_0x36d4a4(0x1c7)](_0x36d4a4(0x246));_0xf31562['className']=_0x36d4a4(0x230)+_0xab272,_0x560e12[_0x36d4a4(0x1ba)](_0xf31562);}return _0x560e12;}function _0xf24897(){const _0x390f81=_0x284b54;if(crypto&&crypto[_0x390f81(0x281)]){const _0x5bd103=new Uint8Array(0x1);while(!![]){crypto['getRandomValues'](_0x5bd103);if(_0x5bd103[0x0]<0xfc)return _0x5bd103[0x0]%0x6+0x1;}}return Math[_0x390f81(0x1cb)](Math[_0x390f81(0x288)]()*0x6)+0x1;}function _0x4f2582(_0x3aef02=!![]){const _0x3fe701=_0x284b54;let _0x6cf988=0x0;const _0x310b1b=_0x2fd922[_0x3fe701(0x1b8)]('.die');_0x310b1b[_0x3fe701(0x1f1)](_0x3387f4=>{const _0xf4e657=_0x3fe701,_0x30f8c9=_0xf24897();_0x6cf988+=_0x30f8c9,_0x3387f4[_0xf4e657(0x1ea)][_0xf4e657(0x1e4)]=_0x30f8c9,_0x3aef02&&(_0x3387f4['classList'][_0xf4e657(0x1cc)](_0xf4e657(0x272)),_0x3387f4[_0xf4e657(0x1f3)](_0xf4e657(0x284),()=>_0x3387f4[_0xf4e657(0x1e2)]['remove']('rolling'),{'once':!![]})),_0x3387f4[_0xf4e657(0x268)](_0xf4e657(0x1d3),_0xf4e657(0x1e3)+_0x30f8c9);}),_0x43b5ee[_0x3fe701(0x283)]=_0x3fe701(0x261)+_0x6cf988;}function _0x298664(){const _0x60a79f=_0x284b54;_0x2fd922[_0x60a79f(0x278)]='';for(let _0x18d91e=0x0;_0x18d91e<_0x47f8b9;_0x18d91e++)_0x2fd922[_0x60a79f(0x1ba)](_0x2df9ef());_0x4f2582(![]),_0x2b3768();}let _0x1ba500=![];function _0x2b3768(){if(_0x1ba500)return;_0x1ba500=!![],requestAnimationFrame(()=>{const _0x1251e2=_0x2e04;_0x1ba500=![];const _0xbebd96=getComputedStyle(_0x2fd922),_0x33066e=(parseFloat(_0xbebd96['paddingLeft'])||0x0)+(parseFloat(_0xbebd96[_0x1251e2(0x29c)])||0x0),_0x3383a2=(parseFloat(_0xbebd96['paddingTop'])||0x0)+(parseFloat(_0xbebd96['paddingBottom'])||0x0),_0xbcc60b=Math[_0x1251e2(0x258)](0x0,_0x2fd922[_0x1251e2(0x1dd)]-_0x33066e),_0x25e4b4=Math[_0x1251e2(0x258)](0x0,_0x2fd922[_0x1251e2(0x1ac)]-_0x3383a2),_0x545e78=Math[_0x1251e2(0x258)](0x1,_0x47f8b9),_0x2641d4=Math['ceil'](Math['sqrt'](_0x545e78)),_0x2063c0=Math[_0x1251e2(0x26a)](_0x545e78/_0x2641d4),_0x5c0478=parseFloat(_0xbebd96[_0x1251e2(0x26b)]||_0xbebd96[_0x1251e2(0x293)]||0x0)||0x0,_0x5e5624=Math[_0x1251e2(0x1cb)]((_0xbcc60b-_0x5c0478*(_0x2641d4-0x1))/_0x2641d4),_0x42ffc3=Math['floor']((_0x25e4b4-_0x5c0478*(_0x2063c0-0x1))/_0x2063c0),_0x668e51=Math[_0x1251e2(0x258)](0x30,Math[_0x1251e2(0x299)](_0x5e5624,_0x42ffc3));_0x2fd922[_0x1251e2(0x1b8)](_0x1251e2(0x1c8))[_0x1251e2(0x1f1)](_0x3c234a=>{const _0x35c72a=_0x1251e2;_0x3c234a[_0x35c72a(0x27b)]['width']=_0x3c234a['style'][_0x35c72a(0x1ad)]=_0x668e51+'px';});});}try{const _0x3b58a9=new ResizeObserver(_0x2b3768);_0x3b58a9['observe'](_0x2fd922);}catch{window[_0x284b54(0x1f3)]('resize',_0x2b3768);}let _0x506e91=![],_0x4754df=0x0,_0x4b44e9=null;const _0x2845f0=0x384,_0x1bc96c=0xd;async function _0x3d1ee0(){const _0x26c208=_0x284b54;if(typeof DeviceMotionEvent?.[_0x26c208(0x257)]==='function')return await DeviceMotionEvent[_0x26c208(0x257)]()===_0x26c208(0x24c);return!![];}function _0x109a23(){const _0x45febb=_0x284b54;if(_0x4b44e9)window[_0x45febb(0x239)](_0x45febb(0x208),_0x4b44e9);let _0x1badc6={'x':0x0,'y':0x0,'z':0x0};_0x4b44e9=_0x51ae4d=>{const _0x265d68=_0x45febb;let _0x1f951b,_0x458318,_0x7af81b;if(_0x51ae4d[_0x265d68(0x1ce)])({x:_0x1f951b,y:_0x458318,z:_0x7af81b}=_0x51ae4d[_0x265d68(0x1ce)]);else{const _0x56c2bc=_0x51ae4d[_0x265d68(0x205)]||{'x':0x0,'y':0x0,'z':0x0};_0x1f951b=_0x56c2bc['x']-_0x1badc6['x'],_0x458318=_0x56c2bc['y']-_0x1badc6['y'],_0x7af81b=_0x56c2bc['z']-_0x1badc6['z'],_0x1badc6={'x':_0x56c2bc['x'],'y':_0x56c2bc['y'],'z':_0x56c2bc['z']};}const _0x37dd90=Math[_0x265d68(0x29a)]((_0x1f951b||0x0)**0x2+(_0x458318||0x0)**0x2+(_0x7af81b||0x0)**0x2),_0x234f46=Date['now']();_0x37dd90>_0x1bc96c&&_0x234f46-_0x4754df>_0x2845f0&&(_0x4754df=_0x234f46,_0x4f2582(!![]));},window[_0x45febb(0x1f3)]('devicemotion',_0x4b44e9,{'passive':!![]});}_0x153c6d[_0x284b54(0x1f3)]('click',async()=>{const _0x2ae9ac=_0x284b54;if(!_0x506e91){if(!await _0x3d1ee0()){_0x26a650('Motion\x20blocked',![]);return;}_0x109a23(),_0x506e91=!![],_0x153c6d['setAttribute']('aria-pressed',_0x2ae9ac(0x1f7));}else{if(_0x4b44e9)window[_0x2ae9ac(0x239)](_0x2ae9ac(0x208),_0x4b44e9);_0x4b44e9=null,_0x506e91=![],_0x153c6d[_0x2ae9ac(0x268)](_0x2ae9ac(0x232),_0x2ae9ac(0x1e0));}}),_0x5f49cf[_0x284b54(0x214)]=()=>{_0x47f8b9<_0x37fe62&&(_0x47f8b9++,_0x298664());},_0x9adaf9['onclick']=()=>{_0x47f8b9>0x1&&(_0x47f8b9--,_0x298664());},_0x2b6f84[_0x284b54(0x214)]=()=>_0x4f2582(!![]),_0x2fd922[_0x284b54(0x1f3)](_0x284b54(0x1d4),()=>_0x4f2582(!![])),_0x298664();}function _0x1bf95b(){const _0x3c2e3e=_0x4f8068;_0x29042b[_0x3c2e3e(0x1b4)]=_0x3c2e3e(0x210);const _0x21376b=document[_0x3c2e3e(0x1c7)](_0x3c2e3e(0x246));_0x21376b[_0x3c2e3e(0x1b4)]=_0x3c2e3e(0x1c5);const _0x5b5e51=document['createElement']('h2');_0x5b5e51[_0x3c2e3e(0x1b4)]=_0x3c2e3e(0x28c),_0x5b5e51[_0x3c2e3e(0x283)]=_0x3c2e3e(0x22b),_0x21376b['appendChild'](_0x5b5e51);const _0x373a2d=document[_0x3c2e3e(0x1c7)](_0x3c2e3e(0x246));_0x373a2d['className']='countdown-selection-grid';const _0x245316=[{'label':_0x3c2e3e(0x1fa),'seconds':0x1e},{'label':'1\x20min','seconds':0x3c},{'label':'5\x20min','seconds':0x12c},{'label':_0x3c2e3e(0x28b),'seconds':0x258},{'label':_0x3c2e3e(0x212),'seconds':0x384},{'label':_0x3c2e3e(0x1f6),'seconds':0x4b0},{'label':_0x3c2e3e(0x1be),'seconds':0x708},{'label':_0x3c2e3e(0x276),'seconds':0xa8c},{'label':_0x3c2e3e(0x277),'seconds':0xe10}];_0x245316[_0x3c2e3e(0x1f1)](_0x24d02f=>{const _0x1f617b=_0x3c2e3e,_0xb6bbf1=document[_0x1f617b(0x1c7)]('button');_0xb6bbf1['className']=_0x1f617b(0x240),_0xb6bbf1[_0x1f617b(0x283)]=_0x24d02f['label'],_0xb6bbf1[_0x1f617b(0x214)]=()=>_0x453d34(_0x21376b,_0x24d02f[_0x1f617b(0x259)]),_0x373a2d['appendChild'](_0xb6bbf1);}),_0x21376b['appendChild'](_0x373a2d),_0x29042b[_0x3c2e3e(0x1ba)](_0x21376b);}function _0x453d34(_0x5e06a1,_0x4abe1a){const _0x95bf51=_0x4f8068;_0x5e06a1[_0x95bf51(0x278)]='';const _0x896de4=document[_0x95bf51(0x1c7)](_0x95bf51(0x246));_0x896de4[_0x95bf51(0x1b4)]=_0x95bf51(0x24f);const _0x1a18c0=_0x95bf51(0x1eb),_0x9b7333=document[_0x95bf51(0x25b)](_0x1a18c0,_0x95bf51(0x296));_0x9b7333[_0x95bf51(0x268)](_0x95bf51(0x290),'0\x200\x20100\x20100');const _0x1956cd=document['createElementNS'](_0x1a18c0,_0x95bf51(0x297));_0x1956cd[_0x95bf51(0x268)]('cx','50'),_0x1956cd[_0x95bf51(0x268)]('cy','50'),_0x1956cd[_0x95bf51(0x268)]('r','45'),_0x1956cd[_0x95bf51(0x268)](_0x95bf51(0x228),'rgba(255,\x20255,\x20255,\x200.2)'),_0x1956cd[_0x95bf51(0x268)]('stroke-width','5'),_0x1956cd[_0x95bf51(0x268)]('fill',_0x95bf51(0x1ed));const _0x49acec=document['createElementNS'](_0x1a18c0,_0x95bf51(0x297));_0x49acec[_0x95bf51(0x268)]('cx','50'),_0x49acec[_0x95bf51(0x268)]('cy','50'),_0x49acec['setAttribute']('r','45'),_0x49acec[_0x95bf51(0x268)](_0x95bf51(0x228),_0x95bf51(0x260)),_0x49acec[_0x95bf51(0x268)](_0x95bf51(0x266),'5'),_0x49acec['setAttribute']('fill',_0x95bf51(0x1ed)),_0x49acec[_0x95bf51(0x27b)][_0x95bf51(0x1e7)]=_0x95bf51(0x1b1),_0x49acec[_0x95bf51(0x27b)][_0x95bf51(0x291)]=_0x95bf51(0x1a7);const _0x4dee66=0x2d,_0x3bbaa5=0x2*Math['PI']*_0x4dee66;_0x49acec[_0x95bf51(0x268)](_0x95bf51(0x219),_0x3bbaa5),_0x49acec[_0x95bf51(0x268)](_0x95bf51(0x271),0x0),_0x49acec[_0x95bf51(0x27b)][_0x95bf51(0x1c3)]='stroke-dashoffset\x201s\x20linear',_0x9b7333[_0x95bf51(0x21c)](_0x1956cd,_0x49acec);const _0x3a326d=document[_0x95bf51(0x1c7)](_0x95bf51(0x246));_0x3a326d['className']=_0x95bf51(0x252),_0x896de4['append'](_0x9b7333,_0x3a326d),_0x5e06a1[_0x95bf51(0x1ba)](_0x896de4);const _0x178a44=()=>{const _0x4a9d61=_0x95bf51,_0x47696f=_0x896de4[_0x4a9d61(0x1dd)]/4.5;_0x3a326d[_0x4a9d61(0x27b)][_0x4a9d61(0x23f)]=_0x47696f+'px';},_0x3b20f0=new ResizeObserver(_0x178a44);_0x3b20f0[_0x95bf51(0x235)](_0x896de4),_0x178a44();let _0x182df3=_0x4abe1a;const _0x129e1a=setInterval(()=>{const _0x54cf67=_0x95bf51,_0x16c518=_0x182df3/_0x4abe1a;_0x49acec[_0x54cf67(0x268)](_0x54cf67(0x271),_0x3bbaa5*(0x1-_0x16c518));const _0x4ab048=Math[_0x54cf67(0x1cb)](_0x182df3/0xe10),_0x2f0f96=Math[_0x54cf67(0x1cb)](_0x182df3%0xe10/0x3c),_0x513993=_0x182df3%0x3c;if(_0x4abe1a>=0xe10)_0x3a326d[_0x54cf67(0x283)]=String(_0x4ab048)[_0x54cf67(0x27a)](0x2,'0')+':'+String(_0x2f0f96)[_0x54cf67(0x27a)](0x2,'0')+':'+String(_0x513993)[_0x54cf67(0x27a)](0x2,'0');else _0x4abe1a>=0x3c?_0x3a326d[_0x54cf67(0x283)]=String(_0x2f0f96)[_0x54cf67(0x27a)](0x2,'0')+':'+String(_0x513993)['padStart'](0x2,'0'):_0x3a326d['textContent']=''+String(_0x513993)[_0x54cf67(0x27a)](0x2,'0');_0x182df3--,_0x182df3<0x0&&(clearInterval(_0x129e1a),_0x3b20f0[_0x54cf67(0x1c0)](),_0x3a326d[_0x54cf67(0x283)]='Done!',document[_0x54cf67(0x28a)](_0x54cf67(0x231))?.[_0x54cf67(0x237)]());},0x3e8);}function _0x288b67(){const _0x49a3b0=_0x4f8068;_0x29042b['className']=_0x49a3b0(0x247),_0x29042b[_0x49a3b0(0x278)]=_0x49a3b0(0x207);const _0xc8296f=_0x29042b[_0x49a3b0(0x273)](_0x49a3b0(0x1df)),_0x4b3903=(_0x30a491,_0x566b33)=>{const _0x20884d=_0x49a3b0;let _0x2cea44=0x0;const _0x55760d=document[_0x20884d(0x1c7)](_0x20884d(0x246));_0x55760d[_0x20884d(0x1b4)]=_0x20884d(0x267)+_0x566b33;const _0x614b4e=document[_0x20884d(0x1c7)]('h2');_0x614b4e[_0x20884d(0x283)]=_0x30a491;const _0x4e5272=document[_0x20884d(0x1c7)]('div');_0x4e5272[_0x20884d(0x1b4)]=_0x20884d(0x227);const _0x21973f=document[_0x20884d(0x1c7)]('div');_0x21973f[_0x20884d(0x1b4)]='for-against-controls';const _0x13b0b2=()=>{const _0x33bf75=_0x20884d;_0x4e5272[_0x33bf75(0x283)]=_0x2cea44;},_0x2ff5bf=document[_0x20884d(0x1c7)](_0x20884d(0x279));_0x2ff5bf[_0x20884d(0x1b4)]='tool-btn',_0x2ff5bf[_0x20884d(0x278)]='<i\x20class=\x22fas\x20fa-minus\x22></i>',_0x2ff5bf[_0x20884d(0x214)]=_0x408e7a=>{const _0x40fd43=_0x20884d;_0x408e7a[_0x40fd43(0x215)]();if(_0x2cea44>0x0)_0x2cea44--;_0x13b0b2();};const _0x2079af=document['createElement']('button');_0x2079af[_0x20884d(0x1b4)]=_0x20884d(0x1ec),_0x2079af[_0x20884d(0x278)]=_0x20884d(0x270),_0x2079af[_0x20884d(0x214)]=_0x2e5dc9=>{const _0x559248=_0x20884d;_0x2e5dc9[_0x559248(0x215)](),_0x2cea44++,_0x13b0b2();};const _0xa06d20=document[_0x20884d(0x1c7)](_0x20884d(0x279));return _0xa06d20[_0x20884d(0x1b4)]=_0x20884d(0x1ec),_0xa06d20[_0x20884d(0x278)]=_0x20884d(0x209),_0xa06d20[_0x20884d(0x214)]=_0x537e80=>{_0x537e80['stopPropagation'](),_0x2cea44=0x0,_0x13b0b2();},_0x55760d[_0x20884d(0x214)]=()=>{_0x2cea44++,_0x13b0b2();},_0x21973f[_0x20884d(0x21c)](_0x2ff5bf,_0x2079af,_0xa06d20),_0x55760d['append'](_0x614b4e,_0x4e5272,_0x21973f),_0x13b0b2(),_0x55760d;};_0xc8296f[_0x49a3b0(0x21c)](_0x4b3903(_0x49a3b0(0x20d),_0x49a3b0(0x201)),_0x4b3903('Against',_0x49a3b0(0x26c)));}function _0x211982(){const _0x4eb04d=_0x4f8068;_0x29042b[_0x4eb04d(0x1b4)]=_0x4eb04d(0x221),_0x29042b[_0x4eb04d(0x278)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22calculator-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22calculator-display\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22calc-expression\x22>&nbsp;</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22calc-input\x22>0</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22calculator-buttons\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';const _0x3d7f71=_0x29042b[_0x4eb04d(0x273)]('.calculator-buttons'),_0x73fcd3=[_0x4eb04d(0x1a8),'cos','tan','log','ln','(',')','√','^','!','7','8','9','÷','AC','4','5','6','×','C','1','2','3','-','=','0','.','π','+'];_0x73fcd3[_0x4eb04d(0x1f1)](_0x3855aa=>{const _0x138a63=_0x4eb04d,_0x2779c6=_0x3855aa['trim'](),_0x5f40b7=document[_0x138a63(0x1c7)](_0x138a63(0x279));let _0x282424=_0x138a63(0x1aa);if(_0x2779c6==='AC')_0x282424+='ac';else{if(_0x2779c6==='=')_0x282424+='equals';else{if(_0x138a63(0x25d)[_0x138a63(0x1f9)](_0x2779c6))_0x282424+=_0x138a63(0x224);else{if(/[a-z√^!()]|π/i['test'](_0x2779c6))_0x282424+=_0x138a63(0x1e1);else _0x282424+=_0x138a63(0x298);}}}_0x5f40b7['className']=_0x282424,_0x5f40b7[_0x138a63(0x1ea)][_0x138a63(0x1e4)]=_0x2779c6,_0x5f40b7[_0x138a63(0x283)]=_0x2779c6;if(_0x2779c6==='=')_0x5f40b7[_0x138a63(0x27b)]['gridRow']=_0x138a63(0x1b7);_0x3d7f71[_0x138a63(0x1ba)](_0x5f40b7);});const _0x526f5c=document[_0x4eb04d(0x28a)](_0x4eb04d(0x26d)),_0x555db9=document['getElementById'](_0x4eb04d(0x238));let _0x129758='',_0x308e16='';function _0x11094e(){const _0x150cbf=_0x4eb04d;_0x526f5c[_0x150cbf(0x278)]=_0x129758[_0x150cbf(0x206)](/\*/g,'×')[_0x150cbf(0x206)](/\//g,'÷')||_0x150cbf(0x244),_0x555db9[_0x150cbf(0x283)]=_0x308e16||'0';}function _0x4e5120(_0x6f68a3){return _0x6f68a3<=0x1?0x1:_0x6f68a3*_0x4e5120(_0x6f68a3-0x1);}_0x3d7f71['addEventListener'](_0x4eb04d(0x1d4),_0x36be5e=>{const _0x537b11=_0x4eb04d,_0x34dacd=_0x36be5e['target'][_0x537b11(0x25a)](_0x537b11(0x234));if(!_0x34dacd)return;const _0x577de7=document[_0x537b11(0x1c7)](_0x537b11(0x295));_0x577de7['className']=_0x537b11(0x222);const _0x5c5b21=_0x34dacd[_0x537b11(0x1d5)]();_0x577de7[_0x537b11(0x27b)][_0x537b11(0x28d)](_0x537b11(0x1bf),(_0x36be5e[_0x537b11(0x1bd)]-_0x5c5b21[_0x537b11(0x1c6)])/_0x5c5b21[_0x537b11(0x1af)]*0x64+'%'),_0x577de7[_0x537b11(0x27b)][_0x537b11(0x28d)](_0x537b11(0x225),(_0x36be5e[_0x537b11(0x269)]-_0x5c5b21['top'])/_0x5c5b21[_0x537b11(0x1ad)]*0x64+'%'),_0x34dacd['querySelector']('.ripple')?.[_0x537b11(0x223)](),_0x34dacd['appendChild'](_0x577de7),setTimeout(()=>_0x577de7['remove'](),0x1e0);const _0x5bf80f=_0x34dacd[_0x537b11(0x1ea)][_0x537b11(0x1e4)];switch(_0x5bf80f){case'AC':_0x129758='',_0x308e16='';break;case'C':_0x129758=_0x129758[_0x537b11(0x202)](0x0,-0x1);break;case'=':try{let _0x310891=_0x129758[_0x537b11(0x206)](/×/g,'*')['replace'](/÷/g,'/')[_0x537b11(0x206)](/√/g,'Math.sqrt')['replace'](/\^/g,'**')[_0x537b11(0x206)](/\blog\b/g,_0x537b11(0x21a))['replace'](/\bln\b/g,'Math.log')[_0x537b11(0x206)](/\bsin\b/g,_0x537b11(0x20a))[_0x537b11(0x206)](/\bcos\b/g,_0x537b11(0x1c4))[_0x537b11(0x206)](/\btan\b/g,_0x537b11(0x23d))[_0x537b11(0x206)](/π/g,_0x537b11(0x236))[_0x537b11(0x206)](/(\d+)!/g,(_0x562134,_0x44c259)=>_0x537b11(0x22a)+parseInt(_0x44c259,0xa)+')');const _0x55eb07=Function(_0x537b11(0x245),'return\x20'+_0x310891)(_0x4e5120);_0x308e16=Number(_0x55eb07['toPrecision'](0xa)),_0x129758=String(_0x308e16);}catch(_0x28283f){_0x308e16='Error',_0x129758='';}break;default:_0x308e16==='Error'&&(_0x308e16='',_0x129758='');_0x129758+=_0x5bf80f;}_0x11094e();});}function _0x2c38b7(){const _0xa83e96=_0x4f8068;_0x29042b['className']=_0xa83e96(0x1cd),_0x29042b[_0xa83e96(0x278)]='';const _0x3746e8=document['createElement'](_0xa83e96(0x246));_0x3746e8[_0xa83e96(0x1b4)]=_0xa83e96(0x29b);const _0x27996c=document[_0xa83e96(0x1c7)]('h2');_0x27996c[_0xa83e96(0x1b4)]=_0xa83e96(0x1cf),_0x27996c[_0xa83e96(0x1dc)]=!![],_0x27996c[_0xa83e96(0x283)]=_0xa83e96(0x1b2),_0x27996c[_0xa83e96(0x1f3)](_0xa83e96(0x27f),()=>{const _0x17f20f=_0xa83e96;_0x27996c[_0x17f20f(0x283)]===_0x17f20f(0x1b2)&&(_0x27996c[_0x17f20f(0x283)]='');}),_0x27996c['addEventListener'](_0xa83e96(0x1fe),()=>{const _0x482302=_0xa83e96;_0x27996c[_0x482302(0x283)][_0x482302(0x1ee)]()===''&&(_0x27996c[_0x482302(0x283)]='The\x20List');});const _0x49a247=document[_0xa83e96(0x1c7)](_0xa83e96(0x246));_0x49a247[_0xa83e96(0x1b4)]=_0xa83e96(0x21f);const _0x5bc810=document[_0xa83e96(0x1c7)](_0xa83e96(0x22f));_0x5bc810[_0xa83e96(0x1b4)]='list-table';const _0x5d2cef=document[_0xa83e96(0x1c7)]('tbody');_0x5bc810[_0xa83e96(0x1ba)](_0x5d2cef),_0x49a247[_0xa83e96(0x1ba)](_0x5bc810);const _0x3bb4de=document['createElement'](_0xa83e96(0x246));_0x3bb4de[_0xa83e96(0x1b4)]=_0xa83e96(0x1fc);const _0x347dd5=document[_0xa83e96(0x1c7)](_0xa83e96(0x279));_0x347dd5['className']=_0xa83e96(0x217),_0x347dd5[_0xa83e96(0x278)]='<i\x20class=\x22fas\x20fa-plus\x22></i>',_0x347dd5['title']=_0xa83e96(0x255);const _0x45a12f=document[_0xa83e96(0x1c7)](_0xa83e96(0x279));_0x45a12f['className']='control-btn-large',_0x45a12f[_0xa83e96(0x278)]=_0xa83e96(0x292),_0x45a12f[_0xa83e96(0x251)]=_0xa83e96(0x22e);const _0x1cbc6d=document[_0xa83e96(0x1c7)](_0xa83e96(0x279));_0x1cbc6d[_0xa83e96(0x1b4)]=_0xa83e96(0x217),_0x1cbc6d[_0xa83e96(0x278)]=_0xa83e96(0x209),_0x1cbc6d['title']=_0xa83e96(0x23b),_0x3bb4de[_0xa83e96(0x21c)](_0x347dd5,_0x45a12f,_0x1cbc6d);const _0x250853=()=>{const _0x5a4376=_0xa83e96,_0x514101=_0x5d2cef[_0x5a4376(0x20f)](),_0x578d3a=_0x5d2cef['rows'][_0x5a4376(0x216)],_0x22e136=_0x514101[_0x5a4376(0x1e8)]();_0x22e136['className']=_0x5a4376(0x1d6),_0x22e136[_0x5a4376(0x283)]=_0x578d3a;const _0x204ed7=_0x514101[_0x5a4376(0x1e8)]();_0x204ed7['className']=_0x5a4376(0x28f);const _0x17fcea=document[_0x5a4376(0x1c7)](_0x5a4376(0x1bb));_0x17fcea[_0x5a4376(0x20b)]=_0x5a4376(0x23a),_0x17fcea[_0x5a4376(0x1b5)]='Item\x20'+_0x578d3a+_0x5a4376(0x23c),_0x204ed7[_0x5a4376(0x1ba)](_0x17fcea);const _0x316309=_0x514101[_0x5a4376(0x1e8)]();_0x316309[_0x5a4376(0x1b4)]=_0x5a4376(0x1e9);const _0x6bc52b=document[_0x5a4376(0x1c7)](_0x5a4376(0x279));_0x6bc52b[_0x5a4376(0x1b4)]=_0x5a4376(0x254),_0x6bc52b[_0x5a4376(0x283)]='-';const _0x2d74d4=document[_0x5a4376(0x1c7)](_0x5a4376(0x295));_0x2d74d4[_0x5a4376(0x1b4)]=_0x5a4376(0x241),_0x2d74d4[_0x5a4376(0x283)]='0';const _0x4c07b5=document['createElement'](_0x5a4376(0x279));_0x4c07b5[_0x5a4376(0x1b4)]='counter-btn',_0x4c07b5[_0x5a4376(0x283)]='+',_0x4c07b5['onclick']=()=>{const _0x3f7fd2=_0x5a4376;_0x2d74d4[_0x3f7fd2(0x283)]=parseInt(_0x2d74d4[_0x3f7fd2(0x283)],0xa)+0x1;},_0x6bc52b[_0x5a4376(0x214)]=()=>{const _0x4fdb7d=_0x5a4376;let _0x1781f1=parseInt(_0x2d74d4[_0x4fdb7d(0x283)],0xa);_0x1781f1>0x0&&(_0x2d74d4[_0x4fdb7d(0x283)]=_0x1781f1-0x1);},_0x316309[_0x5a4376(0x21c)](_0x6bc52b,_0x2d74d4,_0x4c07b5);},_0x50823b=()=>{const _0x3ada11=_0xa83e96;_0x5d2cef['innerHTML']='',_0x27996c[_0x3ada11(0x283)]=_0x3ada11(0x1b2);for(let _0x3b066f=0x0;_0x3b066f<0x5;_0x3b066f++)_0x250853();};_0x347dd5[_0xa83e96(0x214)]=_0x250853,_0x45a12f['onclick']=()=>{const _0x3273c9=_0xa83e96;if(_0x5d2cef['rows'][_0x3273c9(0x216)]>0x1)_0x5d2cef[_0x3273c9(0x1e6)](-0x1);},_0x1cbc6d['onclick']=_0x50823b,_0x3746e8['append'](_0x27996c,_0x49a247,_0x3bb4de),_0x29042b[_0xa83e96(0x1ba)](_0x3746e8),_0x50823b();}_0x1a0f5a[_0x4f8068(0x1f1)](_0x343326=>{const _0x282b3f=_0x4f8068,_0x144a61=_0x343326[_0x282b3f(0x1ea)][_0x282b3f(0x203)];_0x144a61===_0x282b3f(0x26f)||_0x144a61==='shh'?_0x343326['addEventListener']('click',()=>{const _0xd368b=_0x282b3f,_0xa0f8de=_0x144a61+_0xd368b(0x25c),_0x255a13=document['getElementById'](_0xa0f8de);_0x255a13&&(_0x255a13['currentTime']=0x0,_0x255a13['play']()),_0x26a650(_0x144a61===_0xd368b(0x26f)?_0xd368b(0x287):_0xd368b(0x24e),_0x144a61===_0xd368b(0x26f));}):_0x343326['addEventListener'](_0x282b3f(0x1d4),()=>_0x5d55ce(_0x144a61));}),_0x5d55ce(_0x4f8068(0x1da));}));function _0x4f45(){const _0x2159a4=['ceil','gap','against-panel','calc-expression','.active','bell','<i\x20class=\x22fas\x20fa-plus\x22></i>','stroke-dashoffset','rolling','querySelector','destination-out','touches','45\x20min','1\x20Hour','innerHTML','button','padStart','style','2652636mtuIcK','strokeStyle','27yBIaAa','focus','calculator','getRandomValues','<i\x20class=\x22fas\x20fa-pause\x22></i>','textContent','animationend','round','#rollBtn','fa-bell','random','#startStopBtn','getElementById','10\x20min','countdown-title','setProperty','backgroundColor','col-text','viewBox','transform','<i\x20class=\x22fas\x20fa-minus\x22></i>','columnGap','lineCap','span','svg','circle','number','min','sqrt','numbered-list-container','paddingRight','34395LlGbnR','rotate(-90deg)','sin','resize','calc-btn\x20','.nav-btn[data-tool=\x22','clientHeight','height','shift','width','#007AFF','center','The\x20List','opacity','className','placeholder','toLocaleTimeString','span\x202','querySelectorAll','getContext','appendChild','input','die','clientX','30\x20min','--x','disconnect','pointerdown','img','transition','Math.cos','tool-container','left','createElement','.die','.timer-display','pointerup','floor','add','main-content\x20numbered-list-active','acceleration','list-title','5142170YtlvlF','#removeDieBtn','source-over','aria-label','click','getBoundingClientRect','col-number','#AF52DE','687245ESwJdf','range','draw','date','contentEditable','clientWidth','for-against','.for-against-container','false','function','classList','Die\x20shows\x20','value','active','deleteRow','transformOrigin','insertCell','col-counter','dataset','http://www.w3.org/2000/svg','tool-btn','transparent','trim','lineTo','2-digit','forEach','beginPath','addEventListener','pointerleave','translate(-50%,\x20-50%)\x20scale(1.5)','20\x20min','true','tool-btn-draw','includes','30\x20sec','countdown','list-controls','10286emOfJl','blur','#shakeBtn','52vyHFim','for-panel','slice','tool','oninput','accelerationIncludingGravity','replace','<div\x20class=\x22for-against-container\x22></div>','devicemotion','<i\x20class=\x22fas\x20fa-sync-alt\x22></i>','Math.sin','type','draw-canvas','For','tool-container\x20dice-active','insertRow','main-content\x20timer-active','pop','15\x20min','clearRect','onclick','stopPropagation','length','control-btn-large','<i\x20class=\x22fas\x20fa-play\x22></i>','stroke-dasharray','Math.log10','now','append','.dice-total','getImageData','list-table-wrapper','lineWidth','main-content\x20calculator-active','ripple','remove','operator','--y','putImageData','for-against-display','stroke','894986GKXryS','factorial(','Timer','6graaCA','.nav-btn','Remove\x20Row','table','die-dot\x20dot-','bellSound','aria-pressed','.color-swatch.active','.calc-btn','observe','Math.PI','play','calc-input','removeEventListener','text','Reset\x20List','...','Math.tan','DOMContentLoaded','fontSize','countdown-btn','counter-value','overlay-icon','canvas','&nbsp;','factorial','div','main-content\x20for-against-active','main-content','#addDieBtn','#FFCC00','color-swatch','granted','<i\x20class=\x22fas\x20fa-eraser\x22></i>','Shh','countdown-display-wrapper','149608Akdsrn','title','timer-display\x20countdown-time','role','counter-btn','Add\x20Row','target','requestPermission','max','seconds','closest','createElementNS','Sound','+-×÷','globalCompositeOperation','timer','var(--accent-color)','Total:\x20','toString','pointermove','<i\x20class=\x22fas\x20fa-undo\x22></i>','top','stroke-width','for-against-panel\x20','setAttribute','clientY'];_0x4f45=function(){return _0x2159a4;};return _0x4f45();}
+document.addEventListener('DOMContentLoaded', () => {
+    const mainContent = document.getElementById('main-content');
+    const navButtons = document.querySelectorAll('.nav-btn');
+
+    // --- Clock and Date ---
+    function updateClock() {
+        const now = new Date();
+        const clockEl = document.getElementById('clock');
+        const dateEl = document.getElementById('date');
+
+        if (clockEl) {
+            clockEl.textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
+        if (dateEl) {
+            const day = String(now.getDate()).padStart(2, '0');
+            const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+            const year = now.getFullYear().toString().slice(-2);
+            dateEl.textContent = `${day}/${month}/${year}`;
+        }
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    // --- Tool Loading Logic ---
+    function loadTool(toolName) {
+        mainContent.innerHTML = ''; // Clear previous tool
+        mainContent.className = 'main-content'; // Reset classes
+
+        navButtons.forEach(btn => btn.classList.remove('active'));
+        const activeBtn = document.querySelector(`.nav-btn[data-tool="${toolName}"]`);
+        if (activeBtn) activeBtn.classList.add('active');
+
+        switch(toolName) {
+            case 'draw': loadDrawTool(); break;
+            case 'timer': loadTimerTool(); break;
+            case 'dice': loadDiceTool(); break;
+            case 'countdown': loadCountdownTool(); break;
+            case 'calculator': loadCalculatorTool(); break;
+            case 'numbered-list': loadNumberedListTool(); break;
+            case 'for-against': loadForAndAgainstTool(); break;
+        }
+    }
+    
+    // --- Sound Effect Overlay ---
+    function showOverlay(content, isIcon = true) {
+        const el = document.createElement(isIcon ? 'i' : 'div');
+        el.className = 'overlay-icon';
+        if (isIcon) el.classList.add('fas', content);
+        else el.textContent = content;
+        
+        mainContent.appendChild(el);
+        setTimeout(() => {
+            el.style.opacity = 0;
+            el.style.transform = 'translate(-50%, -50%) scale(1.5)';
+        }, 50);
+        setTimeout(() => el.remove(), 1050);
+    }
+
+    // --- Tool Implementations ---
+
+    function loadDrawTool() {
+        const canvas = document.createElement('canvas');
+        canvas.id = 'draw-canvas';
+        mainContent.appendChild(canvas);
+
+        const controls = document.createElement('div');
+        controls.id = 'draw-controls';
+        
+        const colors = ['#FFFFFF', '#FF3B30', '#FF9500', '#FFCC00', '#34C759', '#007AFF', '#AF52DE'];
+        colors.forEach((color, index) => {
+            const swatch = document.createElement('div');
+            swatch.className = 'color-swatch';
+            swatch.style.backgroundColor = color;
+            if (index === 0) swatch.classList.add('active');
+            swatch.onclick = () => {
+                ctx.globalCompositeOperation = 'source-over';
+                ctx.strokeStyle = color;
+                controls.querySelector('.active')?.classList.remove('active');
+                swatch.classList.add('active');
+            };
+            controls.appendChild(swatch);
+        });
+
+        const sizeInput = document.createElement('input');
+        sizeInput.type = 'range';
+        sizeInput.min = 1;
+        sizeInput.max = 50;
+        sizeInput.value = 5;
+        sizeInput.oninput = e => { ctx.lineWidth = e.target.value; };
+        
+        const eraserBtn = document.createElement('button');
+        eraserBtn.className = 'tool-btn-draw';
+        eraserBtn.innerHTML = '<i class="fas fa-eraser"></i>';
+        eraserBtn.onclick = () => {
+            ctx.globalCompositeOperation = 'destination-out';
+            controls.querySelector('.active')?.classList.remove('active');
+            eraserBtn.classList.add('active');
+        };
+
+        const undoBtn = document.createElement('button');
+        undoBtn.className = 'tool-btn-draw';
+        undoBtn.innerHTML = '<i class="fas fa-undo"></i>';
+        undoBtn.onclick = () => {
+            if (history.length > 0) {
+                ctx.putImageData(history.pop(), 0, 0);
+            }
+        };
+
+        const clearBtn = document.createElement('button');
+        clearBtn.className = 'tool-btn-draw';
+        clearBtn.innerHTML = '<i class="fas fa-trash"></i>';
+        clearBtn.onclick = () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            history.length = 0;
+        };
+
+        controls.append(sizeInput, eraserBtn, undoBtn, clearBtn);
+        mainContent.appendChild(controls);
+
+        const ctx = canvas.getContext('2d');
+        let drawing = false;
+        const history = [];
+
+        function saveState() {
+            if (history.length > 20) history.shift();
+            history.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+        }
+
+        function resizeCanvas() {
+            const oldData = history.length > 0 ? history[history.length - 1] : null;
+            const oldCompositeOp = ctx.globalCompositeOperation;
+            
+            canvas.width = mainContent.clientWidth;
+            canvas.height = mainContent.clientHeight;
+            
+            if (oldData) ctx.putImageData(oldData, 0, 0);
+
+            ctx.globalCompositeOperation = oldCompositeOp;
+            ctx.lineCap = 'round';
+            const activeColorSwatch = controls.querySelector('.color-swatch.active');
+            if (activeColorSwatch) {
+                ctx.strokeStyle = activeColorSwatch.style.backgroundColor;
+            }
+            ctx.lineWidth = sizeInput.value;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        const getPos = (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const touch = e.touches ? e.touches[0] : e;
+            return { x: touch.clientX - rect.left, y: touch.clientY - rect.top };
+        }
+
+        canvas.addEventListener('pointerdown', e => {
+            saveState();
+            drawing = true;
+            const pos = getPos(e);
+            ctx.beginPath();
+            ctx.moveTo(pos.x, pos.y);
+        });
+        canvas.addEventListener('pointermove', e => {
+            if (drawing) {
+                const pos = getPos(e);
+                ctx.lineTo(pos.x, pos.y);
+                ctx.stroke();
+            }
+        });
+        canvas.addEventListener('pointerup', () => drawing = false);
+        canvas.addEventListener('pointerleave', () => drawing = false);
+    }
+
+    function loadTimerTool() {
+        mainContent.className = 'main-content timer-active';
+        const container = document.createElement('div');
+        container.className = 'tool-container';
+        container.innerHTML = `
+            <div class="timer-display">00:00.00</div>
+            <div class="tool-controls">
+                <button id="startStopBtn" class="tool-btn" style="background-color: var(--success-color);"><i class="fas fa-play"></i></button>
+                <button id="resetBtn" class="tool-btn" style="background-color: var(--danger-color);"><i class="fas fa-sync-alt"></i></button>
+            </div>
+        `;
+        mainContent.appendChild(container);
+
+        const display = container.querySelector('.timer-display');
+        const startStopBtn = container.querySelector('#startStopBtn');
+        const resetBtn = container.querySelector('#resetBtn');
+        
+        const updateFontSize = (el) => {
+            const containerWidth = el.clientWidth;
+            const newSize = containerWidth / 4.6;
+            display.style.fontSize = `${newSize}px`;
+        };
+
+        const resizeObserver = new ResizeObserver(entries => {
+            for (let entry of entries) {
+                updateFontSize(entry.target);
+            }
+        });
+        resizeObserver.observe(container);
+        updateFontSize(container);
+
+        let timerInterval = null, elapsedTime = 0, startTime = 0, isRunning = false;
+
+        const formatTime = () => {
+            const diff = elapsedTime;
+            const minutes = String(Math.floor(diff / 60000)).padStart(2, '0');
+            const seconds = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0');
+            const milliseconds = String(Math.floor((diff % 1000) / 10)).padStart(2, '0');
+            display.textContent = `${minutes}:${seconds}.${milliseconds}`;
+        };
+        
+        startStopBtn.onclick = () => {
+            if (isRunning) {
+                clearInterval(timerInterval);
+                elapsedTime = Date.now() - startTime;
+                startStopBtn.innerHTML = '<i class="fas fa-play"></i>';
+            } else {
+                startTime = Date.now() - elapsedTime;
+                timerInterval = setInterval(() => {
+                    elapsedTime = Date.now() - startTime;
+                    formatTime();
+                }, 10);
+                startStopBtn.innerHTML = '<i class="fas fa-pause"></i>';
+            }
+            isRunning = !isRunning;
+        };
+
+        resetBtn.onclick = () => {
+            clearInterval(timerInterval);
+            isRunning = false;
+            elapsedTime = 0;
+            startStopBtn.innerHTML = '<i class="fas fa-play"></i>';
+            formatTime();
+        };
+    }
+
+    function loadDiceTool() {
+        mainContent.className = 'tool-container dice-active';
+        mainContent.innerHTML = `
+            <div class="die-container" role="group" aria-label="Dice"></div>
+            <div class="tool-controls dice-controls">
+            <button id="addDieBtn" class="tool-btn" style="background-color: var(--accent-color);" aria-label="Add die"><i class="fas fa-plus"></i></button>
+            <button id="removeDieBtn" class="tool-btn" style="background-color: var(--accent-color);" aria-label="Remove die"><i class="fas fa-minus"></i></button>
+            <button id="rollBtn" class="tool-btn" style="background-color: var(--success-color);" aria-label="Roll dice"><i class="fas fa-dice-d6"></i></button>
+            <button id="shakeBtn" class="tool-btn" style="background-color: var(--bar-bg); border: 1px solid var(--border-color);" aria-label="Enable shake to roll" aria-pressed="false">
+                <i class="fas fa-mobile-alt"></i>
+            </button>
+            <div class="dice-total" aria-live="polite"></div>
+            </div>
+        `;
+
+        const diceContainer = mainContent.querySelector('.die-container');
+        const totalDisplay  = mainContent.querySelector('.dice-total');
+        const addBtn        = mainContent.querySelector('#addDieBtn');
+        const removeBtn     = mainContent.querySelector('#removeDieBtn');
+        const rollBtn       = mainContent.querySelector('#rollBtn');
+        const shakeBtn      = mainContent.querySelector('#shakeBtn');
+
+        let numDice = 1;
+        const MAX_DICE = 12;
+
+        function createDie(value = 1) {
+            const die = document.createElement('div');
+            die.className = 'die';
+            die.setAttribute('role', 'img');
+            die.dataset.value = value;
+            for (let i = 1; i <= 9; i++) {
+                const dot = document.createElement('div');
+                dot.className = `die-dot dot-${i}`;
+                die.appendChild(dot);
+            }
+            return die;
+        }
+
+        function secureRandom1to6() {
+            if (crypto && crypto.getRandomValues) {
+                const buf = new Uint8Array(1);
+                while (true) {
+                    crypto.getRandomValues(buf);
+                    if (buf[0] < 252) return (buf[0] % 6) + 1;
+                }
+            }
+            return Math.floor(Math.random() * 6) + 1;
+        }
+
+        function rollDice(animate = true) {
+            let total = 0;
+            const dice = diceContainer.querySelectorAll('.die');
+            dice.forEach(die => {
+                const value = secureRandom1to6();
+                total += value;
+                die.dataset.value = value;
+                if (animate) {
+                    die.classList.add('rolling');
+                    die.addEventListener('animationend', () => die.classList.remove('rolling'), { once: true });
+                }
+                die.setAttribute('aria-label', `Die shows ${value}`);
+            });
+            totalDisplay.textContent = `Total: ${total}`;
+        }
+
+        function renderDice() {
+            diceContainer.innerHTML = '';
+            for (let i = 0; i < numDice; i++) diceContainer.appendChild(createDie());
+            rollDice(false);
+            resizeDice();
+        }
+
+        let resizeScheduled = false;
+        function resizeDice() {
+            if (resizeScheduled) return;
+            resizeScheduled = true;
+            requestAnimationFrame(() => {
+                resizeScheduled = false;
+                const cs = getComputedStyle(diceContainer);
+                const padX = (parseFloat(cs.paddingLeft) || 0) + (parseFloat(cs.paddingRight) || 0);
+                const padY = (parseFloat(cs.paddingTop)  || 0) + (parseFloat(cs.paddingBottom) || 0);
+                const innerW = Math.max(0, diceContainer.clientWidth  - padX);
+                const innerH = Math.max(0, diceContainer.clientHeight - padY);
+                const n = Math.max(1, numDice);
+                const cols = Math.ceil(Math.sqrt(n));
+                const rows = Math.ceil(n / cols);
+                const gap  = parseFloat(cs.gap || cs.columnGap || 0) || 0;
+                const cellW = Math.floor((innerW - gap * (cols - 1)) / cols);
+                const cellH = Math.floor((innerH - gap * (rows - 1)) / rows);
+                const size  = Math.max(48, Math.min(cellW, cellH));
+                diceContainer.querySelectorAll('.die').forEach(d => {
+                    d.style.width = d.style.height = size + 'px';
+                });
+            });
+        }
+
+        try {
+            const ro = new ResizeObserver(resizeDice);
+            ro.observe(diceContainer);
+        } catch {
+            window.addEventListener('resize', resizeDice);
+        }
+
+        let shakeOn = false, lastShakeTime = 0, motionHandler = null;
+        const SHAKE_DEBOUNCE_MS = 900, SHAKE_THRESHOLD = 13;
+
+        async function ensureMotionPermission() {
+            if (typeof DeviceMotionEvent?.requestPermission === 'function') {
+                return await DeviceMotionEvent.requestPermission() === 'granted';
+            }
+            return true;
+        }
+
+        function attachMotion() {
+            if (motionHandler) window.removeEventListener('devicemotion', motionHandler);
+            let last = { x: 0, y: 0, z: 0 };
+            motionHandler = (e) => {
+                let ax, ay, az;
+                if (e.acceleration) {
+                    ({x: ax, y: ay, z: az} = e.acceleration);
+                } else {
+                    const a = e.accelerationIncludingGravity || {x:0,y:0,z:0};
+                    ax = a.x - last.x; ay = a.y - last.y; az = a.z - last.z;
+                    last = { x: a.x, y: a.y, z: a.z };
+                }
+                const mag = Math.sqrt((ax||0)**2 + (ay||0)**2 + (az||0)**2);
+                const now = Date.now();
+                if (mag > SHAKE_THRESHOLD && now - lastShakeTime > SHAKE_DEBOUNCE_MS) {
+                    lastShakeTime = now;
+                    rollDice(true);
+                }
+            };
+            window.addEventListener('devicemotion', motionHandler, { passive: true });
+        }
+
+        shakeBtn.addEventListener('click', async () => {
+            if (!shakeOn) {
+                if (!await ensureMotionPermission()) {
+                    showOverlay('Motion blocked', false);
+                    return;
+                }
+                attachMotion();
+                shakeOn = true;
+                shakeBtn.setAttribute('aria-pressed', 'true');
+            } else {
+                if (motionHandler) window.removeEventListener('devicemotion', motionHandler);
+                motionHandler = null;
+                shakeOn = false;
+                shakeBtn.setAttribute('aria-pressed', 'false');
+            }
+        });
+
+        addBtn.onclick = () => { if (numDice < MAX_DICE) { numDice++; renderDice(); } };
+        removeBtn.onclick = () => { if (numDice > 1) { numDice--; renderDice(); } };
+        rollBtn.onclick = () => rollDice(true);
+        diceContainer.addEventListener('click', () => rollDice(true));
+
+        renderDice();
+    }
+
+    function loadCountdownTool() {
+        mainContent.className = 'main-content timer-active';
+        const container = document.createElement('div');
+        container.className = 'tool-container';
+        
+        const title = document.createElement('h2');
+        title.className = 'countdown-title';
+        title.textContent = 'Timer';
+        container.appendChild(title);
+
+        const selectionGrid = document.createElement('div');
+        selectionGrid.className = 'countdown-selection-grid';
+        
+        const times = [
+            { label: '30 sec', seconds: 30 }, { label: '1 min', seconds: 60 },
+            { label: '5 min', seconds: 300 }, { label: '10 min', seconds: 600 },
+            { label: '15 min', seconds: 900 }, { label: '20 min', seconds: 1200 },
+            { label: '30 min', seconds: 1800 }, { label: '45 min', seconds: 2700 },
+            { label: '1 Hour', seconds: 3600 }
+        ];
+
+        times.forEach(time => {
+            const btn = document.createElement('button');
+            btn.className = 'countdown-btn';
+            btn.textContent = time.label;
+            btn.onclick = () => startCountdown(container, time.seconds);
+            selectionGrid.appendChild(btn);
+        });
+
+        container.appendChild(selectionGrid);
+        mainContent.appendChild(container);
+    }
+
+    function startCountdown(container, totalSeconds) {
+        container.innerHTML = ''; 
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'countdown-display-wrapper';
+
+        const svgNS = "http://www.w3.org/2000/svg";
+        const svg = document.createElementNS(svgNS, "svg");
+        svg.setAttribute('viewBox', '0 0 100 100');
+
+        const bgCircle = document.createElementNS(svgNS, "circle");
+        bgCircle.setAttribute('cx', '50');
+        bgCircle.setAttribute('cy', '50');
+        bgCircle.setAttribute('r', '45');
+        bgCircle.setAttribute('stroke', 'rgba(255, 255, 255, 0.2)');
+        bgCircle.setAttribute('stroke-width', '5');
+        bgCircle.setAttribute('fill', 'transparent');
+
+        const fgCircle = document.createElementNS(svgNS, "circle");
+        fgCircle.setAttribute('cx', '50');
+        fgCircle.setAttribute('cy', '50');
+        fgCircle.setAttribute('r', '45');
+        fgCircle.setAttribute('stroke', 'var(--accent-color)');
+        fgCircle.setAttribute('stroke-width', '5');
+        fgCircle.setAttribute('fill', 'transparent');
+        fgCircle.style.transformOrigin = 'center';
+        fgCircle.style.transform = 'rotate(-90deg)';
+        
+        const radius = 45;
+        const circumference = 2 * Math.PI * radius;
+        fgCircle.setAttribute('stroke-dasharray', circumference);
+        fgCircle.setAttribute('stroke-dashoffset', 0);
+        fgCircle.style.transition = 'stroke-dashoffset 1s linear';
+
+        svg.append(bgCircle, fgCircle);
+        
+        const display = document.createElement('div');
+        display.className = 'timer-display countdown-time';
+
+        wrapper.append(svg, display);
+        container.appendChild(wrapper);
+
+        const updateFontSize = () => {
+            const newSize = wrapper.clientWidth / 4.5;
+            display.style.fontSize = `${newSize}px`;
+        };
+        const resizeObserver = new ResizeObserver(updateFontSize);
+        resizeObserver.observe(wrapper);
+        updateFontSize();
+
+        let t = totalSeconds;
+        const timer = setInterval(() => {
+            const progress = t / totalSeconds;
+            fgCircle.setAttribute('stroke-dashoffset', circumference * (1 - progress));
+            const hours = Math.floor(t / 3600);
+            const minutes = Math.floor((t % 3600) / 60);
+            const seconds = t % 60;
+            if (totalSeconds >= 3600) {
+                display.textContent = `${String(hours).padStart(2,'0')}:${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}`;
+            } else if (totalSeconds >= 60) {
+                display.textContent = `${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}`;
+            } else {
+                display.textContent = `${String(seconds).padStart(2,'0')}`;
+            }
+            t--;
+
+            if (t < 0) {
+                clearInterval(timer);
+                resizeObserver.disconnect();
+                display.textContent = "Done!";
+                document.getElementById('bellSound')?.play();
+            }
+        }, 1000);
+    }
+    
+    function loadForAndAgainstTool() {
+        mainContent.className = 'main-content for-against-active';
+        mainContent.innerHTML = `<div class="for-against-container"></div>`;
+        const forAgainstContainer = mainContent.querySelector('.for-against-container');
+
+        const createPanel = (title, panelClass) => {
+            let count = 0;
+            const panel = document.createElement('div');
+            panel.className = `for-against-panel ${panelClass}`;
+
+            const titleEl = document.createElement('h2');
+            titleEl.textContent = title;
+
+            const display = document.createElement('div');
+            display.className = 'for-against-display';
+            
+            const controls = document.createElement('div');
+            controls.className = 'for-against-controls';
+
+            const updateDisplay = () => {
+                display.textContent = count;
+            };
+
+            const minusBtn = document.createElement('button');
+            minusBtn.className = 'tool-btn';
+            minusBtn.innerHTML = '<i class="fas fa-minus"></i>';
+            minusBtn.onclick = (e) => { e.stopPropagation(); if (count > 0) count--; updateDisplay(); };
+
+            const plusBtn = document.createElement('button');
+            plusBtn.className = 'tool-btn';
+            plusBtn.innerHTML = '<i class="fas fa-plus"></i>';
+            plusBtn.onclick = (e) => { e.stopPropagation(); count++; updateDisplay(); };
+            
+            const resetBtn = document.createElement('button');
+            resetBtn.className = 'tool-btn';
+            resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
+            resetBtn.onclick = (e) => { e.stopPropagation(); count = 0; updateDisplay(); };
+
+            panel.onclick = () => { count++; updateDisplay(); };
+
+            controls.append(minusBtn, plusBtn, resetBtn);
+            panel.append(titleEl, display, controls);
+            updateDisplay();
+            return panel;
+        };
+
+        forAgainstContainer.append(createPanel('For', 'for-panel'), createPanel('Against', 'against-panel'));
+    }
+
+    // --- Calculator Tool ---
+    function loadCalculatorTool() {
+        mainContent.className = 'main-content calculator-active';
+        
+        mainContent.innerHTML = `
+            <div class="calculator-grid">
+                <div class="calculator-display">
+                    <div id="calc-expression">&nbsp;</div>
+                    <div id="calc-input">0</div>
+                </div>
+                <div class="calculator-buttons"></div>
+            </div>
+        `;
+
+        const buttonsGrid = mainContent.querySelector('.calculator-buttons');
+        const btns = ['sin','cos','tan','log','ln','(',')','√','^','!','7','8','9','÷','AC','4','5','6','×','C','1','2','3','-','=','0','.','π','+'];
+        btns.forEach((t) => {
+            const label = t.trim();
+            const b = document.createElement('button');
+            let cls = 'calc-btn ';
+            if (label === 'AC') cls += 'ac';
+            else if (label === '=') cls += 'equals';
+            else if ('+-×÷'.includes(label)) cls += 'operator';
+            else if (/[a-z√^!()]|π/i.test(label)) cls += 'function';
+            else cls += 'number';
+            b.className = cls;
+            b.dataset.value = label;
+            b.textContent = label;
+            if (label === '=') b.style.gridRow = 'span 2';
+            buttonsGrid.appendChild(b);
+        });
+
+        const expressionDiv = document.getElementById('calc-expression');
+        const inputDiv = document.getElementById('calc-input');
+        let expression = '';
+        let lastResult = '';
+
+        function updateDisplay() {
+            expressionDiv.innerHTML = (expression.replace(/\*/g,'×').replace(/\//g,'÷') || '&nbsp;');
+            inputDiv.textContent = lastResult || '0';
+        }
+
+        function factorial(n){ return (n<=1)?1:n*factorial(n-1); }
+
+        buttonsGrid.addEventListener('click', (e) => {
+            const target = e.target.closest('.calc-btn');
+            if (!target) return;
+            
+            const r = document.createElement('span');
+            r.className = 'ripple';
+            const rect = target.getBoundingClientRect();
+            r.style.setProperty('--x', `${(e.clientX - rect.left) / rect.width * 100}%`);
+            r.style.setProperty('--y', `${(e.clientY - rect.top) / rect.height * 100}%`);
+            target.querySelector('.ripple')?.remove();
+            target.appendChild(r);
+            setTimeout(() => r.remove(), 480);
+            
+            const v = target.dataset.value;
+            switch(v) {
+                case 'AC': expression=''; lastResult=''; break;
+                case 'C': expression = expression.slice(0,-1); break;
+                case '=':
+                    try {
+                        let s = expression
+                            .replace(/×/g,'*')
+                            .replace(/÷/g,'/')
+                            .replace(/√/g,'Math.sqrt')
+                            .replace(/\^/g,'**')
+                            .replace(/\blog\b/g,'Math.log10')
+                            .replace(/\bln\b/g,'Math.log')
+                            .replace(/\bsin\b/g,'Math.sin')
+                            .replace(/\bcos\b/g,'Math.cos')
+                            .replace(/\btan\b/g,'Math.tan')
+                            .replace(/π/g,'Math.PI')
+                            .replace(/(\d+)!/g, (_,n)=>`factorial(${parseInt(n,10)})`);
+                        const result = Function('factorial','return '+s)(factorial);
+                        lastResult = Number(result.toPrecision(10));
+                        expression = String(lastResult);
+                    } catch(err){ lastResult='Error'; expression=''; }
+                    break;
+                default:
+                    if (lastResult==='Error'){ lastResult=''; expression=''; }
+                    expression += v;
+            }
+            updateDisplay();
+        });
+    }
+
+    // --- Numbered List Tool ---
+    function loadNumberedListTool() {
+        mainContent.className = 'main-content numbered-list-active';
+        mainContent.innerHTML = '';
+    
+        const container = document.createElement('div');
+        container.className = 'numbered-list-container';
+    
+        const title = document.createElement('h2');
+        title.className = 'list-title';
+        title.contentEditable = true;
+        title.textContent = 'The List';
+        title.addEventListener('focus', () => { if (title.textContent === 'The List') { title.textContent = ''; } });
+        title.addEventListener('blur', () => { if (title.textContent.trim() === '') { title.textContent = 'The List'; } });
+    
+        const tableWrapper = document.createElement('div');
+        tableWrapper.className = 'list-table-wrapper';
+        const table = document.createElement('table');
+        table.className = 'list-table';
+        const tbody = document.createElement('tbody');
+        table.appendChild(tbody);
+        tableWrapper.appendChild(table);
+    
+        const controls = document.createElement('div');
+        controls.className = 'list-controls';
+    
+        const addRowBtn = document.createElement('button');
+        addRowBtn.className = 'control-btn-large';
+        addRowBtn.innerHTML = '<i class="fas fa-plus"></i>';
+        addRowBtn.title = 'Add Row';
+    
+        const removeRowBtn = document.createElement('button');
+        removeRowBtn.className = 'control-btn-large';
+        removeRowBtn.innerHTML = '<i class="fas fa-minus"></i>';
+        removeRowBtn.title = 'Remove Row';
+    
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'control-btn-large';
+        resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
+        resetBtn.title = 'Reset List';
+    
+        controls.append(addRowBtn, removeRowBtn, resetBtn);
+    
+        const createRow = () => {
+            const row = tbody.insertRow();
+            const rowNumber = tbody.rows.length;
+    
+            const cellNum = row.insertCell();
+            cellNum.className = 'col-number';
+            cellNum.textContent = rowNumber;
+    
+            const cellText = row.insertCell();
+            cellText.className = 'col-text';
+            const textInput = document.createElement('input');
+            textInput.type = 'text';
+            textInput.placeholder = `Item ${rowNumber}...`;
+            cellText.appendChild(textInput);
+    
+            const cellCounter = row.insertCell();
+            cellCounter.className = 'col-counter';
+            const minusBtn = document.createElement('button');
+            minusBtn.className = 'counter-btn';
+            minusBtn.textContent = '-';
+            const valueSpan = document.createElement('span');
+            valueSpan.className = 'counter-value';
+            valueSpan.textContent = '0';
+            const plusBtn = document.createElement('button');
+            plusBtn.className = 'counter-btn';
+            plusBtn.textContent = '+';
+    
+            plusBtn.onclick = () => { valueSpan.textContent = parseInt(valueSpan.textContent, 10) + 1; };
+            minusBtn.onclick = () => {
+                let current = parseInt(valueSpan.textContent, 10);
+                if (current > 0) { valueSpan.textContent = current - 1; }
+            };
+            cellCounter.append(minusBtn, valueSpan, plusBtn);
+        };
+        
+        const setupInitialState = () => {
+            tbody.innerHTML = '';
+            title.textContent = 'The List';
+            for (let i = 0; i < 5; i++) createRow();
+        };
+    
+        addRowBtn.onclick = createRow;
+        removeRowBtn.onclick = () => { if (tbody.rows.length > 1) tbody.deleteRow(-1); };
+        resetBtn.onclick = setupInitialState;
+    
+        container.append(title, tableWrapper, controls);
+        mainContent.appendChild(container);
+        setupInitialState();
+    }
+
+
+    // --- Event Listeners for Navigation ---
+    navButtons.forEach(button => {
+        const tool = button.dataset.tool;
+        if (tool === 'bell' || tool === 'shh') {
+            button.addEventListener('click', () => {
+                const soundId = tool + 'Sound';
+                const sound = document.getElementById(soundId);
+                if (sound) {
+                    sound.currentTime = 0;
+                    sound.play();
+                }
+                showOverlay(tool === 'bell' ? 'fa-bell' : 'Shh', tool === 'bell');
+            });
+        } else {
+            button.addEventListener('click', () => loadTool(tool));
+        }
+    });
+
+    // --- Initial Load ---
+    loadTool('draw');
+});

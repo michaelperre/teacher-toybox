@@ -1,1 +1,222 @@
-const _0x388074=_0x20e7;(function(_0x42063b,_0x5a2e00){const _0x28348d=_0x20e7,_0x58d5cb=_0x42063b();while(!![]){try{const _0x915886=-parseInt(_0x28348d(0xbb))/0x1*(parseInt(_0x28348d(0xdc))/0x2)+-parseInt(_0x28348d(0x96))/0x3*(parseInt(_0x28348d(0x86))/0x4)+-parseInt(_0x28348d(0xbd))/0x5+-parseInt(_0x28348d(0xa8))/0x6*(parseInt(_0x28348d(0xd3))/0x7)+parseInt(_0x28348d(0xad))/0x8*(parseInt(_0x28348d(0xae))/0x9)+parseInt(_0x28348d(0xc5))/0xa*(-parseInt(_0x28348d(0x91))/0xb)+parseInt(_0x28348d(0xb9))/0xc;if(_0x915886===_0x5a2e00)break;else _0x58d5cb['push'](_0x58d5cb['shift']());}catch(_0x1bae1f){_0x58d5cb['push'](_0x58d5cb['shift']());}}}(_0x4cb8,0xd1b83),document[_0x388074(0xcf)](_0x388074(0x9b),()=>{const _0x4a8ee6=_0x388074;let _0x15b6cd=![],_0x2f168b=![],_0x1a25fd=[];function _0x36364d(_0x29f976){const _0x3b9e0b=_0x20e7,_0x1cef3a=window[_0x3b9e0b(0x8f)][_0x29f976]||window[_0x3b9e0b(0x8f)]['en'];return[{'element':'#addButton','title':window['t'](_0x1cef3a,_0x3b9e0b(0xb0)),'content':window['t'](_0x1cef3a,_0x3b9e0b(0xd4))},{'element':_0x3b9e0b(0xdd),'title':window['t'](_0x1cef3a,_0x3b9e0b(0xd8)),'content':window['t'](_0x1cef3a,_0x3b9e0b(0x98)),'action':()=>{const _0x583cfa=_0x3b9e0b;document[_0x583cfa(0xa3)](_0x583cfa(0xb4))[_0x583cfa(0x99)]===0x0&&document[_0x583cfa(0x9f)](_0x583cfa(0xd1))?.[_0x583cfa(0xbf)]();}},{'element':_0x3b9e0b(0x90),'title':window['t'](_0x1cef3a,'tour.step3.title'),'content':window['t'](_0x1cef3a,_0x3b9e0b(0x9c))},{'element':_0x3b9e0b(0xc2),'title':window['t'](_0x1cef3a,'tour.step4.title'),'content':window['t'](_0x1cef3a,_0x3b9e0b(0xb2)),'action':()=>document[_0x3b9e0b(0x92)](_0x3b9e0b(0xc2))?.[_0x3b9e0b(0xbf)]()},{'element':_0x3b9e0b(0x8b),'title':window['t'](_0x1cef3a,_0x3b9e0b(0x8e)),'content':window['t'](_0x1cef3a,_0x3b9e0b(0xc9)),'action':()=>document[_0x3b9e0b(0x92)](_0x3b9e0b(0x8b))?.['click']()},{'element':_0x3b9e0b(0xb7),'title':window['t'](_0x1cef3a,_0x3b9e0b(0xc7)),'content':window['t'](_0x1cef3a,'tour.step6.content')},{'element':_0x3b9e0b(0xbe),'title':window['t'](_0x1cef3a,_0x3b9e0b(0xc3)),'content':window['t'](_0x1cef3a,_0x3b9e0b(0xc8)),'action':()=>document[_0x3b9e0b(0x9f)](_0x3b9e0b(0x8d))?.[_0x3b9e0b(0xbf)]()}];}let _0xd5d1=0x0,_0x94b533,_0x3c87cb;function _0x4b0762(){const _0x22e8f5=_0x20e7;_0x94b533=document[_0x22e8f5(0xa4)](_0x22e8f5(0xb1)),_0x94b533['className']=_0x22e8f5(0x87),_0x3c87cb=document[_0x22e8f5(0xa4)](_0x22e8f5(0xb1)),_0x3c87cb[_0x22e8f5(0xa2)]=_0x22e8f5(0xa9),document[_0x22e8f5(0x97)][_0x22e8f5(0xa1)](_0x94b533,_0x3c87cb);}function _0x3da413(_0x1357ae){const _0x519e69=_0x1a25fd[_0x1357ae];setTimeout(()=>{const _0x29fe09=_0x20e7,_0x49553f=document[_0x29fe09(0x92)](_0x519e69[_0x29fe09(0x88)]);if(!_0x49553f){console[_0x29fe09(0xa0)](_0x29fe09(0xa7)+_0x519e69[_0x29fe09(0x88)]),_0xc3f591();return;}const _0x26b10b=_0x49553f[_0x29fe09(0xda)]();_0x94b533[_0x29fe09(0xd9)][_0x29fe09(0xcd)]=_0x26b10b[_0x29fe09(0xcd)]-0x5+'px',_0x94b533[_0x29fe09(0xd9)][_0x29fe09(0xd2)]=_0x26b10b[_0x29fe09(0xd2)]-0x5+'px',_0x94b533['style'][_0x29fe09(0xc4)]=_0x26b10b[_0x29fe09(0xc4)]+0xa+'px',_0x94b533[_0x29fe09(0xd9)][_0x29fe09(0xb5)]=_0x26b10b[_0x29fe09(0xb5)]+0xa+'px',_0x3c87cb[_0x29fe09(0xab)]=_0x29fe09(0xb8)+_0x519e69['title']+_0x29fe09(0xce)+_0x519e69[_0x29fe09(0xd0)]+_0x29fe09(0xc6)+(_0x1357ae+0x1)+_0x29fe09(0xd6)+_0x1a25fd['length']+_0x29fe09(0xd7)+(_0x1357ae===_0x1a25fd['length']-0x1?_0x29fe09(0xa6):_0x29fe09(0xb3))+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';const _0x82c9a=_0x3c87cb['getBoundingClientRect'](),_0x37a83b=0xa,_0x18131c=window[_0x29fe09(0x8c)]-_0x26b10b[_0x29fe09(0xaf)];let _0x1befd0;_0x18131c>=_0x82c9a[_0x29fe09(0xb5)]+_0x37a83b+0xf?_0x1befd0=_0x26b10b[_0x29fe09(0xaf)]+0xf:_0x1befd0=_0x26b10b[_0x29fe09(0xcd)]-_0x82c9a[_0x29fe09(0xb5)]-0xf;let _0x51f150=_0x26b10b[_0x29fe09(0xd2)]+_0x26b10b['width']/0x2-_0x82c9a[_0x29fe09(0xc4)]/0x2;_0x1befd0=Math[_0x29fe09(0x89)](_0x37a83b,Math[_0x29fe09(0xdb)](_0x1befd0,window[_0x29fe09(0x8c)]-_0x82c9a[_0x29fe09(0xb5)]-_0x37a83b)),_0x51f150=Math['max'](_0x37a83b,Math[_0x29fe09(0xdb)](_0x51f150,window['innerWidth']-_0x82c9a[_0x29fe09(0xc4)]-_0x37a83b)),_0x3c87cb['style'][_0x29fe09(0xcd)]=_0x1befd0+'px',_0x3c87cb['style'][_0x29fe09(0xd2)]=_0x51f150+'px',_0x3c87cb[_0x29fe09(0xd9)][_0x29fe09(0xc1)]='1',_0x3c87cb['style']['transform']=_0x29fe09(0x9a),_0x3c87cb['querySelector'](_0x29fe09(0xba))['addEventListener']('click',_0x6bcecc,{'once':!![]});},0x96);}function _0x6bcecc(_0x52c152){const _0x562169=_0x20e7;if(_0x52c152)_0x52c152['stopPropagation']();const _0x132c53=_0x1a25fd[_0xd5d1];_0x132c53[_0x562169(0xc0)]&&(_0x2f168b=!![],_0x132c53[_0x562169(0xc0)](),setTimeout(()=>{_0x2f168b=![];},0x64));_0xd5d1++;if(_0xd5d1>=_0x1a25fd[_0x562169(0x99)])_0xc3f591();else{const _0x30a508=_0x132c53['action']?0x190:0x32;setTimeout(()=>_0x3da413(_0xd5d1),_0x30a508);}}function _0xc3f591(){const _0xc373e0=_0x20e7;if(!_0x15b6cd)return;_0x15b6cd=![],localStorage[_0xc373e0(0xbc)](_0xc373e0(0x9d),_0xc373e0(0x94)),document['body']['removeEventListener'](_0xc373e0(0xbf),_0x2de87b);if(_0x3c87cb)_0x3c87cb[_0xc373e0(0xd9)][_0xc373e0(0xc1)]='0';if(_0x94b533)_0x94b533[_0xc373e0(0xd9)][_0xc373e0(0x8a)]='0\x200\x200\x209999px\x20rgba(0,\x200,\x200,\x200)';document[_0xc373e0(0x92)](_0xc373e0(0x85))?.['classList'][_0xc373e0(0xcc)](_0xc373e0(0x95)),document[_0xc373e0(0x92)](_0xc373e0(0xd5))?.[_0xc373e0(0x9e)][_0xc373e0(0xcc)]('open'),document[_0xc373e0(0x92)]('#extra-tools-bar')?.[_0xc373e0(0x9e)][_0xc373e0(0xcc)](_0xc373e0(0x95)),document['querySelector'](_0xc373e0(0xa5))?.['classList']['remove'](_0xc373e0(0x95)),setTimeout(()=>{const _0xd24a58=_0xc373e0;if(_0x94b533&&_0x94b533[_0xd24a58(0xcb)])_0x94b533['remove']();if(_0x3c87cb&&_0x3c87cb[_0xd24a58(0xcb)])_0x3c87cb[_0xd24a58(0xcc)]();},0x190);}function _0x2de87b(_0xcbb0aa){const _0x3ebf4c=_0x20e7;if(_0x2f168b)return;if(_0x3c87cb&&_0x3c87cb[_0x3ebf4c(0xb6)](_0xcbb0aa[_0x3ebf4c(0xca)]))return;_0xc3f591();}function _0x5b5619(){const _0x3f6acf=_0x20e7;if(_0x15b6cd)return;_0x15b6cd=!![];const _0x5d4312=localStorage['getItem'](_0x3f6acf(0xac))||'en';_0x1a25fd=_0x36364d(_0x5d4312),_0xd5d1=0x0,_0x4b0762(),_0x3da413(_0xd5d1),setTimeout(()=>{const _0x142197=_0x3f6acf;document[_0x142197(0x97)][_0x142197(0xcf)](_0x142197(0xbf),_0x2de87b);},0x64);}const _0x2fabe0=document[_0x4a8ee6(0x9f)](_0x4a8ee6(0xaa));_0x2fabe0&&_0x2fabe0[_0x4a8ee6(0xcf)](_0x4a8ee6(0xbf),_0x5b5619),!localStorage[_0x4a8ee6(0x93)](_0x4a8ee6(0x9d))&&setTimeout(_0x5b5619,0x5dc);}));function _0x20e7(_0x420ad0,_0x45801a){const _0x4cb898=_0x4cb8();return _0x20e7=function(_0x20e7df,_0x2992fe){_0x20e7df=_0x20e7df-0x85;let _0x174d84=_0x4cb898[_0x20e7df];return _0x174d84;},_0x20e7(_0x420ad0,_0x45801a);}function _0x4cb8(){const _0x543b72=['19726eupMJR','tour.step1.content','#management-bar','\x20/\x20','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22tour-next-btn\x22>','tour.step2.title','style','getBoundingClientRect','min','858182aAppDH','#addButton','#layout-bar','439528pLIYKQ','tour-highlight-element','element','max','boxShadow','#screenButton','innerHeight','helpButton','tour.step5.title','I18N','.floating\x20.win-sidebar','549461snXxNq','querySelector','getItem','true','open','9hmnPYI','body','tour.step2.content','length','translateY(0)','DOMContentLoaded','tour.step3.content','ttx_tour_completed','classList','getElementById','warn','append','className','querySelectorAll','createElement','#help-bar','Finish','Tour\x20element\x20not\x20found:\x20','1902CHhPGF','tour-tooltip','tourButton','innerHTML','ttx_lang','8cJQxYx','5275062bzZJhY','bottom','tour.step1.title','div','tour.step4.content','Next','.floating','height','contains','.floating\x20.drag-bar','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>','40219212sAIaqD','.tour-next-btn','1WPfwKf','setItem','3886510lepZBO','#helpButton','click','action','opacity','.floating\x20.win-sidebar\x20.icon-btn[data-hotkey=\x22d\x22]','tour.step7.title','width','130ObOEST','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tour-tooltip-footer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22tour-progress\x22>','tour.step6.title','tour.step7.content','tour.step5.content','target','parentNode','remove','top','</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','addEventListener','content','addButton','left'];_0x4cb8=function(){return _0x543b72;};return _0x4cb8();}
+/*
+ * tour.js
+ * Logic for the guided walkthrough tour.
+ * © 2025 TeacherToybox.com. All Rights Reserved.
+ */
+
+document.addEventListener('DOMContentLoaded', () => {
+    // A flag to prevent the tour from starting automatically if it's already running
+    let isTourActive = false;
+    // A flag to ignore programmatic clicks during tour actions
+    let isPerformingAction = false;
+
+    let tourSteps = []; // This will be populated with translated text when the tour starts.
+
+    /**
+     * Generates the tour steps array with text in the specified language.
+     * @param {string} lang - The language code (e.g., 'en', 'es').
+     * @returns {Array} An array of tour step objects.
+     */
+    function getTourSteps(lang) {
+        const dict = window.I18N[lang] || window.I18N.en;
+        return [
+            {
+                element: '#addButton',
+                title: window.t(dict, 'tour.step1.title'),
+                content: window.t(dict, 'tour.step1.content'),
+            },
+            {
+                element: '#addButton',
+                title: window.t(dict, 'tour.step2.title'),
+                content: window.t(dict, 'tour.step2.content'),
+                action: () => {
+                    if (document.querySelectorAll('.floating').length === 0) {
+                        document.getElementById('addButton')?.click();
+                    }
+                } 
+            },
+            {
+                element: '.floating .win-sidebar',
+                title: window.t(dict, 'tour.step3.title'),
+                content: window.t(dict, 'tour.step3.content'),
+            },
+            {
+                element: '.floating .win-sidebar .icon-btn[data-hotkey="d"]',
+                title: window.t(dict, 'tour.step4.title'),
+                content: window.t(dict, 'tour.step4.content'),
+                action: () => document.querySelector('.floating .win-sidebar .icon-btn[data-hotkey="d"]')?.click() 
+            },
+            {
+                element: '#screenButton',
+                title: window.t(dict, 'tour.step5.title'),
+                content: window.t(dict, 'tour.step5.content'),
+                action: () => document.querySelector('#screenButton')?.click() 
+            },
+            {
+                element: '.floating .drag-bar',
+                title: window.t(dict, 'tour.step6.title'),
+                content: window.t(dict, 'tour.step6.content'),
+            },
+            {
+                element: '#helpButton',
+                title: window.t(dict, 'tour.step7.title'),
+                content: window.t(dict, 'tour.step7.content'),
+                action: () => document.getElementById('helpButton')?.click()
+            }
+        ];
+    }
+
+    let currentStep = 0;
+    let highlight, tooltip;
+
+    function createTourElements() {
+        highlight = document.createElement('div');
+        highlight.className = 'tour-highlight-element';
+
+        tooltip = document.createElement('div');
+        tooltip.className = 'tour-tooltip';
+
+        document.body.append(highlight, tooltip);
+    }
+
+    function showStep(index) {
+        const step = tourSteps[index];
+        
+        setTimeout(() => {
+            const targetElement = document.querySelector(step.element);
+            if (!targetElement) {
+                console.warn(`Tour element not found: ${step.element}`);
+                endTour();
+                return;
+            }
+
+            const rect = targetElement.getBoundingClientRect();
+            
+            highlight.style.top = `${rect.top - 5}px`;
+            highlight.style.left = `${rect.left - 5}px`;
+            highlight.style.width = `${rect.width + 10}px`;
+            highlight.style.height = `${rect.height + 10}px`;
+
+            tooltip.innerHTML = `
+                <h4>${step.title}</h4>
+                <p>${step.content}</p>
+                <div class="tour-tooltip-footer">
+                    <span class="tour-progress">${index + 1} / ${tourSteps.length}</span>
+                    <button class="tour-next-btn">${index === tourSteps.length - 1 ? 'Finish' : 'Next'}</button>
+                </div>
+            `;
+
+            const tooltipRect = tooltip.getBoundingClientRect();
+
+            // --- MODIFIED: Robust tooltip positioning logic ---
+            const margin = 10; // 10px margin from the screen edges
+
+            // 1. Determine preferred vertical position (prefer below, then above)
+            const spaceBelow = window.innerHeight - rect.bottom;
+            let tooltipTop;
+            if (spaceBelow >= tooltipRect.height + margin + 15) {
+                tooltipTop = rect.bottom + 15;
+            } else {
+                tooltipTop = rect.top - tooltipRect.height - 15;
+            }
+
+            // 2. Determine initial horizontal position (centered on target)
+            let tooltipLeft = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
+
+            // 3. Final clamping to GUARANTEE the tooltip is always inside the viewport.
+            tooltipTop = Math.max(margin, Math.min(tooltipTop, window.innerHeight - tooltipRect.height - margin));
+            tooltipLeft = Math.max(margin, Math.min(tooltipLeft, window.innerWidth - tooltipRect.width - margin));
+            // --- END OF MODIFICATION ---
+
+            tooltip.style.top = `${tooltipTop}px`;
+            tooltip.style.left = `${tooltipLeft}px`;
+            
+            tooltip.style.opacity = '1';
+            tooltip.style.transform = 'translateY(0)';
+
+            tooltip.querySelector('.tour-next-btn').addEventListener('click', nextStep, { once: true });
+        }, 150); // Delay to allow UI to update from actions
+    }
+
+    function nextStep(event) {
+        if (event) event.stopPropagation();
+
+        const step = tourSteps[currentStep];
+        if (step.action) {
+            isPerformingAction = true;
+            step.action();
+            setTimeout(() => { isPerformingAction = false; }, 100);
+        }
+
+        currentStep++;
+        if (currentStep >= tourSteps.length) {
+            endTour();
+        } else {
+            const delay = step.action ? 400 : 50;
+            setTimeout(() => showStep(currentStep), delay);
+        }
+    }
+
+    function endTour() {
+        if (!isTourActive) return;
+        isTourActive = false;
+
+        // Set a flag in localStorage so the tour doesn't auto-start next time.
+        localStorage.setItem('ttx_tour_completed', 'true');
+
+        document.body.removeEventListener('click', handleGlobalClick);
+
+        if (tooltip) tooltip.style.opacity = '0';
+        if (highlight) highlight.style.boxShadow = '0 0 0 9999px rgba(0, 0, 0, 0)';
+        
+        // Close all pop-out bars for a clean exit
+        document.querySelector('#layout-bar')?.classList.remove('open');
+        document.querySelector('#management-bar')?.classList.remove('open');
+        document.querySelector('#extra-tools-bar')?.classList.remove('open');
+        document.querySelector('#help-bar')?.classList.remove('open');
+
+        setTimeout(() => {
+            if (highlight && highlight.parentNode) highlight.remove();
+            if (tooltip && tooltip.parentNode) tooltip.remove();
+        }, 400);
+    }
+    
+    function handleGlobalClick(event) {
+        if (isPerformingAction) {
+            return;
+        }
+        if (tooltip && tooltip.contains(event.target)) {
+            return;
+        }
+        endTour();
+    }
+
+    function startTour() {
+        if (isTourActive) return;
+        isTourActive = true;
+        
+        // Get the current language and generate the translated tour steps
+        const currentLang = localStorage.getItem('ttx_lang') || 'en';
+        tourSteps = getTourSteps(currentLang);
+
+        currentStep = 0;
+        createTourElements();
+        showStep(currentStep);
+        
+        setTimeout(() => {
+            document.body.addEventListener('click', handleGlobalClick);
+        }, 100);
+    }
+
+    // --- Tour Initiation Logic ---
+
+    const tourButton = document.getElementById('tourButton');
+    if (tourButton) {
+        tourButton.addEventListener('click', startTour);
+    }
+
+    // Check if the tour has been completed before, and only start if it hasn't.
+    if (!localStorage.getItem('ttx_tour_completed')) {
+        setTimeout(startTour, 1500); 
+    }
+});
