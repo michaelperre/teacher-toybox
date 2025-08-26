@@ -63,13 +63,12 @@ const updateUI = async () => {
       await auth0Client.getTokenSilently({ cacheMode: 'off' });
       const claims = await auth0Client.getIdTokenClaims();
       
+      // Check for the premium role and add a class to the body if it exists.
+      // The CSS file will now handle showing/hiding the upgrade button.
       const userRoles = claims['http://teachertoybox.com/roles'] || [];
       if (userRoles.includes('Premium')) {
           window.TT.isPremium = true;
           document.body.classList.add('is-premium');
-          if (upgradeButton) upgradeButton.style.display = 'none';
-      } else {
-          if (upgradeButton) upgradeButton.style.display = 'flex';
       }
 
     } else {
@@ -79,7 +78,6 @@ const updateUI = async () => {
       authButton.classList.remove('logout-btn');
       
       if (userProfileElement) userProfileElement.style.display = 'none';
-      if (upgradeButton) upgradeButton.style.display = 'flex';
     }
   }
 };
