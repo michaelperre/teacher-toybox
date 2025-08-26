@@ -60,8 +60,8 @@ global.TT.initiateCheckout = async () => {
   }
 };
 
-// 1. New function to handle checking for premium status after payment.
-async function checkForPremiumStatus() {
+// 1. Updated function to handle the post-payment experience.
+function finalizePremiumAccess() {
     // Create a temporary message for the user
     const statusDiv = document.createElement('div');
     statusDiv.textContent = 'Finalizing your premium access...';
@@ -80,34 +80,10 @@ async function checkForPremiumStatus() {
     `;
     document.body.appendChild(statusDiv);
 
-    const maxAttempts = 10;
-    let attempt = 0;
-
-    const intervalId = setInterval(async () => {
-        attempt++;
-        try {
-            // This method fetches the LATEST user information from Auth0
-            const claims = await auth0Client.getIdTokenClaims();
-            const userRoles = claims['http://teachertoybox.com/roles'] || [];
-
-            if (userRoles.includes('Premium')) {
-                clearInterval(intervalId);
-                await updateUI(); // This function from auth.js will refresh the UI
-                statusDiv.textContent = 'Welcome to Premium! ✨';
-                statusDiv.style.backgroundColor = 'var(--success-color)';
-                setTimeout(() => statusDiv.remove(), 4000);
-                return;
-            }
-        } catch (e) {
-            console.error("Error while checking for premium status:", e);
-        }
-
-        if (attempt >= maxAttempts) {
-            clearInterval(intervalId);
-            statusDiv.textContent = 'There was a delay updating your account. Please refresh the page.';
-            statusDiv.style.backgroundColor = 'var(--danger-color)';
-        }
-    }, 3000); // Check for the new role every 3 seconds
+    // Wait 5 seconds to give the webhook time to process, then reload the page.
+    setTimeout(() => {
+        location.reload();
+    }, 5000); // 5-second delay
 }
 
 
@@ -2673,7 +2649,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const checkAuthReady = setInterval(() => {
             if (typeof auth0Client !== 'undefined' && auth0Client) {
                 clearInterval(checkAuthReady);
-                checkForPremiumStatus();
+                finalizePremiumAccess();
                 // Clean the URL so the check doesn't run on every refresh
                 window.history.replaceState({}, document.title, "/");
             }
