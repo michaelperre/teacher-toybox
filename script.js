@@ -9,10 +9,7 @@ global.TT = global.TT || {};
 global.TT.isPremium = false; // Add premium status to global state
 
 // --- Date Display & Localization ---
-// This function is now defined in the global scope to prevent race conditions.
-// It will be available immediately when the script is loaded.
 global.TT.updateDateDisplay = function(lang) {
-    // It finds the 'date-display' element by its ID directly.
     const dateDisplay = document.getElementById('date-display');
     if (!dateDisplay) return;
     
@@ -24,7 +21,6 @@ global.TT.updateDateDisplay = function(lang) {
         day: 'numeric'
     };
 
-    // Use the modern Intl.DateTimeFormat for robust, automatic localization.
     const formatter = new Intl.DateTimeFormat(lang, options);
     dateDisplay.textContent = formatter.format(today);
 };
@@ -36,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (_splash) {
         setTimeout(() => {
             _splash.style.opacity = '0';
-            setTimeout(() => _splash.remove(), 500); // match CSS transition
-        }, 1000); // show for 1 second
+            setTimeout(() => _splash.remove(), 500);
+        }, 1000);
     }
     // --- End Splash Screen ---
 
@@ -63,17 +59,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- NEW: Reusable function to start the checkout process ---
+    // --- **UPDATED AND MORE ROBUST CHECKOUT FUNCTION** ---
     const initiateCheckout = async () => {
-      // This function assumes the user is authenticated.
       try {
+        // This will attempt to refresh the user's session in the background.
+        // If the session is expired and cannot be refreshed, it will throw a 'login_required' error.
+        await auth0Client.getTokenSilently(); 
+        
         const user = await auth0Client.getUser();
+        
+        // If for any reason we still don't have a user, force a login.
         if (!user) {
-          throw new Error("User not found after authentication.");
+          login('upgrade');
+          return; 
         }
-        // IMPORTANT: These are your new TEST keys
-        const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW'); // UPDATED TEST KEY
-        const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H'; // UPDATED TEST KEY
+
+        // Use the TEST keys for Stripe.
+        const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
+        const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H';
 
         const response = await fetch('/api/create-checkout-session', {
           method: 'POST',
@@ -82,28 +85,37 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         if (!response.ok) {
-          throw new Error('Failed to create checkout session.');
+          const errorBody = await response.json();
+          throw new Error(errorBody.error || 'Failed to create checkout session.');
         }
 
         const { sessionId } = await response.json();
         await stripe.redirectToCheckout({ sessionId });
+
       } catch (error) {
-        console.error("Error redirecting to checkout:", error);
-        alert("Could not connect to the payment service. Please try again later.");
+        // The Auth0 SDK throws an error with a specific 'error' property if login is required.
+        if (error.error === 'login_required') {
+          // If the session is invalid, trigger the login flow. This is the fix.
+          login('upgrade');
+        } else {
+          // For any other error (e.g., network, Stripe API), show the user a message.
+          console.error("Error redirecting to checkout:", error);
+          alert("Could not connect to the payment service. Please try again later.");
+        }
       }
     };
-    // --- END of new function ---
+    // --- END of updated function ---
 
     if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
     if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
     if (panelUpgradeBtn) {
         panelUpgradeBtn.onclick = async () => {
+            // This initial check is a quick check. The robust check is now inside initiateCheckout.
             if (!await auth0Client.isAuthenticated()) {
-                login('upgrade'); // Redirects to login with upgrade intent
+                login('upgrade');
                 return;
             }
-            // If already logged in, go straight to checkout
             initiateCheckout();
         };
     }
@@ -134,13 +146,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const minutes = now.getMinutes();
         const hours = now.getHours();
 
-        // Update Analog Clock
         const secondsDeg = (seconds / 60) * 360;
         const minutesDeg = (minutes / 60) * 360 + (seconds / 60) * 6;
         const hoursDeg = (hours / 12) * 360 + (minutes / 60) * 30;
         
         if (hourHand && minuteHand && secondHand) {
-            // Add a check to prevent initial flicker from 359deg to 0deg
             if (secondsDeg < 1) { 
                 secondHand.style.transition = 'none';
             } else {
@@ -152,7 +162,6 @@ document.addEventListener('DOMContentLoaded', () => {
             hourHand.style.transform = `rotate(${hoursDeg}deg)`;
         }
 
-        // Update Digital Clock
         if (digitalClockBar) {
             const digitalHours = String(hours).padStart(2, '0');
             const digitalMinutes = String(minutes).padStart(2, '0');
@@ -174,15 +183,11 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
         
-        // Set initial state and start interval
         setClocks();
         setInterval(setClocks, 1000);
     }
     // --- End New Clock Feature ---
 
-
-    // The date text is now handled by the global TT.updateDateDisplay function.
-    // This block only sets up the click-to-enlarge functionality.
     const dateDisplay = $('date-display');
     if (dateDisplay) {
       const closeEnlargedDate = () => {
@@ -192,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         if (backdrop) {
           backdrop.style.opacity = '0';
-          setTimeout(() => backdrop.remove(), 400); // Match CSS transition time
+          setTimeout(() => backdrop.remove(), 400);
         }
       };
     
@@ -219,7 +224,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     const toolStyles = `
-        /* Dice Roller Styles */
         .die-container { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: center; flex-grow: 1; padding: 10px; }
         .die { width: 10rem; height: 10rem; background-color: white; border-radius: 8px; padding: 6px; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 4px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); border: 2px solid black; }
         .die .die-dot { visibility: hidden; width: 100%; height: 100%; background-color: black; border-radius: 50%; }
@@ -234,13 +238,9 @@ document.addEventListener('DOMContentLoaded', () => {
         .dice-total { font-size: 18px; font-weight: bold; color: white; min-width: 80px; text-align: center; }
         .die.rolling { animation: roll 0.5s ease-in-out; }
         @keyframes roll { 0% { transform: rotate(0deg) scale(1); } 25% { transform: rotate(15deg) scale(1.1); } 75% { transform: rotate(-15deg) scale(1.1); } 100% { transform: rotate(0deg) scale(1); } }
-
-        /* Stopwatch Styles */
         .stopwatch-display { font-size: clamp(3rem, 14vw, 10rem); font-weight: 700; color: white; text-align: center; flex-grow: 1; display: flex; justify-content: center; align-items: center; font-family: 'monospace'; }
         .stopwatch-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.2); flex-shrink: 0; }
         .stopwatch-controls .icon-btn { width: 50px; height: 50px; font-size: 20px; }
-
-        /* Countdown Timer Styles */
         .countdown-title { color: var(--text-secondary); font-size: 1.5rem; font-weight: 500; text-align: center; margin-bottom: 1rem; }
         .countdown-selection-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 12px; width: 100%; max-width: 500px; }
         .countdown-btn { background-color: var(--sidebar-bg); border: 1px solid var(--border-color); color: var(--text-primary); padding: 20px 10px; border-radius: 8px; font-size: 1.1rem; font-weight: 500; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease; }
@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function saveDrawingState(canvas, ctx, history) {
         if (!canvas || !ctx || !history) return;
-        if (history.length > 20) { // Limit history size
+        if (history.length > 20) {
             history.shift();
         }
         history.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
@@ -1616,7 +1616,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return win;
     }
 
-    // --- NEW SNAPPING FUNCTIONS ---
     function calculateIntersection(win1, win2) {
         const rect1 = win1.getBoundingClientRect();
         const rect2 = win2.getBoundingClientRect();
@@ -1662,7 +1661,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
-    // --- END NEW SNAPPING FUNCTIONS ---
 
     function handleLayout(layoutId, layoutFunction) {
         if (layoutState.activeLayout === layoutId) {
@@ -1734,9 +1732,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // These functions need to be accessible to buildInfoWindow and the new global update function.
-    // We define them here, within the main DOMContentLoaded scope.
-    let infoWindowElements = {}; // To hold references to the info window's DOM elements
+    let infoWindowElements = {};
 
     const renderInfoTextForWindow = (langCode) => {
         if (!infoWindowElements.wrapper) return;
@@ -1778,10 +1774,9 @@ document.addEventListener('DOMContentLoaded', () => {
         infoWindowElements.wrapper.style.fontSize = `${finalSize}px`;
     };
 
-    // This new global function allows the main translation script to update the info window
     window.TT.updateInfoWindowLanguage = (lang) => {
         const infoWindow = document.querySelector('.info-content-wrapper');
-        if (infoWindow) { // Only run if the info window is open
+        if (infoWindow) {
             renderInfoTextForWindow(lang);
             fitInfoWindowText();
         }
@@ -1806,7 +1801,7 @@ document.addEventListener('DOMContentLoaded', () => {
         closeBtn.innerHTML = '&times;';
         closeBtn.title = 'Close';
         closeBtn.onclick = (e) => {
-            e.stopPropagation(); // Prevent the main window's onclick from firing
+            e.stopPropagation();
             closeInfoIfOpen();
         };
         w.appendChild(closeBtn);
@@ -2019,14 +2014,12 @@ document.addEventListener('DOMContentLoaded', () => {
         s.play().catch(() => {})
     };
 
-    // --- Laser Pointer Module ---
     (function() {
         let isActive = false;
         let laserDotElement = null;
 
         const updatePosition = (e) => {
             if (!laserDotElement) return;
-            // The offset (-10px) centers the 20px dot on the cursor's coordinates.
             const x = e.clientX - 10;
             const y = e.clientY - 10;
             laserDotElement.style.transform = `translate(${x}px, ${y}px)`;
@@ -2058,13 +2051,11 @@ document.addEventListener('DOMContentLoaded', () => {
             isActive ? turnOff() : turnOn();
         };
 
-        // Assign the toggle function to the button click event.
         const laserButton = $('laserButton');
         if (laserButton) {
             laserButton.onclick = toggle;
         }
 
-        // Expose the turnOff function to the global scope
         global.TT.turnOffLaser = turnOff;
     })();
 
@@ -2202,7 +2193,6 @@ document.addEventListener('DOMContentLoaded', () => {
         $('help-bar').classList.toggle('open');
     };
     
-    // --- Upgrade Panel Logic ---
     const upgradeButton = $('upgradeButton');
 
     if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
@@ -2212,15 +2202,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (panelUpgradeBtn) {
         panelUpgradeBtn.onclick = async () => {
             if (!await auth0Client.isAuthenticated()) {
-                login('upgrade'); // Redirects to login with upgrade intent
+                login('upgrade');
                 return;
             }
-            // If already logged in, go straight to checkout
             initiateCheckout();
         };
     }
 
-    // Auto-retract for sliding toolbars
     let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout;
     const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
         const button = $(buttonId);
@@ -2244,7 +2232,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setupToolbarAutoRetract('managementButton', 'management-bar', managementTimeout);
     setupToolbarAutoRetract('helpButton', 'help-bar', helpTimeout);
     
-    // Feedback Panel Logic
     const feedbackButton = $('feedbackButton');
     const feedbackPanel = $('feedback-panel');
     const feedbackBackdrop = $('feedback-backdrop');
@@ -2548,10 +2535,9 @@ document.addEventListener('DOMContentLoaded', () => {
             hotkeysEnabled = true;
         }
     
-        // Check if the click is on the background or title, but NOT on the language picker.
         const isClickOnLangPicker = e.target.closest('#lang-picker-wrap');
         if (isClickOnLangPicker) {
-            return; // Exit the function early if the language picker was clicked.
+            return;
         }
 
         if (e.target === document.body || e.target.closest('#site-title')) {
@@ -2566,23 +2552,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     document.addEventListener('click', (e) => {
-        // Close all slide-out panels if the click is outside of the interactive areas
         const isClickInsideSidebar = e.target.closest('#sidebar-main-controls');
         const isClickInsideFeedbackPanel = e.target.closest('#feedback-panel');
         const isClickInsideUpgradePanel = e.target.closest('#upgrade-panel');
 
         if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel) {
-            // Close simple toolbars
             if($('layout-bar')) $('layout-bar').classList.remove('open');
             if($('management-bar')) $('management-bar').classList.remove('open');
             if($('extra-tools-bar')) $('extra-tools-bar').classList.remove('open');
             if($('help-bar')) $('help-bar').classList.remove('open');
 
-            // Use the dedicated close functions to also hide the backdrops
             closeUpgradePanel();
             closeFeedbackPanel();
             
-            // Close color palettes
             document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
                 if (p) p.classList.add('hidden');
             });
@@ -2675,17 +2657,11 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })();
     
-    // Original premium logic was here, moved to auth.js and a new upgrade button in index.html
-    // Old premiumSidebarButtons array removed.
-    
-    // Listen for the custom event from auth.js
     document.addEventListener('postLoginAction', (e) => {
         if (e.detail === 'upgrade') {
-            // The user just logged in with the intent to upgrade.
-            // Instead of showing the panel again, proceed directly to checkout.
             setTimeout(() => {
                 initiateCheckout();
-            }, 500); // 500ms delay to ensure UI is ready
+            }, 500);
         }
     });
 });
