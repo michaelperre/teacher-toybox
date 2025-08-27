@@ -67,15 +67,18 @@ function finalizePremiumAccess() {
     // Create a full-screen splash screen
     const splash = document.createElement('div');
     // Re-use existing splash screen styles and ID for consistency
-    splash.id = 'splash-screen'; 
+    splash.id = 'splash-screen';
     splash.style.opacity = '1'; // Ensure it's visible
     splash.style.transition = 'none'; // Prevent any default fade-out
 
     splash.innerHTML = `
         <div class="premium-splash-content">
-            <div class="logo-spinner"></div>
-            <img src="ttlogo.png" alt="Teacher Toybox Logo">
-            <p><strong>Welcome to Premium!</strong><br>Your Teacher Toybox is now supercharged. Please log in again to unlock all your new tools.</p>
+            <img src="spinner.gif" alt="Loading..." class="premium-spinner-gif">
+            <img src="ttlogo.png" alt="Teacher Toybox Logo" class="premium-splash-logo">
+            <p>
+                <strong>Welcome to Premium!</strong><br>
+                Your Teacher Toybox is now supercharged. Please log in again to unlock all your new tools.
+            </p>
         </div>
     `;
     document.body.appendChild(splash);
