@@ -73,11 +73,13 @@ function finalizePremiumAccess() {
 
     splash.innerHTML = `
         <div class="premium-splash-content">
-            <img src="spinner.gif" alt="Loading..." class="premium-spinner-gif">
-            <img src="ttlogo.png" alt="Teacher Toybox Logo" class="premium-splash-logo">
+            <div class="logo-container">
+                <div class="logo-spinner"></div>
+                <img src="ttlogo.png" alt="Teacher Toybox Logo" class="premium-splash-logo">
+            </div>
             <p>
                 <strong>Welcome to Premium!</strong><br>
-                Your Teacher Toybox is now supercharged. Please log in again to unlock all your new tools.
+                <span class="splash-subtext">Your Teacher Toybox is now supercharged. Please log in again to unlock all your new tools.</span>
             </p>
         </div>
     `;
