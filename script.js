@@ -2193,6 +2193,22 @@ document.addEventListener('DOMContentLoaded', () => {
         if (upgradePanel) upgradePanel.classList.remove('open');
         $('help-bar').classList.toggle('open');
     };
+    
+    const upgradeButton = $('upgradeButton');
+
+    if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
+    if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
+    if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
+
+    if (panelUpgradeBtn) {
+        panelUpgradeBtn.onclick = async () => {
+            if (!await auth0Client.isAuthenticated()) {
+                login('upgrade');
+                return;
+            }
+            global.TT.initiateCheckout();
+        };
+    }
 
     let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout;
     const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
@@ -2260,7 +2276,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (feedbackButton) feedbackButton.onclick = openFeedbackPanel;
-    if (closeFeedbackBtn) closeFeedbackBtn.onclick = closeFeedbackPanel;
+    if (closeFeedbackBtn) closeFeedbackBtn.onclick = closeUpgradePanel;
     if (feedbackBackdrop) feedbackBackdrop.onclick = closeFeedbackPanel;
 
     stars.forEach(star => {
@@ -2642,7 +2658,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })();
 
-    // 2. New logic to check for the '?payment=success' URL parameter and trigger the status check.
+    // 2. Logic to handle the post-purchase flow.
     const params = new URLSearchParams(window.location.search);
     if (params.get('payment') === 'success') {
         // We need to wait for the Auth0 client to be ready before we check
