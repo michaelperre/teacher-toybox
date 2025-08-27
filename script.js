@@ -60,22 +60,36 @@ global.TT.initiateCheckout = async () => {
   }
 };
 
-// 1. New function to handle the post-payment experience with a splash screen and reload.
+/**
+ * Handles the post-payment experience with a splash screen, logout, and reload.
+ */
 function finalizePremiumAccess() {
     // Create a full-screen splash screen
     const splash = document.createElement('div');
-    splash.id = 'splash-screen'; // Re-use existing splash screen styles
+    // Re-use existing splash screen styles and ID for consistency
+    splash.id = 'splash-screen'; 
+    splash.style.opacity = '1'; // Ensure it's visible
+    splash.style.transition = 'none'; // Prevent any default fade-out
+
     splash.innerHTML = `
-        <div style="text-align: center;">
-            <img src="ttlogo.png" alt="Teacher Toybox Logo" style="height: 110px; width: auto; margin-bottom: 20px;">
-            <p style="color: var(--text-primary); font-size: 1.2rem;">Granting Premium Access...</p>
+        <div class="premium-splash-content">
+            <div class="logo-spinner"></div>
+            <img src="ttlogo.png" alt="Teacher Toybox Logo">
+            <p>Log on again for Premium Access</p>
         </div>
     `;
     document.body.appendChild(splash);
 
-    // Wait 5 seconds to give the webhook time to process, then reload the page.
+    // After 5 seconds, log the user out. The logout function will then reload the page.
     setTimeout(() => {
-        location.reload();
+        // The logout function is defined globally in auth.js
+        if (window.logout) {
+            window.logout();
+        } else {
+            // Fallback if the logout function isn't available
+            console.error("Logout function not found. Reloading page.");
+            location.reload();
+        }
     }, 5000); // 5-second delay
 }
 
@@ -2633,19 +2647,3 @@ document.addEventListener('DOMContentLoaded', () => {
               }
           });
       }
-    })();
-
-    // 2. New logic to check for the '?payment=success' URL parameter and trigger the status check.
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('payment') === 'success') {
-        // We need to wait for the Auth0 client to be ready before we check
-        const checkAuthReady = setInterval(() => {
-            if (typeof auth0Client !== 'undefined' && auth0Client) {
-                clearInterval(checkAuthReady);
-                checkForPremiumStatus();
-                // Clean the URL so the check doesn't run on every refresh
-                window.history.replaceState({}, document.title, "/");
-            }
-        }, 100);
-    }
-});
