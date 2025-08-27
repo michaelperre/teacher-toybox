@@ -60,30 +60,58 @@ global.TT.initiateCheckout = async () => {
   }
 };
 
-// 1. New function to prompt re-login after a successful purchase.
-function promptReloginAfterPurchase() {
-    // Create and inject the splash screen with a loading spinner.
-    const splash = document.createElement('div');
-    splash.id = 'splash-screen'; // Re-use existing splash screen styles
-    splash.innerHTML = `
-        <div class="splash-content-wrapper">
-            <div class="logo-spinner-container">
-                <img src="ttlogo.png" alt="Teacher Toybox Logo" class="splash-logo">
-                <div class="loading-spinner"></div>
-            </div>
-            <p class="splash-text">Log on again for Premium Access</p>
-        </div>
+// 1. Final, robust function to handle the post-payment experience.
+async function checkForPremiumStatus() {
+    // Create a temporary message for the user
+    const statusDiv = document.createElement('div');
+    statusDiv.textContent = 'Finalizing your premium access...';
+    statusDiv.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--accent-color, #3862C4);
+        color: white;
+        padding: 12px 24px;
+        border-radius: 8px;
+        z-index: 50000;
+        font-weight: 500;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     `;
-    document.body.appendChild(splash);
+    document.body.appendChild(statusDiv);
 
-    // After 5 seconds, log the user out (which also reloads the page).
-    setTimeout(() => {
-        if (typeof logout === 'function') {
-            logout();
-        } else {
-            location.reload(); // Fallback if logout function isn't available
+    const maxAttempts = 10;
+    let attempt = 0;
+
+    const intervalId = setInterval(async () => {
+        attempt++;
+        try {
+            // This method fetches the LATEST user information from Auth0
+            const claims = await auth0Client.getIdTokenClaims();
+            const userRoles = claims['http://teachertoybox.com/roles'] || [];
+
+            if (userRoles.includes('Premium')) {
+                clearInterval(intervalId);
+                await updateUI(); // This function from auth.js will refresh the UI
+                statusDiv.textContent = 'Welcome to Premium! ✨';
+                statusDiv.style.backgroundColor = 'var(--success-color)';
+                setTimeout(() => statusDiv.remove(), 4000);
+                return;
+            }
+        } catch (e) {
+            console.error("Error while checking for premium status:", e);
         }
-    }, 5000); // 5-second delay
+
+        if (attempt >= maxAttempts) {
+            clearInterval(intervalId);
+            statusDiv.textContent = 'There was a delay updating your account. Refreshing the page...';
+            statusDiv.style.backgroundColor = 'var(--danger-color)';
+            // Fallback: Reload the page after showing the delay message.
+            setTimeout(() => {
+                location.reload();
+            }, 3000);
+        }
+    }, 3000); // Check for the new role every 3 seconds
 }
 
 
@@ -2193,22 +2221,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (upgradePanel) upgradePanel.classList.remove('open');
         $('help-bar').classList.toggle('open');
     };
-    
-    const upgradeButton = $('upgradeButton');
-
-    if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
-    if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
-    if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
-
-    if (panelUpgradeBtn) {
-        panelUpgradeBtn.onclick = async () => {
-            if (!await auth0Client.isAuthenticated()) {
-                login('upgrade');
-                return;
-            }
-            global.TT.initiateCheckout();
-        };
-    }
 
     let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout;
     const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
@@ -2658,14 +2670,14 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })();
 
-    // 2. Logic to handle the post-purchase flow.
+    // 2. New logic to check for the '?payment=success' URL parameter and trigger the status check.
     const params = new URLSearchParams(window.location.search);
     if (params.get('payment') === 'success') {
         // We need to wait for the Auth0 client to be ready before we check
         const checkAuthReady = setInterval(() => {
             if (typeof auth0Client !== 'undefined' && auth0Client) {
                 clearInterval(checkAuthReady);
-                promptReloginAfterPurchase();
+                checkForPremiumStatus();
                 // Clean the URL so the check doesn't run on every refresh
                 window.history.replaceState({}, document.title, "/");
             }
