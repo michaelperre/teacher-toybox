@@ -2647,3 +2647,20 @@ document.addEventListener('DOMContentLoaded', () => {
               }
           });
       }
+    })();
+
+    // Check for the '?payment=success' URL parameter and trigger the status check.
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('payment') === 'success') {
+        // We need to wait for the Auth0 client to be ready before we check
+        const checkAuthReady = setInterval(() => {
+            if (typeof auth0Client !== 'undefined' && auth0Client) {
+                clearInterval(checkAuthReady);
+                // Call the splash screen and logout function
+                finalizePremiumAccess();
+                // Clean the URL so the check doesn't run on every refresh
+                window.history.replaceState({}, document.title, "/");
+            }
+        }, 100);
+    }
+});
