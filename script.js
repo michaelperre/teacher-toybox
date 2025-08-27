@@ -79,7 +79,8 @@ function finalizePremiumAccess() {
             </div>
             <p>
                 <strong>Welcome to Premium!</strong><br>
-                <span class="splash-subtext">Your Teacher Toybox is now supercharged. Please log in again to unlock all your new tools.</span>
+                <span class="splash-subtext-1">Your Teacher Toybox is now supercharged.</span><br>
+                <span class="splash-subtext-2">Please log in again to unlock all your new tools.</span>
             </p>
         </div>
     `;
