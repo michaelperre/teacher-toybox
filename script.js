@@ -60,22 +60,29 @@ global.TT.initiateCheckout = async () => {
   }
 };
 
-// 1. New function to handle the post-payment experience with a splash screen and reload.
-function finalizePremiumAccess() {
-    // Create a full-screen splash screen
+// 1. New function to prompt re-login after a successful purchase.
+function promptReloginAfterPurchase() {
+    // Create and inject the splash screen with a loading spinner.
     const splash = document.createElement('div');
     splash.id = 'splash-screen'; // Re-use existing splash screen styles
     splash.innerHTML = `
-        <div style="text-align: center;">
-            <img src="ttlogo.png" alt="Teacher Toybox Logo" style="height: 110px; width: auto; margin-bottom: 20px;">
-            <p style="color: var(--text-primary); font-size: 1.2rem;">Granting Premium Access...</p>
+        <div class="splash-content-wrapper">
+            <div class="logo-spinner-container">
+                <img src="ttlogo.png" alt="Teacher Toybox Logo" class="splash-logo">
+                <div class="loading-spinner"></div>
+            </div>
+            <p class="splash-text">Log on again for Premium Access</p>
         </div>
     `;
     document.body.appendChild(splash);
 
-    // Wait 5 seconds to give the webhook time to process, then reload the page.
+    // After 5 seconds, log the user out (which also reloads the page).
     setTimeout(() => {
-        location.reload();
+        if (typeof logout === 'function') {
+            logout();
+        } else {
+            location.reload(); // Fallback if logout function isn't available
+        }
     }, 5000); // 5-second delay
 }
 
@@ -2642,7 +2649,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const checkAuthReady = setInterval(() => {
             if (typeof auth0Client !== 'undefined' && auth0Client) {
                 clearInterval(checkAuthReady);
-                checkForPremiumStatus();
+                promptReloginAfterPurchase();
                 // Clean the URL so the check doesn't run on every refresh
                 window.history.replaceState({}, document.title, "/");
             }
