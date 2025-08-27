@@ -75,7 +75,7 @@ function finalizePremiumAccess() {
         <div class="premium-splash-content">
             <div class="logo-spinner"></div>
             <img src="ttlogo.png" alt="Teacher Toybox Logo">
-            <p>Log on again for Premium Access</p>
+            <p><strong>Welcome to Premium!</strong><br>Your Teacher Toybox is now supercharged. Please log in again to unlock all your new tools.</p>
         </div>
     `;
     document.body.appendChild(splash);
