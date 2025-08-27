@@ -22,7 +22,10 @@ const handleRedirectCallback = async () => {
     const { appState } = await auth0Client.handleRedirectCallback();
     window.history.replaceState({}, document.title, "/");
     
+    // **THE FIX**: If the user's goal was to upgrade,
+    // call the checkout function directly now that they are logged in.
     if (appState && appState.target === 'upgrade') {
+      // We use a short timeout to ensure the rest of the app has initialized.
       setTimeout(() => {
         if (window.TT && typeof window.TT.initiateCheckout === 'function') {
           window.TT.initiateCheckout();
@@ -45,37 +48,38 @@ const updateUI = async () => {
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
 
-  // This check prevents errors if the elements don't exist yet.
-  if (!authButton || !userProfileElement) {
-      return;
-  }
-
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
   document.body.classList.remove('is-premium');
   
-  if (isAuthenticated) {
-    authButton.title = "Log Out";
-    authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
-    authButton.classList.add('logout-btn');
-    
-    const user = await auth0Client.getUser();
-    if (user) {
-        userProfileElement.innerHTML = `<img src="${user.picture}" alt="${user.name}" style="width: 40px; height: 40px; border-radius: 50%;">`;
-        userProfileElement.style.display = 'flex';
-    }
+  if (authButton) {
+    if (isAuthenticated) {
+      // --- Logged In State ---
+      authButton.title = "Log Out";
+      authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
+      authButton.classList.add('logout-btn');
+      
+      const user = await auth0Client.getUser();
+      if (user && userProfileElement) {
+          userProfileElement.innerHTML = `<img src="${user.picture}" alt="${user.name}" style="width: 40px; height: 40px; border-radius: 50%;">`;
+          userProfileElement.style.display = 'flex';
+      }
 
-    const claims = await auth0Client.getIdTokenClaims();
-    const userRoles = claims['http://teachertoybox.com/roles'] || [];
-    if (userRoles.includes('Premium')) {
-        window.TT.isPremium = true;
-        document.body.classList.add('is-premium');
+      const claims = await auth0Client.getIdTokenClaims();
+      const userRoles = claims['http://teachertoybox.com/roles'] || [];
+      if (userRoles.includes('Premium')) {
+          window.TT.isPremium = true;
+          document.body.classList.add('is-premium');
+      }
+
+    } else {
+      // --- Logged Out State ---
+      authButton.title = "Log In / Sign Up";
+      authButton.innerHTML = `<i class="fas fa-sign-in-alt"></i>`;
+      authButton.classList.remove('logout-btn');
+      
+      if (userProfileElement) userProfileElement.style.display = 'none';
     }
-  } else {
-    authButton.title = "Log In / Sign Up";
-    authButton.innerHTML = `<i class="fas fa-sign-in-alt"></i>`;
-    authButton.classList.remove('logout-btn');
-    userProfileElement.style.display = 'none';
   }
 };
 
@@ -94,5 +98,5 @@ window.logout = () => {
   });
 };
 
-// CORRECTED: Initialize Auth0 after the main document is fully loaded.
-document.addEventListener('DOMContentLoaded', initializeAuth);
+// Initialize Auth0 when the page loads
+window.addEventListener('load', initializeAuth);
