@@ -40,6 +40,10 @@ const initializeAuth = async () => {
   await configureClient();
   await handleRedirectCallback();
   await updateUI();
+  // Initialize the rest of the UI buttons after auth is ready
+  if (window.initializeUI) {
+    window.initializeUI();
+  }
 };
 
 // 4. Update UI based on authentication state
@@ -47,6 +51,20 @@ const updateUI = async () => {
   const isAuthenticated = await auth0Client.isAuthenticated();
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
+
+  // --- FIX: Add the event listener for the auth button ---
+  if (authButton && !authButton.dataset.listenerAttached) {
+    authButton.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const isAuthenticatedOnClick = await auth0Client.isAuthenticated();
+      if (isAuthenticatedOnClick) {
+        logout();
+      } else {
+        login();
+      }
+    });
+    authButton.dataset.listenerAttached = 'true'; // Prevents adding multiple listeners
+  }
 
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;

@@ -101,8 +101,8 @@ function finalizePremiumAccess() {
     }, 5000); // 5-second delay
 }
 
-
-document.addEventListener('DOMContentLoaded', () => {
+// --- FIX: Wrap UI initialization in a function to be called by auth.js ---
+window.initializeUI = function() {
     // --- Splash Screen ---
     const _splash = document.getElementById('splash-screen');
     if (_splash) {
@@ -2671,4 +2671,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }, 100);
     }
-});
+};
