@@ -33,8 +33,9 @@ global.TT.initiateCheckout = async () => {
     
     console.log("Attempting to start checkout for user:", user);
     
-    if (!user || !user.sub) {
-      console.error("Could not identify user before checkout. Aborting.");
+    // --- CHANGE: Added a check for user.email ---
+    if (!user || !user.sub || !user.email) {
+      console.error("Could not identify user or user email before checkout. Aborting.");
       alert("Could not identify user. Please try logging in again.");
       return;
     }
@@ -45,7 +46,8 @@ global.TT.initiateCheckout = async () => {
     const response = await fetch('/api/create-checkout-session', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ userId: user.sub, priceId: priceId }),
+      // --- CHANGE: Added userEmail to the request body ---
+      body: JSON.stringify({ userId: user.sub, priceId: priceId, userEmail: user.email }),
     });
 
     if (!response.ok) {
@@ -2670,3 +2672,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 100);
     }
 });
+              
