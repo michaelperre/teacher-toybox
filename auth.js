@@ -22,10 +22,7 @@ const handleRedirectCallback = async () => {
     const { appState } = await auth0Client.handleRedirectCallback();
     window.history.replaceState({}, document.title, "/");
     
-    // **THE FIX**: If the user's goal was to upgrade,
-    // call the checkout function directly now that they are logged in.
     if (appState && appState.target === 'upgrade') {
-      // We use a short timeout to ensure the rest of the app has initialized.
       setTimeout(() => {
         if (window.TT && typeof window.TT.initiateCheckout === 'function') {
           window.TT.initiateCheckout();
