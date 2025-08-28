@@ -386,12 +386,3 @@
     -->
 </body>
 </html>
-```
-
-I have updated your `index.html` file. The key change is adding the `defer` attribute to all of your local `<script>` tags at the end of the `<head>` section.
-
-The `defer` attribute tells the browser to download the scripts but wait to execute them until after the main HTML document has been fully parsed. Crucially, it also **guarantees that the scripts will execute in the order they appear in the HTML**.
-
-This ensures that by the time `script.js` runs, all the functions and variables from `i18n.js` and `auth.js` are available, which should resolve the "Cannot find module" error.
-
-Please update your `index.html` file with this new code, redeploy your Vercel project, and try the test purchase one more ti
