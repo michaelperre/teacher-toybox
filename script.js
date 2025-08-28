@@ -25,12 +25,12 @@ global.TT.updateDateDisplay = function(lang) {
     dateDisplay.textContent = formatter.format(today);
 };
 
+// Updated to send user's email to the backend
 global.TT.initiateCheckout = async () => {
   try {
     const user = await auth0Client.getUser();
     
-    console.log("Attempting to start checkout for user:", user);
-    
+    // Ensure the user object and email exist
     if (!user || !user.sub || !user.email) {
       console.error("Could not identify user or user email before checkout. Aborting.");
       alert("Could not identify user. Please try logging in again.");
@@ -43,7 +43,8 @@ global.TT.initiateCheckout = async () => {
     const response = await fetch('/api/create-checkout-session', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ userId: user.sub, priceId: priceId, userEmail: user.email }),
+      // *** Add the user's email to the body of the request ***
+      body: JSON.stringify({ userId: user.sub, userEmail: user.email, priceId: priceId }),
     });
 
     if (!response.ok) {
@@ -62,10 +63,12 @@ global.TT.initiateCheckout = async () => {
  * Handles the post-payment experience with a splash screen, logout, and reload.
  */
 function finalizePremiumAccess() {
+    // Create a full-screen splash screen
     const splash = document.createElement('div');
+    // Re-use existing splash screen styles and ID for consistency
     splash.id = 'splash-screen';
-    splash.style.opacity = '1';
-    splash.style.transition = 'none';
+    splash.style.opacity = '1'; // Ensure it's visible
+    splash.style.transition = 'none'; // Prevent any default fade-out
 
     splash.innerHTML = `
         <div class="premium-splash-content">
@@ -82,18 +85,22 @@ function finalizePremiumAccess() {
     `;
     document.body.appendChild(splash);
 
+    // After 5 seconds, log the user out. The logout function will then reload the page.
     setTimeout(() => {
+        // The logout function is defined globally in auth.js
         if (window.logout) {
             window.logout();
         } else {
+            // Fallback if the logout function isn't available
             console.error("Logout function not found. Reloading page.");
             location.reload();
         }
-    }, 5000);
+    }, 5000); // 5-second delay
 }
 
-// --- FIX: Wrap UI initialization in a function to be called by auth.js ---
-window.initializeUI = function() {
+
+document.addEventListener('DOMContentLoaded', () => {
+    // --- Splash Screen ---
     const _splash = document.getElementById('splash-screen');
     if (_splash) {
         setTimeout(() => {
@@ -101,6 +108,7 @@ window.initializeUI = function() {
             setTimeout(() => _splash.remove(), 500);
         }, 1000);
     }
+    // --- End Splash Screen ---
 
     const $ = id => document.getElementById(id);
 
@@ -2264,7 +2272,7 @@ window.initializeUI = function() {
     }
 
     if (feedbackButton) feedbackButton.onclick = openFeedbackPanel;
-    if (closeFeedbackBtn) closeFeedbackBtn.onclick = closeUpgradePanel;
+    if (closeFeedbackBtn) closeFeedbackBtn.onclick = closeFeedbackPanel;
     if (feedbackBackdrop) feedbackBackdrop.onclick = closeFeedbackPanel;
 
     stars.forEach(star => {
@@ -2660,6 +2668,4 @@ window.initializeUI = function() {
             }
         }, 100);
     }
-};
-
-
+});
