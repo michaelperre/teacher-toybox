@@ -124,11 +124,10 @@
           white-space: nowrap;
         }
       </style>
-    <!-- DEFER attributes added to ensure scripts load in order before executing -->
     <script src="numbered-list.js" defer></script>
     <script src="info-text.js" defer></script>
     <script src="i18n.js" defer></script>
-    <script src="auth.js" defer></script>
+    <script src="auth.js"></script>
     <script src="script.js" defer></script>
     <script src="tour.js" defer></script>
 </head>
@@ -361,28 +360,5 @@
         </div>
     </div>
 
-    <!-- This script has been removed as it was moved to auth.js -->
-    <!--
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const authButton = document.getElementById('authButton');
-
-        if (authButton) {
-          authButton.addEventListener('click', async (e) => {
-            e.preventDefault();
-            
-            if (typeof auth0Client !== 'undefined' && auth0Client) {
-              const isAuthenticated = await auth0Client.isAuthenticated();
-              if (isAuthenticated) {
-                logout(); // If logged in, log out
-              } else {
-                login(); // If not logged in, log in
-              }
-            }
-          });
-        }
-      });
-    </script>
-    -->
 </body>
 </html>
