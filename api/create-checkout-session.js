@@ -1,26 +1,39 @@
-// Import the official Stripe library.
+// api/create-checkout-session.js
+
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 export default async function handler(req, res) {
-  // Only allow POST requests.
   if (req.method !== 'POST') {
-    res.setHeader('Allow', 'POST');
     return res.status(405).end('Method Not Allowed');
   }
 
-  const { userId, priceId } = req.body;
-
-  // Basic validation to ensure we have the necessary data.
-  if (!userId || !priceId) {
-    return res.status(400).json({ error: 'Missing required parameters: userId and priceId' });
-  }
-
   try {
-    // Get the base URL from the request headers.
-    const origin = req.headers.origin || 'https://www.teachertoybox.com';
+    const { userId, userEmail, priceId } = req.body;
 
-    // Create a Checkout Session with Stripe.
+    let customer;
+    const customerList = await stripe.customers.list({ email: userEmail, limit: 1 });
+
+    if (customerList.data.length > 0) {
+      customer = customerList.data[0];
+      // FIX: Update the existing customer with the Auth0 user ID if it's missing.
+      if (!customer.metadata || !customer.metadata.auth0_user_id) {
+        customer = await stripe.customers.update(customer.id, {
+          metadata: { auth0_user_id: userId },
+        });
+      }
+    } else {
+      // This part is correct: it creates a new customer with the metadata.
+      customer = await stripe.customers.create({
+        email: userEmail,
+        metadata: {
+          auth0_user_id: userId,
+        },
+      }); //
+    }
+
+    // Create a Checkout Session for the customer
     const session = await stripe.checkout.sessions.create({
+      customer: customer.id,
       payment_method_types: ['card'],
       line_items: [
         {
@@ -28,21 +41,15 @@ export default async function handler(req, res) {
           quantity: 1,
         },
       ],
-      mode: 'subscription',
-      // Define the URLs Stripe will redirect to on success or cancellation.
-      success_url: `${origin}/?payment=success`,
-      cancel_url: `${origin}/?payment=cancelled`,
-      
-      // **THE IMPORTANT FIX**: Pass the Auth0 user ID to Stripe.
-      // This links the Stripe payment directly to the user in your system.
-      client_reference_id: userId,
+      mode: 'subscription', //
+      success_url: `${req.headers.origin}/?payment=success`, //
+      cancel_url: `${req.headers.origin}/`, //
     });
 
-    // Return the session ID to the front-end.
     res.status(200).json({ sessionId: session.id });
 
-  } catch (err) {
-    console.error('Stripe API Error:', err.message);
-    res.status(err.statusCode || 500).json({ error: err.message });
+  } catch (error) {
+    console.error("Error creating Stripe checkout session:", error);
+    res.status(500).json({ error: { message: error.message } });
   }
 }
