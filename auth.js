@@ -9,6 +9,7 @@ const configureClient = async () => {
     authorizationParams: {
       redirect_uri: window.location.origin
     },
+    // These settings create a more durable login session
     useRefreshTokens: true,
     cacheLocation: 'localstorage'
   });
@@ -80,6 +81,18 @@ const updateUI = async () => {
       
       if (userProfileElement) userProfileElement.style.display = 'none';
     }
+
+    // Enable the button and add the final click listener now that everything is loaded.
+    authButton.disabled = false;
+    authButton.addEventListener('click', async (e) => {
+        e.preventDefault();
+        const authed = await auth0Client.isAuthenticated();
+        if (authed) {
+            logout();
+        } else {
+            login();
+        }
+    });
   }
 };
 
@@ -98,8 +111,9 @@ window.logout = () => {
   });
 };
 
-// **THE FIX**: Defer the UI update until the DOM is fully loaded.
+// **THE FIX**: Defer initialization and UI updates until the DOM is fully loaded.
 window.addEventListener('DOMContentLoaded', async () => {
     await initializeAuth();
     await updateUI();
 });
+
