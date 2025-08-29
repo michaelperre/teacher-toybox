@@ -10,22 +10,28 @@ export default async function handler(req, res) {
   try {
     const { userId, userEmail, priceId } = req.body;
 
-    // 1. Find an existing Stripe customer by email or create a new one.
     let customer;
     const customerList = await stripe.customers.list({ email: userEmail, limit: 1 });
 
     if (customerList.data.length > 0) {
       customer = customerList.data[0];
+      // FIX: Update the existing customer with the Auth0 user ID if it's missing.
+      if (!customer.metadata || !customer.metadata.auth0_user_id) {
+        customer = await stripe.customers.update(customer.id, {
+          metadata: { auth0_user_id: userId },
+        });
+      }
     } else {
+      // This part is correct: it creates a new customer with the metadata.
       customer = await stripe.customers.create({
         email: userEmail,
         metadata: {
           auth0_user_id: userId,
         },
-      });
+      }); //
     }
 
-    // 2. Create a Checkout Session for the customer
+    // Create a Checkout Session for the customer
     const session = await stripe.checkout.sessions.create({
       customer: customer.id,
       payment_method_types: ['card'],
@@ -35,9 +41,9 @@ export default async function handler(req, res) {
           quantity: 1,
         },
       ],
-      mode: 'subscription',
-      success_url: `${req.headers.origin}/?payment=success`,
-      cancel_url: `${req.headers.origin}/`,
+      mode: 'subscription', //
+      success_url: `${req.headers.origin}/?payment=success`, //
+      cancel_url: `${req.headers.origin}/`, //
     });
 
     res.status(200).json({ sessionId: session.id });
