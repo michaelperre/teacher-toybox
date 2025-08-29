@@ -22,7 +22,10 @@ const handleRedirectCallback = async () => {
     const { appState } = await auth0Client.handleRedirectCallback();
     window.history.replaceState({}, document.title, "/");
     
+    // **THE FIX**: If the user's goal was to upgrade,
+    // call the checkout function directly now that they are logged in.
     if (appState && appState.target === 'upgrade') {
+      // We use a short timeout to ensure the rest of the app has initialized.
       setTimeout(() => {
         if (window.TT && typeof window.TT.initiateCheckout === 'function') {
           window.TT.initiateCheckout();
@@ -36,19 +39,15 @@ const handleRedirectCallback = async () => {
 const initializeAuth = async () => {
   await configureClient();
   await handleRedirectCallback();
-  // We will now call updateUI after the DOM is loaded.
+  await updateUI();
 };
 
 // 4. Update UI based on authentication state
 const updateUI = async () => {
-  if (!auth0Client) return; // Add a guard clause
-
   const isAuthenticated = await auth0Client.isAuthenticated();
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
 
-  // Ensure the global TT object exists before trying to modify it.
-  window.TT = window.TT || {};
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
   document.body.classList.remove('is-premium');
@@ -81,18 +80,6 @@ const updateUI = async () => {
       
       if (userProfileElement) userProfileElement.style.display = 'none';
     }
-
-    // Enable the button and add the final click listener now that everything is loaded.
-    authButton.disabled = false;
-    authButton.addEventListener('click', async (e) => {
-        e.preventDefault();
-        const authed = await auth0Client.isAuthenticated();
-        if (authed) {
-            logout();
-        } else {
-            login();
-        }
-    });
   }
 };
 
@@ -111,9 +98,5 @@ window.logout = () => {
   });
 };
 
-// **THE FIX**: Defer initialization and UI updates until the DOM is fully loaded.
-window.addEventListener('DOMContentLoaded', async () => {
-    await initializeAuth();
-    await updateUI();
-});
-
+// Initialize Auth0 when the page loads
+window.addEventListener('load', initializeAuth);
