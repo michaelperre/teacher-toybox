@@ -25,12 +25,11 @@ global.TT.updateDateDisplay = function(lang) {
     dateDisplay.textContent = formatter.format(today);
 };
 
-// Updated to send user's email to the backend
+// Updated to send user's email to the backend and use the TEST key
 global.TT.initiateCheckout = async () => {
   try {
     const user = await auth0Client.getUser();
     
-    // Ensure the user object and email exist
     if (!user || !user.sub || !user.email) {
       console.error("Could not identify user or user email before checkout. Aborting.");
       alert("Could not identify user. Please try logging in again.");
@@ -38,12 +37,11 @@ global.TT.initiateCheckout = async () => {
     }
 
     const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
-    const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H';
+    const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H'; 
 
     const response = await fetch('/api/create-checkout-session', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      // *** Add the user's email to the body of the request ***
       body: JSON.stringify({ userId: user.sub, userEmail: user.email, priceId: priceId }),
     });
 
