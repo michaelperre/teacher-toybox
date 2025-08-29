@@ -9,7 +9,6 @@ const configureClient = async () => {
     authorizationParams: {
       redirect_uri: window.location.origin
     },
-    // These settings create a more durable login session
     useRefreshTokens: true,
     cacheLocation: 'localstorage'
   });
@@ -36,33 +35,19 @@ const handleRedirectCallback = async () => {
 const initializeAuth = async () => {
   await configureClient();
   await handleRedirectCallback();
-  await updateUI();
-  // Initialize the rest of the UI buttons after auth is ready
-  if (window.initializeUI) {
-    window.initializeUI();
-  }
+  // We will now call updateUI after the DOM is loaded.
 };
 
 // 4. Update UI based on authentication state
 const updateUI = async () => {
+  if (!auth0Client) return; // Add a guard clause
+
   const isAuthenticated = await auth0Client.isAuthenticated();
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
 
-  // --- FIX: Add the event listener for the auth button ---
-  if (authButton && !authButton.dataset.listenerAttached) {
-    authButton.addEventListener('click', async (e) => {
-      e.preventDefault();
-      const isAuthenticatedOnClick = await auth0Client.isAuthenticated();
-      if (isAuthenticatedOnClick) {
-        logout();
-      } else {
-        login();
-      }
-    });
-    authButton.dataset.listenerAttached = 'true'; // Prevents adding multiple listeners
-  }
-
+  // Ensure the global TT object exists before trying to modify it.
+  window.TT = window.TT || {};
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
   document.body.classList.remove('is-premium');
@@ -113,5 +98,8 @@ window.logout = () => {
   });
 };
 
-// Initialize Auth0 when the page loads
-window.addEventListener('load', initializeAuth);
+// **THE FIX**: Defer the UI update until the DOM is fully loaded.
+window.addEventListener('DOMContentLoaded', async () => {
+    await initializeAuth();
+    await updateUI();
+});
