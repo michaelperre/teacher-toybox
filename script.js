@@ -25,14 +25,16 @@ global.TT.updateDateDisplay = function(lang) {
     dateDisplay.textContent = formatter.format(today);
 };
 
-// Updated to send user's email to the backend
+// **THE FIX**: Move the checkout function to the global scope
+// so it can be called directly by auth.js after a login redirect.
 global.TT.initiateCheckout = async () => {
   try {
     const user = await auth0Client.getUser();
     
-    // Ensure the user object and email exist
-    if (!user || !user.sub || !user.email) {
-      console.error("Could not identify user or user email before checkout. Aborting.");
+    console.log("Attempting to start checkout for user:", user);
+    
+    if (!user || !user.sub) {
+      console.error("Could not identify user before checkout. Aborting.");
       alert("Could not identify user. Please try logging in again.");
       return;
     }
@@ -43,8 +45,7 @@ global.TT.initiateCheckout = async () => {
     const response = await fetch('/api/create-checkout-session', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      // *** Add the user's email to the body of the request ***
-      body: JSON.stringify({ userId: user.sub, userEmail: user.email, priceId: priceId }),
+      body: JSON.stringify({ userId: user.sub, priceId: priceId }),
     });
 
     if (!response.ok) {
@@ -2669,4 +2670,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 100);
     }
 });
-

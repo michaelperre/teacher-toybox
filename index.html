@@ -155,7 +155,7 @@
             </div>
             
             <div id="userProfile" class="btn" style="display: none;"></div>
-            <button class="btn" id="authButton" disabled></button>
+            <button class="btn" id="authButton"></button>
 
             <button class="btn" data-i18n-title="btn.add" id="addButton" title="Add New Window (N)">
                 <i class="fas fa-plus"></i><span class="hotkey-label">N</span>
@@ -360,6 +360,25 @@
         </div>
     </div>
 
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const authButton = document.getElementById('authButton');
+
+        if (authButton) {
+          authButton.addEventListener('click', async (e) => {
+            e.preventDefault();
+            
+            if (typeof auth0Client !== 'undefined' && auth0Client) {
+              const isAuthenticated = await auth0Client.isAuthenticated();
+              if (isAuthenticated) {
+                logout(); // If logged in, log out
+              } else {
+                login(); // If not logged in, log in
+              }
+            }
+          });
+        }
+      });
+    </script>
 </body>
 </html>
-
