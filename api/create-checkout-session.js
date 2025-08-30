@@ -8,11 +8,11 @@ export default async function handler(req, res) {
     return res.status(405).end('Method Not Allowed');
   }
 
-  const { userId, priceId } = req.body;
+  const { userId, priceId, userEmail } = req.body; // Added userEmail
 
   // Basic validation to ensure we have the necessary data.
-  if (!userId || !priceId) {
-    return res.status(400).json({ error: 'Missing required parameters: userId and priceId' });
+  if (!userId || !priceId || !userEmail) { // Added userEmail check
+    return res.status(400).json({ error: 'Missing required parameters: userId, priceId, and userEmail' });
   }
 
   try {
@@ -33,9 +33,12 @@ export default async function handler(req, res) {
       success_url: `${origin}/?payment=success`,
       cancel_url: `${origin}/?payment=cancelled`,
       
-      // **THE IMPORTANT FIX**: Pass the Auth0 user ID to Stripe.
-      // This links the Stripe payment directly to the user in your system.
+      // Pass the Auth0 user ID to Stripe.
       client_reference_id: userId,
+      
+      // **THE FIX**: Pass the customer's email directly to the session.
+      // This ensures Stripe has the email to create an invoice and send a receipt.
+      customer_email: userEmail,
     });
 
     // Return the session ID to the front-end.
