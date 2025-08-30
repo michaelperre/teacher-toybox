@@ -39,8 +39,13 @@ global.TT.initiateCheckout = async () => {
       return;
     }
 
-    const stripe = Stripe('pk_test_51RyVoHFCA6YfGQJzFm3oeF9OGT8LT1o2VUwnQD3BPSrfkUapcismCuuMhptJE6V9a9nQbjSCgPds1rifeYvFF6Dt004agFWnlW');
-    const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H';
+    // THIS IS THE KEY CHANGE:
+    // It now uses the Vercel environment variable for the Stripe Publishable Key.
+    // Make sure NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY is set in your Vercel project settings.
+    const stripe = Stripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
+    
+    // IMPORTANT: Make sure this is your LIVE Price ID from your Stripe Dashboard.
+    const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H'; 
 
     const response = await fetch('/api/create-checkout-session', {
       method: 'POST',
@@ -2609,7 +2614,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (btn) btn.classList.remove('active');
       }
     
-      function openDemoModal() {
+function openDemoModal() {
         if (demoOpen) return;
         demoOpen = true;
     
