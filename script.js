@@ -25,13 +25,10 @@ global.TT.updateDateDisplay = function(lang) {
     dateDisplay.textContent = formatter.format(today);
 };
 
-// **THE FIX**: Move the checkout function to the global scope
-// so it can be called directly by auth.js after a login redirect.
+// This function handles the checkout process using your Stripe LIVE keys.
 global.TT.initiateCheckout = async () => {
   try {
     const user = await auth0Client.getUser();
-    
-    console.log("Attempting to start checkout for user:", user);
     
     if (!user || !user.sub) {
       console.error("Could not identify user before checkout. Aborting.");
@@ -39,12 +36,11 @@ global.TT.initiateCheckout = async () => {
       return;
     }
 
-    // THIS IS THE KEY CHANGE:
-    // It now uses the provided Stripe Publishable Key directly.
+    // Your Stripe LIVE Publishable Key.
     const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF');
     
-    // IMPORTANT: Make sure this is your LIVE Price ID from your Stripe Dashboard.
-    const priceId = 'price_1S0JICFCA6YfGQJzeSfXrx8H'; 
+    // Your Stripe LIVE Price ID.
+    const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo'; 
 
     const response = await fetch('/api/create-checkout-session', {
       method: 'POST',
@@ -68,12 +64,10 @@ global.TT.initiateCheckout = async () => {
  * Handles the post-payment experience with a splash screen, logout, and reload.
  */
 function finalizePremiumAccess() {
-    // Create a full-screen splash screen
     const splash = document.createElement('div');
-    // Re-use existing splash screen styles and ID for consistency
     splash.id = 'splash-screen';
-    splash.style.opacity = '1'; // Ensure it's visible
-    splash.style.transition = 'none'; // Prevent any default fade-out
+    splash.style.opacity = '1';
+    splash.style.transition = 'none';
 
     splash.innerHTML = `
         <div class="premium-splash-content">
@@ -90,17 +84,13 @@ function finalizePremiumAccess() {
     `;
     document.body.appendChild(splash);
 
-    // After 5 seconds, log the user out. The logout function will then reload the page.
     setTimeout(() => {
-        // The logout function is defined globally in auth.js
         if (window.logout) {
             window.logout();
         } else {
-            // Fallback if the logout function isn't available
-            console.error("Logout function not found. Reloading page.");
             location.reload();
         }
-    }, 5000); // 5-second delay
+    }, 5000);
 }
 
 
@@ -143,12 +133,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (panelUpgradeBtn) {
         panelUpgradeBtn.onclick = async () => {
-            // First, check if the user is already logged in
             if (window.TT && window.TT.isAuthenticated) {
-                // If yes, go directly to checkout
                 window.TT.initiateCheckout();
             } else {
-                // If no, start the login process
                 login('upgrade');
             }
         };
@@ -2706,5 +2693,3 @@ function openDemoModal() {
         }, 100);
     }
 });
-
-
