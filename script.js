@@ -142,8 +142,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
     if (panelUpgradeBtn) {
-        panelUpgradeBtn.onclick = () => {
-            login('upgrade'); 
+        panelUpgradeBtn.onclick = async () => {
+            // First, check if the user is already logged in
+            if (window.TT && window.TT.isAuthenticated) {
+                // If yes, go directly to checkout
+                window.TT.initiateCheckout();
+            } else {
+                // If no, start the login process
+                login('upgrade');
+            }
         };
     }
 
@@ -2699,3 +2706,5 @@ function openDemoModal() {
         }, 100);
     }
 });
+
+
