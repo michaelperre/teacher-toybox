@@ -2318,6 +2318,29 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
+    const policyButton = $('policyButton');
+    const policyPanel = $('policy-panel');
+    const policyBackdrop = $('policy-backdrop');
+    const closePolicyBtn = $('close-policy-btn');
+
+    function openPolicyPanel() {
+        if(policyBackdrop && policyPanel) {
+            policyBackdrop.classList.remove('hidden');
+            policyPanel.classList.add('open');
+        }
+    }
+
+    function closePolicyPanel() {
+        if(policyPanel && policyBackdrop) {
+            policyPanel.classList.remove('open');
+            policyBackdrop.classList.add('hidden');
+        }
+    }
+
+    if (policyButton) policyButton.onclick = openPolicyPanel;
+    if (closePolicyBtn) closePolicyBtn.onclick = closePolicyPanel;
+    if (policyBackdrop) policyBackdrop.onclick = closePolicyPanel;
+
 
     document.addEventListener('keydown', e => {
         const activeWin = document.querySelector('.floating.active-window');
@@ -2553,8 +2576,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const isClickInsideSidebar = e.target.closest('#sidebar-main-controls');
         const isClickInsideFeedbackPanel = e.target.closest('#feedback-panel');
         const isClickInsideUpgradePanel = e.target.closest('#upgrade-panel');
+        const isClickInsidePolicyPanel = e.target.closest('#policy-panel');
 
-        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel) {
+        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel && !isClickInsidePolicyPanel) {
             if($('layout-bar')) $('layout-bar').classList.remove('open');
             if($('management-bar')) $('management-bar').classList.remove('open');
             if($('extra-tools-bar')) $('extra-tools-bar').classList.remove('open');
@@ -2562,6 +2586,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             closeUpgradePanel();
             closeFeedbackPanel();
+            closePolicyPanel();
             
             document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
                 if (p) p.classList.add('hidden');
