@@ -47,6 +47,7 @@ const updateUI = async () => {
   const isAuthenticated = await auth0Client.isAuthenticated();
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
+  const forgotPasswordLink = document.getElementById("forgot-password-link"); // Get the new link
 
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
@@ -71,6 +72,8 @@ const updateUI = async () => {
           window.TT.isPremium = true;
           document.body.classList.add('is-premium');
       }
+      
+      if (forgotPasswordLink) forgotPasswordLink.style.display = 'none'; // Hide when logged in
 
     } else {
       // --- Logged Out State ---
@@ -79,6 +82,7 @@ const updateUI = async () => {
       authButton.classList.remove('logout-btn');
       
       if (userProfileElement) userProfileElement.style.display = 'none';
+      if (forgotPasswordLink) forgotPasswordLink.style.display = 'block'; // Show when logged out
     }
   }
 };
@@ -97,6 +101,26 @@ window.logout = () => {
     }
   });
 };
+
+// 6. Forgot Password Function
+window.forgotPassword = async () => {
+  const email = prompt("Please enter the email address for your account:");
+
+  if (email) {
+    try {
+      const resetUrl = new URL(`https://teachertoybox.uk.auth0.com/dbconnections/change_password`);
+      resetUrl.searchParams.set('client_id', 'olhwjFTXOIx1mxJB2cn2BHVb1Vny1jZa');
+      resetUrl.searchParams.set('email', email);
+      resetUrl.searchParams.set('connection', 'Username-Password-Authentication');
+      
+      window.location.assign(resetUrl);
+    } catch (e) {
+      console.error(e);
+      alert("Error redirecting to the password reset page.");
+    }
+  }
+};
+
 
 // Initialize Auth0 when the page loads
 window.addEventListener('load', initializeAuth);
