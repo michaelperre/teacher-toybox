@@ -4,7 +4,7 @@ let auth0Client = null;
 // 1. Configure the Auth0 Client
 const configureClient = async () => {
   auth0Client = await auth0.createAuth0Client({
-    domain: "!!! REPLACE THIS WITH YOUR REAL AUTH0 DOMAIN !!!", // <-- You MUST replace this placeholder
+    domain: "teachertoybox.uk.auth0.com", // <-- This has been corrected
     clientId: "olhwjFTXOIx1mxJB2cn2BHVb1Vny1jZa",
     authorizationParams: {
       redirect_uri: window.location.origin
