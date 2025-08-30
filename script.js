@@ -30,8 +30,8 @@ global.TT.initiateCheckout = async () => {
   try {
     const user = await auth0Client.getUser();
     
-    if (!user || !user.sub) {
-      console.error("Could not identify user before checkout. Aborting.");
+    if (!user || !user.sub || !user.email) {
+      console.error("Could not identify user or user email before checkout. Aborting.");
       alert("Could not identify user. Please try logging in again.");
       return;
     }
@@ -45,7 +45,7 @@ global.TT.initiateCheckout = async () => {
     const response = await fetch('/api/create-checkout-session', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ userId: user.sub, priceId: priceId }),
+      body: JSON.stringify({ userId: user.sub, priceId: priceId, userEmail: user.email }), // Send the user's email
     });
 
     if (!response.ok) {
@@ -64,10 +64,12 @@ global.TT.initiateCheckout = async () => {
  * Handles the post-payment experience with a splash screen, logout, and reload.
  */
 function finalizePremiumAccess() {
+    // Create a full-screen splash screen
     const splash = document.createElement('div');
+    // Re-use existing splash screen styles and ID for consistency
     splash.id = 'splash-screen';
-    splash.style.opacity = '1';
-    splash.style.transition = 'none';
+    splash.style.opacity = '1'; // Ensure it's visible
+    splash.style.transition = 'none'; // Prevent any default fade-out
 
     splash.innerHTML = `
         <div class="premium-splash-content">
@@ -84,13 +86,17 @@ function finalizePremiumAccess() {
     `;
     document.body.appendChild(splash);
 
+    // After 5 seconds, log the user out. The logout function will then reload the page.
     setTimeout(() => {
+        // The logout function is defined globally in auth.js
         if (window.logout) {
             window.logout();
         } else {
+            // Fallback if the logout function isn't available
+            console.error("Logout function not found. Reloading page.");
             location.reload();
         }
-    }, 5000);
+    }, 5000); // 5-second delay
 }
 
 
@@ -133,9 +139,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (panelUpgradeBtn) {
         panelUpgradeBtn.onclick = async () => {
+            // First, check if the user is already logged in
             if (window.TT && window.TT.isAuthenticated) {
+                // If yes, go directly to checkout
                 window.TT.initiateCheckout();
             } else {
+                // If no, start the login process
                 login('upgrade');
             }
         };
@@ -2693,3 +2702,4 @@ function openDemoModal() {
         }, 100);
     }
 });
+
