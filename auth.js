@@ -4,7 +4,7 @@ let auth0Client = null;
 // 1. Configure the Auth0 Client
 const configureClient = async () => {
   auth0Client = await auth0.createAuth0Client({
-    domain: "YOUR_ACTUAL_AUTH0_DOMAIN", // <-- Replace this with your domain from the Auth0 dashboard
+    domain: "YOUR_AUTH0_DOMAIN_FROM_DASHBOARD", // <-- Replace this with your actual Auth0 domain
     clientId: "olhwjFTXOIx1mxJB2cn2BHVb1Vny1jZa",
     authorizationParams: {
       redirect_uri: window.location.origin
@@ -97,3 +97,4 @@ window.logout = () => {
 
 // Initialize Auth0 when the page loads
 window.addEventListener('load', initializeAuth);
+
