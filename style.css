@@ -1886,3 +1886,50 @@ body.is-premium #upgradeButton {
 .splash-subtext {
     font-size: 1.2rem;
 }
+
+/* --- Resize Handles --- */
+.floating.active-window::before,
+.floating.active-window::after,
+.floating.active-window .win-body::before,
+.floating.active-window .win-body::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-color: var(--accent-color);
+    border-style: solid;
+    z-index: 1002;
+    pointer-events: none; /* Allows clicks to pass through to the resize logic */
+}
+
+/* Top-left corner */
+.floating.active-window::before {
+    top: -2px;
+    left: -2px;
+    border-width: 3px 0 0 3px;
+    border-top-left-radius: 4px;
+}
+
+/* Top-right corner */
+.floating.active-window::after {
+    top: -2px;
+    right: -2px;
+    border-width: 3px 3px 0 0;
+    border-top-right-radius: 4px;
+}
+
+/* Bottom-left corner */
+.floating.active-window .win-body::before {
+    bottom: -2px;
+    left: -2px;
+    border-width: 0 0 3px 3px;
+    border-bottom-left-radius: 4px;
+}
+
+/* Bottom-right corner */
+.floating.active-window .win-body::after {
+    bottom: -2px;
+    right: -2px;
+    border-width: 0 3px 3px 0;
+    border-bottom-right-radius: 4px;
+}
