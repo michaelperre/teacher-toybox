@@ -43,6 +43,7 @@ html, body {
     border-bottom: 1px solid var(--border-color);
     flex-shrink: 0;
     padding-top: env(safe-area-inset-top);
+    gap: 15px; /* Add gap for spacing */
 }
 
 #site-title-mobile {
@@ -53,14 +54,21 @@ html, body {
     gap: 8px; 
     text-decoration: none;
     color: inherit;
+    flex-shrink: 1; /* Allow title to shrink */
+    min-width: 0; /* Necessary for flex-shrink to work correctly */
+    white-space: nowrap; /* Keep title on one line */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ... when text is too long */
 }
 
 #site-logo-mobile {
-    height: 22px; 
+    height: 22px;
+    flex-shrink: 0; /* Prevent logo from shrinking */
 }
 
 #clock-date {
     text-align: right;
+    flex-shrink: 0; /* Prevent clock and date from shrinking */
 }
 
 #clock {
@@ -83,6 +91,7 @@ html, body {
     font-size: 12px;
     font-weight: 500;
     transition: all 0.2s ease;
+    flex-shrink: 0; /* Prevent this button from shrinking */
 }
 .desktop-btn:hover {
     background-color: var(--accent-color);
@@ -208,6 +217,10 @@ html, body {
     background: rgba(44, 44, 46, 0.8);
     border-radius: 12px;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 95%;
+    box-sizing: border-box;
 }
 .color-swatch {
     width: 22px;
