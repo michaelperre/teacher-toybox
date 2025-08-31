@@ -1594,8 +1594,8 @@ document.addEventListener('DOMContentLoaded', () => {
             { key: '0', icon: 'fas fa-list-ol', func: activateNumberedList, title: 'Numbered List (0)' },
             { key: 'w', icon: 'fas fa-camera', func: activateCam, title: 'Webcam (W)', premium: true },
             { key: 'v', icon: 'fas fa-images', func: activateCarousel, title: 'Photo Carousel (V)', premium: true },
-            { key: 'o', icon: 'fas fa-stopwatch', func: activateTimer, title: 'Countdown Timer (O)', premium: true },
-            { key: 'h', icon: 'fas fa-hourglass-start', func: activateStopwatch, title: 'Stopwatch (H)', premium: true },
+            { key: 'o', icon: 'fas fa-hourglass-start', func: activateTimer, title: 'Countdown Timer (O)', premium: true },
+            { key: 'h', icon: 'fas fa-stopwatch', func: activateStopwatch, title: 'Stopwatch (H)', premium: true },
             { key: 'g', icon: 'fas fa-dice', func: activateDiceRoller, title: 'Dice Roller (G)', premium: true },
             { key: 'a', icon: 'fas fa-balance-scale', func: activateForAndAgainst, title: 'For/Against Counter (A)', premium: true },
             { key: 'u', icon: 'fas fa-calculator', func: activateCalculator, title: 'Calculator (U)', premium: true }
