@@ -56,6 +56,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect"/>
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
 
     <link rel="alternate" hreflang="en" href="https://www.teachertoybox.com/index.html" />
     <link rel="alternate" hreflang="cs" href="https://www.teachertoybox.com/index.html?lang=cs" />
@@ -126,10 +127,11 @@
     <script src="numbered-list.js" defer></script>
     <script src="info-text.js" defer></script>
     <script src="i18n.js" defer></script>
-    <script src="auth.js" defer></script>
+    <script src="auth.js"></script>
     <script src="script.js" defer></script>
     <script src="tour.js" defer></script>
 
+<!-- Cookie Consent Banner -->
 <script src="https://cdnapp.websitepolicies.net/widgets/cookies/wedl5rr6.js" defer></script>
 
 </head>
@@ -152,19 +154,19 @@
         <div id="sidebar-main-controls">
             <div id="upgrade-tools-container">
                 <button class="btn premium-login-style" data-i18n-title="btn.upgrade" id="upgradeButton" title="Upgrade to Premium (U)">
-                    <i data-lucide="crown"></i>
+                    <i class="fas fa-crown"></i>
                 </button>
             </div>
             
             <div id="userProfile" class="btn" style="display: none;"></div>
-            <button class="btn" id="authButton" title="Login / Logout"><i data-lucide="log-in"></i></button>
+            <button class="btn" id="authButton"></button>
 
             <button class="btn" data-i18n-title="btn.add" id="addButton" title="Add New Window (N)">
-                <i data-lucide="plus"></i><span class="hotkey-label">N</span>
+                <i class="fas fa-plus"></i><span class="hotkey-label">N</span>
             </button>
             <div id="layout-tools-container">
                 <button class="btn" data-i18n-title="btn.layouts" id="screenButton" title="Toggle Layouts (L)">
-                    <i data-lucide="layout-grid"></i><span class="hotkey-label">L</span>
+                    <i class="fas fa-desktop"></i><span class="hotkey-label">L</span>
                 </button>
                 <div id="layout-bar">
                     <button class="btn" data-i18n-title="layout.1" id="layout1Button" title="Layout 1: Full Screen (1)">1<span class="hotkey-label">1</span></button>
@@ -176,40 +178,40 @@
                     <button class="btn" data-i18n-title="layout.7" id="layout7Button" title="Layout 7: 1-2-2 Column (7)">7<span class="hotkey-label">7</span></button>
                 </div>
             </div>
-            <button class="btn" data-i18n-title="btn.refresh" id="refreshButton" title="Refresh Page (R)"><i data-lucide="rotate-cw"></i><span class="hotkey-label">R</span></button>
+            <button class="btn" data-i18n-title="btn.refresh" id="refreshButton" title="Refresh Page (R)"><i class="fas fa-sync-alt"></i><span class="hotkey-label">R</span></button>
 
             <div id="management-tools-container">
                 <button class="btn" data-i18n-title="btn.management" id="managementButton" title="Classroom Management Tools (/)">
-                    <i data-lucide="user-check"></i><span class="hotkey-label">/</span>
+                    <i class="fas fa-chalkboard-teacher"></i><span class="hotkey-label">/</span>
                 </button>
                 <div id="management-bar">
                     <button class="btn" data-i18n-title="btn.bell" id="bellButton" title="Ring Bell (B)">
-                        <i data-lucide="bell"></i><span class="hotkey-label">B</span>
+                        <i class="fas fa-bell"></i><span class="hotkey-label">B</span>
                     </button>
                     <button class="btn" data-i18n-title="btn.shh" id="shhButton" title="Shush Sound (S)">
                         Shh<span class="hotkey-label">S</span>
                     </button>
                     <button class="btn" data-i18n-title="btn.laser" id="laserButton" title="Toggle Laser Pointer (P)">
-                        <i data-lucide="crosshair"></i><span class="hotkey-label">P</span>
+                        <i class="fas fa-crosshairs"></i><span class="hotkey-label">P</span>
                     </button>
                 </div>
             </div>
             <div id="extra-tools-container">
                 <button class="btn" data-i18n-title="btn.colour" id="extraToolsButton" title="Website Colour (X)">
-                    <i data-lucide="paint-roller"></i><span class="hotkey-label">X</span>
+                    <i class="fas fa-paint-roller"></i><span class="hotkey-label">X</span>
                 </button>
                 <div id="extra-tools-bar">
                     <button class="btn" data-i18n-title="btn.color" id="colorButton" title="Select Accent Color (C)">
-                        <i data-lucide="palette"></i><span class="hotkey-label">C</span>
+                        <i class="fas fa-palette"></i><span class="hotkey-label">C</span>
                     </button>
                     <button class="btn" data-i18n-title="btn.magic" id="magicColorButton" title="Extract Color from Content (M)">
-                        <i data-lucide="wand-2"></i><span class="hotkey-label">M</span>
+                        <i class="fas fa-magic"></i><span class="hotkey-label">M</span>
                     </button>
                     <button class="btn" data-i18n-title="btn.themePalette" id="themePaletteButton" title="Theme Palette (Z)">
-                        <i data-lucide="swatch-book"></i><span class="hotkey-label">Z</span>
+                        <i class="fas fa-swatchbook"></i><span class="hotkey-label">Z</span>
                     </button>
                     <button class="btn" data-i18n-title="btn.originalColor" id="originalColorButton" title="Original Colour">
-                        <i data-lucide="undo-2"></i>
+                        <i class="fas fa-undo"></i>
                     </button>
                 </div>
                 <div id="color-palette" class="hidden">
@@ -233,35 +235,35 @@
                         <circle class="hand-cap" cx="50" cy="50" r="3"></circle>
                     </svg>
                 </div>
-                <i data-lucide="clock" class="static-icon"></i>
+                <i class="fas fa-clock static-icon"></i>
                 <span class="hotkey-label">K</span>
             </button>
 
             <div id="help-tools-container">
                 <button class="btn" data-i18n-title="btn.help" id="helpButton" title="Help & Resources (?)">
-                    <i data-lucide="help-circle"></i><span class="hotkey-label">?</span>
+                    <i class="fas fa-question-circle"></i><span class="hotkey-label">?</span>
                 </button>
                 <div id="help-bar">
                     <button class="btn" data-i18n-title="btn.tour" id="tourButton" title="Start Guided Tour">
-                        <i data-lucide="route"></i>
+                        <i class="fas fa-route"></i>
                     </button>
                     <button class="btn" data-i18n-title="btn.demo" id="demoButton" title="Show Demo Video">
-                        <i data-lucide="video"></i>
+                        <i class="fas fa-video"></i>
                     </button>
                     <button class="btn" data-i18n-title="btn.info" id="infoButton" title="Show Information">
-                        <i data-lucide="info"></i>
+                        <i class="fas fa-info-circle"></i>
                     </button>
                 </div>
             </div>
 
             <button class="btn" data-i18n-title="btn.share" id="shareButton" title="Share with a Friend (J)">
-                <i data-lucide="share-2"></i><span class="hotkey-label">J</span>
+                <i class="fas fa-share-alt"></i><span class="hotkey-label">J</span>
             </button>
             <button class="btn" data-i18n-title="btn.feedback" id="feedbackButton" title="Provide Feedback (F)">
-                <i data-lucide="message-square-plus"></i><span class="hotkey-label">F</span>
+                <i class="fas fa-comment-dots"></i><span class="hotkey-label">F</span>
             </button>
             <a class="btn" data-i18n-title="btn.tablet.title" href="mobile.html" id="tabletLinkButton" target="_blank" title="Switch to Tablet Support">
-              <i data-lucide="tablet"></i>
+              <i class="fas fa-tablet-alt"></i>
               <span data-i18n="btn.tablet" style="line-height: 1; font-size: 10px;">Tablet Support</span>
             </a>
             <div class="theme-switch-wrapper btn" id="theme-switch-container">
@@ -271,7 +273,7 @@
                 </label>
             </div>
             <button class="btn" id="policyButton" title="Policy Documents">
-                <i data-lucide="file-shield"></i>
+                <i class="fas fa-file-shield"></i>
             </button>
         </div>
         <input id="colorPicker" style="display:none;" type="color"/>
@@ -292,11 +294,11 @@
         <fieldset class="form-group">
             <legend data-i18n="panel.feedback.ratingLegend">How would you rate your experience?</legend>
             <div id="feedback-rating" class="star-rating">
-                <i data-lucide="star" data-value="1"></i>
-                <i data-lucide="star" data-value="2"></i>
-                <i data-lucide="star" data-value="3"></i>
-                <i data-lucide="star" data-value="4"></i>
-                <i data-lucide="star" data-value="5"></i>
+                <i class="fas fa-star" data-value="1"></i>
+                <i class="fas fa-star" data-value="2"></i>
+                <i class="fas fa-star" data-value="3"></i>
+                <i class="fas fa-star" data-value="4"></i>
+                <i class="fas fa-star" data-value="5"></i>
             </div>
         </fieldset>
         <div class="form-group">
@@ -322,48 +324,48 @@
     <div id="upgrade-panel">
         <button id="close-upgrade-btn" title="Close">&times;</button>
         <div class="upgrade-panel-content">
-            <h3><i data-lucide="crown"></i> <span data-i18n="panel.upgrade.title">Go Premium</span></h3>
+            <h3><i class="fas fa-crown"></i> <span data-i18n="panel.upgrade.title">Go Premium</span></h3>
             <p data-i18n="panel.upgrade.intro">Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!</p>
             
             <table class="premium-features-table">
                 <tbody>
                     <tr>
-                        <td><i data-lucide="check-circle-2"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
                         <td><strong data-i18n="panel.upgrade.feature1_title">Unlock All Tools</strong></td>
                         <td data-i18n="panel.upgrade.feature1_desc">Get immediate access to every premium tool.</td>
                     </tr>
                     <tr>
-                        <td><i data-lucide="check-circle-2"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
                         <td><strong data-i18n="panel.upgrade.feature2_title">Webcam &amp; Document Camera</strong></td>
                         <td data-i18n="panel.upgrade.feature2_desc">Use your webcam for live demonstrations.</td>
                     </tr>
                     <tr>
-                        <td><i data-lucide="check-circle-2"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
                         <td><strong data-i18n="panel.upgrade.feature3_title">Photo Carousel</strong></td>
                         <td data-i18n="panel.upgrade.feature3_desc">Create engaging visual stories and slideshows.</td>
                     </tr>
                     <tr>
-                        <td><i data-lucide="check-circle-2"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
                         <td><strong data-i18n="panel.upgrade.feature4_title">Gamify Lessons</strong></td>
                         <td data-i18n="panel.upgrade.feature4_desc">Use the Dice Roller and Counters to make learning fun.</td>
                     </tr>
                     <tr>
-                        <td><i data-lucide="check-circle-2"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
                         <td><strong data-i18n="panel.upgrade.feature5_title">Manage Time</strong></td>
                         <td data-i18n="panel.upgrade.feature5_desc">Effortlessly manage classroom time with timers and stopwatches.</td>
                     </tr>
                     <tr>
-                        <td><i data-lucide="check-circle-2"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
                         <td><strong data-i18n="panel.upgrade.feature6_title">Advanced Control</strong></td>
                         <td data-i18n="panel.upgrade.feature6_desc">Adjust opacity and layer your windows for the perfect setup.</td>
                     </tr>
                     <tr>
-                        <td><i data-lucide="check-circle-2"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
                         <td><strong data-i18n="panel.upgrade.feature7_title">Future Tools</strong></td>
                         <td data-i18n="panel.upgrade.feature7_desc">Automatically get every new premium tool we release.</td>
                     </tr>
                     <tr>
-                        <td><i data-lucide="check-circle-2"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
                         <td><strong data-i18n="panel.upgrade.feature8_title">Support Development</strong></td>
                         <td data-i18n="panel.upgrade.feature8_desc">Help keep the core platform core functions free for all teachers.</td>
                     </tr>
@@ -377,11 +379,26 @@
             </button>
         </div>
     </div>
-    
+
     <script>
-        // This script now only contains the icon rendering call.
-        // It runs immediately after the Lucide library is loaded and the HTML body is parsed.
-        lucide.createIcons();
+      document.addEventListener('DOMContentLoaded', () => {
+        const authButton = document.getElementById('authButton');
+
+        if (authButton) {
+          authButton.addEventListener('click', async (e) => {
+            e.preventDefault();
+            
+            if (typeof auth0Client !== 'undefined' && auth0Client) {
+              const isAuthenticated = await auth0Client.isAuthenticated();
+              if (isAuthenticated) {
+                logout(); // If logged in, log out
+              } else {
+                login(); // If not logged in, log in
+              }
+            }
+          });
+        }
+      });
     </script>
 </body>
 </html>

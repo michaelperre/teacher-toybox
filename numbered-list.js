@@ -44,17 +44,17 @@ function activateNumberedList(win) {
 
     const addRowBtn = document.createElement('button');
     addRowBtn.className = 'control-btn-large';
-    addRowBtn.innerHTML = '<i data-lucide="plus"></i>';
+    addRowBtn.innerHTML = '<i class="fas fa-plus"></i>';
     addRowBtn.title = 'Add Row';
 
     const removeRowBtn = document.createElement('button');
     removeRowBtn.className = 'control-btn-large';
-    removeRowBtn.innerHTML = '<i data-lucide="minus"></i>';
+    removeRowBtn.innerHTML = '<i class="fas fa-minus"></i>';
     removeRowBtn.title = 'Remove Row';
 
     const resetBtn = document.createElement('button');
     resetBtn.className = 'control-btn-large';
-    resetBtn.innerHTML = '<i data-lucide="rotate-cw"></i>';
+    resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
     resetBtn.title = 'Reset List';
 
     controls.append(addRowBtn, removeRowBtn, resetBtn);
@@ -134,8 +134,4 @@ function activateNumberedList(win) {
     container.append(title, tableWrapper, controls);
     mainArea.appendChild(container);
     setupInitialState();
-
-    if (window.lucide) {
-        lucide.createIcons();
-    }
 }
