@@ -1,124 +1,100 @@
-/**
- * auth.js
- * Handles Auth0 authentication and UI updates.
- * © 2025 TeacherToybox.com. All Rights Reserved.
- */
-
+// auth.js
 let auth0Client = null;
 
-/**
- * Configures the Auth0 client.
- * Remember to replace placeholder values with your actual Auth0 credentials.
- */
+// 1. Configure the Auth0 Client
 const configureClient = async () => {
-  try {
-    auth0Client = await auth0.createAuth0Client({
-      domain: "YOUR_AUTH0_DOMAIN", // <-- Replace with your Auth0 domain
-      clientId: "YOUR_AUTH0_CLIENT_ID", // <-- Replace with your Auth0 client ID
-      authorizationParams: {
-        redirect_uri: window.location.origin
-      }
-    });
-  } catch (err) {
-    console.error("Error configuring Auth0 client:", err);
+  auth0Client = await auth0.createAuth0Client({
+    domain: "teachertoybox.uk.auth0.com", // <-- This has been corrected
+    clientId: "olhwjFTXOIx1mxJB2cn2BHVb1Vny1jZa",
+    authorizationParams: {
+      redirect_uri: window.location.origin
+    },
+    // These settings create a more durable login session
+    useRefreshTokens: true,
+    cacheLocation: 'localstorage'
+  });
+};
+
+// 2. Handle the redirect after login
+const handleRedirectCallback = async () => {
+  const params = new URLSearchParams(window.location.search);
+  if (params.has("code") && params.has("state")) {
+    const { appState } = await auth0Client.handleRedirectCallback();
+    window.history.replaceState({}, document.title, "/");
+    
+    if (appState && appState.target === 'upgrade') {
+      setTimeout(() => {
+        if (window.TT && typeof window.TT.initiateCheckout === 'function') {
+          window.TT.initiateCheckout();
+        }
+      }, 500);
+    }
   }
 };
 
-/**
- * Updates the UI based on authentication state.
- */
+// 3. Main function to initialize authentication
+const initializeAuth = async () => {
+  await configureClient();
+  await handleRedirectCallback();
+  await updateUI();
+};
+
+// 4. Update UI based on authentication state
 const updateUI = async () => {
-  if (!auth0Client) return;
-
   const isAuthenticated = await auth0Client.isAuthenticated();
-  const authButton = document.getElementById('authButton');
-  const userProfile = document.getElementById('userProfile');
-  const upgradeButton = document.getElementById('upgradeButton');
-  
-  // Store auth state globally for other scripts to access
-  window.TT.isAuthenticated = isAuthenticated;
+  const authButton = document.getElementById("authButton");
+  const userProfileElement = document.getElementById("userProfile");
 
+  window.TT.isAuthenticated = isAuthenticated;
+  window.TT.isPremium = false;
+  document.body.classList.remove('is-premium');
+  
   if (authButton) {
     if (isAuthenticated) {
-      // User is logged in
-      authButton.innerHTML = '<i data-lucide="log-out"></i>';
+      // --- Logged In State ---
+      authButton.title = "Log Out";
+      authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
       authButton.classList.add('logout-btn');
       
       const user = await auth0Client.getUser();
-      if (userProfile && user.picture) {
-        userProfile.style.display = 'flex';
-        userProfile.style.backgroundImage = `url('${user.picture}')`;
-        userProfile.style.backgroundSize = 'cover';
-        userProfile.style.backgroundPosition = 'center';
+      if (user && userProfileElement) {
+          userProfileElement.innerHTML = `<img src="${user.picture}" alt="${user.name}" style="width: 40px; height: 40px; border-radius: 50%;">`;
+          userProfileElement.style.display = 'flex';
       }
-      if (upgradeButton) upgradeButton.style.display = 'flex';
+
+      const claims = await auth0Client.getIdTokenClaims();
+      const userRoles = claims['http://teachertoybox.com/roles'] || [];
+      if (userRoles.includes('Premium')) {
+          window.TT.isPremium = true;
+          document.body.classList.add('is-premium');
+      }
 
     } else {
-      // User is logged out
-      authButton.innerHTML = '<i data-lucide="log-in"></i>';
+      // --- Logged Out State ---
+      authButton.title = "Log In / Sign Up";
+      authButton.innerHTML = `<i class="fas fa-sign-in-alt"></i>`;
       authButton.classList.remove('logout-btn');
-      if (userProfile) userProfile.style.display = 'none';
-      if (upgradeButton) upgradeButton.style.display = 'flex';
-    }
-
-    // IMPORTANT: Re-render icons after changing the button's content
-    if (window.lucide) {
-      lucide.createIcons();
+      
+      if (userProfileElement) userProfileElement.style.display = 'none';
     }
   }
 };
 
-/**
- * Initiates the login process.
- */
-const login = async (target) => {
-  if (!auth0Client) return;
-  try {
-    await auth0Client.loginWithRedirect({
-        authorizationParams: {
-            redirect_uri: window.location.origin,
-            appState: { target: target }
-        }
-    });
-  } catch (err) {
-    console.error("Login failed", err);
-  }
+// 5. Login and Logout functions
+window.login = async (action = 'default') => {
+  await auth0Client.loginWithRedirect({
+    appState: { target: action }
+  });
 };
 
-/**
- * Initiates the logout process.
- */
-const logout = () => {
-  if (!auth0Client) return;
-  try {
-    auth0Client.logout({
-      logoutParams: {
-        returnTo: window.location.origin
-      }
-    });
-  } catch (err) {
-    console.error("Logout failed", err);
-  }
+window.logout = () => {
+  auth0Client.logout({
+    logoutParams: {
+      returnTo: window.location.origin
+    }
+  });
 };
 
-/**
- * Main function to run on page load.
- * Changed from 'load' to 'DOMContentLoaded' to prevent race conditions.
- */
-document.addEventListener('DOMContentLoaded', async () => {
-  await configureClient();
-  await updateUI();
+// Initialize Auth0 when the page loads
+window.addEventListener('load', initializeAuth);
 
-  const isAuthenticated = await auth0Client.isAuthenticated();
-  if (isAuthenticated) {
-    return;
-  }
-
-  // Handle the redirect callback after login
-  const query = window.location.search;
-  if (query.includes("code=") && query.includes("state=")) {
-    await auth0Client.handleRedirectCallback();
-    await updateUI();
-    window.history.replaceState({}, document.title, "/");
-  }
-});
