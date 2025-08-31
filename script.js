@@ -1384,11 +1384,30 @@ document.addEventListener('DOMContentLoaded', () => {
             document.addEventListener('pointerup', up);
         };
         
-        // --- NEW: Resize logic initiated by handles ---
-        function initResize(e, resizeDirection) {
+        // --- MODIFIED: Restored original resize logic ---
+        const resizeHandleSize = 10;
+        let isResizing = false;
+        let resizeDirection = '';
+
+        win.addEventListener('pointerdown', e => {
+            if(e.target.closest('.resize-handle')) return; // Ignore if clicking a handle
+            const rect = win.getBoundingClientRect();
+            const onTopEdge = e.clientY >= rect.top && e.clientY <= rect.top + resizeHandleSize;
+            const onBottomEdge = e.clientY <= rect.bottom && e.clientY >= rect.bottom - resizeHandleSize;
+            const onLeftEdge = e.clientX >= rect.left && e.clientX <= rect.left + resizeHandleSize;
+            const onRightEdge = e.clientX <= rect.right && e.clientX >= rect.right - resizeHandleSize;
+
+            if (!onTopEdge && !onBottomEdge && !onLeftEdge && !onRightEdge) return;
+
+            isResizing = true;
+            resizeDirection = '';
+            if (onTopEdge) resizeDirection += 'n';
+            if (onBottomEdge) resizeDirection += 's';
+            if (onLeftEdge) resizeDirection += 'w';
+            if (onRightEdge) resizeDirection += 'e';
+
             e.preventDefault();
-            e.stopPropagation();
-            
+
             let lastX = e.clientX;
             let lastY = e.clientY;
 
@@ -1415,33 +1434,29 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             function stopResize() {
+                isResizing = false;
                 document.removeEventListener('pointermove', doResize);
                 document.removeEventListener('pointerup', stopResize);
             }
 
             document.addEventListener('pointermove', doResize);
             document.addEventListener('pointerup', stopResize);
-        }
+        });
 
-        // --- NEW: Create and append handle elements ---
-        const handleNW = document.createElement('div');
-        handleNW.className = 'resize-handle handle-nw';
-        handleNW.addEventListener('pointerdown', e => initResize(e, 'nw'));
-        
-        const handleNE = document.createElement('div');
-        handleNE.className = 'resize-handle handle-ne';
-        handleNE.addEventListener('pointerdown', e => initResize(e, 'ne'));
-        
-        const handleSW = document.createElement('div');
-        handleSW.className = 'resize-handle handle-sw';
-        handleSW.addEventListener('pointerdown', e => initResize(e, 'sw'));
-        
-        const handleSE = document.createElement('div');
-        handleSE.className = 'resize-handle handle-se';
-        handleSE.addEventListener('pointerdown', e => initResize(e, 'se'));
-        
-        win.append(handleNW, handleNE, handleSW, handleSE);
-
+        win.addEventListener('mousemove', e => {
+            if (isResizing) return;
+            const rect = win.getBoundingClientRect();
+            const onTopEdge = e.clientY >= rect.top && e.clientY <= rect.top + resizeHandleSize;
+            const onBottomEdge = e.clientY <= rect.bottom && e.clientY >= rect.bottom - resizeHandleSize;
+            const onLeftEdge = e.clientX >= rect.left && e.clientX <= rect.left + resizeHandleSize;
+            const onRightEdge = e.clientX <= rect.right && e.clientX >= rect.right - resizeHandleSize;
+            
+            if ((onTopEdge && onLeftEdge) || (onBottomEdge && onRightEdge)) win.style.cursor = 'nwse-resize';
+            else if ((onTopEdge && onRightEdge) || (onBottomEdge && onLeftEdge)) win.style.cursor = 'nesw-resize';
+            else if (onTopEdge || onBottomEdge) win.style.cursor = 'ns-resize';
+            else if (onLeftEdge || onRightEdge) win.style.cursor = 'ew-resize';
+            else win.style.cursor = 'default';
+        });
 
         const opacitySlider = document.createElement('input');
         opacitySlider.type = 'range';
