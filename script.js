@@ -2136,7 +2136,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.className = 'share-modal';
         modal.innerHTML = `
             <button class="close-modal-btn">&times;</button>
-            <h3 data-i18n="panel.share.title">${window.t(dict, 'panel.share.title')}</h3>
+            <h3 data-i18n="panel.share.title">${window.t(dict, 'panel.share.title') || 'Share with a Friend'}</h3>
             <p class="share-intro-text">Like this free tool? Help other teachers discover it!</p>
             <div class="share-grid">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" class="share-grid-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
@@ -2218,6 +2218,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('management-bar').classList.remove('open');
         $('help-bar').classList.remove('open');
         if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
         $('extra-tools-bar').classList.toggle('open');
     };
 
@@ -2228,6 +2229,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('management-bar').classList.remove('open');
         $('help-bar').classList.remove('open');
         if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
         $('layout-bar').classList.toggle('open');
     };
 
@@ -2238,6 +2240,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('layout-bar').classList.remove('open');
         $('help-bar').classList.remove('open');
         if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
         $('management-bar').classList.toggle('open');
     };
     
@@ -2248,6 +2251,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('layout-bar').classList.remove('open');
         $('management-bar').classList.remove('open');
         if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
         $('help-bar').classList.toggle('open');
     };
 
