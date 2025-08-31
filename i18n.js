@@ -295,6 +295,15 @@
         if (typeof val === 'string') el.setAttribute('title', val);
       });
       
+      // Explicitly update the subtitle to ensure it changes
+      const subtitleEl = document.getElementById('site-subtitle');
+      if (subtitleEl) {
+          const subtitleText = t(dict, 'site.subtitle') || t(I18N.en, 'site.subtitle');
+          if (subtitleText) {
+              subtitleEl.textContent = subtitleText;
+          }
+      }
+      
       const feedbackComment = document.getElementById('feedback-comment');
       if (feedbackComment) {
           const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder') || t(I18N.en, 'panel.feedback.commentsPlaceholder');
