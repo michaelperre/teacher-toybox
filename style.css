@@ -560,11 +560,8 @@ footer p {
     text-align: center;
     color: var(--text-secondary);
     transition: all 0.2s ease-in-out;
-    pointer-events: none;
-    padding: 16px;
-}
-.win-main-area:has(.drop-zone) {
     cursor: pointer;
+    padding: 16px;
 }
 .drop-zone-inner {
     display: flex;
