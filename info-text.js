@@ -435,7 +435,7 @@ const infoTranslations = {
         ],
         section4_title: "डिज़ाइन द्वारा सुलभ और सुरक्षित",
         section4_points: [
-            "कोई इंस्टालेशन आवश्यक नहीं: एक वेब-आधारित प्लेटफ़ॉर्म के रूप में, टीचर टॉयबॉक्स एक आधुनिक ब्राउज़र वाले किसी भी कंप्यूटर पर काम करता है, जो इसे हाइब्रिड लर्निंग और विविध स्कूल हार्डवेयर के लिए एकदम सही बनाता है।",
+            "कोई इंस्टालेशन आवश्यक नहीं: एक वेब-आधारed प्लेटफ़ॉर्म के रूप में, टीचर टॉयबॉक्स एक आधुनिक ब्राउज़र वाले किसी भी कंप्यूटर पर काम करता है, जो इसे हाइब्रिड लर्निंग और विविध स्कूल हार्डवेयर के लिए एकदम सही बनाता है।",
             "बहुभाषिक समर्थन: सूचना पैनल (?) दस से अधिक भाषाओं में उपलब्ध है, जो इसे शिक्षकों के वैश्विक समुदाय के लिए सुलभ बनाता है।",
             "गोपनीयता केंद्रित: सभी फ़ाइल प्रोसेसिंग सीधे आपके ब्राउज़र में होती है। आपकी फ़ाइलें कभी भी सर्वर पर अपलोड नहीं की जाती हैं, जिससे पूर्ण गोपनीयता और सुरक्षा सुनिश्चित होती है।"
         ],
@@ -443,7 +443,7 @@ const infoTranslations = {
     },
     'pt': {
         title: "Bem-vindo ao Teacher Toybox!",
-        subtitle: "Seu centro de comando dinâmico para a sala de aula de hoje. O Teacher Toybox combina herramientas digitais essenciais em uma interface flexível e intuitiva, projetada para o ensino moderno e adaptativo.",
+        subtitle: "Seu centro de comando dinâmico para a sala de aula de hoje. O Teacher Toybox combina ferramentas digitais essenciais em uma interface flexível e intuitiva, projetada para o ensino moderno e adaptativo.",
         section1_title: "Aprendizagem Personalizada e Aprimorada por IA",
         section1_points: [
             "Telas Dinâmicas: Vá além de um simples quadro branco. Crie múltiplas janelas para diferentes atividades, facilitando caminhos de aprendizagem personalizados para alunos individuais ou grupos.",
