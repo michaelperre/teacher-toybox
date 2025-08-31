@@ -1890,7 +1890,7 @@ body.is-premium #upgradeButton {
     font-size: 1.2rem;
 }
 
-/* --- NEW: Circular Resize Handles on Hover --- */
+/* --- Corrected: Circular Resize Handles on Hover --- */
 .floating::before,
 .floating::after,
 .floating .win-body::before,
@@ -1917,28 +1917,28 @@ body.is-premium #upgradeButton {
 
 /* Top-left corner */
 .floating::before {
-    top: -7px;
-    left: -7px;
+    top: 2px;
+    left: 2px;
     cursor: nwse-resize;
 }
 
 /* Top-right corner */
 .floating::after {
-    top: -7px;
-    right: -7px;
+    top: 2px;
+    right: 2px;
     cursor: nesw-resize;
 }
 
 /* Bottom-left corner */
 .floating .win-body::before {
-    bottom: -7px;
-    left: -7px;
+    bottom: 2px;
+    left: 2px;
     cursor: nesw-resize;
 }
 
 /* Bottom-right corner */
 .floating .win-body::after {
-    bottom: -7px;
-    right: -7px;
+    bottom: 2px;
+    right: 2px;
     cursor: nwse-resize;
 }
