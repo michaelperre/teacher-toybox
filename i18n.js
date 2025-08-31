@@ -164,10 +164,10 @@
           },
           tour: {
               step1: { title: "أهلاً بك في Teacher Toybox!", content: "هذا هو مركز قيادة الفصل الدراسي الرقمي الخاص بك. لنتصفح بسرعة عناصر التحكم الرئيسية. انقر على \"التالي\" للمتابعة." },
-              step2: { title: "إضافة نافذة", content: "هذا الزर يضيف نافذة جديدة. إذا لم تكن هناك نافذة مفتوحة بالفعل، سأنقر عليه من أجلك حتى نتمكن من إلقاء نظرة على أدوات النافذة." },
+              step2: { title: "إضافة نافذة", content: "هذا الزر يضيف نافذة جديدة. إذا لم تكن هناك نافذة مفتوحة بالفعل، سأنقر عليه من أجلك حتى نتمكن من إلقاء نظرة على أدوات النافذة." },
               step3: { title: "لوحة أدوات النافذة", content: "ممتاز! هذه هي لوحة الأدوات للنافذة الجديدة. تحتوي على أدوات مثل لوحة الرسم ومحرر النصوص." },
               step4: { title: "لوحة الرسم", content: "على سبيل المثال، النقر على هذا الزر يحول النافذة إلى سبورة تفاعلية. لنجرب ذلك." },
-              step5: { title: "ترتيب شاشتك", content: "هذا الزर يكشف عن تخطيطات محددة مسبقًا. يمكنك تنظيم نوافذك فورًا في شاشة مقسمة، أرباع، والمزيد." },
+              step5: { title: "ترتيب شاشتك", content: "هذا الزر يكشف عن تخطيطات محددة مسبقًا. يمكنك تنظيم نوافذك فورًا في شاشة مقسمة، أرباع، والمزيد." },
               step6: { title: "تحريك وتغيير الحجم", content: "يمكنك أيضًا سحب هذا الشريط لتحريك النوافذ، وتغيير حجمها من أي حافة أو زاوية." },
               step7: { title: "المساعدة والمصادر", content: "هذه هي الأساسيات! هذا الزر يجمع الجولة، الفيديو التجريبي، والمزيد من المعلومات. انقر على 'إنهاء' لبدء الاستكشاف." }
           }
@@ -284,6 +284,14 @@
       localStorage.setItem('ttx_lang', lang);
       document.documentElement.lang = lang;
 
+      // --- FIX for RTL ---
+      // Set the document direction based on the selected language.
+      if (['ar', 'fa'].includes(lang)) {
+        document.documentElement.dir = 'rtl';
+      } else {
+        document.documentElement.dir = 'ltr';
+      }
+
       document.querySelectorAll('[data-i18n]').forEach(el => {
         const val = t(dict, el.dataset.i18n) || t(I18N.en, el.dataset.i18n);
         if (typeof val === 'string') el.textContent = val;
@@ -362,10 +370,7 @@
         opt.value = code; opt.textContent = name;
         sel.appendChild(opt);
       });
-
-      // --- FIX ---
-      // This listener uses event capturing (the 'true' argument) to ensure it
-      // runs before other scripts can interfere with the event.
+      
       sel.addEventListener('change', () => {
         // Use a setTimeout to ensure the DOM has fully processed the change event
         // before we try to update the text content. This resolves timing issues.
@@ -381,7 +386,6 @@
           finalLang = await detectLanguage();
       }
       
-      // This ensures the dropdown visually matches the loaded language.
       sel.value = finalLang;
 
       // Use a short timeout to ensure the DOM is fully settled before the initial translation.
