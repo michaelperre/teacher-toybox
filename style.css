@@ -248,15 +248,12 @@ body.light-mode.no-grid {
     backdrop-filter: blur(16px) saturate(180%);
     border: 1px solid var(--border-color);
     border-radius: 12px;
-    /* overflow: hidden; --- MODIFIED: Removed to allow handles to be visible */
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     z-index: 1000;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    transition: opacity 0.4s ease-in-out, border-color 0.2s ease;
-}
-.floating:hover {
-    border-color: var(--accent-color);
+    transition: opacity 0.4s ease-in-out;
 }
 .floating.active-window {
     border: 2px solid var(--accent-color);
@@ -296,8 +293,6 @@ body.light-mode.no-grid {
     flex-direction: row;
     height: calc(100% - 32px);
     flex-grow: 1;
-    border-radius: 0 0 11px 11px; /* MODIFIED: Keeps content inside rounded corners */
-    overflow: hidden; /* MODIFIED: Keeps content inside rounded corners */
 }
 .win-main-area {
     flex-grow: 1;
@@ -565,9 +560,8 @@ footer p {
     text-align: center;
     color: var(--text-secondary);
     transition: all 0.2s ease-in-out;
+    pointer-events: none;
     padding: 16px;
-    cursor: pointer; /* MODIFIED: Added */
-    /* pointer-events: none; --- MODIFIED: Removed */
 }
 .drop-zone-inner {
     display: flex;
@@ -1507,17 +1501,6 @@ body.light-mode #feedback-comment {
     justify-content: flex-end;
 }
 
-/* --- Unsupported File Message --- */
-.unsupported-file-message {
-    color: var(--text-primary);
-    background-color: var(--danger-color);
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    font-weight: 500;
-}
-
-
 /* --- Color Palette Styles --- */
 #color-palette {
     position: absolute;
@@ -1902,25 +1885,4 @@ body.is-premium #upgradeButton {
 
 .splash-subtext {
     font-size: 1.2rem;
-}
-
-/* --- Draggable Corner Resize Effect --- */
-.floating::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 20px;
-    height: 20px;
-    background: 
-        repeating-linear-gradient(
-            -45deg, 
-            transparent, 
-            transparent 4px, 
-            rgba(255,255,255,0.1) 4px, 
-            rgba(255,255,255,0.1) 8px
-        );
-    clip-path: polygon(100% 0, 0 100%, 100% 100%);
-    cursor: nwse-resize;
-    z-index: 1002;
 }

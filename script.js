@@ -418,16 +418,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         } else {
-            // NEW: Show temporary message for unsupported files
-            const msg = document.createElement('div');
-            msg.className = 'unsupported-file-message';
-            msg.textContent = "Oops! This file type isn't supported. Please upload a different file format.";
-            mainArea.appendChild(msg);
-
-            setTimeout(() => {
-                win.querySelector('.reset-content-btn')?.click();
-            }, 2000);
-            return; // Stop further execution
+            cont.textContent = 'Unsupported file';
+            cont.style.color = 'white';
         }
         mainArea.appendChild(cont);
     }
@@ -1352,7 +1344,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let dx, dy;
         bar.onpointerdown = e => {
-            if (e.target.closest('button, .tool-controls, input, .draw-controls-bar, .window-management-controls, .resize-handle')) return;
+            if (e.target.closest('button, .tool-controls, input, .draw-controls-bar, .window-management-controls')) return;
             e.stopPropagation();
             
             win.classList.remove('snapped-window');
@@ -1384,13 +1376,11 @@ document.addEventListener('DOMContentLoaded', () => {
             document.addEventListener('pointerup', up);
         };
         
-        // --- MODIFIED: Restored original resize logic ---
         const resizeHandleSize = 10;
         let isResizing = false;
         let resizeDirection = '';
 
         win.addEventListener('pointerdown', e => {
-            if(e.target.closest('.resize-handle')) return; // Ignore if clicking a handle
             const rect = win.getBoundingClientRect();
             const onTopEdge = e.clientY >= rect.top && e.clientY <= rect.top + resizeHandleSize;
             const onBottomEdge = e.clientY <= rect.bottom && e.clientY >= rect.bottom - resizeHandleSize;
@@ -1642,9 +1632,6 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>`;
         mainArea.appendChild(dropZone);
-        
-        // NEW: Add click listener to dropZone
-        dropZone.onclick = () => fileInput.click();
 
         document.body.appendChild(win);
         return win;
@@ -2715,3 +2702,4 @@ function openDemoModal() {
         }, 100);
     }
 });
+
