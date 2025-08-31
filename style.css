@@ -1912,7 +1912,7 @@ body.is-premium #upgradeButton {
     transition: opacity 0.2s ease-in-out;
 }
 
-.handle-nw { top: -7px; left: -7px; cursor: nwse-resize; }
-.handle-ne { top: -7px; right: -7px; cursor: nesw-resize; }
-.handle-sw { bottom: -7px; left: -7px; cursor: nesw-resize; }
-.handle-se { bottom: -7px; right: -7px; cursor: nwse-resize; }
+.handle-nw { top: 2px; left: 2px; cursor: nwse-resize; }
+.handle-ne { top: 2px; right: 2px; cursor: nesw-resize; }
+.handle-sw { bottom: 2px; left: 2px; cursor: nesw-resize; }
+.handle-se { bottom: 2px; right: 2px; cursor: nwse-resize; }
