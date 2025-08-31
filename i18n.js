@@ -71,7 +71,7 @@
           meta: { title: "Teacher Toybox | Безкоштовна інтерактивна дошка для вчителів", titleShort: "Teacher Toybox | Інтерактивна дошка", description: "Teacher Toybox — це безкоштовна інтерактивна цифрова дошка з таймерами, кубиками та іншим, щоб зробити уроки захоплюючими. Встановлення не потрібне.", keywords: "цифрова дошка, інтерактивна дошка, інструменти для вчителів, ресурси для класу, безкоштовні інструменти для вчителів, онлайн-таймер, класні заходи, освіта" },
           site: { brand: "Teacher Toybox", subtitle: "Дошка, створена вчителями для вчителів." },
           lang: { label: "Мова" },
-          btn: { tablet: "Підтримка планшета", "tablet.title": "Перейти на підтримку планшета", clock: "Переключити годинник (K)", add: "Додати вікно (N)", layouts: "Переключити макети (L)", colour: "Колір сайту (X)", color: "Вибрати колір (C)", magic: "Витягти колір (M)", themePalette: "Палітра тем (Z)", originalColor: "Оригінальний колір", bell: "Дзвоник (B)", shh: "Звук 'тсс' (S)", "shh.label": "Тсс", management: "Інструменти управління (/)", help: "Допомога (?)", laser: "Лазерна указка (P)", tour: "Почати тур", demo: "Демо-відео", info: "Інформація", refresh: "Оновити (R)", share: "Поділитися (J)", feedback: "Відгук (F)", coffee: "Пригостити кавою (Y)", upgrade: "Оновити до Premium (U)" },
+          btn: { tablet: "Підтримка планшета", "tablet.title": "Перейти на підтримку планшета", clock: "Переключити годинник (K)", add: "Додати вікno (N)", layouts: "Переключити макети (L)", colour: "Колір сайту (X)", color: "Вибрати колір (C)", magic: "Витягти колір (M)", themePalette: "Палітра тем (Z)", originalColor: "Оригінальний колір", bell: "Дзвоник (B)", shh: "Звук 'тсс' (S)", "shh.label": "Тсс", management: "Інструменти управління (/)", help: "Допомога (?)", laser: "Лазерна указка (P)", tour: "Почати тур", demo: "Демо-відео", info: "Інформація", refresh: "Оновити (R)", share: "Поділитися (J)", feedback: "Відгук (F)", coffee: "Пригостити кавою (Y)", upgrade: "Оновити до Premium (U)" },
           layout: { 1: "Макет 1: Повний екран (1)", 2: "Макет 2: Вертикальний поділ (2)", 3: "Макет 3: Основний зліва (3)", 4: "Макет 4: Основний справа (4)", 5: "Макет 5: Чотири квадранти (5)", 6: "Макет 6: Високий правий стовпець (6)", 7: "Макет 7: Стовпець 1-2-2 (7)" },
           panel: {
               upgrade: { title: "Перейти на Premium", intro: "Покращіть свій клас, розблокувавши всі інтерактивні інструменти в Teacher Toybox!", feature1_title: "Розблокувати всі інструменти", feature1_desc: "Отримайте негайний доступ до всіх преміум-інструментів.", feature2_title: "Веб-камера та документ-камера", feature2_desc: "Використовуйте веб-камеру для живих демонстрацій.", feature3_title: "Карусель фотографій", feature3_desc: "Створюйте захоплюючі візуальні історії та слайд-шоу.", feature4_title: "Гейміфікуйте уроки", feature4_desc: "Використовуйте кубики та лічильники, щоб зробити навчання веселим.", feature5_title: "Керуйте часом", feature5_desc: "Легко керуйте часом у класі за допомогою таймерів та секундомірів.", feature6_title: "Розширений контроль", feature6_desc: "Налаштовуйте прозорість та шари вікон для ідеального налаштування.", feature7_title: "Майбутні інструменти", feature7_desc: "Автоматично отримуйте кожен новий преміум-інструмент, який ми випускаємо.", feature8_title: "Підтримайте розробку", feature8_desc: "Допоможіть зберегти основну платформу безкоштовною для всіх вчителів.", priceBig: "$2 на місяць", priceSmall: "$24 щорічно" },
@@ -111,7 +111,7 @@
       },
       hi: {
           meta: { title: "टीचर टॉयबॉक्स | कक्षाओं के लिए मुफ्त इंटरैक्टिव डिजिटल व्हाइटबोर्ड", titleShort: "टीचर टॉयबॉक्स | इंटरैक्टिव व्हाइटबोर्ड", description: "टीचर टॉयबॉक्स एक मुफ्त इंटरैक्टिव डिजिटल व्हाइटबोर्ड है जिसमें टाइमर, पासा और बहुत कुछ है ताकि पाठों को आकर्षक बनाया जा सके। किसी इंस्टॉलेशन की आवश्यकता नहीं है।", keywords: "डिजिटल व्हाइटबोर्ड, इंटरैक्टिव व्हाइटबोर्ड, शिक्षक उपकरण, कक्षा संसाधन, मुफ्त शिक्षक उपकरण, ऑनलाइन टाइमर, कक्षा गतिविधियाँ, शिक्षा" },
-          site: { brand: "टीचर टॉयबॉक्स", subtitle: "शिक्षकों द्वारा शिक्षकों के लिए बनाया गया एक व्हाइटबोर्ड।" },
+          site: { brand: "Teacher Toybox", subtitle: "शिक्षकों द्वारा शिक्षकों के लिए बनाया गया एक व्हाइटबोर्ड।" },
           lang: { label: "भाषा" },
           btn: { tablet: "टैबलेट सहायता", "tablet.title": "टैबलेट सहायता पर स्विच करें", clock: "घड़ी टॉगल करें (K)", add: "नई विंडो जोड़ें (N)", layouts: "लेआउट टॉगल करें (L)", colour: "वेबसाइट का रंग (X)", color: "रंग चुनें (C)", magic: "रंग निकालें (M)", themePalette: "थीम पैलेट (Z)", originalColor: "मूल रंग", bell: "घंटी बजाएं (B)", shh: "चुप कराने की ध्वनि (S)", "shh.label": "श्श", management: "प्रबंधन उपकरण (/)", help: "सहायता (?)", laser: "लेजर पॉइंटर (P)", tour: "टूर शुरू करें", demo: "डेमो वीडियो", info: "जानकारी", refresh: "रीफ्रेश करें (R)", share: "शेयर करें (J)", feedback: "प्रतिक्रिया दें (F)", coffee: "मुझे एक कॉफी खरीदें (Y)", upgrade: "प्रीमियम में अपग्रेड करें (U)" },
           layout: { 1: "लेआउट 1: पूर्ण स्क्रीन (1)", 2: "लेआउट 2: लंबवत विभाजन (2)", 3: "लेआउट 3: मुख्य बाएँ (3)", 4: "लेआउट 4: मुख्य दाएँ (4)", 5: "लेआउट 5: चार चतुर्थांश (5)", 6: "लेआउट 6: लंबा दायां कॉलम (6)", 7: "लेआउट 7: 1-2-2 कॉलम (7)" },
@@ -137,7 +137,7 @@
           btn: { tablet: "Support Tablette", "tablet.title": "Passer au Support Tablette", clock: "Afficher/Masquer l'horloge (K)", add: "Ajouter une fenêtre (N)", layouts: "Changer de disposition (L)", colour: "Couleur du site (X)", color: "Sélectionner une couleur (C)", magic: "Extraire la couleur (M)", themePalette: "Palette de thèmes (Z)", originalColor: "Couleur d'origine", bell: "Sonnerie (B)", shh: "Son 'Chut' (S)", "shh.label": "Chut", management: "Outils de gestion (/)", help: "Aide (?)", laser: "Pointeur laser (P)", tour: "Démarrer le tour", demo: "Vidéo de démonstration", info: "Informations", refresh: "Actualiser (R)", share: "Partager (J)", feedback: "Donner un avis (F)", coffee: "Offrez-moi un café (Y)", upgrade: "Passer à Premium (U)" },
           layout: { 1: "Disposition 1 : Plein écran (1)", 2: "Disposition 2 : Division verticale (2)", 3: "Disposition 3 : Principal à gauche (3)", 4: "Disposition 4 : Principal à droite (4)", 5: "Disposition 5 : Quatre quadrants (5)", 6: "Disposition 6 : Colonne droite haute (6)", 7: "Disposition 7 : Colonne 1-2-2 (7)" },
           panel: {
-              upgrade: { title: "Passez à Premium", intro: "Dynamisez votre classe en débloquant tous les outils interactifs de Teacher Toybox !", feature1_title: "Débloquez tous les outils", feature1_desc: "Accédez immédiatement à tous les outils premium.", feature2_title: "Webcam et visualiseur", feature2_desc: "Utilisez votre webcam pour des démonstrations en direct.", feature3_title: "Carrousel de photos", feature3_desc: "Créez des histoires visuelles et des diaporamas attrayants.", feature4_title: "Ludifiez les leçons", feature4_desc: "Utilisez le lanceur de dés et les compteurs pour rendre l'apprentissage amusant.", feature5_title: "Gérez le temps", feature5_desc: "Gérez sans effort le temps de classe avec des minuteurs et des chronomètres.", feature6_title: "Contrôle avancé", feature6_desc: "Ajustez l'opacité et superposez vos fenêtres pour une configuration parfaite.", feature7_title: "Outils futurs", feature7_desc: "Recevez automatiquement chaque nouvel outil premium que nous publions.", feature8_title: "Soutenez le développement", feature8_desc: "Aidez à maintenir la plateforme de base gratuite pour tous les enseignants.", priceBig: "$2 par mois", priceSmall: "$24 facturés annuellement" },
+              upgrade: { title: "Passez à Premium", intro: "Dynamisez votre classe en débloquant tous les outils interactifs de Teacher Toybox !", feature1_title: "Débloquez tous les outils", feature1_desc: "Accédez immédiatement à tous les outils premium.", feature2_title: "Webcam et visualiseur", feature2_desc: "Utilisez votre webcam pour des démonstrations en direct.", feature3_title: "Carrousel de photos", feature3_desc: "Créez des histoires visuelles et des diaporamas attrayants.", feature4_title: "Ludifiez les leçons", feature4_desc: "Utilisez le lanceur de dés et les compteurs pour rendre l'apprentissage amusant.", feature5_title: "Gérez le temps", feature5_desc: "Gérez sans effort le temps de classe avec des minuteurs et des chronomètres.", feature6_title: "Contrôle avancé", feature6_desc: "Ajustez l'opacité et superposez vos fenêtres pour une configuration perfecte.", feature7_title: "Outils futurs", feature7_desc: "Recevez automatiquement chaque nouvel outil premium que nous publions.", feature8_title: "Soutenez le développement", feature8_desc: "Aidez à maintenir la plateforme de base gratuite pour tous les enseignants.", priceBig: "$2 par mois", priceSmall: "$24 facturés annuellement" },
               share: { title: "Faites passer le mot !" },
               feedback: { title: "Donner votre avis", intro: "Nous aimerions connaître votre opinion !", ratingLegend: "Comment évalueriez-vous votre expérience ?", commentsLabel: "Commentaires", commentsPlaceholder: "Dites-nous ce que vous avez aimé ou ce qui pourrait être amélioré...", submitButton: "Envoyer", submitButtonSending: "Envoi...", submitButtonSuccess: "Merci !" }
           },
@@ -147,7 +147,7 @@
               step3: { title: "Palette d'outils de la fenêtre", content: "Excellent ! Ceci est la palette d'outils pour la nouvelle fenêtre. Elle contient des outils comme une toile de dessin et un éditeur de texte." },
               step4: { title: "Toile de dessin", content: "Par exemple, en cliquant sur ce bouton, la fenêtre se transforme en tableau blanc interactif. Essayons." },
               step5: { title: "Organisez votre écran", content: "Ce bouton révèle des mises en page prédéfinies. Vous pouvez organiser instantanément vos fenêtres en écran partagé, en quadrants, et plus encore." },
-              step6: { title: "Déplacer et redimensionner", content: "Vous pouvez également faire glisser cette barre pour déplacer les fenêtres, et les redimensionner depuis n'importe quel bord ou coin." },
+              step6: { title: "Déplacer et redimensionner", content: "Vous pouvez également faire glisser cette barre pour déplacer les fenêtres, et les redimensionner desde n'importe quel bord ou coin." },
               step7: { title: "Aide et ressources", content: "Voilà les bases ! Ce bouton regroupe la visite guidée, la vidéo de démonstration et plus d'informations. Cliquez sur 'Terminer' pour commencer à explorer." }
           }
       },
@@ -166,8 +166,8 @@
               step1: { title: "أهلاً بك في Teacher Toybox!", content: "هذا هو مركز قيادة الفصل الدراسي الرقمي الخاص بك. لنتصفح بسرعة عناصر التحكم الرئيسية. انقر على \"التالي\" للمتابعة." },
               step2: { title: "إضافة نافذة", content: "هذا الزر يضيف نافذة جديدة. إذا لم تكن هناك نافذة مفتوحة بالفعل، سأنقر عليه من أجلك حتى نتمكن من إلقاء نظرة على أدوات النافذة." },
               step3: { title: "لوحة أدوات النافذة", content: "ممتاز! هذه هي لوحة الأدوات للنافذة الجديدة. تحتوي على أدوات مثل لوحة الرسم ومحرر النصوص." },
-              step4: { title: "لوحة الرسم", content: "على سبيل المثال، النقر على هذا الزر يحول النافذة إلى سبورة تفاعلية. لنجرب ذلك." },
-              step5: { title: "ترتيب شاشتك", content: "هذا الزر يكشف عن تخطيطات محددة مسبقًا. يمكنك تنظيم نوافذك فورًا في شاشة مقسمة، أرباع، والمزيد." },
+              step4: { title: "لوحة الرسم", content: "على سبيل المثال, النقر على هذا الزر يحول النافذة إلى سبورة تفاعلية. لنجرب ذلك." },
+              step5: { title: "ترتيب شاشتك", content: "هذا الزर يكشف عن تخطيطات محددة مسبقًا. يمكنك تنظيم نوافذك فورًا في شاشة مقسمة، أرباع، والمزيد." },
               step6: { title: "تحريك وتغيير الحجم", content: "يمكنك أيضًا سحب هذا الشريط لتحريك النوافذ، وتغيير حجمها من أي حافة أو زاوية." },
               step7: { title: "المساعدة والمصادر", content: "هذه هي الأساسيات! هذا الزر يجمع الجولة، الفيديو التجريبي، والمزيد من المعلومات. انقر على 'إنهاء' لبدء الاستكشاف." }
           }
@@ -176,8 +176,8 @@
           meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعاملی", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعاملی, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
           site: { brand: "Teacher Toybox", subtitle: "تخته سفیدی که توسط معلمان برای معلمان ساخته شده است" },
           lang: { label: "زبان" },
-          btn: { tablet: "پشتیبانی تبلت", "tablet.title": "رفتن به پشتیبانی تبلت", clock: "تغییر ساعت (K)", add: "افزودن پنجره (N)", layouts: "تغییر چیدمان (L)", colour: "رنگ وب سایت (X)", color: "انتخاب رنگ (C)", magic: "استخراج رنگ (M)", themePalette: "پالت تم (Z)", originalColor: "رنگ اصلی", bell: "زنگ (B)", shh: "صدای 'هیس' (S)", "shh.label": "هیس", management: "ابزارهای مدیریت (/)", help: "راهنما (؟)", laser: "اشاره گر لیzری (P)", tour: "شروع تور", demo: "ویدیوی نمایشی", info: "اطلاعات", refresh: "بازخوانی (R)", share: "اشتراک گذاری (J)", feedback: "ارائه بازخورد (F)", coffee: "یک قهوه برایم بخر (Y)", upgrade: "ارتقا به پریمیوم (U)" },
-          layout: { 1: "چیدمان ۱: تمام صفحه (1)", 2: "چیدمان ۲: تقسیم عمودی (2)", 3: "چیدمان ۳: اصلی چپ (3)", 4: "چیدمان ۴: اصلی راست (4)", 5: "چیدمان ۵: چهار ربع (5)", 6: "چیدمان ۶: ستون بلند راست (6)", 7: "چیدمان ۷: ستون ۱-۲-۲ (7)" },
+          btn: { tablet: "پشتیبانی تبلت", "tablet.title": "رفتن به پشتیبانی تبلت", clock: "تغییر ساعت (K)", add: "افزودن پنجره (N)", layouts: "تغییر چیدمان (L)", colour: "رنگ وب سایت (X)", color: "انتخاب رنگ (C)", magic: "استخراج رنگ (M)", themePalette: "پالت تم (Z)", originalColor: "رंग اصلی", bell: "زنگ (B)", shh: "صدای 'هیس' (S)", "shh.label": "هیس", management: "ابزارهای مدیریت (/)", help: "راهنما (؟)", laser: "اشاره گر لیzری (P)", tour: "شروع تور", demo: "ویدیوی نمایشی", info: "اطلاعات", refresh: "بازخوانی (R)", share: "اشتراک گذاری (J)", feedback: "ارائه بازخورد (F)", coffee: "یک قهوه برایم بخر (Y)", upgrade: "ارتقا به پریمیوم (U)" },
+          layout: { 1: "چیدمان ۱: تمام صفحه (1)", 2: "چیدمان ۲: تقسیم عمودی (2)", 3: "چیدمان ۳: اصلی چپ (3)", 4: "چیدمان ۴: اصلی راست (4)", 5: "چیدمان ۵: چهار ربع (5)", 6: "چیدمان ۶: ستون بلند راست (6)", 7: "چیدمان ۷: ستون ۱-۲-2 (7)" },
           panel: {
               upgrade: { title: "پریمیوم شوید", intro: "با باز کردن قفل تمام ابزارهای تعاملی در Teacher Toybox، کلاس درس خود را تقویت کنید!", feature1_title: "باز کردن تمام ابزارها", feature1_desc: "دسترسی فوری به تمام ابزارهای پریمیوم داشته باشید.", feature2_title: "وب کم و دوربین اسناد", feature2_desc: "از وب کم خود برای نمایش های زنده استفاده کنید.", feature3_title: "چرخ و فلک عکس", feature3_desc: "داستان های بصری و نمایش اسلاید جذاب ایجاد کنید.", feature4_title: "بازی سازی دروس", feature4_desc: "از تاس انداز و شمارنده ها برای سرگرم کننده کردن یادگیری استفاده کنید.", feature5_title: "مدیریت زمان", feature5_desc: "با تایمر و کرونومتر به راحتی زمان کلاس را مدیریت کنید.", feature6_title: "کنترل پیشرفته", feature6_desc: "برای تنظیمات عالی، شفافیت را تنظیم کرده و پنجره های خود را لایه بندی کنید.", feature7_title: "ابزارهای آینده", feature7_desc: "به طور خودکار هر ابزار پریمیوم جدیدی را که منتشر می کنیم دریافت کنید.", feature8_title: "حمایت از توسعه", feature8_desc: "کمک کنید تا پلتفرم اصلی برای همه معلمان رایگان بماند.", priceBig: "ماهیانه ۲ دلار", priceSmall: "صورتحساب سالانه ۲۴ دلار" },
               share: { title: "منتشر کنید!" },
@@ -222,7 +222,7 @@
           btn: { tablet: "Поддержка планшета", "tablet.title": "Переключиться на поддержку планшета", clock: "Переключить часы (K)", add: "Добавить окно (N)", layouts: "Переключить макеты (L)", colour: "Цвет сайта (X)", color: "Выбрать цвет (C)", magic: "Извлечь цвет (M)", themePalette: "Палитра тем (Z)", originalColor: "Исходный цвет", bell: "Звонок (B)", shh: "Звук 'тсс' (S)", "shh.label": "Тсс", management: "Инструменты управления (/)", help: "Помощь (?)", laser: "Лазерная указка (P)", tour: "Начать тур", demo: "Демо-видео", info: "Информация", refresh: "Обновить (R)", share: "Поделиться (J)", feedback: "Оставить отзыв (F)", coffee: "Купи мне кофе (Y)", upgrade: "Перейти на Премиум (U)" },
           layout: { 1: "Макет 1: Полный экран (1)", 2: "Макет 2: Вертикальное разделение (2)", 3: "Макет 3: Основной слева (3)", 4: "Макет 4: Основной справа (4)", 5: "Макет 5: Четыре квадранта (5)", 6: "Макет 6: Высокая правая колонка (6)", 7: "Макет 7: Колонка 1-2-2 (7)" },
           panel: {
-              upgrade: { title: "Перейти на Премиум", intro: "Усильте свой класс, разблокировав все интерактивные инструменты в Teacher Toybox!", feature1_title: "Разблокировать все инструменты", feature1_desc: "Получите немедленный доступ ко всем премиум-инструментам.", feature2_title: "Веб-камера и документ-камера", feature2_desc: "Используйте свою веб-камеру для живых демонстраций.", feature3_title: "Фотокарусель", feature3_desc: "Создавайте увлекательные визуальные истории и слайд-шоу.", feature4_title: "Геймифицируйте уроки", feature4_desc: "Используйте игральные кости и счетчики, чтобы сделать обучение увлекательным.", feature5_title: "Управляйте временем", feature5_desc: "Легко управляйте временем в классе с помощью таймеров и секундомеров.", feature6_title: "Расширенное управление", feature6_desc: "Настраивайте прозрачность и слои окон для идеальной настройки.", feature7_title: "Будущие инструменты", feature7_desc: "Автоматически получайте каждый новый премиум-инструмент, который мы выпускаем.", feature8_title: "Поддержите разработку", feature8_desc: "Помогите сохранить основную платформу бесплатной для всех учителей.", priceBig: "$2 в месяц", priceSmall: "$24 ежегодно" },
+              upgrade: { title: "Перейти на Премиум", intro: "Усильте свой класс, разблокировав все интерактивные инструменты в Teacher Toybox!", feature1_title: "Разблокировать все инструменты", feature1_desc: "Получите немедленный доступ ко всем премиум-инструментам.", feature2_title: "Веб-камера и документ-камера", feature2_desc: "Используйте свою веб-камеру для живых демонстраций.", feature3_title: "Фотокарусель", feature3_desc: "Создавайте увлекательные визуальные истории и слайд-шоу.", feature4_title: "Геймифицируйте уроки", feature4_desc: "Используйте игральные кости и счетчики, чтобы сделать обучение увлекательным.", feature5_title: "Управляйте временем", feature5_desc: "Легко управляйте временем в классе с помощью таймеров и секундомеров.", feature6_title: "Расширенное управление", feature6_desc: "Настраивайте прозрачность и слои окон для идеальной настройки.", feature7_title: "Будущие инструменты", feature7_desc: "Автоматически получайте каждый новый премиум-інструмент, который мы выпускаем.", feature8_title: "Поддержите разработку", feature8_desc: "Помогите сохранить основную платформу бесплатной для всех учителей.", priceBig: "$2 в месяц", priceSmall: "$24 ежегодно" },
               share: { title: "Расскажите другим!" },
               feedback: { title: "Оставить отзыв", intro: "Мы хотели бы услышать ваше мнение!", ratingLegend: "Как бы вы оценили свой опыт?", commentsLabel: "Комментарии", commentsPlaceholder: "Расскажите нам, что вам понравилось или что можно было бы улучшить...", submitButton: "Отправить", submitButtonSending: "Отправка...", submitButtonSuccess: "Спасибо!" }
           },
@@ -242,120 +242,81 @@
       try {
         return path.split('.').reduce((o, k) => (o && o[k] !== undefined) ? o[k] : undefined, dict);
       } catch { return undefined; }
-    }
+    };
 
-    function updateMeta(lang) {
-      const dict = I18N[lang] || I18N.en;
-      const title = t(dict, "meta.title"), titleShort = t(dict, "meta.titleShort") || title, desc = t(dict, "meta.description");
-      if (title) document.title = title;
-      if (desc) {
-        const m = document.querySelector('meta[name="description"]'); if (m) m.setAttribute('content', desc);
-        const ogd = document.querySelector('meta[property="og:description"]'); if (ogd) ogd.setAttribute('content', desc);
-        const twd = document.querySelector('meta[name="twitter:description"]'); if (twd) twd.setAttribute('content', desc);
-      }
-      if (titleShort) {
-        const ogt = document.querySelector('meta[property="og:title"]'); if (ogt) ogt.setAttribute('content', titleShort);
-        const twt = document.querySelector('meta[name="twitter:title"]'); if (twt) twt.setAttribute('content', titleShort);
-      }
-    }
-
-    function updateSchema(lang) {
+    function updateUIForLanguage(lang) {
         const dict = I18N[lang] || I18N.en;
-        const schemaEl = document.getElementById('schema-ld');
-        if (!schemaEl) return;
+        
+        // --- 1. Update Document Attributes ---
+        localStorage.setItem('ttx_lang', lang);
+        document.documentElement.lang = lang;
+        document.documentElement.dir = ['ar', 'fa'].includes(lang) ? 'rtl' : 'ltr';
 
-        const name = t(dict, "meta.titleShort");
-        const description = t(dict, "meta.description");
-        const keywords = t(dict, "meta.keywords");
+        // --- 2. Update All Generic Elements ---
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const val = t(dict, el.dataset.i18n);
+            if (typeof val === 'string') {
+                el.textContent = val;
+            }
+        });
+        document.querySelectorAll('[data-i18n-title]').forEach(el => {
+            const val = t(dict, el.dataset.i18nTitle);
+            if (typeof val === 'string') {
+                el.setAttribute('title', val);
+            }
+        });
 
-        try {
-            const schema = JSON.parse(schemaEl.textContent);
-            if (name) schema.name = name;
-            if (description) schema.description = description;
-            if (keywords) schema.keywords = keywords;
-            schemaEl.textContent = JSON.stringify(schema, null, 2);
-        } catch (e) {
-            console.error("Failed to update JSON-LD schema", e);
+        // --- 3. Update Specific/Complex Elements ---
+        const feedbackComment = document.getElementById('feedback-comment');
+        if (feedbackComment) {
+            const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder');
+            if (placeholderText) feedbackComment.setAttribute('placeholder', placeholderText);
         }
-    }
 
-    function applyLang(lang) {
-      const dict = I18N[lang] || I18N.en;
-      localStorage.setItem('ttx_lang', lang);
-      document.documentElement.lang = lang;
+        const shh = document.getElementById('shhButton');
+        if (shh) {
+            const label = t(dict, 'btn.shh.label') || 'Shh';
+            const hk = shh.querySelector('.hotkey-label');
+            shh.innerHTML = label + (hk ? hk.outerHTML : '');
+        }
 
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        const val = t(dict, el.dataset.i18n) || t(I18N.en, el.dataset.i18n);
-        if (typeof val === 'string') el.textContent = val;
-      });
+        // --- 4. Update Meta, Schema, and Other Modules ---
+        const metaTitle = t(dict, "meta.title"), metaTitleShort = t(dict, "meta.titleShort") || metaTitle, metaDesc = t(dict, "meta.description");
+        if (metaTitle) document.title = metaTitle;
+        if (metaDesc) {
+            document.querySelector('meta[name="description"]')?.setAttribute('content', metaDesc);
+            document.querySelector('meta[property="og:description"]')?.setAttribute('content', metaDesc);
+            document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', metaDesc);
+        }
+        if (metaTitleShort) {
+            document.querySelector('meta[property="og:title"]')?.setAttribute('content', metaTitleShort);
+            document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', metaTitleShort);
+        }
 
-      document.querySelectorAll('[data-i18n-title]').forEach(el => {
-        const key = el.dataset.i18nTitle;
-        const val = t(dict, key) || t(I18N.en, key);
-        if (typeof val === 'string') el.setAttribute('title', val);
-      });
-      
-      const feedbackComment = document.getElementById('feedback-comment');
-      if (feedbackComment) {
-          const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder') || t(I18N.en, 'panel.feedback.commentsPlaceholder');
-          if (placeholderText) feedbackComment.setAttribute('placeholder', placeholderText);
-      }
-
-      const shh = document.getElementById('shhButton');
-      if (shh) {
-        const label = t(dict, 'btn.shh.label') || 'Shh';
-        const hk = shh.querySelector('.hotkey-label');
-        shh.innerHTML = label + (hk ? hk.outerHTML : '');
-      }
-
-      const langLabel = document.querySelector('label[for="langSelect"][data-i18n="lang.label"]');
-      if (langLabel) {
-        const s = t(dict, 'lang.label') || 'Language';
-        langLabel.textContent = s;
-      }
-
-      updateMeta(lang);
-      updateSchema(lang);
-      
-      if (global.TT && typeof global.TT.updateDateDisplay === 'function') {
-          global.TT.updateDateDisplay(lang);
-      }
-
-      // NEW: Directly update the info window's language if it is open
-      if (window.TT && typeof window.TT.updateInfoWindowLanguage === 'function') {
-        window.TT.updateInfoWindowLanguage(lang);
-      }
+        const schemaEl = document.getElementById('schema-ld');
+        if (schemaEl) {
+            try {
+                const schema = JSON.parse(schemaEl.textContent);
+                schema.name = t(dict, "meta.titleShort");
+                schema.description = t(dict, "meta.description");
+                schema.keywords = t(dict, "meta.keywords");
+                schemaEl.textContent = JSON.stringify(schema, null, 2);
+            } catch (e) { console.error("Failed to update JSON-LD schema", e); }
+        }
+        
+        if (global.TT?.updateDateDisplay) {
+            global.TT.updateDateDisplay(lang);
+        }
+        if (window.TT?.updateInfoWindowLanguage) {
+            window.TT.updateInfoWindowLanguage(lang);
+        }
     }
 
     async function detectLanguage() {
       const supported = Object.keys(SUPPORTED);
-      const regionMap = {
-        'CZ': 'cs', 'UA': 'uk', 'CN': 'zh', 'HK':'zh', 'MO':'zh', 'TW':'zh', 'SG':'zh', 'MY':'zh',
-        'IN': 'hi', 'ES': 'es', 'MX':'es', 'AR':'es', 'CL':'es', 'CO':'es', 'PE':'es', 'VE':'es', 'UY':'es', 'EC':'es', 'BO':'es', 'PY':'es', 'PA':'es', 'CR':'es', 'NI':'es', 'SV':'es', 'GT':'es', 'HN':'es', 'DO':'es', 'PR':'es',
-        'FR': 'fr', 'BE':'fr', 'CH':'fr', 'CA':'fr', 'LU':'fr', 'AE': 'ar', 'SA':'ar', 'EG':'ar', 'MA':'ar', 'DZ':'ar', 'TN':'ar', 'QA':'ar', 'KW':'ar', 'OM':'ar', 'BH':'ar', 'IQ':'ar', 'JO':'ar', 'LB':'ar', 'LY':'ar', 'SD':'ar', 'YE':'ar',
-        'IR': 'fa', 'PT': 'pt', 'BR':'pt', 'RU': 'ru', 'BY':'ru', 'KZ':'ru', 'KG':'ru',
-        'US':'en', 'GB':'en', 'AU':'en', 'NZ':'en', 'IE':'en', 'ZA':'en', 'PH':'en', 'PK':'en', 'NG':'en', 'KE':'en'
-      };
-
-      try {
-        const response = await fetch('https://ipapi.co/json/');
-        if (!response.ok) throw new Error('IP API request failed');
-        const data = await response.json();
-        const country = data.country_code;
-        if (country && regionMap[country]) {
-          const lang = regionMap[country];
-          if (supported.includes(lang)) {
-            return lang;
-          }
-        }
-      } catch (error) {
-        console.warn('IP-based language detection failed, falling back to browser language.', error);
-      }
-      
-      const nav = (navigator.language || 'en').split('-');
-      const base = (nav[0] || 'en').toLowerCase();
-      if (supported.includes(base)) return base;
-
+      // Basic detection, can be expanded later if needed.
+      const navLang = (navigator.language || 'en').split('-')[0].toLowerCase();
+      if (supported.includes(navLang)) return navLang;
       return 'en';
     }
 
@@ -363,20 +324,16 @@
       const sel = document.getElementById('langSelect');
       if (!sel) return;
       
-      let userInteracted = false;
-      
       sel.innerHTML = '';
       Object.entries(SUPPORTED).forEach(([code, name]) => {
         const opt = document.createElement('option');
-        opt.value = code; opt.textContent = name;
+        opt.value = code;
+        opt.textContent = name;
         sel.appendChild(opt);
       });
-
-      sel.addEventListener('change', (event) => {
-        event.preventDefault(); // Prevent any default browser action
-        event.stopPropagation(); // Stop the event from bubbling up to other listeners
-        userInteracted = true;
-        applyLang(sel.value);
+      
+      sel.addEventListener('change', () => {
+        updateUIForLanguage(sel.value);
       });
       
       const storedLang = localStorage.getItem('ttx_lang');
@@ -386,26 +343,11 @@
           finalLang = storedLang;
       } else {
           finalLang = await detectLanguage();
-          if (userInteracted) return;
       }
       
       sel.value = finalLang;
-      applyLang(finalLang); 
+      updateUIForLanguage(finalLang); 
     }
-
-    document.addEventListener('click', (e) => {
-      if (e.target.id === 'infoButton') {
-        const sel = document.getElementById('langSelect');
-        const chosen = (sel ? sel.value : 'en');
-        setTimeout(() => {
-          const infoSel = document.querySelector('.info-language-selector');
-          if (infoSel) {
-            infoSel.value = chosen;
-            infoSel.dispatchEvent(new Event('change', { bubbles: true }));
-          }
-        }, 50);
-      }
-    });
 
     document.addEventListener('DOMContentLoaded', initPicker);
 })();
