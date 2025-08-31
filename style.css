@@ -248,7 +248,7 @@ body.light-mode.no-grid {
     backdrop-filter: blur(16px) saturate(180%);
     border: 1px solid var(--border-color);
     border-radius: 12px;
-    overflow: hidden;
+    /* overflow: hidden; --- MODIFIED: Removed to allow handles to be visible */
     display: flex;
     flex-direction: column;
     z-index: 1000;
@@ -296,6 +296,8 @@ body.light-mode.no-grid {
     flex-direction: row;
     height: calc(100% - 32px);
     flex-grow: 1;
+    border-radius: 0 0 11px 11px; /* MODIFIED: Keeps content inside rounded corners */
+    overflow: hidden; /* MODIFIED: Keeps content inside rounded corners */
 }
 .win-main-area {
     flex-grow: 1;
@@ -1890,12 +1892,8 @@ body.is-premium #upgradeButton {
     font-size: 1.2rem;
 }
 
-/* --- Corrected: Circular Resize Handles on Hover --- */
-.floating::before,
-.floating::after,
-.floating .win-body::before,
-.floating .win-body::after {
-    content: '';
+/* --- MODIFIED: Interactive Resize Handles on Focus with Delayed Fade-out --- */
+.resize-handle {
     position: absolute;
     width: 14px;
     height: 14px;
@@ -1904,41 +1902,17 @@ body.is-premium #upgradeButton {
     border-radius: 50%;
     z-index: 1002;
     opacity: 0;
-    transition: opacity 0.2s ease-in-out;
-    pointer-events: none; /* Allows clicks to pass through to the resize logic */
+    /* This transition applies when the handle fades OUT */
+    transition: opacity 1s ease-in-out 1s;
 }
 
-.floating:hover::before,
-.floating:hover::after,
-.floating:hover .win-body::before,
-.floating:hover .win-body::after {
+.floating.active-window .resize-handle {
     opacity: 1;
+    /* This transition applies when the handle fades IN */
+    transition: opacity 0.2s ease-in-out;
 }
 
-/* Top-left corner */
-.floating::before {
-    top: 2px;
-    left: 2px;
-    cursor: nwse-resize;
-}
-
-/* Top-right corner */
-.floating::after {
-    top: 2px;
-    right: 2px;
-    cursor: nesw-resize;
-}
-
-/* Bottom-left corner */
-.floating .win-body::before {
-    bottom: 2px;
-    left: 2px;
-    cursor: nesw-resize;
-}
-
-/* Bottom-right corner */
-.floating .win-body::after {
-    bottom: 2px;
-    right: 2px;
-    cursor: nwse-resize;
-}
+.handle-nw { top: -7px; left: -7px; cursor: nwse-resize; }
+.handle-ne { top: -7px; right: -7px; cursor: nesw-resize; }
+.handle-sw { bottom: -7px; left: -7px; cursor: nesw-resize; }
+.handle-se { bottom: -7px; right: -7px; cursor: nwse-resize; }
