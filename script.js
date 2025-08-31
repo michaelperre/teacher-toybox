@@ -418,8 +418,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         } else {
-            cont.textContent = 'Unsupported file';
-            cont.style.color = 'white';
+            // NEW: Show temporary message for unsupported files
+            const msg = document.createElement('div');
+            msg.className = 'unsupported-file-message';
+            msg.textContent = "Oops! This file type isn't supported. Please upload a different file format.";
+            mainArea.appendChild(msg);
+
+            setTimeout(() => {
+                win.querySelector('.reset-content-btn')?.click();
+            }, 2000);
+            return; // Stop further execution
         }
         mainArea.appendChild(cont);
     }
@@ -1344,7 +1352,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let dx, dy;
         bar.onpointerdown = e => {
-            if (e.target.closest('button, .tool-controls, input, .draw-controls-bar, .window-management-controls')) return;
+            if (e.target.closest('button, .tool-controls, input, .draw-controls-bar, .window-management-controls, .resize-handle')) return;
             e.stopPropagation();
             
             win.classList.remove('snapped-window');
@@ -1376,28 +1384,11 @@ document.addEventListener('DOMContentLoaded', () => {
             document.addEventListener('pointerup', up);
         };
         
-        const resizeHandleSize = 10;
-        let isResizing = false;
-        let resizeDirection = '';
-
-        win.addEventListener('pointerdown', e => {
-            const rect = win.getBoundingClientRect();
-            const onTopEdge = e.clientY >= rect.top && e.clientY <= rect.top + resizeHandleSize;
-            const onBottomEdge = e.clientY <= rect.bottom && e.clientY >= rect.bottom - resizeHandleSize;
-            const onLeftEdge = e.clientX >= rect.left && e.clientX <= rect.left + resizeHandleSize;
-            const onRightEdge = e.clientX <= rect.right && e.clientX >= rect.right - resizeHandleSize;
-
-            if (!onTopEdge && !onBottomEdge && !onLeftEdge && !onRightEdge) return;
-
-            isResizing = true;
-            resizeDirection = '';
-            if (onTopEdge) resizeDirection += 'n';
-            if (onBottomEdge) resizeDirection += 's';
-            if (onLeftEdge) resizeDirection += 'w';
-            if (onRightEdge) resizeDirection += 'e';
-
+        // --- NEW: Resize logic initiated by handles ---
+        function initResize(e, resizeDirection) {
             e.preventDefault();
-
+            e.stopPropagation();
+            
             let lastX = e.clientX;
             let lastY = e.clientY;
 
@@ -1424,29 +1415,33 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             function stopResize() {
-                isResizing = false;
                 document.removeEventListener('pointermove', doResize);
                 document.removeEventListener('pointerup', stopResize);
             }
 
             document.addEventListener('pointermove', doResize);
             document.addEventListener('pointerup', stopResize);
-        });
+        }
 
-        win.addEventListener('mousemove', e => {
-            if (isResizing) return;
-            const rect = win.getBoundingClientRect();
-            const onTopEdge = e.clientY >= rect.top && e.clientY <= rect.top + resizeHandleSize;
-            const onBottomEdge = e.clientY <= rect.bottom && e.clientY >= rect.bottom - resizeHandleSize;
-            const onLeftEdge = e.clientX >= rect.left && e.clientX <= rect.left + resizeHandleSize;
-            const onRightEdge = e.clientX <= rect.right && e.clientX >= rect.right - resizeHandleSize;
-            
-            if ((onTopEdge && onLeftEdge) || (onBottomEdge && onRightEdge)) win.style.cursor = 'nwse-resize';
-            else if ((onTopEdge && onRightEdge) || (onBottomEdge && onLeftEdge)) win.style.cursor = 'nesw-resize';
-            else if (onTopEdge || onBottomEdge) win.style.cursor = 'ns-resize';
-            else if (onLeftEdge || onRightEdge) win.style.cursor = 'ew-resize';
-            else win.style.cursor = 'default';
-        });
+        // --- NEW: Create and append handle elements ---
+        const handleNW = document.createElement('div');
+        handleNW.className = 'resize-handle handle-nw';
+        handleNW.addEventListener('pointerdown', e => initResize(e, 'nw'));
+        
+        const handleNE = document.createElement('div');
+        handleNE.className = 'resize-handle handle-ne';
+        handleNE.addEventListener('pointerdown', e => initResize(e, 'ne'));
+        
+        const handleSW = document.createElement('div');
+        handleSW.className = 'resize-handle handle-sw';
+        handleSW.addEventListener('pointerdown', e => initResize(e, 'sw'));
+        
+        const handleSE = document.createElement('div');
+        handleSE.className = 'resize-handle handle-se';
+        handleSE.addEventListener('pointerdown', e => initResize(e, 'se'));
+        
+        win.append(handleNW, handleNE, handleSW, handleSE);
+
 
         const opacitySlider = document.createElement('input');
         opacitySlider.type = 'range';
@@ -1632,6 +1627,9 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>`;
         mainArea.appendChild(dropZone);
+        
+        // NEW: Add click listener to dropZone
+        dropZone.onclick = () => fileInput.click();
 
         document.body.appendChild(win);
         return win;
@@ -2702,4 +2700,3 @@ function openDemoModal() {
         }, 100);
     }
 });
-

@@ -565,8 +565,9 @@ footer p {
     text-align: center;
     color: var(--text-secondary);
     transition: all 0.2s ease-in-out;
-    pointer-events: none;
     padding: 16px;
+    cursor: pointer; /* MODIFIED: Added */
+    /* pointer-events: none; --- MODIFIED: Removed */
 }
 .drop-zone-inner {
     display: flex;
@@ -1505,6 +1506,17 @@ body.light-mode #feedback-comment {
 .floating[data-tool="draw"] .drag-bar {
     justify-content: flex-end;
 }
+
+/* --- Unsupported File Message --- */
+.unsupported-file-message {
+    color: var(--text-primary);
+    background-color: var(--danger-color);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
 
 /* --- Color Palette Styles --- */
 #color-palette {
