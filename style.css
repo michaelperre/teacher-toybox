@@ -204,6 +204,9 @@ body.light-mode.no-grid {
     align-items: center;
 }
 
+
+/* --- Animation for Toolbar Appearance --- */
+/* This section handles the slide-out and fade-in of the toolbar panels. */
 #extra-tools-bar,
 #layout-bar,
 #management-bar,
@@ -235,6 +238,7 @@ body.light-mode.no-grid {
     pointer-events: auto;
 }
 
+/* This section animates the buttons inside the toolbars as they appear. */
 #extra-tools-bar .btn,
 #layout-bar .btn,
 #management-bar .btn,
@@ -253,6 +257,7 @@ body.light-mode.no-grid {
     transform: translateX(0);
 }
 
+/* Staggered animation for buttons within toolbars */
 #extra-tools-bar.open .btn:nth-child(1),
 #layout-bar.open .btn:nth-child(1),
 #management-bar.open .btn:nth-child(1),
@@ -276,6 +281,8 @@ body.light-mode.no-grid {
 #layout-bar.open .btn:nth-child(7) { transition-delay: 0.28s; }
 
 
+/* --- Animation for New Window Entry --- */
+/* The 'animation' property calls the '@keyframes windowEntry' rule below. */
 .floating {
     position: absolute;
     background: var(--window-bg);
@@ -1529,6 +1536,7 @@ body.light-mode #feedback-comment {
     to   { opacity: 1; }
 }
 
+/* This defines the animation for new windows, making them fade and scale in. */
 @keyframes windowEntry {
     from {
       opacity: 0;
