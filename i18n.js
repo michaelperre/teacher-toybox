@@ -71,7 +71,7 @@
           meta: { title: "Teacher Toybox | Безкоштовна інтерактивна дошка для вчителів", titleShort: "Teacher Toybox | Інтерактивна дошка", description: "Teacher Toybox — це безкоштовна інтерактивна цифрова дошка з таймерами, кубиками та іншим, щоб зробити уроки захоплюючими. Встановлення не потрібне.", keywords: "цифрова дошка, інтерактивна дошка, інструменти для вчителів, ресурси для класу, безкоштовні інструменти для вчителів, онлайн-таймер, класні заходи, освіта" },
           site: { brand: "Teacher Toybox", subtitle: "Дошка, створена вчителями для вчителів." },
           lang: { label: "Мова" },
-          btn: { tablet: "Підтримка планшета", "tablet.title": "Перейти на підтримку планшета", clock: "Переключити годинник (K)", add: "Додати вікно (N)", layouts: "Переключити макети (L)", colour: "Колір сайту (X)", color: "Вибрати колір (C)", magic: "Витягти колір (M)", themePalette: "Палітра тем (Z)", originalColor: "Оригінальний колір", bell: "Дзвоник (B)", shh: "Звук 'тсс' (S)", "shh.label": "Тсс", management: "Інструменти управління (/)", help: "Допомога (?)", laser: "Лазерна указка (P)", tour: "Почати тур", demo: "Демо-відео", info: "Інформація", refresh: "Оновити (R)", share: "Поділитися (J)", feedback: "Відгук (F)", coffee: "Пригостити кавою (Y)", upgrade: "Оновити до Premium (U)" },
+          btn: { tablet: "Підтримка планшета", "tablet.title": "Перейти na підтримку планшета", clock: "Переключити годинник (K)", add: "Додати вікно (N)", layouts: "Переключити макети (L)", colour: "Колір сайту (X)", color: "Вибрати колір (C)", magic: "Витягти колір (M)", themePalette: "Палітра тем (Z)", originalColor: "Оригінальний колір", bell: "Дзвоник (B)", shh: "Звук 'тсс' (S)", "shh.label": "Тсс", management: "Інструменти управління (/)", help: "Допомога (?)", laser: "Лазерна указка (P)", tour: "Почати тур", demo: "Демо-відео", info: "Інформація", refresh: "Оновити (R)", share: "Поділитися (J)", feedback: "Відгук (F)", coffee: "Пригостити кавою (Y)", upgrade: "Оновити до Premium (U)" },
           layout: { 1: "Макет 1: Повний екран (1)", 2: "Макет 2: Вертикальний поділ (2)", 3: "Макет 3: Основний зліва (3)", 4: "Макет 4: Основний справа (4)", 5: "Макет 5: Чотири квадранти (5)", 6: "Макет 6: Високий правий стовпець (6)", 7: "Макет 7: Стовпець 1-2-2 (7)" },
           panel: {
               upgrade: { title: "Перейти на Premium", intro: "Покращіть свій клас, розблокувавши всі інтерактивні інструменти в Teacher Toybox!", feature1_title: "Розблокувати всі інструменти", feature1_desc: "Отримайте негайний доступ до всіх преміум-інструментів.", feature2_title: "Веб-камера та документ-камера", feature2_desc: "Використовуйте веб-камеру для живих демонстрацій.", feature3_title: "Карусель фотографій", feature3_desc: "Створюйте захоплюючі візуальні історії та слайд-шоу.", feature4_title: "Гейміфікуйте уроки", feature4_desc: "Використовуйте кубики та лічильники, щоб зробити навчання веселим.", feature5_title: "Керуйте часом", feature5_desc: "Легко керуйте часом у класі за допомогою таймерів та секундомірів.", feature6_title: "Розширений контроль", feature6_desc: "Налаштовуйте прозорість та шари вікон для ідеального налаштування.", feature7_title: "Майбутні інструменти", feature7_desc: "Автоматично отримуйте кожен новий преміум-інструмент, який ми випускаємо.", feature8_title: "Підтримайте розробку", feature8_desc: "Допоможіть зберегти основну платформу безкоштовною для всіх вчителів.", priceBig: "$2 на місяць", priceSmall: "$24 щорічно" },
@@ -173,7 +173,7 @@
           }
       },
       fa: {
-          meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعاملی", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعامली, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
+          meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعاملی", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعاملی, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
           site: { brand: "Teacher Toybox", subtitle: "تخته سفیدی که توسط معلمان برای معلمان ساخته شده است" },
           lang: { label: "زبان" },
           btn: { tablet: "پشتیبانی تبلت", "tablet.title": "رفتن به پشتیبانی تبلت", clock: "تغییر ساعت (K)", add: "افزودن پنجره (N)", layouts: "تغییر چیدمان (L)", colour: "رنگ وب سایت (X)", color: "انتخاب رنگ (C)", magic: "استخراج رنگ (M)", themePalette: "پالت تم (Z)", originalColor: "رنگ اصلی", bell: "زنگ (B)", shh: "صدای 'هیس' (S)", "shh.label": "هیس", management: "ابزارهای مدیریت (/)", help: "راهنما (؟)", laser: "اشاره گر لیzری (P)", tour: "شروع تور", demo: "ویدیوی نمایشی", info: "اطلاعات", refresh: "بازخوانی (R)", share: "اشتراک گذاری (J)", feedback: "ارائه بازخورد (F)", coffee: "یک قهوه برایم بخر (Y)", upgrade: "ارتقا به پریمیوم (U)" },
@@ -333,7 +333,7 @@
         'IN': 'hi', 'ES': 'es', 'MX':'es', 'AR':'es', 'CL':'es', 'CO':'es', 'PE':'es', 'VE':'es', 'UY':'es', 'EC':'es', 'BO':'es', 'PY':'es', 'PA':'es', 'CR':'es', 'NI':'es', 'SV':'es', 'GT':'es', 'HN':'es', 'DO':'es', 'PR':'es',
         'FR': 'fr', 'BE':'fr', 'CH':'fr', 'CA':'fr', 'LU':'fr', 'AE': 'ar', 'SA':'ar', 'EG':'ar', 'MA':'ar', 'DZ':'ar', 'TN':'ar', 'QA':'ar', 'KW':'ar', 'OM':'ar', 'BH':'ar', 'IQ':'ar', 'JO':'ar', 'LB':'ar', 'LY':'ar', 'SD':'ar', 'YE':'ar',
         'IR': 'fa', 'PT': 'pt', 'BR':'pt', 'RU': 'ru', 'BY':'ru', 'KZ':'ru', 'KG':'ru',
-        'US':'en', 'GB':'en', 'AU':'en', 'NZ':'en', 'IE':'en', 'ZA':'en', 'PH':'en', 'PK':'en', 'NG':'en', 'KE':'en'
+        'US':'en', 'GB':'en', 'AU':'en', 'NZ':'en', 'IE':'en', 'ZA':'en', 'ph':'en', 'pk':'en', 'ng':'en', 'ke':'en'
       };
 
       try {
@@ -369,10 +369,10 @@
         sel.appendChild(opt);
       });
 
-      // FINAL FIX: Use event capturing to ensure this listener fires first.
+      // FINAL FIX: This listener ensures real-time changes work reliably.
       sel.addEventListener('change', () => {
         applyLang(sel.value);
-      }, true);
+      }, true); // Use event capturing
       
       const storedLang = localStorage.getItem('ttx_lang');
       let finalLang;
@@ -383,6 +383,7 @@
           finalLang = await detectLanguage();
       }
       
+      // This ensures the dropdown visually matches the loaded language.
       const optionToSelect = sel.querySelector(`option[value="${finalLang}"]`);
       if (optionToSelect) {
           optionToSelect.selected = true;
@@ -392,20 +393,6 @@
 
       applyLang(finalLang); 
     }
-
-    document.addEventListener('click', (e) => {
-      if (e.target.id === 'infoButton') {
-        const sel = document.getElementById('langSelect');
-        const chosen = (sel ? sel.value : 'en');
-        setTimeout(() => {
-          const infoSel = document.querySelector('.info-language-selector');
-          if (infoSel) {
-            infoSel.value = chosen;
-            infoSel.dispatchEvent(new Event('change', { bubbles: true }));
-          }
-        }, 50);
-      }
-    });
 
     document.addEventListener('DOMContentLoaded', initPicker);
 })();
