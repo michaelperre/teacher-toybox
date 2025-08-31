@@ -158,7 +158,7 @@
           btn: { tablet: "دعم الجهاز اللوحي", "tablet.title": "التبديل إلى دعم الجهاز اللوحي", clock: "تبديل الساعة (K)", add: "إضافة نافذة جديدة (N)", layouts: "تبديل التخطيطات (L)", colour: "لون الموقع (X)", color: "تحديد لون (C)", magic: "استخراج اللون (M)", themePalette: "لوحة السمات (Z)", originalColor: "اللون الأصلي", bell: "رنين الجرس (B)", shh: "صوت 'صه' (S)", "shh.label": "صه", management: "أدوات الإدارة (/)", help: "مساعدة (؟)", laser: "مؤشر الليزر (P)", tour: "بدء الجولة", demo: "فيديو تجريبي", info: "معلومات", refresh: "تحديث (R)", share: "مشاركة (J)", feedback: "تقديم ملاحظات (F)", coffee: "اشتر لي قهوة (Y)", upgrade: "الترقية إلى بريميوم (U)" },
           layout: { 1: "التخطيط 1: ملء الشاشة (1)", 2: "التخطيط 2: تقسيم عمودي (2)", 3: "التخطيط 3: الرئيسي على اليسار (3)", 4: "التخطيط 4: الرئيسي على اليمين (4)", 5: "التخطيط 5: أربعة أرباع (5)", 6: "التخطيط 6: عمود أيمن طويل (6)", 7: "التخطيط 7: عمود 1-2-2 (7)" },
           panel: {
-              upgrade: { title: "انتقل إلى بريميوم", intro: "قم بتعزيز فصلك الدراسي عن طريق فتح كل أداة تفاعلية في Teacher Toybox!", feature1_title: "فتح جميع الأدوات", feature1_desc: "احصل على وصول فوري إلى كل أداة متميزة.", feature2_title: "كاميرا الويب وكاميرا المستندات", feature2_desc: "استخدم كاميرا الويب الخاصة بك للعروض التوضيحية الحية.", feature3_title: "دائري الصور", feature3_desc: "أنشئ قصصًا مرئية وعروض شرائح جذابة.", feature4_title: "أضف طابع الألعاب على الدروس", feature4_desc: "استخدم أداة رمي النرد والعدادات لجعل التعلم ممتعًا.", feature5_title: "إدارة الوقت", feature5_desc: "إدارة وقت الفصل بسهولة باستخدام المؤقتات وساعات الإيقاف.", feature6_title: "تحكم متقدم", feature6_desc: "اضبط العتامة وقم بوضع طبقات على نوافذك للحصول على إعداد مثالي.", feature7_title: "أدوات مستقبلية", feature7_desc: "احصل تلقائيًا על כל أداة متميزة جديدة نصدرها.", feature8_title: "دعم التطوير", feature8_desc: "ساعد في الحفاظ على النظام الأساسي مجانيًا لجميع المعلمين.", priceBig: "$2 شهريًا", priceSmall: "فاتورة سنوية بقيمة 24 دولارًا" },
+              upgrade: { title: "انتقل إلى بريميوم", intro: "قم بتعزيز فصلك الدراسي عن طريق فتح كل أداة تفاعلية في Teacher Toybox!", feature1_title: "فتح جميع الأدوات", feature1_desc: "احصل على وصول فوري إلى كل أداة متميزة.", feature2_title: "كاميرا الويب وكاميرا المستندات", feature2_desc: "استخدم كاميرا الويب الخاصة بك للعروض التوضيحية الحية.", feature3_title: "دائري الصور", feature3_desc: "أنشئ قصصًا مرئية وعروض شرائح جذابة.", feature4_title: "أضف طابع الألعاب على الدروس", feature4_desc: "استخدم أداة رمي النرد والعدادات لجعل التعلم ممتعًا.", feature5_title: "إدارة الوقت", feature5_desc: "إدارة وقت الفصل بسهولة باستخدام المؤقتات وساعات الإيقاف.", feature6_title: "تحكم متقدم", feature6_desc: "اضبط العتامة وقم بوضع طبقات على نوافذك للحصول على إعداد مثالي.", feature7_title: "أدوات مستقبلية", feature7_desc: "احصل تلقائيًا على كل أداة متميزة جديدة نصدرها.", feature8_title: "دعم التطوير", feature8_desc: "ساعد في الحفاظ على النظام الأساسي مجانيًا لجميع المعلمين.", priceBig: "$2 شهريًا", priceSmall: "فاتورة سنوية بقيمة 24 دولارًا" },
               share: { title: "انشر الخبر!" },
               feedback: { title: "تقديم ملاحظات", intro: "يسعدنا أن نسمع أفكارك!", ratingLegend: "كيف تقيم تجربتك؟", commentsLabel: "تعليقات", commentsPlaceholder: "أخبرنا بما أعجبك أو ما يمكن تحسينه ...", submitButton: "إرسال", submitButtonSending: "جار الإرسال ...", submitButtonSuccess: "شكرًا لك!" }
           },
@@ -173,7 +173,7 @@
           }
       },
       fa: {
-          meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعاملی", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعاملی, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
+          meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعاملی", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعامली, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
           site: { brand: "Teacher Toybox", subtitle: "تخته سفیدی که توسط معلمان برای معلمان ساخته شده است" },
           lang: { label: "زبان" },
           btn: { tablet: "پشتیبانی تبلت", "tablet.title": "رفتن به پشتیبانی تبلت", clock: "تغییر ساعت (K)", add: "افزودن پنجره (N)", layouts: "تغییر چیدمان (L)", colour: "رنگ وب سایت (X)", color: "انتخاب رنگ (C)", magic: "استخراج رنگ (M)", themePalette: "پالت تم (Z)", originalColor: "رنگ اصلی", bell: "زنگ (B)", shh: "صدای 'هیس' (S)", "shh.label": "هیس", management: "ابزارهای مدیریت (/)", help: "راهنما (؟)", laser: "اشاره گر لیzری (P)", tour: "شروع تور", demo: "ویدیوی نمایشی", info: "اطلاعات", refresh: "بازخوانی (R)", share: "اشتراک گذاری (J)", feedback: "ارائه بازخورد (F)", coffee: "یک قهوه برایم بخر (Y)", upgrade: "ارتقا به پریمیوم (U)" },
@@ -369,10 +369,10 @@
         sel.appendChild(opt);
       });
 
-      // FINAL FIX: This listener now correctly updates the page in real-time.
+      // FINAL FIX: Use event capturing to ensure this listener fires first.
       sel.addEventListener('change', () => {
         applyLang(sel.value);
-      });
+      }, true);
       
       const storedLang = localStorage.getItem('ttx_lang');
       let finalLang;
@@ -383,7 +383,6 @@
           finalLang = await detectLanguage();
       }
       
-      // This ensures the dropdown visually matches the loaded language.
       const optionToSelect = sel.querySelector(`option[value="${finalLang}"]`);
       if (optionToSelect) {
           optionToSelect.selected = true;
