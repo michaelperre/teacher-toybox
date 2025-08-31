@@ -384,13 +384,10 @@
           finalLang = await detectLanguage();
       }
       
-      // This ensures the dropdown visually matches the loaded language.
-      const optionToSelect = sel.querySelector(`option[value="${finalLang}"]`);
-      if (optionToSelect) {
-          optionToSelect.selected = true;
-      } else {
-          sel.value = finalLang;
-      }
+      // --- FIX ---
+      // This more directly sets the select element's value, which is more reliable
+      // than querying for the option and setting its 'selected' property.
+      sel.value = finalLang;
 
       applyLang(finalLang); 
     }
