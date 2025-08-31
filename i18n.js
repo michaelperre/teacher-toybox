@@ -8,10 +8,20 @@
           meta: { title: "Teacher Toybox | Free Interactive Digital Whiteboard for Classrooms", titleShort: "Teacher Toybox | Interactive Whiteboard", description: "Teacher Toybox is a free interactive digital whiteboard with timers, dice and more to make lessons engaging. No installation required.", keywords: "digital whiteboard, interactive whiteboard, teacher tools, classroom resources, free teacher tools, online timer, classroom activities, education" },
           site: { brand: "Teacher Toybox", subtitle: "A whiteboard built by teachers for teachers." },
           lang: { label: "Language" },
-          btn: { tablet: "Tablet Edition", "tablet.title": "Switch to Tablet Edition", clock: "Toggle Live Clock (K)", add: "Add New Window (N)", layouts: "Toggle Layouts (L)", colour: "Website Colour (X)", color: "Select Accent Color (C)", magic: "Extract Color from Content (M)", themePalette: "Theme Palette (Z)", originalColor: "Original Colour", bell: "Ring Bell (B)", shh: "Shush Sound (S)", "shh.label": "Shh", management: "Classroom Management Tools (/)", help: "Help & Resources (?)", laser: "Toggle Laser Pointer (P)", tour: "Start Guided Tour", demo: "Show Demo Video", info: "Show Information", refresh: "Refresh Page (R)", share: "Share with a Friend (J)", feedback: "Provide Feedback (F)", coffee: "Buy Me a Coffee (Y)", upgrade: "Upgrade to Premium (U)" },
+          btn: { tablet: "Tablet Edition", "tablet.title": "Switch to Tablet Edition", clock: "Toggle Live Clock (K)", add: "Add New Window (N)", layouts: "Toggle Layouts (L)", colour: "Website Colour (X)", color: "Select Accent Color (C)", magic: "Extract Color from Content (M)", themePalette: "Theme Palette (Z)", originalColor: "Original Colour", bell: "Ring Bell (B)", shh: "Shush Sound (S)", "shh.label": "Shh", management: "Classroom Management Tools (/)", help: "Help & Resources (?)", laser: "Toggle Laser Pointer (P)", tour: "Start Guided Tour", demo: "Show Demo Video", info: "Show Information", contact: "Contact Us", refresh: "Refresh Page (R)", share: "Share with a Friend (J)", feedback: "Provide Feedback (F)", coffee: "Buy Me a Coffee (Y)", upgrade: "Upgrade to Premium (U)" },
           layout: { 1: "Layout 1: Full Screen (1)", 2: "Layout 2: Split Vertical (2)", 3: "Layout 3: Main Left (3)", 4: "Layout 4: Main Right (4)", 5: "Layout 5: Four Quadrants (5)", 6: "Layout 6: Tall Right Column (6)", 7: "Layout 7: 1-2-2 Column (7)" },
           panel: {
               upgrade: { title: "Go Premium", intro: "Supercharge your classroom by unlocking every interactive tool in the Teacher Toybox!", feature1_title: "Unlock All Tools", feature1_desc: "Get immediate access to every premium tool.", feature2_title: "Webcam & Document Camera", feature2_desc: "Use your webcam for live demonstrations.", feature3_title: "Photo Carousel", feature3_desc: "Create engaging visual stories and slideshows.", feature4_title: "Gamify Lessons", feature4_desc: "Use the Dice Roller and Counters to make learning fun.", feature5_title: "Manage Time", feature5_desc: "Effortlessly manage classroom time with timers and stopwatches.", feature6_title: "Advanced Control", feature6_desc: "Adjust opacity and layer your windows for the perfect setup.", feature7_title: "Future Tools", feature7_desc: "Automatically get every new premium tool we release.", feature8_title: "Support Development", feature8_desc: "Help keep the core platform free for all teachers." },
+              contact: {
+                title: "Contact Us",
+                intro: "Have a question or a suggestion? We'd love to hear from you.",
+                nameLabel: "Your Name",
+                emailLabel: "Your Email",
+                messageLabel: "Message",
+                submitButton: "Send Message",
+                submitButtonSending: "Sending...",
+                submitButtonSuccess: "Message Sent!"
+              },
               share: { title: "Spread the Word!" },
               feedback: { title: "Provide Feedback", intro: "We'd love to hear your thoughts!", ratingLegend: "How would you rate your experience?", commentsLabel: "Comments", commentsPlaceholder: "Tell us what you liked or what could be improved...", submitButton: "Submit", submitButtonSending: "Sending...", submitButtonSuccess: "Thank You!" }
           },
@@ -173,7 +183,7 @@
           }
       },
       fa: {
-          meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعامли", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعاملی, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
+          meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعاملی", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعاملی, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
           site: { brand: "Teacher Toybox", subtitle: "تخته سفیدی که توسط معلمان برای معلمان ساخته شده است." },
           lang: { label: "زبان" },
           btn: { tablet: "نسخه تبلت", "tablet.title": "رفتن به نسخه تبلت", clock: "تغییر ساعت (K)", add: "افزودن پنجره (N)", layouts: "تغییر چیدمان (L)", colour: "رنگ وب سایت (X)", color: "انتخاب رنگ (C)", magic: "استخراج رنگ (M)", themePalette: "پالت تم (Z)", originalColor: "رنگ اصلی", bell: "زنگ (B)", shh: "صدای 'هیس' (S)", "shh.label": "هیس", management: "ابزارهای مدیریت (/)", help: "راهنما (؟)", laser: "اشاره گر لیzری (P)", tour: "شروع تور", demo: "ویدیوی نمایشی", info: "اطلاعات", refresh: "بازخوانی (R)", share: "اشتراک گذاری (J)", feedback: "ارائه بازخورد (F)", coffee: "یک قهوه برایم بخر (Y)", upgrade: "ارتقا به پریمیوم (U)" },

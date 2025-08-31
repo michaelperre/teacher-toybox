@@ -2385,6 +2385,72 @@ document.addEventListener('DOMContentLoaded', () => {
     if (closePolicyBtn) closePolicyBtn.onclick = closePolicyPanel;
     if (policyBackdrop) policyBackdrop.onclick = closePolicyPanel;
 
+    // --- START: Contact Us Panel ---
+    const contactButton = $('contactButton');
+    const contactPanel = $('contact-panel');
+    const contactBackdrop = $('contact-backdrop');
+    const closeContactBtn = $('close-contact-btn');
+    const contactForm = $('contact-form');
+
+    function openContactPanel() {
+        if(contactBackdrop && contactPanel) {
+            contactBackdrop.classList.remove('hidden');
+            contactPanel.classList.add('open');
+        }
+    }
+
+    function closeContactPanel() {
+        if(contactPanel && contactBackdrop) {
+            contactPanel.classList.remove('open');
+            contactBackdrop.classList.add('hidden');
+        }
+    }
+
+    if (contactButton) contactButton.onclick = openContactPanel;
+    if (closeContactBtn) closeContactBtn.onclick = closeContactPanel;
+    if (contactBackdrop) contactBackdrop.onclick = closeContactPanel;
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const submitBtn = $('submit-contact-btn');
+            const formData = new FormData(contactForm);
+            const currentLang = localStorage.getItem('ttx_lang') || 'en';
+    
+            submitBtn.disabled = true;
+            submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButtonSending') || 'Sending...';
+    
+            try {
+                // IMPORTANT: Replace with your new Formspree endpoint for support@teachertoybox.com
+                const response = await fetch('https://formspree.io/f/YOUR_NEW_ENDPOINT', {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (response.ok) {
+                    submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButtonSuccess') || 'Message Sent!';
+                    submitBtn.style.backgroundColor = 'var(--success-color)';
+                    contactForm.reset();
+                    setTimeout(() => {
+                        closeContactPanel();
+                        // Reset button after a delay
+                        setTimeout(() => {
+                             submitBtn.disabled = false;
+                             submitBtn.style.backgroundColor = '';
+                             submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButton') || 'Send Message';
+                        }, 500);
+                    }, 2000);
+                } else { throw new Error('Form submission failed'); }
+            } catch (error) {
+                console.error('Error submitting contact form:', error);
+                alert('Sorry, there was an error sending your message.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButton') || 'Send Message';
+            }
+        });
+    }
+    // --- END: Contact Us Panel ---
+
 
     document.addEventListener('keydown', e => {
         const activeWin = document.querySelector('.floating.active-window');
@@ -2621,8 +2687,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const isClickInsideFeedbackPanel = e.target.closest('#feedback-panel');
         const isClickInsideUpgradePanel = e.target.closest('#upgrade-panel');
         const isClickInsidePolicyPanel = e.target.closest('#policy-panel');
+        const isClickInsideContactPanel = e.target.closest('#contact-panel'); // Add this line
 
-        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel && !isClickInsidePolicyPanel) {
+        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel && !isClickInsidePolicyPanel && !isClickInsideContactPanel) { // And here
             if($('layout-bar')) $('layout-bar').classList.remove('open');
             if($('management-bar')) $('management-bar').classList.remove('open');
             if($('extra-tools-bar')) $('extra-tools-bar').classList.remove('open');
@@ -2631,6 +2698,7 @@ document.addEventListener('DOMContentLoaded', () => {
             closeUpgradePanel();
             closeFeedbackPanel();
             closePolicyPanel();
+            closeContactPanel(); // And here
             
             document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
                 if (p) p.classList.add('hidden');

@@ -261,6 +261,9 @@
             <button class="btn" data-i18n-title="btn.feedback" id="feedbackButton" title="Provide Feedback (F)">
                 <i class="fa-regular fa-comment-dots"></i><span class="hotkey-label">F</span>
             </button>
+            <button class="btn" data-i18n-title="btn.contact" id="contactButton" title="Contact Us">
+                <i class="fa-regular fa-envelope"></i>
+            </button>
             <a class="btn" data-i18n-title="btn.tablet.title" href="mobile.html" id="tabletLinkButton" target="_blank" title="Switch to Tablet Support">
               <i class="fa-solid fa-tablet-screen-button"></i>
               <span data-i18n="btn.tablet" style="line-height: 1; font-size: 10px;">Tablet Support</span>
@@ -305,6 +308,28 @@
             <textarea id="feedback-comment" rows="5" placeholder="Tell us what you liked or what could be improved..."></textarea>
         </div>
         <button id="submit-feedback-btn" class="submit-btn" data-i18n="panel.feedback.submitButton">Submit</button>
+    </div>
+
+    <div id="contact-backdrop" class="hidden"></div>
+    <div id="contact-panel">
+        <button id="close-contact-btn" title="Close">&times;</button>
+        <h3 data-i18n="panel.contact.title">Contact Us</h3>
+        <p data-i18n="panel.contact.intro">Have a question or a suggestion? We'd love to hear from you.</p>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="contact-name" data-i18n="panel.contact.nameLabel">Your Name</label>
+                <input type="text" id="contact-name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-email" data-i18n="panel.contact.emailLabel">Your Email</label>
+                <input type="email" id="contact-email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-message" data-i18n="panel.contact.messageLabel">Message</label>
+                <textarea id="contact-message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" id="submit-contact-btn" class="submit-btn" data-i18n="panel.contact.submitButton">Send Message</button>
+        </form>
     </div>
 
     <div id="policy-backdrop" class="hidden"></div>

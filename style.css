@@ -274,7 +274,8 @@ body.light-mode.no-grid {
 #help-bar.open .btn:nth-child(3) { transition-delay: 0.12s; }
 
 #extra-tools-bar.open .btn:nth-child(4),
-#layout-bar.open .btn:nth-child(4) { transition-delay: 0.16s; }
+#layout-bar.open .btn:nth-child(4),
+#help-bar.open .btn:nth-child(4) { transition-delay: 0.16s; }
 
 #layout-bar.open .btn:nth-child(5) { transition-delay: 0.20s; }
 #layout-bar.open .btn:nth-child(6) { transition-delay: 0.24s; }
@@ -1113,8 +1114,9 @@ body.is-dragging .drop-zone {
     background-color: var(--accent-hover);
 }
 
-/* --- Feedback Panel Styles --- */
-#feedback-backdrop {
+/* --- Feedback & Contact Panel Styles --- */
+#feedback-backdrop,
+#contact-backdrop {
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
@@ -1123,11 +1125,13 @@ body.is-dragging .drop-zone {
     z-index: 25000;
     transition: opacity 0.3s ease;
 }
-#feedback-backdrop.hidden {
+#feedback-backdrop.hidden,
+#contact-backdrop.hidden {
     opacity: 0;
     pointer-events: none;
 }
-#feedback-panel {
+#feedback-panel,
+#contact-panel {
     position: fixed;
     top: 0;
     right: 0;
@@ -1146,18 +1150,22 @@ body.is-dragging .drop-zone {
     flex-direction: column;
     gap: 16px;
 }
-#feedback-panel.open {
+#feedback-panel.open,
+#contact-panel.open {
     transform: translateX(0);
 }
-#feedback-panel h3 {
+#feedback-panel h3,
+#contact-panel h3 {
     margin: 0;
     font-size: 1.5rem;
 }
-#feedback-panel p {
+#feedback-panel p,
+#contact-panel p {
     margin: 0 0 8px;
     color: var(--text-secondary);
 }
-#close-feedback-btn {
+#close-feedback-btn,
+#close-contact-btn {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -1194,7 +1202,8 @@ body.is-dragging .drop-zone {
 .star-rating .fas.selected {
     color: #fdd835;
 }
-#feedback-comment {
+.form-group input,
+.form-group textarea {
     width: 100%;
     background: var(--bg-color);
     border: 1px solid var(--border-color);
@@ -1520,10 +1529,12 @@ body.light-mode .die {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 body.light-mode #feedback-panel,
+body.light-mode #contact-panel,
 body.light-mode #upgrade-panel {
     background: var(--sidebar-bg);
 }
-body.light-mode #feedback-comment {
+body.light-mode .form-group input,
+body.light-mode .form-group textarea {
     background: var(--bg-color);
 }
 
