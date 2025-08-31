@@ -173,7 +173,7 @@
           }
       },
       fa: {
-          meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعاملی", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعاملی, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
+          meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعاملی", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعامली, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
           site: { brand: "Teacher Toybox", subtitle: "تخته سفیدی که توسط معلمان برای معلمان ساخته شده است" },
           lang: { label: "زبان" },
           btn: { tablet: "پشتیبانی تبلت", "tablet.title": "رفتن به پشتیبانی تبلت", clock: "تغییر ساعت (K)", add: "افزودن پنجره (N)", layouts: "تغییر چیدمان (L)", colour: "رنگ وب سایت (X)", color: "انتخاب رنگ (C)", magic: "استخراج رنگ (M)", themePalette: "پالت تم (Z)", originalColor: "رنگ اصلی", bell: "زنگ (B)", shh: "صدای 'هیس' (S)", "shh.label": "هیس", management: "ابزارهای مدیریت (/)", help: "راهنما (؟)", laser: "اشاره گر لیzری (P)", tour: "شروع تور", demo: "ویدیوی نمایشی", info: "اطلاعات", refresh: "بازخوانی (R)", share: "اشتراک گذاری (J)", feedback: "ارائه بازخورد (F)", coffee: "یک قهوه برایم بخر (Y)", upgrade: "ارتقا به پریمیوم (U)" },
@@ -242,7 +242,7 @@
       try {
         return path.split('.').reduce((o, k) => (o && o[k] !== undefined) ? o[k] : undefined, dict);
       } catch { return undefined; }
-    }
+    };
 
     function updateMeta(lang) {
       const dict = I18N[lang] || I18N.en;
@@ -279,13 +279,21 @@
         }
     }
 
+    // --- NEW FUNCTION ---
+    // A dedicated function to update the subtitle, mirroring the working date mechanism.
+    function updateSubtitle(lang) {
+        const dict = I18N[lang] || I18N.en;
+        const subtitleEl = document.getElementById('site-subtitle');
+        if (subtitleEl) {
+            subtitleEl.textContent = t(dict, 'site.subtitle');
+        }
+    }
+
     function applyLang(lang) {
       const dict = I18N[lang] || I18N.en;
       localStorage.setItem('ttx_lang', lang);
       document.documentElement.lang = lang;
 
-      // --- FIX for RTL ---
-      // Set the document direction based on the selected language.
       if (['ar', 'fa'].includes(lang)) {
         document.documentElement.dir = 'rtl';
       } else {
@@ -294,8 +302,17 @@
 
       document.querySelectorAll('[data-i18n]').forEach(el => {
         const val = t(dict, el.dataset.i18n) || t(I18N.en, el.dataset.i18n);
-        if (typeof val === 'string') el.textContent = val;
+        if (typeof val === 'string' && el.id !== 'site-subtitle') { // Avoid updating subtitle here
+            el.textContent = val;
+        }
       });
+
+      // --- UPDATED LOGIC ---
+      // Call the new, dedicated functions for subtitle and date.
+      updateSubtitle(lang);
+      if (global.TT && typeof global.TT.updateDateDisplay === 'function') {
+          global.TT.updateDateDisplay(lang);
+      }
       
       const feedbackComment = document.getElementById('feedback-comment');
       if (feedbackComment) {
@@ -318,10 +335,6 @@
 
       updateMeta(lang);
       updateSchema(lang);
-      
-      if (global.TT && typeof global.TT.updateDateDisplay === 'function') {
-          global.TT.updateDateDisplay(lang);
-      }
 
       if (window.TT && typeof window.TT.updateInfoWindowLanguage === 'function') {
         window.TT.updateInfoWindowLanguage(lang);
@@ -371,12 +384,10 @@
         sel.appendChild(opt);
       });
       
-      // This is the event listener for when a user selects a new language.
       sel.addEventListener('change', () => {
         applyLang(sel.value);
       });
       
-      // This section runs ONLY on initial page load.
       const storedLang = localStorage.getItem('ttx_lang');
       let finalLang;
 
