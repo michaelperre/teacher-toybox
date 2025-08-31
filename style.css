@@ -563,6 +563,9 @@ footer p {
     pointer-events: none;
     padding: 16px;
 }
+.win-main-area:has(.drop-zone) {
+    cursor: pointer;
+}
 .drop-zone-inner {
     display: flex;
     flex-direction: column;
