@@ -2422,7 +2422,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
             try {
                 // IMPORTANT: Replace with your new Formspree endpoint for support@teachertoybox.com
-                const response = await fetch('https://formspree.io/f/YOUR_NEW_ENDPOINT', {
+                const response = await fetch('https://formspree.io/f/mpwjrnag', {
                     method: 'POST',
                     body: formData,
                     headers: { 'Accept': 'application/json' }
