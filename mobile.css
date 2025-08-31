@@ -43,6 +43,7 @@ html, body {
     border-bottom: 1px solid var(--border-color);
     flex-shrink: 0;
     padding-top: env(safe-area-inset-top);
+    gap: 15px; /* Add gap for spacing */
 }
 
 #site-title-mobile {
@@ -53,14 +54,21 @@ html, body {
     gap: 8px; 
     text-decoration: none;
     color: inherit;
+    flex-shrink: 1; /* Allow title to shrink */
+    min-width: 0; /* Necessary for flex-shrink to work correctly */
+    white-space: nowrap; /* Keep title on one line */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ... when text is too long */
 }
 
 #site-logo-mobile {
-    height: 22px; 
+    height: 22px;
+    flex-shrink: 0; /* Prevent logo from shrinking */
 }
 
 #clock-date {
     text-align: right;
+    flex-shrink: 0; /* Prevent clock and date from shrinking */
 }
 
 #clock {
@@ -83,6 +91,7 @@ html, body {
     font-size: 12px;
     font-weight: 500;
     transition: all 0.2s ease;
+    flex-shrink: 0; /* Prevent this button from shrinking */
 }
 .desktop-btn:hover {
     background-color: var(--accent-color);
@@ -203,24 +212,26 @@ html, body {
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 3px;
+    gap: clamp(1px, 0.5vw, 3px);
     padding: 4px;
     background: rgba(44, 44, 46, 0.8);
     border-radius: 12px;
     align-items: center;
+    box-sizing: border-box;
 }
 .color-swatch {
-    width: 22px;
-    height: 22px;
+    width: clamp(18px, 5vw, 22px);
+    height: clamp(18px, 5vw, 22px);
     border-radius: 50%;
     border: 2px solid transparent;
     cursor: pointer;
     transition: border-color 0.2s ease;
+    flex-shrink: 0;
 }
 #draw-controls input[type="range"] {
     -webkit-appearance: none;
     appearance: none;
-    width: 50px;
+    width: clamp(40px, 12vw, 50px);
     height: 8px;
     background: #555;
     border-radius: 5px;
@@ -254,15 +265,16 @@ html, body {
     background: none;
     border: 2px solid transparent;
     color: var(--text-secondary);
-    width: 38px;
-    height: 38px;
+    width: clamp(32px, 8vw, 38px);
+    height: clamp(32px, 8vw, 38px);
     border-radius: 10px;
-    font-size: 18px;
+    font-size: clamp(14px, 4vw, 18px);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: all 0.2s ease;
+    flex-shrink: 0;
 }
 .tool-btn-draw:hover {
     background: rgba(255,255,255,0.1);
@@ -403,76 +415,6 @@ html, body {
     text-align: center;
     color: white;
     font-weight: bold;
-}
-
-/* --- For and Against Tool --- */
-#main-content.for-against-active {
-    padding: 8px;
-    padding-bottom: calc(8px + env(safe-area-inset-bottom));
-}
-.for-against-container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    gap: 8px;
-    box-sizing: border-box;
-}
-.for-against-panel {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    border-radius: 16px;
-    padding: clamp(10px, 3vmin, 25px);
-    box-sizing: border-box;
-    transition: transform 0.15s ease;
-    cursor: pointer;
-    text-align: center;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-    min-height: 0; /* Prevents overflow on short screens */
-}
-.for-against-panel:active {
-    transform: scale(0.98);
-}
-.for-panel {
-    background: linear-gradient(135deg, var(--success-color), var(--success-dark));
-}
-.against-panel {
-    background: linear-gradient(135deg, var(--danger-color), var(--danger-dark));
-}
-.for-against-panel h2 {
-    font-size: clamp(1.2rem, 4.5vmin, 2.2rem);
-    margin: 0 0 10px 0;
-    text-shadow: 0 2px 5px rgba(0,0,0,0.25);
-}
-.for-against-display {
-    font-size: clamp(4rem, 28vmin, 15rem);
-    font-weight: 900;
-    line-height: 1;
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-.for-against-controls {
-    display: flex;
-    gap: clamp(8px, 2vmin, 15px);
-    align-items: center;
-    margin-top: 10px;
-}
-.for-against-controls .tool-btn {
-    width: clamp(38px, 9vmin, 55px);
-    height: clamp(38px, 9vmin, 55px);
-    font-size: clamp(16px, 3.5vmin, 22px);
-    border-radius: 50%;
-    background-color: rgba(0,0,0,0.2);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-}
-.for-against-controls .tool-btn:active {
-    background-color: rgba(0,0,0,0.3);
 }
 
 /* --- Overlay Icon for Sounds --- */
@@ -664,125 +606,4 @@ html, body {
     .calc-btn.equals {
         border-radius: 12px;
     }
-}
-
-/* Switches to a vertical layout on narrow/short screens */
-@media (max-width: 420px), (max-height: 420px) {
-    .for-against-container {
-        flex-direction: column;
-    }
-}
-
-/* --- Numbered List Tool Styles --- */
-#main-content.numbered-list-active {
-    padding: 8px;
-}
-.numbered-list-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-}
-.list-title {
-    text-align: center;
-    font-size: clamp(3rem, 12vmin, 4.4rem);
-    font-weight: 700;
-    color: var(--text-primary);
-    margin: 0 0 8px 0;
-    padding: 4px 8px;
-    border-radius: 6px;
-    cursor: text;
-    outline: none;
-    transition: background-color 0.2s;
-}
-.list-title:focus {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-.list-table-wrapper {
-    flex-grow: 1;
-    overflow-y: auto;
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    background-color: rgba(0, 0, 0, 0.15);
-}
-.list-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.list-table tr {
-    border-bottom: 1px solid var(--border-color);
-}
-.list-table td {
-    padding: 20px;
-    vertical-align: middle;
-}
-.list-table tr:last-child {
-    border-bottom: none;
-}
-.col-number {
-    width: 60px;
-    text-align: center;
-    color: var(--text-secondary);
-    font-weight: 500;
-    padding-right: 0 !important;
-    font-size: 2rem;
-}
-.col-text input {
-    width: 100%;
-    background: transparent;
-    border: none;
-    color: var(--text-primary);
-    font-size: 2rem;
-    outline: none;
-    padding: 4px 0;
-}
-.col-counter {
-    width: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 28px;
-}
-.counter-value {
-    font-weight: 700;
-    font-size: 2.2em;
-    min-width: 25px;
-    text-align: center;
-}
-.counter-btn {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: var(--text-primary);
-    cursor: pointer;
-    font-size: 2.2em;
-    transition: background-color 0.2s;
-}
-.counter-btn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-.list-controls {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    padding-top: 12px;
-    flex-shrink: 0;
-}
-.control-btn-large {
-    width: clamp(45px, 12vmin, 60px);
-    height: clamp(45px, 12vmin, 60px);
-    font-size: clamp(1rem, 4vmin, 1.5rem);
-    border-radius: 12px;
-    border: 1px solid var(--border-color);
-    color: var(--text-primary);
-    cursor: pointer;
-    background-color: var(--bar-bg);
-    transition: all 0.2s;
-}
-.control-btn-large:hover {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
 }
