@@ -245,29 +245,20 @@ body.light-mode.no-grid {
 .floating {
     position: absolute;
     background: var(--window-bg);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    /* Replace the solid border with a semi-transparent one */
-    border: 1px solid rgba(255, 255, 255, 0.1); 
-    border-radius: 16px; /* Slightly larger radius for a softer look */
+    backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     z-index: 1000;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2), 
-                inset 0 0 0 0.5px rgba(255, 255, 255, 0.1); /* Inner glow for glass edge */
-    transition: opacity 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: opacity 0.4s ease-in-out;
 }
-
 .floating.active-window {
-    /* Use a shadow/glow instead of a solid border for the active state */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 25px var(--accent-color), 
-                0 10px 30px rgba(0,0,0,0.3),
-                inset 0 0 0 0.5px rgba(255, 255, 255, 0.2);
+    border: 2px solid var(--accent-color);
     z-index: 1001;
 }
-
 .hidden {
     opacity: 0;
     pointer-events: none;
@@ -569,8 +560,11 @@ footer p {
     text-align: center;
     color: var(--text-secondary);
     transition: all 0.2s ease-in-out;
-    cursor: pointer;
+    pointer-events: none;
     padding: 16px;
+}
+.win-main-area:has(.drop-zone) {
+    cursor: pointer;
 }
 .drop-zone-inner {
     display: flex;
@@ -1153,16 +1147,15 @@ body.is-dragging .drop-zone {
     font-size: 1.8rem;
     color: var(--text-secondary);
 }
-.star-rating .fas, .star-rating i[data-lucide] {
+.star-rating .fas {
     cursor: pointer;
     transition: color 0.2s, transform 0.1s;
 }
-.star-rating .fas:hover, .star-rating i[data-lucide]:hover {
+.star-rating .fas:hover {
     transform: scale(1.15);
 }
-.star-rating .fas.selected, .star-rating i[data-lucide].selected {
+.star-rating .fas.selected {
     color: #fdd835;
-    fill: #fdd835;
 }
 #feedback-comment {
     width: 100%;
@@ -1646,8 +1639,7 @@ body:not(.is-premium) .premium-feature {
     align-self: center;
 }
 
-#upgrade-panel h3 .fa-crown,
-#upgrade-panel h3 i[data-lucide="crown"] {
+#upgrade-panel h3 .fa-crown {
     font-size: clamp(1.6rem, 5vw, 1.8rem);
 }
 
@@ -1685,8 +1677,7 @@ body:not(.is-premium) .premium-feature {
     text-align: left;
 }
 
-.premium-features-table .fa-check-circle,
-.premium-features-table i[data-lucide="check-circle-2"] {
+.premium-features-table .fa-check-circle {
     color: var(--success-color);
     font-size: 1.1rem;
     flex-shrink: 0;
@@ -1897,62 +1888,4 @@ body.is-premium #upgradeButton {
 
 .splash-subtext {
     font-size: 1.2rem;
-}
-
-/* --- NEWLY ADDED MODERNIZATION STYLES --- */
-@keyframes window-enter {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-#layout-bar .btn,
-#management-bar .btn,
-#extra-tools-bar .btn,
-#help-bar .btn {
-    opacity: 0;
-    transform: translateX(-10px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-#layout-bar.open .btn,
-#management-bar.open .btn,
-#extra-tools-bar.open .btn,
-#help-bar.open .btn {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-/* Add staggered delay for each button */
-#layout-bar.open .btn:nth-child(1),
-#management-bar.open .btn:nth-child(1),
-#extra-tools-bar.open .btn:nth-child(1),
-#help-bar.open .btn:nth-child(1) { transition-delay: 0.05s; }
-
-#layout-bar.open .btn:nth-child(2),
-#management-bar.open .btn:nth-child(2),
-#extra-tools-bar.open .btn:nth-child(2),
-#help-bar.open .btn:nth-child(2) { transition-delay: 0.1s; }
-
-#layout-bar.open .btn:nth-child(3),
-#management-bar.open .btn:nth-child(3),
-#extra-tools-bar.open .btn:nth-child(3),
-#help-bar.open .btn:nth-child(3) { transition-delay: 0.15s; }
-
-#layout-bar.open .btn:nth-child(4),
-#extra-tools-bar.open .btn:nth-child(4) { transition-delay: 0.2s; }
-
-#layout-bar.open .btn:nth-child(5) { transition-delay: 0.25s; }
-#layout-bar.open .btn:nth-child(6) { transition-delay: 0.3s; }
-#layout-bar.open .btn:nth-child(7) { transition-delay: 0.35s; }
-
-/* Ensure Lucide icons inherit size and are centered */
-i[data-lucide] {
-    width: 1em;
-    height: 1em;
 }
