@@ -71,7 +71,7 @@
           meta: { title: "Teacher Toybox | Безкоштовна інтерактивна дошка для вчителів", titleShort: "Teacher Toybox | Інтерактивна дошка", description: "Teacher Toybox — це безкоштовна інтерактивна цифрова дошка з таймерами, кубиками та іншим, щоб зробити уроки захоплюючими. Встановлення не потрібне.", keywords: "цифрова дошка, інтерактивна дошка, інструменти для вчителів, ресурси для класу, безкоштовні інструменти для вчителів, онлайн-таймер, класні заходи, освіта" },
           site: { brand: "Teacher Toybox", subtitle: "Дошка, створена вчителями для вчителів." },
           lang: { label: "Мова" },
-          btn: { tablet: "Підтримка планшета", "tablet.title": "Перейти на підтримку планшета", clock: "Переключити годинник (K)", add: "Додати вікно (N)", layouts: "Переключити макети (L)", colour: "Колір сайту (X)", color: "Вибрати колір (C)", magic: "Витягти колір (M)", themePalette: "Палітра тем (Z)", originalColor: "Оригінальний колір", bell: "Дзвоник (B)", shh: "Звук 'тсс' (S)", "shh.label": "Тсс", management: "Інструменти управління (/)", help: "Допомога (?)", laser: "Лазерна указка (P)", tour: "Почати тур", demo: "Демо-відео", info: "Інформація", refresh: "Оновити (R)", share: "Поділитися (J)", feedback: "Відгук (F)", coffee: "Пригостити кавою (Y)", upgrade: "Оновити до Premium (U)" },
+          btn: { tablet: "Підтримка планшета", "tablet.title": "Перейти на підтримку планшета", clock: "Переключити годинник (K)", add: "Додати вікno (N)", layouts: "Переключити макети (L)", colour: "Колір сайту (X)", color: "Вибрати колір (C)", magic: "Витягти колір (M)", themePalette: "Палітра тем (Z)", originalColor: "Оригінальний колір", bell: "Дзвоник (B)", shh: "Звук 'тсс' (S)", "shh.label": "Тсс", management: "Інструменти управління (/)", help: "Допомога (?)", laser: "Лазерна указка (P)", tour: "Почати тур", demo: "Демо-відео", info: "Інформація", refresh: "Оновити (R)", share: "Поділитися (J)", feedback: "Відгук (F)", coffee: "Пригостити кавою (Y)", upgrade: "Оновити до Premium (U)" },
           layout: { 1: "Макет 1: Повний екран (1)", 2: "Макет 2: Вертикальний поділ (2)", 3: "Макет 3: Основний зліва (3)", 4: "Макет 4: Основний справа (4)", 5: "Макет 5: Чотири квадранти (5)", 6: "Макет 6: Високий правий стовпець (6)", 7: "Макет 7: Стовпець 1-2-2 (7)" },
           panel: {
               upgrade: { title: "Перейти на Premium", intro: "Покращіть свій клас, розблокувавши всі інтерактивні інструменти в Teacher Toybox!", feature1_title: "Розблокувати всі інструменти", feature1_desc: "Отримайте негайний доступ до всіх преміум-інструментів.", feature2_title: "Веб-камера та документ-камера", feature2_desc: "Використовуйте веб-камеру для живих демонстрацій.", feature3_title: "Карусель фотографій", feature3_desc: "Створюйте захоплюючі візуальні історії та слайд-шоу.", feature4_title: "Гейміфікуйте уроки", feature4_desc: "Використовуйте кубики та лічильники, щоб зробити навчання веселим.", feature5_title: "Керуйте часом", feature5_desc: "Легко керуйте часом у класі за допомогою таймерів та секундомірів.", feature6_title: "Розширений контроль", feature6_desc: "Налаштовуйте прозорість та шари вікон для ідеального налаштування.", feature7_title: "Майбутні інструменти", feature7_desc: "Автоматично отримуйте кожен новий преміум-інструмент, який ми випускаємо.", feature8_title: "Підтримайте розробку", feature8_desc: "Допоможіть зберегти основну платформу безкоштовною для всіх вчителів.", priceBig: "$2 на місяць", priceSmall: "$24 щорічно" },
@@ -137,7 +137,7 @@
           btn: { tablet: "Support Tablette", "tablet.title": "Passer au Support Tablette", clock: "Afficher/Masquer l'horloge (K)", add: "Ajouter une fenêtre (N)", layouts: "Changer de disposition (L)", colour: "Couleur du site (X)", color: "Sélectionner une couleur (C)", magic: "Extraire la couleur (M)", themePalette: "Palette de thèmes (Z)", originalColor: "Couleur d'origine", bell: "Sonnerie (B)", shh: "Son 'Chut' (S)", "shh.label": "Chut", management: "Outils de gestion (/)", help: "Aide (?)", laser: "Pointeur laser (P)", tour: "Démarrer le tour", demo: "Vidéo de démonstration", info: "Informations", refresh: "Actualiser (R)", share: "Partager (J)", feedback: "Donner un avis (F)", coffee: "Offrez-moi un café (Y)", upgrade: "Passer à Premium (U)" },
           layout: { 1: "Disposition 1 : Plein écran (1)", 2: "Disposition 2 : Division verticale (2)", 3: "Disposition 3 : Principal à gauche (3)", 4: "Disposition 4 : Principal à droite (4)", 5: "Disposition 5 : Quatre quadrants (5)", 6: "Disposition 6 : Colonne droite haute (6)", 7: "Disposition 7 : Colonne 1-2-2 (7)" },
           panel: {
-              upgrade: { title: "Passez à Premium", intro: "Dynamisez votre classe en débloquant tous les outils interactifs de Teacher Toybox !", feature1_title: "Débloquez tous les outils", feature1_desc: "Accédez immédiatement à tous les outils premium.", feature2_title: "Webcam et visualiseur", feature2_desc: "Utilisez votre webcam pour des démonstrations en direct.", feature3_title: "Carrousel de photos", feature3_desc: "Créez des histoires visuelles et des diaporamas attrayants.", feature4_title: "Ludifiez les leçons", feature4_desc: "Utilisez le lanceur de dés et les compteurs pour rendre l'apprentissage amusant.", feature5_title: "Gérez le temps", feature5_desc: "Gérez sans effort le temps de classe avec des minuteurs et des chronomètres.", feature6_title: "Contrôle avancé", feature6_desc: "Ajustez l'opacité et superposez vos fenêtres pour une configuration parfaite.", feature7_title: "Outils futurs", feature7_desc: "Recevez automatiquement chaque nouvel outil premium que nous publions.", feature8_title: "Soutenez le développement", feature8_desc: "Aidez à maintenir la plateforme de base gratuite pour tous les enseignants.", priceBig: "$2 par mois", priceSmall: "$24 facturés annuellement" },
+              upgrade: { title: "Passez à Premium", intro: "Dynamisez votre classe en débloquant tous les outils interactifs de Teacher Toybox !", feature1_title: "Débloquez tous les outils", feature1_desc: "Accédez immédiatement à tous les outils premium.", feature2_title: "Webcam et visualiseur", feature2_desc: "Utilisez votre webcam pour des démonstrations en direct.", feature3_title: "Carrousel de photos", feature3_desc: "Créez des histoires visuelles et des diaporamas attrayants.", feature4_title: "Ludifiez les leçons", feature4_desc: "Utilisez le lanceur de dés et les compteurs pour rendre l'apprentissage amusant.", feature5_title: "Gérez le temps", feature5_desc: "Gérez sans effort le temps de classe avec des minuteurs et des chronomètres.", feature6_title: "Contrôle avancé", feature6_desc: "Ajustez l'opacité et superposez vos fenêtres pour une configuration perfecte.", feature7_title: "Outils futurs", feature7_desc: "Recevez automatiquement chaque nouvel outil premium que nous publions.", feature8_title: "Soutenez le développement", feature8_desc: "Aidez à maintenir la plateforme de base gratuite pour tous les enseignants.", priceBig: "$2 par mois", priceSmall: "$24 facturés annuellement" },
               share: { title: "Faites passer le mot !" },
               feedback: { title: "Donner votre avis", intro: "Nous aimerions connaître votre opinion !", ratingLegend: "Comment évalueriez-vous votre expérience ?", commentsLabel: "Commentaires", commentsPlaceholder: "Dites-nous ce que vous avez aimé ou ce qui pourrait être amélioré...", submitButton: "Envoyer", submitButtonSending: "Envoi...", submitButtonSuccess: "Merci !" }
           },
@@ -289,11 +289,16 @@
         if (typeof val === 'string') el.textContent = val;
       });
 
-      document.querySelectorAll('[data-i18n-title]').forEach(el => {
-        const key = el.dataset.i18nTitle;
-        const val = t(dict, key) || t(I18N.en, key);
-        if (typeof val === 'string') el.setAttribute('title', val);
-      });
+      // --- FIX ---
+      // This explicitly targets the subtitle element by its ID to ensure it
+      // updates instantly, even if the general query above has issues.
+      const subtitleElement = document.getElementById('site-subtitle');
+      if (subtitleElement) {
+          const subtitleText = t(dict, 'site.subtitle') || t(I18N.en, 'site.subtitle');
+          if (subtitleText) {
+              subtitleElement.textContent = subtitleText;
+          }
+      }
       
       const feedbackComment = document.getElementById('feedback-comment');
       if (feedbackComment) {
@@ -384,9 +389,7 @@
           finalLang = await detectLanguage();
       }
       
-      // --- FIX ---
-      // This more directly sets the select element's value, which is more reliable
-      // than querying for the option and setting its 'selected' property.
+      // This ensures the dropdown visually matches the loaded language.
       sel.value = finalLang;
 
       applyLang(finalLang); 
