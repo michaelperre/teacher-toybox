@@ -388,18 +388,21 @@ document.addEventListener('DOMContentLoaded', () => {
             const ifr = document.createElement('iframe');
             ifr.src = url;
             cont.appendChild(ifr);
+            mainArea.appendChild(cont);
         } else if (file.type.startsWith('image/')) {
             const img = document.createElement('img');
             img.src = url;
             img.style.objectFit = 'contain';
             img.crossOrigin = "anonymous";
             cont.appendChild(img);
+            mainArea.appendChild(cont);
         } else if (file.type.startsWith('video/')) {
             const vid = document.createElement('video');
             vid.src = url;
             vid.controls = true;
             vid.autoplay = true;
             cont.appendChild(vid);
+            mainArea.appendChild(cont);
         } else if (file.type.startsWith('audio/')) {
             const aud = document.createElement('audio');
             aud.src = url;
@@ -409,6 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
             mainArea.style.display = 'flex';
             mainArea.style.alignItems = 'center';
             mainArea.style.justifyContent = 'center';
+            mainArea.appendChild(cont);
         } else if (file.name.toLowerCase().endsWith('.pptx') || file.name.toLowerCase().endsWith('.ppt')) {
             cont.innerHTML = `
                 <div class="unsupported-file-message">
@@ -417,11 +421,37 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>To display this file, please convert it to a PDF first and then drop it here.</p>
                 </div>
             `;
+            mainArea.appendChild(cont);
         } else {
-            cont.textContent = 'Unsupported file';
-            cont.style.color = 'white';
+            // Display the new, centered "unsupported file" message
+            mainArea.style.display = 'flex';
+            mainArea.style.alignItems = 'center';
+            mainArea.style.justifyContent = 'center';
+            mainArea.innerHTML = `
+                <div style="text-align: center; color: var(--text-secondary); padding: 16px;">
+                    <h3>Oops!</h3>
+                    <p>That file type isn’t supported.<br>Try another format.</p>
+                </div>
+            `;
+    
+            // After 2 seconds, reset the window to the original drop zone
+            setTimeout(() => {
+                // Ensure the window still exists before trying to change it
+                if (win && win.parentElement) {
+                    mainArea.innerHTML = ''; // Clear the error message
+                    const dropZone = document.createElement('div');
+                    dropZone.className = 'drop-zone';
+                    dropZone.innerHTML = `
+                    <div class="drop-zone-inner">
+                        <i class="drop-zone-icon fas fa-upload"></i>
+                        <div class="drop-zone-file-types">
+                            <i class="fas fa-file-image"></i><i class="fas fa-file-video"></i><i class="fas fa-file-audio"></i><i class="fas fa-file-pdf"></i>
+                        </div>
+                    </div>`;
+                    mainArea.appendChild(dropZone);
+                }
+            }, 2000); // 2-second delay
         }
-        mainArea.appendChild(cont);
     }
 
     function handleDrop(e) {
@@ -1541,6 +1571,18 @@ document.addEventListener('DOMContentLoaded', () => {
         winBody.className = 'win-body';
         const mainArea = document.createElement('div');
         mainArea.className = 'win-main-area';
+
+        mainArea.onclick = () => {
+            // Only trigger the file input if the drop-zone is visible
+            if (mainArea.querySelector('.drop-zone')) {
+                // Find the fileInput associated with this window and click it
+                const fileInput = win.querySelector('input[type="file"]');
+                if (fileInput) {
+                    fileInput.click();
+                }
+            }
+        };
+
         const winSidebar = document.createElement('div');
         winSidebar.className = 'win-sidebar';
         winBody.append(mainArea, winSidebar);
@@ -2702,4 +2744,3 @@ function openDemoModal() {
         }, 100);
     }
 });
-
