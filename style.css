@@ -222,7 +222,7 @@ body.light-mode.no-grid {
     gap: 8px;
     opacity: 0;
     pointer-events: none;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.3s ease;
     z-index: 2001;
 }
 
@@ -240,7 +240,41 @@ body.light-mode.no-grid {
 #management-bar .btn,
 #help-bar .btn {
     flex-shrink: 0;
+    opacity: 0;
+    transform: translateX(15px);
+    transition: opacity 0.2s ease-out, transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
+#extra-tools-bar.open .btn,
+#layout-bar.open .btn,
+#management-bar.open .btn,
+#help-bar.open .btn {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#extra-tools-bar.open .btn:nth-child(1),
+#layout-bar.open .btn:nth-child(1),
+#management-bar.open .btn:nth-child(1),
+#help-bar.open .btn:nth-child(1) { transition-delay: 0.04s; }
+
+#extra-tools-bar.open .btn:nth-child(2),
+#layout-bar.open .btn:nth-child(2),
+#management-bar.open .btn:nth-child(2),
+#help-bar.open .btn:nth-child(2) { transition-delay: 0.08s; }
+
+#extra-tools-bar.open .btn:nth-child(3),
+#layout-bar.open .btn:nth-child(3),
+#management-bar.open .btn:nth-child(3),
+#help-bar.open .btn:nth-child(3) { transition-delay: 0.12s; }
+
+#extra-tools-bar.open .btn:nth-child(4),
+#layout-bar.open .btn:nth-child(4) { transition-delay: 0.16s; }
+
+#layout-bar.open .btn:nth-child(5) { transition-delay: 0.20s; }
+#layout-bar.open .btn:nth-child(6) { transition-delay: 0.24s; }
+#layout-bar.open .btn:nth-child(7) { transition-delay: 0.28s; }
+
 
 .floating {
     position: absolute;
@@ -253,7 +287,7 @@ body.light-mode.no-grid {
     flex-direction: column;
     z-index: 1000;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 10px 30px rgba(0,0,0,0.2), 0 0 25px rgba(0, 0, 0, 0.3);
-    transition: opacity 0.4s ease-in-out;
+    animation: windowEntry 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
 }
 .floating.active-window {
     /* The old border is replaced with a stronger inset box-shadow */
@@ -1495,6 +1529,17 @@ body.light-mode #feedback-comment {
 @keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@keyframes windowEntry {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
 }
 
 /* --- Tool-Specific UI Adjustments --- */
