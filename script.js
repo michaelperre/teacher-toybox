@@ -416,7 +416,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (file.name.toLowerCase().endsWith('.pptx') || file.name.toLowerCase().endsWith('.ppt')) {
             cont.innerHTML = `
                 <div class="unsupported-file-message">
-                    <i class="fas fa-file-powerpoint"></i>
+                    <i data-lucide="file-bar-chart-2"></i>
                     <h3>PowerPoint File</h3>
                     <p>To display this file, please convert it to a PDF first and then drop it here.</p>
                 </div>
@@ -443,14 +443,20 @@ document.addEventListener('DOMContentLoaded', () => {
                     dropZone.className = 'drop-zone';
                     dropZone.innerHTML = `
                     <div class="drop-zone-inner">
-                        <i class="drop-zone-icon fas fa-upload"></i>
+                        <i class="drop-zone-icon" data-lucide="upload-cloud"></i>
                         <div class="drop-zone-file-types">
-                            <i class="fas fa-file-image"></i><i class="fas fa-file-video"></i><i class="fas fa-file-audio"></i><i class="fas fa-file-pdf"></i>
+                            <i data-lucide="image"></i><i data-lucide="video"></i><i data-lucide="volume-2"></i><i data-lucide="file-text"></i>
                         </div>
                     </div>`;
                     mainArea.appendChild(dropZone);
+                    if (window.lucide) {
+                        lucide.createIcons();
+                    }
                 }
             }, 2000); // 2-second delay
+        }
+        if (window.lucide) {
+            lucide.createIcons();
         }
     }
 
@@ -559,11 +565,11 @@ document.addEventListener('DOMContentLoaded', () => {
         sizeInput.oninput = e => { ctx.lineWidth = e.target.value; };
     
         const undoBtn = document.createElement('button');
-        undoBtn.innerHTML = '<i class="fas fa-undo"></i>';
+        undoBtn.innerHTML = '<i data-lucide="undo-2"></i>';
         undoBtn.onclick = () => { if (hist.length > 0) ctx.putImageData(hist.pop(), 0, 0); };
     
         const clearBtn = document.createElement('button');
-        clearBtn.innerHTML = '<i class="fas fa-trash"></i>';
+        clearBtn.innerHTML = '<i data-lucide="trash-2"></i>';
         clearBtn.onclick = () => { ctx.clearRect(0, 0, canvas.width, canvas.height); hist.length = 0; };
     
         controls.append(sizeInput, ...colorSwatches, undoBtn, clearBtn);
@@ -572,6 +578,10 @@ document.addEventListener('DOMContentLoaded', () => {
     
         ctx.strokeStyle = '#FFFFFF';
         colorSwatches[0].classList.add('active');
+
+        if (window.lucide) {
+            lucide.createIcons();
+        }
     }
 
     function activateCam(win) {
@@ -687,7 +697,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const startPauseBtn = document.createElement('button');
             startPauseBtn.className = 'icon-btn timer-start-pause-btn';
             startPauseBtn.title = 'Start/Pause Timer (Enter)';
-            startPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+            startPauseBtn.innerHTML = '<i data-lucide="play"></i>';
             startPauseBtn.style.backgroundColor = 'var(--success-color)';
             startPauseBtn.onclick = () => {
                 isRunning = !isRunning;
@@ -695,18 +705,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     endTime = Date.now() + remainingSeconds * 1000;
                     win.activeInterval = setInterval(timerTick, 1000);
                     timerTick();
-                    startPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                    startPauseBtn.innerHTML = '<i data-lucide="pause"></i>';
                 } else {
                     clearInterval(win.activeInterval);
                     win.activeInterval = null;
-                    startPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+                    startPauseBtn.innerHTML = '<i data-lucide="play"></i>';
+                }
+                if (window.lucide) {
+                    lucide.createIcons();
                 }
             };
             
             const resetBtn = document.createElement('button');
             resetBtn.className = 'icon-btn timer-reset-btn';
             resetBtn.title = 'Reset Timer (Spacebar)';
-            resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
+            resetBtn.innerHTML = '<i data-lucide="rotate-cw"></i>';
             resetBtn.style.backgroundColor = 'var(--danger-color)';
             resetBtn.onclick = () => {
                 cleanupWindowTools(win);
@@ -717,6 +730,9 @@ document.addEventListener('DOMContentLoaded', () => {
             mainArea.appendChild(controls);
 
             updateDisplay(initialSeconds);
+            if (window.lucide) {
+                lucide.createIcons();
+            }
         }
 
         mainArea.innerHTML = '';
@@ -760,10 +776,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const ctrl = document.createElement('div');
         ctrl.style.cssText = 'display:flex;justify-content:center;gap:12px;padding:8px;';
-        ['fas fa-plus', 'fas fa-minus'].forEach(icon => {
+        ['plus', 'minus'].forEach(icon => {
             const b = document.createElement('button');
             b.className = 'icon-btn text-editor-control-btn';
-            b.innerHTML = `<i class="${icon}"></i>`;
+            b.innerHTML = `<i data-lucide="${icon === 'plus' ? 'zoom-in' : 'zoom-out'}"></i>`;
             b.style.width = '40px'; b.style.height = '40px'; b.style.fontSize = '16px';
             b.onclick = () => { const sz = parseInt(getComputedStyle(ta).fontSize, 10); ta.style.fontSize = `${sz + (icon.includes('plus') ? 6 : -6)}px`; };
             ctrl.appendChild(b);
@@ -771,6 +787,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         mainArea.append(ta, ctrl);
         ta.focus();
+
+        if (window.lucide) {
+            lucide.createIcons();
+        }
     }
 
     function activateDiceRoller(win) {
@@ -852,15 +872,15 @@ document.addEventListener('DOMContentLoaded', () => {
         };
         
         const addDieBtn = document.createElement('button');
-        addDieBtn.className = 'icon-btn'; addDieBtn.innerHTML = '<i class="fas fa-plus"></i>';
+        addDieBtn.className = 'icon-btn'; addDieBtn.innerHTML = '<i data-lucide="plus"></i>';
         addDieBtn.onclick = () => { if (numDice < 6) { numDice++; renderDice(); } };
 
         const removeDieBtn = document.createElement('button');
-        removeDieBtn.className = 'icon-btn'; removeDieBtn.innerHTML = '<i class="fas fa-minus"></i>';
+        removeDieBtn.className = 'icon-btn'; removeDieBtn.innerHTML = '<i data-lucide="minus"></i>';
         removeDieBtn.onclick = () => { if (numDice > 1) { numDice--; renderDice(); } };
 
         const rollBtn = document.createElement('button');
-        rollBtn.className = 'icon-btn'; rollBtn.innerHTML = '<i class="fas fa-dice-d6"></i>'; rollBtn.style.backgroundColor = 'var(--success-color)'; rollBtn.onclick = () => rollDice(true);
+        rollBtn.className = 'icon-btn'; rollBtn.innerHTML = '<i data-lucide="dice-5"></i>'; rollBtn.style.backgroundColor = 'var(--success-color)'; rollBtn.onclick = () => rollDice(true);
         
         controlsContainer.append(addDieBtn, removeDieBtn, rollBtn, totalDisplay);
         
@@ -869,6 +889,10 @@ document.addEventListener('DOMContentLoaded', () => {
         resizeObserver.observe(mainArea);
         
         renderDice();
+
+        if (window.lucide) {
+            lucide.createIcons();
+        }
     }
 
     function activateStopwatch(win) {
@@ -889,30 +913,36 @@ document.addEventListener('DOMContentLoaded', () => {
         const formatTime = () => { const diff = elapsedTime; const minutes = String(Math.floor(diff / 60000)).padStart(2, '0'); const seconds = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0'); const milliseconds = String(Math.floor((diff % 1000) / 10)).padStart(2, '0'); display.textContent = `${minutes}:${seconds}.${milliseconds}`; };
         
         const startStopBtn = document.createElement('button');
-        startStopBtn.className = 'icon-btn'; startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; startStopBtn.style.backgroundColor = 'var(--success-color)';
+        startStopBtn.className = 'icon-btn'; startStopBtn.innerHTML = '<i data-lucide="play"></i>'; startStopBtn.style.backgroundColor = 'var(--success-color)';
         startStopBtn.onclick = () => { 
             if (isRunning) { 
                 clearInterval(win.activeInterval);
                 win.activeInterval = null;
                 elapsedTime = Date.now() - startTime; 
-                startStopBtn.innerHTML = '<i class="fas fa-pause"></i>'; 
+                startStopBtn.innerHTML = '<i data-lucide="play"></i>'; 
             } else { 
                 startTime = Date.now() - elapsedTime; 
                 win.activeInterval = setInterval(() => { elapsedTime = Date.now() - startTime; formatTime(); }, 10); 
-                startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
+                startStopBtn.innerHTML = '<i data-lucide="pause"></i>'; 
             } 
             isRunning = !isRunning; 
+            if (window.lucide) {
+                lucide.createIcons();
+            }
         };
         
         const resetBtn = document.createElement('button');
-        resetBtn.className = 'icon-btn'; resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>'; resetBtn.style.backgroundColor = 'var(--danger-color)';
+        resetBtn.className = 'icon-btn'; resetBtn.innerHTML = '<i data-lucide="rotate-cw"></i>'; resetBtn.style.backgroundColor = 'var(--danger-color)';
         resetBtn.onclick = () => { 
             clearInterval(win.activeInterval);
             win.activeInterval = null;
             isRunning = false; 
             elapsedTime = 0; 
-            startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
+            startStopBtn.innerHTML = '<i data-lucide="play"></i>'; 
             formatTime(); 
+            if (window.lucide) {
+                lucide.createIcons();
+            }
         };
         
         controls.append(startStopBtn, resetBtn);
@@ -921,6 +951,10 @@ document.addEventListener('DOMContentLoaded', () => {
         win.toolResizeObserver = resizeObserver;
         resizeObserver.observe(mainArea);
         updateFontSize(mainArea);
+
+        if (window.lucide) {
+            lucide.createIcons();
+        }
     }
 
     function activateForAndAgainst(win) {
@@ -946,7 +980,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const controls = document.createElement('div');
             controls.className = 'for-against-controls';
             const minusBtn = document.createElement('button');
-            minusBtn.innerHTML = '<i class="fas fa-minus"></i>';
+            minusBtn.innerHTML = '<i data-lucide="minus"></i>';
             minusBtn.onclick = () => {
                 if (count > 0) {
                     count--;
@@ -954,7 +988,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             };
             const plusBtn = document.createElement('button');
-            plusBtn.innerHTML = '<i class="fas fa-plus"></i>';
+            plusBtn.innerHTML = '<i data-lucide="plus"></i>';
             plusBtn.onclick = () => { count++; display.textContent = count; };
             controls.append(minusBtn, plusBtn);
             panel.append(titleEl, display, controls);
@@ -989,6 +1023,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         win.toolResizeObserver = resizeObserver;
         resizeObserver.observe(mainArea);
+        if (window.lucide) {
+            lucide.createIcons();
+        }
     }
 
     function activateCarousel(win) {
@@ -1024,16 +1061,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const prevButton = document.createElement('button');
         prevButton.className = 'carousel-btn';
-        prevButton.innerHTML = '<i class="fas fa-arrow-left"></i>';
+        prevButton.innerHTML = '<i data-lucide="arrow-left"></i>';
         prevButton.disabled = true;
 
         const folderButton = document.createElement('button');
         folderButton.className = 'carousel-btn';
-        folderButton.innerHTML = '<i class="fas fa-folder-open"></i>';
+        folderButton.innerHTML = '<i data-lucide="folder-open"></i>';
 
         const nextButton = document.createElement('button');
         nextButton.className = 'carousel-btn';
-        nextButton.innerHTML = '<i class="fas fa-arrow-right"></i>';
+        nextButton.innerHTML = '<i data-lucide="arrow-right"></i>';
         nextButton.disabled = true;
 
         const fileInput = document.createElement('input');
@@ -1085,6 +1122,9 @@ document.addEventListener('DOMContentLoaded', () => {
             currentIndex = (currentIndex + 1) % imageUrls.length;
             showImage();
         };
+        if (window.lucide) {
+            lucide.createIcons();
+        }
     }
 
     function activateCalculator(win) {
@@ -1210,6 +1250,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createWin() {
         const win = document.createElement('div');
         win.className = 'floating';
+        win.style.animation = 'window-enter 0.3s ease-out forwards';
         const i = document.querySelectorAll('.floating').length;
         const currentSidebarWidth = getSidebarWidth();
         win.style.left = `${30 * i}px`;
@@ -1227,12 +1268,12 @@ document.addEventListener('DOMContentLoaded', () => {
         leftControls.className = 'tool-controls';
 
         const penBtn = document.createElement('button');
-        penBtn.innerHTML = '<i class="fas fa-pencil-alt"></i>';
+        penBtn.innerHTML = '<i data-lucide="pencil"></i>';
         penBtn.title = 'Annotate';
         penBtn.classList.add('pen-btn');
 
         const colorBtn = document.createElement('button');
-        colorBtn.innerHTML = '<i class="fas fa-palette"></i>';
+        colorBtn.innerHTML = '<i data-lucide="palette"></i>';
         colorBtn.title = 'Change Color';
 
         const colorPalette = document.createElement('div');
@@ -1271,11 +1312,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         const undoBtn = document.createElement('button');
-        undoBtn.innerHTML = '<i class="fas fa-undo"></i>';
+        undoBtn.innerHTML = '<i data-lucide="undo-2"></i>';
         undoBtn.title = 'Undo';
 
         const clearBtn = document.createElement('button');
-        clearBtn.innerHTML = '<i class="fas fa-trash"></i>';
+        clearBtn.innerHTML = '<i data-lucide="trash-2"></i>';
         clearBtn.title = 'Clear Annotations';
 
         leftControls.append(penBtn, colorBtn, undoBtn, clearBtn);
@@ -1495,7 +1536,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { type: 'v-half', content: '◧', title: 'Snap to Vertical Half (8)' },
             { type: 'h-half', content: `<svg width="0.85em" height="0.85em" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" style="display: block; stroke-width: 1.5; stroke: currentColor; margin: auto;"><rect x="0.5" y="0.5" width="9" height="9" fill="none" /><rect x="0.5" y="0.5" width="9" height="4.5" fill="currentColor" /></svg>`, title: 'Snap to Horizontal Half (9)' },
             { type: 'full', content: '◼', title: 'Snap to Fullscreen' },
-            { type: 'send-back', content: '<i class="fas fa-level-down-alt"></i>', title: 'Send to Back (PageDown)' },
+            { type: 'send-back', content: '<i data-lucide="arrow-down-to-line"></i>', title: 'Send to Back (PageDown)' },
             { type: 'close', content: '×', title: 'Close Window (Backspace)' }
         ];
     
@@ -1578,16 +1619,16 @@ document.addEventListener('DOMContentLoaded', () => {
         win.appendChild(winBody);
 
         const tools = [
-            { key: 'd', icon: 'fas fa-pencil-alt', func: activateDraw, title: 'Drawing Canvas (D)' },
-            { key: 't', icon: 'fas fa-font', func: activateType, title: 'Text Editor (T)' },
-            { key: '0', icon: 'fas fa-list-ol', func: activateNumberedList, title: 'Numbered List (0)' },
-            { key: 'w', icon: 'fas fa-camera', func: activateCam, title: 'Webcam (W)', premium: true },
-            { key: 'v', icon: 'fas fa-images', func: activateCarousel, title: 'Photo Carousel (V)', premium: true },
-            { key: 'o', icon: 'fas fa-hourglass-start', func: activateTimer, title: 'Countdown Timer (O)', premium: true },
-            { key: 'h', icon: 'fas fa-stopwatch', func: activateStopwatch, title: 'Stopwatch (H)', premium: true },
-            { key: 'g', icon: 'fas fa-dice', func: activateDiceRoller, title: 'Dice Roller (G)', premium: true },
-            { key: 'a', icon: 'fas fa-balance-scale', func: activateForAndAgainst, title: 'For/Against Counter (A)', premium: true },
-            { key: 'u', icon: 'fas fa-calculator', func: activateCalculator, title: 'Calculator (U)', premium: true }
+            { key: 'd', icon: 'pencil', func: activateDraw, title: 'Drawing Canvas (D)' },
+            { key: 't', icon: 'type', func: activateType, title: 'Text Editor (T)' },
+            { key: '0', icon: 'list-ordered', func: activateNumberedList, title: 'Numbered List (0)' },
+            { key: 'w', icon: 'camera', func: activateCam, title: 'Webcam (W)', premium: true },
+            { key: 'v', icon: 'image', func: activateCarousel, title: 'Photo Carousel (V)', premium: true },
+            { key: 'o', icon: 'hourglass', func: activateTimer, title: 'Countdown Timer (O)', premium: true },
+            { key: 'h', icon: 'timer', func: activateStopwatch, title: 'Stopwatch (H)', premium: true },
+            { key: 'g', icon: 'dice-5', func: activateDiceRoller, title: 'Dice Roller (G)', premium: true },
+            { key: 'a', icon: 'scale', func: activateForAndAgainst, title: 'For/Against Counter (A)', premium: true },
+            { key: 'u', icon: 'calculator', func: activateCalculator, title: 'Calculator (U)', premium: true }
         ];
 
         tools.forEach(tool => {
@@ -1597,7 +1638,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 btn.classList.add('premium-feature');
             }
             btn.dataset.hotkey = tool.key;
-            btn.innerHTML = `<i class="${tool.icon}"></i>`;
+            btn.innerHTML = `<i data-lucide="${tool.icon}"></i>`;
             btn.onclick = () => {
                 if (tool.premium && !window.TT.isPremium) {
                     openUpgradePanel();
@@ -1628,7 +1669,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const uploadBtn = document.createElement('button');
         uploadBtn.className = 'icon-btn upload-btn';
         uploadBtn.title = 'Import File (I)';
-        uploadBtn.innerHTML = '<i class="fas fa-file-arrow-up"></i>';
+        uploadBtn.innerHTML = '<i data-lucide="file-up"></i>';
         uploadBtn.onclick = () => fileInput.click();
 
         fileInput.onchange = () => {
@@ -1641,7 +1682,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const resetBtn = document.createElement('button');
         resetBtn.className = 'icon-btn reset-content-btn';
         resetBtn.title = 'Erase Content (E)';
-        resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
+        resetBtn.innerHTML = '<i data-lucide="rotate-cw"></i>';
         resetBtn.onclick = () => {
             const pos = { left: win.style.left, top: win.style.top, width: win.style.width, height: win.style.height, opacity: win.style.opacity };
             const wasActive = win.classList.contains('active-window');
@@ -1657,9 +1698,9 @@ document.addEventListener('DOMContentLoaded', () => {
         dropZone.className = 'drop-zone';
         dropZone.innerHTML = `
         <div class="drop-zone-inner">
-            <i class="drop-zone-icon fas fa-upload"></i>
+            <i class="drop-zone-icon" data-lucide="upload-cloud"></i>
             <div class="drop-zone-file-types">
-                <i class="fas fa-file-image"></i><i class="fas fa-file-video"></i><i class="fas fa-file-audio"></i><i class="fas fa-file-pdf"></i>
+                <i data-lucide="image"></i><i data-lucide="video"></i><i data-lucide="volume-2"></i><i data-lucide="file-text"></i>
             </div>
         </div>`;
         
@@ -1673,6 +1714,10 @@ document.addEventListener('DOMContentLoaded', () => {
         mainArea.appendChild(dropZone);
 
         document.body.appendChild(win);
+
+        if (window.lucide) {
+            lucide.createIcons();
+        }
         return win;
     }
 
@@ -2146,7 +2191,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}&summary=${encodeURIComponent(text)}" target="_blank" class="share-grid-btn linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
                 <a href="https://api.whatsapp.com/send?text=${encodeURIComponent(text + ' ' + url)}" target="_blank" class="share-grid-btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
                  <a href="https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}" target="_blank" class="share-grid-btn reddit"><i class="fab fa-reddit-alien"></i> Reddit</a>
-                <a href="mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(text)}%0A%0A${encodeURIComponent(url)}" class="share-grid-btn email"><i class="fas fa-envelope"></i> Email</a>
+                <a href="mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(text)}%0A%0A${encodeURIComponent(url)}" class="share-grid-btn email"><i data-lucide="mail"></i> Email</a>
             </div>
             <p class="copy-link-heading">Or copy the link</p>
             <div class="copy-link-area">
@@ -2196,6 +2241,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 showSuccess();
             }
         };
+        if (window.lucide) {
+            lucide.createIcons();
+        }
     }
 
     $('shareButton').onclick = () => {
@@ -2280,7 +2328,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const feedbackPanel = $('feedback-panel');
     const feedbackBackdrop = $('feedback-backdrop');
     const closeFeedbackBtn = $('close-feedback-btn');
-    const stars = document.querySelectorAll('.star-rating .fas');
+    const stars = document.querySelectorAll('.star-rating i');
     const submitFeedbackBtn = $('submit-feedback-btn');
 
     let currentRating = 0;
