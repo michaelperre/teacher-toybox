@@ -206,7 +206,7 @@
               feedback: { title: "Enviar Feedback", intro: "Adoraríamos ouvir suas opiniões!", ratingLegend: "Como você avaliaria sua experiência?", commentsLabel: "Comentários", commentsPlaceholder: "Diga-nos o que você gostou ou o que poderia ser melhorado...", submitButton: "Enviar", submitButtonSending: "Enviando...", submitButtonSuccess: "Obrigado!" }
           },
           tour: {
-              step1: { title: "Bem-vindo ao Teacher Toybox!", content: "Este é o seu centro de comando digital da sala de aula. Vamos percorrer rapidamente os controles principais. Clique em \"Avançar\" para continuar." },
+              step1: { title: "Bem-vindo ao Teacher Toybox!", content: "Este é o seu centro de comando digital da sala de aula. Vamos percorrer rapidamente os controles principais. Clique em \"Avançar\" для продолжения." },
               step2: { title: "Adicionar uma Janela", content: "Este botão adiciona uma nova janela. Se ainda não houver uma aberta, eu clico para você para que possamos ver as ferramentas da janela." },
               step3: { title: "Paleta de Ferramentas da Janela", content: "Excelente! Esta é a paleta de ferramentas para a nova janela. Ela possui ferramentas como uma tela de desenho e um editor de texto." },
               step4: { title: "Tela de Desenho", content: "Por exemplo, clicar neste botão transforma a janela em um quadro branco interativo. Vamos experimentar." },
@@ -297,7 +297,7 @@
       
       const feedbackComment = document.getElementById('feedback-comment');
       if (feedbackComment) {
-          const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder') || t(I18N.en, 'panel.feedback.commentsPlaceholder');
+          const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder') || t(I1en, 'panel.feedback.commentsPlaceholder');
           if (placeholderText) feedbackComment.setAttribute('placeholder', placeholderText);
       }
 
