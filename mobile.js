@@ -36,8 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'dice': loadDiceTool(); break;
             case 'countdown': loadCountdownTool(); break;
             case 'calculator': loadCalculatorTool(); break;
-            case 'numbered-list': loadNumberedListTool(); break;
-            case 'for-against': loadForAndAgainstTool(); break;
         }
     }
     
@@ -504,56 +502,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1000);
     }
     
-    function loadForAndAgainstTool() {
-        mainContent.className = 'main-content for-against-active';
-        mainContent.innerHTML = `<div class="for-against-container"></div>`;
-        const forAgainstContainer = mainContent.querySelector('.for-against-container');
-
-        const createPanel = (title, panelClass) => {
-            let count = 0;
-            const panel = document.createElement('div');
-            panel.className = `for-against-panel ${panelClass}`;
-
-            const titleEl = document.createElement('h2');
-            titleEl.textContent = title;
-
-            const display = document.createElement('div');
-            display.className = 'for-against-display';
-            
-            const controls = document.createElement('div');
-            controls.className = 'for-against-controls';
-
-            const updateDisplay = () => {
-                display.textContent = count;
-            };
-
-            const minusBtn = document.createElement('button');
-            minusBtn.className = 'tool-btn';
-            minusBtn.innerHTML = '<i class="fas fa-minus"></i>';
-            minusBtn.onclick = (e) => { e.stopPropagation(); if (count > 0) count--; updateDisplay(); };
-
-            const plusBtn = document.createElement('button');
-            plusBtn.className = 'tool-btn';
-            plusBtn.innerHTML = '<i class="fas fa-plus"></i>';
-            plusBtn.onclick = (e) => { e.stopPropagation(); count++; updateDisplay(); };
-            
-            const resetBtn = document.createElement('button');
-            resetBtn.className = 'tool-btn';
-            resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
-            resetBtn.onclick = (e) => { e.stopPropagation(); count = 0; updateDisplay(); };
-
-            panel.onclick = () => { count++; updateDisplay(); };
-
-            controls.append(minusBtn, plusBtn, resetBtn);
-            panel.append(titleEl, display, controls);
-            updateDisplay();
-            return panel;
-        };
-
-        forAgainstContainer.append(createPanel('For', 'for-panel'), createPanel('Against', 'against-panel'));
-    }
-
-    // --- Calculator Tool ---
     function loadCalculatorTool() {
         mainContent.className = 'main-content calculator-active';
         
@@ -640,100 +588,6 @@ document.addEventListener('DOMContentLoaded', () => {
             updateDisplay();
         });
     }
-
-    // --- Numbered List Tool ---
-    function loadNumberedListTool() {
-        mainContent.className = 'main-content numbered-list-active';
-        mainContent.innerHTML = '';
-    
-        const container = document.createElement('div');
-        container.className = 'numbered-list-container';
-    
-        const title = document.createElement('h2');
-        title.className = 'list-title';
-        title.contentEditable = true;
-        title.textContent = 'The List';
-        title.addEventListener('focus', () => { if (title.textContent === 'The List') { title.textContent = ''; } });
-        title.addEventListener('blur', () => { if (title.textContent.trim() === '') { title.textContent = 'The List'; } });
-    
-        const tableWrapper = document.createElement('div');
-        tableWrapper.className = 'list-table-wrapper';
-        const table = document.createElement('table');
-        table.className = 'list-table';
-        const tbody = document.createElement('tbody');
-        table.appendChild(tbody);
-        tableWrapper.appendChild(table);
-    
-        const controls = document.createElement('div');
-        controls.className = 'list-controls';
-    
-        const addRowBtn = document.createElement('button');
-        addRowBtn.className = 'control-btn-large';
-        addRowBtn.innerHTML = '<i class="fas fa-plus"></i>';
-        addRowBtn.title = 'Add Row';
-    
-        const removeRowBtn = document.createElement('button');
-        removeRowBtn.className = 'control-btn-large';
-        removeRowBtn.innerHTML = '<i class="fas fa-minus"></i>';
-        removeRowBtn.title = 'Remove Row';
-    
-        const resetBtn = document.createElement('button');
-        resetBtn.className = 'control-btn-large';
-        resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
-        resetBtn.title = 'Reset List';
-    
-        controls.append(addRowBtn, removeRowBtn, resetBtn);
-    
-        const createRow = () => {
-            const row = tbody.insertRow();
-            const rowNumber = tbody.rows.length;
-    
-            const cellNum = row.insertCell();
-            cellNum.className = 'col-number';
-            cellNum.textContent = rowNumber;
-    
-            const cellText = row.insertCell();
-            cellText.className = 'col-text';
-            const textInput = document.createElement('input');
-            textInput.type = 'text';
-            textInput.placeholder = `Item ${rowNumber}...`;
-            cellText.appendChild(textInput);
-    
-            const cellCounter = row.insertCell();
-            cellCounter.className = 'col-counter';
-            const minusBtn = document.createElement('button');
-            minusBtn.className = 'counter-btn';
-            minusBtn.textContent = '-';
-            const valueSpan = document.createElement('span');
-            valueSpan.className = 'counter-value';
-            valueSpan.textContent = '0';
-            const plusBtn = document.createElement('button');
-            plusBtn.className = 'counter-btn';
-            plusBtn.textContent = '+';
-    
-            plusBtn.onclick = () => { valueSpan.textContent = parseInt(valueSpan.textContent, 10) + 1; };
-            minusBtn.onclick = () => {
-                let current = parseInt(valueSpan.textContent, 10);
-                if (current > 0) { valueSpan.textContent = current - 1; }
-            };
-            cellCounter.append(minusBtn, valueSpan, plusBtn);
-        };
-        
-        const setupInitialState = () => {
-            tbody.innerHTML = '';
-            title.textContent = 'The List';
-            for (let i = 0; i < 5; i++) createRow();
-        };
-    
-        addRowBtn.onclick = createRow;
-        removeRowBtn.onclick = () => { if (tbody.rows.length > 1) tbody.deleteRow(-1); };
-        resetBtn.onclick = setupInitialState;
-    
-        container.append(title, tableWrapper, controls);
-        mainContent.appendChild(container);
-        setupInitialState();
-    }
-
 
     // --- Event Listeners for Navigation ---
     navButtons.forEach(button => {
