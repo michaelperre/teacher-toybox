@@ -1572,17 +1572,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const mainArea = document.createElement('div');
         mainArea.className = 'win-main-area';
 
-        mainArea.onclick = () => {
-            // Only trigger the file input if the drop-zone is visible
-            if (mainArea.querySelector('.drop-zone')) {
-                // Find the fileInput associated with this window and click it
-                const fileInput = win.querySelector('input[type="file"]');
-                if (fileInput) {
-                    fileInput.click();
-                }
-            }
-        };
-
         const winSidebar = document.createElement('div');
         winSidebar.className = 'win-sidebar';
         winBody.append(mainArea, winSidebar);
@@ -1673,6 +1662,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 <i class="fas fa-file-image"></i><i class="fas fa-file-video"></i><i class="fas fa-file-audio"></i><i class="fas fa-file-pdf"></i>
             </div>
         </div>`;
+        
+        dropZone.onclick = () => {
+            const fileInput = win.querySelector('input[type="file"]');
+            if (fileInput) {
+                fileInput.click();
+            }
+        };
+        
         mainArea.appendChild(dropZone);
 
         document.body.appendChild(win);
