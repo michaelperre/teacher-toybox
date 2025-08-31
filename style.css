@@ -196,6 +196,7 @@ body.light-mode.no-grid {
 #layout-tools-container,
 #management-tools-container,
 #help-tools-container,
+#communication-tools-container,
 #upgrade-tools-container {
     position: relative;
     width: 100%;
@@ -210,7 +211,8 @@ body.light-mode.no-grid {
 #extra-tools-bar,
 #layout-bar,
 #management-bar,
-#help-bar {
+#help-bar,
+#communication-bar {
     position: absolute;
     right: 100%;
     top: 50%;
@@ -232,7 +234,8 @@ body.light-mode.no-grid {
 #extra-tools-bar.open,
 #layout-bar.open,
 #management-bar.open,
-#help-bar.open {
+#help-bar.open,
+#communication-bar.open {
     transform: translateY(-50%) translateX(0);
     opacity: 1;
     pointer-events: auto;
@@ -242,7 +245,8 @@ body.light-mode.no-grid {
 #extra-tools-bar .btn,
 #layout-bar .btn,
 #management-bar .btn,
-#help-bar .btn {
+#help-bar .btn,
+#communication-bar .btn {
     flex-shrink: 0;
     opacity: 0;
     transform: translateX(15px);
@@ -252,7 +256,8 @@ body.light-mode.no-grid {
 #extra-tools-bar.open .btn,
 #layout-bar.open .btn,
 #management-bar.open .btn,
-#help-bar.open .btn {
+#help-bar.open .btn,
+#communication-bar.open .btn {
     opacity: 1;
     transform: translateX(0);
 }
@@ -261,12 +266,14 @@ body.light-mode.no-grid {
 #extra-tools-bar.open .btn:nth-child(1),
 #layout-bar.open .btn:nth-child(1),
 #management-bar.open .btn:nth-child(1),
-#help-bar.open .btn:nth-child(1) { transition-delay: 0.04s; }
+#help-bar.open .btn:nth-child(1),
+#communication-bar.open .btn:nth-child(1) { transition-delay: 0.04s; }
 
 #extra-tools-bar.open .btn:nth-child(2),
 #layout-bar.open .btn:nth-child(2),
 #management-bar.open .btn:nth-child(2),
-#help-bar.open .btn:nth-child(2) { transition-delay: 0.08s; }
+#help-bar.open .btn:nth-child(2),
+#communication-bar.open .btn:nth-child(2) { transition-delay: 0.08s; }
 
 #extra-tools-bar.open .btn:nth-child(3),
 #layout-bar.open .btn:nth-child(3),
@@ -1948,4 +1955,5 @@ body.is-premium #upgradeButton {
 
 .splash-subtext {
     font-size: 1.2rem;
+}
 }

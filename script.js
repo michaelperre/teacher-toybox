@@ -2251,7 +2251,18 @@ document.addEventListener('DOMContentLoaded', () => {
         $('help-bar').classList.toggle('open');
     };
 
-    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout;
+    $('communicationButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('extra-tools-bar').classList.remove('open');
+        $('layout-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        $('communication-bar').classList.toggle('open');
+    };
+
+    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout, communicationTimeout;
     const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
         const button = $(buttonId);
         const bar = $(barId);
@@ -2273,12 +2284,13 @@ document.addEventListener('DOMContentLoaded', () => {
     setupToolbarAutoRetract('extraToolsButton', 'extra-tools-bar', extraToolsTimeout);
     setupToolbarAutoRetract('managementButton', 'management-bar', managementTimeout);
     setupToolbarAutoRetract('helpButton', 'help-bar', helpTimeout);
+    setupToolbarAutoRetract('communicationButton', 'communication-bar', communicationTimeout);
     
     const feedbackButton = $('feedbackButton');
     const feedbackPanel = $('feedback-panel');
     const feedbackBackdrop = $('feedback-backdrop');
     const closeFeedbackBtn = $('close-feedback-btn');
-    const stars = document.querySelectorAll('.star-rating .fas');
+    const stars = document.querySelectorAll('.star-rating .fa-regular.fa-star');
     const submitFeedbackBtn = $('submit-feedback-btn');
 
     let currentRating = 0;
@@ -2309,9 +2321,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateStars() {
         stars.forEach(star => {
             if (parseInt(star.dataset.value) <= currentRating) {
-                star.classList.add('selected');
+                star.classList.replace('fa-regular', 'fa-solid');
+                star.style.color = '#fdd835';
             } else {
-                star.classList.remove('selected');
+                star.classList.replace('fa-solid', 'fa-regular');
+                star.style.color = '';
             }
         });
     }
@@ -2582,7 +2596,7 @@ document.addEventListener('DOMContentLoaded', () => {
             '1': 'layout1Button', '2': 'layout2Button', '3': 'layout3Button', '4': 'layout4Button', '5': 'layout5Button', '6': 'layout6Button', '7': 'layout7Button',
             'c': 'colorButton', 'm': 'magicColorButton', 'b': 'bellButton', 's': 'shhButton', 
             'p': 'laserButton', '/': 'managementButton', 'r': 'refreshButton', 'x': 'extraToolsButton', 
-            'l': 'screenButton', 'k': 'clockButton', 'j': 'shareButton', 'f': 'feedbackButton',
+            'l': 'screenButton', 'k': 'clockButton', 'j': 'shareButton', 'f': 'communicationButton',
             'z': 'themePaletteButton', '?': 'helpButton', 'u': 'upgradeButton'
         };
 
@@ -2687,18 +2701,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const isClickInsideFeedbackPanel = e.target.closest('#feedback-panel');
         const isClickInsideUpgradePanel = e.target.closest('#upgrade-panel');
         const isClickInsidePolicyPanel = e.target.closest('#policy-panel');
-        const isClickInsideContactPanel = e.target.closest('#contact-panel'); // Add this line
+        const isClickInsideContactPanel = e.target.closest('#contact-panel');
+        const isClickInsideCommunicationPanel = e.target.closest('#communication-tools-container');
 
-        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel && !isClickInsidePolicyPanel && !isClickInsideContactPanel) { // And here
+        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel && !isClickInsidePolicyPanel && !isClickInsideContactPanel && !isClickInsideCommunicationPanel) {
             if($('layout-bar')) $('layout-bar').classList.remove('open');
             if($('management-bar')) $('management-bar').classList.remove('open');
             if($('extra-tools-bar')) $('extra-tools-bar').classList.remove('open');
             if($('help-bar')) $('help-bar').classList.remove('open');
+            if($('communication-bar')) $('communication-bar').classList.remove('open');
 
             closeUpgradePanel();
             closeFeedbackPanel();
             closePolicyPanel();
-            closeContactPanel(); // And here
+            closeContactPanel();
             
             document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
                 if (p) p.classList.add('hidden');
