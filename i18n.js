@@ -71,7 +71,7 @@
           meta: { title: "Teacher Toybox | Безкоштовна інтерактивна дошка для вчителів", titleShort: "Teacher Toybox | Інтерактивна дошка", description: "Teacher Toybox — це безкоштовна інтерактивна цифрова дошка з таймерами, кубиками та іншим, щоб зробити уроки захоплюючими. Встановлення не потрібне.", keywords: "цифрова дошка, інтерактивна дошка, інструменти для вчителів, ресурси для класу, безкоштовні інструменти для вчителів, онлайн-таймер, класні заходи, освіта" },
           site: { brand: "Teacher Toybox", subtitle: "Дошка, створена вчителями для вчителів." },
           lang: { label: "Мова" },
-          btn: { tablet: "Підтримка планшета", "tablet.title": "Перейти na підтримку планшета", clock: "Переключити годинник (K)", add: "Додати вікно (N)", layouts: "Переключити макети (L)", colour: "Колір сайту (X)", color: "Вибрати колір (C)", magic: "Витягти колір (M)", themePalette: "Палітра тем (Z)", originalColor: "Оригінальний колір", bell: "Дзвоник (B)", shh: "Звук 'тсс' (S)", "shh.label": "Тсс", management: "Інструменти управління (/)", help: "Допомога (?)", laser: "Лазерна указка (P)", tour: "Почати тур", demo: "Демо-відео", info: "Інформація", refresh: "Оновити (R)", share: "Поділитися (J)", feedback: "Відгук (F)", coffee: "Пригостити кавою (Y)", upgrade: "Оновити до Premium (U)" },
+          btn: { tablet: "Підтримка планшета", "tablet.title": "Перейти на підтримку планшета", clock: "Переключити годинник (K)", add: "Додати вікно (N)", layouts: "Переключити макети (L)", colour: "Колір сайту (X)", color: "Вибрати колір (C)", magic: "Витягти колір (M)", themePalette: "Палітра тем (Z)", originalColor: "Оригінальний колір", bell: "Дзвоник (B)", shh: "Звук 'тсс' (S)", "shh.label": "Тсс", management: "Інструменти управління (/)", help: "Допомога (?)", laser: "Лазерна указка (P)", tour: "Почати тур", demo: "Демо-відео", info: "Інформація", refresh: "Оновити (R)", share: "Поділитися (J)", feedback: "Відгук (F)", coffee: "Пригостити кавою (Y)", upgrade: "Оновити до Premium (U)" },
           layout: { 1: "Макет 1: Повний екран (1)", 2: "Макет 2: Вертикальний поділ (2)", 3: "Макет 3: Основний зліва (3)", 4: "Макет 4: Основний справа (4)", 5: "Макет 5: Чотири квадранти (5)", 6: "Макет 6: Високий правий стовпець (6)", 7: "Макет 7: Стовпець 1-2-2 (7)" },
           panel: {
               upgrade: { title: "Перейти на Premium", intro: "Покращіть свій клас, розблокувавши всі інтерактивні інструменти в Teacher Toybox!", feature1_title: "Розблокувати всі інструменти", feature1_desc: "Отримайте негайний доступ до всіх преміум-інструментів.", feature2_title: "Веб-камера та документ-камера", feature2_desc: "Використовуйте веб-камеру для живих демонстрацій.", feature3_title: "Карусель фотографій", feature3_desc: "Створюйте захоплюючі візуальні історії та слайд-шоу.", feature4_title: "Гейміфікуйте уроки", feature4_desc: "Використовуйте кубики та лічильники, щоб зробити навчання веселим.", feature5_title: "Керуйте часом", feature5_desc: "Легко керуйте часом у класі за допомогою таймерів та секундомірів.", feature6_title: "Розширений контроль", feature6_desc: "Налаштовуйте прозорість та шари вікон для ідеального налаштування.", feature7_title: "Майбутні інструменти", feature7_desc: "Автоматично отримуйте кожен новий преміум-інструмент, який ми випускаємо.", feature8_title: "Підтримайте розробку", feature8_desc: "Допоможіть зберегти основну платформу безкоштовною для всіх вчителів.", priceBig: "$2 на місяць", priceSmall: "$24 щорічно" },
@@ -147,7 +147,7 @@
               step3: { title: "Palette d'outils de la fenêtre", content: "Excellent ! Ceci est la palette d'outils pour la nouvelle fenêtre. Elle contient des outils comme une toile de dessin et un éditeur de texte." },
               step4: { title: "Toile de dessin", content: "Par exemple, en cliquant sur ce bouton, la fenêtre se transforme en tableau blanc interactif. Essayons." },
               step5: { title: "Organisez votre écran", content: "Ce bouton révèle des mises en page prédéfinies. Vous pouvez organiser instantanément vos fenêtres en écran partagé, en quadrants, et plus encore." },
-              step6: { title: "Déplacer et redimensionner", content: "Vous pouvez également faire glisser cette barre pour déplacer les fenêtres, et les redimensionner depuis n'importe quel bord ou coin." },
+              step6: { title: "Déplacer et redimensionner", content: "Vous pouvez également faire glisser cette barre pour déplacer les fenêtres, et les redimensionner desde n'importe quel bord ou coin." },
               step7: { title: "Aide et ressources", content: "Voilà les bases ! Ce bouton regroupe la visite guidée, la vidéo de démonstration et plus d'informations. Cliquez sur 'Terminer' pour commencer à explorer." }
           }
       },
@@ -333,7 +333,7 @@
         'IN': 'hi', 'ES': 'es', 'MX':'es', 'AR':'es', 'CL':'es', 'CO':'es', 'PE':'es', 'VE':'es', 'UY':'es', 'EC':'es', 'BO':'es', 'PY':'es', 'PA':'es', 'CR':'es', 'NI':'es', 'SV':'es', 'GT':'es', 'HN':'es', 'DO':'es', 'PR':'es',
         'FR': 'fr', 'BE':'fr', 'CH':'fr', 'CA':'fr', 'LU':'fr', 'AE': 'ar', 'SA':'ar', 'EG':'ar', 'MA':'ar', 'DZ':'ar', 'TN':'ar', 'QA':'ar', 'KW':'ar', 'OM':'ar', 'BH':'ar', 'IQ':'ar', 'JO':'ar', 'LB':'ar', 'LY':'ar', 'SD':'ar', 'YE':'ar',
         'IR': 'fa', 'PT': 'pt', 'BR':'pt', 'RU': 'ru', 'BY':'ru', 'KZ':'ru', 'KG':'ru',
-        'US':'en', 'GB':'en', 'AU':'en', 'NZ':'en', 'IE':'en', 'ZA':'en', 'ph':'en', 'pk':'en', 'ng':'en', 'ke':'en'
+        'US':'en', 'GB':'en', 'AU':'en', 'NZ':'en', 'IE':'en', 'ZA':'en', 'PH':'en', 'PK':'en', 'NG':'en', 'KE':'en'
       };
 
       try {
@@ -369,10 +369,11 @@
         sel.appendChild(opt);
       });
 
-      // FINAL FIX: This listener ensures real-time changes work reliably.
+      // This listener uses event capturing (the 'true' argument) to ensure it
+      // runs before other scripts can interfere with the event.
       sel.addEventListener('change', () => {
         applyLang(sel.value);
-      }, true); // Use event capturing
+      }, true);
       
       const storedLang = localStorage.getItem('ttx_lang');
       let finalLang;
