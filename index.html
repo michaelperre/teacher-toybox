@@ -123,6 +123,9 @@
           white-space: nowrap;
         }
       </style>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
     <script src="numbered-list.js" defer></script>
     <script src="info-text.js" defer></script>
     <script src="i18n.js" defer></script>
@@ -380,6 +383,9 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', () => {
+        // This must run after the DOM is ready to find the icons
+        lucide.createIcons();
+
         const authButton = document.getElementById('authButton');
 
         if (authButton) {
@@ -397,10 +403,6 @@
           });
         }
       });
-    </script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-        lucide.createIcons();
     </script>
 </body>
 </html>
