@@ -113,7 +113,7 @@
           meta: { title: "टीचर टॉयबॉक्स | कक्षाओं के लिए मुफ्त इंटरैक्टिव डिजिटल व्हाइटबोर्ड", titleShort: "टीचर टॉयबॉक्स | इंटरैक्टिव व्हाइटबोर्ड", description: "टीचर टॉयबॉक्स एक मुफ्त इंटरैक्टिव डिजिटल व्हाइटबोर्ड है जिसमें टाइमर, पासा और बहुत कुछ है ताकि पाठों को आकर्षक बनाया जा सके। किसी इंस्टॉलेशन की आवश्यकता नहीं है।", keywords: "डिजिटल व्हाइटबोर्ड, इंटरैक्टिव व्हाइटबोर्ड, शिक्षक उपकरण, कक्षा संसाधन, मुफ्त शिक्षक उपकरण, ऑनलाइन टाइमर, कक्षा गतिविधियाँ, शिक्षा" },
           site: { brand: "टीचर टॉयबॉक्स", subtitle: "शिक्षकों द्वारा शिक्षकों के लिए बनाया गया एक व्हाइटबोर्ड।" },
           lang: { label: "भाषा" },
-          btn: { tablet: "टैबलेट सहायता", "tablet.title": "टैबलेट सहायता पर स्विच करें", clock: "घड़ी टॉगल करें (K)", add: "नई विंडो जोड़ें (N)", layouts: "लेआउट टॉगल करें (L)", colour: "वेबसाइट का रंग (X)", color: "रंग चुनें (C)", magic: "रंग निकालें (M)", themePalette: "थीम पैलेट (Z)", originalColor: "मूल रंग", bell: "घंटी बजाएं (B)", shh: "चुप कराने की ध्वनि (S)", "shh.label": "श्श", management: "प्रबंधन उपकरण (/)", help: "सहायता (?)", laser: "लेजर पॉइंटर (P)", tour: "टूर शुरू करें", demo: "डेमो वीडियो", info: "जानकारी", refresh: "रीफ्रेश करें (R)", share: "शेयर करें (J)", feedback: "प्रतिक्रिया दें (F)", coffee: "मुझे एक कॉफी खरीदें (Y)", upgrade: "प्रीमियम में अपग्रेड करें (U)" },
+          btn: { tablet: "टैबलेट सहायता", "tablet.title": "टैबलेट सहायता पर स्विच करें", clock: "घड़ी टॉगल करें (K)", add: "नई विंडो जोड़ें (N)", layouts: "लेआउट टॉगल करें (L)", colour: "वेबसाइट का रंग (X)", color: "रंग चुनें (C)", magic: "रंग निकालें (M)", themePalette: "थीम पैलेट (Z)", originalColor: "मूल रंग", bell: "घंटी बजाएं (B)", shh: "चुप कराने की ध्वनि (S)", "shh.label": "श्श", management: "प्रबंधन उपकरण (/)", help: "सहायता (?)", laser: "लेजर पॉइंटर (P)", tour: "टूर शुरू करें", demo: "डेमो видео", info: "जानकारी", refresh: "रीफ्रेश करें (R)", share: "शेयर करें (J)", feedback: "प्रतिक्रिया दें (F)", coffee: "मुझे एक कॉफी खरीदें (Y)", upgrade: "प्रीमियम में अपग्रेड करें (U)" },
           layout: { 1: "लेआउट 1: पूर्ण स्क्रीन (1)", 2: "लेआउट 2: लंबवत विभाजन (2)", 3: "लेआउट 3: मुख्य बाएँ (3)", 4: "लेआउट 4: मुख्य दाएँ (4)", 5: "लेआउट 5: चार चतुर्थांश (5)", 6: "लेआउट 6: लंबा दायां कॉलम (6)", 7: "लेआउट 7: 1-2-2 कॉलम (7)" },
           panel: {
               upgrade: { title: "प्रीमियम बनें", intro: "टीचर टॉयबॉक्स में हर इंटरैक्टिव टूल को अनलॉक करके अपनी कक्षा को सुपरचार्ज करें!", feature1_title: "सभी टूल अनलॉक करें", feature1_desc: "हर प्रीमियम टूल तक तुरंत पहुँच प्राप्त करें।", feature2_title: "वेबकैम और दस्तावेज़ कैमरा", feature2_desc: "लाइव प्रदर्शन के लिए अपने वेबकैम का उपयोग करें।", feature3_title: "फोटो हिंडोला", feature3_desc: "आकर्षक दृश्य कहानियाँ और स्लाइडशो बनाएँ।", feature4_title: "पाठों को गेमिफाई करें", feature4_desc: "सीखने को मजेदार बनाने के लिए डाइस रोलर और काउंटर्स का उपयोग करें।", feature5_title: "समय प्रबंधित करें", feature5_desc: "टाइमर और स्टॉपवॉच के साथ कक्षा के समय को सहजता से प्रबंधित करें।", feature6_title: "उन्नत नियंत्रण", feature6_desc: "सही सेटअप के लिए अपारदर्शिता समायोजित करें और अपनी खिड़कियों को परत करें।", feature7_title: "भविष्य के उपकरण", feature7_desc: "हमारे द्वारा जारी किए गए हर नए प्रीमियम टूल को स्वचालित रूप से प्राप्त करें।", feature8_title: "विकास का समर्थन करें", feature8_desc: "सभी शिक्षकों के लिए कोर प्लेटफॉर्म को मुफ्त रखने में मदद करें。", priceBig: "$2 प्रति माह", priceSmall: "$24 वार्षिक बिल" },
@@ -206,7 +206,7 @@
               feedback: { title: "Enviar Feedback", intro: "Adoraríamos ouvir suas opiniões!", ratingLegend: "Como você avaliaria sua experiência?", commentsLabel: "Comentários", commentsPlaceholder: "Diga-nos o que você gostou ou o que poderia ser melhorado...", submitButton: "Enviar", submitButtonSending: "Enviando...", submitButtonSuccess: "Obrigado!" }
           },
           tour: {
-              step1: { title: "Bem-vindo ao Teacher Toybox!", content: "Este é o seu centro de comando digital da sala de aula. Vamos percorrer rapidamente os controles principais. Clique em \"Avançar\" для продолжения." },
+              step1: { title: "Bem-vindo ao Teacher Toybox!", content: "Este é o seu centro de comando digital da sala de aula. Vamos percorrer rapidamente os controles principais. Clique em \"Avançar\" para continuar." },
               step2: { title: "Adicionar uma Janela", content: "Este botão adiciona uma nova janela. Se ainda não houver uma aberta, eu clico para você para que possamos ver as ferramentas da janela." },
               step3: { title: "Paleta de Ferramentas da Janela", content: "Excelente! Esta é a paleta de ferramentas para a nova janela. Ela possui ferramentas como uma tela de desenho e um editor de texto." },
               step4: { title: "Tela de Desenho", content: "Por exemplo, clicar neste botão transforma a janela em um quadro branco interativo. Vamos experimentar." },
@@ -295,9 +295,18 @@
         if (typeof val === 'string') el.setAttribute('title', val);
       });
       
+      // FIX 1: Explicitly update the subtitle to ensure it changes
+      const subtitleEl = document.getElementById('site-subtitle');
+      if (subtitleEl) {
+          const subtitleText = t(dict, 'site.subtitle') || t(I18N.en, 'site.subtitle');
+          if (subtitleText) {
+              subtitleEl.textContent = subtitleText;
+          }
+      }
+      
       const feedbackComment = document.getElementById('feedback-comment');
       if (feedbackComment) {
-          const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder') || t(I1en, 'panel.feedback.commentsPlaceholder');
+          const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder') || t(I18N.en, 'panel.feedback.commentsPlaceholder');
           if (placeholderText) feedbackComment.setAttribute('placeholder', placeholderText);
       }
 
@@ -321,7 +330,6 @@
           global.TT.updateDateDisplay(lang);
       }
 
-      // NEW: Directly update the info window's language if it is open
       if (window.TT && typeof window.TT.updateInfoWindowLanguage === 'function') {
         window.TT.updateInfoWindowLanguage(lang);
       }
@@ -363,8 +371,6 @@
       const sel = document.getElementById('langSelect');
       if (!sel) return;
       
-      let userInteracted = false;
-      
       sel.innerHTML = '';
       Object.entries(SUPPORTED).forEach(([code, name]) => {
         const opt = document.createElement('option');
@@ -372,10 +378,8 @@
         sel.appendChild(opt);
       });
 
-      sel.addEventListener('change', (event) => {
-        event.preventDefault(); // Prevent any default browser action
-        event.stopPropagation(); // Stop the event from bubbling up to other listeners
-        userInteracted = true;
+      // FIX 3: Simplified event listener for real-time changes
+      sel.addEventListener('change', () => {
         applyLang(sel.value);
       });
       
@@ -386,10 +390,16 @@
           finalLang = storedLang;
       } else {
           finalLang = await detectLanguage();
-          if (userInteracted) return;
       }
       
-      sel.value = finalLang;
+      // FIX 2: More reliable method to set the selector's visual state on load
+      const optionToSelect = sel.querySelector(`option[value="${finalLang}"]`);
+      if (optionToSelect) {
+          optionToSelect.selected = true;
+      } else {
+          sel.value = finalLang; // Fallback
+      }
+
       applyLang(finalLang); 
     }
 
