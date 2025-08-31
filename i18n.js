@@ -167,7 +167,7 @@
               step2: { title: "إضافة نافذة", content: "هذا الزر يضيف نافذة جديدة. إذا لم تكن هناك نافذة مفتوحة بالفعل، سأنقر عليه من أجلك حتى نتمكن من إلقاء نظرة على أدوات النافذة." },
               step3: { title: "لوحة أدوات النافذة", content: "ممتاز! هذه هي لوحة الأدوات للنافذة الجديدة. تحتوي على أدوات مثل لوحة الرسم ومحرر النصوص." },
               step4: { title: "لوحة الرسم", content: "على سبيل المثال، النقر على هذا الزر يحول النافذة إلى سبورة تفاعلية. لنجرب ذلك." },
-              step5: { title: "ترتيب شاشتك", content: "هذا الزر يكشف عن تخطيطات محددة مسبقًا. يمكنك تنظيم نوافذك فورًا في شاشة مقسمة، أرباع، والمزيد." },
+              step5: { title: "ترتيب شاشتك", content: "هذا الزर يكشف عن تخطيطات محددة مسبقًا. يمكنك تنظيم نوافذك فورًا في شاشة مقسمة، أرباع، والمزيد." },
               step6: { title: "تحريك وتغيير الحجم", content: "يمكنك أيضًا سحب هذا الشريط لتحريك النوافذ، وتغيير حجمها من أي حافة أو زاوية." },
               step7: { title: "المساعدة والمصادر", content: "هذه هي الأساسيات! هذا الزر يجمع الجولة، الفيديو التجريبي، والمزيد من المعلومات. انقر على 'إنهاء' لبدء الاستكشاف." }
           }
@@ -372,10 +372,8 @@
       });
       
       sel.addEventListener('change', () => {
-        // Use a setTimeout to ensure the DOM has fully processed the change event
-        // before we try to update the text content. This resolves timing issues.
-        setTimeout(() => applyLang(sel.value), 0);
-      }, true);
+        applyLang(sel.value);
+      });
       
       const storedLang = localStorage.getItem('ttx_lang');
       let finalLang;
@@ -387,9 +385,7 @@
       }
       
       sel.value = finalLang;
-
-      // Use a short timeout to ensure the DOM is fully settled before the initial translation.
-      setTimeout(() => applyLang(finalLang), 0);
+      applyLang(finalLang); 
     }
 
     document.addEventListener('DOMContentLoaded', initPicker);
