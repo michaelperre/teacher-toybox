@@ -113,7 +113,7 @@
           meta: { title: "टीचर टॉयबॉक्स | कक्षाओं के लिए मुफ्त इंटरैक्टिव डिजिटल व्हाइटबोर्ड", titleShort: "टीचर टॉयबॉक्स | इंटरैक्टिव व्हाइटबोर्ड", description: "टीचर टॉयबॉक्स एक मुफ्त इंटरैक्टिव डिजिटल व्हाइटबोर्ड है जिसमें टाइमर, पासा और बहुत कुछ है ताकि पाठों को आकर्षक बनाया जा सके। किसी इंस्टॉलेशन की आवश्यकता नहीं है।", keywords: "डिजिटल व्हाइटबोर्ड, इंटरैक्टिव व्हाइटबोर्ड, शिक्षक उपकरण, कक्षा संसाधन, मुफ्त शिक्षक उपकरण, ऑनलाइन टाइमर, कक्षा गतिविधियाँ, शिक्षा" },
           site: { brand: "टीचर टॉयबॉक्स", subtitle: "शिक्षकों द्वारा शिक्षकों के लिए बनाया गया एक व्हाइटबोर्ड।" },
           lang: { label: "भाषा" },
-          btn: { tablet: "टैबलेट सहायता", "tablet.title": "टैबलेट सहायता पर स्विच करें", clock: "घड़ी टॉगल करें (K)", add: "नई विंडो जोड़ें (N)", layouts: "लेआउट टॉगल करें (L)", colour: "वेबसाइट का रंग (X)", color: "रंग चुनें (C)", magic: "रंग निकालें (M)", themePalette: "थीम पैलेट (Z)", originalColor: "मूल रंग", bell: "घंटी बजाएं (B)", shh: "चुप कराने की ध्वनि (S)", "shh.label": "श्श", management: "प्रबंधन उपकरण (/)", help: "सहायता (?)", laser: "लेजर पॉइंटर (P)", tour: "टूर शुरू करें", demo: "डेमो видео", info: "जानकारी", refresh: "रीफ्रेश करें (R)", share: "शेयर करें (J)", feedback: "प्रतिक्रिया दें (F)", coffee: "मुझे एक कॉफी खरीदें (Y)", upgrade: "प्रीमियम में अपग्रेड करें (U)" },
+          btn: { tablet: "टैबलेट सहायता", "tablet.title": "टैबलेट सहायता पर स्विच करें", clock: "घड़ी टॉगल करें (K)", add: "नई विंडो जोड़ें (N)", layouts: "लेआउट टॉगल करें (L)", colour: "वेबसाइट का रंग (X)", color: "रंग चुनें (C)", magic: "रंग निकालें (M)", themePalette: "थीम पैलेट (Z)", originalColor: "मूल रंग", bell: "घंटी बजाएं (B)", shh: "चुप कराने की ध्वनि (S)", "shh.label": "श्श", management: "प्रबंधन उपकरण (/)", help: "सहायता (?)", laser: "लेजर पॉइंटर (P)", tour: "टूर शुरू करें", demo: "डेमो वीडियो", info: "जानकारी", refresh: "रीफ्रेश करें (R)", share: "शेयर करें (J)", feedback: "प्रतिक्रिया दें (F)", coffee: "मुझे एक कॉफी खरीदें (Y)", upgrade: "प्रीमियम में अपग्रेड करें (U)" },
           layout: { 1: "लेआउट 1: पूर्ण स्क्रीन (1)", 2: "लेआउट 2: लंबवत विभाजन (2)", 3: "लेआउट 3: मुख्य बाएँ (3)", 4: "लेआउट 4: मुख्य दाएँ (4)", 5: "लेआउट 5: चार चतुर्थांश (5)", 6: "लेआउट 6: लंबा दायां कॉलम (6)", 7: "लेआउट 7: 1-2-2 कॉलम (7)" },
           panel: {
               upgrade: { title: "प्रीमियम बनें", intro: "टीचर टॉयबॉक्स में हर इंटरैक्टिव टूल को अनलॉक करके अपनी कक्षा को सुपरचार्ज करें!", feature1_title: "सभी टूल अनलॉक करें", feature1_desc: "हर प्रीमियम टूल तक तुरंत पहुँच प्राप्त करें।", feature2_title: "वेबकैम और दस्तावेज़ कैमरा", feature2_desc: "लाइव प्रदर्शन के लिए अपने वेबकैम का उपयोग करें।", feature3_title: "फोटो हिंडोला", feature3_desc: "आकर्षक दृश्य कहानियाँ और स्लाइडशो बनाएँ।", feature4_title: "पाठों को गेमिफाई करें", feature4_desc: "सीखने को मजेदार बनाने के लिए डाइस रोलर और काउंटर्स का उपयोग करें।", feature5_title: "समय प्रबंधित करें", feature5_desc: "टाइमर और स्टॉपवॉच के साथ कक्षा के समय को सहजता से प्रबंधित करें।", feature6_title: "उन्नत नियंत्रण", feature6_desc: "सही सेटअप के लिए अपारदर्शिता समायोजित करें और अपनी खिड़कियों को परत करें।", feature7_title: "भविष्य के उपकरण", feature7_desc: "हमारे द्वारा जारी किए गए हर नए प्रीमियम टूल को स्वचालित रूप से प्राप्त करें।", feature8_title: "विकास का समर्थन करें", feature8_desc: "सभी शिक्षकों के लिए कोर प्लेटफॉर्म को मुफ्त रखने में मदद करें。", priceBig: "$2 प्रति माह", priceSmall: "$24 वार्षिक बिल" },
@@ -158,7 +158,7 @@
           btn: { tablet: "دعم الجهاز اللوحي", "tablet.title": "التبديل إلى دعم الجهاز اللوحي", clock: "تبديل الساعة (K)", add: "إضافة نافذة جديدة (N)", layouts: "تبديل التخطيطات (L)", colour: "لون الموقع (X)", color: "تحديد لون (C)", magic: "استخراج اللون (M)", themePalette: "لوحة السمات (Z)", originalColor: "اللون الأصلي", bell: "رنين الجرس (B)", shh: "صوت 'صه' (S)", "shh.label": "صه", management: "أدوات الإدارة (/)", help: "مساعدة (؟)", laser: "مؤشر الليزر (P)", tour: "بدء الجولة", demo: "فيديو تجريبي", info: "معلومات", refresh: "تحديث (R)", share: "مشاركة (J)", feedback: "تقديم ملاحظات (F)", coffee: "اشتر لي قهوة (Y)", upgrade: "الترقية إلى بريميوم (U)" },
           layout: { 1: "التخطيط 1: ملء الشاشة (1)", 2: "التخطيط 2: تقسيم عمودي (2)", 3: "التخطيط 3: الرئيسي على اليسار (3)", 4: "التخطيط 4: الرئيسي على اليمين (4)", 5: "التخطيط 5: أربعة أرباع (5)", 6: "التخطيط 6: عمود أيمن طويل (6)", 7: "التخطيط 7: عمود 1-2-2 (7)" },
           panel: {
-              upgrade: { title: "انتقل إلى بريميوم", intro: "قم بتعزيز فصلك الدراسي عن طريق فتح كل أداة تفاعلية في Teacher Toybox!", feature1_title: "فتح جميع الأدوات", feature1_desc: "احصل على وصول فوري إلى كل أداة متميزة.", feature2_title: "كاميرا الويب وكاميرا المستندات", feature2_desc: "استخدم كاميرا الويب الخاصة بك للعروض التوضيحية الحية.", feature3_title: "دائري الصور", feature3_desc: "أنشئ قصصًا مرئية وعروض شرائح جذابة.", feature4_title: "أضف طابع الألعاب على الدروس", feature4_desc: "استخدم أداة رمي النرد والعدادات لجعل التعلم ممتعًا.", feature5_title: "إدارة الوقت", feature5_desc: "إدارة وقت الفصل بسهولة باستخدام المؤقتات وساعات الإيقاف.", feature6_title: "تحكم متقدم", feature6_desc: "اضبط العتامة وقم بوضع طبقات على نوافذك للحصول على إعداد مثالي.", feature7_title: "أدوات مستقبلية", feature7_desc: "احصل تلقائيًا على كل أداة متميزة جديدة نصدرها.", feature8_title: "دعم التطوير", feature8_desc: "ساعد في الحفاظ على النظام الأساسي مجانيًا لجميع المعلمين.", priceBig: "$2 شهريًا", priceSmall: "فاتورة سنوية بقيمة 24 دولارًا" },
+              upgrade: { title: "انتقل إلى بريميوم", intro: "قم بتعزيز فصلك الدراسي عن طريق فتح كل أداة تفاعلية في Teacher Toybox!", feature1_title: "فتح جميع الأدوات", feature1_desc: "احصل على وصول فوري إلى كل أداة متميزة.", feature2_title: "كاميرا الويب وكاميرا المستندات", feature2_desc: "استخدم كاميرا الويب الخاصة بك للعروض التوضيحية الحية.", feature3_title: "دائري الصور", feature3_desc: "أنشئ قصصًا مرئية وعروض شرائح جذابة.", feature4_title: "أضف طابع الألعاب على الدروس", feature4_desc: "استخدم أداة رمي النرد والعدادات لجعل التعلم ممتعًا.", feature5_title: "إدارة الوقت", feature5_desc: "إدارة وقت الفصل بسهولة باستخدام المؤقتات وساعات الإيقاف.", feature6_title: "تحكم متقدم", feature6_desc: "اضبط العتامة وقم بوضع طبقات على نوافذك للحصول على إعداد مثالي.", feature7_title: "أدوات مستقبلية", feature7_desc: "احصل تلقائيًا על כל أداة متميزة جديدة نصدرها.", feature8_title: "دعم التطوير", feature8_desc: "ساعد في الحفاظ على النظام الأساسي مجانيًا لجميع المعلمين.", priceBig: "$2 شهريًا", priceSmall: "فاتورة سنوية بقيمة 24 دولارًا" },
               share: { title: "انشر الخبر!" },
               feedback: { title: "تقديم ملاحظات", intro: "يسعدنا أن نسمع أفكارك!", ratingLegend: "كيف تقيم تجربتك؟", commentsLabel: "تعليقات", commentsPlaceholder: "أخبرنا بما أعجبك أو ما يمكن تحسينه ...", submitButton: "إرسال", submitButtonSending: "جار الإرسال ...", submitButtonSuccess: "شكرًا لك!" }
           },
@@ -295,15 +295,6 @@
         if (typeof val === 'string') el.setAttribute('title', val);
       });
       
-      // FIX 1: Explicitly update the subtitle to ensure it changes
-      const subtitleEl = document.getElementById('site-subtitle');
-      if (subtitleEl) {
-          const subtitleText = t(dict, 'site.subtitle') || t(I18N.en, 'site.subtitle');
-          if (subtitleText) {
-              subtitleEl.textContent = subtitleText;
-          }
-      }
-      
       const feedbackComment = document.getElementById('feedback-comment');
       if (feedbackComment) {
           const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder') || t(I18N.en, 'panel.feedback.commentsPlaceholder');
@@ -378,7 +369,7 @@
         sel.appendChild(opt);
       });
 
-      // FIX 3: Simplified event listener for real-time changes
+      // FINAL FIX: This listener now correctly updates the page in real-time.
       sel.addEventListener('change', () => {
         applyLang(sel.value);
       });
@@ -392,12 +383,12 @@
           finalLang = await detectLanguage();
       }
       
-      // FIX 2: More reliable method to set the selector's visual state on load
+      // This ensures the dropdown visually matches the loaded language.
       const optionToSelect = sel.querySelector(`option[value="${finalLang}"]`);
       if (optionToSelect) {
           optionToSelect.selected = true;
       } else {
-          sel.value = finalLang; // Fallback
+          sel.value = finalLang;
       }
 
       applyLang(finalLang); 
