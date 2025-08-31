@@ -58,7 +58,7 @@ const updateUI = async () => {
       authButton.innerHTML = '<i data-lucide="log-in"></i>';
       authButton.classList.remove('logout-btn');
       if (userProfile) userProfile.style.display = 'none';
-      if (upgradeButton) upgradeButton.style.display = 'flex'; // Or 'none' if you want to hide it for logged-out users
+      if (upgradeButton) upgradeButton.style.display = 'flex';
     }
 
     // IMPORTANT: Re-render icons after changing the button's content
@@ -103,8 +103,9 @@ const logout = () => {
 
 /**
  * Main function to run on page load.
+ * Changed from 'load' to 'DOMContentLoaded' to prevent race conditions.
  */
-window.addEventListener('load', async () => {
+document.addEventListener('DOMContentLoaded', async () => {
   await configureClient();
   await updateUI();
 
