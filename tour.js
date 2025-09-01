@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
      * @returns {Array} An array of tour step objects.
      */
     function getTourSteps(lang) {
-        // Use the new, safer TT_I18N namespace
         const dict = window.TT_I18N.data[lang] || window.TT_I18N.data.en;
         const t = window.TT_I18N.t;
         
@@ -199,7 +198,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <button class="tour-next-btn">${index === this.steps.length - 1 ? 'Finish' : 'Next'}</button>
                 </div>
             `;
-            this.elements.tooltip.querySelector('.tour-next-btn').addEventListener('click', () => this.next(), { once: true });
+            this.elements.tooltip.querySelector('.tour-next-btn').addEventListener('click', (e) => {
+                e.stopPropagation();
+                this.next();
+            }, { once: true });
         }
 
         /**
