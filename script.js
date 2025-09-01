@@ -1828,7 +1828,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (layoutState.activeLayout === layoutId) {
             clearWins();
             layoutState.activeLayout = null;
-            layoutState.isVisible = true;
             localStorage.removeItem('ttx_lastLayout');
         } else {
             layoutFunction();
