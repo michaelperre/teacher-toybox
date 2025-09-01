@@ -5,22 +5,20 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-    // A flag to prevent the tour from starting automatically if it's already running
     let isTourActive = false;
-    // A flag to ignore programmatic clicks during tour actions
     let isPerformingAction = false;
 
-    // REBUILT: Define steps with keys instead of fetching text immediately.
+    // The tour steps are now hardcoded in English to isolate the problem.
     const tourSteps = [
         {
             element: '#addButton',
-            titleKey: 'tour.step1.title',
-            contentKey: 'tour.step1.content'
+            title: "Welcome to Teacher Toybox!",
+            content: "This is your digital classroom command center. Let's quickly walk through the main controls. Click \"Next\" to continue."
         },
         {
             element: '#addButton',
-            titleKey: 'tour.step2.title',
-            contentKey: 'tour.step2.content',
+            title: "Add a Window",
+            content: "This button adds a new window. If one isn't open already, I'll click it for you so we can look at the window tools.",
             action: () => {
                 if (document.querySelectorAll('.floating').length === 0) {
                     document.getElementById('addButton')?.click();
@@ -29,30 +27,30 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             element: '.floating .win-sidebar',
-            titleKey: 'tour.step3.title',
-            contentKey: 'tour.step3.content'
+            title: "Window Tool Palette",
+            content: "Excellent! This is the tool palette for the new window. It has tools like a drawing canvas and text editor."
         },
         {
             element: '.floating .win-sidebar .icon-btn[data-hotkey="d"]',
-            titleKey: 'tour.step4.title',
-            contentKey: 'tour.step4.content',
+            title: "Drawing Canvas",
+            content: "For example, clicking this button turns the window into an interactive whiteboard. Let's try it.",
             action: () => document.querySelector('.floating .win-sidebar .icon-btn[data-hotkey="d"]')?.click()
         },
         {
             element: '#screenButton',
-            titleKey: 'tour.step5.title',
-            contentKey: 'tour.step5.content',
+            title: "Arrange Your Screen",
+            content: "This button reveals preset layouts. You can instantly organize your windows into splitscreen, quadrants, and more.",
             action: () => document.querySelector('#screenButton')?.click()
         },
         {
             element: '.floating .drag-bar',
-            titleKey: 'tour.step6.title',
-            contentKey: 'tour.step6.content'
+            title: "Move & Resize",
+            content: "You can also drag this bar to move windows, and resize them from any edge or corner."
         },
         {
             element: '#helpButton',
-            titleKey: 'tour.step7.title',
-            contentKey: 'tour.step7.content',
+            title: "Help & Resources",
+            content: "That's the basics! This button groups together the tour, demo video, and more information. Click 'Finish' to start exploring.",
             action: () => document.getElementById('helpButton')?.click()
         }
     ];
@@ -63,21 +61,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function createTourElements() {
         highlight = document.createElement('div');
         highlight.className = 'tour-highlight-element';
-
         tooltip = document.createElement('div');
         tooltip.className = 'tour-tooltip';
-
         document.body.append(highlight, tooltip);
     }
 
     function showStep(index) {
         const step = tourSteps[index];
-
-        // REBUILT: Look up the text "just-in-time" when the step is shown.
-        const lang = localStorage.getItem('ttx_lang') || 'en';
-        const dict = (window.I18N && (window.I18N[lang] || window.I18N.en)) || {};
-        const title = window.t(dict, step.titleKey) || 'Loading...';
-        const content = window.t(dict, step.contentKey) || 'Please wait.';
         
         setTimeout(() => {
             const targetElement = document.querySelector(step.element);
@@ -95,8 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
             highlight.style.height = `${rect.height + 10}px`;
 
             tooltip.innerHTML = `
-                <h4>${title}</h4>
-                <p>${content}</p>
+                <h4>${step.title}</h4>
+                <p>${step.content}</p>
                 <div class="tour-tooltip-footer">
                     <span class="tour-progress">${index + 1} / ${tourSteps.length}</span>
                     <button class="tour-next-btn">${index === tourSteps.length - 1 ? 'Finish' : 'Next'}</button>
@@ -106,21 +96,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const tooltipRect = tooltip.getBoundingClientRect();
             const margin = 10;
             const spaceBelow = window.innerHeight - rect.bottom;
-            let tooltipTop;
-
-            if (spaceBelow >= tooltipRect.height + margin + 15) {
-                tooltipTop = rect.bottom + 15;
-            } else {
-                tooltipTop = rect.top - tooltipRect.height - 15;
-            }
-
+            let tooltipTop = (spaceBelow >= tooltipRect.height + margin + 15) ? rect.bottom + 15 : rect.top - tooltipRect.height - 15;
             let tooltipLeft = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
+            
             tooltipTop = Math.max(margin, Math.min(tooltipTop, window.innerHeight - tooltipRect.height - margin));
             tooltipLeft = Math.max(margin, Math.min(tooltipLeft, window.innerWidth - tooltipRect.width - margin));
 
             tooltip.style.top = `${tooltipTop}px`;
             tooltip.style.left = `${tooltipLeft}px`;
-            
             tooltip.style.opacity = '1';
             tooltip.style.transform = 'translateY(0)';
 
@@ -130,7 +113,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function nextStep(event) {
         if (event) event.stopPropagation();
-
         const step = tourSteps[currentStep];
         if (step.action) {
             isPerformingAction = true;
@@ -156,10 +138,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (tooltip) tooltip.style.opacity = '0';
         if (highlight) highlight.style.boxShadow = '0 0 0 9999px rgba(0, 0, 0, 0)';
         
-        document.querySelector('#layout-bar')?.classList.remove('open');
-        document.querySelector('#management-bar')?.classList.remove('open');
-        document.querySelector('#extra-tools-bar')?.classList.remove('open');
-        document.querySelector('#help-bar')?.classList.remove('open');
+        ['#layout-bar', '#management-bar', '#extra-tools-bar', '#help-bar'].forEach(selector => {
+            document.querySelector(selector)?.classList.remove('open');
+        });
 
         setTimeout(() => {
             if (highlight && highlight.parentNode) highlight.remove();
@@ -177,18 +158,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function startTour() {
         if (isTourActive) return;
         isTourActive = true;
-        
-        // REBUILT: No longer needs to generate steps here.
         currentStep = 0;
         createTourElements();
         showStep(currentStep);
-        
         setTimeout(() => {
             document.body.addEventListener('click', handleGlobalClick);
         }, 100);
     }
 
-    // --- Tour Initiation Logic ---
     const tourButton = document.getElementById('tourButton');
     if (tourButton) {
         tourButton.addEventListener('click', startTour);
