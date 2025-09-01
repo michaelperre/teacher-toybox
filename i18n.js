@@ -1,12 +1,9 @@
 (function () {
-    // --- Data and Functions ---
-    // Define all data and functions locally first to ensure they are ready.
-
     const SUPPORTED = {
       en: "English", cs: "Čeština", es: "Español", uk: "Українська", zh: "中文（简体）", hi: "हिन्दी", fr: "Français", ar: "العربية", fa: "فارسی", pt: "Português", ru: "Русский"
     };
 
-    const i18nData = {
+    window.I18N = {
       en: {
           meta: { title: "Teacher Toybox | Free Interactive Digital Whiteboard for Classrooms", titleShort: "Teacher Toybox | Interactive Whiteboard", description: "Teacher Toybox is a free interactive digital whiteboard with timers, dice and more to make lessons engaging. No installation required.", keywords: "digital whiteboard, interactive whiteboard, teacher tools, classroom resources, free teacher tools, online timer, classroom activities, education" },
           site: { brand: "Teacher Toybox", subtitle: "A whiteboard built by teachers for teachers." },
@@ -150,7 +147,7 @@
           btn: { tablet: "Édition Tablette", "tablet.title": "Passer à l'édition Tablette", clock: "Afficher/Masquer l'horloge (K)", add: "Ajouter une fenêtre (N)", layouts: "Changer de disposition (L)", colour: "Couleur du site (X)", color: "Sélectionner une couleur (C)", magic: "Extraire la couleur (M)", themePalette: "Palette de thèmes (Z)", originalColor: "Couleur d'origine", bell: "Sonnerie (B)", shh: "Son 'Chut' (S)", "shh.label": "Chut", management: "Outils de gestion (/)", help: "Aide (?)", laser: "Pointeur laser (P)", tour: "Démarrer le tour", demo: "Vidéo de démonstration", info: "Informations", refresh: "Actualiser (R)", share: "Partager (J)", feedback: "Donner un avis (F)", coffee: "Offrez-moi un café (Y)", upgrade: "Passer à Premium (U)" },
           layout: { 1: "Disposition 1 : Plein écran (1)", 2: "Disposition 2 : Division verticale (2)", 3: "Disposition 3 : Principal à gauche (3)", 4: "Disposition 4 : Principal à droite (4)", 5: "Disposition 5 : Quatre quadrants (5)", 6: "Disposition 6 : Colonne droite haute (6)", 7: "Disposition 7 : Colonne 1-2-2 (7)" },
           panel: {
-              upgrade: { title: "Passez à Premium", intro: "Dynamisez votre classe en débloquant tous les outils interactifs de Teacher Toybox !", feature1_title: "Débloquez tous les outils", feature1_desc: "Accédez immédiatement à tous les outils premium.", feature2_title: "Webcam et visualiseur", feature2_desc: "Utilisez votre webcam pour des démonstrations en direct.", feature3_title: "Carrousel de photos", feature3_desc: "Créez des histoires visuelles et des diaporamas attrayants.", feature4_title: "Ludifiez les leçons", feature4_desc: "Utilisez le lanceur de dés et les compteurs pour rendre l'apprentissage amusant.", feature5_title: "Gérez le temps", feature5_desc: "Gérez sans effort le temps de classe avec des minuteurs et des chronomètres.", feature6_title: "Contrôle avancé", feature6_desc: "Ajustez l'opacité et superposez vos fenêtres pour une configuration perfecte.", feature7_title: "Outils futurs", feature7_desc: "Recevez automatiquement chaque nouvel outil premium que nous publions.", feature8_title: "Soutenez le développement", feature8_desc: "Aidez à maintenir la plateforme de base gratuite pour tous les enseignants." },
+              upgrade: { title: "Passez à Premium", intro: "Dynamisez votre classe en débloquant tous les outils interactifs de Teacher Toybox !", feature1_title: "Débloquez tous les outils", feature1_desc: "Accédez immédiatement à tous les outils premium.", feature2_title: "Webcam et visualiseur", feature2_desc: "Utilisez votre webcam pour des démonstrations en direct.", feature3_title: "Carrousel de photos", feature3_desc: "Créez des histoires visuelles et des diaporamas attrayants.", feature4_title: "Ludifiez les leçons", feature4_desc: "Utilisez le lanceur de dés et les compteurs pour rendre l'apprentissage amusant.", feature5_title: "Gérez le temps", feature5_desc: "Gérez sans effort le temps de classe avec des minuteurs et des chronomètres.", feature6_title: "Contrôle avancé", feature6_desc: "Ajustez l'opacité et superposez vos fenêtres pour une configuration parfaite.", feature7_title: "Outils futurs", feature7_desc: "Recevez automatiquement chaque nouvel outil premium que nous publions.", feature8_title: "Soutenez le développement", feature8_desc: "Aidez à maintenir la plateforme de base gratuite pour tous les enseignants." },
               share: { title: "Partager avec un ami" },
               feedback: { title: "Donner votre avis", intro: "Nous aimerions connaître votre opinion !", ratingLegend: "Comment évalueriez-vous votre expérience ?", commentsLabel: "Commentaires", commentsPlaceholder: "Dites-nous ce que vous avez aimé ou ce qui pourrait être amélioré...", submitButton: "Envoyer", submitButtonSending: "Envoi...", submitButtonSuccess: "Merci !" }
           },
@@ -179,7 +176,7 @@
               step1: { title: "أهلاً بك في Teacher Toybox!", content: "هذا هو مركز قيادة الفصل الدراسي الرقمي الخاص بك. لنتصفح بسرعة عناصر التحكم الرئيسية. انقر على \"التالي\" للمتابعة." },
               step2: { title: "إضافة نافذة", content: "هذا الزر يضيف نافذة جديدة. إذا لم تكن هناك نافذة مفتوحة بالفعل، سأنقر عليه من أجلك حتى نتمكن من إلقاء نظرة على أدوات النافذة." },
               step3: { title: "لوحة أدوات النافذة", content: "ممتاز! هذه هي لوحة الأدوات للنافذة الجديدة. تحتوي على أدوات مثل لوحة الرسم ومحرر النصوص." },
-              step4: { title: "لوحة الرسم", content: "على سبيل المثال، النقر على هذا الزر يحول النافذة إلى سبورة تفاعلية. لنجرب ذلك." },
+              step4: { title: "لوحة الرسم", content: "على سبيل المثال، النقر على هذا الزर يحول النافذة إلى سبورة تفاعلية. لنجرب ذلك." },
               step5: { title: "ترتيب شاشتك", content: "هذا الزر يكشف عن تخطيطات محددة مسبقًا. يمكنك تنظيم نوافذك فورًا في شاشة مقسمة، أرباع، والمزيد." },
               step6: { title: "تحريك وتغيير الحجم", content: "يمكنك أيضًا سحب هذا الشريط لتحريك النوافذ، وتغيير حجمها من أي حافة أو زاوية." },
               step7: { title: "المساعدة والمصادر", content: "هذه هي الأساسيات! هذا الزر يجمع الجولة، الفيديو التجريبي، والمزيد من المعلومات. انقر على 'إنهاء' لبدء الاستكشاف." }
@@ -189,7 +186,7 @@
           meta: { title: "Teacher Toybox | تخته سفید دیجیتال تعاملی رایگان برای کلاس های درس", titleShort: "Teacher Toybox | تخته سفید تعاملی", description: "Teacher Toybox یک تخته سفید دیجیتال تعاملی رایگان با تایمر، تاس و موارد دیگر برای جذاب کردن دروس است. نیازی به نصب ندارد.", keywords: "تخته سفید دیجیتال, تخته سفید تعاملی, ابزار معلم, منابع کلاس درس, ابزار رایگان معلم, تایمر آنلاین, فعالیت های کلاس, آموزش" },
           site: { brand: "Teacher Toybox", subtitle: "تخته سفیدی که توسط معلمان برای معلمان ساخته شده است." },
           lang: { label: "زبان" },
-          btn: { tablet: "نسخه تبلت", "tablet.title": "رفتن به نسخه تبلت", clock: "تغییر ساعت (K)", add: "افزودن پنجره (N)", layouts: "تغییر چیدمان (L)", colour: "رنگ وب سایت (X)", color: "انتخاب رنگ (C)", magic: "استخراج رنگ (M)", themePalette: "پالت تم (Z)", originalColor: "رंग اصلی", bell: "زنگ (B)", shh: "صدای 'هیس' (S)", "shh.label": "هیس", management: "ابزارهای مدیریت (/)", help: "راهنما (؟)", laser: "اشاره گر لیzری (P)", tour: "شروع تور", demo: "ویدیوی نمایشی", info: "اطلاعات", refresh: "بازخوانی (R)", share: "اشتراک گذاری (J)", feedback: "ارائه بازخورد (F)", coffee: "یک قهوه برایم بخر (Y)", upgrade: "ارتقا به پریمیوم (U)" },
+          btn: { tablet: "نسخه تبلت", "tablet.title": "رفتن به نسخه تبلت", clock: "تغییر ساعت (K)", add: "افزودن پنجره (N)", layouts: "تغییر چیدمان (L)", colour: "رنگ وب سایت (X)", color: "انتخاب رنگ (C)", magic: "استخراج رنگ (M)", themePalette: "پالت تم (Z)", originalColor: "رنگ اصلی", bell: "زنگ (B)", shh: "صدای 'هیس' (S)", "shh.label": "هیس", management: "ابزارهای مدیریت (/)", help: "راهنما (؟)", laser: "اشاره گر لیzری (P)", tour: "شروع تور", demo: "ویدیوی نمایشی", info: "اطلاعات", refresh: "بازخوانی (R)", share: "اشتراک گذاری (J)", feedback: "ارائه بازخورد (F)", coffee: "یک قهوه برایم بخر (Y)", upgrade: "ارتقا به پریمیوم (U)" },
           layout: { 1: "چیدمان ۱: تمام صفحه (1)", 2: "چیدمان ۲: تقسیم عمودی (2)", 3: "چیدمان ۳: اصلی چپ (3)", 4: "چیدمان ۴: اصلی راست (4)", 5: "چیدمان ۵: چهار ربع (5)", 6: "چیدمان ۶: ستون بلند راست (6)", 7: "چیدمان ۷: ستون ۱-۲-۲ (7)" },
           panel: {
               upgrade: { title: "پریمیوم شوید", intro: "با باز کردن قفل تمام ابزارهای تعاملی در Teacher Toybox، کلاس درس خود را تقویت کنید!", feature1_title: "باز کردن تمام ابزارها", feature1_desc: "دسترسی فوری به تمام ابزارهای پریمیوم داشته باشید.", feature2_title: "وب کم و دوربین اسناد", feature2_desc: "از وب کم خود برای نمایش های زنده استفاده کنید.", feature3_title: "چرخ و فلک عکس", feature3_desc: "داستان های بصری و نمایش اسلاید جذاب ایجاد کنید.", feature4_title: "بازی سازی دروس", feature4_desc: "از تاس انداز و شمارنده ها برای سرگرم کننده کردن یادگیری استفاده کنید.", feature5_title: "مدیریت زمان", feature5_desc: "با تایمر و کرونومتر به راحتی زمان کلاس را مدیریت کنید.", feature6_title: "کنترل پیشرفته", feature6_desc: "برای تنظیمات عالی، شفافیت را تنظیم کرده و پنجره های خود را لایه بندی کنید.", feature7_title: "ابزارهای آینده", feature7_desc: "به طور خودکار هر ابزار پریمیوم جدیدی را که منتشر می کنیم دریافت کنید.", feature8_title: "حمایت از توسعه", feature8_desc: "کمک کنید تا پلتفرم اصلی برای همه معلمان رایگان بماند." },
@@ -223,7 +220,7 @@
               step2: { title: "Adicionar uma Janela", content: "Este botão adiciona uma nova janela. Se ainda não houver uma aberta, eu clico para você para que possamos ver as ferramentas da janela." },
               step3: { title: "Paleta de Ferramentas da Janela", content: "Excelente! Esta é a paleta de ferramentas para a nova janela. Ela possui ferramentas como uma tela de desenho e um editor de texto." },
               step4: { title: "Tela de Desenho", content: "Por exemplo, clicar neste botão transforma a janela em um quadro branco interativo. Vamos experimentar." },
-              step5: { title: "Organize sua Tela", content: "Este botão revela layouts predefinidos. Você pode organizar instantaneamente suas janelas em tela dividida, quadrantes e muito more." },
+              step5: { title: "Organize sua Tela", content: "Este botão revela layouts predefinidos. Você pode organizar instantaneamente suas janelas em tela dividida, quadrantes e muito mais." },
               step6: { title: "Mover e Redimensionar", content: "Você também pode arrastar esta barra para mover as janelas e redimensioná-las a partir de qualquer borda ou canto." },
               step7: { title: "Ajuda e Recursos", content: "Isso é o básico! Este botão agrupa o tour, o vídeo de demonstração e mais informações. Clique em 'Concluir' para começar a explorar." }
           }
@@ -251,23 +248,14 @@
       }
     };
 
-    const t = function(dict, path) {
+    window.t = function(dict, path) {
       try {
         return path.split('.').reduce((o, k) => (o && o[k] !== undefined) ? o[k] : undefined, dict);
       } catch { return undefined; }
-    };
+    }
 
-    // --- Create and Assign Namespace ---
-    // This single assignment is "atomic" and prevents race conditions.
-    window.TT_I18N = {
-        data: i18nData,
-        t: t,
-        SUPPORTED: SUPPORTED
-    };
-
-    // --- Helper Functions (using local variables for safety) ---
     function updateMeta(lang) {
-      const dict = i18nData[lang] || i18nData.en;
+      const dict = I18N[lang] || I18N.en;
       const title = t(dict, "meta.title"), titleShort = t(dict, "meta.titleShort") || title, desc = t(dict, "meta.description");
       if (title) document.title = title;
       if (desc) {
@@ -282,7 +270,7 @@
     }
 
     function updateSchema(lang) {
-        const dict = i18nData[lang] || i18nData.en;
+        const dict = I18N[lang] || I18N.en;
         const schemaEl = document.getElementById('schema-ld');
         if (!schemaEl) return;
 
@@ -302,24 +290,24 @@
     }
 
     function applyLang(lang) {
-      const dict = i18nData[lang] || i18nData.en;
+      const dict = I18N[lang] || I18N.en;
       localStorage.setItem('ttx_lang', lang);
       document.documentElement.lang = lang;
 
       document.querySelectorAll('[data-i18n]').forEach(el => {
-        const val = t(dict, el.dataset.i18n) || t(i18nData.en, el.dataset.i18n);
+        const val = t(dict, el.dataset.i18n) || t(I18N.en, el.dataset.i18n);
         if (typeof val === 'string') el.textContent = val;
       });
 
       document.querySelectorAll('[data-i18n-title]').forEach(el => {
         const key = el.dataset.i18nTitle;
-        const val = t(dict, key) || t(i18nData.en, key);
+        const val = t(dict, key) || t(I18N.en, key);
         if (typeof val === 'string') el.setAttribute('title', val);
       });
       
       const feedbackComment = document.getElementById('feedback-comment');
       if (feedbackComment) {
-          const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder') || t(i18nData.en, 'panel.feedback.commentsPlaceholder');
+          const placeholderText = t(dict, 'panel.feedback.commentsPlaceholder') || t(I18N.en, 'panel.feedback.commentsPlaceholder');
           if (placeholderText) feedbackComment.setAttribute('placeholder', placeholderText);
       }
 
@@ -339,10 +327,11 @@
       updateMeta(lang);
       updateSchema(lang);
       
-      if (window.TT && typeof window.TT.updateDateDisplay === 'function') {
-          window.TT.updateDateDisplay(lang);
+      if (global.TT && typeof global.TT.updateDateDisplay === 'function') {
+          global.TT.updateDateDisplay(lang);
       }
 
+      // NEW: Directly update the info window's language if it is open
       if (window.TT && typeof window.TT.updateInfoWindowLanguage === 'function') {
         window.TT.updateInfoWindowLanguage(lang);
       }
@@ -394,8 +383,8 @@
       });
 
       sel.addEventListener('change', (event) => {
-        event.preventDefault();
-        event.stopPropagation();
+        event.preventDefault(); // Prevent any default browser action
+        event.stopPropagation(); // Stop the event from bubbling up to other listeners
         userInteracted = true;
         applyLang(sel.value);
       });
@@ -413,8 +402,7 @@
       sel.value = finalLang;
       applyLang(finalLang); 
     }
-    
-    // --- Event Listeners ---
+
     document.addEventListener('click', (e) => {
       if (e.target.id === 'infoButton') {
         const sel = document.getElementById('langSelect');

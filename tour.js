@@ -1,135 +1,222 @@
-/**
+/*
  * tour.js
- * © 2025 Teacher Toybox Ltd. All Rights Reserved.
- *
- * Handles the guided tour for first-time users.
+ * Logic for the guided walkthrough tour.
+ * © 2025 TeacherToybox.com. All Rights Reserved.
  */
+
 document.addEventListener('DOMContentLoaded', () => {
-    const tourButton = document.getElementById('tourButton');
-    if (!tourButton) return;
+    // A flag to prevent the tour from starting automatically if it's already running
+    let isTourActive = false;
+    // A flag to ignore programmatic clicks during tour actions
+    let isPerformingAction = false;
+
+    let tourSteps = []; // This will be populated with translated text when the tour starts.
+
+    /**
+     * Generates the tour steps array with text in the specified language.
+     * @param {string} lang - The language code (e.g., 'en', 'es').
+     * @returns {Array} An array of tour step objects.
+     */
+    function getTourSteps(lang) {
+        const dict = window.I18N[lang] || window.I18N.en;
+        return [
+            {
+                element: '#addButton',
+                title: window.t(dict, 'tour.step1.title'),
+                content: window.t(dict, 'tour.step1.content'),
+            },
+            {
+                element: '#addButton',
+                title: window.t(dict, 'tour.step2.title'),
+                content: window.t(dict, 'tour.step2.content'),
+                action: () => {
+                    if (document.querySelectorAll('.floating').length === 0) {
+                        document.getElementById('addButton')?.click();
+                    }
+                } 
+            },
+            {
+                element: '.floating .win-sidebar',
+                title: window.t(dict, 'tour.step3.title'),
+                content: window.t(dict, 'tour.step3.content'),
+            },
+            {
+                element: '.floating .win-sidebar .icon-btn[data-hotkey="d"]',
+                title: window.t(dict, 'tour.step4.title'),
+                content: window.t(dict, 'tour.step4.content'),
+                action: () => document.querySelector('.floating .win-sidebar .icon-btn[data-hotkey="d"]')?.click() 
+            },
+            {
+                element: '#screenButton',
+                title: window.t(dict, 'tour.step5.title'),
+                content: window.t(dict, 'tour.step5.content'),
+                action: () => document.querySelector('#screenButton')?.click() 
+            },
+            {
+                element: '.floating .drag-bar',
+                title: window.t(dict, 'tour.step6.title'),
+                content: window.t(dict, 'tour.step6.content'),
+            },
+            {
+                element: '#helpButton',
+                title: window.t(dict, 'tour.step7.title'),
+                content: window.t(dict, 'tour.step7.content'),
+                action: () => document.getElementById('helpButton')?.click()
+            }
+        ];
+    }
 
     let currentStep = 0;
-    let tourOverlay = null;
-    let tourTooltip = null;
-
-    const tourSteps = [
-        { element: '#addButton', text: 'Welcome to Teacher Toybox! Click here to add your first window.' },
-        { element: '#screenButton', text: 'Great! Now, use the layout tools to arrange your windows on the screen.' },
-        { element: '#extraToolsButton', text: 'You can customize the look and feel of the site with these extra tools.' },
-        { element: '#feedbackButton', text: 'Have an idea or need help? Send us your feedback here.' },
-        { element: '.floating .win-sidebar .icon-btn[data-hotkey="d"]', text: 'Each window has its own set of tools. Try selecting the drawing tool!' },
-        { element: '#upgradeButton', text: 'Unlock even more powerful tools by upgrading to Premium. Enjoy exploring!' }
-    ];
-
-    function startTour() {
-        if (document.querySelector('.tour-overlay')) return; // Tour already running
-        localStorage.setItem('ttx_tour_completed', 'true');
-        currentStep = 0;
-        createTourElements();
-        showStep();
-    }
+    let highlight, tooltip;
 
     function createTourElements() {
-        tourOverlay = document.createElement('div');
-        tourOverlay.className = 'tour-overlay';
-        document.body.appendChild(tourOverlay);
+        highlight = document.createElement('div');
+        highlight.className = 'tour-highlight-element';
 
-        tourTooltip = document.createElement('div');
-        tourTooltip.className = 'tour-tooltip';
-        tourTooltip.innerHTML = `
-            <div class="tour-text"></div>
-            <div class="tour-nav">
-                <button class="tour-next">Next</button>
-                <button class="tour-end">End Tour</button>
-            </div>
-        `;
-        document.body.appendChild(tourTooltip);
+        tooltip = document.createElement('div');
+        tooltip.className = 'tour-tooltip';
 
-        tourOverlay.addEventListener('click', handleOverlayClick);
-        tourTooltip.querySelector('.tour-next').addEventListener('click', nextStep);
-        tourTooltip.querySelector('.tour-end').addEventListener('click', endTour);
+        document.body.append(highlight, tooltip);
     }
 
-    function showStep() {
-        if (currentStep >= tourSteps.length) {
-            endTour();
-            return;
-        }
+    function showStep(index) {
+        const step = tourSteps[index];
+        
+        setTimeout(() => {
+            const targetElement = document.querySelector(step.element);
+            if (!targetElement) {
+                console.warn(`Tour element not found: ${step.element}`);
+                endTour();
+                return;
+            }
+
+            const rect = targetElement.getBoundingClientRect();
+            
+            highlight.style.top = `${rect.top - 5}px`;
+            highlight.style.left = `${rect.left - 5}px`;
+            highlight.style.width = `${rect.width + 10}px`;
+            highlight.style.height = `${rect.height + 10}px`;
+
+            tooltip.innerHTML = `
+                <h4>${step.title}</h4>
+                <p>${step.content}</p>
+                <div class="tour-tooltip-footer">
+                    <span class="tour-progress">${index + 1} / ${tourSteps.length}</span>
+                    <button class="tour-next-btn">${index === tourSteps.length - 1 ? 'Finish' : 'Next'}</button>
+                </div>
+            `;
+
+            const tooltipRect = tooltip.getBoundingClientRect();
+
+            // --- MODIFIED: Robust tooltip positioning logic ---
+            const margin = 10; // 10px margin from the screen edges
+
+            // 1. Determine preferred vertical position (prefer below, then above)
+            const spaceBelow = window.innerHeight - rect.bottom;
+            let tooltipTop;
+            if (spaceBelow >= tooltipRect.height + margin + 15) {
+                tooltipTop = rect.bottom + 15;
+            } else {
+                tooltipTop = rect.top - tooltipRect.height - 15;
+            }
+
+            // 2. Determine initial horizontal position (centered on target)
+            let tooltipLeft = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
+
+            // 3. Final clamping to GUARANTEE the tooltip is always inside the viewport.
+            tooltipTop = Math.max(margin, Math.min(tooltipTop, window.innerHeight - tooltipRect.height - margin));
+            tooltipLeft = Math.max(margin, Math.min(tooltipLeft, window.innerWidth - tooltipRect.width - margin));
+            // --- END OF MODIFICATION ---
+
+            tooltip.style.top = `${tooltipTop}px`;
+            tooltip.style.left = `${tooltipLeft}px`;
+            
+            tooltip.style.opacity = '1';
+            tooltip.style.transform = 'translateY(0)';
+
+            tooltip.querySelector('.tour-next-btn').addEventListener('click', nextStep, { once: true });
+        }, 150); // Delay to allow UI to update from actions
+    }
+
+    function nextStep(event) {
+        if (event) event.stopPropagation();
 
         const step = tourSteps[currentStep];
-        const targetElement = document.querySelector(step.element);
-
-        if (!targetElement) {
-            console.warn(`Tour step ${currentStep}: element "${step.element}" not found. Skipping.`);
-            nextStep();
-            return;
+        if (step.action) {
+            isPerformingAction = true;
+            step.action();
+            setTimeout(() => { isPerformingAction = false; }, 100);
         }
 
-        document.querySelectorAll('.tour-highlight').forEach(el => el.classList.remove('tour-highlight'));
-        targetElement.classList.add('tour-highlight');
-
-        tourTooltip.querySelector('.tour-text').textContent = step.text;
-
-        const targetRect = targetElement.getBoundingClientRect();
-        const tooltipRect = tourTooltip.getBoundingClientRect();
-
-        let top = targetRect.bottom + 10;
-        let left = targetRect.left + (targetRect.width / 2) - (tooltipRect.width / 2);
-
-        // Adjust if off-screen
-        if (top + tooltipRect.height > window.innerHeight) {
-            top = targetRect.top - tooltipRect.height - 10;
-        }
-        if (left < 10) {
-            left = 10;
-        }
-        if (left + tooltipRect.width > window.innerWidth) {
-            left = window.innerWidth - tooltipRect.width - 10;
-        }
-
-        tourTooltip.style.top = `${top}px`;
-        tourTooltip.style.left = `${left}px`;
-        tourTooltip.style.opacity = '1';
-
-        if (currentStep === tourSteps.length - 1) {
-            tourTooltip.querySelector('.tour-next').textContent = 'Finish';
-        } else {
-            tourTooltip.querySelector('.tour-next').textContent = 'Next';
-        }
-    }
-
-    function nextStep() {
         currentStep++;
-        showStep();
+        if (currentStep >= tourSteps.length) {
+            endTour();
+        } else {
+            const delay = step.action ? 400 : 50;
+            setTimeout(() => showStep(currentStep), delay);
+        }
     }
 
     function endTour() {
-        if (tourOverlay) {
-            tourOverlay.style.opacity = '0';
-            setTimeout(() => tourOverlay.remove(), 300);
-        }
-        if (tourTooltip) {
-            tourTooltip.style.opacity = '0';
-            setTimeout(() => tourTooltip.remove(), 300);
-        }
-        document.querySelectorAll('.tour-highlight').forEach(el => el.classList.remove('tour-highlight'));
-    }
+        if (!isTourActive) return;
+        isTourActive = false;
 
-    function handleOverlayClick(e) {
-        // --- THIS IS THE FIX ---
-        // Check if the click was inside the cookie banner. If so, do nothing.
-        if (e.target.closest('#cookie-consent-banner')) {
+        // Set a flag in localStorage so the tour doesn't auto-start next time.
+        localStorage.setItem('ttx_tour_completed', 'true');
+
+        document.body.removeEventListener('click', handleGlobalClick);
+
+        if (tooltip) tooltip.style.opacity = '0';
+        if (highlight) highlight.style.boxShadow = '0 0 0 9999px rgba(0, 0, 0, 0)';
+        
+        // Close all pop-out bars for a clean exit
+        document.querySelector('#layout-bar')?.classList.remove('open');
+        document.querySelector('#management-bar')?.classList.remove('open');
+        document.querySelector('#extra-tools-bar')?.classList.remove('open');
+        document.querySelector('#help-bar')?.classList.remove('open');
+
+        setTimeout(() => {
+            if (highlight && highlight.parentNode) highlight.remove();
+            if (tooltip && tooltip.parentNode) tooltip.remove();
+        }, 400);
+    }
+    
+    function handleGlobalClick(event) {
+        if (isPerformingAction) {
             return;
         }
-        // --- END OF FIX ---
+        if (tooltip && tooltip.contains(event.target)) {
+            return;
+        }
         endTour();
     }
 
-    tourButton.addEventListener('click', startTour);
+    function startTour() {
+        if (isTourActive) return;
+        isTourActive = true;
+        
+        // Get the current language and generate the translated tour steps
+        const currentLang = localStorage.getItem('ttx_lang') || 'en';
+        tourSteps = getTourSteps(currentLang);
 
-    // Automatically start the tour for first-time visitors
+        currentStep = 0;
+        createTourElements();
+        showStep(currentStep);
+        
+        setTimeout(() => {
+            document.body.addEventListener('click', handleGlobalClick);
+        }, 100);
+    }
+
+    // --- Tour Initiation Logic ---
+
+    const tourButton = document.getElementById('tourButton');
+    if (tourButton) {
+        tourButton.addEventListener('click', startTour);
+    }
+
+    // Check if the tour has been completed before, and only start if it hasn't.
     if (!localStorage.getItem('ttx_tour_completed')) {
-        setTimeout(startTour, 1500); // Wait a moment for the page to settle
+        setTimeout(startTour, 1500); 
     }
 });
-
