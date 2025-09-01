@@ -18,7 +18,20 @@ document.addEventListener('DOMContentLoaded', () => {
      * @returns {Array} An array of tour step objects.
      */
     function getTourSteps(lang) {
-        const dict = window.I18N[lang] || window.I18N.en;
+        // --- Start of Diagnostic Code ---
+        console.log("--- Starting Tour Diagnosis ---");
+        console.log("1. Checking for window.I18N object:", window.I18N ? "Found" : "NOT FOUND");
+        console.log("2. Language code being used:", lang);
+        
+        const dict = window.I18N ? (window.I18N[lang] || window.I18N.en) : undefined;
+        console.log("3. Checking for the language dictionary:", dict ? "Found" : "NOT FOUND");
+    
+        if (dict) {
+            console.log("4. Checking for the 'tour' object inside the dictionary:", dict.tour ? "Found" : "NOT FOUND");
+        }
+        console.log("--- End of Tour Diagnosis ---");
+        // --- End of Diagnostic Code ---
+    
         return [
             {
                 element: '#addButton',
