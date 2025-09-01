@@ -1887,6 +1887,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 configs.push({ left: `${rightColStart7}px`, top: '0px', width: `${rightColWidth7}px`, height: `${hh}px` });
                 configs.push({ left: `${rightColStart7}px`, top: `${hh}px`, width: `${rightColWidth7}px`, height: `${hh}px` });
                 break;
+            case 8:
+                const leftColWidth8 = w * 0.75;
+                const rightColWidth8 = w * 0.25;
+                const rightColStart8 = leftColWidth8;
+
+                configs.push({ left: '0px', top: '0px', width: `${leftColWidth8}px`, height: `${h}px` });
+                configs.push({ left: `${rightColStart8}px`, top: '0px', width: `${rightColWidth8}px`, height: `${hh}px` });
+                configs.push({ left: `${rightColStart8}px`, top: `${hh}px`, width: `${rightColWidth8}px`, height: `${hh}px` });
+                break;
         }
         createWinArrangement(configs);
         if (showAnim) {
@@ -2631,7 +2640,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const resizeKeyMap = { 'q': 0, '8': 1, '9': 2 };
+        const resizeKeyMap = { 'q': 0, '9': 2 };
         if (resizeKeyMap.hasOwnProperty(e.key.toLowerCase())) {
             if (activeWin) {
                 const resizeButtons = activeWin.querySelectorAll('.resize-btn');
@@ -2702,7 +2711,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const mainKeyMap = { 
             'n': 'addButton', 
-            '1': 'layout1Button', '2': 'layout2Button', '3': 'layout3Button', '4': 'layout4Button', '5': 'layout5Button', '6': 'layout6Button', '7': 'layout7Button',
+            '1': 'layout1Button', '2': 'layout2Button', '3': 'layout3Button', '4': 'layout4Button', '5': 'layout5Button', '6': 'layout6Button', '7': 'layout7Button', '8': 'layout8Button',
             'c': 'colorButton', 'm': 'magicColorButton', 'b': 'bellButton', 's': 'shhButton', 
             'p': 'laserButton', '/': 'managementButton', 'r': 'refreshButton', 'x': 'extraToolsButton', 
             'l': 'screenButton', 'k': 'clockButton', 'j': 'shareButton', 'f': 'communicationButton',
