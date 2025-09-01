@@ -1828,6 +1828,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (layoutState.activeLayout === layoutId) {
             clearWins();
             layoutState.activeLayout = null;
+            layoutState.isVisible = true;
             localStorage.removeItem('ttx_lastLayout');
         } else {
             layoutFunction();
@@ -2226,8 +2227,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showShareModal() {
         const lang = localStorage.getItem('ttx_lang') || 'en';
-        const dict = window.I18N[lang] || window.I18N.en;
-        
+        const dict = window.TT_I18N.data[lang] || window.TT_I18N.data.en;
+        const t = window.TT_I18N.t;
+    
         const url = "https://www.teachertoybox.com";
         const text = "Check out Teacher Toybox! A free interactive digital whiteboard for classrooms with fun and engaging tools.";
         const title = "Teacher Toybox";
@@ -2239,7 +2241,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.className = 'share-modal';
         modal.innerHTML = `
             <button class="close-modal-btn">&times;</button>
-            <h3 data-i18n="panel.share.title">${window.t(dict, 'panel.share.title') || 'Share with a Friend'}</h3>
+            <h3 data-i18n="panel.share.title">${t(dict, 'panel.share.title') || 'Share with a Friend'}</h3>
             <p class="share-intro-text">Like this free tool? Help other teachers discover it!</p>
             <div class="share-grid">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" class="share-grid-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
