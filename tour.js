@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
      * @returns {Array} An array of tour step objects.
      */
     function getTourSteps(lang) {
+        // Use the new, safer TT_I18N namespace
         const dict = window.TT_I18N.data[lang] || window.TT_I18N.data.en;
         const t = window.TT_I18N.t;
         
