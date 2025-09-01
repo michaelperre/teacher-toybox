@@ -1595,10 +1595,10 @@ document.addEventListener('DOMContentLoaded', () => {
         rightControls.appendChild(opacitySlider);
 
         const buttonDefs = [
-            { type: 'quadrant', content: '◱', title: 'Snap to Quadrant (Q)' },
-            { type: 'v-half', content: '◧', title: 'Snap to Vertical Half (8)' },
-            { type: 'h-half', content: `<svg width="0.85em" height="0.85em" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" style="display: block; stroke-width: 1.5; stroke: currentColor; margin: auto;"><rect x="0.5" y="0.5" width="9" height="9" fill="none" /><rect x="0.5" y="0.5" width="9" height="4.5" fill="currentColor" /></svg>`, title: 'Snap to Horizontal Half (9)' },
-            { type: 'full', content: '◼', title: 'Snap to Fullscreen' },
+            { type: 'quadrant', content: '<i class="fa-solid fa-table-cells-large"></i>', title: 'Snap to Quadrant (Q)' },
+            { type: 'v-half', content: '<i class="fa-solid fa-columns"></i>', title: 'Snap to Vertical Half (8)' },
+            { type: 'h-half', content: '<i class="fa-solid fa-columns h-half-icon"></i>', title: 'Snap to Horizontal Half (9)' },
+            { type: 'full', content: '<i class="fa-solid fa-expand"></i>', title: 'Snap to Fullscreen' },
             { type: 'send-back', content: '<i class="fas fa-level-down-alt"></i>', title: 'Send to Back (PageDown)' },
             { type: 'close', content: '×', title: 'Close Window (Backspace)' }
         ];

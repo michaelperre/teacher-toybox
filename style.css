@@ -321,11 +321,15 @@ body.light-mode.no-grid {
     padding: 0 4px 0 4px;
     flex-shrink: 0;
 }
-.resize-btn, .close-btn {
+
+/* --- DRAG BAR BUTTONS (REFACTORED FOR CONSISTENCY) --- */
+.resize-btn, .close-btn,
+.tool-controls button {
     background: none;
     border: none;
     color: var(--text-secondary);
-    width: 28px; height: 28px;
+    width: 28px;
+    height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -334,8 +338,25 @@ body.light-mode.no-grid {
     font-size: 14px;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
-.resize-btn:hover, .close-btn:hover { background: rgba(255,255,255,0.1); }
-.close-btn:hover { background: var(--danger-color); color: white; }
+
+.tool-controls button {
+    font-size: 12px; /* Keep annotation icons slightly smaller */
+}
+
+.h-half-icon {
+    transform: rotate(90deg);
+}
+
+.resize-btn:hover, .close-btn:hover,
+.tool-controls button:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.close-btn:hover {
+    background: var(--danger-color);
+    color: white;
+}
+
 .win-body {
     display: flex;
     flex-direction: row;
@@ -445,26 +466,14 @@ div[contenteditable] {
     gap: 4px;
     position: relative;
 }
-.tool-controls button, .tool-controls .color-swatch {
-    background: rgba(255,255,255,0.1);
-    border: none;
-    color: var(--text-secondary);
+.tool-controls .color-swatch {
     width: 24px;
     height: 24px;
-    border-radius: 5px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 12px;
-    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
-}
-.tool-controls button:hover { background: rgba(255,255,255,0.2); }
-.tool-controls .color-swatch {
-    width: 20px;
-    height: 20px;
     border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
 .tool-controls .color-swatch.active {
     border-color: white;
 }
