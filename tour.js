@@ -15,17 +15,20 @@ document.addEventListener('DOMContentLoaded', () => {
      * @returns {Array} An array of tour step objects.
      */
     function getTourSteps(lang) {
-        const dict = window.I18N[lang] || window.I18N.en;
+        // Use the new, safer TT_I18N namespace
+        const dict = window.TT_I18N.data[lang] || window.TT_I18N.data.en;
+        const t = window.TT_I18N.t;
+        
         return [
             {
                 element: '#addButton',
-                title: window.t(dict, 'tour.step1.title'),
-                content: window.t(dict, 'tour.step1.content'),
+                title: t(dict, 'tour.step1.title'),
+                content: t(dict, 'tour.step1.content'),
             },
             {
                 element: '#addButton',
-                title: window.t(dict, 'tour.step2.title'),
-                content: window.t(dict, 'tour.step2.content'),
+                title: t(dict, 'tour.step2.title'),
+                content: t(dict, 'tour.step2.content'),
                 action: () => {
                     if (document.querySelectorAll('.floating').length === 0) {
                         document.getElementById('addButton')?.click();
@@ -34,30 +37,30 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 element: '.floating .win-sidebar',
-                title: window.t(dict, 'tour.step3.title'),
-                content: window.t(dict, 'tour.step3.content'),
+                title: t(dict, 'tour.step3.title'),
+                content: t(dict, 'tour.step3.content'),
             },
             {
                 element: '.floating .win-sidebar .icon-btn[data-hotkey="d"]',
-                title: window.t(dict, 'tour.step4.title'),
-                content: window.t(dict, 'tour.step4.content'),
+                title: t(dict, 'tour.step4.title'),
+                content: t(dict, 'tour.step4.content'),
                 action: () => document.querySelector('.floating .win-sidebar .icon-btn[data-hotkey="d"]')?.click()
             },
             {
                 element: '#screenButton',
-                title: window.t(dict, 'tour.step5.title'),
-                content: window.t(dict, 'tour.step5.content'),
+                title: t(dict, 'tour.step5.title'),
+                content: t(dict, 'tour.step5.content'),
                 action: () => document.querySelector('#screenButton')?.click()
             },
             {
                 element: '.floating .drag-bar',
-                title: window.t(dict, 'tour.step6.title'),
-                content: window.t(dict, 'tour.step6.content'),
+                title: t(dict, 'tour.step6.title'),
+                content: t(dict, 'tour.step6.content'),
             },
             {
                 element: '#helpButton',
-                title: window.t(dict, 'tour.step7.title'),
-                content: window.t(dict, 'tour.step7.content'),
+                title: t(dict, 'tour.step7.title'),
+                content: t(dict, 'tour.step7.content'),
                 action: () => document.getElementById('helpButton')?.click()
             }
         ];
@@ -93,7 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
             this._createDOMElements();
             this.showStep(this.currentStepIndex);
 
-            // Add a slight delay before listening for clicks to avoid accidentally closing the tour instantly.
             setTimeout(() => {
                 document.body.addEventListener('click', this._handleGlobalClick);
             }, 100);
@@ -109,11 +111,9 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('ttx_tour_completed', 'true');
             document.body.removeEventListener('click', this._handleGlobalClick);
 
-            // Cleanly fade out and remove tour elements.
             if (this.elements.tooltip) this.elements.tooltip.style.opacity = '0';
             if (this.elements.highlight) this.elements.highlight.style.boxShadow = '0 0 0 9999px rgba(0, 0, 0, 0)';
 
-            // Close any pop-out bars for a clean exit.
             document.querySelectorAll('#layout-bar, #management-bar, #extra-tools-bar, #help-bar').forEach(bar => bar.classList.remove('open'));
 
             setTimeout(() => {
@@ -127,7 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
         async next() {
             const step = this.steps[this.currentStepIndex];
 
-            // If the current step has an action, perform it and wait for the UI to update.
             if (step && step.action) {
                 this.isPerformingAction = true;
                 step.action();
@@ -212,7 +211,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const rect = targetElement.getBoundingClientRect();
             const { highlight, tooltip } = this.elements;
             
-            // Position the highlight element
             highlight.style.top = `${rect.top - 5}px`;
             highlight.style.left = `${rect.left - 5}px`;
             highlight.style.width = `${rect.width + 10}px`;
@@ -221,22 +219,18 @@ document.addEventListener('DOMContentLoaded', () => {
             tooltip.style.opacity = '1';
             tooltip.style.transform = 'translateY(0)';
 
-            // Robustly position the tooltip, ensuring it stays within the viewport
             const tooltipRect = tooltip.getBoundingClientRect();
             const margin = 10;
             let tooltipTop, tooltipLeft;
 
-            // Prefer positioning below the element if there's enough space
             if (window.innerHeight - rect.bottom > tooltipRect.height + margin + 15) {
                 tooltipTop = rect.bottom + 15;
             } else {
                 tooltipTop = rect.top - tooltipRect.height - 15;
             }
 
-            // Center horizontally relative to the target
             tooltipLeft = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
 
-            // Clamp values to ensure the tooltip is always visible
             tooltipTop = Math.max(margin, Math.min(tooltipTop, window.innerHeight - tooltipRect.height - margin));
             tooltipLeft = Math.max(margin, Math.min(tooltipLeft, window.innerWidth - tooltipRect.width - margin));
 
@@ -257,16 +251,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- Tour Initiation Logic ---
-    const tour = new GuidedTour();
+    // This function ensures the tour only initializes after the i18n module is ready.
+    function initializeTour() {
+        if (window.TT_I18N && window.TT_I18N.data) {
+            const tour = new GuidedTour();
+            const tourButton = document.getElementById('tourButton');
 
-    document.getElementById('tourButton')?.addEventListener('click', () => {
-        // If another tour is somehow active, stop it before starting a new one.
-        if (tour.isActive) tour.stop();
-        tour.start();
-    });
+            if (tourButton) {
+                tourButton.addEventListener('click', () => {
+                    if (tour.isActive) {
+                        tour.stop();
+                    }
+                    setTimeout(() => {
+                        tour.start();
+                    }, 50);
+                });
+            }
 
-    // Automatically start the tour for first-time visitors.
-    if (!localStorage.getItem('ttx_tour_completed')) {
-        setTimeout(() => tour.start(), 1500);
+            // Automatically start the tour for first-time visitors.
+            if (!localStorage.getItem('ttx_tour_completed')) {
+                setTimeout(() => tour.start(), 1500);
+            }
+        } else {
+            // If i18n data isn't ready, wait 100ms and try again.
+            setTimeout(initializeTour, 100);
+        }
     }
+
+    initializeTour();
 });
