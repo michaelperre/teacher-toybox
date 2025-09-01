@@ -97,4 +97,3 @@ window.logout = () => {
 
 // Initialize Auth0 when the page loads
 window.addEventListener('load', initializeAuth);
-
