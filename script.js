@@ -2998,4 +2998,15 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }, 100);
     }
+    
+    // --- First-Time User Experience ---
+    if (!localStorage.getItem('ttx_tour_completed')) {
+        setTimeout(() => {
+            // Check that both the modal and tour functions are ready
+            if (window.TT && typeof window.TT.openDemoModal === 'function' && typeof window.TT.startTour === 'function') {
+                // Open the demo modal and pass the startTour function as the callback
+                window.TT.openDemoModal(window.TT.startTour);
+            }
+        }, 1500); // Wait for splash screen to fade
+    }
 });
