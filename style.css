@@ -300,13 +300,11 @@ body.light-mode.no-grid {
     display: flex;
     flex-direction: column;
     z-index: 1000;
-    border: 5px solid var(--border-color);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 10px 30px rgba(0,0,0,0.2), 0 0 12px 2px rgba(var(--accent-color-rgb), 0.2);
     animation: windowEntry 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
 }
 .floating.active-window {
-    border: 10px solid var(--accent-color);
-    box-shadow: 0 0 25px 5px rgba(var(--accent-color-rgb), 0.4);
+    box-shadow: inset 0 0 0 2px var(--accent-color), 0 0 25px 5px rgba(var(--accent-color-rgb), 0.4);
     z-index: 1001;
 }
 .hidden {
@@ -1393,7 +1391,6 @@ body.light-mode #site-subtitle {
     text-shadow: none;
 }
 body.light-mode .floating {
-    border: 4px solid #BFC3CB;
     box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 body.light-mode .clock-face { fill: #fdfdfd; stroke: var(--text-primary); }
