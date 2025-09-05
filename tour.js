@@ -4,6 +4,103 @@
  * © 2025 TeacherToybox.com. All Rights Reserved.
  */
 
+(function() {
+  let demoOpen = false;
+  let demoJustClosedAt = 0;
+  let backdrop, modal, video;
+  let activeOnCloseCallback = null; // Variable to hold the callback
+
+  function closeDemoModal() {
+    demoJustClosedAt = Date.now();
+    if (!demoOpen) return;
+    demoOpen = false;
+    try { modal && modal.remove(); } catch(e) {}
+    try { backdrop && backdrop.remove(); } catch(e) {}
+    const btn = document.getElementById('demoButton');
+    if (btn) btn.classList.remove('active');
+
+    // Run the callback if it exists
+    if (typeof activeOnCloseCallback === 'function') {
+        activeOnCloseCallback();
+        activeOnCloseCallback = null; // Clear it after use
+    }
+  }
+
+  function openDemoModal(onCloseCallback) { // Accept the callback
+    if (demoOpen) return;
+    demoOpen = true;
+    activeOnCloseCallback = onCloseCallback; // Store the callback
+
+    backdrop = document.createElement('div');
+    backdrop.className = 'demo-backdrop';
+    backdrop.style.cssText = 'position:fixed;inset:0;background:transparent;z-index:9998;'
+
+    modal = document.createElement('div');
+    modal.className = 'demo-modal';
+    modal.style.cssText = 'position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:75vw;height:75vh;display:flex;align-items:center;justify-content:center;z-index:9999;'
+
+    video = document.createElement('video');
+    const source = document.createElement('source');
+    source.src = 'demo.mp4';
+    source.type = 'video/mp4';
+    video.appendChild(source);
+    video.controls = true;
+    video.playsInline = true;
+    video.style.cssText = 'width:100%;height:100%;object-fit:contain;border-radius:12px;';
+
+    modal.appendChild(video);
+    document.body.appendChild(backdrop);
+    document.body.appendChild(modal);
+
+    const tryPlay = async () => {
+      try { await video.play(); }
+      catch (err) { try { video.muted = true; await video.play(); } catch (e2) {} }
+    };
+    video.addEventListener('loadedmetadata', tryPlay);
+    tryPlay();
+
+    const passThrough = (ev) => {
+      const x = ev.clientX, y = ev.clientY;
+      ev.preventDefault();
+      ev.stopPropagation();
+      closeDemoModal();
+      setTimeout(() => {
+        const el = document.elementFromPoint(x, y);
+        if (!el) return;
+        try { el.dispatchEvent(new PointerEvent('pointerdown', { bubbles:true, cancelable:true, clientX:x, clientY:y, pointerType:'mouse' })); } catch(e) {}
+        try { el.dispatchEvent(new MouseEvent('mousedown', { bubbles:true, cancelable:true, clientX:x, clientY:y })); } catch(e) {}
+        try { el.dispatchEvent(new MouseEvent('mouseup', { bubbles:true, cancelable:true, clientX:x, clientY:y })); } catch(e) {}
+        el.dispatchEvent(new MouseEvent('click', { bubbles:true, cancelable:true, clientX:x, clientY:y }));
+      }, 0);
+    };
+
+    backdrop.addEventListener('pointerdown', passThrough, { capture:true });
+    backdrop.addEventListener('mousedown', passThrough, { capture:true });
+    backdrop.addEventListener('click', passThrough, { capture:true });
+
+    modal.addEventListener('click', closeDemoModal);
+  }
+    
+  window.TT.openDemoModal = openDemoModal;
+  
+  const demoBtn = document.getElementById('demoButton');
+  if (demoBtn) {
+      const replacement = demoBtn.cloneNode(true);
+      demoBtn.parentNode.replaceChild(replacement, demoBtn);
+      replacement.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (!demoOpen) {
+              if (Date.now() - demoJustClosedAt < 200) return;
+              replacement.classList.add('active');
+              openDemoModal();
+          } else {
+              closeDemoModal();
+          }
+      });
+  }
+})();
+
+
 let isTourActive = false;
 let isPerformingAction = false;
 
