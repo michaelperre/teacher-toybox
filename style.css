@@ -5,7 +5,6 @@
 :root {
     --accent-color: #408ac9;
     --accent-color-rgb: 64, 138, 201;
-    --accent-hover: #58a6ff;
     --bg-color: #1c1c1e;
     --sidebar-bg: #2c2c2e;
     --window-bg: rgba(44, 44, 46, 0.9);
@@ -118,7 +117,7 @@ body.light-mode.no-grid {
     transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .btn:hover {
-    background-color: var(--accent-hover);
+    filter: brightness(1.2);
     transform: translateY(-2px); /* Add a subtle lift effect */
 }
 .btn:active {
@@ -422,7 +421,9 @@ body.light-mode.no-grid {
     cursor: pointer;
     transition: background-color 0.4s ease, transform 0.1s ease, border-color 0.2s ease;
 }
-.icon-btn:hover { background-color: var(--accent-hover); }
+.icon-btn:hover {
+    filter: brightness(1.2);
+}
 .icon-btn:active { transform: scale(0.95); }
 .overlay-number {
     position: fixed;
@@ -535,7 +536,7 @@ div[contenteditable] {
     color: black;
 }
 .buyme-button:hover {
-    background-color: #ffee58;
+    filter: brightness(1.1);
 }
 canvas {
     -webkit-user-drag: none;
@@ -648,7 +649,7 @@ body.is-dragging .drop-zone {
     transform: scale(1.05);
     border-color: var(--accent-color);
     background: rgba(var(--accent-color-rgb), 0.1);
-    color: var(--accent-hover);
+    color: var(--accent-color);
 }
 .draw-controls-bar {
     display: flex;
@@ -798,7 +799,7 @@ body.is-dragging .drop-zone {
     color: black;
 }
 .win-sidebar .upload-btn:hover {
-    background-color: #ffee58; /* Lighter yellow */
+    filter: brightness(1.1);
 }
 
 /* --- Carousel Tool Styles --- */
@@ -962,7 +963,7 @@ body.is-dragging .drop-zone {
     grid-row: span 2;
 }
 .calc-btn.equals:hover {
-    background-color: var(--accent-hover);
+    filter: brightness(1.2);
 }
 .calc-btn.ac {
     background-color: var(--danger-color);
@@ -1136,7 +1137,7 @@ body.is-dragging .drop-zone {
     transition: background-color 0.2s;
 }
 .copy-link-area button:hover {
-    background-color: var(--accent-hover);
+    filter: brightness(1.2);
 }
 
 /* --- Feedback & Contact Panel Styles --- */
@@ -1250,7 +1251,7 @@ body.is-dragging .drop-zone {
     transition: background-color 0.2s;
 }
 .submit-btn:hover {
-    background-color: var(--accent-hover);
+    filter: brightness(1.2);
 }
 .submit-btn:disabled {
     background-color: var(--text-secondary);
@@ -1546,7 +1547,7 @@ body.light-mode .calc-btn.ac {
 }
 body.light-mode .calc-btn.equals:hover,
 body.light-mode .calc-btn.ac:hover {
-    background-color: var(--accent-hover);
+    filter: brightness(1.2);
 }
 body.light-mode .die {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
@@ -1831,7 +1832,7 @@ body:not(.is-premium) .premium-feature {
 }
 
 #authButton:hover {
-    background-color: var(--success-hover);
+    filter: brightness(1.1);
 }
 
 #authButton.logout-btn {
@@ -1839,7 +1840,7 @@ body:not(.is-premium) .premium-feature {
 }
 
 #authButton.logout-btn:hover {
-    background-color: var(--warning-hover);
+    filter: brightness(1.1);
 }
 
 /* --- Enlarged Date Light Mode Styles --- */
