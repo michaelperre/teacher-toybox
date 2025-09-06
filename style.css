@@ -3,9 +3,9 @@
  * © 2025 TeacherToybox.com. All Rights Reserved.
  */
 :root {
-    --accent-color: #1abc9c; /* A vibrant, modern teal */
-    --accent-color-rgb: 26, 188, 156;
-    --accent-hover: #48f7d4; /* A brighter, more noticeable light teal */
+    --accent-color: #408ac9;
+    --accent-color-rgb: 64, 138, 201;
+    --accent-hover: #58a6ff;
     --bg-color: #1c1c1e;
     --sidebar-bg: #2c2c2e;
     --window-bg: rgba(44, 44, 46, 0.9);
