@@ -173,10 +173,7 @@ body.light-mode.no-grid {
     text-align: center;
     color: var(--text-primary);
     z-index: 1998;
-    transition: transform 0.5s ease-in-out, width 0.3s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    transition: transform 0.5s ease-in-out, width 0.3s ease-in-out, box-shadow 0.4s ease;
 }
 #digital-clock-bar.open {
     transform: translateX(calc(var(--sidebar-width) * -1));
@@ -419,7 +416,7 @@ body.light-mode.no-grid {
     font-size: calc(var(--btn-size) * 0.45);
     font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.4s ease, transform 0.1s ease, border-color 0.2s ease;
+    transition: background-color 0.4s ease, transform 0.1s ease, border-color 0.2s ease, filter 0.2s ease;
 }
 .icon-btn:hover {
     filter: brightness(1.2);
@@ -1134,7 +1131,7 @@ body.is-dragging .drop-zone {
     padding: 8px 16px;
     font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, filter 0.2s ease;
 }
 .copy-link-area button:hover {
     filter: brightness(1.2);
@@ -1171,7 +1168,7 @@ body.is-dragging .drop-zone {
     padding: 24px;
     color: var(--text-primary);
     transform: translateX(100%);
-    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s ease;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -1248,7 +1245,7 @@ body.is-dragging .drop-zone {
     font-weight: 500;
     cursor: pointer;
     margin-top: auto;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, filter 0.2s ease;
 }
 .submit-btn:hover {
     filter: brightness(1.2);
@@ -1286,7 +1283,7 @@ body.is-dragging .drop-zone {
     padding: 24px;
     color: var(--text-primary);
     transform: translateX(100%);
-    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s ease;
     display: flex;
     flex-direction: column;
 }
@@ -1406,6 +1403,19 @@ body.light-mode .clock-face { fill: #fdfdfd; stroke: var(--text-primary); }
 body.light-mode .hour-hand,
 body.light-mode .minute-hand,
 body.light-mode .hand-cap { stroke: var(--text-primary); fill: var(--text-primary); }
+
+/* --- Light Mode Shadow Adjustments --- */
+body.light-mode #feedback-panel,
+body.light-mode #contact-panel,
+body.light-mode #policy-panel,
+body.light-mode #upgrade-panel {
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode #digital-clock-bar {
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.08);
+}
+
 
 /* --- Theme Switch Styles --- */
 #theme-switch-container {
@@ -1689,7 +1699,7 @@ body:not(.is-premium) .premium-feature {
     box-shadow: -10px 0 30px rgba(0,0,0,0.3);
     z-index: 25001;
     transform: translateX(100%);
-    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s ease;
 }
 
 #upgrade-panel.open {
