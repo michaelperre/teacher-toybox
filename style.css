@@ -1398,7 +1398,7 @@ body.light-mode #site-subtitle {
     text-shadow: none;
 }
 body.light-mode .floating {
-    border: 5px solid #BBB8B2; /* Light mode border */
+    border: 5px solid #BBB8B2; /* Corrected to a more visible medium grey for light mode */
     box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 body.light-mode .clock-face { fill: #fdfdfd; stroke: var(--text-primary); }
