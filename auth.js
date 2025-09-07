@@ -55,6 +55,8 @@ const handleRedirectCallback = async () => {
     }
   } catch (err) {
     console.error("Auth0 redirect callback failed:", err);
+    // You might not want to reload here, as it could cause a loop.
+    // A simple error message might be better, but for now we'll stick to the request.
     showLoginErrorAndReload();
   }
 };
@@ -62,32 +64,26 @@ const handleRedirectCallback = async () => {
 // 3. Main function to initialize authentication
 const initializeAuth = async () => {
   await configureClient();
+  // If configureClient fails, it will call the error handler and this line won't be reached.
   if (auth0Client) {
       await handleRedirectCallback();
       await updateUI();
   }
 };
 
-// 4. Update UI based on authentication state (WITH BANNER LOGIC)
+// 4. Update UI based on authentication state
 const updateUI = async () => {
   const isAuthenticated = await auth0Client.isAuthenticated();
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
-  const upgradeButton = document.getElementById('upgradeButton');
 
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
   document.body.classList.remove('is-premium');
-  document.body.classList.remove('is-trial');
-  
-  // Remove any existing trial banner on UI update
-  const existingBanner = document.querySelector('.trial-countdown-banner');
-  if (existingBanner) {
-    existingBanner.remove();
-  }
   
   if (authButton) {
     if (isAuthenticated) {
+      // --- Logged In State ---
       authButton.title = "Log Out";
       authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
       authButton.classList.add('logout-btn');
@@ -100,65 +96,13 @@ const updateUI = async () => {
 
       const claims = await auth0Client.getIdTokenClaims();
       const userRoles = claims['http://teachertoybox.com/roles'] || [];
-      const hasPremiumRole = userRoles.includes('Premium');
-      const trialEndDateString = claims['http://teachertoybox.com/trial_ends_at'];
-      let isStillInTrial = false;
-      if (trialEndDateString) {
-          const trialEndDate = new Date(trialEndDateString);
-          if (trialEndDate > new Date()) {
-              isStillInTrial = true;
-          }
-      }
-
-      if (hasPremiumRole || isStillInTrial) {
+      if (userRoles.includes('Premium')) {
           window.TT.isPremium = true;
           document.body.classList.add('is-premium');
       }
 
-      if (isStillInTrial) {
-        document.body.classList.add('is-trial');
-        
-        if (upgradeButton) {
-            upgradeButton.style.display = 'flex';
-        }
-        
-        const upgradePanelTitle = document.querySelector('#upgrade-panel h3 [data-i18n="panel.upgrade.title"]');
-        const upgradePanelIntro = document.querySelector('#upgrade-panel p[data-i18n="panel.upgrade.intro"]');
-        const upgradePanelButtonPrice = document.querySelector('#panel-upgrade-btn .price-big');
-        
-        if (upgradePanelTitle) upgradePanelTitle.textContent = "Your Premium Trial is Active!";
-        if (upgradePanelIntro) upgradePanelIntro.textContent = "Subscribe now to keep your premium features when your trial ends.";
-        if (upgradePanelButtonPrice) upgradePanelButtonPrice.textContent = "Subscribe Now";
-
-        // --- NEW BANNER LOGIC ---
-        const trialEndDate = new Date(trialEndDateString);
-        const now = new Date();
-        const daysRemaining = Math.ceil((trialEndDate - now) / (1000 * 60 * 60 * 24));
-
-        if (daysRemaining > 0) {
-            const banner = document.createElement('div');
-            banner.className = 'trial-countdown-banner';
-            const dayText = daysRemaining === 1 ? 'day' : 'days';
-            banner.innerHTML = `
-                <span>You have <strong>${daysRemaining} ${dayText}</strong> left in your premium trial.</span>
-                <a href="#" id="banner-upgrade-link">Subscribe Now</a>
-            `;
-            document.body.appendChild(banner);
-            document.getElementById('banner-upgrade-link').onclick = (e) => {
-                e.preventDefault();
-                const upgradePanel = document.getElementById('upgrade-panel');
-                if (upgradePanel) document.getElementById('upgradeButton').click();
-            };
-        }
-        // --- END BANNER LOGIC ---
-
-      } else if (hasPremiumRole) {
-         if (upgradeButton) {
-            upgradeButton.style.display = 'none';
-         }
-      }
-      
     } else {
+      // --- Logged Out State ---
       authButton.title = "Log In / Sign Up";
       authButton.innerHTML = `<i class="fas fa-sign-in-alt"></i>`;
       authButton.classList.remove('logout-btn');

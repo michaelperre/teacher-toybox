@@ -40,7 +40,7 @@ global.TT.initiateCheckout = async () => {
     const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF');
     
     // Your Stripe LIVE Price ID.
-    const priceId = 'price_1P64G4FCA6YfGQJz0n5w2XCe'; 
+    const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo'; 
 
     const response = await fetch('/api/create-checkout-session', {
       method: 'POST',
@@ -119,8 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const panelUpgradeBtn = $('panel-upgrade-btn');
     const upgradeButton = $('upgradeButton');
 
-    // Make the openUpgradePanel function globally accessible
-    global.TT.openUpgradePanel = () => {
+    const openUpgradePanel = () => {
         if (upgradeBackdrop && upgradePanel) {
             upgradeBackdrop.classList.remove('hidden');
             upgradePanel.classList.add('open');
@@ -134,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    if (upgradeButton) upgradeButton.onclick = global.TT.openUpgradePanel;
+    if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
     if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
     if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
