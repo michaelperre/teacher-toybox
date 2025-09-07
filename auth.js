@@ -130,7 +130,7 @@ const updateUI = async () => {
         if (upgradePanelIntro) upgradePanelIntro.textContent = "Subscribe now to keep your premium features when your trial ends.";
         if (upgradePanelButtonPrice) upgradePanelButtonPrice.textContent = "Subscribe Now";
 
-        // --- NEW BANNER LOGIC ---
+        // --- BANNER LOGIC ---
         const trialEndDate = new Date(trialEndDateString);
         const now = new Date();
         const daysRemaining = Math.ceil((trialEndDate - now) / (1000 * 60 * 60 * 24));
@@ -144,10 +144,16 @@ const updateUI = async () => {
                 <a href="#" id="banner-upgrade-link">Subscribe Now</a>
             `;
             document.body.appendChild(banner);
+            
+            // --- CORRECTED ONCLICK HANDLER ---
             document.getElementById('banner-upgrade-link').onclick = (e) => {
                 e.preventDefault();
+                const upgradeBackdrop = document.getElementById('upgrade-backdrop');
                 const upgradePanel = document.getElementById('upgrade-panel');
-                if (upgradePanel) document.getElementById('upgradeButton').click();
+                if (upgradeBackdrop && upgradePanel) {
+                    upgradeBackdrop.classList.remove('hidden');
+                    upgradePanel.classList.add('open');
+                }
             };
         }
         // --- END BANNER LOGIC ---
