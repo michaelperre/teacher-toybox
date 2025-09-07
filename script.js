@@ -1,1 +1,2991 @@
-const _0x21ca99=_0x6c37;(function(_0x1fd5e7,_0x1168a5){const _0x5e9f43=_0x6c37,_0x22fed2=_0x1fd5e7();while(!![]){try{const _0xe13f6c=-parseInt(_0x5e9f43(0x303))/0x1*(parseInt(_0x5e9f43(0x295))/0x2)+parseInt(_0x5e9f43(0x286))/0x3+-parseInt(_0x5e9f43(0x1e1))/0x4+parseInt(_0x5e9f43(0x113))/0x5+-parseInt(_0x5e9f43(0x20e))/0x6*(-parseInt(_0x5e9f43(0xe0))/0x7)+-parseInt(_0x5e9f43(0x235))/0x8+-parseInt(_0x5e9f43(0x357))/0x9*(-parseInt(_0x5e9f43(0x348))/0xa);if(_0xe13f6c===_0x1168a5)break;else _0x22fed2['push'](_0x22fed2['shift']());}catch(_0x4fca52){_0x22fed2['push'](_0x22fed2['shift']());}}}(_0x189e,0x504b6));function _0x6c37(_0xb6bf9a,_0x5cab0c){const _0x189eab=_0x189e();return _0x6c37=function(_0x6c374e,_0x3ada0a){_0x6c374e=_0x6c374e-0xce;let _0x287778=_0x189eab[_0x6c374e];return _0x287778;},_0x6c37(_0xb6bf9a,_0x5cab0c);}function _0x189e(){const _0x1207e1=['webkitFullscreenElement','#333','writeText','upgrade','dispatchEvent','wrapper','audio','Could\x20not\x20access\x20camera.','close-upgrade-btn','policy-backdrop','custom-color','length','h-half','head','contact-form','upgrade-backdrop','Reset\x20Timer\x20(Spacebar)','offsetX','error','#policy-panel','DOMContentLoaded','#upgrade-panel','annotationResizeObserver','conclusion','activeLayout','clearRect','function','round','#AF52DE','data-tool','key','16px','.pdf-next-btn','stroke','for-against-panel','preventDefault','resize-btn','clientWidth','1947408sDWKcB','calc-input','files','includes','range','value','now','.go-btn','Choose\x20Timer\x20Duration','format','mouseenter','sqrt','oninput','default','share-modal','mouse','calc-btn\x20','layout','cursor','tool-controls','getItem','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22unsupported-file-message\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-file-powerpoint\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>PowerPoint\x20File</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>To\x20display\x20this\x20file,\x20please\x20convert\x20it\x20to\x20a\x20PDF\x20first\x20and\x20then\x20drop\x20it\x20here.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Close\x20Window\x20(Backspace)','Undo','Math.log10','https://formspree.io/f/mpwjrnag','Copied!','Send\x20Message','demoButton','flex','drawImage','demo-backdrop','full','&title=','themePaletteButton','clockButton','toString','hotkey-label','flexDirection','img','match','backgroundColor','<i\x20class=\x22','.copy-link-area\x20input','</ul>','prev','getPage','90%','fas\x20fa-images','image/*','getElementById','parentNode','readAsArrayBuffer','isPremium','<p><em>','custom-color-palette\x20hidden','func','demo.mp4','Start/Pause\x20Timer\x20(Enter)','1\x20min','name','communicationButton','lineTo','&times;','offsetWidth','email','play','svg','helpButton','&nbsp;','</h2><p>','objectFit','Snap\x20to\x20Quadrant\x20(Q)','#888888','display:flex;justify-content:center;gap:12px;padding:8px;','\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20whatsapp\x22><i\x20class=\x22fab\x20fa-whatsapp\x22></i>\x20WhatsApp</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://www.reddit.com/submit?url=','Clear\x20Annotations','position:fixed;inset:0;background:transparent;z-index:9998;','playsInline','layout7Button','<i\x20class=\x22fas\x20fa-dice-d6\x22></i>','1225092QdBCMz','originalColorButton','fa-expand','Math.tan','Submit','fas\x20fa-calculator','.hour-hand','var(--danger-color)','fas\x20fa-minus','nwse-resize','bottom','video/mp4','annotationCurrentColor','toLowerCase','.hotkey-label','2KYEECS','getViewport','%0A%0A','.ppt','position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:75vw;height:75vh;display:flex;align-items:center;justify-content:center;z-index:9999;','isVisible','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22close-modal-btn\x22>&times;</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20data-i18n=\x22panel.share.title\x22>','fas\x20fa-font','close-policy-btn','fas\x20fa-hourglass-start','title','&text=','paddingRight','Math.cos','json','#contact-panel','msFullscreenElement','stroke-dashoffset\x201s\x20linear','ttx_theme','transform','onclick','Change\x20Color','getBoundingClientRect','0.3','laserButton','Click\x20the\x20folder\x20icon\x20to\x20select\x20images','numeric','http://www.w3.org/2000/svg','#lang-picker-wrap','ctrlKey','paddingBottom','block','Total:\x20','appendChild','icon-btn\x20timer-start-pause-btn','clientHeight','isAuthenticated','currentTime','For/Against\x20Counter\x20(A)','40px','window-management-controls','Delete','contain','help-bar','trim','#FFCC00','pointerup','rolling','premium','#site-title','drag-bar','50%','ArrowRight','theme-toggle','then','stopwatch-controls','.draw-controls-bar','getComputedStyle','draw-controls-bar','.date-backdrop','row','class','contentEditable','remove','Error\x20submitting\x20contact\x20form:','ttx_lastLayout','altKey','offsetTop','POST','panel-upgrade-btn','#4CD964','#feedback-panel','audio/','display','matches','Could\x20not\x20connect\x20to\x20the\x20payment\x20service.\x20Please\x20try\x20again\x20later.','pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF','button','top','fa-solid','lineJoin','<i\x20class=\x22fas\x20fa-folder-open\x22></i>','flex-grow:\x201;\x20position:\x20relative;\x20width:\x20100%;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;','dataTransfer','price_1RyXtBFCA6YfGQJz7BUMxTQo','info','color-swatch','subtitle','#FFFFFF','controls','laserDot','date-enlarged','toUpperCase','fillStyle','\x22></i>','Error\x20submitting\x20feedback:','layout8Button','contact-panel','</p>','querySelector','add','alt','video','fas\x20fa-camera','Button','\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die-container\x20{\x20display:\x20flex;\x20flex-wrap:\x20wrap;\x20gap:\x202rem;\x20justify-content:\x20center;\x20align-items:\x20center;\x20flex-grow:\x201;\x20padding:\x2010px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die\x20{\x20width:\x2010rem;\x20height:\x2010rem;\x20background-color:\x20white;\x20border-radius:\x208px;\x20padding:\x206px;\x20display:\x20grid;\x20grid-template-columns:\x20repeat(3,\x201fr);\x20grid-template-rows:\x20repeat(3,\x201fr);\x20gap:\x204px;\x20box-shadow:\x20inset\x200\x202px\x204px\x20rgba(0,0,0,0.2);\x20border:\x202px\x20solid\x20black;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die\x20.die-dot\x20{\x20visibility:\x20hidden;\x20width:\x20100%;\x20height:\x20100%;\x20background-color:\x20black;\x20border-radius:\x2050%;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x221\x22]\x20.dot-5,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x222\x22]\x20.dot-1,\x20.die[data-value=\x222\x22]\x20.dot-9,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x223\x22]\x20.dot-1,\x20.die[data-value=\x223\x22]\x20.dot-5,\x20.die[data-value=\x223\x22]\x20.dot-9,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x224\x22]\x20.dot-1,\x20.die[data-value=\x224\x22]\x20.dot-3,\x20.die[data-value=\x224\x22]\x20.dot-7,\x20.die[data-value=\x224\x22]\x20.dot-9,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x225\x22]\x20.dot-1,\x20.die[data-value=\x225\x22]\x20.dot-3,\x20.die[data-value=\x225\x22]\x20.dot-5,\x20.die[data-value=\x225\x22]\x20.dot-7,\x20.die[data-value=\x225\x22]\x20.dot-9,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x226\x22]\x20.dot-1,\x20.die[data-value=\x226\x22]\x20.dot-3,\x20.die[data-value=\x226\x22]\x20.dot-4,\x20.die[data-value=\x226\x22]\x20.dot-6,\x20.die[data-value=\x226\x22]\x20.dot-7,\x20.die[data-value=\x226\x22]\x20.dot-9\x20{\x20visibility:\x20visible;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.dice-controls\x20{\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20gap:\x2012px;\x20padding:\x2012px;\x20background:\x20rgba(0,0,0,0.2);\x20flex-shrink:\x200;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.dice-controls\x20.icon-btn\x20{\x20width:\x2040px;\x20height:\x2040px;\x20font-size:\x2016px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.dice-total\x20{\x20font-size:\x2018px;\x20font-weight:\x20bold;\x20color:\x20white;\x20min-width:\x2080px;\x20text-align:\x20center;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die.rolling\x20{\x20animation:\x20roll\x200.5s\x20ease-in-out;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20roll\x20{\x200%\x20{\x20transform:\x20rotate(0deg)\x20scale(1);\x20}\x2025%\x20{\x20transform:\x20rotate(15deg)\x20scale(1.1);\x20}\x2075%\x20{\x20transform:\x20rotate(-15deg)\x20scale(1.1);\x20}\x20100%\x20{\x20transform:\x20rotate(0deg)\x20scale(1);\x20}\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.stopwatch-display\x20{\x20font-size:\x20clamp(3rem,\x2014vw,\x2010rem);\x20font-weight:\x20700;\x20color:\x20white;\x20text-align:\x20center;\x20flex-grow:\x201;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20font-family:\x20\x27monospace\x27;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.stopwatch-controls\x20{\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20gap:\x2012px;\x20padding:\x2012px;\x20background:\x20rgba(0,0,0,0.2);\x20flex-shrink:\x200;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.stopwatch-controls\x20.icon-btn\x20{\x20width:\x2050px;\x20height:\x2050px;\x20font-size:\x2020px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-title\x20{\x20color:\x20var(--text-secondary);\x20font-size:\x201.5rem;\x20font-weight:\x20500;\x20text-align:\x20center;\x20margin-bottom:\x201rem;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-selection-grid\x20{\x20display:\x20grid;\x20grid-template-columns:\x20repeat(auto-fit,\x20minmax(100px,\x201fr));\x20gap:\x2012px;\x20width:\x20100%;\x20max-width:\x20500px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-btn\x20{\x20background-color:\x20var(--sidebar-bg);\x20border:\x201px\x20solid\x20var(--border-color);\x20color:\x20var(--text-primary);\x20padding:\x2020px\x2010px;\x20border-radius:\x208px;\x20font-size:\x201.1rem;\x20font-weight:\x20500;\x20cursor:\x20pointer;\x20transition:\x20background-color\x200.2s\x20ease,\x20border-color\x200.2s\x20ease;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-btn:hover\x20{\x20background-color:\x20var(--window-bg);\x20border-color:\x20var(--accent-color);\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-running-controls\x20{\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20gap:\x2012px;\x20padding:\x2012px;\x20flex-shrink:\x200;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-running-controls\x20.icon-btn\x20{\x20width:\x2050px;\x20height:\x2050px;\x20font-size:\x2020px;\x20}\x0a\x20\x20\x20\x20','getContext','width','.win-sidebar','setAttribute','39937kORJYq','putImageData','Logout\x20function\x20not\x20found.\x20Reloading\x20page.','payment','min','<i\x20class=\x22fas\x20fa-sync-alt\x22></i>','fillRect','absolute','closest','change','active','shiftKey','button,\x20.tool-controls,\x20input,\x20.draw-controls-bar,\x20.window-management-controls','transparent','#communication-tools-container','fas\x20fa-stopwatch','<i\x20class=\x22fas\x20fa-arrow-right\x22></i>','icon-btn','management-bar','--accent-color','innerHTML','feedbackButton','muted','panel.feedback.submitButtonSending','snapped-window','ArrowUp','shhSound','label','#fdd835','light-mode','types','catch','setItem','getPropertyValue','scrollHeight','onchange','mouseleave','strokeStyle','carousel','<img\x20src=\x22ttlogo.png\x22\x20alt=\x22Teacher\x20Toybox\x20Logo\x22\x20class=\x22info-window-logo\x22><h2>','close','.copy-link-area\x20button','px)','input[type=\x22file\x22]','Share\x20with\x20a\x20Friend','#A2845E','ns-resize','[id^=\x22layout\x22][id$=\x22Button\x22]','quadrant','stroke-dasharray','span\x202','.win-main-area','height','focus','.die','number','canvas','checked','colorPicker','Stopwatch\x20(H)','numPages','fill','none','column','createElement','0\x200\x20100\x20100','equals','layout2Button','copy','701390fLyFWI','pointerleave','span','DateTimeFormat','carousel-btn','dragleave','_points','panel.contact.submitButton','overflow','cssText','pen-btn','infoButton','demo-modal','/api/create-checkout-session','Space','9disaNr','.floating','isContentEditable','https://www.teachertoybox.com','tan','abs','#5856D6','<i\x20class=\x22fas\x20fa-pause\x22></i>','#34C759','.for-against-controls','v-half','<i\x20class=\x22fas\x20fa-undo\x22></i>','stroke-width','className','stroke-dashoffset','srcObject','pointermove','text','0px','date-backdrop','elementFromPoint','div','zIndex','</li>','alignItems','Math.sqrt','<i\x20class=\x22fas\x20fa-level-down-alt\x22></i>','#sidebar-main-controls','content-fill','input','true','.opacity-slider','relative','00:00.00','blur','Could\x20not\x20identify\x20user\x20or\x20user\x20email\x20before\x20checkout.\x20Aborting.','innerHeight','right','reload','webkitfullscreenchange','disablesHotkeys','#FF9500','color','Math.PI','icon-btn\x20text-editor-control-btn','7qBOdfl','30\x20sec','ttx_accentColor','reset','clipboard','Dice\x20Roller\x20(G)','body','active-window','.pdf-canvas-container','cover','<i\x20class=\x22fa-solid\x20fa-expand\x22></i>','Could\x20not\x20process\x20element\x20for\x20color\x20extraction:','.drag-bar\x20.tool-controls','extra-tools-bar','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22premium-splash-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22logo-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22logo-spinner\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22ttlogo.png\x22\x20alt=\x22Teacher\x20Toybox\x20Logo\x22\x20class=\x22premium-splash-logo\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Welcome\x20to\x20Premium!</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22splash-subtext-1\x22>Your\x20Teacher\x20Toybox\x20is\x20now\x20supercharged.</span><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22splash-subtext-2\x22>Please\x20log\x20in\x20again\x20to\x20unlock\x20all\x20your\x20new\x20tools.</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','sub','shareButton','addButton','dataset','submit-contact-btn','background','fas\x20fa-dice','Webcam\x20(W)','accept','startsWith','Error','opacity','size','communication-bar','location','<i\x20class=\x22fas\x20fa-palette\x22></i>','result','classList','.color-swatch.active','click','annotationCanvas','.for-against-controls\x20button','search','application/json','fas\x20fa-list-ol','.resize-btn','style','🗑️','lineWidth','beginPath','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22drop-zone-inner\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22drop-zone-icon\x20fas\x20fa-upload\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22drop-zone-file-types\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-file-image\x22></i><i\x20class=\x22fas\x20fa-file-video\x22></i><i\x20class=\x22fas\x20fa-file-audio\x22></i><i\x20class=\x22fas\x20fa-file-pdf\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>','floor','opacity-slider','30\x20min','pop','carousel-controls','1000330gmwpcd','from','contentRect','padStart','bellButton','open','.floating:not(.hidden)\x20img,\x20.floating:not(.hidden)\x20canvas','getDocument','.minute-hand','webkitRequestFullscreen','addEventListener','file','Could\x20not\x20identify\x20user.\x20Please\x20try\x20logging\x20in\x20again.','\x22\x20class=\x22share-grid-btn\x20email\x22><i\x20class=\x22fas\x20fa-envelope\x22></i>\x20Email</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22copy-link-heading\x22>Or\x20copy\x20the\x20link</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22copy-link-area\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20value=\x22','Files','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pdf-viewer-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pdf-canvas-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<canvas></canvas>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pdf-controls\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22pdf-prev-btn\x22\x20title=\x22Previous\x20Page\x22><i\x20class=\x22fas\x20fa-arrow-left\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pdf-page-input-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20class=\x22pdf-page-input\x22\x20min=\x221\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22pdf-page-info\x22>/\x20<span>1</span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22go-btn\x22>Go</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22pdf-next-btn\x22\x20title=\x22Next\x20Page\x22><i\x20class=\x22fas\x20fa-arrow-right\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','<i\x20class=\x22fas\x20fa-pencil-alt\x22></i>','rotate(-90deg)','Against','stopPropagation','image/*,video/*,audio/*,.pdf','var(--success-color)','INPUT','100','&body=','extraToolsButton','getImageData','countdown-btn','documentElement','icon-btn\x20timer-reset-btn','.reset-content-btn','contactButton','Calculator\x20(U)','dice-total','date-display','success','removeEventListener','drop-zone','mousedown','Import\x20File\x20(I)','refreshButton','.custom-color-palette','gridRow','circle','innerText','.for-against-display','layout-bar','\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20facebook\x22><i\x20class=\x22fab\x20fa-facebook-f\x22></i>\x20Facebook</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://twitter.com/intent/tweet?url=','fullscreenchange','.pptx','position','drawingHistory','hotkey','hidden','msRequestFullscreen','.second-hand','</h3><ul>','panel.feedback.submitButton','parentElement','submit','offsetHeight','rgba(255,\x20255,\x20255,\x200.2)','send-back','crossOrigin','<i\x20class=\x22fas\x20fa-trash\x22></i>','TEXTAREA','fontSize','translate(','colorButton','left','<i\x20class=\x22fas\x20fa-plus\x22></i>','upgradeButton','...','promise','naturalHeight','webkitExitFullscreen','share-backdrop','Check\x20out\x20Teacher\x20Toybox!\x20A\x20free\x20interactive\x20digital\x20whiteboard\x20for\x20classrooms\x20with\x20fun\x20and\x20engaging\x20tools.','select','createObjectURL','Please\x20provide\x20a\x20rating\x20or\x20a\x20comment.','for-against-controls','100%','.pdf-page-info\x20span','fullscreenButton','\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20twitter\x22><i\x20class=\x22fab\x20fa-twitter\x22></i>\x20Twitter</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://www.linkedin.com/shareArticle?mini=true&url=','return\x20','<i\x20class=\x22fa-solid\x20fa-table-cells-large\x22></i>','src','clientY','rotate(','Sending...','countdown-running-controls','metaKey','PageDown','color-palette','pointerdown','push','content','win-sidebar','disconnect','slice','observe','die-container','operator','hasOwnProperty','tool','msExitFullscreen','is-dragging','&summary=','Send\x20to\x20Back\x20(PageDown)','transition','clientX','boxSizing','dice-controls','removeItem','Drawing\x20Canvas\x20(D)','<li><strong>','ceil','ttx_lang','sidebar','shhButton','forEach','querySelectorAll','carousel-container','initiateCheckout','https://formspree.io/f/xovloydp','Message\x20Sent!','moveTo','Snap\x20to\x20Vertical\x20Half\x20(8)','screenButton','icon-btn\x20upload-btn','ArrowLeft','paddingLeft','section','px,\x20','Window\x20Opacity','turnOffLaser','gap','color:\x20white;\x20font-weight:\x20700;\x20line-height:\x201;\x20position:\x20relative;\x20z-index:\x201;','.pdf-prev-btn','.info-content-wrapper','fa-compress','activeElement','mozFullScreenElement','activeInterval','custom-color-swatch','.for-against-panel\x20h2','requestFullscreen','close-feedback-btn','ArrowDown','replace','managementButton','center','anonymous','.floating.active-window','map','padding','bellSound','premium-feature','type','offsetLeft','resize','entries','lineCap','multiple','Copy\x20Link','getHours','countdown-selection-grid','split','long','<i\x20class=\x22fas\x20fa-play\x22></i>','execCommand','textContent','.buyme-button','contains','#30D5C8','close-btn','getUserMedia','tooltip','Math.log','logout','toggle','--danger-color','Photo\x20Carousel\x20(V)','border-box','autoplay','light','panel.contact.submitButtonSuccess','For','icon','.timer-reset-btn','10\x20min','I18N','splash-screen','carousel-placeholder','toolResizeObserver','get','Math.sin','#007AFF','annotation-canvas','devicePixelRatio','getMinutes','deg)','next','.floating[data-disables-hotkeys=\x22true\x22]','595152qtwbCw','keydown','#FF3B30','Enter','_title',':</strong>\x20','Snap\x20to\x20Horizontal\x20Half\x20(9)','no-grid','die','shift','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22drop-zone-inner\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22drop-zone-icon\x20fas\x20fa-upload\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22drop-zone-file-types\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-file-image\x22></i><i\x20class=\x22fas\x20fa-file-video\x22></i><i\x20class=\x22fas\x20fa-file-audio\x22></i><i\x20class=\x22fas\x20fa-file-pdf\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','feedback-comment','plus','replaceState','max','source','exitFullscreen','disabled','sin','createElementNS','fas\x20fa-plus','offsetY','#5AC8FA','seconds','.upload-btn','layout6Button','target','5\x20min','annotationContext','floating','stopwatch-display','getSeconds','drop','<i\x20class=\x22fas\x20fa-arrow-left\x22></i>','Backspace','.star-rating\x20.fa-regular.fa-star','timer-is-running','append','innerWidth','endsWith','application/pdf','layout3Button','nesw-resize','dark','Form\x20submission\x20failed','494808IPcgeG'];_0x189e=function(){return _0x1207e1;};return _0x189e();}const global=window;global['TT']=global['TT']||{},global['TT']['isPremium']=![],global['TT']['updateDateDisplay']=function(_0x18185b){const _0x56ef9e=_0x6c37,_0x15016b=document[_0x56ef9e(0x267)](_0x56ef9e(0x135));if(!_0x15016b)return;const _0x567d18=new Date(),_0x43aedd={'weekday':_0x56ef9e(0x1bd),'year':_0x56ef9e(0x2af),'month':_0x56ef9e(0x1bd),'day':'numeric'},_0x1893b4=new Intl[(_0x56ef9e(0x34b))](_0x18185b,_0x43aedd);_0x15016b[_0x56ef9e(0x1c0)]=_0x1893b4[_0x56ef9e(0x23e)](_0x567d18);},global['TT'][_0x21ca99(0x190)]=async()=>{const _0x16cc5a=_0x21ca99;try{const _0x4abf05=await auth0Client['getUser']();if(!_0x4abf05||!_0x4abf05['sub']||!_0x4abf05[_0x16cc5a(0x276)]){console[_0x16cc5a(0x221)](_0x16cc5a(0xd6)),alert(_0x16cc5a(0x11f));return;}const _0x32f0c8=Stripe(_0x16cc5a(0x2e1)),_0x537ecd=_0x16cc5a(0x2e9),_0x2f5b4c=await fetch(_0x16cc5a(0x355),{'method':'POST','headers':{'Content-Type':_0x16cc5a(0x106)},'body':JSON['stringify']({'userId':_0x4abf05[_0x16cc5a(0xef)],'priceId':_0x537ecd,'userEmail':_0x4abf05[_0x16cc5a(0x276)]})});if(!_0x2f5b4c['ok'])throw new Error('Failed\x20to\x20create\x20checkout\x20session.');const {sessionId:_0x16b46a}=await _0x2f5b4c[_0x16cc5a(0x2a3)]();await _0x32f0c8['redirectToCheckout']({'sessionId':_0x16b46a});}catch(_0xa8df9b){console[_0x16cc5a(0x221)]('Error\x20redirecting\x20to\x20checkout:',_0xa8df9b),alert(_0x16cc5a(0x2e0));}};function finalizePremiumAccess(){const _0x55070a=_0x21ca99,_0x3edddc=document[_0x55070a(0x343)](_0x55070a(0x36c));_0x3edddc['id']=_0x55070a(0x1d5),_0x3edddc[_0x55070a(0x109)][_0x55070a(0xfa)]='1',_0x3edddc[_0x55070a(0x109)][_0x55070a(0x182)]=_0x55070a(0x341),_0x3edddc[_0x55070a(0x317)]=_0x55070a(0xee),document[_0x55070a(0xe6)]['appendChild'](_0x3edddc),setTimeout(()=>{const _0x3a1836=_0x55070a;window['logout']?window[_0x3a1836(0x1c8)]():(console[_0x3a1836(0x221)](_0x3a1836(0x305)),location[_0x3a1836(0xd9)]());},0x1388);}document['addEventListener'](_0x21ca99(0x223),()=>{const _0x376907=_0x21ca99,_0x44ad7f=document['getElementById'](_0x376907(0x1d5));_0x44ad7f&&setTimeout(()=>{const _0x5e7c23=_0x376907;_0x44ad7f['style'][_0x5e7c23(0xfa)]='0',setTimeout(()=>_0x44ad7f[_0x5e7c23(0x2d4)](),0x1f4);},0x3e8);const _0x3a9588=_0x2f9a46=>document[_0x376907(0x267)](_0x2f9a46),_0x52c41e=_0x3a9588('upgrade-panel'),_0x4ee637=_0x3a9588(_0x376907(0x21e)),_0x6f4ba9=_0x3a9588(_0x376907(0x217)),_0x4eb2c7=_0x3a9588(_0x376907(0x2da)),_0x22c5c5=_0x3a9588(_0x376907(0x15a)),_0x4e5e1d=()=>{const _0x1a5407=_0x376907;_0x4ee637&&_0x52c41e&&(_0x4ee637[_0x1a5407(0x100)][_0x1a5407(0x2d4)]('hidden'),_0x52c41e[_0x1a5407(0x100)][_0x1a5407(0x2f9)](_0x1a5407(0x118)));},_0x447143=()=>{const _0x3f99cb=_0x376907;_0x4ee637&&_0x52c41e&&(_0x4ee637[_0x3f99cb(0x100)][_0x3f99cb(0x2f9)]('hidden'),_0x52c41e[_0x3f99cb(0x100)]['remove'](_0x3f99cb(0x118)));};if(_0x22c5c5)_0x22c5c5[_0x376907(0x2a9)]=_0x4e5e1d;if(_0x6f4ba9)_0x6f4ba9[_0x376907(0x2a9)]=_0x447143;if(_0x4ee637)_0x4ee637['onclick']=_0x447143;_0x4eb2c7&&(_0x4eb2c7[_0x376907(0x2a9)]=async()=>{const _0x34bb22=_0x376907;window['TT']&&window['TT'][_0x34bb22(0x2b9)]?window['TT']['initiateCheckout']():login(_0x34bb22(0x212));});const _0x3c22ed=document[_0x376907(0x267)](_0x376907(0x2ca));_0x3c22ed&&_0x3c22ed[_0x376907(0x11d)](_0x376907(0x30c),()=>{const _0x1cb0ec=_0x376907;document[_0x1cb0ec(0xe6)][_0x1cb0ec(0x100)]['toggle']('light-mode',_0x3c22ed[_0x1cb0ec(0x33c)]),localStorage[_0x1cb0ec(0x323)](_0x1cb0ec(0x2a7),_0x3c22ed[_0x1cb0ec(0x33c)]?_0x1cb0ec(0x1ce):_0x1cb0ec(0x20c));});const _0x1eca40=document[_0x376907(0x267)](_0x376907(0x167));if(_0x1eca40){_0x1eca40[_0x376907(0x11d)](_0x376907(0x102),()=>{const _0x1a8644=_0x376907,_0x4744ea=document['fullscreenElement']||document[_0x1a8644(0x20f)]||document[_0x1a8644(0x1a3)]||document[_0x1a8644(0x2a5)];if(!_0x4744ea){const _0x585b4a=document['documentElement'];if(_0x585b4a['requestFullscreen'])_0x585b4a[_0x1a8644(0x1a7)]();else{if(_0x585b4a[_0x1a8644(0x11c)])_0x585b4a[_0x1a8644(0x11c)]();else _0x585b4a['msRequestFullscreen']&&_0x585b4a[_0x1a8644(0x149)]();}}else{if(document[_0x1a8644(0x1f1)])document[_0x1a8644(0x1f1)]();else{if(document[_0x1a8644(0x15e)])document['webkitExitFullscreen']();else document[_0x1a8644(0x17e)]&&document[_0x1a8644(0x17e)]();}}}),document[_0x376907(0x11d)](_0x376907(0x143),_0x5103e4),document[_0x376907(0x11d)](_0x376907(0xda),_0x5103e4),document[_0x376907(0x11d)]('msfullscreenchange',_0x5103e4);function _0x5103e4(){const _0x301a13=_0x376907,_0x165d2f=_0x1eca40[_0x301a13(0x2f8)]('i'),_0x121864=document['fullscreenElement']||document['webkitFullscreenElement'];_0x121864?(_0x165d2f[_0x301a13(0x100)]['remove'](_0x301a13(0x288)),_0x165d2f[_0x301a13(0x100)][_0x301a13(0x2f9)](_0x301a13(0x1a1))):(_0x165d2f[_0x301a13(0x100)][_0x301a13(0x2d4)](_0x301a13(0x1a1)),_0x165d2f[_0x301a13(0x100)][_0x301a13(0x2f9)]('fa-expand'));}}const _0x20afe4=()=>_0x3a9588(_0x376907(0x18b))[_0x376907(0x275)];let _0x2161c7=window['innerWidth'],_0x31fecc=window[_0x376907(0xd7)];const _0x444aab=_0x3a9588(_0x376907(0x258)),_0x519d6d=_0x3a9588('digital-clock-bar'),_0x2fd5e4=document['querySelector'](_0x376907(0x28c)),_0x42038c=document['querySelector'](_0x376907(0x11b)),_0x220bc7=document['querySelector'](_0x376907(0x14a));function _0x2f9ee5(){const _0x453284=_0x376907,_0x4b7e9a=new Date(),_0x3b7541=_0x4b7e9a[_0x453284(0x200)](),_0x404dc9=_0x4b7e9a[_0x453284(0x1dd)](),_0x48020c=_0x4b7e9a[_0x453284(0x1ba)](),_0x5164c4=_0x3b7541/0x3c*0x168,_0x3d7f23=_0x404dc9/0x3c*0x168+_0x3b7541/0x3c*0x6,_0x431906=_0x48020c/0xc*0x168+_0x404dc9/0x3c*0x1e;_0x2fd5e4&&_0x42038c&&_0x220bc7&&(_0x5164c4<0x1?_0x220bc7[_0x453284(0x109)][_0x453284(0x182)]=_0x453284(0x341):_0x220bc7[_0x453284(0x109)]['transition']='',_0x220bc7['style'][_0x453284(0x2a8)]=_0x453284(0x16d)+_0x5164c4+_0x453284(0x1de),_0x42038c[_0x453284(0x109)]['transform']=_0x453284(0x16d)+_0x3d7f23+'deg)',_0x2fd5e4['style']['transform']=_0x453284(0x16d)+_0x431906+'deg)');if(_0x519d6d){const _0x570619=String(_0x48020c)[_0x453284(0x116)](0x2,'0'),_0x3a16ae=String(_0x404dc9)[_0x453284(0x116)](0x2,'0'),_0xd51c70=String(_0x3b7541)[_0x453284(0x116)](0x2,'0');_0x519d6d[_0x453284(0x1c0)]=_0x570619+':'+_0x3a16ae+':'+_0xd51c70;}}_0x444aab&&(_0x444aab['addEventListener'](_0x376907(0x102),()=>{const _0x1fdd97=_0x376907;_0x444aab['classList'][_0x1fdd97(0x1c9)](_0x1fdd97(0x30d)),_0x519d6d[_0x1fdd97(0x100)]['toggle'](_0x1fdd97(0x118));}),_0x519d6d&&_0x519d6d[_0x376907(0x11d)]('mouseenter',()=>{const _0x5342ae=_0x376907;_0x444aab['classList'][_0x5342ae(0x2d4)]('active'),_0x519d6d[_0x5342ae(0x100)][_0x5342ae(0x2d4)](_0x5342ae(0x118));}),_0x2f9ee5(),setInterval(_0x2f9ee5,0x3e8));const _0x585b6e=_0x3a9588('date-display');if(_0x585b6e){const _0x1309c1=()=>{const _0x31d669=_0x376907,_0x57e8f8=document[_0x31d669(0x2f8)](_0x31d669(0x2d0));_0x585b6e[_0x31d669(0x100)][_0x31d669(0x1c2)](_0x31d669(0x2f0))&&_0x585b6e['classList']['remove'](_0x31d669(0x2f0)),_0x57e8f8&&(_0x57e8f8['style'][_0x31d669(0xfa)]='0',setTimeout(()=>_0x57e8f8['remove'](),0x190));},_0x4a8b3b=()=>{const _0x554087=_0x376907;if(!_0x585b6e[_0x554087(0x100)][_0x554087(0x1c2)]('date-enlarged')){_0x585b6e[_0x554087(0x100)][_0x554087(0x2f9)](_0x554087(0x2f0));const _0x5f3738=document[_0x554087(0x343)]('div');_0x5f3738['className']=_0x554087(0x36a),_0x5f3738['addEventListener']('click',_0x1309c1),document[_0x554087(0xe6)][_0x554087(0x2b6)](_0x5f3738),setTimeout(()=>_0x5f3738['style'][_0x554087(0xfa)]='1',0xa);}};_0x585b6e[_0x376907(0x11d)](_0x376907(0x102),()=>{const _0x12c777=_0x376907;_0x585b6e['classList'][_0x12c777(0x1c2)](_0x12c777(0x2f0))?_0x1309c1():_0x4a8b3b();});}const _0x4712d8=_0x376907(0x2fe),_0x48c2b6=document[_0x376907(0x343)](_0x376907(0x109));_0x48c2b6[_0x376907(0x13f)]=_0x4712d8,document[_0x376907(0x21c)]['appendChild'](_0x48c2b6);let _0x4b9251=!![],_0x53f35d={'activeLayout':null,'isVisible':!![]};const _0x4e5b0e=0x14,_0x21a8a6=getComputedStyle(document[_0x376907(0x12f)])[_0x376907(0x324)](_0x376907(0x316))['trim']();let _0x456ba7=0x0;window[_0x376907(0x11d)]('dragenter',_0x5e07ad=>{const _0xd722a3=_0x376907;_0x5e07ad['dataTransfer'][_0xd722a3(0x321)][_0xd722a3(0x238)]('Files')&&(_0x5e07ad['preventDefault'](),_0x456ba7++,document[_0xd722a3(0xe6)][_0xd722a3(0x100)]['add'](_0xd722a3(0x17f)));}),window[_0x376907(0x11d)](_0x376907(0x34d),_0xaa328d=>{const _0xead2b1=_0x376907;_0xaa328d[_0xead2b1(0x2e8)][_0xead2b1(0x321)][_0xead2b1(0x238)](_0xead2b1(0x121))&&(_0xaa328d['preventDefault'](),_0x456ba7--,_0x456ba7===0x0&&document['body']['classList'][_0xead2b1(0x2d4)]('is-dragging'));}),window[_0x376907(0x11d)](_0x376907(0x201),_0x3868bb=>{const _0x3bb9fe=_0x376907;_0x3868bb[_0x3bb9fe(0x232)](),_0x456ba7=0x0,document[_0x3bb9fe(0xe6)]['classList'][_0x3bb9fe(0x2d4)](_0x3bb9fe(0x17f));});function _0x47b3b8(){const _0x5de598=_0x376907;if(_0x53f35d[_0x5de598(0x227)]===_0x5de598(0x2ea))return _0xab6f7a(),_0x53f35d[_0x5de598(0x227)]=null,!![];return![];}function _0x11f405(_0x523719){const _0x33f5b0=_0x376907,_0x33332d=document[_0x33f5b0(0x343)](_0x33f5b0(0x36c));_0x33332d[_0x33f5b0(0x364)]='overlay-number',_0x33332d[_0x33f5b0(0x1c0)]=_0x523719,document['body'][_0x33f5b0(0x2b6)](_0x33332d),setTimeout(()=>{const _0x54de05=_0x33f5b0;_0x33332d[_0x54de05(0x109)][_0x54de05(0xfa)]=0x0,_0x33332d[_0x54de05(0x109)][_0x54de05(0x2a8)]='translate(-50%,\x20-50%)\x20scale(1.5)';},0xa),setTimeout(()=>_0x33332d['remove'](),0x7d0);}function _0xab6f7a(){const _0x397098=_0x376907;document[_0x397098(0x18e)](_0x397098(0x358))[_0x397098(0x18d)](_0x45d0e6=>{const _0x47734b=_0x397098;_0x1f3463(_0x45d0e6),_0x45d0e6[_0x47734b(0x2d4)]();});}function _0x164b4e(_0x43c6a8){const _0x3d9be6=_0x376907;document[_0x3d9be6(0x18e)]('.floating.active-window')[_0x3d9be6(0x18d)](_0x26a86a=>{const _0x1adb8f=_0x3d9be6;_0x26a86a[_0x1adb8f(0x100)][_0x1adb8f(0x2d4)](_0x1adb8f(0xe7)),_0x26a86a['style'][_0x1adb8f(0x36d)]=0x3e8;}),_0x43c6a8&&(_0x43c6a8['classList'][_0x3d9be6(0x2f9)](_0x3d9be6(0xe7)),_0x43c6a8['style'][_0x3d9be6(0x36d)]=0x3e9);}function _0x1f3463(_0x1c1f32){const _0x5aa587=_0x376907;if(!_0x1c1f32)return;const _0x358232=_0x1c1f32[_0x5aa587(0x2f8)](_0x5aa587(0x2cd));_0x358232&&_0x358232['remove']();const _0x154449=_0x1c1f32[_0x5aa587(0x2f8)]('.drag-bar\x20.tool-controls');_0x154449&&(_0x154449[_0x5aa587(0x109)][_0x5aa587(0x2de)]=_0x5aa587(0x252)),_0x1c1f32['removeAttribute'](_0x5aa587(0x22c)),_0x1c1f32[_0x5aa587(0x1a4)]&&(clearInterval(_0x1c1f32['activeInterval']),_0x1c1f32[_0x5aa587(0x1a4)]=null),_0x1c1f32['toolResizeObserver']&&(_0x1c1f32[_0x5aa587(0x1d7)][_0x5aa587(0x177)](),_0x1c1f32[_0x5aa587(0x1d7)]=null),_0x1c1f32['annotationResizeObserver']&&(_0x1c1f32[_0x5aa587(0x225)][_0x5aa587(0x177)](),_0x1c1f32['annotationResizeObserver']=null);}function _0x57810a(_0x3df2be,_0x2aa31a,_0x193d31){const _0x42ff76=_0x376907;if(!_0x3df2be||!_0x2aa31a||!_0x193d31)return;_0x193d31[_0x42ff76(0x21a)]>0x14&&_0x193d31['shift'](),_0x193d31[_0x42ff76(0x174)](_0x2aa31a[_0x42ff76(0x12d)](0x0,0x0,_0x3df2be['width'],_0x3df2be[_0x42ff76(0x337)]));}function _0x4c9836(_0x1b359b,_0x16f2ea){const _0x1eb2cf=_0x376907;if(!_0x16f2ea)return;_0x1f3463(_0x1b359b);const _0xda5e3c=_0x1b359b['querySelector'](_0x1eb2cf(0x336));if(!_0xda5e3c)return;_0xda5e3c[_0x1eb2cf(0x317)]='';const _0x5f3a1b=URL[_0x1eb2cf(0x162)](_0x16f2ea),_0x2e0b70=document[_0x1eb2cf(0x343)]('div');_0x2e0b70[_0x1eb2cf(0x364)]='content-fill';if(_0x16f2ea[_0x1eb2cf(0x1b3)]===_0x1eb2cf(0x209)){_0x1b359b[_0x1eb2cf(0xf2)][_0x1eb2cf(0x17d)]='pdf',_0xda5e3c[_0x1eb2cf(0x109)]['padding']='0',_0xda5e3c['innerHTML']=_0x1eb2cf(0x122);const _0x752d9f=_0xda5e3c[_0x1eb2cf(0x2f8)]('canvas'),_0x5b9830=_0xda5e3c[_0x1eb2cf(0x2f8)](_0x1eb2cf(0xe8)),_0x51747c=_0xda5e3c[_0x1eb2cf(0x2f8)](_0x1eb2cf(0x19f)),_0x5b4b1f=_0xda5e3c[_0x1eb2cf(0x2f8)](_0x1eb2cf(0x22f)),_0x3ef7a2=_0xda5e3c['querySelector']('.pdf-page-input'),_0x1c0044=_0xda5e3c[_0x1eb2cf(0x2f8)](_0x1eb2cf(0x23c)),_0x3b4a2f=_0xda5e3c['querySelector'](_0x1eb2cf(0x166));let _0x5538d2=null,_0x11440e=0x1;const _0x2bf1a4=_0x334f53=>{const _0x4b88c8=_0x1eb2cf;if(!_0x5538d2)return;_0x11440e=_0x334f53,_0x5538d2[_0x4b88c8(0x263)](_0x334f53)[_0x4b88c8(0x2cb)](_0xf8181c=>{const _0x25f07c=_0x4b88c8,_0x58ea4e=window[_0x25f07c(0x1dc)]||0x1,_0x3f97b5=_0xf8181c[_0x25f07c(0x296)]({'scale':0x1}),_0x25ded7=_0x752d9f[_0x25f07c(0x2ff)]('2d'),_0x5b671c=_0x5b9830[_0x25f07c(0x234)]/_0x3f97b5[_0x25f07c(0x300)],_0xa8ed8a=_0xf8181c[_0x25f07c(0x296)]({'scale':_0x5b671c*_0x58ea4e});_0x752d9f[_0x25f07c(0x337)]=_0xa8ed8a[_0x25f07c(0x337)],_0x752d9f['width']=_0xa8ed8a[_0x25f07c(0x300)],_0x752d9f[_0x25f07c(0x109)][_0x25f07c(0x337)]=_0xa8ed8a[_0x25f07c(0x337)]/_0x58ea4e+'px',_0x752d9f[_0x25f07c(0x109)][_0x25f07c(0x300)]=_0xa8ed8a[_0x25f07c(0x300)]/_0x58ea4e+'px';const _0x9dc325={'canvasContext':_0x25ded7,'viewport':_0xa8ed8a};_0xf8181c['render'](_0x9dc325);}),_0x3ef7a2[_0x4b88c8(0x23a)]=_0x334f53,_0x51747c[_0x4b88c8(0x1f2)]=_0x334f53<=0x1,_0x5b4b1f[_0x4b88c8(0x1f2)]=_0x334f53>=_0x5538d2[_0x4b88c8(0x33f)];},_0x39e024=_0x51420d=>{const _0x18e1ec=_0x1eb2cf;if(_0x51420d===_0x18e1ec(0x262)&&_0x11440e>0x1)_0x2bf1a4(_0x11440e-0x1);else _0x51420d===_0x18e1ec(0x1df)&&_0x11440e<_0x5538d2[_0x18e1ec(0x33f)]&&_0x2bf1a4(_0x11440e+0x1);},_0x42b513=()=>{const _0x453787=_0x1eb2cf,_0xf69a0f=parseInt(_0x3ef7a2[_0x453787(0x23a)],0xa);_0xf69a0f>=0x1&&_0xf69a0f<=_0x5538d2[_0x453787(0x33f)]?_0x2bf1a4(_0xf69a0f):_0x3ef7a2[_0x453787(0x23a)]=_0x11440e;};_0x51747c[_0x1eb2cf(0x2a9)]=()=>_0x39e024(_0x1eb2cf(0x262)),_0x5b4b1f['onclick']=()=>_0x39e024('next'),_0x1c0044[_0x1eb2cf(0x2a9)]=_0x42b513,_0x3ef7a2[_0x1eb2cf(0x11d)](_0x1eb2cf(0x1e2),_0x3cf7ed=>{const _0x47cfc2=_0x1eb2cf;if(_0x3cf7ed['key']===_0x47cfc2(0x1e4))_0x42b513();});const _0x387083=new FileReader();_0x387083['onload']=function(){const _0x1d47e5=_0x1eb2cf,_0x2737a2=new Uint8Array(this[_0x1d47e5(0xff)]);pdfjsLib[_0x1d47e5(0x11a)](_0x2737a2)[_0x1d47e5(0x15c)]['then'](_0x3817e9=>{const _0x35870a=_0x1d47e5;_0x5538d2=_0x3817e9,_0x3b4a2f['textContent']='/\x20'+_0x5538d2[_0x35870a(0x33f)],_0x3ef7a2[_0x35870a(0x1ef)]=_0x5538d2[_0x35870a(0x33f)],_0x2bf1a4(0x1);});},_0x387083[_0x1eb2cf(0x269)](_0x16f2ea);const _0x48576c=new ResizeObserver(()=>{if(_0x5538d2)_0x2bf1a4(_0x11440e);});_0x1b359b['toolResizeObserver']=_0x48576c,_0x48576c[_0x1eb2cf(0x179)](_0x5b9830);}else{if(_0x16f2ea['type'][_0x1eb2cf(0xf8)]('image/')){const _0x14d254=document[_0x1eb2cf(0x343)](_0x1eb2cf(0x25c));_0x14d254[_0x1eb2cf(0x16b)]=_0x5f3a1b,_0x14d254['style'][_0x1eb2cf(0x27c)]=_0x1eb2cf(0x2bf),_0x14d254[_0x1eb2cf(0x152)]=_0x1eb2cf(0x1ad),_0x2e0b70[_0x1eb2cf(0x2b6)](_0x14d254),_0xda5e3c[_0x1eb2cf(0x2b6)](_0x2e0b70);}else{if(_0x16f2ea['type'][_0x1eb2cf(0xf8)]('video/')){const _0x1b3b62=document[_0x1eb2cf(0x343)](_0x1eb2cf(0x2fb));_0x1b3b62['src']=_0x5f3a1b,_0x1b3b62[_0x1eb2cf(0x2ee)]=!![],_0x1b3b62[_0x1eb2cf(0x1cd)]=!![],_0x2e0b70['appendChild'](_0x1b3b62),_0xda5e3c[_0x1eb2cf(0x2b6)](_0x2e0b70);}else{if(_0x16f2ea[_0x1eb2cf(0x1b3)][_0x1eb2cf(0xf8)](_0x1eb2cf(0x2dd))){const _0x150213=document[_0x1eb2cf(0x343)](_0x1eb2cf(0x215));_0x150213['src']=_0x5f3a1b,_0x150213['controls']=!![],_0x150213[_0x1eb2cf(0x1cd)]=!![],_0x2e0b70[_0x1eb2cf(0x2b6)](_0x150213),_0xda5e3c[_0x1eb2cf(0x109)][_0x1eb2cf(0x2de)]=_0x1eb2cf(0x252),_0xda5e3c[_0x1eb2cf(0x109)][_0x1eb2cf(0x36f)]='center',_0xda5e3c['style']['justifyContent']=_0x1eb2cf(0x1ac),_0xda5e3c[_0x1eb2cf(0x2b6)](_0x2e0b70);}else _0x16f2ea[_0x1eb2cf(0x271)][_0x1eb2cf(0x293)]()['endsWith'](_0x1eb2cf(0x144))||_0x16f2ea[_0x1eb2cf(0x271)][_0x1eb2cf(0x293)]()[_0x1eb2cf(0x208)](_0x1eb2cf(0x298))?(_0x2e0b70['innerHTML']=_0x1eb2cf(0x24a),_0xda5e3c[_0x1eb2cf(0x2b6)](_0x2e0b70)):(_0xda5e3c[_0x1eb2cf(0x109)][_0x1eb2cf(0x2de)]=_0x1eb2cf(0x252),_0xda5e3c[_0x1eb2cf(0x109)][_0x1eb2cf(0x36f)]='center',_0xda5e3c[_0x1eb2cf(0x109)]['justifyContent']=_0x1eb2cf(0x1ac),_0xda5e3c[_0x1eb2cf(0x317)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20color:\x20var(--text-secondary);\x20padding:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>Oops!</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>That\x20file\x20type\x20isn’t\x20supported.<br>Try\x20another\x20format.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',setTimeout(()=>{const _0x4586ab=_0x1eb2cf;if(_0x1b359b&&_0x1b359b[_0x4586ab(0x14d)]){_0xda5e3c[_0x4586ab(0x317)]='';const _0x23085b=document[_0x4586ab(0x343)](_0x4586ab(0x36c));_0x23085b[_0x4586ab(0x364)]=_0x4586ab(0x138),_0x23085b[_0x4586ab(0x317)]=_0x4586ab(0x1eb),_0xda5e3c[_0x4586ab(0x2b6)](_0x23085b);}},0x7d0));}}}}function _0x3f38ea(_0x51ad07){const _0x4d3e49=_0x376907;_0x51ad07[_0x4d3e49(0x232)](),_0x4c9836(this,_0x51ad07['dataTransfer'][_0x4d3e49(0x237)][0x0]);}function _0x335fdc(_0x32ffd8){_0xab6f7a(),_0x32ffd8['forEach'](_0x1573ec=>{const _0x5be110=_0x6c37,_0x304ccb=_0x1bce1e();_0x304ccb[_0x5be110(0x109)][_0x5be110(0x158)]=_0x1573ec[_0x5be110(0x158)],_0x304ccb[_0x5be110(0x109)][_0x5be110(0x2e3)]=_0x1573ec[_0x5be110(0x2e3)],_0x304ccb[_0x5be110(0x109)][_0x5be110(0x300)]=_0x1573ec[_0x5be110(0x300)],_0x304ccb[_0x5be110(0x109)][_0x5be110(0x337)]=_0x1573ec[_0x5be110(0x337)];});}function _0x3d9c3d(_0x56de75){const _0x169741=_0x376907;if(_0x56de75['querySelector'](_0x169741(0x2cd)))return;const _0x4cb92b=_0x56de75[_0x169741(0x2f8)](_0x169741(0x336));if(!_0x4cb92b)return;_0x1f3463(_0x56de75),_0x4cb92b['innerHTML']='',_0x4cb92b[_0x169741(0x109)][_0x169741(0x1b0)]='0',_0x4cb92b['style'][_0x169741(0x2de)]=_0x169741(0x252),_0x4cb92b['style'][_0x169741(0x25b)]=_0x169741(0x342),_0x56de75[_0x169741(0xf2)]['tool']='draw';const _0x1561e8=_0x56de75[_0x169741(0x2f8)](_0x169741(0xec));_0x1561e8&&(_0x1561e8[_0x169741(0x109)][_0x169741(0x2de)]='none');const _0x5a2852=document[_0x169741(0x343)](_0x169741(0x33b)),_0x49b791=document[_0x169741(0x343)](_0x169741(0x36c));_0x49b791[_0x169741(0x364)]=_0x169741(0xcf),_0x49b791[_0x169741(0x109)][_0x169741(0x145)]='relative',_0x49b791['appendChild'](_0x5a2852);const _0x36d424=_0x5a2852[_0x169741(0x2ff)]('2d');let _0x38521c=![];const _0x2a2167=[];function _0x136aac(){const _0x3d834d=_0x169741;if(_0x2a2167[_0x3d834d(0x21a)]>0x1e)_0x2a2167[_0x3d834d(0x1ea)]();_0x2a2167[_0x3d834d(0x174)](_0x36d424[_0x3d834d(0x12d)](0x0,0x0,_0x5a2852[_0x3d834d(0x300)],_0x5a2852[_0x3d834d(0x337)]));}const _0x3433da=new ResizeObserver(()=>{const _0x1f4fe1=_0x169741,_0xd9e4b6=_0x2a2167[_0x1f4fe1(0x21a)]>0x0?_0x2a2167[_0x2a2167[_0x1f4fe1(0x21a)]-0x1]:null;_0x5a2852[_0x1f4fe1(0x300)]=_0x49b791[_0x1f4fe1(0x234)],_0x5a2852['height']=_0x49b791['clientHeight'];if(_0xd9e4b6)_0x36d424[_0x1f4fe1(0x304)](_0xd9e4b6,0x0,0x0);_0x36d424[_0x1f4fe1(0x1b7)]='round',_0x36d424[_0x1f4fe1(0x328)]=_0x1db07b[_0x1f4fe1(0x2f8)]('.color-swatch.active')?.[_0x1f4fe1(0x109)]['backgroundColor']||_0x1f4fe1(0x2ed),_0x36d424['lineWidth']=_0x21bb0b[_0x1f4fe1(0x23a)];});_0x56de75[_0x169741(0x1d7)]=_0x3433da,_0x3433da[_0x169741(0x179)](_0x49b791),_0x5a2852[_0x169741(0x109)][_0x169741(0xf4)]=_0x169741(0x210),_0x5a2852[_0x169741(0x109)]['width']='100%',_0x5a2852[_0x169741(0x109)][_0x169741(0x337)]=_0x169741(0x165),_0x5a2852[_0x169741(0x11d)](_0x169741(0x173),_0x4cfd9b=>{const _0x194565=_0x169741;_0x38521c=!![],_0x136aac(),_0x36d424[_0x194565(0x10c)](),_0x36d424[_0x194565(0x193)](_0x4cfd9b[_0x194565(0x220)],_0x4cfd9b['offsetY']);}),_0x5a2852[_0x169741(0x11d)](_0x169741(0x367),_0x3db73d=>{const _0x3d432e=_0x169741;_0x38521c&&(_0x36d424[_0x3d432e(0x273)](_0x3db73d[_0x3d432e(0x220)],_0x3db73d[_0x3d432e(0x1f6)]),_0x36d424[_0x3d432e(0x230)]());}),_0x5a2852[_0x169741(0x11d)](_0x169741(0x2c3),()=>_0x38521c=![]);const _0x1db07b=document[_0x169741(0x343)](_0x169741(0x36c));_0x1db07b[_0x169741(0x364)]=_0x169741(0x2cf);const _0x14483e=[];[_0x169741(0x2ed),_0x169741(0x1e3),_0x169741(0xdc),'#FFCC00','#34C759',_0x169741(0x1da),'#AF52DE']['forEach'](_0x258034=>{const _0x1ecbf1=_0x169741,_0x1cd5b4=document[_0x1ecbf1(0x343)]('div');_0x1cd5b4['className']=_0x1ecbf1(0x2eb),_0x1cd5b4[_0x1ecbf1(0x109)][_0x1ecbf1(0x25e)]=_0x258034,_0x1cd5b4['onclick']=()=>{const _0x215aab=_0x1ecbf1;_0x36d424['strokeStyle']=_0x258034,_0x1db07b['querySelector'](_0x215aab(0x101))?.['classList']['remove']('active'),_0x1cd5b4[_0x215aab(0x100)]['add']('active');},_0x14483e['push'](_0x1cd5b4);});const _0x21bb0b=document[_0x169741(0x343)](_0x169741(0xd0));_0x21bb0b[_0x169741(0x1b3)]=_0x169741(0x239),_0x21bb0b[_0x169741(0x307)]=0x1,_0x21bb0b[_0x169741(0x1ef)]=0x32,_0x21bb0b['value']=0x5,_0x21bb0b[_0x169741(0x109)]['width']='80px',_0x21bb0b[_0x169741(0x241)]=_0x38c4d3=>{const _0x2a6470=_0x169741;_0x36d424[_0x2a6470(0x10b)]=_0x38c4d3[_0x2a6470(0x1fb)][_0x2a6470(0x23a)];};const _0x29f5ab=document['createElement'](_0x169741(0x2e2));_0x29f5ab[_0x169741(0x317)]=_0x169741(0x362),_0x29f5ab[_0x169741(0x2a9)]=()=>{const _0x3c6b02=_0x169741;if(_0x2a2167[_0x3c6b02(0x21a)]>0x0)_0x36d424['putImageData'](_0x2a2167[_0x3c6b02(0x111)](),0x0,0x0);};const _0x3b87de=document['createElement']('button');_0x3b87de['innerHTML']=_0x169741(0x153),_0x3b87de[_0x169741(0x2a9)]=()=>{const _0x1cb0b8=_0x169741;_0x36d424[_0x1cb0b8(0x228)](0x0,0x0,_0x5a2852['width'],_0x5a2852[_0x1cb0b8(0x337)]),_0x2a2167['length']=0x0;},_0x1db07b[_0x169741(0x206)](_0x21bb0b,..._0x14483e,_0x29f5ab,_0x3b87de),_0x4cb92b[_0x169741(0x206)](_0x1db07b,_0x49b791),_0x36d424['strokeStyle']=_0x169741(0x2ed),_0x14483e[0x0]['classList'][_0x169741(0x2f9)](_0x169741(0x30d));}function _0x55c855(_0x392bf8){const _0x653b85=_0x376907,_0xe6838=_0x392bf8['querySelector']('.win-main-area');if(!_0xe6838)return;_0xe6838['innerHTML']='',_0xe6838['style']['padding']='0',navigator['mediaDevices'][_0x653b85(0x1c5)]({'video':!![]})[_0x653b85(0x2cb)](_0x24acb9=>{const _0x1a6da2=_0x653b85,_0x39e233=document['createElement'](_0x1a6da2(0x2fb));_0x39e233[_0x1a6da2(0x366)]=_0x24acb9,_0x39e233[_0x1a6da2(0x1cd)]=!![],_0x39e233['muted']=!![],_0x39e233['style'][_0x1a6da2(0x300)]=_0x1a6da2(0x165),_0x39e233[_0x1a6da2(0x109)][_0x1a6da2(0x337)]=_0x1a6da2(0x165),_0x39e233[_0x1a6da2(0x109)]['objectFit']=_0x1a6da2(0xe9),_0xe6838[_0x1a6da2(0x2b6)](_0x39e233);})[_0x653b85(0x322)](_0x299192=>{const _0x4bcfd=_0x653b85;_0xe6838[_0x4bcfd(0x1c0)]=_0x4bcfd(0x216),console['error'](_0x299192);});}function _0x1b69c8(_0x31ea3d){const _0x2d2949=_0x376907,_0x5b528e=_0x31ea3d[_0x2d2949(0x2f8)](_0x2d2949(0x336));if(!_0x5b528e)return;function _0x542fbf(_0x329249){const _0x2704bf=_0x2d2949;_0x5b528e[_0x2704bf(0x317)]='',_0x5b528e[_0x2704bf(0x109)][_0x2704bf(0x1b0)]='0',_0x5b528e[_0x2704bf(0x109)]['display']='flex',_0x5b528e[_0x2704bf(0x109)][_0x2704bf(0x25b)]=_0x2704bf(0x342),_0x31ea3d[_0x2704bf(0x100)][_0x2704bf(0x2f9)](_0x2704bf(0x205));let _0x5dc054=_0x329249,_0x19e247=![],_0x4e5f61;const _0x54d7b1=document[_0x2704bf(0x343)](_0x2704bf(0x36c));_0x54d7b1[_0x2704bf(0x109)][_0x2704bf(0x351)]=_0x2704bf(0x2e7);const _0x3b65a1=_0x2704bf(0x2b0),_0x1171fa=document[_0x2704bf(0x1f4)](_0x3b65a1,_0x2704bf(0x278));_0x1171fa[_0x2704bf(0x109)][_0x2704bf(0x145)]=_0x2704bf(0x30a),_0x1171fa[_0x2704bf(0x109)][_0x2704bf(0x300)]=_0x2704bf(0x264),_0x1171fa[_0x2704bf(0x109)][_0x2704bf(0x337)]=_0x2704bf(0x264),_0x1171fa[_0x2704bf(0x302)]('viewBox',_0x2704bf(0x344));const _0x4b0112=document[_0x2704bf(0x1f4)](_0x3b65a1,_0x2704bf(0x13e));_0x4b0112['setAttribute']('cx','50'),_0x4b0112[_0x2704bf(0x302)]('cy','50'),_0x4b0112[_0x2704bf(0x302)]('r','45'),_0x4b0112[_0x2704bf(0x302)](_0x2704bf(0x230),_0x2704bf(0x150)),_0x4b0112[_0x2704bf(0x302)](_0x2704bf(0x363),'5'),_0x4b0112['setAttribute'](_0x2704bf(0x340),_0x2704bf(0x310));const _0x418f48=document[_0x2704bf(0x1f4)](_0x3b65a1,'circle');_0x418f48['setAttribute']('cx','50'),_0x418f48['setAttribute']('cy','50'),_0x418f48['setAttribute']('r','45'),_0x418f48[_0x2704bf(0x302)]('stroke',getComputedStyle(document['documentElement'])[_0x2704bf(0x324)](_0x2704bf(0x316))[_0x2704bf(0x2c1)]()),_0x418f48['setAttribute'](_0x2704bf(0x363),'5'),_0x418f48[_0x2704bf(0x302)](_0x2704bf(0x340),_0x2704bf(0x310)),_0x418f48[_0x2704bf(0x109)]['transformOrigin']='center',_0x418f48[_0x2704bf(0x109)][_0x2704bf(0x2a8)]=_0x2704bf(0x124);const _0x29f9dd=0x2d,_0x22258c=0x2*Math['PI']*_0x29f9dd;_0x418f48[_0x2704bf(0x302)](_0x2704bf(0x334),_0x22258c),_0x418f48[_0x2704bf(0x302)](_0x2704bf(0x365),0x0),_0x418f48[_0x2704bf(0x109)][_0x2704bf(0x182)]=_0x2704bf(0x2a6),_0x1171fa[_0x2704bf(0x206)](_0x4b0112,_0x418f48),_0x54d7b1['appendChild'](_0x1171fa);const _0x5ceab7=document[_0x2704bf(0x343)](_0x2704bf(0x36c));_0x5ceab7[_0x2704bf(0x109)][_0x2704bf(0x351)]=_0x2704bf(0x19e),_0x54d7b1[_0x2704bf(0x2b6)](_0x5ceab7),_0x5b528e['appendChild'](_0x54d7b1);const _0x5a5264=_0x26d0d2=>{const _0xd0941b=_0x2704bf,_0xa71966=_0x26d0d2/_0x329249,_0x29de87=_0x22258c*(0x1-_0xa71966);_0x418f48[_0xd0941b(0x302)](_0xd0941b(0x365),_0x29de87);if(_0x26d0d2<0x0)_0x26d0d2=0x0;if(_0x26d0d2<0x3c)_0x5ceab7[_0xd0941b(0x1c0)]=String(_0x26d0d2)[_0xd0941b(0x116)](0x2,'0');else{const _0xb5d625=Math[_0xd0941b(0x10e)](_0x26d0d2/0x3c),_0x18168c=String(_0x26d0d2%0x3c)[_0xd0941b(0x116)](0x2,'0'),_0x3917a3=_0xb5d625>0x0&&_0xb5d625<0xa?String(_0xb5d625):String(_0xb5d625)['padStart'](0x2,'0');_0x5ceab7[_0xd0941b(0x1c0)]=_0x3917a3+':'+_0x18168c;}_0x569c72();},_0x569c72=()=>{const _0x56a1b7=_0x2704bf,_0x1528f4=_0x5ceab7[_0x56a1b7(0x1c0)][_0x56a1b7(0x21a)]>0x2?4.4:2.2,_0x179d69=_0x54d7b1['clientWidth']/_0x1528f4;_0x5ceab7[_0x56a1b7(0x109)]['fontSize']=_0x179d69+'px';},_0x152483=new ResizeObserver(_0x569c72);_0x31ea3d[_0x2704bf(0x1d7)]=_0x152483,_0x152483[_0x2704bf(0x179)](_0x54d7b1);function _0x2440ab(){const _0x263324=_0x2704bf,_0x110263=Math[_0x263324(0x22a)]((_0x4e5f61-Date[_0x263324(0x23b)]())/0x3e8);_0x5dc054=_0x110263,_0x5a5264(_0x110263),_0x110263<=0x0&&(_0x3a9588('bellSound')['play'](),_0x1f3463(_0x31ea3d),_0x1b69c8(_0x31ea3d));}const _0x50ced2=document[_0x2704bf(0x343)](_0x2704bf(0x36c));_0x50ced2[_0x2704bf(0x364)]=_0x2704bf(0x16f);const _0x29126a=document['createElement']('button');_0x29126a['className']=_0x2704bf(0x2b7),_0x29126a[_0x2704bf(0x29f)]=_0x2704bf(0x26f),_0x29126a[_0x2704bf(0x317)]='<i\x20class=\x22fas\x20fa-play\x22></i>',_0x29126a[_0x2704bf(0x109)][_0x2704bf(0x25e)]=_0x2704bf(0x128),_0x29126a[_0x2704bf(0x2a9)]=()=>{const _0x4e2787=_0x2704bf;_0x19e247=!_0x19e247,_0x19e247?(_0x4e5f61=Date[_0x4e2787(0x23b)]()+_0x5dc054*0x3e8,_0x31ea3d[_0x4e2787(0x1a4)]=setInterval(_0x2440ab,0x3e8),_0x2440ab(),_0x29126a['innerHTML']='<i\x20class=\x22fas\x20fa-pause\x22></i>'):(clearInterval(_0x31ea3d[_0x4e2787(0x1a4)]),_0x31ea3d['activeInterval']=null,_0x29126a[_0x4e2787(0x317)]=_0x4e2787(0x1be));};const _0x4933b3=document[_0x2704bf(0x343)](_0x2704bf(0x2e2));_0x4933b3[_0x2704bf(0x364)]=_0x2704bf(0x130),_0x4933b3[_0x2704bf(0x29f)]=_0x2704bf(0x21f),_0x4933b3[_0x2704bf(0x317)]=_0x2704bf(0x308),_0x4933b3[_0x2704bf(0x109)]['backgroundColor']=_0x2704bf(0x28d),_0x4933b3['onclick']=()=>{_0x1f3463(_0x31ea3d),_0x1b69c8(_0x31ea3d);},_0x50ced2[_0x2704bf(0x206)](_0x29126a,_0x4933b3),_0x5b528e[_0x2704bf(0x2b6)](_0x50ced2),_0x5a5264(_0x329249);}_0x5b528e[_0x2d2949(0x317)]='',_0x5b528e[_0x2d2949(0x109)]['padding']=_0x2d2949(0x22e),_0x5b528e[_0x2d2949(0x109)]['display']=_0x2d2949(0x252),_0x5b528e[_0x2d2949(0x109)][_0x2d2949(0x25b)]=_0x2d2949(0x342),_0x31ea3d['classList'][_0x2d2949(0x2d4)](_0x2d2949(0x205));const _0x1fa212=document['createElement']('h2');_0x1fa212[_0x2d2949(0x364)]='countdown-title',_0x1fa212[_0x2d2949(0x1c0)]=_0x2d2949(0x23d),_0x5b528e['appendChild'](_0x1fa212);const _0x50c4aa=document[_0x2d2949(0x343)](_0x2d2949(0x36c));_0x50c4aa[_0x2d2949(0x364)]=_0x2d2949(0x1bb);const _0x4f2fae=[{'label':_0x2d2949(0xe1),'seconds':0x1e},{'label':_0x2d2949(0x270),'seconds':0x3c},{'label':'2\x20min','seconds':0x78},{'label':_0x2d2949(0x1fc),'seconds':0x12c},{'label':_0x2d2949(0x1d3),'seconds':0x258},{'label':'15\x20min','seconds':0x384},{'label':_0x2d2949(0x110),'seconds':0x708},{'label':'1\x20Hour','seconds':0xe10}];_0x4f2fae[_0x2d2949(0x18d)](_0x509fa9=>{const _0xbd48ff=_0x2d2949,_0x2e227c=document[_0xbd48ff(0x343)]('button');_0x2e227c[_0xbd48ff(0x364)]=_0xbd48ff(0x12e),_0x2e227c[_0xbd48ff(0x1c0)]=_0x509fa9[_0xbd48ff(0x31e)],_0x2e227c[_0xbd48ff(0x2a9)]=()=>_0x542fbf(_0x509fa9[_0xbd48ff(0x1f8)]),_0x50c4aa[_0xbd48ff(0x2b6)](_0x2e227c);}),_0x5b528e[_0x2d2949(0x2b6)](_0x50c4aa);}function _0x111d31(_0x148657){const _0x25c52b=_0x376907,_0x4059fc=_0x148657[_0x25c52b(0x2f8)]('.win-main-area');if(!_0x4059fc)return;_0x4059fc[_0x25c52b(0x317)]='',_0x4059fc[_0x25c52b(0x109)]['padding']='0',_0x4059fc['style'][_0x25c52b(0x2de)]=_0x25c52b(0x252),_0x4059fc[_0x25c52b(0x109)][_0x25c52b(0x25b)]=_0x25c52b(0x342);const _0x2f6386=document[_0x25c52b(0x343)](_0x25c52b(0x36c));_0x2f6386[_0x25c52b(0x2d3)]=!![],_0x2f6386[_0x25c52b(0x109)]['flex']='1',_0x2f6386[_0x25c52b(0x109)]['padding']=_0x25c52b(0x22e),_0x2f6386[_0x25c52b(0x11d)](_0x25c52b(0x338),()=>{_0x4b9251=![];}),_0x2f6386[_0x25c52b(0x11d)](_0x25c52b(0xd5),()=>{_0x4b9251=!![];});const _0x5c9c65=document['createElement']('div');_0x5c9c65[_0x25c52b(0x109)][_0x25c52b(0x351)]=_0x25c52b(0x27f),[_0x25c52b(0x1f5),_0x25c52b(0x28e)][_0x25c52b(0x18d)](_0x174623=>{const _0x143893=_0x25c52b,_0x2b4076=document[_0x143893(0x343)](_0x143893(0x2e2));_0x2b4076[_0x143893(0x364)]=_0x143893(0xdf),_0x2b4076[_0x143893(0x317)]='<i\x20class=\x22'+_0x174623+_0x143893(0x2f3),_0x2b4076[_0x143893(0x109)][_0x143893(0x300)]=_0x143893(0x2bc),_0x2b4076[_0x143893(0x109)][_0x143893(0x337)]=_0x143893(0x2bc),_0x2b4076[_0x143893(0x109)]['fontSize']=_0x143893(0x22e),_0x2b4076[_0x143893(0x2a9)]=()=>{const _0x4d88ea=_0x143893,_0x5b4c2f=parseInt(getComputedStyle(_0x2f6386)[_0x4d88ea(0x155)],0xa);_0x2f6386['style'][_0x4d88ea(0x155)]=_0x5b4c2f+(_0x174623[_0x4d88ea(0x238)](_0x4d88ea(0x1ed))?0x6:-0x6)+'px';},_0x5c9c65[_0x143893(0x2b6)](_0x2b4076);}),_0x4059fc['append'](_0x2f6386,_0x5c9c65),_0x2f6386[_0x25c52b(0x338)]();}function _0x77f99c(_0x2abb5e){const _0x14b749=_0x376907,_0x9e502e=_0x2abb5e[_0x14b749(0x2f8)](_0x14b749(0x336));if(!_0x9e502e)return;_0x9e502e[_0x14b749(0x317)]='',_0x9e502e['style'][_0x14b749(0x1b0)]='0',_0x9e502e[_0x14b749(0x109)][_0x14b749(0x2de)]=_0x14b749(0x252),_0x9e502e['style'][_0x14b749(0x25b)]=_0x14b749(0x342);const _0x4eaac1=document[_0x14b749(0x343)](_0x14b749(0x36c));_0x4eaac1[_0x14b749(0x364)]=_0x14b749(0x17a);const _0x1877b9=document[_0x14b749(0x343)]('div');_0x1877b9[_0x14b749(0x364)]=_0x14b749(0x185),_0x9e502e[_0x14b749(0x206)](_0x4eaac1,_0x1877b9);let _0x19b779=0x1;const _0x155984=(_0x950dcd=0x1)=>{const _0x2ef7f5=_0x14b749,_0x4355d3=document[_0x2ef7f5(0x343)](_0x2ef7f5(0x36c));_0x4355d3['className']=_0x2ef7f5(0x1e9),_0x4355d3[_0x2ef7f5(0xf2)][_0x2ef7f5(0x23a)]=_0x950dcd;for(let _0x9126dc=0x1;_0x9126dc<=0x9;_0x9126dc++){const _0x830d85=document[_0x2ef7f5(0x343)]('div');_0x830d85[_0x2ef7f5(0x364)]='die-dot\x20dot-'+_0x9126dc,_0x4355d3[_0x2ef7f5(0x2b6)](_0x830d85);}return _0x4355d3;},_0x3248fd=document['createElement'](_0x14b749(0x36c));_0x3248fd[_0x14b749(0x364)]=_0x14b749(0x134);const _0x8ae264=(_0x3d6ff3=!![])=>{const _0x49dd84=_0x14b749;let _0x251ea5=0x0;const _0x3f7598=_0x4eaac1[_0x49dd84(0x18e)](_0x49dd84(0x339));_0x3f7598[_0x49dd84(0x18d)](_0x5675d0=>{const _0x31fa18=_0x49dd84,_0x573486=Math[_0x31fa18(0x10e)](Math['random']()*0x6)+0x1;_0x251ea5+=_0x573486,_0x5675d0['dataset'][_0x31fa18(0x23a)]=_0x573486,_0x3d6ff3&&(_0x5675d0[_0x31fa18(0x100)]['add'](_0x31fa18(0x2c4)),_0x5675d0['addEventListener']('animationend',()=>_0x5675d0[_0x31fa18(0x100)][_0x31fa18(0x2d4)](_0x31fa18(0x2c4)),{'once':!![]}));}),_0x3248fd[_0x49dd84(0x1c0)]=_0x49dd84(0x2b5)+_0x251ea5;},_0x245bd0=()=>{requestAnimationFrame(()=>{const _0x20bd06=_0x6c37,_0x3a29f1=getComputedStyle(_0x4eaac1),_0x430cfd=parseFloat(_0x3a29f1[_0x20bd06(0x19d)])||0x20,_0x1c2206=_0x4eaac1[_0x20bd06(0x234)]-(parseFloat(_0x3a29f1[_0x20bd06(0x198)])+parseFloat(_0x3a29f1[_0x20bd06(0x2a1)])),_0x3a4214=_0x4eaac1[_0x20bd06(0x2b8)]-(parseFloat(_0x3a29f1['paddingTop'])+parseFloat(_0x3a29f1[_0x20bd06(0x2b3)]));if(_0x1c2206<=0x0||_0x3a4214<=0x0)return;const _0x336132=Math[_0x20bd06(0x189)](Math[_0x20bd06(0x240)](_0x19b779)),_0x4b1f43=Math['ceil'](_0x19b779/_0x336132),_0x1de7ca=(_0x1c2206-(_0x336132-0x1)*_0x430cfd)/_0x336132,_0x2b9907=(_0x3a4214-(_0x4b1f43-0x1)*_0x430cfd)/_0x4b1f43,_0x807ef3=Math[_0x20bd06(0x1ef)](0x30,Math[_0x20bd06(0x10e)](Math[_0x20bd06(0x307)](_0x1de7ca,_0x2b9907)));_0x4eaac1['querySelectorAll'](_0x20bd06(0x339))['forEach'](_0x5baa4c=>{const _0x1ef01b=_0x20bd06;_0x5baa4c[_0x1ef01b(0x109)][_0x1ef01b(0x300)]=_0x807ef3+'px',_0x5baa4c[_0x1ef01b(0x109)][_0x1ef01b(0x337)]=_0x807ef3+'px';});});},_0x3c42ba=()=>{const _0x33f0a6=_0x14b749;_0x4eaac1[_0x33f0a6(0x317)]='';for(let _0x531e02=0x0;_0x531e02<_0x19b779;_0x531e02++){_0x4eaac1['appendChild'](_0x155984(0x1));}_0x8ae264(![]),_0x245bd0();},_0x50406e=document['createElement'](_0x14b749(0x2e2));_0x50406e[_0x14b749(0x364)]=_0x14b749(0x314),_0x50406e[_0x14b749(0x317)]=_0x14b749(0x159),_0x50406e[_0x14b749(0x2a9)]=()=>{_0x19b779<0x6&&(_0x19b779++,_0x3c42ba());};const _0x31edfb=document[_0x14b749(0x343)](_0x14b749(0x2e2));_0x31edfb[_0x14b749(0x364)]='icon-btn',_0x31edfb[_0x14b749(0x317)]='<i\x20class=\x22fas\x20fa-minus\x22></i>',_0x31edfb[_0x14b749(0x2a9)]=()=>{_0x19b779>0x1&&(_0x19b779--,_0x3c42ba());};const _0x414eb7=document[_0x14b749(0x343)]('button');_0x414eb7['className']=_0x14b749(0x314),_0x414eb7[_0x14b749(0x317)]=_0x14b749(0x285),_0x414eb7[_0x14b749(0x109)][_0x14b749(0x25e)]=_0x14b749(0x128),_0x414eb7[_0x14b749(0x2a9)]=()=>_0x8ae264(!![]),_0x1877b9['append'](_0x50406e,_0x31edfb,_0x414eb7,_0x3248fd);const _0x26abf7=new ResizeObserver(_0x245bd0);_0x2abb5e[_0x14b749(0x1d7)]=_0x26abf7,_0x26abf7[_0x14b749(0x179)](_0x9e502e),_0x3c42ba();}function _0x50f1d0(_0x30db34){const _0x3d0064=_0x376907,_0x5e65d9=_0x30db34['querySelector'](_0x3d0064(0x336));if(!_0x5e65d9)return;_0x5e65d9['innerHTML']='',_0x5e65d9[_0x3d0064(0x109)][_0x3d0064(0x1b0)]='0',_0x5e65d9[_0x3d0064(0x109)]['display']='flex',_0x5e65d9[_0x3d0064(0x109)][_0x3d0064(0x25b)]=_0x3d0064(0x342);const _0x46c0a9=document['createElement']('div');_0x46c0a9[_0x3d0064(0x364)]=_0x3d0064(0x1ff),_0x46c0a9[_0x3d0064(0x1c0)]=_0x3d0064(0xd4);const _0x3dec8e=document['createElement'](_0x3d0064(0x36c));_0x3dec8e['className']=_0x3d0064(0x2cc),_0x5e65d9[_0x3d0064(0x206)](_0x46c0a9,_0x3dec8e);let _0x5a9972=0x0,_0x1f50f9=0x0,_0x2f3d8b=![];const _0x1e5a0b=()=>{const _0x24aecf=_0x3d0064,_0x541e0d=_0x5a9972,_0x55137b=String(Math[_0x24aecf(0x10e)](_0x541e0d/0xea60))[_0x24aecf(0x116)](0x2,'0'),_0x2f217c=String(Math[_0x24aecf(0x10e)](_0x541e0d%0xea60/0x3e8))[_0x24aecf(0x116)](0x2,'0'),_0x331fd2=String(Math[_0x24aecf(0x10e)](_0x541e0d%0x3e8/0xa))[_0x24aecf(0x116)](0x2,'0');_0x46c0a9['textContent']=_0x55137b+':'+_0x2f217c+'.'+_0x331fd2;},_0x1f4280=document[_0x3d0064(0x343)](_0x3d0064(0x2e2));_0x1f4280[_0x3d0064(0x364)]=_0x3d0064(0x314),_0x1f4280[_0x3d0064(0x317)]=_0x3d0064(0x1be),_0x1f4280[_0x3d0064(0x109)][_0x3d0064(0x25e)]=_0x3d0064(0x128),_0x1f4280[_0x3d0064(0x2a9)]=()=>{const _0x35f9fc=_0x3d0064;_0x2f3d8b?(clearInterval(_0x30db34[_0x35f9fc(0x1a4)]),_0x30db34['activeInterval']=null,_0x5a9972=Date[_0x35f9fc(0x23b)]()-_0x1f50f9,_0x1f4280[_0x35f9fc(0x317)]=_0x35f9fc(0x35e)):(_0x1f50f9=Date[_0x35f9fc(0x23b)]()-_0x5a9972,_0x30db34[_0x35f9fc(0x1a4)]=setInterval(()=>{const _0x25a0db=_0x35f9fc;_0x5a9972=Date[_0x25a0db(0x23b)]()-_0x1f50f9,_0x1e5a0b();},0xa),_0x1f4280[_0x35f9fc(0x317)]=_0x35f9fc(0x1be)),_0x2f3d8b=!_0x2f3d8b;};const _0x94e59e=document[_0x3d0064(0x343)](_0x3d0064(0x2e2));_0x94e59e[_0x3d0064(0x364)]='icon-btn',_0x94e59e[_0x3d0064(0x317)]=_0x3d0064(0x308),_0x94e59e[_0x3d0064(0x109)][_0x3d0064(0x25e)]=_0x3d0064(0x28d),_0x94e59e[_0x3d0064(0x2a9)]=()=>{const _0x36d4b7=_0x3d0064;clearInterval(_0x30db34[_0x36d4b7(0x1a4)]),_0x30db34[_0x36d4b7(0x1a4)]=null,_0x2f3d8b=![],_0x5a9972=0x0,_0x1f4280[_0x36d4b7(0x317)]=_0x36d4b7(0x1be),_0x1e5a0b();},_0x3dec8e[_0x3d0064(0x206)](_0x1f4280,_0x94e59e);const _0x344f4f=_0x56f8b8=>{const _0x31a5ab=_0x3d0064,_0xf427bb=_0x56f8b8[_0x31a5ab(0x234)]/4.6;_0x46c0a9['style'][_0x31a5ab(0x155)]=_0xf427bb+'px';},_0x44d477=new ResizeObserver(_0x240147=>{const _0x1c6433=_0x3d0064;for(let _0x307075 of _0x240147){_0x344f4f(_0x307075[_0x1c6433(0x1fb)]);}});_0x30db34[_0x3d0064(0x1d7)]=_0x44d477,_0x44d477[_0x3d0064(0x179)](_0x5e65d9),_0x344f4f(_0x5e65d9);}function _0x2f3bc9(_0x352e16){const _0x307bbc=_0x376907,_0x498748=_0x352e16['querySelector'](_0x307bbc(0x336));if(!_0x498748)return;_0x498748['innerHTML']='',_0x498748['style'][_0x307bbc(0x1b0)]='0',_0x498748[_0x307bbc(0x109)][_0x307bbc(0x2de)]=_0x307bbc(0x252),_0x498748['style'][_0x307bbc(0x19d)]='0',_0x498748[_0x307bbc(0x109)]['overflow']=_0x307bbc(0x148),_0x352e16['dataset'][_0x307bbc(0xdb)]=_0x307bbc(0xd1),_0x498748['addEventListener']('pointerdown',_0x24fad3=>{_0x4b9251=![],_0x24fad3['stopPropagation']();});const _0x3966c4=(_0x42f4c7,_0x53a663)=>{const _0x1b0250=_0x307bbc;let _0x29d471=0x0;const _0x474dc7=document[_0x1b0250(0x343)](_0x1b0250(0x36c));_0x474dc7[_0x1b0250(0x364)]=_0x1b0250(0x231),_0x474dc7[_0x1b0250(0x109)][_0x1b0250(0x25e)]='var('+_0x53a663+')',_0x474dc7[_0x1b0250(0x109)][_0x1b0250(0x184)]=_0x1b0250(0x1cc);const _0x5a1ad3=document[_0x1b0250(0x343)]('h2');_0x5a1ad3[_0x1b0250(0x1c0)]=_0x42f4c7;const _0x436349=document['createElement']('div');_0x436349[_0x1b0250(0x364)]='for-against-display',_0x436349['textContent']=_0x29d471;const _0x56c9f8=document[_0x1b0250(0x343)]('div');_0x56c9f8[_0x1b0250(0x364)]=_0x1b0250(0x164);const _0x2cf6fb=document[_0x1b0250(0x343)](_0x1b0250(0x2e2));_0x2cf6fb[_0x1b0250(0x317)]='<i\x20class=\x22fas\x20fa-minus\x22></i>',_0x2cf6fb['onclick']=()=>{const _0x264761=_0x1b0250;_0x29d471>0x0&&(_0x29d471--,_0x436349[_0x264761(0x1c0)]=_0x29d471);};const _0xf5a4ba=document['createElement'](_0x1b0250(0x2e2));return _0xf5a4ba[_0x1b0250(0x317)]=_0x1b0250(0x159),_0xf5a4ba['onclick']=()=>{const _0x1a7760=_0x1b0250;_0x29d471++,_0x436349[_0x1a7760(0x1c0)]=_0x29d471;},_0x56c9f8['append'](_0x2cf6fb,_0xf5a4ba),_0x474dc7[_0x1b0250(0x206)](_0x5a1ad3,_0x436349,_0x56c9f8),_0x474dc7;},_0x5c050b=_0x3966c4(_0x307bbc(0x125),_0x307bbc(0x1ca)),_0x10ad42=_0x3966c4(_0x307bbc(0x1d0),'--success-color');_0x498748[_0x307bbc(0x206)](_0x10ad42,_0x5c050b);const _0x108fb9=_0x1503e3=>{const _0x153f48=_0x307bbc,_0xa44a67=_0x1503e3*0.1,_0x3935dc=_0x1503e3*0.3,_0x47342b=_0x1503e3*0.2,_0x356ef8=_0x47342b*0.5,_0x507de4=_0x1503e3*0.05;_0x498748['querySelectorAll']('.for-against-panel')[_0x153f48(0x18d)](_0x42516=>_0x42516['style'][_0x153f48(0x1b0)]=Math['max'](0xa,_0x507de4)+'px'),_0x498748['querySelectorAll'](_0x153f48(0x1a6))['forEach'](_0x17a9fa=>_0x17a9fa[_0x153f48(0x109)][_0x153f48(0x155)]=Math[_0x153f48(0x1ef)](0xe,_0xa44a67)+'px'),_0x498748[_0x153f48(0x18e)](_0x153f48(0x140))['forEach'](_0x2aebe6=>_0x2aebe6[_0x153f48(0x109)]['fontSize']=Math['max'](0x1e,_0x3935dc)+'px'),_0x498748[_0x153f48(0x18e)](_0x153f48(0x360))['forEach'](_0x31e1fd=>_0x31e1fd[_0x153f48(0x109)][_0x153f48(0x19d)]=Math[_0x153f48(0x1ef)](0xa,_0x507de4)+'px'),_0x498748[_0x153f48(0x18e)](_0x153f48(0x104))[_0x153f48(0x18d)](_0x4385a0=>{const _0x8e09bf=_0x153f48;_0x4385a0['style'][_0x8e09bf(0x300)]=Math[_0x8e09bf(0x1ef)](0x23,_0x47342b)+'px',_0x4385a0[_0x8e09bf(0x109)][_0x8e09bf(0x337)]=Math['max'](0x23,_0x47342b)+'px',_0x4385a0[_0x8e09bf(0x109)]['fontSize']=Math[_0x8e09bf(0x1ef)](0x10,_0x356ef8)+'px';});},_0x6dca44=new ResizeObserver(_0xa1af13=>{const _0x45b425=_0x307bbc;for(let _0x54f78f of _0xa1af13){const {width:_0x149a24,height:_0x34450e}=_0x54f78f[_0x45b425(0x115)],_0x220245=_0x34450e>_0x149a24*0.95;_0x220245?(_0x498748[_0x45b425(0x109)][_0x45b425(0x25b)]=_0x45b425(0x342),[_0x5c050b,_0x10ad42]['forEach'](_0x38e1d2=>{const _0x18f5ff=_0x45b425;_0x38e1d2['style'][_0x18f5ff(0x337)]=_0x18f5ff(0x2c8),_0x38e1d2['style'][_0x18f5ff(0x300)]='100%';}),_0x108fb9(_0x34450e/0x2)):(_0x498748['style'][_0x45b425(0x25b)]=_0x45b425(0x2d1),[_0x5c050b,_0x10ad42][_0x45b425(0x18d)](_0x415a64=>{const _0x45b925=_0x45b425;_0x415a64[_0x45b925(0x109)][_0x45b925(0x337)]=_0x45b925(0x165),_0x415a64[_0x45b925(0x109)][_0x45b925(0x300)]=_0x45b925(0x2c8);}),_0x108fb9(_0x149a24/0x2));}});_0x352e16['toolResizeObserver']=_0x6dca44,_0x6dca44[_0x307bbc(0x179)](_0x498748);}function _0x12ab3c(_0x448753){const _0x1531bd=_0x376907,_0x77b9a=_0x448753['querySelector'](_0x1531bd(0x336));if(!_0x77b9a)return;_0x1f3463(_0x448753),_0x448753[_0x1531bd(0xf2)][_0x1531bd(0x17d)]=_0x1531bd(0x329),_0x77b9a[_0x1531bd(0x317)]='',_0x77b9a[_0x1531bd(0x109)][_0x1531bd(0x1b0)]='0',_0x77b9a[_0x1531bd(0x109)]['display']=_0x1531bd(0x252),_0x77b9a[_0x1531bd(0x109)]['flexDirection']=_0x1531bd(0x342);let _0x1fa054=[],_0x530297=0x0;const _0x439859=document[_0x1531bd(0x343)]('div');_0x439859[_0x1531bd(0x364)]=_0x1531bd(0x18f);const _0x4da200=document[_0x1531bd(0x343)]('img');_0x4da200[_0x1531bd(0x364)]='carousel-image',_0x4da200[_0x1531bd(0x2fa)]='Carousel\x20Image';const _0x46aac0=document[_0x1531bd(0x343)]('p');_0x46aac0[_0x1531bd(0x364)]=_0x1531bd(0x1d6),_0x46aac0['textContent']=_0x1531bd(0x2ae),_0x439859[_0x1531bd(0x206)](_0x4da200,_0x46aac0);const _0x14ce2b=document[_0x1531bd(0x343)](_0x1531bd(0x36c));_0x14ce2b[_0x1531bd(0x364)]=_0x1531bd(0x112);const _0x319a8e=document[_0x1531bd(0x343)](_0x1531bd(0x2e2));_0x319a8e['className']=_0x1531bd(0x34c),_0x319a8e[_0x1531bd(0x317)]=_0x1531bd(0x202),_0x319a8e[_0x1531bd(0x1f2)]=!![];const _0x2fa6fd=document[_0x1531bd(0x343)](_0x1531bd(0x2e2));_0x2fa6fd['className']=_0x1531bd(0x34c),_0x2fa6fd[_0x1531bd(0x317)]=_0x1531bd(0x2e6);const _0x442578=document[_0x1531bd(0x343)](_0x1531bd(0x2e2));_0x442578[_0x1531bd(0x364)]=_0x1531bd(0x34c),_0x442578['innerHTML']=_0x1531bd(0x313),_0x442578[_0x1531bd(0x1f2)]=!![];const _0xf6b58c=document[_0x1531bd(0x343)](_0x1531bd(0xd0));_0xf6b58c['type']='file',_0xf6b58c[_0x1531bd(0x1b8)]=!![],_0xf6b58c[_0x1531bd(0xf7)]=_0x1531bd(0x266),_0xf6b58c[_0x1531bd(0x109)][_0x1531bd(0x2de)]=_0x1531bd(0x341),_0x14ce2b[_0x1531bd(0x206)](_0x319a8e,_0x2fa6fd,_0x442578,_0xf6b58c),_0x77b9a['append'](_0x439859,_0x14ce2b);const _0xbd3197=()=>{const _0x18bb3e=_0x1531bd;_0x1fa054[_0x18bb3e(0x21a)]>0x0?(_0x4da200['src']=_0x1fa054[_0x530297],_0x4da200[_0x18bb3e(0x109)][_0x18bb3e(0x2de)]=_0x18bb3e(0x2b4),_0x46aac0[_0x18bb3e(0x109)][_0x18bb3e(0x2de)]=_0x18bb3e(0x341),_0x319a8e[_0x18bb3e(0x1f2)]=![],_0x442578['disabled']=![]):(_0x4da200[_0x18bb3e(0x109)][_0x18bb3e(0x2de)]=_0x18bb3e(0x341),_0x46aac0[_0x18bb3e(0x109)]['display']=_0x18bb3e(0x2b4),_0x319a8e[_0x18bb3e(0x1f2)]=!![],_0x442578[_0x18bb3e(0x1f2)]=!![]);};_0x2fa6fd[_0x1531bd(0x2a9)]=()=>{const _0x44efc8=_0x1531bd;_0xf6b58c[_0x44efc8(0x102)]();},_0xf6b58c['onchange']=_0x9d2968=>{const _0x3e1502=_0x1531bd,_0x8a8f1c=_0x9d2968[_0x3e1502(0x1fb)][_0x3e1502(0x237)];if(!_0x8a8f1c||_0x8a8f1c[_0x3e1502(0x21a)]===0x0)return;_0x1fa054=Array[_0x3e1502(0x114)](_0x8a8f1c)[_0x3e1502(0x1af)](_0x138ee5=>URL['createObjectURL'](_0x138ee5)),_0x530297=0x0,_0xbd3197();},_0x319a8e[_0x1531bd(0x2a9)]=()=>{const _0x30de73=_0x1531bd;if(_0x1fa054[_0x30de73(0x21a)]===0x0)return;_0x530297=(_0x530297-0x1+_0x1fa054[_0x30de73(0x21a)])%_0x1fa054[_0x30de73(0x21a)],_0xbd3197();},_0x442578[_0x1531bd(0x2a9)]=()=>{const _0x266668=_0x1531bd;if(_0x1fa054['length']===0x0)return;_0x530297=(_0x530297+0x1)%_0x1fa054[_0x266668(0x21a)],_0xbd3197();};}function _0x50973c(_0x5c5dd2){const _0x995984=_0x376907,_0x24c41d=_0x5c5dd2[_0x995984(0x2f8)](_0x995984(0x336));if(!_0x24c41d)return;_0x24c41d[_0x995984(0x317)]='',_0x24c41d[_0x995984(0x109)][_0x995984(0x1b0)]='0',_0x24c41d[_0x995984(0x109)][_0x995984(0x350)]='hidden';const _0x17bc8b=document['createElement'](_0x995984(0x36c));_0x17bc8b['className']='calculator-grid';const _0x79e88c=document[_0x995984(0x343)](_0x995984(0x36c));_0x79e88c[_0x995984(0x364)]='calculator-display';const _0x3bde7f=document['createElement']('div');_0x3bde7f['id']='calc-expression',_0x3bde7f[_0x995984(0x317)]='&nbsp;';const _0x2eecd0=document[_0x995984(0x343)](_0x995984(0x36c));_0x2eecd0['id']=_0x995984(0x236),_0x2eecd0[_0x995984(0x1c0)]='0',_0x79e88c['append'](_0x3bde7f,_0x2eecd0);const _0x79c10b=document[_0x995984(0x343)](_0x995984(0x36c));_0x79c10b[_0x995984(0x364)]='calculator-buttons';const _0x32248d=[{'text':_0x995984(0x1f3),'class':_0x995984(0x229)},{'text':'cos','class':_0x995984(0x229)},{'text':_0x995984(0x35b),'class':'function'},{'text':'log','class':_0x995984(0x229)},{'text':'ln','class':_0x995984(0x229)},{'text':'(','class':_0x995984(0x229)},{'text':')','class':_0x995984(0x229)},{'text':'√','class':'function'},{'text':'^','class':_0x995984(0x229)},{'text':'!','class':_0x995984(0x229)},{'text':'7','class':_0x995984(0x33a)},{'text':'8','class':_0x995984(0x33a)},{'text':'9','class':_0x995984(0x33a)},{'text':'÷','class':_0x995984(0x17b)},{'text':'AC','class':'ac'},{'text':'4','class':_0x995984(0x33a)},{'text':'5','class':'number'},{'text':'6','class':'number'},{'text':'×','class':_0x995984(0x17b)},{'text':'C','class':_0x995984(0x17b)},{'text':'1','class':_0x995984(0x33a)},{'text':'2','class':_0x995984(0x33a)},{'text':'3','class':'number'},{'text':'-','class':_0x995984(0x17b)},{'text':'=','class':_0x995984(0x345)},{'text':'0','class':_0x995984(0x33a)},{'text':'.','class':'number'},{'text':'π','class':_0x995984(0x33a)},{'text':'+','class':'operator'}];_0x32248d[_0x995984(0x18d)](_0xb1e3fd=>{const _0x3078c7=_0x995984,_0x5e2991=document[_0x3078c7(0x343)](_0x3078c7(0x2e2));_0x5e2991[_0x3078c7(0x1c0)]=_0xb1e3fd[_0x3078c7(0x368)],_0x5e2991[_0x3078c7(0x364)]=_0x3078c7(0x245)+_0xb1e3fd[_0x3078c7(0x2d2)],_0x5e2991[_0x3078c7(0xf2)]['value']=_0xb1e3fd[_0x3078c7(0x368)];if(_0xb1e3fd['text']==='=')_0x5e2991['style'][_0x3078c7(0x13d)]=_0x3078c7(0x335);_0x79c10b[_0x3078c7(0x2b6)](_0x5e2991);}),_0x17bc8b[_0x995984(0x206)](_0x79e88c,_0x79c10b),_0x24c41d[_0x995984(0x2b6)](_0x17bc8b);let _0x1b7a99='',_0x3fa7e1='';const _0x2a4df7=()=>{const _0x57a3b4=_0x995984;_0x3bde7f[_0x57a3b4(0x317)]=_0x1b7a99[_0x57a3b4(0x1aa)](/\*/g,'×')['replace'](/\//g,'÷')||_0x57a3b4(0x27a),_0x2eecd0['textContent']=_0x3fa7e1||'0';},_0x1ad2e2=_0x3846cb=>_0x3846cb<=0x1?0x1:_0x3846cb*_0x1ad2e2(_0x3846cb-0x1);_0x79c10b[_0x995984(0x11d)](_0x995984(0x102),_0x54818f=>{const _0x580873=_0x995984;if(!_0x54818f['target'][_0x580873(0x2df)]('.calc-btn'))return;const _0x30aba2=_0x54818f[_0x580873(0x1fb)]['dataset'][_0x580873(0x23a)];switch(_0x30aba2){case'AC':_0x1b7a99='',_0x3fa7e1='';break;case'C':_0x1b7a99=_0x1b7a99[_0x580873(0x178)](0x0,-0x1);break;case'=':try{let _0x4b9794=_0x1b7a99[_0x580873(0x1aa)](/×/g,'*')[_0x580873(0x1aa)](/÷/g,'/')[_0x580873(0x1aa)](/√/g,_0x580873(0x370))[_0x580873(0x1aa)](/\^/g,'**')[_0x580873(0x1aa)](/log/g,_0x580873(0x24d))['replace'](/ln/g,_0x580873(0x1c7))[_0x580873(0x1aa)](/sin/g,_0x580873(0x1d9))[_0x580873(0x1aa)](/cos/g,_0x580873(0x2a2))['replace'](/tan/g,_0x580873(0x289))[_0x580873(0x1aa)](/π/g,_0x580873(0xde))[_0x580873(0x1aa)](/(\d+)!/g,(_0x5e67dd,_0x480357)=>_0x1ad2e2(parseInt(_0x480357)));_0x3fa7e1=new Function(_0x580873(0x169)+_0x4b9794)(),_0x1b7a99=_0x3fa7e1[_0x580873(0x259)]();}catch(_0x11ebce){_0x3fa7e1=_0x580873(0xf9),_0x1b7a99='';}break;default:_0x3fa7e1===_0x580873(0xf9)&&(_0x3fa7e1='',_0x1b7a99='');_0x1b7a99+=_0x30aba2;break;}_0x2a4df7();});const _0x18e3c8=_0x17bc8b[_0x995984(0x18e)]('.calc-btn'),_0x30b57b=()=>{const _0x4c493a=_0x995984,_0x683d4=_0x24c41d['clientWidth'],_0x1a86b5=_0x683d4/0x14;_0x2eecd0[_0x4c493a(0x109)]['fontSize']=Math[_0x4c493a(0x1ef)](0x18,_0x1a86b5*1.5)+'px',_0x3bde7f[_0x4c493a(0x109)][_0x4c493a(0x155)]=Math['max'](0xe,_0x1a86b5*0.675)+'px',_0x18e3c8[_0x4c493a(0x18d)](_0x1dcf1b=>{const _0x3d6fe1=_0x4c493a;_0x1dcf1b[_0x3d6fe1(0x100)][_0x3d6fe1(0x1c2)](_0x3d6fe1(0x229))?_0x1dcf1b[_0x3d6fe1(0x109)]['fontSize']=Math[_0x3d6fe1(0x1ef)](0xc,_0x1a86b5*0.675)+'px':_0x1dcf1b['style'][_0x3d6fe1(0x155)]=Math['max'](0xe,_0x1a86b5*0.75)+'px';});},_0x42f130=new ResizeObserver(_0x30b57b);_0x5c5dd2[_0x995984(0x1d7)]=_0x42f130,_0x42f130['observe'](_0x24c41d),_0x30b57b();}function _0x1bce1e(){const _0x37a25c=_0x376907,_0x4ae39e=document[_0x37a25c(0x343)]('div');_0x4ae39e[_0x37a25c(0x364)]=_0x37a25c(0x1fe);const _0x3c8167=document[_0x37a25c(0x18e)](_0x37a25c(0x358))[_0x37a25c(0x21a)],_0x34cf51=_0x20afe4();_0x4ae39e[_0x37a25c(0x109)][_0x37a25c(0x158)]=0x1e*_0x3c8167+'px',_0x4ae39e[_0x37a25c(0x109)][_0x37a25c(0x2e3)]=0x1e*_0x3c8167+'px',_0x4ae39e[_0x37a25c(0x109)][_0x37a25c(0x300)]=(window[_0x37a25c(0x207)]-_0x34cf51)/0x2+'px',_0x4ae39e[_0x37a25c(0x109)][_0x37a25c(0x337)]=window[_0x37a25c(0xd7)]/0x2+'px',_0x4ae39e[_0x37a25c(0x292)]=_0x37a25c(0x2ed);const _0x4e4fea=document['createElement'](_0x37a25c(0x36c));_0x4e4fea[_0x37a25c(0x364)]=_0x37a25c(0x2c7),_0x4ae39e[_0x37a25c(0x2b6)](_0x4e4fea);const _0x8b2e4a=document['createElement']('div');_0x8b2e4a[_0x37a25c(0x364)]=_0x37a25c(0x248);const _0x3d4070=document['createElement']('button');_0x3d4070[_0x37a25c(0x317)]=_0x37a25c(0x123),_0x3d4070[_0x37a25c(0x29f)]='Annotate',_0x3d4070[_0x37a25c(0x100)][_0x37a25c(0x2f9)](_0x37a25c(0x352));const _0x343413=document['createElement'](_0x37a25c(0x2e2));_0x343413['innerHTML']=_0x37a25c(0xfe),_0x343413[_0x37a25c(0x29f)]=_0x37a25c(0x2aa);const _0x3e2883=document[_0x37a25c(0x343)](_0x37a25c(0x36c));_0x3e2883[_0x37a25c(0x364)]=_0x37a25c(0x26c),_0x8b2e4a[_0x37a25c(0x2b6)](_0x3e2883);const _0x4563db=[_0x37a25c(0x2ed),'#C1C1C1',_0x37a25c(0x27e),'#000000',_0x37a25c(0x1e3),'#D90429',_0x37a25c(0xdc),_0x37a25c(0x2c2),_0x37a25c(0x2db),_0x37a25c(0x35f),_0x37a25c(0x1c3),_0x37a25c(0x1f7),_0x37a25c(0x1da),_0x37a25c(0x35d),_0x37a25c(0x22b),_0x37a25c(0x330)];_0x4563db[_0x37a25c(0x18d)](_0x160bf5=>{const _0x2a6726=_0x37a25c,_0x1c1e8c=document[_0x2a6726(0x343)](_0x2a6726(0x36c));_0x1c1e8c[_0x2a6726(0x364)]=_0x2a6726(0x1a5),_0x1c1e8c[_0x2a6726(0x109)][_0x2a6726(0x25e)]=_0x160bf5,_0x1c1e8c[_0x2a6726(0x11d)](_0x2a6726(0x102),_0x19165d=>{const _0x5bcfd2=_0x2a6726;_0x19165d[_0x5bcfd2(0x126)](),_0x4ae39e[_0x5bcfd2(0x292)]=_0x160bf5,_0x343413[_0x5bcfd2(0x109)][_0x5bcfd2(0xdd)]=_0x160bf5,_0x4ae39e[_0x5bcfd2(0x1fd)]&&(_0x4ae39e[_0x5bcfd2(0x1fd)]['strokeStyle']=_0x160bf5),_0x3e2883['classList'][_0x5bcfd2(0x2f9)](_0x5bcfd2(0x148));}),_0x3e2883['appendChild'](_0x1c1e8c);}),_0x343413[_0x37a25c(0x11d)](_0x37a25c(0x102),_0x294c1f=>{const _0x4b65a6=_0x37a25c;_0x294c1f[_0x4b65a6(0x126)](),document[_0x4b65a6(0x18e)](_0x4b65a6(0x13c))[_0x4b65a6(0x18d)](_0x336a24=>{const _0x535756=_0x4b65a6;if(_0x336a24!==_0x3e2883)_0x336a24['classList'][_0x535756(0x2f9)](_0x535756(0x148));}),_0x3e2883[_0x4b65a6(0x100)][_0x4b65a6(0x1c9)]('hidden');});const _0x521e58=document[_0x37a25c(0x343)](_0x37a25c(0x2e2));_0x521e58[_0x37a25c(0x317)]=_0x37a25c(0x362),_0x521e58[_0x37a25c(0x29f)]=_0x37a25c(0x24c);const _0x3d7b55=document[_0x37a25c(0x343)](_0x37a25c(0x2e2));_0x3d7b55['innerHTML']=_0x37a25c(0x153),_0x3d7b55['title']=_0x37a25c(0x281),_0x8b2e4a[_0x37a25c(0x206)](_0x3d4070,_0x343413,_0x521e58,_0x3d7b55),_0x4e4fea[_0x37a25c(0x2b6)](_0x8b2e4a),_0x3d4070['addEventListener'](_0x37a25c(0x102),()=>{const _0x3ae72f=_0x37a25c;_0x3d4070['classList'][_0x3ae72f(0x1c9)](_0x3ae72f(0x30d));const _0x188459=_0x4ae39e[_0x3ae72f(0x2f8)]('.win-main-area');if(!_0x188459)return;if(_0x3d4070[_0x3ae72f(0x100)]['contains'](_0x3ae72f(0x30d))){const _0x4d77cb=document[_0x3ae72f(0x343)]('canvas');_0x4d77cb['className']=_0x3ae72f(0x1db),_0x188459[_0x3ae72f(0x2b6)](_0x4d77cb),_0x4ae39e['annotationCanvas']=_0x4d77cb,_0x4ae39e['drawingHistory']=[];const _0x155ba2=_0x4d77cb[_0x3ae72f(0x2ff)]('2d');_0x4ae39e[_0x3ae72f(0x1fd)]=_0x155ba2;let _0x10aacf=![];const _0x1c456c=new ResizeObserver(_0x53cb45=>{const _0x798481=_0x3ae72f;for(let _0x4c82f3 of _0x53cb45){const _0x656653=_0x155ba2[_0x798481(0x12d)](0x0,0x0,_0x4d77cb['width'],_0x4d77cb[_0x798481(0x337)]);_0x4d77cb['width']=_0x4c82f3[_0x798481(0x115)][_0x798481(0x300)],_0x4d77cb['height']=_0x4c82f3[_0x798481(0x115)]['height'],_0x155ba2['putImageData'](_0x656653,0x0,0x0),_0x155ba2[_0x798481(0x328)]=_0x4ae39e[_0x798481(0x292)],_0x155ba2[_0x798481(0x10b)]=0x5,_0x155ba2[_0x798481(0x1b7)]='round',_0x155ba2[_0x798481(0x2e5)]='round';}});_0x1c456c[_0x3ae72f(0x179)](_0x188459),_0x4ae39e[_0x3ae72f(0x225)]=_0x1c456c,_0x4d77cb['width']=_0x188459[_0x3ae72f(0x234)],_0x4d77cb['height']=_0x188459[_0x3ae72f(0x2b8)],_0x155ba2[_0x3ae72f(0x328)]=_0x4ae39e[_0x3ae72f(0x292)],_0x155ba2[_0x3ae72f(0x10b)]=0x5,_0x155ba2['lineCap']='round',_0x155ba2[_0x3ae72f(0x2e5)]=_0x3ae72f(0x22a),_0x343413[_0x3ae72f(0x109)][_0x3ae72f(0xdd)]=_0x4ae39e[_0x3ae72f(0x292)];const _0x1d32fe=_0x5a322c=>{const _0x52473e=_0x3ae72f;_0x57810a(_0x4d77cb,_0x155ba2,_0x4ae39e[_0x52473e(0x146)]),_0x10aacf=!![],_0x155ba2['beginPath']();const _0x341cd5=_0x4d77cb[_0x52473e(0x2ab)]();_0x155ba2[_0x52473e(0x193)](_0x5a322c['clientX']-_0x341cd5[_0x52473e(0x158)],_0x5a322c['clientY']-_0x341cd5['top']);},_0x528543=_0x3601b5=>{const _0x323467=_0x3ae72f;if(!_0x10aacf)return;const _0x38b788=_0x4d77cb['getBoundingClientRect']();_0x155ba2['lineTo'](_0x3601b5[_0x323467(0x183)]-_0x38b788[_0x323467(0x158)],_0x3601b5[_0x323467(0x16c)]-_0x38b788['top']),_0x155ba2[_0x323467(0x230)]();},_0x53c7b1=()=>{_0x10aacf=![];};_0x4d77cb[_0x3ae72f(0x11d)](_0x3ae72f(0x173),_0x1d32fe),_0x4d77cb[_0x3ae72f(0x11d)](_0x3ae72f(0x367),_0x528543),_0x4d77cb['addEventListener'](_0x3ae72f(0x2c3),_0x53c7b1),_0x4d77cb[_0x3ae72f(0x11d)](_0x3ae72f(0x349),_0x53c7b1);}else _0x4ae39e[_0x3ae72f(0x103)]&&(_0x4ae39e[_0x3ae72f(0x103)][_0x3ae72f(0x2d4)](),_0x4ae39e[_0x3ae72f(0x103)]=null,_0x4ae39e[_0x3ae72f(0x1fd)]=null),_0x4ae39e['annotationResizeObserver']&&(_0x4ae39e[_0x3ae72f(0x225)]['disconnect'](),_0x4ae39e[_0x3ae72f(0x225)]=null);}),_0x521e58[_0x37a25c(0x11d)]('click',()=>{const _0x3a2383=_0x37a25c;if(!_0x4ae39e[_0x3a2383(0x1fd)]||!_0x4ae39e[_0x3a2383(0x146)]||_0x4ae39e[_0x3a2383(0x146)][_0x3a2383(0x21a)]===0x0)return;const _0x519030=_0x4ae39e[_0x3a2383(0x146)]['pop']();_0x4ae39e[_0x3a2383(0x1fd)][_0x3a2383(0x304)](_0x519030,0x0,0x0);}),_0x3d7b55[_0x37a25c(0x11d)](_0x37a25c(0x102),()=>{const _0x4ddd3f=_0x37a25c;if(!_0x4ae39e[_0x4ddd3f(0x1fd)])return;const _0x2d18f0=_0x4ae39e[_0x4ddd3f(0x1fd)];_0x57810a(_0x4ae39e[_0x4ddd3f(0x103)],_0x2d18f0,_0x4ae39e[_0x4ddd3f(0x146)]),_0x2d18f0[_0x4ddd3f(0x228)](0x0,0x0,_0x2d18f0[_0x4ddd3f(0x33b)]['width'],_0x2d18f0['canvas'][_0x4ddd3f(0x337)]);});const _0x2a3adf=document['createElement'](_0x37a25c(0x36c));_0x2a3adf[_0x37a25c(0x364)]=_0x37a25c(0x2bd),_0x4e4fea[_0x37a25c(0x2b6)](_0x2a3adf),_0x4ae39e[_0x37a25c(0x11d)](_0x37a25c(0x173),()=>_0x164b4e(_0x4ae39e));let _0x3b0c4f,_0x160621;_0x4e4fea['onpointerdown']=_0x1f6a25=>{const _0x4cc0e7=_0x37a25c;if(_0x1f6a25[_0x4cc0e7(0x1fb)][_0x4cc0e7(0x30b)](_0x4cc0e7(0x30f)))return;_0x1f6a25[_0x4cc0e7(0x126)](),_0x4ae39e[_0x4cc0e7(0x100)][_0x4cc0e7(0x2d4)]('snapped-window'),_0x4ae39e['style'][_0x4cc0e7(0xfa)]='1';const _0x2f7d5b=_0x4ae39e[_0x4cc0e7(0x2f8)](_0x4cc0e7(0xd2));if(_0x2f7d5b)_0x2f7d5b[_0x4cc0e7(0x23a)]=0x64;_0x3b0c4f=_0x1f6a25[_0x4cc0e7(0x183)]-_0x4ae39e[_0x4cc0e7(0x1b4)],_0x160621=_0x1f6a25[_0x4cc0e7(0x16c)]-_0x4ae39e['offsetTop'];function _0x168fcf(_0x2d051e){const _0x1a5c78=_0x4cc0e7;let _0x13ab4a=_0x2d051e[_0x1a5c78(0x183)]-_0x3b0c4f,_0x54b9ad=_0x2d051e['clientY']-_0x160621;_0x13ab4a=Math[_0x1a5c78(0x22a)](_0x13ab4a/_0x4e5b0e)*_0x4e5b0e,_0x54b9ad=Math[_0x1a5c78(0x22a)](_0x54b9ad/_0x4e5b0e)*_0x4e5b0e;const _0xc3f098=_0x20afe4();_0x13ab4a=Math['max'](0x0,Math['min'](_0x13ab4a,window['innerWidth']-_0xc3f098-_0x4ae39e[_0x1a5c78(0x275)])),_0x54b9ad=Math[_0x1a5c78(0x1ef)](0x0,Math[_0x1a5c78(0x307)](_0x54b9ad,window[_0x1a5c78(0xd7)]-_0x4ae39e[_0x1a5c78(0x14f)])),_0x4ae39e[_0x1a5c78(0x109)][_0x1a5c78(0x158)]=_0x13ab4a+'px',_0x4ae39e[_0x1a5c78(0x109)][_0x1a5c78(0x2e3)]=_0x54b9ad+'px';}function _0x28f595(){const _0x50ffca=_0x4cc0e7;document[_0x50ffca(0x137)](_0x50ffca(0x367),_0x168fcf),document[_0x50ffca(0x137)](_0x50ffca(0x2c3),_0x28f595),_0x4fb4cd(_0x4ae39e);}document['addEventListener']('pointermove',_0x168fcf),document[_0x4cc0e7(0x11d)]('pointerup',_0x28f595);};const _0x4a79ad=0xa;let _0x24565b=![],_0x35006a='';_0x4ae39e[_0x37a25c(0x11d)](_0x37a25c(0x173),_0x1bc36e=>{const _0x3b6967=_0x37a25c,_0x314db5=_0x4ae39e[_0x3b6967(0x2ab)](),_0xb1ad5e=_0x1bc36e[_0x3b6967(0x16c)]>=_0x314db5['top']&&_0x1bc36e[_0x3b6967(0x16c)]<=_0x314db5[_0x3b6967(0x2e3)]+_0x4a79ad,_0x1ec5d6=_0x1bc36e['clientY']<=_0x314db5['bottom']&&_0x1bc36e[_0x3b6967(0x16c)]>=_0x314db5[_0x3b6967(0x290)]-_0x4a79ad,_0x57761f=_0x1bc36e[_0x3b6967(0x183)]>=_0x314db5[_0x3b6967(0x158)]&&_0x1bc36e['clientX']<=_0x314db5[_0x3b6967(0x158)]+_0x4a79ad,_0x450853=_0x1bc36e[_0x3b6967(0x183)]<=_0x314db5['right']&&_0x1bc36e[_0x3b6967(0x183)]>=_0x314db5['right']-_0x4a79ad;if(!_0xb1ad5e&&!_0x1ec5d6&&!_0x57761f&&!_0x450853)return;_0x24565b=!![],_0x35006a='';if(_0xb1ad5e)_0x35006a+='n';if(_0x1ec5d6)_0x35006a+='s';if(_0x57761f)_0x35006a+='w';if(_0x450853)_0x35006a+='e';_0x1bc36e['preventDefault']();let _0x56ad6f=_0x1bc36e[_0x3b6967(0x183)],_0x3bd307=_0x1bc36e['clientY'];function _0x4c3f31(_0x59ce11){const _0x1fc662=_0x3b6967,_0x592b8c=_0x59ce11[_0x1fc662(0x183)]-_0x56ad6f,_0x4820f4=_0x59ce11['clientY']-_0x3bd307;let _0x315715=_0x4ae39e[_0x1fc662(0x275)],_0x41cf86=_0x4ae39e['offsetHeight'],_0x11a96f=_0x4ae39e[_0x1fc662(0x1b4)],_0x43e51c=_0x4ae39e['offsetTop'];if(_0x35006a['includes']('e'))_0x315715+=_0x592b8c;_0x35006a[_0x1fc662(0x238)]('w')&&(_0x315715-=_0x592b8c,_0x11a96f+=_0x592b8c);if(_0x35006a[_0x1fc662(0x238)]('s'))_0x41cf86+=_0x4820f4;_0x35006a[_0x1fc662(0x238)]('n')&&(_0x41cf86-=_0x4820f4,_0x43e51c+=_0x4820f4),_0x4ae39e[_0x1fc662(0x109)]['width']=_0x315715+'px',_0x4ae39e[_0x1fc662(0x109)][_0x1fc662(0x337)]=_0x41cf86+'px',_0x4ae39e[_0x1fc662(0x109)][_0x1fc662(0x158)]=_0x11a96f+'px',_0x4ae39e[_0x1fc662(0x109)]['top']=_0x43e51c+'px',_0x56ad6f=_0x59ce11[_0x1fc662(0x183)],_0x3bd307=_0x59ce11[_0x1fc662(0x16c)];}function _0x544616(){const _0x4c8102=_0x3b6967;_0x24565b=![],document[_0x4c8102(0x137)](_0x4c8102(0x367),_0x4c3f31),document[_0x4c8102(0x137)](_0x4c8102(0x2c3),_0x544616);}document[_0x3b6967(0x11d)](_0x3b6967(0x367),_0x4c3f31),document[_0x3b6967(0x11d)]('pointerup',_0x544616);}),_0x4ae39e[_0x37a25c(0x11d)]('mousemove',_0x36f6ca=>{const _0x278306=_0x37a25c;if(_0x24565b)return;const _0xccfd33=_0x4ae39e[_0x278306(0x2ab)](),_0x3ed0a3=_0x36f6ca[_0x278306(0x16c)]>=_0xccfd33[_0x278306(0x2e3)]&&_0x36f6ca[_0x278306(0x16c)]<=_0xccfd33[_0x278306(0x2e3)]+_0x4a79ad,_0x5104e9=_0x36f6ca[_0x278306(0x16c)]<=_0xccfd33[_0x278306(0x290)]&&_0x36f6ca[_0x278306(0x16c)]>=_0xccfd33[_0x278306(0x290)]-_0x4a79ad,_0x1b562b=_0x36f6ca[_0x278306(0x183)]>=_0xccfd33[_0x278306(0x158)]&&_0x36f6ca[_0x278306(0x183)]<=_0xccfd33[_0x278306(0x158)]+_0x4a79ad,_0x50fd66=_0x36f6ca[_0x278306(0x183)]<=_0xccfd33['right']&&_0x36f6ca[_0x278306(0x183)]>=_0xccfd33[_0x278306(0xd8)]-_0x4a79ad;if(_0x3ed0a3&&_0x1b562b||_0x5104e9&&_0x50fd66)_0x4ae39e['style']['cursor']=_0x278306(0x28f);else{if(_0x3ed0a3&&_0x50fd66||_0x5104e9&&_0x1b562b)_0x4ae39e[_0x278306(0x109)][_0x278306(0x247)]=_0x278306(0x20b);else{if(_0x3ed0a3||_0x5104e9)_0x4ae39e[_0x278306(0x109)][_0x278306(0x247)]=_0x278306(0x331);else{if(_0x1b562b||_0x50fd66)_0x4ae39e[_0x278306(0x109)][_0x278306(0x247)]='ew-resize';else _0x4ae39e[_0x278306(0x109)]['cursor']=_0x278306(0x242);}}}});const _0x549ce0=document[_0x37a25c(0x343)](_0x37a25c(0xd0));_0x549ce0[_0x37a25c(0x1b3)]=_0x37a25c(0x239),_0x549ce0[_0x37a25c(0x364)]=_0x37a25c(0x10f),_0x549ce0[_0x37a25c(0x307)]='10',_0x549ce0[_0x37a25c(0x1ef)]='100',_0x549ce0[_0x37a25c(0x23a)]=_0x37a25c(0x12a),_0x549ce0['title']=_0x37a25c(0x19b),_0x549ce0['oninput']=_0x2683fe=>{const _0x4afb74=_0x37a25c;_0x4ae39e[_0x4afb74(0x109)][_0x4afb74(0xfa)]=_0x2683fe[_0x4afb74(0x1fb)][_0x4afb74(0x23a)]/0x64;},_0x2a3adf[_0x37a25c(0x2b6)](_0x549ce0);const _0x10bd15=[{'type':'quadrant','content':_0x37a25c(0x16a),'title':_0x37a25c(0x27d)},{'type':_0x37a25c(0x361),'content':'<i\x20class=\x22fa-solid\x20fa-columns\x22></i>','title':_0x37a25c(0x194)},{'type':_0x37a25c(0x21b),'content':'<i\x20class=\x22fa-solid\x20fa-columns\x20h-half-icon\x22></i>','title':_0x37a25c(0x1e7)},{'type':_0x37a25c(0x255),'content':_0x37a25c(0xea),'title':'Snap\x20to\x20Fullscreen'},{'type':_0x37a25c(0x151),'content':_0x37a25c(0x371),'title':_0x37a25c(0x181)},{'type':'close','content':'×','title':_0x37a25c(0x24b)}];_0x10bd15[_0x37a25c(0x18d)](_0x424988=>{const _0x1d363f=_0x37a25c,_0x3e9200=document[_0x1d363f(0x343)](_0x1d363f(0x2e2));_0x3e9200[_0x1d363f(0x364)]=_0x424988[_0x1d363f(0x1b3)]===_0x1d363f(0x32b)?_0x1d363f(0x1c4):_0x1d363f(0x233),_0x3e9200['innerHTML']=_0x424988[_0x1d363f(0x175)],_0x3e9200[_0x1d363f(0x29f)]=_0x424988['title'],_0x3e9200[_0x1d363f(0x2a9)]=()=>{const _0x260191=_0x1d363f,_0x575122=_0x20afe4(),_0xc4a021=window[_0x260191(0x207)]-_0x575122,_0x21d320=window[_0x260191(0xd7)],_0x342245=_0xc4a021/0x2,_0xd2ab38=_0x21d320/0x2;if(_0x424988[_0x260191(0x1b3)]===_0x260191(0x333)){const _0x43db1d=_0x4ae39e[_0x260191(0x1b4)]+_0x4ae39e[_0x260191(0x275)]/0x2,_0x2c45f2=_0x4ae39e[_0x260191(0x2d8)]+_0x4ae39e[_0x260191(0x14f)]/0x2;_0x4ae39e[_0x260191(0x109)][_0x260191(0x158)]=_0x43db1d<_0x342245?_0x260191(0x369):_0x342245+'px',_0x4ae39e['style']['top']=_0x2c45f2<_0xd2ab38?_0x260191(0x369):_0xd2ab38+'px',_0x4ae39e['style'][_0x260191(0x300)]=_0x342245+'px',_0x4ae39e[_0x260191(0x109)][_0x260191(0x337)]=_0xd2ab38+'px';}else{if(_0x424988['type']===_0x260191(0x361)){const _0x511270=_0x4ae39e[_0x260191(0x1b4)]+_0x4ae39e[_0x260191(0x275)]/0x2;_0x4ae39e[_0x260191(0x109)][_0x260191(0x158)]=_0x511270<_0x342245?_0x260191(0x369):_0x342245+'px',_0x4ae39e['style'][_0x260191(0x2e3)]=_0x260191(0x369),_0x4ae39e[_0x260191(0x109)][_0x260191(0x300)]=_0x342245+'px',_0x4ae39e[_0x260191(0x109)]['height']=_0x21d320+'px';}else{if(_0x424988[_0x260191(0x1b3)]===_0x260191(0x21b)){const _0x11fa4d=_0x4ae39e[_0x260191(0x2d8)]+_0x4ae39e[_0x260191(0x14f)]/0x2;_0x4ae39e[_0x260191(0x109)][_0x260191(0x2e3)]=_0x11fa4d<_0xd2ab38?_0x260191(0x369):_0xd2ab38+'px',_0x4ae39e[_0x260191(0x109)][_0x260191(0x158)]=_0x260191(0x369),_0x4ae39e['style'][_0x260191(0x300)]=_0xc4a021+'px',_0x4ae39e['style'][_0x260191(0x337)]=_0xd2ab38+'px';}else{if(_0x424988[_0x260191(0x1b3)]===_0x260191(0x255))_0x4ae39e[_0x260191(0x109)][_0x260191(0x158)]='0',_0x4ae39e[_0x260191(0x109)][_0x260191(0x2e3)]='0',_0x4ae39e[_0x260191(0x109)][_0x260191(0x300)]=_0xc4a021+'px',_0x4ae39e[_0x260191(0x109)]['height']=_0x21d320+'px';else{if(_0x424988[_0x260191(0x1b3)]==='send-back'){const _0x4d647c=document[_0x260191(0x18e)]('.floating');if(_0x4d647c['length']<0x2)return;let _0x5187a4=Infinity;_0x4d647c[_0x260191(0x18d)](_0x2cc14a=>{const _0x5a7b8b=_0x260191,_0x21da8b=parseInt(window[_0x5a7b8b(0x2ce)](_0x2cc14a)[_0x5a7b8b(0x36d)],0xa);!isNaN(_0x21da8b)&&_0x21da8b<_0x5187a4&&(_0x5187a4=_0x21da8b);}),_0x4ae39e[_0x260191(0x109)][_0x260191(0x36d)]=_0x5187a4-0x1,_0x4ae39e[_0x260191(0x100)][_0x260191(0x2d4)](_0x260191(0xe7));}else _0x424988['type']===_0x260191(0x32b)&&(_0x1f3463(_0x4ae39e),_0x4ae39e[_0x260191(0x2d4)]());}}}}},_0x2a3adf[_0x1d363f(0x2b6)](_0x3e9200);}),_0x4ae39e[_0x37a25c(0x11d)]('dragover',_0x3b3843=>_0x3b3843[_0x37a25c(0x232)]()),_0x4ae39e[_0x37a25c(0x11d)](_0x37a25c(0x201),_0x3f38ea);const _0x46cef4=document[_0x37a25c(0x343)](_0x37a25c(0x36c));_0x46cef4['className']='win-body';const _0x240987=document['createElement']('div');_0x240987[_0x37a25c(0x364)]='win-main-area';const _0x1942ee=document['createElement'](_0x37a25c(0x36c));_0x1942ee[_0x37a25c(0x364)]=_0x37a25c(0x176),_0x46cef4[_0x37a25c(0x206)](_0x240987,_0x1942ee),_0x4ae39e[_0x37a25c(0x2b6)](_0x46cef4);const _0xa3ab5e=[{'key':'d','icon':'fas\x20fa-pencil-alt','func':_0x3d9c3d,'title':_0x37a25c(0x187)},{'key':'t','icon':_0x37a25c(0x29c),'func':_0x111d31,'title':'Text\x20Editor\x20(T)'},{'key':'0','icon':_0x37a25c(0x107),'func':activateNumberedList,'title':'Numbered\x20List\x20(0)'},{'key':'w','icon':_0x37a25c(0x2fc),'func':_0x55c855,'title':_0x37a25c(0xf6),'premium':!![]},{'key':'v','icon':_0x37a25c(0x265),'func':_0x12ab3c,'title':_0x37a25c(0x1cb),'premium':!![]},{'key':'o','icon':_0x37a25c(0x29e),'func':_0x1b69c8,'title':'Countdown\x20Timer\x20(O)','premium':!![]},{'key':'h','icon':_0x37a25c(0x312),'func':_0x50f1d0,'title':_0x37a25c(0x33e),'premium':!![]},{'key':'g','icon':_0x37a25c(0xf5),'func':_0x77f99c,'title':_0x37a25c(0xe5),'premium':!![]},{'key':'a','icon':'fas\x20fa-balance-scale','func':_0x2f3bc9,'title':_0x37a25c(0x2bb),'premium':!![]},{'key':'u','icon':_0x37a25c(0x28b),'func':_0x50973c,'title':_0x37a25c(0x133),'premium':!![]}];_0xa3ab5e['forEach'](_0x2148fa=>{const _0x2a180a=_0x37a25c,_0x883a9e=document[_0x2a180a(0x343)](_0x2a180a(0x2e2));_0x883a9e['className']='icon-btn';_0x2148fa[_0x2a180a(0x2c5)]&&_0x883a9e[_0x2a180a(0x100)][_0x2a180a(0x2f9)](_0x2a180a(0x1b2));_0x883a9e[_0x2a180a(0xf2)][_0x2a180a(0x147)]=_0x2148fa[_0x2a180a(0x22d)],_0x883a9e[_0x2a180a(0x317)]=_0x2a180a(0x25f)+_0x2148fa[_0x2a180a(0x1d1)]+_0x2a180a(0x2f3),_0x883a9e[_0x2a180a(0x2a9)]=()=>{const _0x45e814=_0x2a180a;if(_0x2148fa[_0x45e814(0x2c5)]&&!window['TT'][_0x45e814(0x26a)]){_0x4e5e1d();return;}_0x1f3463(_0x4ae39e),_0x2148fa[_0x45e814(0x26d)](_0x4ae39e);};const _0x542ff0=document[_0x2a180a(0x343)](_0x2a180a(0x34a));_0x542ff0['className']=_0x2a180a(0x25a),_0x542ff0[_0x2a180a(0x1c0)]=_0x2148fa['key'][_0x2a180a(0x2f1)]();const _0xf0ebd1=document['createElement']('span');_0xf0ebd1[_0x2a180a(0x364)]=_0x2a180a(0x1c6),_0xf0ebd1['textContent']=_0x2148fa['title'],_0x883a9e[_0x2a180a(0x206)](_0x542ff0,_0xf0ebd1),_0x1942ee['appendChild'](_0x883a9e);});const _0x19306a=document[_0x37a25c(0x343)](_0x37a25c(0xd0));_0x19306a[_0x37a25c(0x1b3)]=_0x37a25c(0x11e),_0x19306a['style']['display']=_0x37a25c(0x341),_0x19306a['accept']=_0x37a25c(0x127),_0x4ae39e['appendChild'](_0x19306a);const _0x388220=document[_0x37a25c(0x343)](_0x37a25c(0x2e2));_0x388220[_0x37a25c(0x364)]=_0x37a25c(0x196),_0x388220[_0x37a25c(0x29f)]=_0x37a25c(0x13a),_0x388220[_0x37a25c(0x317)]='<i\x20class=\x22fas\x20fa-file-arrow-up\x22></i>',_0x388220['onclick']=()=>_0x19306a[_0x37a25c(0x102)](),_0x19306a[_0x37a25c(0x326)]=()=>{const _0x3caac8=_0x37a25c;_0x19306a[_0x3caac8(0x237)][_0x3caac8(0x21a)]>0x0&&_0x4c9836(_0x4ae39e,_0x19306a[_0x3caac8(0x237)][0x0]);},_0x1942ee[_0x37a25c(0x2b6)](_0x388220);const _0xa9d743=document[_0x37a25c(0x343)](_0x37a25c(0x2e2));_0xa9d743[_0x37a25c(0x364)]='icon-btn\x20reset-content-btn',_0xa9d743['title']='Erase\x20Content\x20(E)',_0xa9d743[_0x37a25c(0x317)]=_0x37a25c(0x308),_0xa9d743[_0x37a25c(0x2a9)]=()=>{const _0x4e43b9=_0x37a25c,_0x4969e7={'left':_0x4ae39e[_0x4e43b9(0x109)][_0x4e43b9(0x158)],'top':_0x4ae39e['style'][_0x4e43b9(0x2e3)],'width':_0x4ae39e[_0x4e43b9(0x109)][_0x4e43b9(0x300)],'height':_0x4ae39e[_0x4e43b9(0x109)][_0x4e43b9(0x337)],'opacity':_0x4ae39e['style'][_0x4e43b9(0xfa)]},_0xe1668b=_0x4ae39e[_0x4e43b9(0x100)][_0x4e43b9(0x1c2)]('active-window');_0x1f3463(_0x4ae39e),_0x4ae39e[_0x4e43b9(0x2d4)]();const _0x10fb2e=_0x1bce1e();_0x10fb2e[_0x4e43b9(0x109)][_0x4e43b9(0x158)]=_0x4969e7[_0x4e43b9(0x158)],_0x10fb2e[_0x4e43b9(0x109)][_0x4e43b9(0x2e3)]=_0x4969e7[_0x4e43b9(0x2e3)],_0x10fb2e['style'][_0x4e43b9(0x300)]=_0x4969e7['width'],_0x10fb2e[_0x4e43b9(0x109)]['height']=_0x4969e7['height'],_0x10fb2e[_0x4e43b9(0x109)][_0x4e43b9(0xfa)]=_0x4969e7['opacity'];if(_0xe1668b)_0x164b4e(_0x10fb2e);},_0x1942ee[_0x37a25c(0x2b6)](_0xa9d743);const _0x4c9215=document[_0x37a25c(0x343)](_0x37a25c(0x36c));return _0x4c9215['className']=_0x37a25c(0x138),_0x4c9215['onclick']=()=>{const _0x462250=_0x37a25c,_0x5469d1=_0x4ae39e[_0x462250(0x2f8)](_0x462250(0x32e));_0x5469d1&&_0x5469d1[_0x462250(0x102)]();},_0x4c9215[_0x37a25c(0x317)]=_0x37a25c(0x10d),_0x240987['appendChild'](_0x4c9215),document['body'][_0x37a25c(0x2b6)](_0x4ae39e),_0x4ae39e;}function _0xb3fb50(_0x16c9e9,_0x53505a){const _0x44400f=_0x376907,_0x4584fe=_0x16c9e9[_0x44400f(0x2ab)](),_0x4f2cf2=_0x53505a[_0x44400f(0x2ab)](),_0x1085f7=Math[_0x44400f(0x1ef)](_0x4584fe[_0x44400f(0x158)],_0x4f2cf2[_0x44400f(0x158)]),_0x2df1f4=Math['max'](_0x4584fe['top'],_0x4f2cf2[_0x44400f(0x2e3)]),_0x105fe7=Math[_0x44400f(0x307)](_0x4584fe[_0x44400f(0xd8)],_0x4f2cf2[_0x44400f(0xd8)]),_0x1de961=Math[_0x44400f(0x307)](_0x4584fe[_0x44400f(0x290)],_0x4f2cf2[_0x44400f(0x290)]),_0x5b9926=_0x105fe7-_0x1085f7,_0x40ca64=_0x1de961-_0x2df1f4;if(_0x5b9926<=0x0||_0x40ca64<=0x0)return 0x0;const _0x5ecd87=_0x5b9926*_0x40ca64,_0x236a7d=_0x4f2cf2[_0x44400f(0x300)]*_0x4f2cf2[_0x44400f(0x337)];return _0x5ecd87/_0x236a7d;}function _0x4fb4cd(_0x478171){const _0x2c8c6f=_0x376907,_0x7fc216=document[_0x2c8c6f(0x18e)](_0x2c8c6f(0x358));for(const _0xf69a6b of _0x7fc216){if(_0x478171===_0xf69a6b)continue;const _0x4386b6=Math[_0x2c8c6f(0x35c)](_0x478171[_0x2c8c6f(0x275)]-_0xf69a6b[_0x2c8c6f(0x275)])<0x5,_0xaf8689=Math[_0x2c8c6f(0x35c)](_0x478171[_0x2c8c6f(0x14f)]-_0xf69a6b[_0x2c8c6f(0x14f)])<0x5;if(_0x4386b6&&_0xaf8689){const _0x3a8fc3=_0xb3fb50(_0x478171,_0xf69a6b);if(_0x3a8fc3>=0.55){_0x478171[_0x2c8c6f(0x109)][_0x2c8c6f(0x158)]=_0xf69a6b['style'][_0x2c8c6f(0x158)],_0x478171[_0x2c8c6f(0x109)][_0x2c8c6f(0x2e3)]=_0xf69a6b[_0x2c8c6f(0x109)][_0x2c8c6f(0x2e3)],_0x478171[_0x2c8c6f(0x109)][_0x2c8c6f(0xfa)]=_0x2c8c6f(0x2ac);const _0x5f2bab=_0x478171[_0x2c8c6f(0x2f8)](_0x2c8c6f(0xd2));if(_0x5f2bab)_0x5f2bab[_0x2c8c6f(0x23a)]=0x1e;_0x478171[_0x2c8c6f(0x100)]['add'](_0x2c8c6f(0x31b));return;}}}}function _0xc94acb(_0x31402a,_0x1c5a56){const _0x23f9dc=_0x376907;_0x53f35d['activeLayout']===_0x31402a?(_0xab6f7a(),_0x53f35d[_0x23f9dc(0x227)]=null,_0x53f35d[_0x23f9dc(0x29a)]=!![],localStorage[_0x23f9dc(0x186)]('ttx_lastLayout')):(_0x1c5a56(),_0x53f35d['activeLayout']=_0x31402a,_0x53f35d[_0x23f9dc(0x29a)]=!![],localStorage[_0x23f9dc(0x323)](_0x23f9dc(0x2d6),_0x31402a));}function _0x336899(_0x349062,_0x54dde7=!![]){const _0x788542=_0x376907,_0x3708cf=_0x20afe4(),_0x5387ac=window[_0x788542(0x207)]-_0x3708cf,_0x5ec7f4=window[_0x788542(0xd7)],_0x4053f2=_0x5387ac/0x2,_0x367dd3=_0x5ec7f4/0x2;let _0x3e9081=[];switch(_0x349062){case 0x1:_0x3e9081['push']({'left':'0','top':'0','width':_0x5387ac+'px','height':_0x5ec7f4+'px'});break;case 0x2:_0x3e9081[_0x788542(0x174)]({'left':_0x788542(0x369),'top':_0x788542(0x369),'width':_0x4053f2+'px','height':_0x5ec7f4+'px'},{'left':_0x4053f2+'px','top':_0x788542(0x369),'width':_0x4053f2+'px','height':_0x5ec7f4+'px'});break;case 0x3:_0x3e9081[_0x788542(0x174)]({'left':_0x788542(0x369),'top':'0px','width':_0x4053f2+'px','height':_0x5ec7f4+'px'},{'left':_0x4053f2+'px','top':_0x788542(0x369),'width':_0x4053f2+'px','height':_0x367dd3+'px'},{'left':_0x4053f2+'px','top':_0x367dd3+'px','width':_0x4053f2+'px','height':_0x367dd3+'px'});break;case 0x4:_0x3e9081[_0x788542(0x174)]({'left':_0x4053f2+'px','top':'0px','width':_0x4053f2+'px','height':_0x5ec7f4+'px'},{'left':_0x788542(0x369),'top':_0x788542(0x369),'width':_0x4053f2+'px','height':_0x367dd3+'px'},{'left':_0x788542(0x369),'top':_0x367dd3+'px','width':_0x4053f2+'px','height':_0x367dd3+'px'});break;case 0x5:_0x3e9081[_0x788542(0x174)]({'left':_0x788542(0x369),'top':_0x788542(0x369),'width':_0x4053f2+'px','height':_0x367dd3+'px'},{'left':_0x4053f2+'px','top':_0x788542(0x369),'width':_0x4053f2+'px','height':_0x367dd3+'px'},{'left':_0x788542(0x369),'top':_0x367dd3+'px','width':_0x4053f2+'px','height':_0x367dd3+'px'},{'left':_0x4053f2+'px','top':_0x367dd3+'px','width':_0x4053f2+'px','height':_0x367dd3+'px'});break;case 0x6:const _0x19470a=_0x5387ac*0.1573605,_0x534ba3=_0x5387ac*0.429875,_0x5f2223=_0x5387ac*0.4127645,_0x306879=_0x534ba3,_0x323631=_0x534ba3+_0x5f2223;_0x3e9081[_0x788542(0x174)]({'left':_0x788542(0x369),'top':'0px','width':_0x534ba3+'px','height':_0x5ec7f4+'px'}),_0x3e9081[_0x788542(0x174)]({'left':_0x306879+'px','top':_0x788542(0x369),'width':_0x5f2223+'px','height':_0x5ec7f4+'px'}),_0x3e9081['push']({'left':_0x323631+'px','top':_0x788542(0x369),'width':_0x19470a+'px','height':_0x367dd3+'px'}),_0x3e9081[_0x788542(0x174)]({'left':_0x323631+'px','top':_0x367dd3+'px','width':_0x19470a+'px','height':_0x367dd3+'px'});break;case 0x7:const _0x1692bd=_0x5387ac*0.1573605,_0x1dc120=_0x5387ac*0.429875,_0x2dfe8a=_0x5387ac*0.4127645,_0x30b0c1=_0x1dc120,_0x155b47=_0x1dc120+_0x2dfe8a;_0x3e9081['push']({'left':_0x788542(0x369),'top':_0x788542(0x369),'width':_0x1dc120+'px','height':_0x5ec7f4+'px'}),_0x3e9081[_0x788542(0x174)]({'left':_0x30b0c1+'px','top':_0x788542(0x369),'width':_0x2dfe8a+'px','height':_0x367dd3+'px'}),_0x3e9081['push']({'left':_0x30b0c1+'px','top':_0x367dd3+'px','width':_0x2dfe8a+'px','height':_0x367dd3+'px'}),_0x3e9081[_0x788542(0x174)]({'left':_0x155b47+'px','top':_0x788542(0x369),'width':_0x1692bd+'px','height':_0x367dd3+'px'}),_0x3e9081['push']({'left':_0x155b47+'px','top':_0x367dd3+'px','width':_0x1692bd+'px','height':_0x367dd3+'px'});break;case 0x8:const _0x5706f0=_0x5387ac*0.75,_0x5986db=_0x5387ac*0.25,_0x47083e=_0x5706f0;_0x3e9081[_0x788542(0x174)]({'left':'0px','top':_0x788542(0x369),'width':_0x5706f0+'px','height':_0x5ec7f4+'px'}),_0x3e9081[_0x788542(0x174)]({'left':_0x47083e+'px','top':_0x788542(0x369),'width':_0x5986db+'px','height':_0x367dd3+'px'}),_0x3e9081['push']({'left':_0x47083e+'px','top':_0x367dd3+'px','width':_0x5986db+'px','height':_0x367dd3+'px'});break;}_0x335fdc(_0x3e9081),_0x54dde7&&_0x11f405(String(_0x349062));}let _0x20ed50={};const _0x3dead4=_0x49307c=>{const _0xa1ba1a=_0x376907;if(!_0x20ed50[_0xa1ba1a(0x214)])return;const _0x4b267c=infoTranslations[_0x49307c]||infoTranslations['en'];let _0x11072b=_0xa1ba1a(0x32a)+_0x4b267c[_0xa1ba1a(0x29f)]+_0xa1ba1a(0x27b)+_0x4b267c[_0xa1ba1a(0x2ec)]+_0xa1ba1a(0x2f7);for(let _0x503ee4=0x1;_0x503ee4<=0x4;_0x503ee4++){_0x4b267c[_0xa1ba1a(0x199)+_0x503ee4+_0xa1ba1a(0x1e5)]&&(_0x11072b+='<h3>'+_0x4b267c[_0xa1ba1a(0x199)+_0x503ee4+'_title']+_0xa1ba1a(0x14b),_0x4b267c['section'+_0x503ee4+_0xa1ba1a(0x34e)]['forEach'](_0x1eb06a=>{const _0x208d6e=_0xa1ba1a,_0x4bbe3d=_0x1eb06a[_0x208d6e(0x1bc)](/:(.+)/s);_0x11072b+=_0x208d6e(0x188)+_0x4bbe3d[0x0]+_0x208d6e(0x1e6)+(_0x4bbe3d['length']>0x1?_0x4bbe3d[0x1][_0x208d6e(0x2c1)]():'')+_0x208d6e(0x36e);}),_0x11072b+=_0xa1ba1a(0x261));}_0x11072b+=_0xa1ba1a(0x26b)+_0x4b267c[_0xa1ba1a(0x226)]+'</em></p>',_0x20ed50['wrapper'][_0xa1ba1a(0x317)]=_0x11072b;},_0x1f7064=()=>{const _0x4913f6=_0x376907;if(!_0x20ed50[_0x4913f6(0x214)])return;_0x20ed50['wrapper']['style'][_0x4913f6(0x155)]='';let _0xe8d72d=0x8,_0x20fce8=parseFloat(window[_0x4913f6(0x2ce)](_0x20ed50[_0x4913f6(0x214)])['fontSize']),_0x3fbece=_0xe8d72d;for(let _0x32beb2=0x0;_0x32beb2<0xa;_0x32beb2++){let _0x57da8a=(_0xe8d72d+_0x20fce8)/0x2;_0x20ed50[_0x4913f6(0x214)]['style'][_0x4913f6(0x155)]=_0x57da8a+'px',_0x20ed50[_0x4913f6(0x214)][_0x4913f6(0x325)]>_0x20ed50[_0x4913f6(0x214)][_0x4913f6(0x2b8)]?_0x20fce8=_0x57da8a:(_0x3fbece=_0x57da8a,_0xe8d72d=_0x57da8a);}_0x20ed50['wrapper'][_0x4913f6(0x109)]['fontSize']=_0x3fbece+'px';};window['TT']['updateInfoWindowLanguage']=_0x1fd08f=>{const _0x52f020=_0x376907,_0x58dfbb=document[_0x52f020(0x2f8)](_0x52f020(0x1a0));_0x58dfbb&&(_0x3dead4(_0x1fd08f),_0x1f7064());};function _0x39b86a(_0x37d4e5=!![]){const _0x35db99=_0x376907;_0xab6f7a();const _0x5a1a8=_0x1bce1e(),_0x5b8343=_0x20afe4();_0x5a1a8['style'][_0x35db99(0x158)]=_0x35db99(0x369),_0x5a1a8[_0x35db99(0x109)][_0x35db99(0x2e3)]=_0x35db99(0x369),_0x5a1a8[_0x35db99(0x109)][_0x35db99(0x300)]=window[_0x35db99(0x207)]-_0x5b8343+'px',_0x5a1a8[_0x35db99(0x109)][_0x35db99(0x337)]=window['innerHeight']+'px',_0x5a1a8['style'][_0x35db99(0x1b5)]=_0x35db99(0x341),_0x5a1a8[_0x35db99(0x109)]['borderRadius']='0';const _0x25485b=_0x5a1a8['querySelector']('.drag-bar');if(_0x25485b)_0x25485b[_0x35db99(0x109)][_0x35db99(0x2de)]=_0x35db99(0x341);const _0x764dd1=document[_0x35db99(0x343)](_0x35db99(0x2e2));_0x764dd1[_0x35db99(0x364)]='info-close-btn',_0x764dd1[_0x35db99(0x317)]=_0x35db99(0x274),_0x764dd1['title']='Close',_0x764dd1[_0x35db99(0x2a9)]=_0x6fa9c8=>{const _0x53aa1f=_0x35db99;_0x6fa9c8[_0x53aa1f(0x126)](),_0x47b3b8();},_0x5a1a8[_0x35db99(0x2b6)](_0x764dd1);const _0x133ea7=_0x5a1a8[_0x35db99(0x2f8)](_0x35db99(0x301));if(_0x133ea7)_0x133ea7['style']['display']=_0x35db99(0x341);const _0x17dc63=_0x5a1a8[_0x35db99(0x2f8)](_0x35db99(0x336));_0x17dc63&&(_0x17dc63[_0x35db99(0x317)]='',_0x17dc63[_0x35db99(0x109)][_0x35db99(0x1b0)]='0',_0x17dc63[_0x35db99(0x109)][_0x35db99(0x350)]='hidden');const _0x29a969=document[_0x35db99(0x343)]('div');_0x29a969[_0x35db99(0x364)]=_0x35db99(0xcf),_0x29a969[_0x35db99(0x109)]['height']=_0x35db99(0x165),_0x29a969[_0x35db99(0x109)][_0x35db99(0x145)]=_0x35db99(0xd3);const _0x54e3c4=document[_0x35db99(0x343)](_0x35db99(0x36c));_0x54e3c4[_0x35db99(0x364)]='info-content-wrapper',_0x20ed50[_0x35db99(0x214)]=_0x54e3c4;const _0x4fcc9c=localStorage[_0x35db99(0x249)](_0x35db99(0x18a))||'en';_0x3dead4(_0x4fcc9c),_0x29a969['append'](_0x54e3c4);if(_0x17dc63)_0x17dc63[_0x35db99(0x2b6)](_0x29a969);setTimeout(()=>{const _0x392010=_0x35db99;_0x54e3c4[_0x392010(0x100)][_0x392010(0x2f9)]('info-fade-in');},0xa);if(_0x17dc63){const _0x279d89=new ResizeObserver(()=>{requestAnimationFrame(_0x1f7064);});_0x279d89['observe'](_0x17dc63),_0x5a1a8[_0x35db99(0x1d7)]=_0x279d89;}setTimeout(_0x1f7064,0x32),_0x5a1a8[_0x35db99(0x2a9)]=_0x29be3b=>{const _0xdc3888=_0x35db99;(_0x29be3b[_0xdc3888(0x1fb)]===_0x5a1a8||_0x29be3b[_0xdc3888(0x1fb)]===_0x29a969||_0x29be3b['target']===_0x17dc63)&&_0x47b3b8();},_0x37d4e5&&_0x11f405('i');}_0x3a9588(_0x376907(0xf1))[_0x376907(0x2a9)]=()=>{const _0x404487=_0x376907,_0x3887bf=_0x1bce1e();_0x164b4e(_0x3887bf),_0x11f405('+'),_0x53f35d[_0x404487(0x227)]=null,localStorage[_0x404487(0x186)](_0x404487(0x2d6));},document[_0x376907(0x18e)](_0x376907(0x332))[_0x376907(0x18d)](_0x10f8ba=>{const _0x5df1e7=_0x376907;_0x10f8ba[_0x5df1e7(0x2a9)]=()=>{const _0x43e55c=_0x5df1e7,_0x51bd6f=parseInt(_0x10f8ba['id'][_0x43e55c(0x25d)](/\d+/)[0x0]);_0xc94acb(_0x51bd6f,()=>_0x336899(_0x51bd6f));};}),_0x3a9588(_0x376907(0x157))[_0x376907(0x2a9)]=()=>{const _0x479094=_0x376907;if(_0x47b3b8())return;_0x3a9588(_0x479094(0x33d))[_0x479094(0x102)](),_0x53f35d['activeLayout']=null,localStorage[_0x479094(0x186)](_0x479094(0x2d6));};const _0xb04f44=_0x3a9588(_0x376907(0x172)),_0x51b6d8=_0x3a9588(_0x376907(0x257));_0x51b6d8&&(_0x51b6d8[_0x376907(0x2a9)]=_0x21032d=>{const _0x403658=_0x376907;_0x21032d['stopPropagation']();if(_0x47b3b8())return;_0xb04f44[_0x403658(0x100)][_0x403658(0x1c9)](_0x403658(0x148));});_0xb04f44&&_0xb04f44[_0x376907(0x11d)](_0x376907(0x102),_0x1fe69e=>{const _0x262196=_0x376907;if(_0x1fe69e[_0x262196(0x1fb)][_0x262196(0x100)][_0x262196(0x1c2)]('palette-swatch')){const _0x75afc4=_0x1fe69e[_0x262196(0x1fb)]['dataset'][_0x262196(0xdd)];_0x75afc4&&(_0xc98a2a(_0x75afc4),localStorage[_0x262196(0x323)]('ttx_accentColor',_0x75afc4),_0xb04f44[_0x262196(0x100)][_0x262196(0x2f9)]('hidden'));}});_0x3a9588('colorPicker')['oninput']=_0x2c2452=>{const _0x5b7d2f=_0x376907;if(_0x47b3b8())return;const _0x33ffcd=_0x2c2452[_0x5b7d2f(0x1fb)]['value'];_0xc98a2a(_0x33ffcd),localStorage[_0x5b7d2f(0x323)](_0x5b7d2f(0xe2),_0x33ffcd),_0x53f35d['activeLayout']=null;};function _0xc98a2a(_0x25242e){const _0x5d5fff=_0x376907;document[_0x5d5fff(0x12f)][_0x5d5fff(0x109)]['setProperty'](_0x5d5fff(0x316),_0x25242e),document['body'][_0x5d5fff(0x100)]['toggle'](_0x5d5fff(0x219),_0x25242e['toLowerCase']()!==_0x21a8a6[_0x5d5fff(0x293)]());const _0x58f153=parseInt(_0x25242e[_0x5d5fff(0x178)](0x1,0x3),0x10),_0x3adb69=parseInt(_0x25242e[_0x5d5fff(0x178)](0x3,0x5),0x10),_0x23472f=parseInt(_0x25242e[_0x5d5fff(0x178)](0x5,0x7),0x10);document[_0x5d5fff(0x12f)][_0x5d5fff(0x109)]['setProperty']('--accent-color-rgb',_0x58f153+',\x20'+_0x3adb69+',\x20'+_0x23472f);}const _0x4236f1=_0x3a9588(_0x376907(0x287));_0x4236f1&&(_0x4236f1[_0x376907(0x2a9)]=()=>{const _0x5e4eb6=_0x376907;if(_0x47b3b8())return;_0xc98a2a(_0x21a8a6),localStorage['setItem'](_0x5e4eb6(0xe2),_0x21a8a6),_0x11f405('↺'),_0x53f35d[_0x5e4eb6(0x227)]=null;});let _0x1dee34=0x0;_0x3a9588('magicColorButton')[_0x376907(0x2a9)]=async()=>{const _0x19786b=_0x376907;if(_0x47b3b8())return;const _0x2e5aaa=Date[_0x19786b(0x23b)]();if(_0x2e5aaa-_0x1dee34<0x12c){_0xc98a2a(_0x21a8a6),localStorage[_0x19786b(0x323)]('ttx_accentColor',_0x21a8a6),_0x11f405('↺'),_0x1dee34=0x0,_0x53f35d[_0x19786b(0x227)]=null;return;}_0x1dee34=_0x2e5aaa;const _0x19aaa4=new Map(),_0x14fbf9=document[_0x19786b(0x343)](_0x19786b(0x33b)),_0x40a577=_0x14fbf9['getContext']('2d',{'willReadFrequently':!![]}),_0xe8bb03=document[_0x19786b(0x18e)](_0x19786b(0x119));if(_0xe8bb03['length']===0x0){_0x11f405('?');return;}_0x11f405(_0x19786b(0x15b));for(const _0x31a8a7 of _0xe8bb03){try{if(_0x31a8a7['tagName']==='IMG'){if(!_0x31a8a7['complete'])await new Promise(_0x200c2d=>{_0x31a8a7['onload']=_0x200c2d;});_0x14fbf9[_0x19786b(0x300)]=_0x31a8a7['naturalWidth'],_0x14fbf9[_0x19786b(0x337)]=_0x31a8a7[_0x19786b(0x15d)];}else _0x14fbf9[_0x19786b(0x300)]=_0x31a8a7[_0x19786b(0x300)],_0x14fbf9[_0x19786b(0x337)]=_0x31a8a7[_0x19786b(0x337)];const _0x5e7bb0=document['body'][_0x19786b(0x100)]['contains'](_0x19786b(0x320)),_0x318092=_0x5e7bb0?'#FFFFFF':_0x19786b(0x210);_0x40a577[_0x19786b(0x2f2)]=_0x318092,_0x40a577[_0x19786b(0x309)](0x0,0x0,_0x14fbf9[_0x19786b(0x300)],_0x14fbf9[_0x19786b(0x337)]),_0x40a577[_0x19786b(0x253)](_0x31a8a7,0x0,0x0);const _0x1d95c5=_0x40a577[_0x19786b(0x12d)](0x0,0x0,_0x14fbf9['width'],_0x14fbf9[_0x19786b(0x337)])['data'];for(let _0x58e6b8=0x0;_0x58e6b8<_0x1d95c5[_0x19786b(0x21a)];_0x58e6b8+=0x14){const [_0x3a9a09,_0x1af98e,_0x42ff99,_0x45a45c]=[_0x1d95c5[_0x58e6b8],_0x1d95c5[_0x58e6b8+0x1],_0x1d95c5[_0x58e6b8+0x2],_0x1d95c5[_0x58e6b8+0x3]];if(_0x45a45c<0x80||Math['abs'](_0x3a9a09-_0x1af98e)<0x14&&Math[_0x19786b(0x35c)](_0x1af98e-_0x42ff99)<0x14||_0x3a9a09<0x14&&_0x1af98e<0x14&&_0x42ff99<0x14||_0x3a9a09>0xeb&&_0x1af98e>0xeb&&_0x42ff99>0xeb)continue;const _0x3371ee=_0x3a9a09>>0x4,_0x371042=_0x1af98e>>0x4,_0x1a7413=_0x42ff99>>0x4,_0x41b4bc=_0x3371ee+','+_0x371042+','+_0x1a7413;_0x19aaa4['set'](_0x41b4bc,(_0x19aaa4[_0x19786b(0x1d8)](_0x41b4bc)||0x0)+0x1);}}catch(_0x3c9bf3){console['error'](_0x19786b(0xeb),_0x3c9bf3);}}if(_0x19aaa4[_0x19786b(0xfb)]===0x0){_0x11f405('?');return;}const _0x5dbf2e=[..._0x19aaa4[_0x19786b(0x1b6)]()]['reduce']((_0x428a50,_0x33c7c3)=>_0x33c7c3[0x1]>_0x428a50[0x1]?_0x33c7c3:_0x428a50)[0x0],[_0x18b83e,_0x5b75b4,_0xf455e1]=_0x5dbf2e[_0x19786b(0x1bc)](',')[_0x19786b(0x1af)](_0x3a57b7=>parseInt(_0x3a57b7)<<0x4|parseInt(_0x3a57b7)),_0x74feff=_0x103375=>_0x103375['toString'](0x10)['padStart'](0x2,'0'),_0x3b262b='#'+_0x74feff(_0x18b83e)+_0x74feff(_0x5b75b4)+_0x74feff(_0xf455e1);_0xc98a2a(_0x3b262b),localStorage[_0x19786b(0x323)]('ttx_accentColor',_0x3b262b),_0x11f405('🎨'),_0x53f35d[_0x19786b(0x227)]=null;},_0x3a9588('bellButton')[_0x376907(0x2a9)]=()=>{const _0x410887=_0x376907;if(_0x47b3b8())return;const _0x59b593=_0x3a9588(_0x410887(0x1b1));_0x59b593[_0x410887(0x2ba)]=0x0,_0x59b593[_0x410887(0x277)]();},_0x3a9588(_0x376907(0x18c))[_0x376907(0x2a9)]=()=>{const _0x92b8a1=_0x376907;if(_0x47b3b8())return;const _0x524b2=_0x3a9588(_0x92b8a1(0x31d));_0x524b2[_0x92b8a1(0x2ba)]=0x0,_0x524b2[_0x92b8a1(0x277)]()[_0x92b8a1(0x322)](()=>{});},(function(){const _0x3779e2=_0x376907;let _0x39cce5=![],_0x2f2cc8=null;const _0x3f2263=_0x430cbc=>{const _0x2c5d07=_0x6c37;if(!_0x2f2cc8)return;const _0xd4afcf=_0x430cbc[_0x2c5d07(0x183)]-0xa,_0x36cb46=_0x430cbc[_0x2c5d07(0x16c)]-0xa;_0x2f2cc8[_0x2c5d07(0x109)][_0x2c5d07(0x2a8)]=_0x2c5d07(0x156)+_0xd4afcf+_0x2c5d07(0x19a)+_0x36cb46+_0x2c5d07(0x32d);},_0x50bad8=()=>{const _0x24370b=_0x6c37;if(_0x39cce5)return;_0x2f2cc8=document[_0x24370b(0x343)](_0x24370b(0x36c)),_0x2f2cc8['id']=_0x24370b(0x2ef),document['body'][_0x24370b(0x2b6)](_0x2f2cc8),document['addEventListener'](_0x24370b(0x367),_0x3f2263),_0x3a9588('laserButton')[_0x24370b(0x100)]['add'](_0x24370b(0x30d)),_0x39cce5=!![];},_0x1d3ff8=()=>{const _0x4e8d0f=_0x6c37;if(!_0x39cce5)return;document[_0x4e8d0f(0x137)](_0x4e8d0f(0x367),_0x3f2263),_0x2f2cc8&&(_0x2f2cc8[_0x4e8d0f(0x2d4)](),_0x2f2cc8=null),_0x3a9588(_0x4e8d0f(0x2ad))[_0x4e8d0f(0x100)][_0x4e8d0f(0x2d4)](_0x4e8d0f(0x30d)),_0x39cce5=![];},_0x41f508=()=>{if(_0x47b3b8())return;_0x39cce5?_0x1d3ff8():_0x50bad8();},_0xaf400b=_0x3a9588('laserButton');_0xaf400b&&(_0xaf400b[_0x3779e2(0x2a9)]=_0x41f508),global['TT']['turnOffLaser']=_0x1d3ff8;}()),_0x3a9588(_0x376907(0x353))[_0x376907(0x2a9)]=()=>{const _0x393c4a=_0x376907;_0xc94acb(_0x393c4a(0x2ea),()=>_0x39b86a(!![]));};function _0x47749a(){const _0x580680=_0x376907,_0x1b57f7=localStorage[_0x580680(0x249)](_0x580680(0x18a))||'en',_0x26b405=window['I18N'][_0x1b57f7]||window['I18N']['en'],_0x83dae5=window['t'],_0x127e6d=_0x580680(0x35a),_0x48715a=_0x580680(0x160),_0x2185c8='Teacher\x20Toybox',_0x32f6de=document[_0x580680(0x343)](_0x580680(0x36c));_0x32f6de[_0x580680(0x364)]=_0x580680(0x15f);const _0x866eaa=document[_0x580680(0x343)](_0x580680(0x36c));_0x866eaa[_0x580680(0x364)]=_0x580680(0x243),_0x866eaa[_0x580680(0x317)]=_0x580680(0x29b)+(_0x83dae5(_0x26b405,'panel.share.title')||_0x580680(0x32f))+'</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22share-intro-text\x22>Like\x20this\x20free\x20tool?\x20Help\x20other\x20teachers\x20discover\x20it!</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22share-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(_0x127e6d)+_0x580680(0x142)+encodeURIComponent(_0x127e6d)+_0x580680(0x2a0)+encodeURIComponent(_0x48715a)+_0x580680(0x168)+encodeURIComponent(_0x127e6d)+'&title='+encodeURIComponent(_0x2185c8)+_0x580680(0x180)+encodeURIComponent(_0x48715a)+'\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20linkedin\x22><i\x20class=\x22fab\x20fa-linkedin-in\x22></i>\x20LinkedIn</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://api.whatsapp.com/send?text='+encodeURIComponent(_0x48715a+'\x20'+_0x127e6d)+_0x580680(0x280)+encodeURIComponent(_0x127e6d)+_0x580680(0x256)+encodeURIComponent(_0x2185c8)+'\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20reddit\x22><i\x20class=\x22fab\x20fa-reddit-alien\x22></i>\x20Reddit</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22mailto:?subject='+encodeURIComponent(_0x2185c8)+_0x580680(0x12b)+encodeURIComponent(_0x48715a)+_0x580680(0x297)+encodeURIComponent(_0x127e6d)+_0x580680(0x120)+_0x127e6d+'\x22\x20readonly>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button>Copy\x20Link</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20',document['body']['append'](_0x32f6de,_0x866eaa),setTimeout(()=>{const _0x2a07f0=_0x580680;_0x32f6de[_0x2a07f0(0x109)][_0x2a07f0(0xfa)]='1',_0x866eaa[_0x2a07f0(0x109)][_0x2a07f0(0xfa)]='1',_0x866eaa['style']['transform']='translate(-50%,\x20-50%)\x20scale(1)';},0xa);const _0x18b224=()=>{const _0x27a044=_0x580680;_0x32f6de['style'][_0x27a044(0xfa)]='0',_0x866eaa[_0x27a044(0x109)][_0x27a044(0xfa)]='0',_0x866eaa['style'][_0x27a044(0x2a8)]='translate(-50%,\x20-50%)\x20scale(0.9)',setTimeout(()=>{const _0x4d016c=_0x27a044;_0x32f6de[_0x4d016c(0x2d4)](),_0x866eaa[_0x4d016c(0x2d4)]();},0x12c);};_0x32f6de[_0x580680(0x2a9)]=_0x18b224,_0x866eaa[_0x580680(0x2f8)]('.close-modal-btn')['onclick']=_0x18b224;const _0x41b783=_0x866eaa['querySelector'](_0x580680(0x32c)),_0x2a106b=_0x866eaa[_0x580680(0x2f8)](_0x580680(0x260));_0x41b783[_0x580680(0x2a9)]=()=>{const _0x194cd9=_0x580680,_0x5b8488=()=>{const _0x1e3b2c=_0x6c37;_0x41b783[_0x1e3b2c(0x1c0)]=_0x1e3b2c(0x24f),_0x41b783['style'][_0x1e3b2c(0x25e)]=_0x1e3b2c(0x128),setTimeout(()=>{const _0x24a893=_0x1e3b2c;_0x41b783[_0x24a893(0x1c0)]=_0x24a893(0x1b9),_0x41b783['style']['backgroundColor']='';},0x7d0);};navigator['clipboard']?navigator[_0x194cd9(0xe4)][_0x194cd9(0x211)](_0x127e6d)[_0x194cd9(0x2cb)](_0x5b8488):(_0x2a106b[_0x194cd9(0x161)](),document[_0x194cd9(0x1bf)](_0x194cd9(0x347)),_0x5b8488());};}_0x3a9588('shareButton')[_0x376907(0x2a9)]=()=>{if(_0x47b3b8())return;_0x47749a();},_0x3a9588(_0x376907(0x13b))[_0x376907(0x2a9)]=()=>{const _0x3c4969=_0x376907;global['TT']['turnOffLaser']&&global['TT'][_0x3c4969(0x19c)](),_0xab6f7a(),_0x11f405('🗑️'),_0x53f35d[_0x3c4969(0x227)]=null,localStorage[_0x3c4969(0x186)](_0x3c4969(0x2d6));},_0x3a9588(_0x376907(0x12c))[_0x376907(0x2a9)]=_0x22a910=>{const _0x5edc3e=_0x376907;_0x22a910[_0x5edc3e(0x126)]();if(_0x47b3b8())return;_0x3a9588('layout-bar')[_0x5edc3e(0x100)][_0x5edc3e(0x2d4)](_0x5edc3e(0x118)),_0x3a9588(_0x5edc3e(0x315))[_0x5edc3e(0x100)][_0x5edc3e(0x2d4)](_0x5edc3e(0x118)),_0x3a9588(_0x5edc3e(0x2c0))[_0x5edc3e(0x100)][_0x5edc3e(0x2d4)]('open');if(_0x52c41e)_0x52c41e[_0x5edc3e(0x100)][_0x5edc3e(0x2d4)](_0x5edc3e(0x118));if(_0x3a9588('communication-bar'))_0x3a9588(_0x5edc3e(0xfc))[_0x5edc3e(0x100)][_0x5edc3e(0x2d4)](_0x5edc3e(0x118));_0x3a9588(_0x5edc3e(0xed))[_0x5edc3e(0x100)][_0x5edc3e(0x1c9)]('open');},_0x3a9588(_0x376907(0x195))[_0x376907(0x2a9)]=_0x3b539a=>{const _0x4018f5=_0x376907;_0x3b539a[_0x4018f5(0x126)]();if(_0x47b3b8())return;_0x3a9588(_0x4018f5(0xed))[_0x4018f5(0x100)]['remove'](_0x4018f5(0x118)),_0x3a9588(_0x4018f5(0x315))[_0x4018f5(0x100)][_0x4018f5(0x2d4)]('open'),_0x3a9588(_0x4018f5(0x2c0))[_0x4018f5(0x100)][_0x4018f5(0x2d4)]('open');if(_0x52c41e)_0x52c41e[_0x4018f5(0x100)]['remove'](_0x4018f5(0x118));if(_0x3a9588(_0x4018f5(0xfc)))_0x3a9588(_0x4018f5(0xfc))[_0x4018f5(0x100)][_0x4018f5(0x2d4)]('open');_0x3a9588(_0x4018f5(0x141))[_0x4018f5(0x100)][_0x4018f5(0x1c9)]('open');},_0x3a9588(_0x376907(0x1ab))[_0x376907(0x2a9)]=_0x34e126=>{const _0x106edb=_0x376907;_0x34e126[_0x106edb(0x126)]();if(_0x47b3b8())return;_0x3a9588(_0x106edb(0xed))[_0x106edb(0x100)]['remove'](_0x106edb(0x118)),_0x3a9588(_0x106edb(0x141))[_0x106edb(0x100)][_0x106edb(0x2d4)](_0x106edb(0x118)),_0x3a9588(_0x106edb(0x2c0))[_0x106edb(0x100)]['remove'](_0x106edb(0x118));if(_0x52c41e)_0x52c41e[_0x106edb(0x100)][_0x106edb(0x2d4)](_0x106edb(0x118));if(_0x3a9588(_0x106edb(0xfc)))_0x3a9588(_0x106edb(0xfc))[_0x106edb(0x100)][_0x106edb(0x2d4)](_0x106edb(0x118));_0x3a9588('management-bar')[_0x106edb(0x100)]['toggle'](_0x106edb(0x118));},_0x3a9588(_0x376907(0x279))['onclick']=_0x316b4a=>{const _0x200ccd=_0x376907;_0x316b4a[_0x200ccd(0x126)]();if(_0x47b3b8())return;_0x3a9588(_0x200ccd(0xed))[_0x200ccd(0x100)][_0x200ccd(0x2d4)](_0x200ccd(0x118)),_0x3a9588(_0x200ccd(0x141))[_0x200ccd(0x100)][_0x200ccd(0x2d4)](_0x200ccd(0x118)),_0x3a9588(_0x200ccd(0x315))['classList']['remove']('open');if(_0x52c41e)_0x52c41e[_0x200ccd(0x100)]['remove'](_0x200ccd(0x118));if(_0x3a9588(_0x200ccd(0xfc)))_0x3a9588(_0x200ccd(0xfc))[_0x200ccd(0x100)][_0x200ccd(0x2d4)](_0x200ccd(0x118));_0x3a9588(_0x200ccd(0x2c0))[_0x200ccd(0x100)][_0x200ccd(0x1c9)](_0x200ccd(0x118));},_0x3a9588(_0x376907(0x272))['onclick']=_0x544b13=>{const _0x290835=_0x376907;_0x544b13['stopPropagation']();if(_0x47b3b8())return;_0x3a9588(_0x290835(0xed))[_0x290835(0x100)]['remove'](_0x290835(0x118)),_0x3a9588(_0x290835(0x141))[_0x290835(0x100)][_0x290835(0x2d4)](_0x290835(0x118)),_0x3a9588(_0x290835(0x315))[_0x290835(0x100)][_0x290835(0x2d4)](_0x290835(0x118)),_0x3a9588(_0x290835(0x2c0))['classList'][_0x290835(0x2d4)]('open');if(_0x52c41e)_0x52c41e[_0x290835(0x100)][_0x290835(0x2d4)](_0x290835(0x118));_0x3a9588(_0x290835(0xfc))[_0x290835(0x100)][_0x290835(0x1c9)](_0x290835(0x118));};let _0x5d1253,_0x361ec8,_0x1f747d,_0x5d0c4c,_0x5d6da4;const _0x468ccc=(_0x29ca45,_0x105a2e,_0x3fad0f)=>{const _0x571629=_0x376907,_0x2a785e=_0x3a9588(_0x29ca45),_0x426a60=_0x3a9588(_0x105a2e);if(!_0x2a785e||!_0x426a60)return;const _0x13be54=()=>{const _0x2d8774=_0x6c37;clearTimeout(_0x3fad0f),_0x3fad0f=setTimeout(()=>_0x426a60['classList']['remove'](_0x2d8774(0x118)),0x7d0);},_0x4c0cb7=()=>clearTimeout(_0x3fad0f);_0x2a785e[_0x571629(0x11d)](_0x571629(0x327),_0x13be54),_0x426a60['addEventListener'](_0x571629(0x327),_0x13be54),_0x2a785e[_0x571629(0x11d)](_0x571629(0x23f),_0x4c0cb7),_0x426a60['addEventListener'](_0x571629(0x23f),_0x4c0cb7);};_0x468ccc(_0x376907(0x195),_0x376907(0x141),_0x5d1253),_0x468ccc(_0x376907(0x12c),_0x376907(0xed),_0x361ec8),_0x468ccc(_0x376907(0x1ab),_0x376907(0x315),_0x1f747d),_0x468ccc(_0x376907(0x279),_0x376907(0x2c0),_0x5d0c4c),_0x468ccc('communicationButton','communication-bar',_0x5d6da4);const _0x4199b8=_0x3a9588(_0x376907(0x318)),_0x5100e7=_0x3a9588('feedback-panel'),_0x35ef56=_0x3a9588('feedback-backdrop'),_0x3f225c=_0x3a9588(_0x376907(0x1a8)),_0xa3b0bd=document[_0x376907(0x18e)](_0x376907(0x204)),_0x4e4bc8=_0x3a9588('submit-feedback-btn');let _0x39bf3d=0x0;function _0x372007(){const _0xd5a293=_0x376907;_0x35ef56&&_0x5100e7&&(_0x35ef56[_0xd5a293(0x100)]['remove']('hidden'),_0x5100e7[_0xd5a293(0x100)][_0xd5a293(0x2f9)](_0xd5a293(0x118)));}function _0x2005b6(){const _0x1122f1=_0x376907;if(_0x5100e7&&_0x35ef56){const _0x144af5=localStorage[_0x1122f1(0x249)](_0x1122f1(0x18a))||'en';_0x5100e7['classList']['remove'](_0x1122f1(0x118)),_0x35ef56[_0x1122f1(0x100)][_0x1122f1(0x2f9)](_0x1122f1(0x148)),setTimeout(()=>{const _0x52db00=_0x1122f1;_0x3a9588('feedback-comment')[_0x52db00(0x23a)]='',_0x39bf3d=0x0,_0x39a58d(),_0x4e4bc8[_0x52db00(0x1f2)]=![],_0x4e4bc8[_0x52db00(0x109)][_0x52db00(0x25e)]='',_0x4e4bc8['textContent']=window['t'](window[_0x52db00(0x1d4)][_0x144af5],_0x52db00(0x14c))||_0x52db00(0x28a);},0x190);}}function _0x39a58d(){const _0x1af9c9=_0x376907;_0xa3b0bd[_0x1af9c9(0x18d)](_0xc0ff1d=>{const _0x36da6b=_0x1af9c9;parseInt(_0xc0ff1d[_0x36da6b(0xf2)][_0x36da6b(0x23a)])<=_0x39bf3d?(_0xc0ff1d[_0x36da6b(0x100)]['replace']('fa-regular',_0x36da6b(0x2e4)),_0xc0ff1d[_0x36da6b(0x109)][_0x36da6b(0xdd)]=_0x36da6b(0x31f)):(_0xc0ff1d['classList']['replace'](_0x36da6b(0x2e4),'fa-regular'),_0xc0ff1d['style'][_0x36da6b(0xdd)]='');});}if(_0x4199b8)_0x4199b8[_0x376907(0x2a9)]=_0x372007;if(_0x3f225c)_0x3f225c[_0x376907(0x2a9)]=_0x2005b6;if(_0x35ef56)_0x35ef56['onclick']=_0x2005b6;_0xa3b0bd[_0x376907(0x18d)](_0x238999=>{const _0x1abda2=_0x376907;_0x238999['addEventListener'](_0x1abda2(0x102),()=>{const _0x5e3a0f=_0x1abda2;_0x39bf3d=parseInt(_0x238999[_0x5e3a0f(0xf2)][_0x5e3a0f(0x23a)]),_0x39a58d();});});_0x4e4bc8&&(_0x4e4bc8['onclick']=async()=>{const _0x1467c3=_0x376907,_0x2b56aa=_0x3a9588(_0x1467c3(0x1ec))[_0x1467c3(0x23a)];if(_0x39bf3d===0x0&&!_0x2b56aa[_0x1467c3(0x2c1)]()){alert(_0x1467c3(0x163));return;}const _0x3f3bce=localStorage[_0x1467c3(0x249)](_0x1467c3(0x18a))||'en';_0x4e4bc8[_0x1467c3(0x1f2)]=!![],_0x4e4bc8[_0x1467c3(0x1c0)]=window['t'](window[_0x1467c3(0x1d4)][_0x3f3bce],_0x1467c3(0x31a))||_0x1467c3(0x16e);const _0x4c8afc=new FormData();_0x4c8afc[_0x1467c3(0x206)]('rating',_0x39bf3d),_0x4c8afc[_0x1467c3(0x206)]('comment',_0x2b56aa);try{const _0x2d49cf=await fetch(_0x1467c3(0x191),{'method':_0x1467c3(0x2d9),'body':_0x4c8afc,'headers':{'Accept':_0x1467c3(0x106)}});if(_0x2d49cf['ok'])_0x4e4bc8[_0x1467c3(0x1c0)]=window['t'](window[_0x1467c3(0x1d4)][_0x3f3bce],'panel.feedback.submitButtonSuccess')||'Thank\x20You!',_0x4e4bc8['style']['backgroundColor']=_0x1467c3(0x128),setTimeout(_0x2005b6,0x5dc);else throw new Error(_0x1467c3(0x20d));}catch(_0x1742d3){console[_0x1467c3(0x221)](_0x1467c3(0x2f4),_0x1742d3),alert('Sorry,\x20there\x20was\x20an\x20error\x20sending\x20your\x20feedback.'),_0x4e4bc8[_0x1467c3(0x1f2)]=![],_0x4e4bc8[_0x1467c3(0x1c0)]=window['t'](window[_0x1467c3(0x1d4)][_0x3f3bce],_0x1467c3(0x14c))||'Submit';}});const _0x2ad39f=_0x3a9588('policyButton'),_0x5280c5=_0x3a9588('policy-panel'),_0x479dfd=_0x3a9588(_0x376907(0x218)),_0x48f585=_0x3a9588(_0x376907(0x29d));function _0x2fb0bc(){const _0x38c798=_0x376907;_0x479dfd&&_0x5280c5&&(_0x479dfd['classList'][_0x38c798(0x2d4)](_0x38c798(0x148)),_0x5280c5[_0x38c798(0x100)]['add'](_0x38c798(0x118)));}function _0x2fc797(){const _0x165e92=_0x376907;_0x5280c5&&_0x479dfd&&(_0x5280c5[_0x165e92(0x100)][_0x165e92(0x2d4)](_0x165e92(0x118)),_0x479dfd[_0x165e92(0x100)][_0x165e92(0x2f9)]('hidden'));}if(_0x2ad39f)_0x2ad39f[_0x376907(0x2a9)]=_0x2fb0bc;if(_0x48f585)_0x48f585[_0x376907(0x2a9)]=_0x2fc797;if(_0x479dfd)_0x479dfd[_0x376907(0x2a9)]=_0x2fc797;const _0x15d30d=_0x3a9588(_0x376907(0x132)),_0x161286=_0x3a9588(_0x376907(0x2f6)),_0x266201=_0x3a9588('contact-backdrop'),_0x1bcc9f=_0x3a9588('close-contact-btn'),_0x36d605=_0x3a9588(_0x376907(0x21d));function _0x486101(){const _0x51dc80=_0x376907;_0x266201&&_0x161286&&(_0x266201['classList'][_0x51dc80(0x2d4)](_0x51dc80(0x148)),_0x161286[_0x51dc80(0x100)]['add'](_0x51dc80(0x118)));}function _0x2f39c5(){const _0x26fe97=_0x376907;_0x161286&&_0x266201&&(_0x161286[_0x26fe97(0x100)][_0x26fe97(0x2d4)]('open'),_0x266201[_0x26fe97(0x100)][_0x26fe97(0x2f9)]('hidden'));}if(_0x15d30d)_0x15d30d[_0x376907(0x2a9)]=_0x486101;if(_0x1bcc9f)_0x1bcc9f[_0x376907(0x2a9)]=_0x2f39c5;if(_0x266201)_0x266201[_0x376907(0x2a9)]=_0x2f39c5;_0x36d605&&_0x36d605[_0x376907(0x11d)](_0x376907(0x14e),async _0xe7e285=>{const _0x3f7542=_0x376907;_0xe7e285['preventDefault']();const _0x1bf118=_0x3a9588(_0x3f7542(0xf3)),_0x4a2293=new FormData(_0x36d605),_0x17edc2=localStorage[_0x3f7542(0x249)]('ttx_lang')||'en';_0x1bf118['disabled']=!![],_0x1bf118[_0x3f7542(0x1c0)]=window['t'](window['I18N'][_0x17edc2],'panel.contact.submitButtonSending')||'Sending...';try{const _0x157f66=await fetch(_0x3f7542(0x24e),{'method':_0x3f7542(0x2d9),'body':_0x4a2293,'headers':{'Accept':_0x3f7542(0x106)}});if(_0x157f66['ok'])_0x1bf118[_0x3f7542(0x1c0)]=window['t'](window[_0x3f7542(0x1d4)][_0x17edc2],_0x3f7542(0x1cf))||_0x3f7542(0x192),_0x1bf118[_0x3f7542(0x109)]['backgroundColor']=_0x3f7542(0x128),_0x36d605[_0x3f7542(0xe3)](),setTimeout(()=>{_0x2f39c5(),setTimeout(()=>{const _0x4e2ff2=_0x6c37;_0x1bf118[_0x4e2ff2(0x1f2)]=![],_0x1bf118['style']['backgroundColor']='',_0x1bf118[_0x4e2ff2(0x1c0)]=window['t'](window[_0x4e2ff2(0x1d4)][_0x17edc2],'panel.contact.submitButton')||_0x4e2ff2(0x250);},0x1f4);},0x7d0);else throw new Error(_0x3f7542(0x20d));}catch(_0x1eee68){console[_0x3f7542(0x221)](_0x3f7542(0x2d5),_0x1eee68),alert('Sorry,\x20there\x20was\x20an\x20error\x20sending\x20your\x20message.'),_0x1bf118['disabled']=![],_0x1bf118['textContent']=window['t'](window[_0x3f7542(0x1d4)][_0x17edc2],_0x3f7542(0x34f))||_0x3f7542(0x250);}});document[_0x376907(0x11d)](_0x376907(0x1e2),_0x4333b4=>{const _0x49abee=_0x376907,_0x4cca00=document[_0x49abee(0x2f8)](_0x49abee(0x1ae)),_0x494f65=document[_0x49abee(0x1a2)],_0xc2a629=_0x494f65&&(_0x494f65[_0x49abee(0x359)]||[_0x49abee(0x129),_0x49abee(0x154),'SELECT'][_0x49abee(0x238)](_0x494f65['tagName']));if(_0x4333b4[_0x49abee(0x22d)]===_0x49abee(0x2be)&&!_0xc2a629){_0x4333b4['preventDefault'](),_0xab6f7a(),_0x4b9251=!![],_0x11f405(_0x49abee(0x10a)),_0x53f35d[_0x49abee(0x227)]=null,localStorage[_0x49abee(0x186)](_0x49abee(0x2d6));return;}if(_0x4333b4[_0x49abee(0x22d)]===_0x49abee(0x203)&&!_0xc2a629){_0x4333b4[_0x49abee(0x232)]();_0x4cca00&&_0x4cca00[_0x49abee(0x2f8)]('.close-btn')?.[_0x49abee(0x102)]();return;}if(_0x4cca00&&_0x4cca00[_0x49abee(0x100)]['contains'](_0x49abee(0x205))){if(_0x4333b4['key']===_0x49abee(0x1e4))_0x4333b4[_0x49abee(0x232)](),_0x4cca00[_0x49abee(0x2f8)]('.timer-start-pause-btn')?.[_0x49abee(0x102)]();else _0x4333b4['code']===_0x49abee(0x356)&&!_0xc2a629&&(_0x4333b4[_0x49abee(0x232)](),_0x4cca00['querySelector'](_0x49abee(0x1d2))?.['click']());}if(!_0x4b9251||_0xc2a629)return;if(_0x4333b4[_0x49abee(0x22d)]==='`'){document[_0x49abee(0x18e)](_0x49abee(0x294))[_0x49abee(0x18d)](_0x30867c=>_0x30867c[_0x49abee(0x109)][_0x49abee(0x2de)]=_0x30867c[_0x49abee(0x109)][_0x49abee(0x2de)]===_0x49abee(0x2b4)?_0x49abee(0x341):'block');return;}const _0x13cb4e=['d','t','0','w','v','o','h','g','a','u'];if(_0x13cb4e[_0x49abee(0x238)](_0x4333b4['key'][_0x49abee(0x293)]())){if(_0x4cca00){_0x4cca00['querySelector']('.win-sidebar\x20[data-hotkey=\x22'+_0x4333b4[_0x49abee(0x22d)]['toLowerCase']()+'\x22]')?.[_0x49abee(0x102)]();return;}}if(_0x4333b4[_0x49abee(0x22d)][_0x49abee(0x293)]()==='i'&&_0x4cca00){_0x4cca00[_0x49abee(0x2f8)](_0x49abee(0x1f9))?.[_0x49abee(0x102)]();return;}if(_0x4333b4[_0x49abee(0x22d)]['toLowerCase']()==='e'&&_0x4cca00){_0x4cca00[_0x49abee(0x2f8)](_0x49abee(0x131))?.[_0x49abee(0x102)]();return;}const _0x6b1a64={'q':0x0,'9':0x2};if(_0x6b1a64[_0x49abee(0x17c)](_0x4333b4[_0x49abee(0x22d)][_0x49abee(0x293)]())){if(_0x4cca00){const _0x1ea309=_0x4cca00[_0x49abee(0x18e)](_0x49abee(0x108)),_0x5f0bbe=_0x6b1a64[_0x4333b4[_0x49abee(0x22d)][_0x49abee(0x293)]()];_0x1ea309[_0x5f0bbe]&&_0x1ea309[_0x5f0bbe][_0x49abee(0x102)]();}return;}if(_0x4333b4[_0x49abee(0x22d)]===_0x49abee(0x171)&&_0x4cca00){const _0x5606cd=_0x4cca00[_0x49abee(0x2f8)]('.resize-btn[title*=\x22Send\x20to\x20Back\x22]');_0x5606cd?.[_0x49abee(0x102)]();return;}if([_0x49abee(0x31c),_0x49abee(0x1a9),_0x49abee(0x197),_0x49abee(0x2c9)][_0x49abee(0x238)](_0x4333b4[_0x49abee(0x22d)])){_0x4333b4[_0x49abee(0x232)]();if(!_0x4cca00)return;const _0x2f2558=_0x20afe4(),_0x1b6b2b=window['innerWidth']-_0x2f2558,_0x4ddad3=window[_0x49abee(0xd7)],_0x177424=_0x1b6b2b/0x2,_0x14947f=_0x4ddad3/0x2,_0xdc5de=0xa,_0x3aab7a=Math[_0x49abee(0x35c)](_0x4cca00[_0x49abee(0x275)]-_0x177424)<_0xdc5de&&Math[_0x49abee(0x35c)](_0x4cca00[_0x49abee(0x14f)]-_0x14947f)<_0xdc5de,_0xccd4f1=Math[_0x49abee(0x35c)](_0x4cca00[_0x49abee(0x275)]-_0x177424)<_0xdc5de&&Math[_0x49abee(0x35c)](_0x4cca00[_0x49abee(0x14f)]-_0x4ddad3)<_0xdc5de,_0x3e7e1b=Math['abs'](_0x4cca00[_0x49abee(0x275)]-_0x1b6b2b)<_0xdc5de&&Math[_0x49abee(0x35c)](_0x4cca00[_0x49abee(0x14f)]-_0x14947f)<_0xdc5de;if(!_0x3aab7a&&!_0xccd4f1&&!_0x3e7e1b)return;const _0x3931b0=_0x4cca00['offsetLeft'],_0x404d55=_0x4cca00['offsetTop'],_0x1aaa8e=_0x3931b0<_0xdc5de,_0x47b1ed=Math[_0x49abee(0x35c)](_0x3931b0-_0x177424)<_0xdc5de,_0x8eef92=_0x404d55<_0xdc5de,_0x28da79=Math[_0x49abee(0x35c)](_0x404d55-_0x14947f)<_0xdc5de;if(_0xccd4f1){if(_0x4333b4[_0x49abee(0x22d)]===_0x49abee(0x2c9)&&_0x1aaa8e)_0x4cca00['style'][_0x49abee(0x158)]=_0x177424+'px';else _0x4333b4[_0x49abee(0x22d)]===_0x49abee(0x197)&&_0x47b1ed&&(_0x4cca00[_0x49abee(0x109)][_0x49abee(0x158)]='0px');}else{if(_0x3e7e1b){if(_0x4333b4[_0x49abee(0x22d)]==='ArrowDown'&&_0x8eef92)_0x4cca00[_0x49abee(0x109)][_0x49abee(0x2e3)]=_0x14947f+'px';else _0x4333b4[_0x49abee(0x22d)]===_0x49abee(0x31c)&&_0x28da79&&(_0x4cca00['style'][_0x49abee(0x2e3)]=_0x49abee(0x369));}else{if(_0x3aab7a){if(_0x4333b4['key']===_0x49abee(0x2c9)&&_0x1aaa8e)_0x4cca00['style'][_0x49abee(0x158)]=_0x177424+'px';else{if(_0x4333b4['key']===_0x49abee(0x197)&&_0x47b1ed)_0x4cca00[_0x49abee(0x109)]['left']=_0x49abee(0x369);else{if(_0x4333b4[_0x49abee(0x22d)]===_0x49abee(0x1a9)&&_0x8eef92)_0x4cca00['style'][_0x49abee(0x2e3)]=_0x14947f+'px';else _0x4333b4[_0x49abee(0x22d)]===_0x49abee(0x31c)&&_0x28da79&&(_0x4cca00['style']['top']=_0x49abee(0x369));}}}}}return;}const _0x27e4be={'n':_0x49abee(0xf1),'1':'layout1Button','2':_0x49abee(0x346),'3':_0x49abee(0x20a),'4':'layout4Button','5':'layout5Button','6':_0x49abee(0x1fa),'7':_0x49abee(0x284),'8':_0x49abee(0x2f5),'c':_0x49abee(0x157),'m':'magicColorButton','b':_0x49abee(0x117),'s':_0x49abee(0x18c),'p':'laserButton','/':'managementButton','r':_0x49abee(0x13b),'x':_0x49abee(0x12c),'l':_0x49abee(0x195),'k':_0x49abee(0x258),'j':_0x49abee(0xf0),'f':'communicationButton','z':_0x49abee(0x257),'?':_0x49abee(0x279),'u':_0x49abee(0x15a)},_0x273482=_0x4333b4['key'][_0x49abee(0x293)]();if(_0x27e4be[_0x273482]){if(_0x273482==='r'&&(_0x4333b4[_0x49abee(0x2b2)]||_0x4333b4[_0x49abee(0x30e)]||_0x4333b4[_0x49abee(0x2d7)]||_0x4333b4[_0x49abee(0x170)]))return;_0x4333b4[_0x49abee(0x232)](),_0x3a9588(_0x27e4be[_0x273482])?.[_0x49abee(0x102)]();}else{if(_0x273482==='y'){_0x4333b4['preventDefault']();const _0x4b5c3d=document[_0x49abee(0x2f8)](_0x49abee(0x1c1));if(_0x4b5c3d)_0x4b5c3d[_0x49abee(0x102)]();}}});let _0x5e5d05;window[_0x376907(0x11d)](_0x376907(0x1b5),()=>{clearTimeout(_0x5e5d05),_0x5e5d05=setTimeout(()=>{const _0x3d3ed2=_0x6c37,_0x50cf12=window['innerWidth'],_0x3bcfbb=window[_0x3d3ed2(0xd7)],_0x380ac0=_0x20afe4(),_0x4cc87b=_0x2161c7-_0x380ac0,_0x2ab01c=_0x50cf12-_0x380ac0;document[_0x3d3ed2(0x18e)]('.floating')[_0x3d3ed2(0x18d)](_0x242c88=>{const _0x2d6db7=_0x3d3ed2;if(_0x242c88['querySelector'](_0x2d6db7(0x1a0))){_0x242c88['style'][_0x2d6db7(0x300)]=_0x2ab01c+'px',_0x242c88['style'][_0x2d6db7(0x337)]=_0x3bcfbb+'px';return;}const _0x14e217=_0x242c88[_0x2d6db7(0x1b4)]/_0x4cc87b,_0x1f0f28=_0x242c88[_0x2d6db7(0x2d8)]/_0x31fecc,_0x5859b8=_0x242c88[_0x2d6db7(0x275)]/_0x4cc87b,_0x3161f4=_0x242c88[_0x2d6db7(0x14f)]/_0x31fecc;_0x242c88[_0x2d6db7(0x109)]['left']=_0x14e217*_0x2ab01c+'px',_0x242c88[_0x2d6db7(0x109)]['top']=_0x1f0f28*_0x3bcfbb+'px',_0x242c88['style'][_0x2d6db7(0x300)]=_0x5859b8*_0x2ab01c+'px',_0x242c88['style'][_0x2d6db7(0x337)]=_0x3161f4*_0x3bcfbb+'px';}),_0x2161c7=_0x50cf12,_0x31fecc=_0x3bcfbb;},0x64);});function _0x205178(){const _0x326397=_0x376907,_0x10b900=localStorage[_0x326397(0x249)](_0x326397(0xe2));_0x10b900&&(_0xc98a2a(_0x10b900),_0x3a9588(_0x326397(0x33d))['value']=_0x10b900);const _0xc2b0a=localStorage['getItem'](_0x326397(0x2a7)),_0x41e356=document[_0x326397(0x267)]('theme-toggle');_0x41e356&&(_0xc2b0a!==_0x326397(0x20c)&&(_0x41e356[_0x326397(0x33c)]=!![],document[_0x326397(0xe6)]['classList']['add'](_0x326397(0x320))));const _0x38aa3f=localStorage[_0x326397(0x249)]('ttx_lastLayout');if(_0x38aa3f){const _0x41c4b8=_0x3a9588(_0x326397(0x246)+_0x38aa3f+_0x326397(0x2fd));_0x41c4b8&&_0x41c4b8[_0x326397(0x102)]();}}_0x205178(),document[_0x376907(0xe6)][_0x376907(0x11d)](_0x376907(0x173),_0x2a8d5a=>{const _0x50d50f=_0x376907;!_0x2a8d5a[_0x50d50f(0x1fb)][_0x50d50f(0x30b)](_0x50d50f(0x1e0))&&(_0x4b9251=!![]);const _0x576feb=_0x2a8d5a[_0x50d50f(0x1fb)][_0x50d50f(0x30b)](_0x50d50f(0x2b1));if(_0x576feb)return;(_0x2a8d5a[_0x50d50f(0x1fb)]===document['body']||_0x2a8d5a[_0x50d50f(0x1fb)]['closest'](_0x50d50f(0x2c6)))&&(document[_0x50d50f(0xe6)][_0x50d50f(0x100)][_0x50d50f(0x1c9)](_0x50d50f(0x1e8)),_0x2a8d5a[_0x50d50f(0x1fb)][_0x50d50f(0x30b)]('#site-title')&&(_0xc98a2a(_0x21a8a6),localStorage[_0x50d50f(0x323)]('ttx_accentColor',_0x21a8a6),_0x11f405('↺')));}),document[_0x376907(0x11d)](_0x376907(0x102),_0x52c4b8=>{const _0x52ad02=_0x376907,_0xbf459e=_0x52c4b8['target'][_0x52ad02(0x30b)](_0x52ad02(0xce)),_0x35a60d=_0x52c4b8[_0x52ad02(0x1fb)]['closest'](_0x52ad02(0x2dc)),_0x2d3362=_0x52c4b8[_0x52ad02(0x1fb)][_0x52ad02(0x30b)](_0x52ad02(0x224)),_0x15056d=_0x52c4b8[_0x52ad02(0x1fb)][_0x52ad02(0x30b)](_0x52ad02(0x222)),_0x1f31f1=_0x52c4b8[_0x52ad02(0x1fb)]['closest'](_0x52ad02(0x2a4)),_0x3aee4e=_0x52c4b8['target'][_0x52ad02(0x30b)](_0x52ad02(0x311));if(!_0xbf459e&&!_0x35a60d&&!_0x2d3362&&!_0x15056d&&!_0x1f31f1&&!_0x3aee4e){if(_0x3a9588(_0x52ad02(0x141)))_0x3a9588(_0x52ad02(0x141))['classList']['remove'](_0x52ad02(0x118));if(_0x3a9588(_0x52ad02(0x315)))_0x3a9588(_0x52ad02(0x315))[_0x52ad02(0x100)][_0x52ad02(0x2d4)](_0x52ad02(0x118));if(_0x3a9588('extra-tools-bar'))_0x3a9588('extra-tools-bar')[_0x52ad02(0x100)][_0x52ad02(0x2d4)](_0x52ad02(0x118));if(_0x3a9588(_0x52ad02(0x2c0)))_0x3a9588(_0x52ad02(0x2c0))[_0x52ad02(0x100)]['remove'](_0x52ad02(0x118));if(_0x3a9588('communication-bar'))_0x3a9588('communication-bar')[_0x52ad02(0x100)][_0x52ad02(0x2d4)](_0x52ad02(0x118));_0x447143(),_0x2005b6(),_0x2fc797(),_0x2f39c5(),document[_0x52ad02(0x18e)]('.custom-color-palette,\x20#color-palette')['forEach'](_0x11a6f8=>{const _0x4267b7=_0x52ad02;if(_0x11a6f8)_0x11a6f8[_0x4267b7(0x100)][_0x4267b7(0x2f9)]('hidden');});}}),(function(){const _0x4b2f4a=_0x376907;let _0x482413=![],_0x24fbed=0x0,_0x5ba2ea,_0x747c04,_0x4fb391;function _0x53b57f(){const _0x259f95=_0x6c37;_0x24fbed=Date['now']();if(!_0x482413)return;_0x482413=![];try{_0x747c04&&_0x747c04[_0x259f95(0x2d4)]();}catch(_0xf33a59){}try{_0x5ba2ea&&_0x5ba2ea[_0x259f95(0x2d4)]();}catch(_0x3abac8){}const _0x477410=document['getElementById'](_0x259f95(0x251));if(_0x477410)_0x477410[_0x259f95(0x100)]['remove'](_0x259f95(0x30d));}function _0x16063d(){const _0x369c14=_0x6c37;if(_0x482413)return;_0x482413=!![],_0x5ba2ea=document[_0x369c14(0x343)](_0x369c14(0x36c)),_0x5ba2ea[_0x369c14(0x364)]=_0x369c14(0x254),_0x5ba2ea[_0x369c14(0x109)][_0x369c14(0x351)]=_0x369c14(0x282),_0x747c04=document[_0x369c14(0x343)](_0x369c14(0x36c)),_0x747c04[_0x369c14(0x364)]=_0x369c14(0x354),_0x747c04['style'][_0x369c14(0x351)]=_0x369c14(0x299),_0x4fb391=document[_0x369c14(0x343)]('video');const _0x5de440=document[_0x369c14(0x343)](_0x369c14(0x1f0));_0x5de440['src']=_0x369c14(0x26e),_0x5de440['type']=_0x369c14(0x291),_0x4fb391['appendChild'](_0x5de440),_0x4fb391[_0x369c14(0x2ee)]=!![],_0x4fb391[_0x369c14(0x283)]=!![],_0x4fb391[_0x369c14(0x109)][_0x369c14(0x351)]='width:100%;height:100%;object-fit:contain;border-radius:12px;',_0x747c04[_0x369c14(0x2b6)](_0x4fb391),document[_0x369c14(0xe6)]['appendChild'](_0x5ba2ea),document[_0x369c14(0xe6)][_0x369c14(0x2b6)](_0x747c04);const _0x2e0841=async()=>{const _0x3919c7=_0x369c14;try{await _0x4fb391['play']();}catch(_0x286964){try{_0x4fb391[_0x3919c7(0x319)]=!![],await _0x4fb391[_0x3919c7(0x277)]();}catch(_0x1daaa5){}}};_0x4fb391['addEventListener']('loadedmetadata',_0x2e0841),_0x2e0841();const _0x3bda31=_0x33b6a0=>{const _0x513616=_0x369c14,_0x218094=_0x33b6a0[_0x513616(0x183)],_0x5ead11=_0x33b6a0[_0x513616(0x16c)];_0x33b6a0[_0x513616(0x232)](),_0x33b6a0[_0x513616(0x126)](),_0x53b57f(),setTimeout(()=>{const _0x366fc2=_0x513616,_0x43d5d9=document[_0x366fc2(0x36b)](_0x218094,_0x5ead11);if(!_0x43d5d9)return;try{_0x43d5d9[_0x366fc2(0x213)](new PointerEvent(_0x366fc2(0x173),{'bubbles':!![],'cancelable':!![],'clientX':_0x218094,'clientY':_0x5ead11,'pointerType':_0x366fc2(0x244)}));}catch(_0x4adb7b){}try{_0x43d5d9[_0x366fc2(0x213)](new MouseEvent('mousedown',{'bubbles':!![],'cancelable':!![],'clientX':_0x218094,'clientY':_0x5ead11}));}catch(_0x20574d){}try{_0x43d5d9[_0x366fc2(0x213)](new MouseEvent('mouseup',{'bubbles':!![],'cancelable':!![],'clientX':_0x218094,'clientY':_0x5ead11}));}catch(_0x1a90c9){}_0x43d5d9['dispatchEvent'](new MouseEvent(_0x366fc2(0x102),{'bubbles':!![],'cancelable':!![],'clientX':_0x218094,'clientY':_0x5ead11}));},0x0);};_0x5ba2ea[_0x369c14(0x11d)](_0x369c14(0x173),_0x3bda31,{'capture':!![]}),_0x5ba2ea[_0x369c14(0x11d)](_0x369c14(0x139),_0x3bda31,{'capture':!![]}),_0x5ba2ea[_0x369c14(0x11d)](_0x369c14(0x102),_0x3bda31,{'capture':!![]}),_0x747c04['addEventListener'](_0x369c14(0x102),_0x53b57f);}const _0xd0c7d0=document['getElementById'](_0x4b2f4a(0x251));if(_0xd0c7d0){const _0x4d9fd2=_0xd0c7d0['cloneNode'](!![]);_0xd0c7d0[_0x4b2f4a(0x268)]['replaceChild'](_0x4d9fd2,_0xd0c7d0),_0x4d9fd2[_0x4b2f4a(0x11d)]('click',_0x175fe9=>{const _0x509bc2=_0x4b2f4a;_0x175fe9[_0x509bc2(0x126)]();if(!_0x482413){if(Date[_0x509bc2(0x23b)]()-_0x24fbed<0xc8)return;_0x4d9fd2[_0x509bc2(0x100)]['add']('active'),_0x16063d();}else _0x53b57f();});}}());const _0x2eda71=new URLSearchParams(window[_0x376907(0xfd)][_0x376907(0x105)]);if(_0x2eda71[_0x376907(0x1d8)](_0x376907(0x306))===_0x376907(0x136)){const _0x203374=setInterval(()=>{const _0xfcccfd=_0x376907;typeof auth0Client!=='undefined'&&auth0Client&&(clearInterval(_0x203374),finalizePremiumAccess(),window['history'][_0xfcccfd(0x1ee)]({},document[_0xfcccfd(0x29f)],'/'));},0x64);}});
+/**
+ * script.js
+ * © 2025 TeacherToybox.com. All Rights Reserved.
+ */
+
+// Core bootstrap & shared state
+const global = window;
+global.TT = global.TT || {};
+global.TT.isPremium = false;
+
+// --- Date Display & Localization ---
+global.TT.updateDateDisplay = function(lang) {
+    const dateDisplay = document.getElementById('date-display');
+    if (!dateDisplay) return;
+    
+    const today = new Date();
+    const options = {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    };
+
+    const formatter = new Intl.DateTimeFormat(lang, options);
+    dateDisplay.textContent = formatter.format(today);
+};
+
+// This function handles the checkout process using your Stripe LIVE keys.
+global.TT.initiateCheckout = async () => {
+  try {
+    const user = await auth0Client.getUser();
+    
+    if (!user || !user.sub || !user.email) {
+      console.error("Could not identify user or user email before checkout. Aborting.");
+      alert("Could not identify user. Please try logging in again.");
+      return;
+    }
+
+    // Your Stripe LIVE Publishable Key.
+    const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF');
+    
+    // Your Stripe LIVE Price ID.
+    const priceId = 'price_1RyXtBFCA6YfGQJz7BUMxTQo'; 
+
+    const response = await fetch('/api/create-checkout-session', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId: user.sub, priceId: priceId, userEmail: user.email }), // Send the user's email
+    });
+
+    if (!response.ok) {
+      throw new Error('Failed to create checkout session.');
+    }
+
+    const { sessionId } = await response.json();
+    await stripe.redirectToCheckout({ sessionId });
+  } catch (error) {
+    console.error("Error redirecting to checkout:", error);
+    alert("Could not connect to the payment service. Please try again later.");
+  }
+};
+
+/**
+ * Handles the post-payment experience with a splash screen, logout, and reload.
+ */
+function finalizePremiumAccess() {
+    // Create a full-screen splash screen
+    const splash = document.createElement('div');
+    // Re-use existing splash screen styles and ID for consistency
+    splash.id = 'splash-screen';
+    splash.style.opacity = '1'; // Ensure it's visible
+    splash.style.transition = 'none'; // Prevent any default fade-out
+
+    splash.innerHTML = `
+        <div class="premium-splash-content">
+            <div class="logo-container">
+                <div class="logo-spinner"></div>
+                <img src="ttlogo.png" alt="Teacher Toybox Logo" class="premium-splash-logo">
+            </div>
+            <p>
+                <strong>Welcome to Premium!</strong><br>
+                <span class="splash-subtext-1">Your Teacher Toybox is now supercharged.</span><br>
+                <span class="splash-subtext-2">Please log in again to unlock all your new tools.</span>
+            </p>
+        </div>
+    `;
+    document.body.appendChild(splash);
+
+    // After 5 seconds, log the user out. The logout function will then reload the page.
+    setTimeout(() => {
+        // The logout function is defined globally in auth.js
+        if (window.logout) {
+            window.logout();
+        } else {
+            // Fallback if the logout function isn't available
+            console.error("Logout function not found. Reloading page.");
+            location.reload();
+        }
+    }, 5000); // 5-second delay
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // --- Splash Screen ---
+    const _splash = document.getElementById('splash-screen');
+    if (_splash) {
+        setTimeout(() => {
+            _splash.style.opacity = '0';
+            setTimeout(() => _splash.remove(), 500);
+        }, 1000);
+    }
+    // --- End Splash Screen ---
+
+    const $ = id => document.getElementById(id);
+
+    const upgradePanel = $('upgrade-panel');
+    const upgradeBackdrop = $('upgrade-backdrop');
+    const closeUpgradeBtn = $('close-upgrade-btn');
+    const panelUpgradeBtn = $('panel-upgrade-btn');
+    const upgradeButton = $('upgradeButton');
+
+    const openUpgradePanel = () => {
+        if (upgradeBackdrop && upgradePanel) {
+            upgradeBackdrop.classList.remove('hidden');
+            upgradePanel.classList.add('open');
+        }
+    };
+
+    const closeUpgradePanel = () => {
+        if (upgradeBackdrop && upgradePanel) {
+            upgradeBackdrop.classList.add('hidden');
+            upgradePanel.classList.remove('open');
+        }
+    };
+
+    if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
+    if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
+    if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
+
+    if (panelUpgradeBtn) {
+        panelUpgradeBtn.onclick = async () => {
+            // First, check if the user is already logged in
+            if (window.TT && window.TT.isAuthenticated) {
+                // If yes, go directly to checkout
+                window.TT.initiateCheckout();
+            } else {
+                // If no, start the login process
+                login('upgrade');
+            }
+        };
+    }
+
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('change', () => {
+            document.body.classList.toggle('light-mode', themeToggle.checked);
+            localStorage.setItem('ttx_theme', themeToggle.checked ? 'light' : 'dark');
+        });
+    }
+
+    // --- Fullscreen API Toggle ---
+    const fullscreenButton = document.getElementById('fullscreenButton');
+    if (fullscreenButton) {
+        fullscreenButton.addEventListener('click', () => {
+            // Check if the page is currently in fullscreen mode
+            const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
+
+            if (!isFullscreen) {
+                // If not in fullscreen, request it
+                const el = document.documentElement;
+                if (el.requestFullscreen) {
+                    el.requestFullscreen();
+                } else if (el.webkitRequestFullscreen) { // Safari
+                    el.webkitRequestFullscreen();
+                } else if (el.msRequestFullscreen) { // IE11
+                    el.msRequestFullscreen();
+                }
+            } else {
+                // If in fullscreen, exit it
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) { // Safari
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) { // IE11
+                    document.msExitFullscreen();
+                }
+            }
+        });
+
+        // Listen for changes in fullscreen state to update the icon
+        document.addEventListener('fullscreenchange', updateIcon);
+        document.addEventListener('webkitfullscreenchange', updateIcon); // Safari
+        document.addEventListener('msfullscreenchange', updateIcon); // IE11
+
+        function updateIcon() {
+            const icon = fullscreenButton.querySelector('i');
+            const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement;
+            if (isFullscreen) {
+                icon.classList.remove('fa-expand');
+                icon.classList.add('fa-compress');
+            } else {
+                icon.classList.remove('fa-compress');
+                icon.classList.add('fa-expand');
+            }
+        }
+    }
+
+    const getSidebarWidth = () => $('sidebar').offsetWidth;
+
+    let lastWindowWidth = window.innerWidth;
+    let lastWindowHeight = window.innerHeight;
+
+    const clockButton = $('clockButton');
+    const digitalClockBar = $('digital-clock-bar');
+    const hourHand = document.querySelector('.hour-hand');
+    const minuteHand = document.querySelector('.minute-hand');
+    const secondHand = document.querySelector('.second-hand');
+
+    function setClocks() {
+        const now = new Date();
+        const seconds = now.getSeconds();
+        const minutes = now.getMinutes();
+        const hours = now.getHours();
+
+        const secondsDeg = (seconds / 60) * 360;
+        const minutesDeg = (minutes / 60) * 360 + (seconds / 60) * 6;
+        const hoursDeg = (hours / 12) * 360 + (minutes / 60) * 30;
+        
+        if (hourHand && minuteHand && secondHand) {
+            if (secondsDeg < 1) { 
+                secondHand.style.transition = 'none';
+            } else {
+                secondHand.style.transition = '';
+            }
+            secondHand.style.transform = `rotate(${secondsDeg}deg)`;
+            minuteHand.style.transform = `rotate(${minutesDeg}deg)`;
+            hourHand.style.transform = `rotate(${hoursDeg}deg)`;
+        }
+
+        if (digitalClockBar) {
+            const digitalHours = String(hours).padStart(2, '0');
+            const digitalMinutes = String(minutes).padStart(2, '0');
+            const digitalSeconds = String(seconds).padStart(2, '0');
+            digitalClockBar.textContent = `${digitalHours}:${digitalMinutes}:${digitalSeconds}`;
+        }
+    }
+
+    if (clockButton) {
+        clockButton.addEventListener('click', () => {
+            clockButton.classList.toggle('active');
+            digitalClockBar.classList.toggle('open');
+        });
+        if (digitalClockBar) {
+            digitalClockBar.addEventListener('mouseenter', () => {
+                clockButton.classList.remove('active');
+                digitalClockBar.classList.remove('open');
+            });
+        }
+        setClocks();
+        setInterval(setClocks, 1000);
+    }
+
+    const dateDisplay = $('date-display');
+    if (dateDisplay) {
+      const closeEnlargedDate = () => {
+        const backdrop = document.querySelector('.date-backdrop');
+        if (dateDisplay.classList.contains('date-enlarged')) {
+          dateDisplay.classList.remove('date-enlarged');
+        }
+        if (backdrop) {
+          backdrop.style.opacity = '0';
+          setTimeout(() => backdrop.remove(), 400);
+        }
+      };
+      const openEnlargedDate = () => {
+        if (!dateDisplay.classList.contains('date-enlarged')) {
+          dateDisplay.classList.add('date-enlarged');
+          const backdrop = document.createElement('div');
+          backdrop.className = 'date-backdrop';
+          backdrop.addEventListener('click', closeEnlargedDate);
+          document.body.appendChild(backdrop);
+          setTimeout(() => backdrop.style.opacity = '1', 10);
+        }
+      };
+      dateDisplay.addEventListener('click', () => {
+        if (dateDisplay.classList.contains('date-enlarged')) {
+          closeEnlargedDate();
+        } else {
+          openEnlargedDate();
+        }
+      });
+    }
+    
+    const toolStyles = `
+        .die-container { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: center; flex-grow: 1; padding: 10px; }
+        .die { width: 10rem; height: 10rem; background-color: white; border-radius: 8px; padding: 6px; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 4px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); border: 2px solid black; }
+        .die .die-dot { visibility: hidden; width: 100%; height: 100%; background-color: black; border-radius: 50%; }
+        .die[data-value="1"] .dot-5,
+        .die[data-value="2"] .dot-1, .die[data-value="2"] .dot-9,
+        .die[data-value="3"] .dot-1, .die[data-value="3"] .dot-5, .die[data-value="3"] .dot-9,
+        .die[data-value="4"] .dot-1, .die[data-value="4"] .dot-3, .die[data-value="4"] .dot-7, .die[data-value="4"] .dot-9,
+        .die[data-value="5"] .dot-1, .die[data-value="5"] .dot-3, .die[data-value="5"] .dot-5, .die[data-value="5"] .dot-7, .die[data-value="5"] .dot-9,
+        .die[data-value="6"] .dot-1, .die[data-value="6"] .dot-3, .die[data-value="6"] .dot-4, .die[data-value="6"] .dot-6, .die[data-value="6"] .dot-7, .die[data-value="6"] .dot-9 { visibility: visible; }
+        .dice-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.2); flex-shrink: 0; }
+        .dice-controls .icon-btn { width: 40px; height: 40px; font-size: 16px; }
+        .dice-total { font-size: 18px; font-weight: bold; color: white; min-width: 80px; text-align: center; }
+        .die.rolling { animation: roll 0.5s ease-in-out; }
+        @keyframes roll { 0% { transform: rotate(0deg) scale(1); } 25% { transform: rotate(15deg) scale(1.1); } 75% { transform: rotate(-15deg) scale(1.1); } 100% { transform: rotate(0deg) scale(1); } }
+        .stopwatch-display { font-size: clamp(3rem, 14vw, 10rem); font-weight: 700; color: white; text-align: center; flex-grow: 1; display: flex; justify-content: center; align-items: center; font-family: 'monospace'; }
+        .stopwatch-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.2); flex-shrink: 0; }
+        .stopwatch-controls .icon-btn { width: 50px; height: 50px; font-size: 20px; }
+        .countdown-title { color: var(--text-secondary); font-size: 1.5rem; font-weight: 500; text-align: center; margin-bottom: 1rem; }
+        .countdown-selection-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 12px; width: 100%; max-width: 500px; }
+        .countdown-btn { background-color: var(--sidebar-bg); border: 1px solid var(--border-color); color: var(--text-primary); padding: 20px 10px; border-radius: 8px; font-size: 1.1rem; font-weight: 500; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease; }
+        .countdown-btn:hover { background-color: var(--window-bg); border-color: var(--accent-color); }
+        .countdown-running-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; flex-shrink: 0; }
+        .countdown-running-controls .icon-btn { width: 50px; height: 50px; font-size: 20px; }
+    `;
+    const styleSheet = document.createElement("style");
+    styleSheet.innerText = toolStyles;
+    document.head.appendChild(styleSheet);
+
+    let hotkeysEnabled = true;
+    let layoutState = { activeLayout: null, isVisible: true };
+    const gridSizePx = 20;
+    const defaultAccentColor = getComputedStyle(document.documentElement).getPropertyValue('--accent-color').trim();
+
+    let dragCounter = 0;
+    window.addEventListener('dragenter', (e) => {
+        if (e.dataTransfer.types.includes('Files')) {
+            e.preventDefault();
+            dragCounter++;
+            document.body.classList.add('is-dragging');
+        }
+    });
+    window.addEventListener('dragleave', (e) => {
+        if (e.dataTransfer.types.includes('Files')) {
+            e.preventDefault();
+            dragCounter--;
+            if (dragCounter === 0) {
+                document.body.classList.remove('is-dragging');
+            }
+        }
+    });
+    window.addEventListener('drop', (e) => {
+        e.preventDefault();
+        dragCounter = 0;
+        document.body.classList.remove('is-dragging');
+    });
+
+    function closeInfoIfOpen() {
+        if (layoutState.activeLayout === 'info') {
+            clearWins();
+            layoutState.activeLayout = null;
+            return true;
+        }
+        return false;
+    }
+
+    function showOverlay(txt) {
+        const ov = document.createElement('div');
+        ov.className = 'overlay-number';
+        ov.textContent = txt;
+        document.body.appendChild(ov);
+        setTimeout(() => { ov.style.opacity = 0; ov.style.transform = 'translate(-50%, -50%) scale(1.5)'; }, 10);
+        setTimeout(() => ov.remove(), 2000);
+    }
+
+    function clearWins() {
+        document.querySelectorAll('.floating').forEach(w => {
+            cleanupWindowTools(w);
+            w.remove();
+        });
+    }
+
+    function setActiveWindow(win) {
+        document.querySelectorAll('.floating.active-window').forEach(aw => {
+            aw.classList.remove('active-window');
+            aw.style.zIndex = 1000;
+        });
+        if (win) {
+            win.classList.add('active-window');
+            win.style.zIndex = 1001;
+        }
+    }
+
+    function cleanupWindowTools(win) {
+        if (!win) return;
+        const drawControls = win.querySelector('.draw-controls-bar');
+        if (drawControls) {
+            drawControls.remove();
+        }
+        const leftControls = win.querySelector('.drag-bar .tool-controls');
+        if (leftControls) {
+            leftControls.style.display = 'flex';
+        }
+        win.removeAttribute('data-tool');
+        
+        if (win.activeInterval) {
+            clearInterval(win.activeInterval);
+            win.activeInterval = null;
+        }
+
+        if (win.toolResizeObserver) {
+            win.toolResizeObserver.disconnect();
+            win.toolResizeObserver = null;
+        }
+
+        if (win.annotationResizeObserver) {
+            win.annotationResizeObserver.disconnect();
+            win.annotationResizeObserver = null;
+        }
+    }
+
+    function saveDrawingState(canvas, ctx, history) {
+        if (!canvas || !ctx || !history) return;
+        if (history.length > 20) {
+            history.shift();
+        }
+        history.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+    }
+
+    function displayFileInWindow(win, file) {
+        if (!file) return;
+        cleanupWindowTools(win);
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+    
+        mainArea.innerHTML = '';
+        const url = URL.createObjectURL(file);
+        const cont = document.createElement('div');
+        cont.className = 'content-fill';
+    
+        if (file.type === 'application/pdf') {
+            win.dataset.tool = 'pdf';
+            mainArea.style.padding = '0'; // Ensure no padding on the main area itself
+            mainArea.innerHTML = `
+                <div class="pdf-viewer-container">
+                    <div class="pdf-canvas-container">
+                        <canvas></canvas>
+                    </div>
+                    <div class="pdf-controls">
+                        <button class="pdf-prev-btn" title="Previous Page"><i class="fas fa-arrow-left"></i></button>
+                        <div class="pdf-page-input-group">
+                            <input type="number" class="pdf-page-input" min="1">
+                            <span class="pdf-page-info">/ <span>1</span></span>
+                            <button class="go-btn">Go</button>
+                        </div>
+                        <button class="pdf-next-btn" title="Next Page"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            `;
+        
+            const canvas = mainArea.querySelector('canvas');
+            const container = mainArea.querySelector('.pdf-canvas-container');
+            const prevBtn = mainArea.querySelector('.pdf-prev-btn');
+            const nextBtn = mainArea.querySelector('.pdf-next-btn');
+            const pageNumInput = mainArea.querySelector('.pdf-page-input');
+            const goBtn = mainArea.querySelector('.go-btn');
+            const pageCountSpan = mainArea.querySelector('.pdf-page-info span');
+        
+            let pdfDoc = null;
+            let pageNum = 1;
+        
+            const renderPage = num => {
+                if (!pdfDoc) return;
+                pageNum = num;
+        
+                pdfDoc.getPage(num).then(page => {
+                    const pixelRatio = window.devicePixelRatio || 1;
+                    const viewport = page.getViewport({ scale: 1.0 });
+                    const context = canvas.getContext('2d');
+
+                    // Calculate the scale to fit the page to the container's width
+                    const scale = container.clientWidth / viewport.width;
+                    
+                    // Create a high-resolution viewport for rendering
+                    const scaledViewport = page.getViewport({ scale: scale * pixelRatio });
+                    
+                    // Set the canvas's internal resolution
+                    canvas.height = scaledViewport.height;
+                    canvas.width = scaledViewport.width;
+                    
+                    // Set the canvas's display size (CSS pixels)
+                    canvas.style.height = `${scaledViewport.height / pixelRatio}px`;
+                    canvas.style.width =  `${scaledViewport.width / pixelRatio}px`;
+                    
+                    const renderContext = {
+                        canvasContext: context,
+                        viewport: scaledViewport
+                    };
+                    page.render(renderContext);
+                });
+        
+                pageNumInput.value = num;
+                prevBtn.disabled = (num <= 1);
+                nextBtn.disabled = (num >= pdfDoc.numPages);
+            };
+        
+            const onNavClick = (direction) => {
+                if (direction === 'prev' && pageNum > 1) {
+                    renderPage(pageNum - 1);
+                } else if (direction === 'next' && pageNum < pdfDoc.numPages) {
+                    renderPage(pageNum + 1);
+                }
+            };
+        
+            const onGoClick = () => {
+                const desiredPage = parseInt(pageNumInput.value, 10);
+                if (desiredPage >= 1 && desiredPage <= pdfDoc.numPages) {
+                    renderPage(desiredPage);
+                } else {
+                    pageNumInput.value = pageNum; // Reset to current page if invalid
+                }
+            };
+        
+            prevBtn.onclick = () => onNavClick('prev');
+            nextBtn.onclick = () => onNavClick('next');
+            goBtn.onclick = onGoClick;
+            pageNumInput.addEventListener('keydown', e => {
+                if (e.key === 'Enter') onGoClick();
+            });
+
+            const fileReader = new FileReader();
+            fileReader.onload = function() {
+                const typedarray = new Uint8Array(this.result);
+                pdfjsLib.getDocument(typedarray).promise.then(doc => {
+                    pdfDoc = doc;
+                    pageCountSpan.textContent = `/ ${pdfDoc.numPages}`;
+                    pageNumInput.max = pdfDoc.numPages;
+                    renderPage(1);
+                });
+            };
+            fileReader.readAsArrayBuffer(file);
+
+            // Re-render on window resize
+            const resizeObserver = new ResizeObserver(() => {
+                if (pdfDoc) renderPage(pageNum);
+            });
+            win.toolResizeObserver = resizeObserver;
+            resizeObserver.observe(container);
+
+        } else if (file.type.startsWith('image/')) {
+            const img = document.createElement('img');
+            img.src = url;
+            img.style.objectFit = 'contain';
+            img.crossOrigin = "anonymous";
+            cont.appendChild(img);
+            mainArea.appendChild(cont);
+        } else if (file.type.startsWith('video/')) {
+            const vid = document.createElement('video');
+            vid.src = url;
+            vid.controls = true;
+            vid.autoplay = true;
+            cont.appendChild(vid);
+            mainArea.appendChild(cont);
+        } else if (file.type.startsWith('audio/')) {
+            const aud = document.createElement('audio');
+            aud.src = url;
+            aud.controls = true;
+            aud.autoplay = true;
+            cont.appendChild(aud);
+            mainArea.style.display = 'flex';
+            mainArea.style.alignItems = 'center';
+            mainArea.style.justifyContent = 'center';
+            mainArea.appendChild(cont);
+        } else if (file.name.toLowerCase().endsWith('.pptx') || file.name.toLowerCase().endsWith('.ppt')) {
+            cont.innerHTML = `
+                <div class="unsupported-file-message">
+                    <i class="fas fa-file-powerpoint"></i>
+                    <h3>PowerPoint File</h3>
+                    <p>To display this file, please convert it to a PDF first and then drop it here.</p>
+                </div>
+            `;
+            mainArea.appendChild(cont);
+        } else {
+            // Display the new, centered "unsupported file" message
+            mainArea.style.display = 'flex';
+            mainArea.style.alignItems = 'center';
+            mainArea.style.justifyContent = 'center';
+            mainArea.innerHTML = `
+                <div style="text-align: center; color: var(--text-secondary); padding: 16px;">
+                    <h3>Oops!</h3>
+                    <p>That file type isn’t supported.<br>Try another format.</p>
+                </div>
+            `;
+    
+            // After 2 seconds, reset the window to the original drop zone
+            setTimeout(() => {
+                // Ensure the window still exists before trying to change it
+                if (win && win.parentElement) {
+                    mainArea.innerHTML = ''; // Clear the error message
+                    const dropZone = document.createElement('div');
+                    dropZone.className = 'drop-zone';
+                    dropZone.innerHTML = `
+                    <div class="drop-zone-inner">
+                        <i class="drop-zone-icon fas fa-upload"></i>
+                        <div class="drop-zone-file-types">
+                            <i class="fas fa-file-image"></i><i class="fas fa-file-video"></i><i class="fas fa-file-audio"></i><i class="fas fa-file-pdf"></i>
+                        </div>
+                    </div>`;
+                    mainArea.appendChild(dropZone);
+                }
+            }, 2000); // 2-second delay
+        }
+    }
+
+    function handleDrop(e) {
+        e.preventDefault();
+        displayFileInWindow(this, e.dataTransfer.files[0]);
+    }
+
+    function createWinArrangement(arr) {
+        clearWins();
+        arr.forEach(cfg => {
+            const w = createWin();
+            w.style.left = cfg.left;
+            w.style.top = cfg.top;
+            w.style.width = cfg.width;
+            w.style.height = cfg.height;
+        });
+    }
+
+    function activateDraw(win) {
+        if (win.querySelector('.draw-controls-bar')) return;
+    
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        
+        cleanupWindowTools(win);
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+        
+        win.dataset.tool = 'draw';
+    
+        const leftControls = win.querySelector('.drag-bar .tool-controls');
+        if (leftControls) {
+            leftControls.style.display = 'none';
+        }
+
+        const canvas = document.createElement('canvas');
+        const cont = document.createElement('div');
+        cont.className = 'content-fill';
+        cont.style.position = 'relative';
+        cont.appendChild(canvas);
+    
+        const ctx = canvas.getContext('2d');
+        let drawing = false;
+        const hist = [];
+    
+        function saveState() {
+            if (hist.length > 30) hist.shift();
+            hist.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+        }
+    
+        const resizeObserver = new ResizeObserver(() => {
+            const oldData = hist.length > 0 ? hist[hist.length - 1] : null;
+            canvas.width = cont.clientWidth;
+            canvas.height = cont.clientHeight;
+            if (oldData) ctx.putImageData(oldData, 0, 0);
+            ctx.lineCap = 'round';
+            ctx.strokeStyle = controls.querySelector('.color-swatch.active')?.style.backgroundColor || '#FFFFFF';
+            ctx.lineWidth = sizeInput.value;
+        });
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(cont);
+    
+        canvas.style.background = '#333';
+        canvas.style.width = '100%';
+        canvas.style.height = '100%';
+    
+        canvas.addEventListener('pointerdown', e => {
+            drawing = true;
+            saveState();
+            ctx.beginPath();
+            ctx.moveTo(e.offsetX, e.offsetY);
+        });
+        canvas.addEventListener('pointermove', e => {
+            if (drawing) {
+                ctx.lineTo(e.offsetX, e.offsetY);
+                ctx.stroke();
+            }
+        });
+        canvas.addEventListener('pointerup', () => drawing = false);
+    
+        const controls = document.createElement('div');
+        controls.className = 'draw-controls-bar';
+    
+        const colorSwatches = [];
+        ['#FFFFFF', '#FF3B30', '#FF9500', '#FFCC00', '#34C759', '#007AFF', '#AF52DE'].forEach(color => {
+            const swatch = document.createElement('div');
+            swatch.className = 'color-swatch';
+            swatch.style.backgroundColor = color;
+            swatch.onclick = () => {
+                ctx.strokeStyle = color;
+                controls.querySelector('.color-swatch.active')?.classList.remove('active');
+                swatch.classList.add('active');
+            };
+            colorSwatches.push(swatch);
+        });
+    
+        const sizeInput = document.createElement('input');
+        sizeInput.type = 'range';
+        sizeInput.min = 1;
+        sizeInput.max = 50;
+        sizeInput.value = 5;
+        sizeInput.style.width = '80px';
+        sizeInput.oninput = e => { ctx.lineWidth = e.target.value; };
+    
+        const undoBtn = document.createElement('button');
+        undoBtn.innerHTML = '<i class="fas fa-undo"></i>';
+        undoBtn.onclick = () => { if (hist.length > 0) ctx.putImageData(hist.pop(), 0, 0); };
+    
+        const clearBtn = document.createElement('button');
+        clearBtn.innerHTML = '<i class="fas fa-trash"></i>';
+        clearBtn.onclick = () => { ctx.clearRect(0, 0, canvas.width, canvas.height); hist.length = 0; };
+    
+        controls.append(sizeInput, ...colorSwatches, undoBtn, clearBtn);
+        
+        mainArea.append(controls, cont);
+    
+        ctx.strokeStyle = '#FFFFFF';
+        colorSwatches[0].classList.add('active');
+    }
+
+    function activateCam(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                const v = document.createElement('video');
+                v.srcObject = stream;
+                v.autoplay = true;
+                v.muted = true;
+                v.style.width = '100%';
+                v.style.height = '100%';
+                v.style.objectFit = 'cover';
+                mainArea.appendChild(v);
+            }).catch(err => {
+                mainArea.textContent = "Could not access camera.";
+                console.error(err);
+            });
+    }
+
+    function activateTimer(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+
+        function setupRunningTimer(initialSeconds) {
+            mainArea.innerHTML = '';
+            mainArea.style.padding = '0';
+            mainArea.style.display = 'flex';
+            mainArea.style.flexDirection = 'column';
+            win.classList.add('timer-is-running');
+
+            let remainingSeconds = initialSeconds;
+            let isRunning = false;
+            let endTime;
+            
+            const displayContainer = document.createElement('div');
+            displayContainer.style.cssText = `flex-grow: 1; position: relative; width: 100%; display: flex; align-items: center; justify-content: center;`;
+            
+            const svgNS = "http://www.w3.org/2000/svg";
+            const svg = document.createElementNS(svgNS, "svg");
+            svg.style.position = 'absolute';
+            svg.style.width = '90%';
+            svg.style.height = '90%';
+            svg.setAttribute('viewBox', '0 0 100 100');
+            const bgCircle = document.createElementNS(svgNS, "circle");
+            bgCircle.setAttribute('cx', '50'); bgCircle.setAttribute('cy', '50'); bgCircle.setAttribute('r', '45');
+            bgCircle.setAttribute('stroke', 'rgba(255, 255, 255, 0.2)'); bgCircle.setAttribute('stroke-width', '5'); bgCircle.setAttribute('fill', 'transparent');
+            const fgCircle = document.createElementNS(svgNS, "circle");
+            fgCircle.setAttribute('cx', '50'); fgCircle.setAttribute('cy', '50'); fgCircle.setAttribute('r', '45');
+            fgCircle.setAttribute('stroke', getComputedStyle(document.documentElement).getPropertyValue('--accent-color').trim());
+            fgCircle.setAttribute('stroke-width', '5'); fgCircle.setAttribute('fill', 'transparent');
+            fgCircle.style.transformOrigin = 'center'; fgCircle.style.transform = 'rotate(-90deg)';
+            const radius = 45;
+            const circumference = 2 * Math.PI * radius;
+            fgCircle.setAttribute('stroke-dasharray', circumference);
+            fgCircle.setAttribute('stroke-dashoffset', 0);
+            fgCircle.style.transition = 'stroke-dashoffset 1s linear';
+            svg.append(bgCircle, fgCircle);
+            displayContainer.appendChild(svg);
+
+            const display = document.createElement('div');
+            display.style.cssText = `color: white; font-weight: 700; line-height: 1; position: relative; z-index: 1;`;
+            displayContainer.appendChild(display);
+            mainArea.appendChild(displayContainer);
+
+            const updateDisplay = (timeInSeconds) => {
+                const progress = timeInSeconds / initialSeconds;
+                const offset = circumference * (1 - progress);
+                fgCircle.setAttribute('stroke-dashoffset', offset);
+
+                if (timeInSeconds < 0) timeInSeconds = 0;
+
+                if (timeInSeconds < 60) {
+                    display.textContent = String(timeInSeconds).padStart(2, '0');
+                } else {
+                    const minutes = Math.floor(timeInSeconds / 60);
+                    const seconds = String(timeInSeconds % 60).padStart(2, '0');
+                    const minutesDisplay = (minutes > 0 && minutes < 10) ? String(minutes) : String(minutes).padStart(2, '0');
+                    display.textContent = `${minutesDisplay}:${seconds}`;
+                }
+                updateFontSize();
+            };
+            
+            const updateFontSize = () => {
+                const charCount = display.textContent.length > 2 ? 4.4 : 2.2;
+                const newSize = displayContainer.clientWidth / charCount;
+                display.style.fontSize = `${newSize}px`;
+            };
+            
+            const resizeObserver = new ResizeObserver(updateFontSize);
+            win.toolResizeObserver = resizeObserver;
+            resizeObserver.observe(displayContainer);
+
+            function timerTick() {
+                const secondsLeft = Math.round((endTime - Date.now()) / 1000);
+                remainingSeconds = secondsLeft;
+                updateDisplay(secondsLeft);
+
+                if (secondsLeft <= 0) {
+                    $('bellSound').play();
+                    cleanupWindowTools(win);
+                    activateTimer(win);
+                }
+            }
+
+            const controls = document.createElement('div');
+            controls.className = 'countdown-running-controls';
+
+            const startPauseBtn = document.createElement('button');
+            startPauseBtn.className = 'icon-btn timer-start-pause-btn';
+            startPauseBtn.title = 'Start/Pause Timer (Enter)';
+            startPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+            startPauseBtn.style.backgroundColor = 'var(--success-color)';
+            startPauseBtn.onclick = () => {
+                isRunning = !isRunning;
+                if (isRunning) {
+                    endTime = Date.now() + remainingSeconds * 1000;
+                    win.activeInterval = setInterval(timerTick, 1000);
+                    timerTick();
+                    startPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                } else {
+                    clearInterval(win.activeInterval);
+                    win.activeInterval = null;
+                    startPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+                }
+            };
+            
+            const resetBtn = document.createElement('button');
+            resetBtn.className = 'icon-btn timer-reset-btn';
+            resetBtn.title = 'Reset Timer (Spacebar)';
+            resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
+            resetBtn.style.backgroundColor = 'var(--danger-color)';
+            resetBtn.onclick = () => {
+                cleanupWindowTools(win);
+                activateTimer(win);
+            };
+
+            controls.append(startPauseBtn, resetBtn);
+            mainArea.appendChild(controls);
+
+            updateDisplay(initialSeconds);
+        }
+
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '16px';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+        win.classList.remove('timer-is-running');
+
+        const title = document.createElement('h2');
+        title.className = 'countdown-title';
+        title.textContent = 'Choose Timer Duration';
+        mainArea.appendChild(title);
+
+        const selectionGrid = document.createElement('div');
+        selectionGrid.className = 'countdown-selection-grid';
+        const times = [{ label: '30 sec', seconds: 30 }, { label: '1 min', seconds: 60 }, { label: '2 min', seconds: 120 }, { label: '5 min', seconds: 300 }, { label: '10 min', seconds: 600 }, { label: '15 min', seconds: 900 }, { label: '30 min', seconds: 1800 }, { label: '1 Hour', seconds: 3600 }];
+        times.forEach(time => {
+            const btn = document.createElement('button');
+            btn.className = 'countdown-btn';
+            btn.textContent = time.label;
+            btn.onclick = () => setupRunningTimer(time.seconds);
+            selectionGrid.appendChild(btn);
+        });
+        mainArea.appendChild(selectionGrid);
+    }
+
+    function activateType(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+
+        const ta = document.createElement('div');
+        ta.contentEditable = true;
+        ta.style.flex = '1';
+        ta.style.padding = '16px';
+        ta.addEventListener('focus', () => { hotkeysEnabled = false; });
+        ta.addEventListener('blur', () => { hotkeysEnabled = true; });
+
+        const ctrl = document.createElement('div');
+        ctrl.style.cssText = 'display:flex;justify-content:center;gap:12px;padding:8px;';
+        ['fas fa-plus', 'fas fa-minus'].forEach(icon => {
+            const b = document.createElement('button');
+            b.className = 'icon-btn text-editor-control-btn';
+            b.innerHTML = `<i class="${icon}"></i>`;
+            b.style.width = '40px'; b.style.height = '40px'; b.style.fontSize = '16px';
+            b.onclick = () => { const sz = parseInt(getComputedStyle(ta).fontSize, 10); ta.style.fontSize = `${sz + (icon.includes('plus') ? 6 : -6)}px`; };
+            ctrl.appendChild(b);
+        });
+
+        mainArea.append(ta, ctrl);
+        ta.focus();
+    }
+
+    function activateDiceRoller(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+
+        const diceContainer = document.createElement('div');
+        diceContainer.className = 'die-container';
+        const controlsContainer = document.createElement('div');
+        controlsContainer.className = 'dice-controls';
+        mainArea.append(diceContainer, controlsContainer);
+        let numDice = 1;
+        
+        const createDie = (value = 1) => { 
+            const die = document.createElement('div'); 
+            die.className = 'die'; 
+            die.dataset.value = value; 
+            for (let i = 1; i <= 9; i++) { 
+                const dot = document.createElement('div'); 
+                dot.className = `die-dot dot-${i}`; 
+                die.appendChild(dot); 
+            } 
+            return die; 
+        };
+        
+        const totalDisplay = document.createElement('div');
+        totalDisplay.className = 'dice-total';
+        
+        const rollDice = (animate = true) => { 
+            let total = 0; 
+            const dice = diceContainer.querySelectorAll('.die'); 
+            dice.forEach(die => { 
+                const value = Math.floor(Math.random() * 6) + 1; 
+                total += value; 
+                die.dataset.value = value; 
+                if (animate) { 
+                    die.classList.add('rolling'); 
+                    die.addEventListener('animationend', () => die.classList.remove('rolling'), { once: true }); 
+                } 
+            }); 
+            totalDisplay.textContent = `Total: ${total}`; 
+        };
+
+        const resizeDice = () => {
+            requestAnimationFrame(() => {
+                const containerStyle = getComputedStyle(diceContainer);
+                const gap = parseFloat(containerStyle.gap) || 32;
+                const containerWidth = diceContainer.clientWidth - (parseFloat(containerStyle.paddingLeft) + parseFloat(containerStyle.paddingRight));
+                const containerHeight = diceContainer.clientHeight - (parseFloat(containerStyle.paddingTop) + parseFloat(containerStyle.paddingBottom));
+
+                if (containerWidth <= 0 || containerHeight <= 0) return;
+
+                const cols = Math.ceil(Math.sqrt(numDice));
+                const rows = Math.ceil(numDice / cols);
+
+                const sizeFromWidth = (containerWidth - (cols - 1) * gap) / cols;
+                const sizeFromHeight = (containerHeight - (rows - 1) * gap) / rows;
+                
+                const optimalSize = Math.max(48, Math.floor(Math.min(sizeFromWidth, sizeFromHeight)));
+
+                diceContainer.querySelectorAll('.die').forEach(d => {
+                    d.style.width = `${optimalSize}px`;
+                    d.style.height = `${optimalSize}px`;
+                });
+            });
+        };
+        
+        const renderDice = () => { 
+            diceContainer.innerHTML = ''; 
+            for (let i = 0; i < numDice; i++) { 
+                diceContainer.appendChild(createDie(1)); 
+            } 
+            rollDice(false);
+            resizeDice();
+        };
+        
+        const addDieBtn = document.createElement('button');
+        addDieBtn.className = 'icon-btn'; addDieBtn.innerHTML = '<i class="fas fa-plus"></i>';
+        addDieBtn.onclick = () => { if (numDice < 6) { numDice++; renderDice(); } };
+
+        const removeDieBtn = document.createElement('button');
+        removeDieBtn.className = 'icon-btn'; removeDieBtn.innerHTML = '<i class="fas fa-minus"></i>';
+        removeDieBtn.onclick = () => { if (numDice > 1) { numDice--; renderDice(); } };
+
+        const rollBtn = document.createElement('button');
+        rollBtn.className = 'icon-btn'; rollBtn.innerHTML = '<i class="fas fa-dice-d6"></i>'; rollBtn.style.backgroundColor = 'var(--success-color)'; rollBtn.onclick = () => rollDice(true);
+        
+        controlsContainer.append(addDieBtn, removeDieBtn, rollBtn, totalDisplay);
+        
+        const resizeObserver = new ResizeObserver(resizeDice);
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(mainArea);
+        
+        renderDice();
+    }
+
+    function activateStopwatch(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+
+        const display = document.createElement('div');
+        display.className = 'stopwatch-display';
+        display.textContent = '00:00.00';
+        const controls = document.createElement('div');
+        controls.className = 'stopwatch-controls';
+        mainArea.append(display, controls);
+        let elapsedTime = 0, startTime = 0, isRunning = false;
+        const formatTime = () => { const diff = elapsedTime; const minutes = String(Math.floor(diff / 60000)).padStart(2, '0'); const seconds = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0'); const milliseconds = String(Math.floor((diff % 1000) / 10)).padStart(2, '0'); display.textContent = `${minutes}:${seconds}.${milliseconds}`; };
+        
+        const startStopBtn = document.createElement('button');
+        startStopBtn.className = 'icon-btn'; startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; startStopBtn.style.backgroundColor = 'var(--success-color)';
+        startStopBtn.onclick = () => { 
+            if (isRunning) { 
+                clearInterval(win.activeInterval);
+                win.activeInterval = null;
+                elapsedTime = Date.now() - startTime; 
+                startStopBtn.innerHTML = '<i class="fas fa-pause"></i>'; 
+            } else { 
+                startTime = Date.now() - elapsedTime; 
+                win.activeInterval = setInterval(() => { elapsedTime = Date.now() - startTime; formatTime(); }, 10); 
+                startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
+            } 
+            isRunning = !isRunning; 
+        };
+        
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'icon-btn'; resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>'; resetBtn.style.backgroundColor = 'var(--danger-color)';
+        resetBtn.onclick = () => { 
+            clearInterval(win.activeInterval);
+            win.activeInterval = null;
+            isRunning = false; 
+            elapsedTime = 0; 
+            startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
+            formatTime(); 
+        };
+        
+        controls.append(startStopBtn, resetBtn);
+        const updateFontSize = (el) => { const newSize = el.clientWidth / 4.6; display.style.fontSize = `${newSize}px`; };
+        const resizeObserver = new ResizeObserver(entries => { for (let entry of entries) { updateFontSize(entry.target); } });
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(mainArea);
+        updateFontSize(mainArea);
+    }
+
+    function activateForAndAgainst(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.gap = '0';
+        mainArea.style.overflow = 'hidden';
+
+        win.dataset.disablesHotkeys = 'true';
+        mainArea.addEventListener('pointerdown', (e) => { hotkeysEnabled = false; e.stopPropagation(); });
+
+        const createPanel = (title, bgColor) => {
+            let count = 0;
+            const panel = document.createElement('div');
+            panel.className = 'for-against-panel'; panel.style.backgroundColor = `var(${bgColor})`; panel.style.boxSizing = 'border-box';
+            const titleEl = document.createElement('h2');
+            titleEl.textContent = title;
+            const display = document.createElement('div');
+            display.className = 'for-against-display'; display.textContent = count;
+            const controls = document.createElement('div');
+            controls.className = 'for-against-controls';
+            const minusBtn = document.createElement('button');
+            minusBtn.innerHTML = '<i class="fas fa-minus"></i>';
+            minusBtn.onclick = () => {
+                if (count > 0) {
+                    count--;
+                    display.textContent = count;
+                }
+            };
+            const plusBtn = document.createElement('button');
+            plusBtn.innerHTML = '<i class="fas fa-plus"></i>';
+            plusBtn.onclick = () => { count++; display.textContent = count; };
+            controls.append(minusBtn, plusBtn);
+            panel.append(titleEl, display, controls);
+            return panel;
+        };
+        const againstPanel = createPanel('Against', '--danger-color');
+        const forPanel = createPanel('For', '--success-color');
+        mainArea.append(forPanel, againstPanel);
+
+        const updateSizes = (baseDimension) => {
+            const titleSize = baseDimension * 0.1, displaySize = baseDimension * 0.3, buttonSize = baseDimension * 0.2, buttonIconSize = buttonSize * 0.5, paddingSize = baseDimension * 0.05;
+            mainArea.querySelectorAll('.for-against-panel').forEach(el => el.style.padding = `${Math.max(10, paddingSize)}px`);
+            mainArea.querySelectorAll('.for-against-panel h2').forEach(el => el.style.fontSize = `${Math.max(14, titleSize)}px`);
+            mainArea.querySelectorAll('.for-against-display').forEach(el => el.style.fontSize = `${Math.max(30, displaySize)}px`);
+            mainArea.querySelectorAll('.for-against-controls').forEach(el => el.style.gap = `${Math.max(10, paddingSize)}px`);
+            mainArea.querySelectorAll('.for-against-controls button').forEach(el => { el.style.width = `${Math.max(35, buttonSize)}px`; el.style.height = `${Math.max(35, buttonSize)}px`; el.style.fontSize = `${Math.max(16, buttonIconSize)}px`; });
+        };
+        const resizeObserver = new ResizeObserver(entries => {
+            for (let entry of entries) {
+                const { width, height } = entry.contentRect;
+                const isPortrait = height > width * 0.95;
+                if (isPortrait) {
+                    mainArea.style.flexDirection = 'column';
+                    [againstPanel, forPanel].forEach(p => { p.style.height = '50%'; p.style.width = '100%'; });
+                    updateSizes(height / 2);
+                } else {
+                    mainArea.style.flexDirection = 'row';
+                    [againstPanel, forPanel].forEach(p => { p.style.height = '100%'; p.style.width = '50%'; });
+                    updateSizes(width / 2);
+                }
+            }
+        });
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(mainArea);
+    }
+
+    function activateCarousel(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+
+        cleanupWindowTools(win);
+        win.dataset.tool = 'carousel';
+
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+
+        let imageUrls = [];
+        let currentIndex = 0;
+
+        const imageViewer = document.createElement('div');
+        imageViewer.className = 'carousel-container';
+
+        const imageElement = document.createElement('img');
+        imageElement.className = 'carousel-image';
+        imageElement.alt = 'Carousel Image';
+        
+        const placeholderText = document.createElement('p');
+        placeholderText.className = 'carousel-placeholder';
+        placeholderText.textContent = 'Click the folder icon to select images';
+
+        imageViewer.append(imageElement, placeholderText);
+
+        const controls = document.createElement('div');
+        controls.className = 'carousel-controls';
+
+        const prevButton = document.createElement('button');
+        prevButton.className = 'carousel-btn';
+        prevButton.innerHTML = '<i class="fas fa-arrow-left"></i>';
+        prevButton.disabled = true;
+
+        const folderButton = document.createElement('button');
+        folderButton.className = 'carousel-btn';
+        folderButton.innerHTML = '<i class="fas fa-folder-open"></i>';
+
+        const nextButton = document.createElement('button');
+        nextButton.className = 'carousel-btn';
+        nextButton.innerHTML = '<i class="fas fa-arrow-right"></i>';
+        nextButton.disabled = true;
+
+        const fileInput = document.createElement('input');
+        fileInput.type = 'file';
+        fileInput.multiple = true;
+        fileInput.accept = 'image/*';
+        fileInput.style.display = 'none';
+
+        controls.append(prevButton, folderButton, nextButton, fileInput);
+        mainArea.append(imageViewer, controls);
+        
+        const showImage = () => {
+            if (imageUrls.length > 0) {
+                imageElement.src = imageUrls[currentIndex];
+                imageElement.style.display = 'block';
+                placeholderText.style.display = 'none';
+                prevButton.disabled = false;
+                nextButton.disabled = false;
+            } else {
+                imageElement.style.display = 'none';
+                placeholderText.style.display = 'block';
+                prevButton.disabled = true;
+                nextButton.disabled = true;
+            }
+        };
+
+        folderButton.onclick = () => {
+            fileInput.click();
+        };
+
+        fileInput.onchange = (e) => {
+            const files = e.target.files;
+            if (!files || files.length === 0) return;
+
+            imageUrls = Array.from(files).map(file => URL.createObjectURL(file));
+
+            currentIndex = 0;
+            showImage();
+        };
+
+        prevButton.onclick = () => {
+            if (imageUrls.length === 0) return;
+            currentIndex = (currentIndex - 1 + imageUrls.length) % imageUrls.length;
+            showImage();
+        };
+
+        nextButton.onclick = () => {
+            if (imageUrls.length === 0) return;
+            currentIndex = (currentIndex + 1) % imageUrls.length;
+            showImage();
+        };
+    }
+
+    function activateCalculator(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.overflow = 'hidden';
+
+        const calcGrid = document.createElement('div');
+        calcGrid.className = 'calculator-grid';
+
+        const display = document.createElement('div');
+        display.className = 'calculator-display';
+        const expressionDiv = document.createElement('div');
+        expressionDiv.id = 'calc-expression';
+        expressionDiv.innerHTML = '&nbsp;';
+        const inputDiv = document.createElement('div');
+        inputDiv.id = 'calc-input';
+        inputDiv.textContent = '0';
+        display.append(expressionDiv, inputDiv);
+
+        const buttonsGrid = document.createElement('div');
+        buttonsGrid.className = 'calculator-buttons';
+
+        const buttons = [
+            { text: 'sin', class: 'function' }, { text: 'cos', class: 'function' }, { text: 'tan', class: 'function' }, { text: 'log', class: 'function' }, { text: 'ln', class: 'function' },
+            { text: '(', class: 'function' }, { text: ')', class: 'function' }, { text: '√', class: 'function' }, { text: '^', class: 'function' }, { text: '!', class: 'function' },
+            { text: '7', class: 'number' }, { text: '8', class: 'number' }, { text: '9', class: 'number' }, { text: '÷', class: 'operator' }, { text: 'AC', class: 'ac' },
+            { text: '4', class: 'number' }, { text: '5', class: 'number' }, { text: '6', class: 'number' }, { text: '×', class: 'operator' }, { text: 'C', class: 'operator' },
+            { text: '1', class: 'number' }, { text: '2', class: 'number' }, { text: '3', class: 'number' }, { text: '-', class: 'operator' }, { text: '=', class: 'equals' },
+            { text: '0', class: 'number' }, { text: '.', class: 'number' }, { text: 'π', class: 'number' }, { text: '+', class: 'operator' }
+        ];
+
+        buttons.forEach(btnDef => {
+            const button = document.createElement('button');
+            button.textContent = btnDef.text;
+            button.className = `calc-btn ${btnDef.class}`;
+            button.dataset.value = btnDef.text;
+            if (btnDef.text === '=') button.style.gridRow = 'span 2';
+            buttonsGrid.appendChild(button);
+        });
+
+        calcGrid.append(display, buttonsGrid);
+        mainArea.appendChild(calcGrid);
+
+        let expression = '';
+        let lastResult = '';
+        const updateDisplay = () => {
+            expressionDiv.innerHTML = expression.replace(/\*/g, '×').replace(/\//g, '÷') || '&nbsp;';
+            inputDiv.textContent = lastResult || '0';
+        };
+
+        const factorial = (n) => (n <= 1) ? 1 : n * factorial(n - 1);
+
+        buttonsGrid.addEventListener('click', (e) => {
+            if (!e.target.matches('.calc-btn')) return;
+            const value = e.target.dataset.value;
+
+            switch(value) {
+                case 'AC':
+                    expression = '';
+                    lastResult = '';
+                    break;
+                case 'C':
+                    expression = expression.slice(0, -1);
+                    break;
+                case '=':
+                    try {
+                        let evalExpr = expression
+                            .replace(/×/g, '*')
+                            .replace(/÷/g, '/')
+                            .replace(/√/g, 'Math.sqrt')
+                            .replace(/\^/g, '**')
+                            .replace(/log/g, 'Math.log10')
+                            .replace(/ln/g, 'Math.log')
+                            .replace(/sin/g, 'Math.sin')
+                            .replace(/cos/g, 'Math.cos')
+                            .replace(/tan/g, 'Math.tan')
+                            .replace(/π/g, 'Math.PI')
+                            .replace(/(\d+)!/g, (_, n) => factorial(parseInt(n)));
+                        
+                        lastResult = new Function('return ' + evalExpr)();
+                        expression = lastResult.toString();
+                    } catch (err) {
+                        lastResult = 'Error';
+                        expression = '';
+                    }
+                    break;
+                default:
+                    if (lastResult === 'Error') {
+                        lastResult = '';
+                        expression = '';
+                    }
+                    expression += value;
+                    break;
+            }
+            updateDisplay();
+        });
+
+        const allButtons = calcGrid.querySelectorAll('.calc-btn');
+        const updateCalcFontSize = () => {
+            const width = mainArea.clientWidth;
+            const baseSize = width / 20;
+            
+            inputDiv.style.fontSize = `${Math.max(24, baseSize * 1.5)}px`;
+            expressionDiv.style.fontSize = `${Math.max(14, baseSize * 0.675)}px`;
+            allButtons.forEach(btn => {
+                if (btn.classList.contains('function')) {
+                    btn.style.fontSize = `${Math.max(12, baseSize * 0.675)}px`;
+                } else {
+                    btn.style.fontSize = `${Math.max(14, baseSize * 0.75)}px`;
+                }
+            });
+        };
+
+        const resizeObserver = new ResizeObserver(updateCalcFontSize);
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(mainArea);
+        updateCalcFontSize();
+    }
+
+    function createWin() {
+        const win = document.createElement('div');
+        win.className = 'floating';
+        const i = document.querySelectorAll('.floating').length;
+        const currentSidebarWidth = getSidebarWidth();
+        win.style.left = `${30 * i}px`;
+        win.style.top = `${30 * i}px`;
+        win.style.width = `${(window.innerWidth - currentSidebarWidth) / 2}px`;
+        win.style.height = `${window.innerHeight / 2}px`;
+
+        win.annotationCurrentColor = '#FFFFFF';
+
+        const bar = document.createElement('div');
+        bar.className = 'drag-bar';
+        win.appendChild(bar);
+
+        const leftControls = document.createElement('div');
+        leftControls.className = 'tool-controls';
+
+        const penBtn = document.createElement('button');
+        penBtn.innerHTML = '<i class="fas fa-pencil-alt"></i>';
+        penBtn.title = 'Annotate';
+        penBtn.classList.add('pen-btn');
+
+        const colorBtn = document.createElement('button');
+        colorBtn.innerHTML = '<i class="fas fa-palette"></i>';
+        colorBtn.title = 'Change Color';
+
+        const colorPalette = document.createElement('div');
+        colorPalette.className = 'custom-color-palette hidden';
+        leftControls.appendChild(colorPalette);
+
+        const paletteColors = [
+            '#FFFFFF', '#C1C1C1', '#888888', '#000000',
+            '#FF3B30', '#D90429', '#FF9500', '#FFCC00',
+            '#4CD964', '#34C759', '#30D5C8', '#5AC8FA',
+            '#007AFF', '#5856D6', '#AF52DE', '#A2845E'
+        ];
+
+        paletteColors.forEach(color => {
+            const swatch = document.createElement('div');
+            swatch.className = 'custom-color-swatch';
+            swatch.style.backgroundColor = color;
+            swatch.addEventListener('click', (e) => {
+                e.stopPropagation();
+                win.annotationCurrentColor = color;
+                colorBtn.style.color = color;
+                if (win.annotationContext) {
+                    win.annotationContext.strokeStyle = color;
+                }
+                colorPalette.classList.add('hidden');
+            });
+            colorPalette.appendChild(swatch);
+        });
+
+        colorBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            document.querySelectorAll('.custom-color-palette').forEach(p => {
+                if (p !== colorPalette) p.classList.add('hidden');
+            });
+            colorPalette.classList.toggle('hidden');
+        });
+
+        const undoBtn = document.createElement('button');
+        undoBtn.innerHTML = '<i class="fas fa-undo"></i>';
+        undoBtn.title = 'Undo';
+
+        const clearBtn = document.createElement('button');
+        clearBtn.innerHTML = '<i class="fas fa-trash"></i>';
+        clearBtn.title = 'Clear Annotations';
+
+        leftControls.append(penBtn, colorBtn, undoBtn, clearBtn);
+        bar.appendChild(leftControls);
+
+        penBtn.addEventListener('click', () => {
+            penBtn.classList.toggle('active');
+            const mainArea = win.querySelector('.win-main-area');
+            if (!mainArea) return;
+
+            if (penBtn.classList.contains('active')) {
+                const canvas = document.createElement('canvas');
+                canvas.className = 'annotation-canvas';
+                mainArea.appendChild(canvas);
+
+                win.annotationCanvas = canvas;
+                win.drawingHistory = [];
+                const ctx = canvas.getContext('2d');
+                win.annotationContext = ctx;
+                let drawing = false;
+
+                const resizeObserver = new ResizeObserver(entries => {
+                    for (let entry of entries) {
+                        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+                        canvas.width = entry.contentRect.width;
+                        canvas.height = entry.contentRect.height;
+                        ctx.putImageData(imageData, 0, 0);
+                        ctx.strokeStyle = win.annotationCurrentColor;
+                        ctx.lineWidth = 5;
+                        ctx.lineCap = 'round';
+                        ctx.lineJoin = 'round';
+                    }
+                });
+                resizeObserver.observe(mainArea);
+                win.annotationResizeObserver = resizeObserver;
+
+                canvas.width = mainArea.clientWidth;
+                canvas.height = mainArea.clientHeight;
+                ctx.strokeStyle = win.annotationCurrentColor;
+                ctx.lineWidth = 5;
+                ctx.lineCap = 'round';
+                ctx.lineJoin = 'round';
+                colorBtn.style.color = win.annotationCurrentColor;
+
+                const startDraw = (e) => {
+                    saveDrawingState(canvas, ctx, win.drawingHistory);
+                    drawing = true;
+                    ctx.beginPath();
+                    const rect = canvas.getBoundingClientRect();
+                    ctx.moveTo(e.clientX - rect.left, e.clientY - rect.top);
+                };
+                const draw = (e) => {
+                    if (!drawing) return;
+                    const rect = canvas.getBoundingClientRect();
+                    ctx.lineTo(e.clientX - rect.left, e.clientY - rect.top);
+                    ctx.stroke();
+                };
+                const stopDraw = () => { drawing = false; };
+
+                canvas.addEventListener('pointerdown', startDraw);
+                canvas.addEventListener('pointermove', draw);
+                canvas.addEventListener('pointerup', stopDraw);
+                canvas.addEventListener('pointerleave', stopDraw);
+
+            } else {
+                if (win.annotationCanvas) {
+                    win.annotationCanvas.remove();
+                    win.annotationCanvas = null;
+                    win.annotationContext = null;
+                }
+                if (win.annotationResizeObserver) {
+                    win.annotationResizeObserver.disconnect();
+                    win.annotationResizeObserver = null;
+                }
+            }
+        });
+        
+        undoBtn.addEventListener('click', () => {
+            if (!win.annotationContext || !win.drawingHistory || win.drawingHistory.length === 0) return;
+            const lastState = win.drawingHistory.pop();
+            win.annotationContext.putImageData(lastState, 0, 0);
+        });
+
+        clearBtn.addEventListener('click', () => {
+            if (!win.annotationContext) return;
+            const ctx = win.annotationContext;
+            saveDrawingState(win.annotationCanvas, ctx, win.drawingHistory);
+            ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+        });
+
+        const rightControls = document.createElement('div');
+        rightControls.className = 'window-management-controls';
+        bar.appendChild(rightControls);
+
+        win.addEventListener('pointerdown', () => setActiveWindow(win));
+
+        let dx, dy;
+        bar.onpointerdown = e => {
+            if (e.target.closest('button, .tool-controls, input, .draw-controls-bar, .window-management-controls')) return;
+            e.stopPropagation();
+            
+            win.classList.remove('snapped-window');
+            win.style.opacity = '1';
+            const opacitySlider = win.querySelector('.opacity-slider');
+            if (opacitySlider) opacitySlider.value = 100;
+            
+            dx = e.clientX - win.offsetLeft;
+            dy = e.clientY - win.offsetTop;
+            
+            function mv(ev) {
+                let nx = ev.clientX - dx;
+                let ny = ev.clientY - dy;
+                nx = Math.round(nx / gridSizePx) * gridSizePx;
+                ny = Math.round(ny / gridSizePx) * gridSizePx;
+                const currentSidebarWidth = getSidebarWidth();
+                nx = Math.max(0, Math.min(nx, window.innerWidth - currentSidebarWidth - win.offsetWidth));
+                ny = Math.max(0, Math.min(ny, window.innerHeight - win.offsetHeight));
+                win.style.left = `${nx}px`;
+                win.style.top = `${ny}px`;
+            }
+
+            function up() {
+                document.removeEventListener('pointermove', mv);
+                document.removeEventListener('pointerup', up);
+                checkForSnap(win);
+            }
+            document.addEventListener('pointermove', mv);
+            document.addEventListener('pointerup', up);
+        };
+        
+        const resizeHandleSize = 10;
+        let isResizing = false;
+        let resizeDirection = '';
+
+        win.addEventListener('pointerdown', e => {
+            const rect = win.getBoundingClientRect();
+            const onTopEdge = e.clientY >= rect.top && e.clientY <= rect.top + resizeHandleSize;
+            const onBottomEdge = e.clientY <= rect.bottom && e.clientY >= rect.bottom - resizeHandleSize;
+            const onLeftEdge = e.clientX >= rect.left && e.clientX <= rect.left + resizeHandleSize;
+            const onRightEdge = e.clientX <= rect.right && e.clientX >= rect.right - resizeHandleSize;
+
+            if (!onTopEdge && !onBottomEdge && !onLeftEdge && !onRightEdge) return;
+
+            isResizing = true;
+            resizeDirection = '';
+            if (onTopEdge) resizeDirection += 'n';
+            if (onBottomEdge) resizeDirection += 's';
+            if (onLeftEdge) resizeDirection += 'w';
+            if (onRightEdge) resizeDirection += 'e';
+
+            e.preventDefault();
+
+            let lastX = e.clientX;
+            let lastY = e.clientY;
+
+            function doResize(ev) {
+                const dx = ev.clientX - lastX;
+                const dy = ev.clientY - lastY;
+                let newWidth = win.offsetWidth;
+                let newHeight = win.offsetHeight;
+                let newLeft = win.offsetLeft;
+                let newTop = win.offsetTop;
+                
+                if (resizeDirection.includes('e')) newWidth += dx;
+                if (resizeDirection.includes('w')) { newWidth -= dx; newLeft += dx; }
+                if (resizeDirection.includes('s')) newHeight += dy;
+                if (resizeDirection.includes('n')) { newHeight -= dy; newTop += dy; }
+
+                win.style.width = `${newWidth}px`;
+                win.style.height = `${newHeight}px`;
+                win.style.left = `${newLeft}px`;
+                win.style.top = `${newTop}px`;
+
+                lastX = ev.clientX;
+                lastY = ev.clientY;
+            }
+
+            function stopResize() {
+                isResizing = false;
+                document.removeEventListener('pointermove', doResize);
+                document.removeEventListener('pointerup', stopResize);
+            }
+
+            document.addEventListener('pointermove', doResize);
+            document.addEventListener('pointerup', stopResize);
+        });
+
+        win.addEventListener('mousemove', e => {
+            if (isResizing) return;
+            const rect = win.getBoundingClientRect();
+            const onTopEdge = e.clientY >= rect.top && e.clientY <= rect.top + resizeHandleSize;
+            const onBottomEdge = e.clientY <= rect.bottom && e.clientY >= rect.bottom - resizeHandleSize;
+            const onLeftEdge = e.clientX >= rect.left && e.clientX <= rect.left + resizeHandleSize;
+            const onRightEdge = e.clientX <= rect.right && e.clientX >= rect.right - resizeHandleSize;
+            
+            if ((onTopEdge && onLeftEdge) || (onBottomEdge && onRightEdge)) win.style.cursor = 'nwse-resize';
+            else if ((onTopEdge && onRightEdge) || (onBottomEdge && onLeftEdge)) win.style.cursor = 'nesw-resize';
+            else if (onTopEdge || onBottomEdge) win.style.cursor = 'ns-resize';
+            else if (onLeftEdge || onRightEdge) win.style.cursor = 'ew-resize';
+            else win.style.cursor = 'default';
+        });
+
+        const opacitySlider = document.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.className = 'opacity-slider';
+        opacitySlider.min = '10';
+        opacitySlider.max = '100';
+        opacitySlider.value = '100';
+        opacitySlider.title = 'Window Opacity';
+        opacitySlider.oninput = (e) => {
+            win.style.opacity = e.target.value / 100;
+        };
+        rightControls.appendChild(opacitySlider);
+
+        const buttonDefs = [
+            { type: 'quadrant', content: '<i class="fa-solid fa-table-cells-large"></i>', title: 'Snap to Quadrant (Q)' },
+            { type: 'v-half', content: '<i class="fa-solid fa-columns"></i>', title: 'Snap to Vertical Half (8)' },
+            { type: 'h-half', content: '<i class="fa-solid fa-columns h-half-icon"></i>', title: 'Snap to Horizontal Half (9)' },
+            { type: 'full', content: '<i class="fa-solid fa-expand"></i>', title: 'Snap to Fullscreen' },
+            { type: 'send-back', content: '<i class="fas fa-level-down-alt"></i>', title: 'Send to Back (PageDown)' },
+            { type: 'close', content: '×', title: 'Close Window (Backspace)' }
+        ];
+    
+        buttonDefs.forEach(def => {
+            const b = document.createElement('button');
+            b.className = (def.type === 'close') ? 'close-btn' : 'resize-btn';
+            b.innerHTML = def.content;
+            b.title = def.title;
+
+            b.onclick = () => {
+                const sidebarW = getSidebarWidth();
+                const usableWidth = window.innerWidth - sidebarW;
+                const usableHeight = window.innerHeight;
+                const halfW = usableWidth / 2;
+                const halfH = usableHeight / 2;
+
+                if (def.type === 'quadrant') {
+                    const winCenterX = win.offsetLeft + win.offsetWidth / 2;
+                    const winCenterY = win.offsetTop + win.offsetHeight / 2;
+                    
+                    win.style.left = (winCenterX < halfW) ? '0px' : `${halfW}px`;
+                    win.style.top = (winCenterY < halfH) ? '0px' : `${halfH}px`;
+                    win.style.width = `${halfW}px`;
+                    win.style.height = `${halfH}px`;
+
+                } else if (def.type === 'v-half') {
+                    const winCenterX = win.offsetLeft + win.offsetWidth / 2;
+
+                    win.style.left = (winCenterX < halfW) ? '0px' : `${halfW}px`;
+                    win.style.top = '0px';
+                    win.style.width = `${halfW}px`;
+                    win.style.height = `${usableHeight}px`;
+
+                } else if (def.type === 'h-half') {
+                    const winCenterY = win.offsetTop + win.offsetHeight / 2;
+
+                    win.style.top = (winCenterY < halfH) ? '0px' : `${halfH}px`;
+                    win.style.left = '0px';
+                    win.style.width = `${usableWidth}px`;
+                    win.style.height = `${halfH}px`;
+
+                } else if (def.type === 'full') {
+                    win.style.left = '0';
+                    win.style.top = '0';
+                    win.style.width = `${usableWidth}px`;
+                    win.style.height = `${usableHeight}px`;
+                } else if (def.type === 'send-back') {
+                    const allWindows = document.querySelectorAll('.floating');
+                    if (allWindows.length < 2) return;
+
+                    let minZ = Infinity;
+                    allWindows.forEach(w => {
+                        const z = parseInt(window.getComputedStyle(w).zIndex, 10);
+                        if (!isNaN(z) && z < minZ) {
+                            minZ = z;
+                        }
+                    });
+
+                    win.style.zIndex = minZ - 1;
+                    win.classList.remove('active-window');
+                } else if (def.type === 'close') {
+                    cleanupWindowTools(win);
+                    win.remove(); 
+                }
+            };
+            rightControls.appendChild(b);
+        });
+
+        win.addEventListener('dragover', e => e.preventDefault());
+        win.addEventListener('drop', handleDrop);
+
+        const winBody = document.createElement('div');
+        winBody.className = 'win-body';
+        const mainArea = document.createElement('div');
+        mainArea.className = 'win-main-area';
+
+        const winSidebar = document.createElement('div');
+        winSidebar.className = 'win-sidebar';
+        winBody.append(mainArea, winSidebar);
+        win.appendChild(winBody);
+
+        const tools = [
+            { key: 'd', icon: 'fas fa-pencil-alt', func: activateDraw, title: 'Drawing Canvas (D)' },
+            { key: 't', icon: 'fas fa-font', func: activateType, title: 'Text Editor (T)' },
+            { key: '0', icon: 'fas fa-list-ol', func: activateNumberedList, title: 'Numbered List (0)' },
+            { key: 'w', icon: 'fas fa-camera', func: activateCam, title: 'Webcam (W)', premium: true },
+            { key: 'v', icon: 'fas fa-images', func: activateCarousel, title: 'Photo Carousel (V)', premium: true },
+            { key: 'o', icon: 'fas fa-hourglass-start', func: activateTimer, title: 'Countdown Timer (O)', premium: true },
+            { key: 'h', icon: 'fas fa-stopwatch', func: activateStopwatch, title: 'Stopwatch (H)', premium: true },
+            { key: 'g', icon: 'fas fa-dice', func: activateDiceRoller, title: 'Dice Roller (G)', premium: true },
+            { key: 'a', icon: 'fas fa-balance-scale', func: activateForAndAgainst, title: 'For/Against Counter (A)', premium: true },
+            { key: 'u', icon: 'fas fa-calculator', func: activateCalculator, title: 'Calculator (U)', premium: true }
+        ];
+
+        tools.forEach(tool => {
+            const btn = document.createElement('button');
+            btn.className = 'icon-btn';
+            if (tool.premium) {
+                btn.classList.add('premium-feature');
+            }
+            btn.dataset.hotkey = tool.key;
+            btn.innerHTML = `<i class="${tool.icon}"></i>`;
+            btn.onclick = () => {
+                if (tool.premium && !window.TT.isPremium) {
+                    openUpgradePanel();
+                    return;
+                }
+                cleanupWindowTools(win);
+                tool.func(win);
+            };
+
+            const hotkeyLabel = document.createElement('span');
+            hotkeyLabel.className = 'hotkey-label';
+            hotkeyLabel.textContent = tool.key.toUpperCase();
+            
+            const tooltip = document.createElement('span');
+            tooltip.className = 'tooltip';
+            tooltip.textContent = tool.title;
+            
+            btn.append(hotkeyLabel, tooltip);
+            winSidebar.appendChild(btn);
+        });
+        
+        const fileInput = document.createElement('input');
+        fileInput.type = 'file';
+        fileInput.style.display = 'none';
+        fileInput.accept = 'image/*,video/*,audio/*,.pdf';
+        win.appendChild(fileInput);
+
+        const uploadBtn = document.createElement('button');
+        uploadBtn.className = 'icon-btn upload-btn';
+        uploadBtn.title = 'Import File (I)';
+        uploadBtn.innerHTML = '<i class="fas fa-file-arrow-up"></i>';
+        uploadBtn.onclick = () => fileInput.click();
+
+        fileInput.onchange = () => {
+            if (fileInput.files.length > 0) {
+                displayFileInWindow(win, fileInput.files[0]);
+            }
+        };
+        winSidebar.appendChild(uploadBtn);
+        
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'icon-btn reset-content-btn';
+        resetBtn.title = 'Erase Content (E)';
+        resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
+        resetBtn.onclick = () => {
+            const pos = { left: win.style.left, top: win.style.top, width: win.style.width, height: win.style.height, opacity: win.style.opacity };
+            const wasActive = win.classList.contains('active-window');
+            cleanupWindowTools(win);
+            win.remove();
+            const n = createWin();
+            n.style.left = pos.left; n.style.top = pos.top; n.style.width = pos.width; n.style.height = pos.height; n.style.opacity = pos.opacity;
+            if (wasActive) setActiveWindow(n);
+        };
+        winSidebar.appendChild(resetBtn);
+
+        const dropZone = document.createElement('div');
+        dropZone.className = 'drop-zone';
+        dropZone.onclick = () => {
+            const fileInput = win.querySelector('input[type="file"]');
+            if (fileInput) {
+                fileInput.click();
+            }
+        };
+        dropZone.innerHTML = `
+        <div class="drop-zone-inner">
+            <i class="drop-zone-icon fas fa-upload"></i>
+            <div class="drop-zone-file-types">
+                <i class="fas fa-file-image"></i><i class="fas fa-file-video"></i><i class="fas fa-file-audio"></i><i class="fas fa-file-pdf"></i>
+            </div>
+        </div>`;
+        mainArea.appendChild(dropZone);
+
+        document.body.appendChild(win);
+        return win;
+    }
+
+    function calculateIntersection(win1, win2) {
+        const rect1 = win1.getBoundingClientRect();
+        const rect2 = win2.getBoundingClientRect();
+
+        const interLeft = Math.max(rect1.left, rect2.left);
+        const interTop = Math.max(rect1.top, rect2.top);
+        const interRight = Math.min(rect1.right, rect2.right);
+        const interBottom = Math.min(rect1.bottom, rect2.bottom);
+
+        const interWidth = interRight - interLeft;
+        const interHeight = interBottom - interTop;
+
+        if (interWidth <= 0 || interHeight <= 0) return 0;
+
+        const intersectionArea = interWidth * interHeight;
+        const win2Area = rect2.width * rect2.height;
+
+        return intersectionArea / win2Area;
+    }
+
+    function checkForSnap(draggedWin) {
+        const allWindows = document.querySelectorAll('.floating');
+
+        for (const targetWin of allWindows) {
+            if (draggedWin === targetWin) continue;
+            
+            const sameWidth = Math.abs(draggedWin.offsetWidth - targetWin.offsetWidth) < 5;
+            const sameHeight = Math.abs(draggedWin.offsetHeight - targetWin.offsetHeight) < 5;
+
+            if (sameWidth && sameHeight) {
+                const overlap = calculateIntersection(draggedWin, targetWin);
+                if (overlap >= 0.55) {
+                    draggedWin.style.left = targetWin.style.left;
+                    draggedWin.style.top = targetWin.style.top;
+                    draggedWin.style.opacity = '0.3';
+
+                    const opacitySlider = draggedWin.querySelector('.opacity-slider');
+                    if (opacitySlider) opacitySlider.value = 30;
+                    
+                    draggedWin.classList.add('snapped-window');
+                    return; 
+                }
+            }
+        }
+    }
+
+    function handleLayout(layoutId, layoutFunction) {
+        if (layoutState.activeLayout === layoutId) {
+            clearWins();
+            layoutState.activeLayout = null;
+            layoutState.isVisible = true;
+            localStorage.removeItem('ttx_lastLayout');
+        } else {
+            layoutFunction();
+            layoutState.activeLayout = layoutId;
+            layoutState.isVisible = true;
+            localStorage.setItem('ttx_lastLayout', layoutId);
+        }
+    }
+
+    function buildAndShowLayout(layoutId, showAnim = true) {
+        const sidebarW = getSidebarWidth();
+        const w = window.innerWidth - sidebarW;
+        const h = window.innerHeight;
+        const hw = w / 2;
+        const hh = h / 2;
+        let configs = [];
+
+        switch (layoutId) {
+            case 1:
+                configs.push({ left: '0', top: '0', width: `${w}px`, height: `${h}px` });
+                break;
+            case 2:
+                configs.push({ left: '0px', top: '0px', width: `${hw}px`, height: `${h}px` }, { left: `${hw}px`, top: '0px', width: `${hw}px`, height: `${h}px` });
+                break;
+            case 3:
+                configs.push({ left: '0px', top: '0px', width: `${hw}px`, height: `${h}px` }, { left: `${hw}px`, top: '0px', width: `${hw}px`, height: `${hh}px` }, { left: `${hw}px`, top: `${hh}px`, width: `${hw}px`, height: `${hh}px` });
+                break;
+            case 4:
+                configs.push({ left: `${hw}px`, top: '0px', width: `${hw}px`, height: `${h}px` }, { left: '0px', top: '0px', width: `${hw}px`, height: `${hh}px` }, { left: '0px', top: `${hh}px`, width: `${hw}px`, height: `${hh}px` });
+                break;
+            case 5:
+                configs.push({ left: '0px', top: '0px', width: `${hw}px`, height: `${hh}px` }, { left: `${hw}px`, top: '0px', width: `${hw}px`, height: `${hh}px` }, { left: '0px', top: `${hh}px`, width: `${hw}px`, height: `${hh}px` }, { left: `${hw}px`, top: `${hh}px`, width: `${hw}px`, height: `${hh}px` });
+                break;
+            case 6:
+                const rightColWidth6 = w * 0.1573605;
+                const leftColWidth6 = w * 0.429875;
+                const middleColWidth6 = w * 0.4127645;
+                const middleColStart6 = leftColWidth6;
+                const rightColStart6 = leftColWidth6 + middleColWidth6;
+    
+                configs.push({ left: '0px', top: '0px', width: `${leftColWidth6}px`, height: `${h}px` });
+                configs.push({ left: `${middleColStart6}px`, top: '0px', width: `${middleColWidth6}px`, height: `${h}px` });
+                configs.push({ left: `${rightColStart6}px`, top: '0px', width: `${rightColWidth6}px`, height: `${hh}px` });
+                configs.push({ left: `${rightColStart6}px`, top: `${hh}px`, width: `${rightColWidth6}px`, height: `${hh}px` });
+                break;
+            case 7:
+                const rightColWidth7 = w * 0.1573605;
+                const leftColWidth7 = w * 0.429875;
+                const middleColWidth7 = w * 0.4127645;
+                const middleColStart7 = leftColWidth7;
+                const rightColStart7 = leftColWidth7 + middleColWidth7;
+
+                configs.push({ left: '0px', top: '0px', width: `${leftColWidth7}px`, height: `${h}px` });
+                configs.push({ left: `${middleColStart7}px`, top: '0px', width: `${middleColWidth7}px`, height: `${hh}px` });
+                configs.push({ left: `${middleColStart7}px`, top: `${hh}px`, width: `${middleColWidth7}px`, height: `${hh}px` });
+                configs.push({ left: `${rightColStart7}px`, top: '0px', width: `${rightColWidth7}px`, height: `${hh}px` });
+                configs.push({ left: `${rightColStart7}px`, top: `${hh}px`, width: `${rightColWidth7}px`, height: `${hh}px` });
+                break;
+            case 8:
+                const leftColWidth8 = w * 0.75;
+                const rightColWidth8 = w * 0.25;
+                const rightColStart8 = leftColWidth8;
+
+                configs.push({ left: '0px', top: '0px', width: `${leftColWidth8}px`, height: `${h}px` });
+                configs.push({ left: `${rightColStart8}px`, top: '0px', width: `${rightColWidth8}px`, height: `${hh}px` });
+                configs.push({ left: `${rightColStart8}px`, top: `${hh}px`, width: `${rightColWidth8}px`, height: `${hh}px` });
+                break;
+        }
+        createWinArrangement(configs);
+        if (showAnim) {
+            showOverlay(String(layoutId));
+        }
+    }
+
+    let infoWindowElements = {};
+
+    const renderInfoTextForWindow = (langCode) => {
+        if (!infoWindowElements.wrapper) return;
+        const t = infoTranslations[langCode] || infoTranslations['en'];
+        let htmlContent = `<img src="ttlogo.png" alt="Teacher Toybox Logo" class="info-window-logo"><h2>${t.title}</h2><p>${t.subtitle}</p>`;
+        for (let i = 1; i <= 4; i++) {
+            if (t[`section${i}_title`]) {
+                htmlContent += `<h3>${t[`section${i}_title`]}</h3><ul>`;
+                t[`section${i}_points`].forEach(point => {
+                    const parts = point.split(/:(.+)/s);
+                    htmlContent += `<li><strong>${parts[0]}:</strong> ${parts.length > 1 ? parts[1].trim() : ''}</li>`;
+                });
+                htmlContent += `</ul>`;
+            }
+        }
+        htmlContent += `<p><em>${t.conclusion}</em></p>`;
+        infoWindowElements.wrapper.innerHTML = htmlContent;
+    };
+
+    const fitInfoWindowText = () => {
+        if (!infoWindowElements.wrapper) return;
+        infoWindowElements.wrapper.style.fontSize = '';
+    
+        let minSize = 8;
+        let maxSize = parseFloat(window.getComputedStyle(infoWindowElements.wrapper).fontSize);
+        let finalSize = minSize;
+    
+        for (let i = 0; i < 10; i++) {
+            let midSize = (minSize + maxSize) / 2;
+            infoWindowElements.wrapper.style.fontSize = `${midSize}px`;
+    
+            if (infoWindowElements.wrapper.scrollHeight > infoWindowElements.wrapper.clientHeight) {
+                maxSize = midSize;
+            } else {
+                finalSize = midSize;
+                minSize = midSize;
+            }
+        }
+        infoWindowElements.wrapper.style.fontSize = `${finalSize}px`;
+    };
+
+    window.TT.updateInfoWindowLanguage = (lang) => {
+        const infoWindow = document.querySelector('.info-content-wrapper');
+        if (infoWindow) {
+            renderInfoTextForWindow(lang);
+            fitInfoWindowText();
+        }
+    };
+
+    function buildInfoWindow(showAnim = true) {
+        clearWins();
+        const w = createWin();
+        const currentSidebarWidth = getSidebarWidth();
+        w.style.left = '0px';
+        w.style.top = '0px';
+        w.style.width = `${window.innerWidth - currentSidebarWidth}px`;
+        w.style.height = `${window.innerHeight}px`;
+        w.style.resize = 'none';
+        w.style.borderRadius = '0';
+    
+        const bar = w.querySelector('.drag-bar');
+        if (bar) bar.style.display = 'none';
+
+        const closeBtn = document.createElement('button');
+        closeBtn.className = 'info-close-btn';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.title = 'Close';
+        closeBtn.onclick = (e) => {
+            e.stopPropagation();
+            closeInfoIfOpen();
+        };
+        w.appendChild(closeBtn);
+
+        const winSidebar = w.querySelector('.win-sidebar');
+        if (winSidebar) winSidebar.style.display = 'none';
+        
+        const mainArea = w.querySelector('.win-main-area');
+        if (mainArea) {
+            mainArea.innerHTML = '';
+            mainArea.style.padding = '0';
+            mainArea.style.overflow = 'hidden';
+        }
+    
+        const v = document.createElement('div');
+        v.className = 'content-fill';
+        v.style.height = '100%';
+        v.style.position = 'relative';
+    
+        const infoWrapper = document.createElement('div');
+        infoWrapper.className = 'info-content-wrapper';
+    
+        infoWindowElements.wrapper = infoWrapper;
+        
+        const initialLang = localStorage.getItem('ttx_lang') || 'en';
+        renderInfoTextForWindow(initialLang);
+
+        v.append(infoWrapper);
+        if(mainArea) mainArea.appendChild(v);
+    
+        setTimeout(() => {
+            infoWrapper.classList.add('info-fade-in');
+        }, 10);
+    
+        if (mainArea) {
+            const resizeObserver = new ResizeObserver(() => {
+                requestAnimationFrame(fitInfoWindowText);
+            });
+            resizeObserver.observe(mainArea);
+            w.toolResizeObserver = resizeObserver;
+        }
+    
+        setTimeout(fitInfoWindowText, 50);
+    
+        w.onclick = (e) => {
+            if (e.target === w || e.target === v || e.target === mainArea) {
+                 closeInfoIfOpen();
+            }
+        };
+    
+        if (showAnim) {
+            showOverlay('i');
+        }
+    }
+
+    $('addButton').onclick = () => {
+        const newWin = createWin();
+        setActiveWindow(newWin);
+        showOverlay('+');
+        layoutState.activeLayout = null;
+        localStorage.removeItem('ttx_lastLayout');
+    };
+
+    document.querySelectorAll('[id^="layout"][id$="Button"]').forEach(button => {
+        button.onclick = () => {
+            const layoutId = parseInt(button.id.match(/\d+/)[0]);
+            handleLayout(layoutId, () => buildAndShowLayout(layoutId));
+        };
+    });
+
+    $('colorButton').onclick = () => {
+        if (closeInfoIfOpen()) return;
+        $('colorPicker').click();
+        layoutState.activeLayout = null;
+        localStorage.removeItem('ttx_lastLayout');
+    };
+    
+    const colorPalette = $('color-palette');
+    const themePaletteButton = $('themePaletteButton');
+    if (themePaletteButton) {
+        themePaletteButton.onclick = (e) => {
+            e.stopPropagation();
+            if (closeInfoIfOpen()) return;
+            colorPalette.classList.toggle('hidden');
+        };
+    }
+    
+    if (colorPalette) {
+        colorPalette.addEventListener('click', (e) => {
+            if (e.target.classList.contains('palette-swatch')) {
+                const newColor = e.target.dataset.color;
+                if (newColor) {
+                    applyAccentColor(newColor);
+                    localStorage.setItem('ttx_accentColor', newColor);
+                    colorPalette.classList.add('hidden');
+                }
+            }
+        });
+    }
+
+    $('colorPicker').oninput = e => {
+        if (closeInfoIfOpen()) return;
+        const newColor = e.target.value;
+        applyAccentColor(newColor);
+        localStorage.setItem('ttx_accentColor', newColor);
+        layoutState.activeLayout = null;
+    };
+
+    function applyAccentColor(color) {
+        document.documentElement.style.setProperty('--accent-color', color);
+        document.body.classList.toggle('custom-color', color.toLowerCase() !== defaultAccentColor.toLowerCase());
+        const r = parseInt(color.slice(1, 3), 16);
+        const g = parseInt(color.slice(3, 5), 16);
+        const b = parseInt(color.slice(5, 7), 16);
+        document.documentElement.style.setProperty('--accent-color-rgb', `${r}, ${g}, ${b}`);
+    }
+
+    const originalColorButton = $('originalColorButton');
+    if (originalColorButton) {
+        originalColorButton.onclick = () => {
+            if (closeInfoIfOpen()) return;
+            applyAccentColor(defaultAccentColor);
+            localStorage.setItem('ttx_accentColor', defaultAccentColor);
+            showOverlay('↺');
+            layoutState.activeLayout = null;
+        };
+    }
+
+    let lastMagicClick = 0;
+    $('magicColorButton').onclick = async() => {
+        if (closeInfoIfOpen()) return;
+        const now = Date.now();
+        if (now - lastMagicClick < 300) {
+            applyAccentColor(defaultAccentColor);
+            localStorage.setItem('ttx_accentColor', defaultAccentColor);
+            showOverlay('↺');
+            lastMagicClick = 0;
+            layoutState.activeLayout = null;
+            return;
+        }
+        lastMagicClick = now;
+        const colorCounts = new Map();
+        const tempCanvas = document.createElement('canvas');
+        const tempCtx = tempCanvas.getContext('2d', { willReadFrequently: true });
+        const sources = document.querySelectorAll('.floating:not(.hidden) img, .floating:not(.hidden) canvas');
+        if (sources.length === 0) {
+            showOverlay('?');
+            return;
+        }
+        showOverlay('...');
+        for (const el of sources) {
+            try {
+                if (el.tagName === 'IMG') {
+                    if (!el.complete) await new Promise(resolve => { el.onload = resolve; });
+                    tempCanvas.width = el.naturalWidth;
+                    tempCanvas.height = el.naturalHeight;
+                } else {
+                    tempCanvas.width = el.width;
+                    tempCanvas.height = el.height;
+                }
+
+                const isLightMode = document.body.classList.contains('light-mode');
+                const bgColor = isLightMode ? '#FFFFFF' : '#333'; 
+                tempCtx.fillStyle = bgColor;
+                tempCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
+                
+                tempCtx.drawImage(el, 0, 0);
+                
+                const data = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height).data;
+                for (let i = 0; i < data.length; i += 20) {
+                    const [r, g, b, a] = [data[i], data[i + 1], data[i + 2], data[i + 3]];
+                    if (a < 128 || (Math.abs(r - g) < 20 && Math.abs(g - b) < 20) || (r < 20 && g < 20 && b < 20) || (r > 235 && g > 235 && b > 235)) {
+                        continue;
+                    }
+                    const quantR = r >> 4,
+                        quantG = g >> 4,
+                        quantB = b >> 4;
+                    const key = `${quantR},${quantG},${quantB}`;
+                    colorCounts.set(key, (colorCounts.get(key) || 0) + 1);
+                }
+            } catch (err) {
+                console.error("Could not process element for color extraction:", err);
+            }
+        }
+        if (colorCounts.size === 0) {
+            showOverlay('?');
+            return;
+        }
+        const prominentColorKey = [...colorCounts.entries()].reduce((a, e) => e[1] > a[1] ? e : a)[0];
+        const [r, g, b] = prominentColorKey.split(',').map(c => (parseInt(c) << 4) | (parseInt(c)));
+        const toHex = c => c.toString(16).padStart(2, '0');
+        const finalColor = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+
+        applyAccentColor(finalColor);
+        localStorage.setItem('ttx_accentColor', finalColor);
+        showOverlay('🎨');
+        layoutState.activeLayout = null;
+    };
+
+    $('bellButton').onclick = () => {
+        if (closeInfoIfOpen()) return;
+        const s = $('bellSound');
+        s.currentTime = 0;
+        s.play()
+    };
+    $('shhButton').onclick = () => {
+        if (closeInfoIfOpen()) return;
+        const s = $('shhSound');
+        s.currentTime = 0;
+        s.play().catch(() => {})
+    };
+
+    (function() {
+        let isActive = false;
+        let laserDotElement = null;
+
+        const updatePosition = (e) => {
+            if (!laserDotElement) return;
+            const x = e.clientX - 10;
+            const y = e.clientY - 10;
+            laserDotElement.style.transform = `translate(${x}px, ${y}px)`;
+        };
+
+        const turnOn = () => {
+            if (isActive) return;
+            laserDotElement = document.createElement('div');
+            laserDotElement.id = 'laserDot';
+            document.body.appendChild(laserDotElement);
+            document.addEventListener('pointermove', updatePosition);
+            $('laserButton').classList.add('active');
+            isActive = true;
+        };
+
+        const turnOff = () => {
+            if (!isActive) return;
+            document.removeEventListener('pointermove', updatePosition);
+            if (laserDotElement) {
+                laserDotElement.remove();
+                laserDotElement = null;
+            }
+            $('laserButton').classList.remove('active');
+            isActive = false;
+        };
+
+        const toggle = () => {
+            if (closeInfoIfOpen()) return;
+            isActive ? turnOff() : turnOn();
+        };
+
+        const laserButton = $('laserButton');
+        if (laserButton) {
+            laserButton.onclick = toggle;
+        }
+
+        global.TT.turnOffLaser = turnOff;
+    })();
+
+    $('infoButton').onclick = () => {
+        handleLayout('info', () => buildInfoWindow(true));
+    };
+
+    function showShareModal() {
+        const lang = localStorage.getItem('ttx_lang') || 'en';
+        const dict = window.I18N[lang] || window.I18N.en;
+        const t = window.t;
+    
+        const url = "https://www.teachertoybox.com";
+        const text = "Check out Teacher Toybox! A free interactive digital whiteboard for classrooms with fun and engaging tools.";
+        const title = "Teacher Toybox";
+    
+        const backdrop = document.createElement('div');
+        backdrop.className = 'share-backdrop';
+    
+        const modal = document.createElement('div');
+        modal.className = 'share-modal';
+        modal.innerHTML = `
+            <button class="close-modal-btn">&times;</button>
+            <h3 data-i18n="panel.share.title">${t(dict, 'panel.share.title') || 'Share with a Friend'}</h3>
+            <p class="share-intro-text">Like this free tool? Help other teachers discover it!</p>
+            <div class="share-grid">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" class="share-grid-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}" target="_blank" class="share-grid-btn twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}&summary=${encodeURIComponent(text)}" target="_blank" class="share-grid-btn linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                <a href="https://api.whatsapp.com/send?text=${encodeURIComponent(text + ' ' + url)}" target="_blank" class="share-grid-btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                 <a href="https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}" target="_blank" class="share-grid-btn reddit"><i class="fab fa-reddit-alien"></i> Reddit</a>
+                <a href="mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(text)}%0A%0A${encodeURIComponent(url)}" class="share-grid-btn email"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+            <p class="copy-link-heading">Or copy the link</p>
+            <div class="copy-link-area">
+                <input type="text" value="${url}" readonly>
+                <button>Copy Link</button>
+            </div>
+        `;
+        document.body.append(backdrop, modal);
+    
+        setTimeout(() => {
+            backdrop.style.opacity = '1';
+            modal.style.opacity = '1';
+            modal.style.transform = 'translate(-50%, -50%) scale(1)';
+        }, 10);
+    
+        const closeModal = () => {
+            backdrop.style.opacity = '0';
+            modal.style.opacity = '0';
+            modal.style.transform = 'translate(-50%, -50%) scale(0.9)';
+            setTimeout(() => {
+                backdrop.remove();
+                modal.remove();
+            }, 300);
+        };
+        
+        backdrop.onclick = closeModal;
+        modal.querySelector('.close-modal-btn').onclick = closeModal;
+        
+        const copyBtn = modal.querySelector('.copy-link-area button');
+        const urlInput = modal.querySelector('.copy-link-area input');
+        
+        copyBtn.onclick = () => {
+            const showSuccess = () => {
+                copyBtn.textContent = 'Copied!';
+                copyBtn.style.backgroundColor = 'var(--success-color)';
+                setTimeout(() => {
+                    copyBtn.textContent = 'Copy Link';
+                    copyBtn.style.backgroundColor = '';
+                }, 2000);
+            };
+    
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(url).then(showSuccess);
+            } else {
+                urlInput.select();
+                document.execCommand('copy');
+                showSuccess();
+            }
+        };
+    }
+
+    $('shareButton').onclick = () => {
+        if (closeInfoIfOpen()) return;
+        showShareModal();
+    };
+
+    $('refreshButton').onclick = () => {
+        if (global.TT.turnOffLaser) {
+            global.TT.turnOffLaser();
+        }
+        clearWins();
+        showOverlay('🗑️');
+        layoutState.activeLayout = null;
+        localStorage.removeItem('ttx_lastLayout');
+    };
+
+    $('extraToolsButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('layout-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
+        $('extra-tools-bar').classList.toggle('open');
+    };
+
+    $('screenButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('extra-tools-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
+        $('layout-bar').classList.toggle('open');
+    };
+
+    $('managementButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('extra-tools-bar').classList.remove('open');
+        $('layout-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
+        $('management-bar').classList.toggle('open');
+    };
+    
+    $('helpButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('extra-tools-bar').classList.remove('open');
+        $('layout-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
+        $('help-bar').classList.toggle('open');
+    };
+
+    $('communicationButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('extra-tools-bar').classList.remove('open');
+        $('layout-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        $('communication-bar').classList.toggle('open');
+    };
+
+    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout, communicationTimeout;
+    const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
+        const button = $(buttonId);
+        const bar = $(barId);
+        if (!button || !bar) return;
+
+        const startTimer = () => {
+            clearTimeout(timeoutVar);
+            timeoutVar = setTimeout(() => bar.classList.remove('open'), 2000);
+        };
+        const cancelTimer = () => clearTimeout(timeoutVar);
+
+        button.addEventListener('mouseleave', startTimer);
+        bar.addEventListener('mouseleave', startTimer);
+        button.addEventListener('mouseenter', cancelTimer);
+        bar.addEventListener('mouseenter', cancelTimer);
+    };
+
+    setupToolbarAutoRetract('screenButton', 'layout-bar', layoutTimeout);
+    setupToolbarAutoRetract('extraToolsButton', 'extra-tools-bar', extraToolsTimeout);
+    setupToolbarAutoRetract('managementButton', 'management-bar', managementTimeout);
+    setupToolbarAutoRetract('helpButton', 'help-bar', helpTimeout);
+    setupToolbarAutoRetract('communicationButton', 'communication-bar', communicationTimeout);
+    
+    const feedbackButton = $('feedbackButton');
+    const feedbackPanel = $('feedback-panel');
+    const feedbackBackdrop = $('feedback-backdrop');
+    const closeFeedbackBtn = $('close-feedback-btn');
+    const stars = document.querySelectorAll('.star-rating .fa-regular.fa-star');
+    const submitFeedbackBtn = $('submit-feedback-btn');
+
+    let currentRating = 0;
+
+    function openFeedbackPanel() {
+        if(feedbackBackdrop && feedbackPanel) {
+            feedbackBackdrop.classList.remove('hidden');
+            feedbackPanel.classList.add('open');
+        }
+    }
+
+    function closeFeedbackPanel() {
+        if(feedbackPanel && feedbackBackdrop) {
+            const currentLang = localStorage.getItem('ttx_lang') || 'en';
+            feedbackPanel.classList.remove('open');
+            feedbackBackdrop.classList.add('hidden');
+            setTimeout(() => {
+                $('feedback-comment').value = '';
+                currentRating = 0;
+                updateStars();
+                submitFeedbackBtn.disabled = false;
+                submitFeedbackBtn.style.backgroundColor = '';
+                submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButton') || 'Submit';
+            }, 400);
+        }
+    }
+
+    function updateStars() {
+        stars.forEach(star => {
+            if (parseInt(star.dataset.value) <= currentRating) {
+                star.classList.replace('fa-regular', 'fa-solid');
+                star.style.color = '#fdd835';
+            } else {
+                star.classList.replace('fa-solid', 'fa-regular');
+                star.style.color = '';
+            }
+        });
+    }
+
+    if (feedbackButton) feedbackButton.onclick = openFeedbackPanel;
+    if (closeFeedbackBtn) closeFeedbackBtn.onclick = closeFeedbackPanel;
+    if (feedbackBackdrop) feedbackBackdrop.onclick = closeFeedbackPanel;
+
+    stars.forEach(star => {
+        star.addEventListener('click', () => {
+            currentRating = parseInt(star.dataset.value);
+            updateStars();
+        });
+    });
+    
+    if (submitFeedbackBtn) {
+        submitFeedbackBtn.onclick = async () => {
+            const comment = $('feedback-comment').value;
+            if (currentRating === 0 && !comment.trim()) {
+                alert('Please provide a rating or a comment.');
+                return;
+            }
+            const currentLang = localStorage.getItem('ttx_lang') || 'en';
+
+            submitFeedbackBtn.disabled = true;
+            submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButtonSending') || 'Sending...';
+
+            const formData = new FormData();
+            formData.append('rating', currentRating);
+            formData.append('comment', comment);
+            try {
+                const response = await fetch('https://formspree.io/f/xovloydp', {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (response.ok) {
+                    submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButtonSuccess') || 'Thank You!';
+                    submitFeedbackBtn.style.backgroundColor = 'var(--success-color)';
+                    setTimeout(closeFeedbackPanel, 1500);
+                } else { throw new Error('Form submission failed'); }
+            } catch (error) {
+                console.error('Error submitting feedback:', error);
+                alert('Sorry, there was an error sending your feedback.');
+                submitFeedbackBtn.disabled = false;
+                submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButton') || 'Submit';
+            }
+        };
+    }
+
+    const policyButton = $('policyButton');
+    const policyPanel = $('policy-panel');
+    const policyBackdrop = $('policy-backdrop');
+    const closePolicyBtn = $('close-policy-btn');
+
+    function openPolicyPanel() {
+        if(policyBackdrop && policyPanel) {
+            policyBackdrop.classList.remove('hidden');
+            policyPanel.classList.add('open');
+        }
+    }
+
+    function closePolicyPanel() {
+        if(policyPanel && policyBackdrop) {
+            policyPanel.classList.remove('open');
+            policyBackdrop.classList.add('hidden');
+        }
+    }
+
+    if (policyButton) policyButton.onclick = openPolicyPanel;
+    if (closePolicyBtn) closePolicyBtn.onclick = closePolicyPanel;
+    if (policyBackdrop) policyBackdrop.onclick = closePolicyPanel;
+
+    // --- START: Contact Us Panel ---
+    const contactButton = $('contactButton');
+    const contactPanel = $('contact-panel');
+    const contactBackdrop = $('contact-backdrop');
+    const closeContactBtn = $('close-contact-btn');
+    const contactForm = $('contact-form');
+
+    function openContactPanel() {
+        if(contactBackdrop && contactPanel) {
+            contactBackdrop.classList.remove('hidden');
+            contactPanel.classList.add('open');
+        }
+    }
+
+    function closeContactPanel() {
+        if(contactPanel && contactBackdrop) {
+            contactPanel.classList.remove('open');
+            contactBackdrop.classList.add('hidden');
+        }
+    }
+
+    if (contactButton) contactButton.onclick = openContactPanel;
+    if (closeContactBtn) closeContactBtn.onclick = closeContactPanel;
+    if (contactBackdrop) contactBackdrop.onclick = closeContactPanel;
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const submitBtn = $('submit-contact-btn');
+            const formData = new FormData(contactForm);
+            const currentLang = localStorage.getItem('ttx_lang') || 'en';
+    
+            submitBtn.disabled = true;
+            submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButtonSending') || 'Sending...';
+    
+            try {
+                // IMPORTANT: Replace with your new Formspree endpoint for support@teachertoybox.com
+                const response = await fetch('https://formspree.io/f/mpwjrnag', {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (response.ok) {
+                    submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButtonSuccess') || 'Message Sent!';
+                    submitBtn.style.backgroundColor = 'var(--success-color)';
+                    contactForm.reset();
+                    setTimeout(() => {
+                        closeContactPanel();
+                        // Reset button after a delay
+                        setTimeout(() => {
+                             submitBtn.disabled = false;
+                             submitBtn.style.backgroundColor = '';
+                             submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButton') || 'Send Message';
+                        }, 500);
+                    }, 2000);
+                } else { throw new Error('Form submission failed'); }
+            } catch (error) {
+                console.error('Error submitting contact form:', error);
+                alert('Sorry, there was an error sending your message.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButton') || 'Send Message';
+            }
+        });
+    }
+    // --- END: Contact Us Panel ---
+
+
+    document.addEventListener('keydown', e => {
+        const activeWin = document.querySelector('.floating.active-window');
+        const focusedElement = document.activeElement;
+        const isEditing = focusedElement && (focusedElement.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(focusedElement.tagName));
+
+        if (e.key === 'Delete' && !isEditing) {
+            e.preventDefault();
+            clearWins();
+            hotkeysEnabled = true;
+            showOverlay('🗑️');
+            layoutState.activeLayout = null;
+            localStorage.removeItem('ttx_lastLayout');
+            return;
+        }
+        
+        if (e.key === 'Backspace' && !isEditing) {
+            e.preventDefault();
+            if (activeWin) {
+                activeWin.querySelector('.close-btn')?.click();
+            }
+            return;
+        }
+
+        if (activeWin && activeWin.classList.contains('timer-is-running')) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                activeWin.querySelector('.timer-start-pause-btn')?.click();
+            } else if (e.code === 'Space' && !isEditing) {
+                e.preventDefault();
+                activeWin.querySelector('.timer-reset-btn')?.click();
+            }
+        }
+        
+        if (!hotkeysEnabled || isEditing) return;
+
+        if (e.key === '`') {
+            document.querySelectorAll('.hotkey-label').forEach(l => l.style.display = (l.style.display === 'block' ? 'none' : 'block'));
+            return;
+        }
+        
+        const toolKeys = ['d', 't', '0', 'w', 'v', 'o', 'h', 'g', 'a', 'u'];
+        if (toolKeys.includes(e.key.toLowerCase())) {
+            if (activeWin) {
+                activeWin.querySelector(`.win-sidebar [data-hotkey="${e.key.toLowerCase()}"]`)?.click();
+                return;
+            }
+        }
+        if (e.key.toLowerCase() === 'i' && activeWin) {
+            activeWin.querySelector('.upload-btn')?.click();
+            return;
+        }
+        if (e.key.toLowerCase() === 'e' && activeWin) {
+            activeWin.querySelector('.reset-content-btn')?.click();
+            return;
+        }
+
+        const resizeKeyMap = { 'q': 0, '9': 2 };
+        if (resizeKeyMap.hasOwnProperty(e.key.toLowerCase())) {
+            if (activeWin) {
+                const resizeButtons = activeWin.querySelectorAll('.resize-btn');
+                const buttonIndex = resizeKeyMap[e.key.toLowerCase()];
+                if (resizeButtons[buttonIndex]) {
+                    resizeButtons[buttonIndex].click();
+                }
+            }
+            return;
+        }
+        
+        if (e.key === 'PageDown' && activeWin) {
+            const sendBackButton = activeWin.querySelector('.resize-btn[title*="Send to Back"]');
+            sendBackButton?.click();
+            return;
+        }
+
+        if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+            e.preventDefault();
+            if (!activeWin) return;
+
+            const sidebarW = getSidebarWidth();
+            const winW = window.innerWidth - sidebarW;
+            const winH = window.innerHeight;
+            const halfW = winW / 2;
+            const halfH = winH / 2;
+
+            const tolerance = 10;
+            const isQuarter = Math.abs(activeWin.offsetWidth - halfW) < tolerance && Math.abs(activeWin.offsetHeight - halfH) < tolerance;
+            const isHalfV = Math.abs(activeWin.offsetWidth - halfW) < tolerance && Math.abs(activeWin.offsetHeight - winH) < tolerance;
+            const isHalfH = Math.abs(activeWin.offsetWidth - winW) < tolerance && Math.abs(activeWin.offsetHeight - halfH) < tolerance;
+            
+            if (!isQuarter && !isHalfV && !isHalfH) return;
+
+            const currentX = activeWin.offsetLeft;
+            const currentY = activeWin.offsetTop;
+            
+            const onLeftHalf = currentX < tolerance;
+            const onRightHalf = Math.abs(currentX - halfW) < tolerance;
+            const onTopHalf = currentY < tolerance;
+            const onBottomHalf = Math.abs(currentY - halfH) < tolerance;
+
+            if (isHalfV) {
+                if (e.key === 'ArrowRight' && onLeftHalf) {
+                    activeWin.style.left = `${halfW}px`;
+                } else if (e.key === 'ArrowLeft' && onRightHalf) {
+                    activeWin.style.left = '0px';
+                }
+            } else if (isHalfH) {
+                if (e.key === 'ArrowDown' && onTopHalf) {
+                    activeWin.style.top = `${halfH}px`;
+                } else if (e.key === 'ArrowUp' && onBottomHalf) {
+                    activeWin.style.top = '0px';
+                }
+            } else if (isQuarter) {
+                if (e.key === 'ArrowRight' && onLeftHalf) {
+                    activeWin.style.left = `${halfW}px`;
+                } else if (e.key === 'ArrowLeft' && onRightHalf) {
+                    activeWin.style.left = '0px';
+                } else if (e.key === 'ArrowDown' && onTopHalf) {
+                    activeWin.style.top = `${halfH}px`;
+                } else if (e.key === 'ArrowUp' && onBottomHalf) {
+                    activeWin.style.top = '0px';
+                }
+            }
+            return;
+        }
+
+        const mainKeyMap = { 
+            'n': 'addButton', 
+            '1': 'layout1Button', '2': 'layout2Button', '3': 'layout3Button', '4': 'layout4Button', '5': 'layout5Button', '6': 'layout6Button', '7': 'layout7Button', '8': 'layout8Button',
+            'c': 'colorButton', 'm': 'magicColorButton', 'b': 'bellButton', 's': 'shhButton', 
+            'p': 'laserButton', '/': 'managementButton', 'r': 'refreshButton', 'x': 'extraToolsButton', 
+            'l': 'screenButton', 'k': 'clockButton', 'j': 'shareButton', 'f': 'communicationButton',
+            'z': 'themePaletteButton', '?': 'helpButton', 'u': 'upgradeButton'
+        };
+
+        const key = e.key.toLowerCase();
+        if (mainKeyMap[key]) {
+            if (key === 'r' && (e.ctrlKey || e.shiftKey || e.altKey || e.metaKey)) {
+                return;
+            }
+    
+            e.preventDefault();
+            $(mainKeyMap[key])?.click();
+        } else if (key === 'y') {
+            e.preventDefault();
+            const coffeeLink = document.querySelector('.buyme-button');
+            if (coffeeLink) coffeeLink.click();
+        }
+    });
+
+    let resizeDebounceTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeDebounceTimeout);
+        resizeDebounceTimeout = setTimeout(() => {
+            const newWidth = window.innerWidth;
+            const newHeight = window.innerHeight;
+            const sidebarW = getSidebarWidth();
+            const oldUsableWidth = lastWindowWidth - sidebarW;
+            const newUsableWidth = newWidth - sidebarW;
+
+            document.querySelectorAll('.floating').forEach(win => {
+                if (win.querySelector('.info-content-wrapper')) {
+                    win.style.width = `${newUsableWidth}px`;
+                    win.style.height = `${newHeight}px`;
+                    return;
+                }
+                
+                const oldRelX = win.offsetLeft / oldUsableWidth;
+                const oldRelY = win.offsetTop / lastWindowHeight;
+                const oldRelW = win.offsetWidth / oldUsableWidth;
+                const oldRelH = win.offsetHeight / lastWindowHeight;
+
+                win.style.left = `${oldRelX * newUsableWidth}px`;
+                win.style.top = `${oldRelY * newHeight}px`;
+                win.style.width = `${oldRelW * newUsableWidth}px`;
+                win.style.height = `${oldRelH * newHeight}px`;
+            });
+
+            lastWindowWidth = newWidth;
+            lastWindowHeight = newHeight;
+        }, 100);
+    });
+
+    function loadSettings() {
+        const savedColor = localStorage.getItem('ttx_accentColor');
+        if (savedColor) {
+            applyAccentColor(savedColor);
+            $('colorPicker').value = savedColor;
+        }
+        
+        const savedTheme = localStorage.getItem('ttx_theme');
+        const themeToggleInput = document.getElementById('theme-toggle');
+        if (themeToggleInput) {
+            // Default to light mode unless 'dark' is explicitly saved
+            if (savedTheme !== 'dark') {
+                themeToggleInput.checked = true;
+                document.body.classList.add('light-mode');
+            }
+        }
+
+        const savedLayout = localStorage.getItem('ttx_lastLayout');
+        if (savedLayout) {
+            const layoutButton = $(`layout${savedLayout}Button`);
+            if (layoutButton) {
+                layoutButton.click();
+            }
+        }
+    }
+
+    loadSettings();
+
+    document.body.addEventListener('pointerdown', (e) => {
+        if (!e.target.closest('.floating[data-disables-hotkeys="true"]')) {
+            hotkeysEnabled = true;
+        }
+    
+        const isClickOnLangPicker = e.target.closest('#lang-picker-wrap');
+        if (isClickOnLangPicker) {
+            return;
+        }
+
+        if (e.target === document.body || e.target.closest('#site-title')) {
+            document.body.classList.toggle('no-grid');
+    
+            if (e.target.closest('#site-title')) {
+                applyAccentColor(defaultAccentColor);
+                localStorage.setItem('ttx_accentColor', defaultAccentColor);
+                showOverlay('↺');
+            }
+        }
+    });
+    
+    document.addEventListener('click', (e) => {
+        const isClickInsideSidebar = e.target.closest('#sidebar-main-controls');
+        const isClickInsideFeedbackPanel = e.target.closest('#feedback-panel');
+        const isClickInsideUpgradePanel = e.target.closest('#upgrade-panel');
+        const isClickInsidePolicyPanel = e.target.closest('#policy-panel');
+        const isClickInsideContactPanel = e.target.closest('#contact-panel');
+        const isClickInsideCommunicationPanel = e.target.closest('#communication-tools-container');
+
+        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel && !isClickInsidePolicyPanel && !isClickInsideContactPanel && !isClickInsideCommunicationPanel) {
+            if($('layout-bar')) $('layout-bar').classList.remove('open');
+            if($('management-bar')) $('management-bar').classList.remove('open');
+            if($('extra-tools-bar')) $('extra-tools-bar').classList.remove('open');
+            if($('help-bar')) $('help-bar').classList.remove('open');
+            if($('communication-bar')) $('communication-bar').classList.remove('open');
+
+            closeUpgradePanel();
+            closeFeedbackPanel();
+            closePolicyPanel();
+            closeContactPanel();
+            
+            document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
+                if (p) p.classList.add('hidden');
+            });
+        }
+    });
+        
+    (function() {
+      let demoOpen = false;
+      let demoJustClosedAt = 0;
+      let backdrop, modal, video;
+    
+      function closeDemoModal() {
+        demoJustClosedAt = Date.now();
+        if (!demoOpen) return;
+        demoOpen = false;
+        try { modal && modal.remove(); } catch(e) {}
+        try { backdrop && backdrop.remove(); } catch(e) {}
+        const btn = document.getElementById('demoButton');
+        if (btn) btn.classList.remove('active');
+      }
+    
+function openDemoModal() {
+        if (demoOpen) return;
+        demoOpen = true;
+    
+        backdrop = document.createElement('div');
+        backdrop.className = 'demo-backdrop';
+        backdrop.style.cssText = 'position:fixed;inset:0;background:transparent;z-index:9998;'
+    
+        modal = document.createElement('div');
+        modal.className = 'demo-modal';
+        modal.style.cssText = 'position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:75vw;height:75vh;display:flex;align-items:center;justify-content:center;z-index:9999;'
+    
+        video = document.createElement('video');
+        const source = document.createElement('source');
+        source.src = 'demo.mp4';
+        source.type = 'video/mp4';
+        video.appendChild(source);
+        video.controls = true;
+        video.playsInline = true;
+        video.style.cssText = 'width:100%;height:100%;object-fit:contain;border-radius:12px;';
+    
+        modal.appendChild(video);
+        document.body.appendChild(backdrop);
+        document.body.appendChild(modal);
+    
+        const tryPlay = async () => {
+          try { await video.play(); }
+          catch (err) { try { video.muted = true; await video.play(); } catch (e2) {} }
+        };
+        video.addEventListener('loadedmetadata', tryPlay);
+        tryPlay();
+    
+        const passThrough = (ev) => {
+          const x = ev.clientX, y = ev.clientY;
+          ev.preventDefault();
+          ev.stopPropagation();
+          closeDemoModal();
+          setTimeout(() => {
+            const el = document.elementFromPoint(x, y);
+            if (!el) return;
+            try { el.dispatchEvent(new PointerEvent('pointerdown', { bubbles:true, cancelable:true, clientX:x, clientY:y, pointerType:'mouse' })); } catch(e) {}
+            try { el.dispatchEvent(new MouseEvent('mousedown', { bubbles:true, cancelable:true, clientX:x, clientY:y })); } catch(e) {}
+            try { el.dispatchEvent(new MouseEvent('mouseup', { bubbles:true, cancelable:true, clientX:x, clientY:y })); } catch(e) {}
+            el.dispatchEvent(new MouseEvent('click', { bubbles:true, cancelable:true, clientX:x, clientY:y }));
+          }, 0);
+        };
+    
+        backdrop.addEventListener('pointerdown', passThrough, { capture:true });
+        backdrop.addEventListener('mousedown', passThrough, { capture:true });
+        backdrop.addEventListener('click', passThrough, { capture:true });
+    
+        modal.addEventListener('click', closeDemoModal);
+      }
+    
+      const demoBtn = document.getElementById('demoButton');
+      if (demoBtn) {
+          const replacement = demoBtn.cloneNode(true);
+          demoBtn.parentNode.replaceChild(replacement, demoBtn);
+          replacement.addEventListener('click', (e) => {
+              e.stopPropagation();
+              if (!demoOpen) {
+                  if (Date.now() - demoJustClosedAt < 200) return;
+                  replacement.classList.add('active');
+                  openDemoModal();
+              } else {
+                  closeDemoModal();
+              }
+          });
+      }
+    })();
+
+    // Check for the '?payment=success' URL parameter and trigger the status check.
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('payment') === 'success') {
+        // We need to wait for the Auth0 client to be ready before we check
+        const checkAuthReady = setInterval(() => {
+            if (typeof auth0Client !== 'undefined' && auth0Client) {
+                clearInterval(checkAuthReady);
+                // Call the splash screen and logout function
+                finalizePremiumAccess();
+                // Clean the URL so the check doesn't run on every refresh
+                window.history.replaceState({}, document.title, "/");
+            }
+        }, 100);
+    }
+});
