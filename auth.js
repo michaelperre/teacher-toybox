@@ -122,21 +122,24 @@ const updateUI = async () => {
             upgradeButton.style.display = 'flex';
         }
         
-        const upgradePanelTitle = document.querySelector('#upgrade-panel h3 [data-i18n="panel.upgrade.title"]');
+        // --- CORRECTED TITLE UPDATE LOGIC ---
+        const upgradePanelH3 = document.querySelector('#upgrade-panel h3');
         const upgradePanelIntro = document.querySelector('#upgrade-panel p[data-i18n="panel.upgrade.intro"]');
         const panelUpgradeBtn = document.getElementById('panel-upgrade-btn');
         
-        if (upgradePanelTitle) upgradePanelTitle.textContent = "Your Premium Trial is Active!";
+        if (upgradePanelH3) {
+            upgradePanelH3.innerHTML = `<i class="fa-regular fa-crown"></i> <span>Your Premium Trial is Active!</span>`;
+        }
+        // --- END CORRECTION ---
+
         if (upgradePanelIntro) upgradePanelIntro.textContent = "Subscribe now to keep your premium features when your trial ends.";
         
-        // Update the panel button text for trial users
         if (panelUpgradeBtn) {
             panelUpgradeBtn.innerHTML = `
                 <div class="price-big">$2 a month</div>
                 <div class="price-small">Subscription $24 billed annually</div>
             `;
         }
-
 
         // --- BANNER LOGIC ---
         const trialEndDate = new Date(trialEndDateString);
