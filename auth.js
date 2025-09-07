@@ -137,6 +137,7 @@ const updateUI = async () => {
             `;
         }
 
+
         // --- BANNER LOGIC ---
         const trialEndDate = new Date(trialEndDateString);
         const now = new Date();
