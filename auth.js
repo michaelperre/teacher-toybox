@@ -124,11 +124,18 @@ const updateUI = async () => {
         
         const upgradePanelTitle = document.querySelector('#upgrade-panel h3 [data-i18n="panel.upgrade.title"]');
         const upgradePanelIntro = document.querySelector('#upgrade-panel p[data-i18n="panel.upgrade.intro"]');
-        const upgradePanelButtonPrice = document.querySelector('#panel-upgrade-btn .price-big');
+        const panelUpgradeBtn = document.getElementById('panel-upgrade-btn');
         
         if (upgradePanelTitle) upgradePanelTitle.textContent = "Your Premium Trial is Active!";
         if (upgradePanelIntro) upgradePanelIntro.textContent = "Subscribe now to keep your premium features when your trial ends.";
-        if (upgradePanelButtonPrice) upgradePanelButtonPrice.textContent = "Subscribe Now";
+        
+        // Update the panel button text for trial users
+        if (panelUpgradeBtn) {
+            panelUpgradeBtn.innerHTML = `
+                <div class="price-big">$2 a month</div>
+                <div class="price-small">Subscription $24 billed annually</div>
+            `;
+        }
 
         // --- BANNER LOGIC ---
         const trialEndDate = new Date(trialEndDateString);
@@ -141,11 +148,13 @@ const updateUI = async () => {
             const dayText = daysRemaining === 1 ? 'day' : 'days';
             banner.innerHTML = `
                 <span>You have <strong>${daysRemaining} ${dayText}</strong> left in your premium trial.</span>
-                <a href="#" id="banner-upgrade-link">Subscribe Now</a>
+                <a href="#" id="banner-upgrade-link">
+                    <div class="banner-price-big">$2 a month</div>
+                    <div class="banner-price-small">Subscription $24 billed annually</div>
+                </a>
             `;
             document.body.appendChild(banner);
             
-            // --- CORRECTED ONCLICK HANDLER ---
             document.getElementById('banner-upgrade-link').onclick = (e) => {
                 e.preventDefault();
                 const upgradeBackdrop = document.getElementById('upgrade-backdrop');
