@@ -119,7 +119,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const panelUpgradeBtn = $('panel-upgrade-btn');
     const upgradeButton = $('upgradeButton');
 
-    const openUpgradePanel = () => {
+    // Make the openUpgradePanel function globally accessible
+    global.TT.openUpgradePanel = () => {
         if (upgradeBackdrop && upgradePanel) {
             upgradeBackdrop.classList.remove('hidden');
             upgradePanel.classList.add('open');
@@ -133,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
+    if (upgradeButton) upgradeButton.onclick = global.TT.openUpgradePanel;
     if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
     if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
 
@@ -2989,3 +2990,4 @@ function openDemoModal() {
         }, 100);
     }
 });
+}
