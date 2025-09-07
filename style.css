@@ -1338,20 +1338,16 @@ body.is-dragging .drop-zone {
 
 #close-upgrade-btn {
     position: absolute;
-    top: 12px;
-    right: 12px;
-    width: 36px;
-    height: auto;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: var(--text-secondary);
     cursor: pointer;
-    opacity: 0.7;
-    transition: opacity 0.2s ease, transform 0.2s ease;
-    border-radius: 50%;
+    line-height: 1;
+    padding: 5px;
 }
-#close-upgrade-btn:hover {
-    opacity: 1;
-    transform: scale(1.1) rotate(15deg);
-}
-
 
 /* --- CLEANED UP AND CORRECTED STYLES --- */
 #lang-picker-wrap {
@@ -1385,7 +1381,7 @@ body.is-dragging .drop-zone {
 
 /* --- Light Mode Theme --- */
 body.light-mode {
-    --bg-color: #FAF9F6;
+    --bg-color: #f0f2f5;
     --sidebar-bg: #ffffff;
     --window-bg: rgba(255, 255, 255, 0.85);
     --border-color: rgba(0, 0, 0, 0.15);
@@ -1727,21 +1723,18 @@ body:not(.is-premium) .premium-feature {
 
 #upgrade-panel h3 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 8px;
-    font-size: clamp(1.2rem, 3.5vw, 1.5rem);
+    gap: 12px;
+    font-size: clamp(1.4rem, 4vw, 1.6rem);
     font-weight: 700;
     margin: 0 0 8px 0;
-    color: var(--text-primary);
+    color: #FFD700;
     align-self: center;
-    white-space: nowrap;
-    text-align: center;
 }
 
 #upgrade-panel h3 .fa-crown {
     font-size: clamp(1.6rem, 5vw, 1.8rem);
-    color: #FFD700;
 }
 
 #upgrade-panel p {
@@ -2132,60 +2125,4 @@ body.light-mode .pdf-viewer-container {
     margin: 0;
     color: var(--text-secondary);
     line-height: 1.5;
-}
-
-/* --- Trial Countdown Banner --- */
-.trial-countdown-banner {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #3a3a3c; /* A medium-light grey */
-    color: #f2f2f7; /* Light text for contrast */
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    z-index: 10000;
-    font-size: 0.9rem;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    animation: fadeIn 0.5s ease;
-}
-.trial-countdown-banner strong {
-    color: #FFD700; /* Gold color for emphasis */
-}
-.trial-countdown-banner a {
-    color: #ffffff;
-    background-color: var(--success-color);
-    text-decoration: none;
-    padding: 6px 12px;
-    border-radius: 5px;
-    font-weight: 500;
-    transition: filter 0.2s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    line-height: 1.2;
-}
-.trial-countdown-banner a:hover {
-    filter: brightness(1.1);
-}
-.banner-price-big {
-    font-size: 0.9em;
-    font-weight: 700;
-}
-.banner-price-small {
-    font-size: 0.7em;
-    opacity: 0.8;
-}
-body.light-mode .trial-countdown-banner {
-    background-color: #e9ecef; /* A light grey for the light theme */
-    color: #343a40;
-    border-color: rgba(0, 0, 0, 0.1);
-}
-body.light-mode .trial-countdown-banner a {
-    color: #ffffff;
 }
