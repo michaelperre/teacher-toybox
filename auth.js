@@ -68,7 +68,7 @@ const initializeAuth = async () => {
   }
 };
 
-// 4. Update UI based on authentication state (WITH FINAL FIXES)
+// 4. Update UI based on authentication state (WITH BANNER LOGIC)
 const updateUI = async () => {
   const isAuthenticated = await auth0Client.isAuthenticated();
   const authButton = document.getElementById("authButton");
@@ -78,9 +78,13 @@ const updateUI = async () => {
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
   document.body.classList.remove('is-premium');
-  
-  // Reset trial-specific UI changes
   document.body.classList.remove('is-trial');
+  
+  // Remove any existing trial banner on UI update
+  const existingBanner = document.querySelector('.trial-countdown-banner');
+  if (existingBanner) {
+    existingBanner.remove();
+  }
   
   if (authButton) {
     if (isAuthenticated) {
@@ -111,16 +115,13 @@ const updateUI = async () => {
           document.body.classList.add('is-premium');
       }
 
-      // --- FIX #1 & #2: Adjust UI for Trial Users ---
       if (isStillInTrial) {
-        document.body.classList.add('is-trial'); // Add a specific class for trial
+        document.body.classList.add('is-trial');
         
-        // Show the upgrade button even though they are 'premium'
         if (upgradeButton) {
             upgradeButton.style.display = 'flex';
         }
         
-        // Change the text in the upgrade panel
         const upgradePanelTitle = document.querySelector('#upgrade-panel h3 [data-i18n="panel.upgrade.title"]');
         const upgradePanelIntro = document.querySelector('#upgrade-panel p[data-i18n="panel.upgrade.intro"]');
         const upgradePanelButtonPrice = document.querySelector('#panel-upgrade-btn .price-big');
@@ -129,8 +130,29 @@ const updateUI = async () => {
         if (upgradePanelIntro) upgradePanelIntro.textContent = "Subscribe now to keep your premium features when your trial ends.";
         if (upgradePanelButtonPrice) upgradePanelButtonPrice.textContent = "Subscribe Now";
 
+        // --- NEW BANNER LOGIC ---
+        const trialEndDate = new Date(trialEndDateString);
+        const now = new Date();
+        const daysRemaining = Math.ceil((trialEndDate - now) / (1000 * 60 * 60 * 24));
+
+        if (daysRemaining > 0) {
+            const banner = document.createElement('div');
+            banner.className = 'trial-countdown-banner';
+            const dayText = daysRemaining === 1 ? 'day' : 'days';
+            banner.innerHTML = `
+                <span>You have <strong>${daysRemaining} ${dayText}</strong> left in your premium trial.</span>
+                <a href="#" id="banner-upgrade-link">Subscribe Now</a>
+            `;
+            document.body.appendChild(banner);
+            document.getElementById('banner-upgrade-link').onclick = (e) => {
+                e.preventDefault();
+                const upgradePanel = document.getElementById('upgrade-panel');
+                if (upgradePanel) document.getElementById('upgradeButton').click();
+            };
+        }
+        // --- END BANNER LOGIC ---
+
       } else if (hasPremiumRole) {
-         // If they are a paying premium user, hide the button
          if (upgradeButton) {
             upgradeButton.style.display = 'none';
          }
