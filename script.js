@@ -2990,4 +2990,3 @@ function openDemoModal() {
         }, 100);
     }
 });
-}
