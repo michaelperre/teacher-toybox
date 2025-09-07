@@ -55,8 +55,6 @@ const handleRedirectCallback = async () => {
     }
   } catch (err) {
     console.error("Auth0 redirect callback failed:", err);
-    // You might not want to reload here, as it could cause a loop.
-    // A simple error message might be better, but for now we'll stick to the request.
     showLoginErrorAndReload();
   }
 };
@@ -64,26 +62,28 @@ const handleRedirectCallback = async () => {
 // 3. Main function to initialize authentication
 const initializeAuth = async () => {
   await configureClient();
-  // If configureClient fails, it will call the error handler and this line won't be reached.
   if (auth0Client) {
       await handleRedirectCallback();
       await updateUI();
   }
 };
 
-// 4. Update UI based on authentication state
+// 4. Update UI based on authentication state (WITH FINAL FIXES)
 const updateUI = async () => {
   const isAuthenticated = await auth0Client.isAuthenticated();
   const authButton = document.getElementById("authButton");
   const userProfileElement = document.getElementById("userProfile");
+  const upgradeButton = document.getElementById('upgradeButton');
 
   window.TT.isAuthenticated = isAuthenticated;
   window.TT.isPremium = false;
   document.body.classList.remove('is-premium');
   
+  // Reset trial-specific UI changes
+  document.body.classList.remove('is-trial');
+  
   if (authButton) {
     if (isAuthenticated) {
-      // --- Logged In State ---
       authButton.title = "Log Out";
       authButton.innerHTML = `<i class="fas fa-sign-out-alt"></i>`;
       authButton.classList.add('logout-btn');
@@ -96,13 +96,47 @@ const updateUI = async () => {
 
       const claims = await auth0Client.getIdTokenClaims();
       const userRoles = claims['http://teachertoybox.com/roles'] || [];
-      if (userRoles.includes('Premium')) {
+      const hasPremiumRole = userRoles.includes('Premium');
+      const trialEndDateString = claims['http://teachertoybox.com/trial_ends_at'];
+      let isStillInTrial = false;
+      if (trialEndDateString) {
+          const trialEndDate = new Date(trialEndDateString);
+          if (trialEndDate > new Date()) {
+              isStillInTrial = true;
+          }
+      }
+
+      if (hasPremiumRole || isStillInTrial) {
           window.TT.isPremium = true;
           document.body.classList.add('is-premium');
       }
 
+      // --- FIX #1 & #2: Adjust UI for Trial Users ---
+      if (isStillInTrial) {
+        document.body.classList.add('is-trial'); // Add a specific class for trial
+        
+        // Show the upgrade button even though they are 'premium'
+        if (upgradeButton) {
+            upgradeButton.style.display = 'flex';
+        }
+        
+        // Change the text in the upgrade panel
+        const upgradePanelTitle = document.querySelector('#upgrade-panel h3 [data-i18n="panel.upgrade.title"]');
+        const upgradePanelIntro = document.querySelector('#upgrade-panel p[data-i18n="panel.upgrade.intro"]');
+        const upgradePanelButtonPrice = document.querySelector('#panel-upgrade-btn .price-big');
+        
+        if (upgradePanelTitle) upgradePanelTitle.textContent = "Your Premium Trial is Active!";
+        if (upgradePanelIntro) upgradePanelIntro.textContent = "Subscribe now to keep your premium features when your trial ends.";
+        if (upgradePanelButtonPrice) upgradePanelButtonPrice.textContent = "Subscribe Now";
+
+      } else if (hasPremiumRole) {
+         // If they are a paying premium user, hide the button
+         if (upgradeButton) {
+            upgradeButton.style.display = 'none';
+         }
+      }
+      
     } else {
-      // --- Logged Out State ---
       authButton.title = "Log In / Sign Up";
       authButton.innerHTML = `<i class="fas fa-sign-in-alt"></i>`;
       authButton.classList.remove('logout-btn');
