@@ -1,1 +1,3053 @@
-const _0xbc6afe=_0x6d96;(function(_0x12cd27,_0x2a5ef9){const _0x41adf5=_0x6d96,_0x4e9c09=_0x12cd27();while(!![]){try{const _0x5b754c=parseInt(_0x41adf5(0x452))/0x1+-parseInt(_0x41adf5(0x3b0))/0x2*(-parseInt(_0x41adf5(0x377))/0x3)+-parseInt(_0x41adf5(0x306))/0x4+-parseInt(_0x41adf5(0x467))/0x5*(-parseInt(_0x41adf5(0x212))/0x6)+parseInt(_0x41adf5(0x35c))/0x7+-parseInt(_0x41adf5(0x459))/0x8+-parseInt(_0x41adf5(0x350))/0x9;if(_0x5b754c===_0x2a5ef9)break;else _0x4e9c09['push'](_0x4e9c09['shift']());}catch(_0x2c49f9){_0x4e9c09['push'](_0x4e9c09['shift']());}}}(_0x3823,0x5c86a));function _0x6d96(_0x5050ac,_0x572ebb){const _0x382388=_0x3823();return _0x6d96=function(_0x6d9633,_0x2efbd1){_0x6d9633=_0x6d9633-0x1e3;let _0x557908=_0x382388[_0x6d9633];return _0x557908;},_0x6d96(_0x5050ac,_0x572ebb);}function _0x3823(){const _0x4d6806=['prev','none','&times;','ArrowUp','#policy-panel','fas\x20fa-pencil-alt','#888888','extraToolsButton','querySelector','anonymous','ew-resize','.opacity-slider','%0A%0A','relative','classList','stroke-width','<i\x20class=\x22fa-solid\x20fa-expand\x22></i>','play','tan','fas\x20fa-dice','next','replace','pointerup','icon-btn\x20text-editor-control-btn','createElement','0\x200\x20100\x20100','close','TEXTAREA','info-content-wrapper','.copy-link-area\x20input','[id^=\x22layout\x22][id$=\x22Button\x22]','contentRect','100%','hasOwnProperty','className','display','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22drop-zone-inner\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22drop-zone-icon\x20fas\x20fa-upload\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22drop-zone-file-types\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-file-image\x22></i><i\x20class=\x22fas\x20fa-file-video\x22></i><i\x20class=\x22fas\x20fa-file-audio\x22></i><i\x20class=\x22fas\x20fa-file-pdf\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>','transform','padding','writeText','translate(','upgrade-panel','708772jqvoUz','webkitFullscreenElement','offsetLeft','info','countdown-running-controls','gap','mouseup','#000000','readAsArrayBuffer','type','isContentEditable','createObjectURL','Could\x20not\x20identify\x20user.\x20Please\x20try\x20logging\x20in\x20again.','hotkey-label','.for-against-display','no-grid','isPremium','#4CD964','text','calc-btn\x20','#AF52DE','getImageData','<i\x20class=\x22fas\x20fa-dice-d6\x22></i>','ceil','premium','addButton','copy','Send\x20Message','close-feedback-btn','clipboard','light','annotationContext','fillStyle','panel.feedback.submitButton','resize-btn','func','select','Math.cos','contentEditable','resize','carousel-btn','removeAttribute','</h2><p>','ArrowDown','upgrade','Webcam\x20(W)','communicationButton','title','color-palette','src','calculator-buttons','\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20facebook\x22><i\x20class=\x22fab\x20fa-facebook-f\x22></i>\x20Facebook</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://twitter.com/intent/tweet?url=','&nbsp;','For','format','.floating[data-disables-hotkeys=\x22true\x22]','drawImage','observe','color-swatch','setItem','canvas','value','cloneNode','active','addEventListener','stroke-dasharray','</em></p>','cursor','splash-screen','management-bar','naturalHeight','input[type=\x22file\x22]','webkitfullscreenchange','help-bar','querySelectorAll','cssText','Could\x20not\x20connect\x20to\x20the\x20payment\x20service.\x20Please\x20try\x20again\x20later.','flexDirection','icon-btn','offsetY','.for-against-panel\x20h2','extra-tools-bar','stroke','tooltip','originalColorButton','#FF9500','get','Send\x20to\x20Back\x20(PageDown)','digital-clock-bar','getPage','Enter','close-policy-btn','innerHTML','createElementNS','srcObject','#lang-picker-wrap','nwse-resize','calculator-display','panel.contact.submitButtonSending','audio','feedback-comment','removeEventListener','justifyContent','#C1C1C1','cover','stopPropagation','layout3Button','strokeStyle','screenButton','append','submit-contact-btn','left','ArrowLeft','initiateCheckout','focus','send-back','files','.resize-btn[title*=\x22Send\x20to\x20Back\x22]','zIndex','layout4Button','input','#fdd835',':</strong>\x20','dataTransfer','lineCap','ttx_lang','push','SELECT','annotationResizeObserver','floor','matches','&title=','bellButton','/api/create-checkout-session','.minute-hand','\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die-container\x20{\x20display:\x20flex;\x20flex-wrap:\x20wrap;\x20gap:\x202rem;\x20justify-content:\x20center;\x20align-items:\x20center;\x20flex-grow:\x201;\x20padding:\x2010px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die\x20{\x20width:\x2010rem;\x20height:\x2010rem;\x20background-color:\x20white;\x20border-radius:\x208px;\x20padding:\x206px;\x20display:\x20grid;\x20grid-template-columns:\x20repeat(3,\x201fr);\x20grid-template-rows:\x20repeat(3,\x201fr);\x20gap:\x204px;\x20box-shadow:\x20inset\x200\x202px\x204px\x20rgba(0,0,0,0.2);\x20border:\x202px\x20solid\x20black;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die\x20.die-dot\x20{\x20visibility:\x20hidden;\x20width:\x20100%;\x20height:\x20100%;\x20background-color:\x20black;\x20border-radius:\x2050%;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x221\x22]\x20.dot-5,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x222\x22]\x20.dot-1,\x20.die[data-value=\x222\x22]\x20.dot-9,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x223\x22]\x20.dot-1,\x20.die[data-value=\x223\x22]\x20.dot-5,\x20.die[data-value=\x223\x22]\x20.dot-9,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x224\x22]\x20.dot-1,\x20.die[data-value=\x224\x22]\x20.dot-3,\x20.die[data-value=\x224\x22]\x20.dot-7,\x20.die[data-value=\x224\x22]\x20.dot-9,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x225\x22]\x20.dot-1,\x20.die[data-value=\x225\x22]\x20.dot-3,\x20.die[data-value=\x225\x22]\x20.dot-5,\x20.die[data-value=\x225\x22]\x20.dot-7,\x20.die[data-value=\x225\x22]\x20.dot-9,\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die[data-value=\x226\x22]\x20.dot-1,\x20.die[data-value=\x226\x22]\x20.dot-3,\x20.die[data-value=\x226\x22]\x20.dot-4,\x20.die[data-value=\x226\x22]\x20.dot-6,\x20.die[data-value=\x226\x22]\x20.dot-7,\x20.die[data-value=\x226\x22]\x20.dot-9\x20{\x20visibility:\x20visible;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.dice-controls\x20{\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20gap:\x2012px;\x20padding:\x2012px;\x20background:\x20rgba(0,0,0,0.2);\x20flex-shrink:\x200;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.dice-controls\x20.icon-btn\x20{\x20width:\x2040px;\x20height:\x2040px;\x20font-size:\x2016px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.dice-total\x20{\x20font-size:\x2018px;\x20font-weight:\x20bold;\x20color:\x20white;\x20min-width:\x2080px;\x20text-align:\x20center;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.die.rolling\x20{\x20animation:\x20roll\x200.5s\x20ease-in-out;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20roll\x20{\x200%\x20{\x20transform:\x20rotate(0deg)\x20scale(1);\x20}\x2025%\x20{\x20transform:\x20rotate(15deg)\x20scale(1.1);\x20}\x2075%\x20{\x20transform:\x20rotate(-15deg)\x20scale(1.1);\x20}\x20100%\x20{\x20transform:\x20rotate(0deg)\x20scale(1);\x20}\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.stopwatch-display\x20{\x20font-size:\x20clamp(3rem,\x2014vw,\x2010rem);\x20font-weight:\x20700;\x20color:\x20white;\x20text-align:\x20center;\x20flex-grow:\x201;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20font-family:\x20\x27monospace\x27;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.stopwatch-controls\x20{\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20gap:\x2012px;\x20padding:\x2012px;\x20background:\x20rgba(0,0,0,0.2);\x20flex-shrink:\x200;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.stopwatch-controls\x20.icon-btn\x20{\x20width:\x2050px;\x20height:\x2050px;\x20font-size:\x2020px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-title\x20{\x20color:\x20var(--text-secondary);\x20font-size:\x201.5rem;\x20font-weight:\x20500;\x20text-align:\x20center;\x20margin-bottom:\x201rem;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-selection-grid\x20{\x20display:\x20grid;\x20grid-template-columns:\x20repeat(auto-fit,\x20minmax(100px,\x201fr));\x20gap:\x2012px;\x20width:\x20100%;\x20max-width:\x20500px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-btn\x20{\x20background-color:\x20var(--sidebar-bg);\x20border:\x201px\x20solid\x20var(--border-color);\x20color:\x20var(--text-primary);\x20padding:\x2020px\x2010px;\x20border-radius:\x208px;\x20font-size:\x201.1rem;\x20font-weight:\x20500;\x20cursor:\x20pointer;\x20transition:\x20background-color\x200.2s\x20ease,\x20border-color\x200.2s\x20ease;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-btn:hover\x20{\x20background-color:\x20var(--window-bg);\x20border-color:\x20var(--accent-color);\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-running-controls\x20{\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20gap:\x2012px;\x20padding:\x2012px;\x20flex-shrink:\x200;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.countdown-running-controls\x20.icon-btn\x20{\x20width:\x2050px;\x20height:\x2050px;\x20font-size:\x2020px;\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20FINAL\x20PDF\x20ZOOM\x20FIX\x20STYLES\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20.pdf-canvas-container.is-zoomed\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20block\x20!important;\x20/*\x20Force\x20block\x20layout\x20to\x20allow\x20overflow\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x20/*\x20Center\x20canvas\x20when\x20zoomed\x20out,\x20or\x20align\x20left\x20when\x20overflowing\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20initial\x20!important;\x20/*\x20Override\x20flex\x20properties\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20initial\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.pdf-canvas-container.is-zoomed\x20canvas\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x20none\x20!important;\x20/*\x20Critical:\x20Allow\x20canvas\x20to\x20have\x20its\x20own\x20size\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.pdf-zoom-controls\x20{\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x20margin-left:\x20auto;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.pdf-zoom-info\x20{\x20font-size:\x2014px;\x20font-weight:\x20500;\x20color:\x20var(--text-primary);\x20min-width:\x2050px;\x20text-align:\x20center;\x20}\x0a\x20\x20\x20\x20','payment','color','Text\x20Editor\x20(T)','date-enlarged','wrapper','logout','clockButton','bottom','.for-against-controls','mozFullScreenElement','.second-hand','.pdf-zoom-in-btn','fas\x20fa-balance-scale','image/','oninput','colorPicker','trim','Clear\x20Annotations','onclick','info-close-btn','flex','\x22></i>','sidebar','disconnect','div','dispatchEvent','592456pMFXoc','seconds','.custom-color-palette','image/*,video/*,audio/*,.pdf','now','dice-controls','fas\x20fa-stopwatch','4312824wKKJVr','<img\x20src=\x22ttlogo.png\x22\x20alt=\x22Teacher\x20Toybox\x20Logo\x22\x20class=\x22info-window-logo\x22><h2>','color:\x20white;\x20font-weight:\x20700;\x20line-height:\x201;\x20position:\x20relative;\x20z-index:\x201;','textContent','layout2Button','render','contains','data','#upgrade-panel','label','accept','Backspace','refreshButton','.info-content-wrapper','5hpRayu','getMinutes','hidden','5\x20min','Math.sqrt','transformOrigin','preventDefault','Error\x20redirecting\x20to\x20checkout:','position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:75vw;height:75vh;display:flex;align-items:center;justify-content:center;z-index:9999;','lineTo','fas\x20fa-hourglass-start','crossOrigin','drawingHistory','img','timer-is-running','deg)','.pdf-page-input','http://www.w3.org/2000/svg','stroke-dashoffset\x201s\x20linear','checked','updateInfoWindowLanguage','entries','price_1S5Wf0FCA6YfGQJzLVuFpK0q','quadrant','#contact-panel','toString','countdown-title','round','tool','search','fas\x20fa-calculator','operator','panel.feedback.submitButtonSending','setAttribute','target','30\x20sec','body','<i\x20class=\x22fas\x20fa-palette\x22></i>','borderRadius','onload','controls','PageDown','clientX','16px','from','contact-panel','colorButton','ttx_accentColor','<p><em>','win-body','...','loadedmetadata','success','class','subtitle','</h3><ul>','Teacher\x20Toybox','<i\x20class=\x22fas\x20fa-pencil-alt\x22></i>','key','wheel','multiple','Snap\x20to\x20Quadrant\x20(Q)','dark','close-upgrade-btn','demo.mp4','transparent','pointerleave','Calculator\x20(U)','Carousel\x20Image','.die','Snap\x20to\x20Fullscreen','mousemove','activeInterval','add','activeLayout','onchange','documentElement','<i\x20class=\x22fa-solid\x20fa-table-cells-large\x22></i>','display:flex;justify-content:center;gap:12px;padding:8px;','--accent-color-rgb','contactButton','3037350toJmFI','activeElement','fullscreenButton','#FFFFFF','annotationCurrentColor','policy-panel','.close-btn','tool-controls','magicColorButton','fas\x20fa-minus','custom-color','mouseenter','countdown-btn','communication-bar','Sorry,\x20there\x20was\x20an\x20error\x20sending\x20your\x20feedback.','cos','fullscreenchange','for-against-controls','annotationCanvas','Please\x20provide\x20a\x20rating\x20or\x20a\x20comment.','.draw-controls-bar','long','getContext','innerHeight','includes','&body=','padStart','types','Sorry,\x20there\x20was\x20an\x20error\x20sending\x20your\x20message.','laserDot','.date-backdrop','getBoundingClientRect','button,\x20.tool-controls,\x20input,\x20.draw-controls-bar,\x20.window-management-controls','closest','laserButton','<i\x20class=\x22fas\x20fa-file-arrow-up\x22></i>','deltaY','light-mode','<i\x20class=\x22fas\x20fa-undo\x22></i>','share-backdrop','Math.log','.pdf-page-info\x20span','center','width','#30D5C8','#007AFF','info-fade-in','palette-swatch','fillRect','toolResizeObserver','paddingRight','.color-swatch.active','Stopwatch\x20(H)','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22close-modal-btn\x22>&times;</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20data-i18n=\x22panel.share.title\x22>','opacity-slider','lineJoin','numeric','h-half','#FF3B30','circle','fas\x20fa-camera','Math.log10','🗑️','alt','msExitFullscreen','drop','flex-grow:\x201;\x20position:\x20relative;\x20width:\x20100%;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;','clearRect','1\x20Hour','carousel-image','viewBox','Click\x20the\x20folder\x20icon\x20to\x20select\x20images','dice-total','length','&summary=','column','layout8Button','demoButton','style','die-dot\x20dot-','name','Undo','v-half','content-fill','icon-btn\x20timer-start-pause-btn','calculator-grid','code','\x22\x20class=\x22share-grid-btn\x20email\x22><i\x20class=\x22fas\x20fa-envelope\x22></i>\x20Email</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22copy-link-heading\x22>Or\x20copy\x20the\x20link</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22copy-link-area\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20value=\x22','endsWith','innerWidth','getUser','exitFullscreen','opacity','panel.feedback.submitButtonSuccess','naturalWidth','rgba(255,\x20255,\x20255,\x200.2)','then','shhSound','.go-btn','fontSize','#site-title','span','msFullscreenElement','rolling','msRequestFullscreen','I18N','transition','translate(-50%,\x20-50%)\x20scale(1)','themePaletteButton','nesw-resize','.timer-start-pause-btn','getSeconds','clientHeight','<i\x20class=\x22','icon-btn\x20reset-content-btn','startsWith','history','_points','disabled','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22unsupported-file-message\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-file-powerpoint\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>PowerPoint\x20File</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>To\x20display\x20this\x20file,\x20please\x20convert\x20it\x20to\x20a\x20PDF\x20first\x20and\x20then\x20drop\x20it\x20here.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','pen-btn','absolute','.custom-color-palette,\x20#color-palette','Error','<i\x20class=\x22fas\x20fa-level-down-alt\x22></i>','removeItem','fas\x20fa-font','<i\x20class=\x22fa-solid\x20fa-columns\x22></i>','border-box','numPages','default','putImageData','application/json','<i\x20class=\x22fas\x20fa-pause\x22></i>','icon-btn\x20upload-btn','Button','getElementById','Failed\x20to\x20create\x20checkout\x20session.','keydown','<i\x20class=\x22fas\x20fa-sync-alt\x22></i>','Error\x20submitting\x20contact\x20form:','muted','helpButton','match','date-display','sqrt','fa-compress','msfullscreenchange','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20color:\x20var(--text-secondary);\x20padding:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>Oops!</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>That\x20file\x20type\x20isn’t\x20supported.<br>Try\x20another\x20format.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','</li>','width:100%;height:100%;object-fit:contain;border-radius:12px;','managementButton','location','ttx_lastLayout','getItem','.win-sidebar','ns-resize','.pdf-next-btn','reload','disablesHotkeys','Copied!','Math.tan','offsetWidth','paddingBottom','rotate(','alignItems','clientWidth','.pdf-zoom-out-btn','0px','shift','turnOffLaser','#feedback-panel','button','full','clientY','section','<i\x20class=\x22fas\x20fa-arrow-left\x22></i>','number','fullscreenElement','updateDateDisplay','IMG','0.3','Submit','50%','.pptx','&text=','share-modal','layout-bar','.upload-btn','Snap\x20to\x20Horizontal\x20Half\x20(9)','fa-solid','date-backdrop','redirectToCheckout','<i\x20class=\x22fas\x20fa-plus\x22></i>','close-btn','playsInline','<i\x20class=\x22fas\x20fa-trash\x22></i>','carousel-placeholder','Logout\x20function\x20not\x20found.\x20Reloading\x20page.','<i\x20class=\x22fa-solid\x20fa-columns\x20h-half-icon\x22></i>','2\x20min','dragover','replaceState','1\x20min','.win-main-area','animationend','stringify','panel.contact.submitButtonSuccess','\x22\x20readonly>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button>Copy\x20Link</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','setProperty','plus','scrollHeight','.hotkey-label','fill','height','#FFCC00','appendChild','var(--success-color)','icon','getUserMedia','function','parentElement','window-management-controls','icon-btn\x20timer-reset-btn','custom-color-swatch','Could\x20not\x20process\x20element\x20for\x20color\x20extraction:','tagName','pop','objectFit','promise','comment','close-contact-btn','set','Check\x20out\x20Teacher\x20Toybox!\x20A\x20free\x20interactive\x20digital\x20whiteboard\x20for\x20classrooms\x20with\x20fun\x20and\x20engaging\x20tools.','Could\x20not\x20access\x20camera.','<i\x20class=\x22fas\x20fa-play\x22></i>','px,\x20','.floating','toLowerCase','lineWidth','max','split','Space','translate(-50%,\x20-50%)\x20scale(0.9)','1926440jWNeCV','file','position','block','<i\x20class=\x22fas\x20fa-minus\x22></i>','shareButton','#34C759','is-dragging','snapped-window','Message\x20Sent!','draw','ArrowRight','win-main-area','getViewport','fas\x20fa-list-ol','top','panel.contact.submitButton','offsetTop','innerText','fas\x20fa-images','#5856D6','forEach','Math.PI','data-tool','POST','email','slice','overflow','offsetHeight','.timer-reset-btn','annotation-canvas','abs','active-window','min','<li><strong>','Close','getPropertyValue','90%','Files','change','80px','draw-controls-bar','30\x20min','dragleave','audio/','video','catch','devicePixelRatio','video/','die','<i\x20class=\x22fas\x20fa-folder-open\x22></i>','webkitRequestFullscreen','<h3>','Sending...','is-zoomed','sin','.copy-link-area\x20button','.pdf-prev-btn','Erase\x20Content\x20(E)','shhButton','error','stopwatch-display','ttx_theme','infoButton','dragenter','floating','execCommand','mouseleave','head','remove','layout','autoplay','open','onpointerdown','7848378cIuuFW','pointerdown','right','.star-rating\x20.fa-regular.fa-star','#333','--accent-color','rotate(-90deg)','layout5Button','offsetX','ctrlKey','Form\x20submission\x20failed','drag-bar','3250016NJjXBX','carousel-container','_title','getComputedStyle','pointermove','for-against-panel','toggle','Thank\x20You!','isVisible','currentTime','size','moveTo','Countdown\x20Timer\x20(O)','backgroundColor','position:fixed;inset:0;background:transparent;z-index:9998;','.pdf-zoom-reset-btn','log','.resize-btn','.floating.active-window','--danger-color','carousel','Delete','click','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22drop-zone-inner\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22drop-zone-icon\x20fas\x20fa-upload\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22drop-zone-file-types\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-file-image\x22></i><i\x20class=\x22fas\x20fa-file-video\x22></i><i\x20class=\x22fas\x20fa-file-audio\x22></i><i\x20class=\x22fas\x20fa-file-pdf\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','boxSizing','Could\x20not\x20identify\x20user\x20or\x20user\x20email\x20before\x20checkout.\x20Aborting.','drop-zone','6AYaLrZ','metaKey','Drawing\x20Canvas\x20(D)','stroke-dashoffset','equals','die-container','upgrade-backdrop','blur','upgradeButton','requestFullscreen','for-against-display','dataset','</ul>','sub','.drag-bar\x20.tool-controls'];_0x3823=function(){return _0x4d6806;};return _0x3823();}const global=window;global['TT']=global['TT']||{},global['TT']['isPremium']=![],global['TT'][_0xbc6afe(0x2c5)]=function(_0x4f25f7){const _0x7acf68=_0xbc6afe,_0x5eedf1=document['getElementById'](_0x7acf68(0x2a2));if(!_0x5eedf1)return;const _0x3170ad=new Date(),_0xf925d3={'weekday':_0x7acf68(0x227),'year':_0x7acf68(0x24a),'month':_0x7acf68(0x227),'day':'numeric'},_0xdc1615=new Intl['DateTimeFormat'](_0x4f25f7,_0xf925d3);_0x5eedf1['textContent']=_0xdc1615[_0x7acf68(0x3e6)](_0x3170ad);},global['TT']['initiateCheckout']=async()=>{const _0x1b35d0=_0xbc6afe;try{const _0x3bcac6=await auth0Client[_0x1b35d0(0x26c)]();if(!_0x3bcac6||!_0x3bcac6[_0x1b35d0(0x384)]||!_0x3bcac6[_0x1b35d0(0x31f)]){console[_0x1b35d0(0x342)](_0x1b35d0(0x375)),alert(_0x1b35d0(0x3bc));return;}const _0x5efcc4=Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF'),_0x577e40=_0x1b35d0(0x47d),_0x3e7ff5=await fetch(_0x1b35d0(0x435),{'method':'POST','headers':{'Content-Type':_0x1b35d0(0x296)},'body':JSON[_0x1b35d0(0x2e0)]({'userId':_0x3bcac6[_0x1b35d0(0x384)],'priceId':_0x577e40,'userEmail':_0x3bcac6['email']})});if(!_0x3e7ff5['ok'])throw new Error(_0x1b35d0(0x29b));const {sessionId:_0x18f791}=await _0x3e7ff5['json']();await _0x5efcc4[_0x1b35d0(0x2d2)]({'sessionId':_0x18f791});}catch(_0xe5b34c){console[_0x1b35d0(0x342)](_0x1b35d0(0x46e),_0xe5b34c),alert(_0x1b35d0(0x3fc));}};function finalizePremiumAccess(){const _0x3fe815=_0xbc6afe,_0x5c7cbf=document[_0x3fe815(0x39e)](_0x3fe815(0x450));_0x5c7cbf['id']=_0x3fe815(0x3f4),_0x5c7cbf[_0x3fe815(0x260)][_0x3fe815(0x26e)]='1',_0x5c7cbf[_0x3fe815(0x260)][_0x3fe815(0x27c)]='none',_0x5c7cbf[_0x3fe815(0x40c)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22premium-splash-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22logo-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22logo-spinner\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22ttlogo.png\x22\x20alt=\x22Teacher\x20Toybox\x20Logo\x22\x20class=\x22premium-splash-logo\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Welcome\x20to\x20Premium!</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22splash-subtext-1\x22>Your\x20Teacher\x20Toybox\x20is\x20now\x20supercharged.</span><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22splash-subtext-2\x22>Please\x20log\x20in\x20again\x20to\x20unlock\x20all\x20your\x20new\x20tools.</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',document[_0x3fe815(0x1e5)][_0x3fe815(0x2ea)](_0x5c7cbf),setTimeout(()=>{const _0x1229af=_0x3fe815;window[_0x1229af(0x43d)]?window['logout']():(console[_0x1229af(0x342)](_0x1229af(0x2d8)),location[_0x1229af(0x2b0)]());},0x1388);}document['addEventListener']('DOMContentLoaded',()=>{const _0x1d7bee=_0xbc6afe,_0x5d49a9=document[_0x1d7bee(0x29a)](_0x1d7bee(0x3f4));_0x5d49a9&&setTimeout(()=>{const _0x1b9340=_0x1d7bee;_0x5d49a9[_0x1b9340(0x260)][_0x1b9340(0x26e)]='0',setTimeout(()=>_0x5d49a9[_0x1b9340(0x34b)](),0x1f4);},0x3e8);const _0x2b7de3=_0x47e409=>document['getElementById'](_0x47e409),_0x2ecbcd=_0x2b7de3(_0x1d7bee(0x3af)),_0x59dd13=_0x2b7de3(_0x1d7bee(0x37d)),_0x131c47=_0x2b7de3(_0x1d7bee(0x200)),_0x3ea932=_0x2b7de3('panel-upgrade-btn'),_0x71bb6b=_0x2b7de3(_0x1d7bee(0x37f)),_0x4cb854=()=>{const _0x549e03=_0x1d7bee;_0x59dd13&&_0x2ecbcd&&(_0x59dd13[_0x549e03(0x394)]['remove'](_0x549e03(0x469)),_0x2ecbcd[_0x549e03(0x394)][_0x549e03(0x20a)](_0x549e03(0x34e)));},_0x55bb17=()=>{const _0x233fda=_0x1d7bee;_0x59dd13&&_0x2ecbcd&&(_0x59dd13['classList'][_0x233fda(0x20a)](_0x233fda(0x469)),_0x2ecbcd['classList'][_0x233fda(0x34b)]('open'));};if(_0x71bb6b)_0x71bb6b[_0x1d7bee(0x44a)]=_0x4cb854;if(_0x131c47)_0x131c47[_0x1d7bee(0x44a)]=_0x55bb17;if(_0x59dd13)_0x59dd13[_0x1d7bee(0x44a)]=_0x55bb17;_0x3ea932&&(_0x3ea932[_0x1d7bee(0x44a)]=async()=>{const _0x53ba9=_0x1d7bee;window['TT']&&window['TT']['isAuthenticated']?window['TT'][_0x53ba9(0x421)]():login(_0x53ba9(0x3dc));});const _0x4d2e2d=document['getElementById']('theme-toggle');_0x4d2e2d&&_0x4d2e2d[_0x1d7bee(0x3f0)](_0x1d7bee(0x32d),()=>{const _0x1e1a7d=_0x1d7bee;document[_0x1e1a7d(0x1e5)][_0x1e1a7d(0x394)][_0x1e1a7d(0x362)](_0x1e1a7d(0x237),_0x4d2e2d[_0x1e1a7d(0x47a)]),localStorage[_0x1e1a7d(0x3eb)](_0x1e1a7d(0x344),_0x4d2e2d[_0x1e1a7d(0x47a)]?_0x1e1a7d(0x3ce):'dark');});const _0x2f4269=document['getElementById'](_0x1d7bee(0x214));if(_0x2f4269){_0x2f4269['addEventListener'](_0x1d7bee(0x372),()=>{const _0x437a71=_0x1d7bee,_0x1082f7=document[_0x437a71(0x2c4)]||document[_0x437a71(0x3b1)]||document[_0x437a71(0x441)]||document[_0x437a71(0x278)];if(!_0x1082f7){const _0x3f95f5=document['documentElement'];if(_0x3f95f5[_0x437a71(0x380)])_0x3f95f5[_0x437a71(0x380)]();else{if(_0x3f95f5[_0x437a71(0x339)])_0x3f95f5[_0x437a71(0x339)]();else _0x3f95f5['msRequestFullscreen']&&_0x3f95f5[_0x437a71(0x27a)]();}}else{if(document[_0x437a71(0x26d)])document[_0x437a71(0x26d)]();else{if(document['webkitExitFullscreen'])document['webkitExitFullscreen']();else document[_0x437a71(0x252)]&&document[_0x437a71(0x252)]();}}}),document['addEventListener'](_0x1d7bee(0x222),_0x2d7c17),document[_0x1d7bee(0x3f0)](_0x1d7bee(0x3f8),_0x2d7c17),document[_0x1d7bee(0x3f0)](_0x1d7bee(0x2a5),_0x2d7c17);function _0x2d7c17(){const _0x3c93c7=_0x1d7bee,_0x3d6c77=_0x2f4269[_0x3c93c7(0x38e)]('i'),_0xd8c823=document[_0x3c93c7(0x2c4)]||document[_0x3c93c7(0x3b1)];_0xd8c823?(_0x3d6c77['classList'][_0x3c93c7(0x34b)]('fa-expand'),_0x3d6c77['classList'][_0x3c93c7(0x20a)](_0x3c93c7(0x2a4))):(_0x3d6c77[_0x3c93c7(0x394)]['remove'](_0x3c93c7(0x2a4)),_0x3d6c77['classList'][_0x3c93c7(0x20a)]('fa-expand'));}}const _0x31feef=()=>_0x2b7de3(_0x1d7bee(0x44e))['offsetWidth'];let _0x233528=window[_0x1d7bee(0x26b)],_0x7192a7=window[_0x1d7bee(0x229)];const _0xab4158=_0x2b7de3(_0x1d7bee(0x43e)),_0x4bc0f5=_0x2b7de3(_0x1d7bee(0x408)),_0x5bcd60=document['querySelector']('.hour-hand'),_0x45c0a1=document[_0x1d7bee(0x38e)](_0x1d7bee(0x436)),_0x24fb14=document[_0x1d7bee(0x38e)](_0x1d7bee(0x442));function _0xf6d388(){const _0x2d7249=_0x1d7bee,_0x3de990=new Date(),_0x461ec7=_0x3de990[_0x2d7249(0x281)](),_0x4f3ea7=_0x3de990[_0x2d7249(0x468)](),_0x8028de=_0x3de990['getHours'](),_0x17a448=_0x461ec7/0x3c*0x168,_0xeb6768=_0x4f3ea7/0x3c*0x168+_0x461ec7/0x3c*0x6,_0x3975f8=_0x8028de/0xc*0x168+_0x4f3ea7/0x3c*0x1e;_0x5bcd60&&_0x45c0a1&&_0x24fb14&&(_0x17a448<0x1?_0x24fb14[_0x2d7249(0x260)]['transition']='none':_0x24fb14[_0x2d7249(0x260)][_0x2d7249(0x27c)]='',_0x24fb14[_0x2d7249(0x260)][_0x2d7249(0x3ab)]='rotate('+_0x17a448+_0x2d7249(0x476),_0x45c0a1[_0x2d7249(0x260)][_0x2d7249(0x3ab)]=_0x2d7249(0x2b6)+_0xeb6768+_0x2d7249(0x476),_0x5bcd60[_0x2d7249(0x260)]['transform']='rotate('+_0x3975f8+_0x2d7249(0x476));if(_0x4bc0f5){const _0x178873=String(_0x8028de)[_0x2d7249(0x22c)](0x2,'0'),_0x57164b=String(_0x4f3ea7)['padStart'](0x2,'0'),_0x28bdeb=String(_0x461ec7)[_0x2d7249(0x22c)](0x2,'0');_0x4bc0f5[_0x2d7249(0x45c)]=_0x178873+':'+_0x57164b+':'+_0x28bdeb;}}_0xab4158&&(_0xab4158[_0x1d7bee(0x3f0)](_0x1d7bee(0x372),()=>{const _0x289bcb=_0x1d7bee;_0xab4158[_0x289bcb(0x394)][_0x289bcb(0x362)](_0x289bcb(0x3ef)),_0x4bc0f5[_0x289bcb(0x394)][_0x289bcb(0x362)]('open');}),_0x4bc0f5&&_0x4bc0f5[_0x1d7bee(0x3f0)](_0x1d7bee(0x21d),()=>{const _0x48ece8=_0x1d7bee;_0xab4158['classList'][_0x48ece8(0x34b)](_0x48ece8(0x3ef)),_0x4bc0f5[_0x48ece8(0x394)][_0x48ece8(0x34b)](_0x48ece8(0x34e));}),_0xf6d388(),setInterval(_0xf6d388,0x3e8));const _0x2781a6=_0x2b7de3(_0x1d7bee(0x2a2));if(_0x2781a6){const _0x310a70=()=>{const _0x3d2cc1=_0x1d7bee,_0xc2978=document[_0x3d2cc1(0x38e)](_0x3d2cc1(0x230));_0x2781a6[_0x3d2cc1(0x394)][_0x3d2cc1(0x45f)](_0x3d2cc1(0x43b))&&_0x2781a6[_0x3d2cc1(0x394)][_0x3d2cc1(0x34b)](_0x3d2cc1(0x43b)),_0xc2978&&(_0xc2978[_0x3d2cc1(0x260)][_0x3d2cc1(0x26e)]='0',setTimeout(()=>_0xc2978[_0x3d2cc1(0x34b)](),0x190));},_0x44e18a=()=>{const _0x28ff30=_0x1d7bee;if(!_0x2781a6[_0x28ff30(0x394)][_0x28ff30(0x45f)](_0x28ff30(0x43b))){_0x2781a6[_0x28ff30(0x394)]['add']('date-enlarged');const _0x2b0c52=document[_0x28ff30(0x39e)](_0x28ff30(0x450));_0x2b0c52[_0x28ff30(0x3a8)]=_0x28ff30(0x2d1),_0x2b0c52[_0x28ff30(0x3f0)](_0x28ff30(0x372),_0x310a70),document[_0x28ff30(0x1e5)][_0x28ff30(0x2ea)](_0x2b0c52),setTimeout(()=>_0x2b0c52['style']['opacity']='1',0xa);}};_0x2781a6['addEventListener']('click',()=>{const _0x2f5b0f=_0x1d7bee;_0x2781a6[_0x2f5b0f(0x394)][_0x2f5b0f(0x45f)](_0x2f5b0f(0x43b))?_0x310a70():_0x44e18a();});}const _0x42a728=_0x1d7bee(0x437),_0x11fd2c=document['createElement'](_0x1d7bee(0x260));_0x11fd2c[_0x1d7bee(0x318)]=_0x42a728,document[_0x1d7bee(0x34a)][_0x1d7bee(0x2ea)](_0x11fd2c);let _0x4cddcc=!![],_0x1d7e88={'activeLayout':null,'isVisible':!![]};const _0xfdaabc=0x14,_0x4e76a6=getComputedStyle(document[_0x1d7bee(0x20d)])['getPropertyValue']('--accent-color')[_0x1d7bee(0x448)]();let _0x528e0e=0x0;window['addEventListener'](_0x1d7bee(0x346),_0x4c51f4=>{const _0x50fb00=_0x1d7bee;_0x4c51f4['dataTransfer']['types']['includes'](_0x50fb00(0x32c))&&(_0x4c51f4[_0x50fb00(0x46d)](),_0x528e0e++,document[_0x50fb00(0x1e5)][_0x50fb00(0x394)]['add'](_0x50fb00(0x30d)));}),window[_0x1d7bee(0x3f0)](_0x1d7bee(0x331),_0x5bbcdc=>{const _0x5a38de=_0x1d7bee;_0x5bbcdc[_0x5a38de(0x42b)][_0x5a38de(0x22d)][_0x5a38de(0x22a)]('Files')&&(_0x5bbcdc[_0x5a38de(0x46d)](),_0x528e0e--,_0x528e0e===0x0&&document[_0x5a38de(0x1e5)]['classList'][_0x5a38de(0x34b)]('is-dragging'));}),window[_0x1d7bee(0x3f0)](_0x1d7bee(0x253),_0x2af012=>{const _0x240d84=_0x1d7bee;_0x2af012[_0x240d84(0x46d)](),_0x528e0e=0x0,document[_0x240d84(0x1e5)][_0x240d84(0x394)][_0x240d84(0x34b)]('is-dragging');});function _0x3fbd71(){const _0x551955=_0x1d7bee;if(_0x1d7e88[_0x551955(0x20b)]===_0x551955(0x3b3))return _0x2bb750(),_0x1d7e88[_0x551955(0x20b)]=null,!![];return![];}function _0x232102(_0xc6ada5){const _0x243563=_0x1d7bee,_0x59c2e3=document['createElement'](_0x243563(0x450));_0x59c2e3[_0x243563(0x3a8)]='overlay-number',_0x59c2e3[_0x243563(0x45c)]=_0xc6ada5,document[_0x243563(0x1e5)][_0x243563(0x2ea)](_0x59c2e3),setTimeout(()=>{const _0x38e9f5=_0x243563;_0x59c2e3[_0x38e9f5(0x260)]['opacity']=0x0,_0x59c2e3[_0x38e9f5(0x260)]['transform']='translate(-50%,\x20-50%)\x20scale(1.5)';},0xa),setTimeout(()=>_0x59c2e3[_0x243563(0x34b)](),0x7d0);}function _0x2bb750(){const _0x3ffb16=_0x1d7bee;document[_0x3ffb16(0x3fa)](_0x3ffb16(0x2ff))[_0x3ffb16(0x31b)](_0x4e26b0=>{const _0x68e397=_0x3ffb16;_0x235794(_0x4e26b0),_0x4e26b0[_0x68e397(0x34b)]();});}function _0x38eb10(_0x39ef65){const _0x571e16=_0x1d7bee;document[_0x571e16(0x3fa)](_0x571e16(0x36e))[_0x571e16(0x31b)](_0x5cbec7=>{const _0x2d365f=_0x571e16;_0x5cbec7[_0x2d365f(0x394)]['remove'](_0x2d365f(0x326)),_0x5cbec7['style'][_0x2d365f(0x426)]=0x3e8;}),_0x39ef65&&(_0x39ef65[_0x571e16(0x394)][_0x571e16(0x20a)]('active-window'),_0x39ef65['style'][_0x571e16(0x426)]=0x3e9);}function _0x235794(_0x331271){const _0x35d7cf=_0x1d7bee;if(!_0x331271)return;const _0x367a56=_0x331271[_0x35d7cf(0x38e)](_0x35d7cf(0x226));_0x367a56&&_0x367a56['remove']();const _0x3b19d2=_0x331271[_0x35d7cf(0x38e)](_0x35d7cf(0x385));_0x3b19d2&&(_0x3b19d2[_0x35d7cf(0x260)]['display']='flex'),_0x331271[_0x35d7cf(0x3d9)](_0x35d7cf(0x31d)),_0x331271['activeInterval']&&(clearInterval(_0x331271[_0x35d7cf(0x209)]),_0x331271[_0x35d7cf(0x209)]=null),_0x331271['toolResizeObserver']&&(_0x331271[_0x35d7cf(0x243)][_0x35d7cf(0x44f)](),_0x331271[_0x35d7cf(0x243)]=null),_0x331271['annotationResizeObserver']&&(_0x331271[_0x35d7cf(0x430)][_0x35d7cf(0x44f)](),_0x331271[_0x35d7cf(0x430)]=null);}function _0x5a983d(_0x59ebf4,_0x438510,_0x34d63d){const _0x488016=_0x1d7bee;if(!_0x59ebf4||!_0x438510||!_0x34d63d)return;_0x34d63d[_0x488016(0x25b)]>0x14&&_0x34d63d[_0x488016(0x2bb)](),_0x34d63d[_0x488016(0x42e)](_0x438510[_0x488016(0x3c5)](0x0,0x0,_0x59ebf4[_0x488016(0x23d)],_0x59ebf4['height']));}function _0xc63f4a(_0x178d59,_0x18cf91){const _0x21ee4b=_0x1d7bee;if(!_0x18cf91)return;_0x235794(_0x178d59);const _0x3dff64=_0x178d59['querySelector'](_0x21ee4b(0x2de));if(!_0x3dff64)return;_0x3dff64[_0x21ee4b(0x40c)]='';const _0x13db26=URL['createObjectURL'](_0x18cf91),_0x11426a=document['createElement'](_0x21ee4b(0x450));_0x11426a['className']='content-fill';if(_0x18cf91[_0x21ee4b(0x3b9)]==='application/pdf'){_0x178d59['dataset']['tool']='pdf',_0x3dff64[_0x21ee4b(0x260)]['padding']='0',_0x3dff64['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pdf-viewer-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pdf-canvas-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<canvas></canvas>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pdf-controls\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22pdf-prev-btn\x22\x20title=\x22Previous\x20Page\x22><i\x20class=\x22fas\x20fa-arrow-left\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pdf-page-input-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20class=\x22pdf-page-input\x22\x20min=\x221\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22pdf-page-info\x22>/\x20<span>1</span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22go-btn\x22>Go</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22pdf-next-btn\x22\x20title=\x22Next\x20Page\x22><i\x20class=\x22fas\x20fa-arrow-right\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pdf-zoom-controls\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22pdf-zoom-out-btn\x22\x20title=\x22Zoom\x20Out\x22><i\x20class=\x22fas\x20fa-search-minus\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22pdf-zoom-info\x22>100%</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22pdf-zoom-in-btn\x22\x20title=\x22Zoom\x20In\x22><i\x20class=\x22fas\x20fa-search-plus\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22pdf-zoom-reset-btn\x22\x20title=\x22Fit\x20to\x20Width\x22><i\x20class=\x22fas\x20fa-expand-alt\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';const _0x1a59a8=_0x3dff64['querySelector']('canvas'),_0x636176=_0x3dff64[_0x21ee4b(0x38e)]('.pdf-canvas-container'),_0x269a76=_0x3dff64[_0x21ee4b(0x38e)](_0x21ee4b(0x33f)),_0x3ce8cb=_0x3dff64[_0x21ee4b(0x38e)](_0x21ee4b(0x2af)),_0x68d0f7=_0x3dff64['querySelector'](_0x21ee4b(0x477)),_0x169530=_0x3dff64[_0x21ee4b(0x38e)](_0x21ee4b(0x274)),_0x810e1d=_0x3dff64[_0x21ee4b(0x38e)](_0x21ee4b(0x23b)),_0x59287e=_0x3dff64[_0x21ee4b(0x38e)](_0x21ee4b(0x2b9)),_0x30edff=_0x3dff64['querySelector'](_0x21ee4b(0x443)),_0x3a13df=_0x3dff64[_0x21ee4b(0x38e)](_0x21ee4b(0x36b)),_0x147f2b=_0x3dff64[_0x21ee4b(0x38e)]('.pdf-zoom-info');let _0x60afba=null,_0xe500bb=0x1,_0x1fee9f=0x1;const _0x9c1d21=()=>{const _0xa58b54=_0x21ee4b;_0x147f2b[_0xa58b54(0x45c)]=Math[_0xa58b54(0x482)](_0x1fee9f*0x64)+'%';},_0x2b679d=_0x1032c3=>{const _0x43536a=_0x21ee4b;if(!_0x60afba)return;_0xe500bb=_0x1032c3,_0x60afba[_0x43536a(0x409)](_0x1032c3)[_0x43536a(0x272)](_0x316279=>{const _0x2ee719=_0x43536a,_0x5aff5f=window[_0x2ee719(0x335)]||0x1,_0x3ea5a9=_0x316279[_0x2ee719(0x313)]({'scale':0x1}),_0xb97ec=_0x636176['clientWidth']/_0x3ea5a9[_0x2ee719(0x23d)]*_0x1fee9f,_0x3a725f=_0x316279[_0x2ee719(0x313)]({'scale':_0xb97ec*_0x5aff5f}),_0x55ffff=_0x1a59a8[_0x2ee719(0x228)]('2d');_0x1a59a8['height']=_0x3a725f['height'],_0x1a59a8[_0x2ee719(0x23d)]=_0x3a725f['width'],_0x1a59a8['style']['height']=_0x3a725f[_0x2ee719(0x2e8)]/_0x5aff5f+'px',_0x1a59a8[_0x2ee719(0x260)][_0x2ee719(0x23d)]=_0x3a725f[_0x2ee719(0x23d)]/_0x5aff5f+'px';_0x1fee9f!==0x1?_0x636176[_0x2ee719(0x394)][_0x2ee719(0x20a)](_0x2ee719(0x33c)):_0x636176[_0x2ee719(0x394)]['remove'](_0x2ee719(0x33c));const _0x53bb90={'canvasContext':_0x55ffff,'viewport':_0x3a725f};_0x316279[_0x2ee719(0x45e)](_0x53bb90);}),_0x68d0f7[_0x43536a(0x3ed)]=_0x1032c3,_0x269a76[_0x43536a(0x288)]=_0x1032c3<=0x1,_0x3ce8cb[_0x43536a(0x288)]=_0x1032c3>=_0x60afba[_0x43536a(0x293)],_0x9c1d21();},_0x4e7072=_0x1ccc3c=>{const _0x426be9=_0x21ee4b;if(_0x1ccc3c===_0x426be9(0x386)&&_0xe500bb>0x1)_0x2b679d(_0xe500bb-0x1);else _0x1ccc3c===_0x426be9(0x39a)&&_0xe500bb<_0x60afba[_0x426be9(0x293)]&&_0x2b679d(_0xe500bb+0x1);},_0x55f2eb=()=>{const _0x16e7e9=_0x21ee4b,_0x36037a=parseInt(_0x68d0f7[_0x16e7e9(0x3ed)],0xa);_0x36037a>=0x1&&_0x36037a<=_0x60afba[_0x16e7e9(0x293)]?_0x2b679d(_0x36037a):_0x68d0f7[_0x16e7e9(0x3ed)]=_0xe500bb;};_0x269a76['onclick']=()=>_0x4e7072('prev'),_0x3ce8cb['onclick']=()=>_0x4e7072(_0x21ee4b(0x39a)),_0x169530['onclick']=_0x55f2eb,_0x68d0f7[_0x21ee4b(0x3f0)](_0x21ee4b(0x29c),_0xef8ac6=>{const _0xf9f676=_0x21ee4b;if(_0xef8ac6[_0xf9f676(0x1fb)]===_0xf9f676(0x40a))_0x55f2eb();}),_0x30edff[_0x21ee4b(0x44a)]=()=>{_0x1fee9f+=0.2,_0x2b679d(_0xe500bb);},_0x59287e[_0x21ee4b(0x44a)]=()=>{_0x1fee9f>0.25&&(_0x1fee9f-=0.2,_0x2b679d(_0xe500bb));},_0x3a13df[_0x21ee4b(0x44a)]=()=>{_0x1fee9f=0x1,_0x2b679d(_0xe500bb);},_0x636176['addEventListener'](_0x21ee4b(0x1fc),_0x1a23f8=>{const _0x24ca2d=_0x21ee4b;_0x1a23f8[_0x24ca2d(0x359)]&&(_0x1a23f8['preventDefault'](),_0x1a23f8[_0x24ca2d(0x236)]<0x0?_0x1fee9f+=0.1:_0x1fee9f>0.2&&(_0x1fee9f-=0.1),_0x2b679d(_0xe500bb));},{'passive':![]});const _0x3f0cf3=new FileReader();_0x3f0cf3[_0x21ee4b(0x1e8)]=function(){const _0x278273=_0x21ee4b,_0x2bcbe9=new Uint8Array(this['result']);pdfjsLib['getDocument'](_0x2bcbe9)[_0x278273(0x2f7)][_0x278273(0x272)](_0x459c27=>{const _0x400730=_0x278273;_0x60afba=_0x459c27,_0x810e1d[_0x400730(0x45c)]='/\x20'+_0x459c27['numPages'],_0x68d0f7[_0x400730(0x302)]=_0x459c27[_0x400730(0x293)],_0x2b679d(0x1);});},_0x3f0cf3[_0x21ee4b(0x3b8)](_0x18cf91);const _0x216924=new ResizeObserver(()=>{_0x60afba&&_0x2b679d(_0xe500bb);});_0x178d59[_0x21ee4b(0x243)]=_0x216924,_0x216924[_0x21ee4b(0x3e9)](_0x636176);}else{if(_0x18cf91[_0x21ee4b(0x3b9)]['startsWith'](_0x21ee4b(0x445))){const _0x3f27f5=document[_0x21ee4b(0x39e)](_0x21ee4b(0x474));_0x3f27f5['src']=_0x13db26,_0x3f27f5[_0x21ee4b(0x260)][_0x21ee4b(0x2f6)]='contain',_0x3f27f5[_0x21ee4b(0x472)]=_0x21ee4b(0x38f),_0x11426a['appendChild'](_0x3f27f5),_0x3dff64['appendChild'](_0x11426a);}else{if(_0x18cf91[_0x21ee4b(0x3b9)][_0x21ee4b(0x285)](_0x21ee4b(0x336))){const _0x4473a4=document[_0x21ee4b(0x39e)](_0x21ee4b(0x333));_0x4473a4['src']=_0x13db26,_0x4473a4['controls']=!![],_0x4473a4['autoplay']=!![],_0x11426a[_0x21ee4b(0x2ea)](_0x4473a4),_0x3dff64['appendChild'](_0x11426a);}else{if(_0x18cf91['type'][_0x21ee4b(0x285)](_0x21ee4b(0x332))){const _0x34955a=document[_0x21ee4b(0x39e)](_0x21ee4b(0x413));_0x34955a['src']=_0x13db26,_0x34955a[_0x21ee4b(0x1e9)]=!![],_0x34955a[_0x21ee4b(0x34d)]=!![],_0x11426a['appendChild'](_0x34955a),_0x3dff64[_0x21ee4b(0x260)]['display']=_0x21ee4b(0x44c),_0x3dff64[_0x21ee4b(0x260)][_0x21ee4b(0x2b7)]=_0x21ee4b(0x23c),_0x3dff64['style']['justifyContent']='center',_0x3dff64['appendChild'](_0x11426a);}else _0x18cf91[_0x21ee4b(0x262)][_0x21ee4b(0x300)]()[_0x21ee4b(0x26a)](_0x21ee4b(0x2ca))||_0x18cf91[_0x21ee4b(0x262)][_0x21ee4b(0x300)]()[_0x21ee4b(0x26a)]('.ppt')?(_0x11426a[_0x21ee4b(0x40c)]=_0x21ee4b(0x289),_0x3dff64[_0x21ee4b(0x2ea)](_0x11426a)):(_0x3dff64[_0x21ee4b(0x260)][_0x21ee4b(0x3a9)]='flex',_0x3dff64[_0x21ee4b(0x260)][_0x21ee4b(0x2b7)]=_0x21ee4b(0x23c),_0x3dff64[_0x21ee4b(0x260)][_0x21ee4b(0x416)]=_0x21ee4b(0x23c),_0x3dff64['innerHTML']=_0x21ee4b(0x2a6),setTimeout(()=>{const _0x170b5f=_0x21ee4b;if(_0x178d59&&_0x178d59[_0x170b5f(0x2ef)]){_0x3dff64[_0x170b5f(0x40c)]='';const _0x25e9fc=document['createElement'](_0x170b5f(0x450));_0x25e9fc['className']=_0x170b5f(0x376),_0x25e9fc[_0x170b5f(0x40c)]=_0x170b5f(0x373),_0x3dff64[_0x170b5f(0x2ea)](_0x25e9fc);}},0x7d0));}}}}function _0x2e9a38(_0x14ce47){const _0x1e970b=_0x1d7bee;_0x14ce47[_0x1e970b(0x46d)](),_0xc63f4a(this,_0x14ce47['dataTransfer']['files'][0x0]);}function _0x44f3c0(_0x1e6c44){const _0x3aebb2=_0x1d7bee;_0x2bb750(),_0x1e6c44[_0x3aebb2(0x31b)](_0x272d0b=>{const _0x3b28a9=_0x3aebb2,_0x2208f6=_0x45a882();_0x2208f6[_0x3b28a9(0x260)][_0x3b28a9(0x41f)]=_0x272d0b[_0x3b28a9(0x41f)],_0x2208f6['style'][_0x3b28a9(0x315)]=_0x272d0b[_0x3b28a9(0x315)],_0x2208f6[_0x3b28a9(0x260)][_0x3b28a9(0x23d)]=_0x272d0b[_0x3b28a9(0x23d)],_0x2208f6[_0x3b28a9(0x260)][_0x3b28a9(0x2e8)]=_0x272d0b[_0x3b28a9(0x2e8)];});}function _0x15e395(_0x490c0c){const _0x27cdd4=_0x1d7bee;if(_0x490c0c[_0x27cdd4(0x38e)](_0x27cdd4(0x226)))return;const _0x69d1b3=_0x490c0c[_0x27cdd4(0x38e)](_0x27cdd4(0x2de));if(!_0x69d1b3)return;_0x235794(_0x490c0c),_0x69d1b3[_0x27cdd4(0x40c)]='',_0x69d1b3[_0x27cdd4(0x260)][_0x27cdd4(0x3ac)]='0',_0x69d1b3['style'][_0x27cdd4(0x3a9)]=_0x27cdd4(0x44c),_0x69d1b3[_0x27cdd4(0x260)]['flexDirection']=_0x27cdd4(0x25d),_0x490c0c[_0x27cdd4(0x382)][_0x27cdd4(0x483)]=_0x27cdd4(0x310);const _0x3d2e72=_0x490c0c[_0x27cdd4(0x38e)](_0x27cdd4(0x385));_0x3d2e72&&(_0x3d2e72[_0x27cdd4(0x260)][_0x27cdd4(0x3a9)]=_0x27cdd4(0x387));const _0x552344=document[_0x27cdd4(0x39e)](_0x27cdd4(0x3ec)),_0x4cb163=document[_0x27cdd4(0x39e)]('div');_0x4cb163[_0x27cdd4(0x3a8)]=_0x27cdd4(0x265),_0x4cb163[_0x27cdd4(0x260)]['position']=_0x27cdd4(0x393),_0x4cb163[_0x27cdd4(0x2ea)](_0x552344);const _0xd68df5=_0x552344[_0x27cdd4(0x228)]('2d');let _0x2fede5=![];const _0xc98b5d=[];function _0x2e64d9(){const _0x5b60b7=_0x27cdd4;if(_0xc98b5d['length']>0x1e)_0xc98b5d['shift']();_0xc98b5d[_0x5b60b7(0x42e)](_0xd68df5[_0x5b60b7(0x3c5)](0x0,0x0,_0x552344[_0x5b60b7(0x23d)],_0x552344[_0x5b60b7(0x2e8)]));}const _0xf8d521=new ResizeObserver(()=>{const _0x4a0a40=_0x27cdd4,_0x378ad2=_0xc98b5d[_0x4a0a40(0x25b)]>0x0?_0xc98b5d[_0xc98b5d[_0x4a0a40(0x25b)]-0x1]:null;_0x552344[_0x4a0a40(0x23d)]=_0x4cb163[_0x4a0a40(0x2b8)],_0x552344['height']=_0x4cb163[_0x4a0a40(0x282)];if(_0x378ad2)_0xd68df5[_0x4a0a40(0x295)](_0x378ad2,0x0,0x0);_0xd68df5[_0x4a0a40(0x42c)]=_0x4a0a40(0x482),_0xd68df5[_0x4a0a40(0x41b)]=_0x2c278b[_0x4a0a40(0x38e)]('.color-swatch.active')?.[_0x4a0a40(0x260)][_0x4a0a40(0x369)]||_0x4a0a40(0x215),_0xd68df5['lineWidth']=_0x534e69['value'];});_0x490c0c[_0x27cdd4(0x243)]=_0xf8d521,_0xf8d521[_0x27cdd4(0x3e9)](_0x4cb163),_0x552344[_0x27cdd4(0x260)]['background']=_0x27cdd4(0x354),_0x552344[_0x27cdd4(0x260)][_0x27cdd4(0x23d)]='100%',_0x552344[_0x27cdd4(0x260)][_0x27cdd4(0x2e8)]=_0x27cdd4(0x3a6),_0x552344[_0x27cdd4(0x3f0)]('pointerdown',_0xf006c5=>{const _0x5604e1=_0x27cdd4;_0x2fede5=!![],_0x2e64d9(),_0xd68df5['beginPath'](),_0xd68df5[_0x5604e1(0x367)](_0xf006c5['offsetX'],_0xf006c5[_0x5604e1(0x3ff)]);}),_0x552344['addEventListener'](_0x27cdd4(0x360),_0x357016=>{const _0x3d654d=_0x27cdd4;_0x2fede5&&(_0xd68df5[_0x3d654d(0x470)](_0x357016[_0x3d654d(0x358)],_0x357016[_0x3d654d(0x3ff)]),_0xd68df5['stroke']());}),_0x552344[_0x27cdd4(0x3f0)](_0x27cdd4(0x39c),()=>_0x2fede5=![]);const _0x2c278b=document[_0x27cdd4(0x39e)](_0x27cdd4(0x450));_0x2c278b[_0x27cdd4(0x3a8)]=_0x27cdd4(0x32f);const _0x2a922e=[];[_0x27cdd4(0x215),_0x27cdd4(0x24c),_0x27cdd4(0x405),'#FFCC00',_0x27cdd4(0x30c),_0x27cdd4(0x23f),'#AF52DE']['forEach'](_0x39d7e9=>{const _0x24013a=_0x27cdd4,_0x4f48bb=document[_0x24013a(0x39e)]('div');_0x4f48bb[_0x24013a(0x3a8)]=_0x24013a(0x3ea),_0x4f48bb[_0x24013a(0x260)][_0x24013a(0x369)]=_0x39d7e9,_0x4f48bb[_0x24013a(0x44a)]=()=>{const _0x29ebe2=_0x24013a;_0xd68df5[_0x29ebe2(0x41b)]=_0x39d7e9,_0x2c278b[_0x29ebe2(0x38e)](_0x29ebe2(0x245))?.['classList']['remove'](_0x29ebe2(0x3ef)),_0x4f48bb[_0x29ebe2(0x394)][_0x29ebe2(0x20a)]('active');},_0x2a922e[_0x24013a(0x42e)](_0x4f48bb);});const _0x534e69=document[_0x27cdd4(0x39e)](_0x27cdd4(0x428));_0x534e69[_0x27cdd4(0x3b9)]='range',_0x534e69[_0x27cdd4(0x327)]=0x1,_0x534e69[_0x27cdd4(0x302)]=0x32,_0x534e69['value']=0x5,_0x534e69[_0x27cdd4(0x260)]['width']=_0x27cdd4(0x32e),_0x534e69[_0x27cdd4(0x446)]=_0x1c6bfd=>{const _0x5f1bdb=_0x27cdd4;_0xd68df5[_0x5f1bdb(0x301)]=_0x1c6bfd[_0x5f1bdb(0x1e3)][_0x5f1bdb(0x3ed)];};const _0x58484f=document[_0x27cdd4(0x39e)](_0x27cdd4(0x2be));_0x58484f[_0x27cdd4(0x40c)]='<i\x20class=\x22fas\x20fa-undo\x22></i>',_0x58484f[_0x27cdd4(0x44a)]=()=>{const _0x37dcab=_0x27cdd4;if(_0xc98b5d[_0x37dcab(0x25b)]>0x0)_0xd68df5[_0x37dcab(0x295)](_0xc98b5d['pop'](),0x0,0x0);};const _0x57b852=document[_0x27cdd4(0x39e)]('button');_0x57b852[_0x27cdd4(0x40c)]=_0x27cdd4(0x2d6),_0x57b852[_0x27cdd4(0x44a)]=()=>{const _0x48486d=_0x27cdd4;_0xd68df5[_0x48486d(0x255)](0x0,0x0,_0x552344['width'],_0x552344['height']),_0xc98b5d[_0x48486d(0x25b)]=0x0;},_0x2c278b['append'](_0x534e69,..._0x2a922e,_0x58484f,_0x57b852),_0x69d1b3[_0x27cdd4(0x41d)](_0x2c278b,_0x4cb163),_0xd68df5[_0x27cdd4(0x41b)]=_0x27cdd4(0x215),_0x2a922e[0x0][_0x27cdd4(0x394)][_0x27cdd4(0x20a)](_0x27cdd4(0x3ef));}function _0x252bb2(_0x5dc871){const _0x2418eb=_0x1d7bee,_0x3e7588=_0x5dc871[_0x2418eb(0x38e)]('.win-main-area');if(!_0x3e7588)return;_0x3e7588[_0x2418eb(0x40c)]='',_0x3e7588['style'][_0x2418eb(0x3ac)]='0',navigator['mediaDevices'][_0x2418eb(0x2ed)]({'video':!![]})[_0x2418eb(0x272)](_0x14a6a9=>{const _0x2593d6=_0x2418eb,_0x18a1c5=document[_0x2593d6(0x39e)](_0x2593d6(0x333));_0x18a1c5[_0x2593d6(0x40e)]=_0x14a6a9,_0x18a1c5[_0x2593d6(0x34d)]=!![],_0x18a1c5[_0x2593d6(0x29f)]=!![],_0x18a1c5['style'][_0x2593d6(0x23d)]=_0x2593d6(0x3a6),_0x18a1c5[_0x2593d6(0x260)]['height']=_0x2593d6(0x3a6),_0x18a1c5[_0x2593d6(0x260)]['objectFit']=_0x2593d6(0x418),_0x3e7588[_0x2593d6(0x2ea)](_0x18a1c5);})[_0x2418eb(0x334)](_0x376ed4=>{const _0x54a0a2=_0x2418eb;_0x3e7588[_0x54a0a2(0x45c)]=_0x54a0a2(0x2fc),console[_0x54a0a2(0x342)](_0x376ed4);});}function _0x58397b(_0x2b2a5e){const _0xc2a3a5=_0x1d7bee,_0x4ea4c5=_0x2b2a5e[_0xc2a3a5(0x38e)](_0xc2a3a5(0x2de));if(!_0x4ea4c5)return;function _0x487fbb(_0x35dad2){const _0x2b40c5=_0xc2a3a5;_0x4ea4c5['innerHTML']='',_0x4ea4c5[_0x2b40c5(0x260)][_0x2b40c5(0x3ac)]='0',_0x4ea4c5['style'][_0x2b40c5(0x3a9)]='flex',_0x4ea4c5[_0x2b40c5(0x260)]['flexDirection']=_0x2b40c5(0x25d),_0x2b2a5e[_0x2b40c5(0x394)][_0x2b40c5(0x20a)](_0x2b40c5(0x475));let _0x247209=_0x35dad2,_0x104fee=![],_0x564bd6;const _0x192b0b=document['createElement'](_0x2b40c5(0x450));_0x192b0b[_0x2b40c5(0x260)][_0x2b40c5(0x3fb)]=_0x2b40c5(0x254);const _0x17cafa=_0x2b40c5(0x478),_0x5efe1e=document[_0x2b40c5(0x40d)](_0x17cafa,'svg');_0x5efe1e[_0x2b40c5(0x260)][_0x2b40c5(0x308)]=_0x2b40c5(0x28b),_0x5efe1e[_0x2b40c5(0x260)][_0x2b40c5(0x23d)]=_0x2b40c5(0x32b),_0x5efe1e[_0x2b40c5(0x260)][_0x2b40c5(0x2e8)]=_0x2b40c5(0x32b),_0x5efe1e['setAttribute'](_0x2b40c5(0x258),_0x2b40c5(0x39f));const _0x137494=document['createElementNS'](_0x17cafa,'circle');_0x137494[_0x2b40c5(0x488)]('cx','50'),_0x137494['setAttribute']('cy','50'),_0x137494[_0x2b40c5(0x488)]('r','45'),_0x137494[_0x2b40c5(0x488)](_0x2b40c5(0x402),_0x2b40c5(0x271)),_0x137494[_0x2b40c5(0x488)](_0x2b40c5(0x395),'5'),_0x137494[_0x2b40c5(0x488)](_0x2b40c5(0x2e7),_0x2b40c5(0x202));const _0x47e39e=document[_0x2b40c5(0x40d)](_0x17cafa,_0x2b40c5(0x24d));_0x47e39e[_0x2b40c5(0x488)]('cx','50'),_0x47e39e[_0x2b40c5(0x488)]('cy','50'),_0x47e39e[_0x2b40c5(0x488)]('r','45'),_0x47e39e[_0x2b40c5(0x488)](_0x2b40c5(0x402),getComputedStyle(document[_0x2b40c5(0x20d)])[_0x2b40c5(0x32a)](_0x2b40c5(0x355))[_0x2b40c5(0x448)]()),_0x47e39e[_0x2b40c5(0x488)](_0x2b40c5(0x395),'5'),_0x47e39e[_0x2b40c5(0x488)](_0x2b40c5(0x2e7),'transparent'),_0x47e39e['style'][_0x2b40c5(0x46c)]='center',_0x47e39e[_0x2b40c5(0x260)][_0x2b40c5(0x3ab)]=_0x2b40c5(0x356);const _0x15e7a0=0x2d,_0x36513d=0x2*Math['PI']*_0x15e7a0;_0x47e39e[_0x2b40c5(0x488)](_0x2b40c5(0x3f1),_0x36513d),_0x47e39e['setAttribute'](_0x2b40c5(0x37a),0x0),_0x47e39e['style'][_0x2b40c5(0x27c)]=_0x2b40c5(0x479),_0x5efe1e[_0x2b40c5(0x41d)](_0x137494,_0x47e39e),_0x192b0b[_0x2b40c5(0x2ea)](_0x5efe1e);const _0x19e70a=document[_0x2b40c5(0x39e)](_0x2b40c5(0x450));_0x19e70a[_0x2b40c5(0x260)][_0x2b40c5(0x3fb)]=_0x2b40c5(0x45b),_0x192b0b[_0x2b40c5(0x2ea)](_0x19e70a),_0x4ea4c5['appendChild'](_0x192b0b);const _0x3812fc=_0xc60955=>{const _0x519d2e=_0x2b40c5,_0x835efb=_0xc60955/_0x35dad2,_0x2a5b90=_0x36513d*(0x1-_0x835efb);_0x47e39e[_0x519d2e(0x488)](_0x519d2e(0x37a),_0x2a5b90);if(_0xc60955<0x0)_0xc60955=0x0;if(_0xc60955<0x3c)_0x19e70a[_0x519d2e(0x45c)]=String(_0xc60955)['padStart'](0x2,'0');else{const _0x4f3904=Math[_0x519d2e(0x431)](_0xc60955/0x3c),_0x58129c=String(_0xc60955%0x3c)[_0x519d2e(0x22c)](0x2,'0'),_0x4a90d9=_0x4f3904>0x0&&_0x4f3904<0xa?String(_0x4f3904):String(_0x4f3904)[_0x519d2e(0x22c)](0x2,'0');_0x19e70a['textContent']=_0x4a90d9+':'+_0x58129c;}_0x1aa772();},_0x1aa772=()=>{const _0x394084=_0x2b40c5,_0x129b19=_0x19e70a[_0x394084(0x45c)][_0x394084(0x25b)]>0x2?4.4:2.2,_0x44977e=_0x192b0b[_0x394084(0x2b8)]/_0x129b19;_0x19e70a[_0x394084(0x260)]['fontSize']=_0x44977e+'px';},_0x5160c2=new ResizeObserver(_0x1aa772);_0x2b2a5e[_0x2b40c5(0x243)]=_0x5160c2,_0x5160c2[_0x2b40c5(0x3e9)](_0x192b0b);function _0x5005fd(){const _0x5e24b2=_0x2b40c5,_0x4d08fd=Math[_0x5e24b2(0x482)]((_0x564bd6-Date[_0x5e24b2(0x456)]())/0x3e8);_0x247209=_0x4d08fd,_0x3812fc(_0x4d08fd),_0x4d08fd<=0x0&&(_0x2b7de3('bellSound')[_0x5e24b2(0x397)](),_0x235794(_0x2b2a5e),_0x58397b(_0x2b2a5e));}const _0x458b0c=document[_0x2b40c5(0x39e)](_0x2b40c5(0x450));_0x458b0c[_0x2b40c5(0x3a8)]=_0x2b40c5(0x3b4);const _0x158391=document[_0x2b40c5(0x39e)](_0x2b40c5(0x2be));_0x158391['className']=_0x2b40c5(0x266),_0x158391[_0x2b40c5(0x3df)]='Start/Pause\x20Timer\x20(Enter)',_0x158391[_0x2b40c5(0x40c)]=_0x2b40c5(0x2fd),_0x158391[_0x2b40c5(0x260)]['backgroundColor']=_0x2b40c5(0x2eb),_0x158391[_0x2b40c5(0x44a)]=()=>{const _0x21a687=_0x2b40c5;_0x104fee=!_0x104fee,_0x104fee?(_0x564bd6=Date['now']()+_0x247209*0x3e8,_0x2b2a5e[_0x21a687(0x209)]=setInterval(_0x5005fd,0x3e8),_0x5005fd(),_0x158391['innerHTML']=_0x21a687(0x297)):(clearInterval(_0x2b2a5e[_0x21a687(0x209)]),_0x2b2a5e['activeInterval']=null,_0x158391[_0x21a687(0x40c)]=_0x21a687(0x2fd));};const _0x528570=document[_0x2b40c5(0x39e)](_0x2b40c5(0x2be));_0x528570[_0x2b40c5(0x3a8)]=_0x2b40c5(0x2f1),_0x528570[_0x2b40c5(0x3df)]='Reset\x20Timer\x20(Spacebar)',_0x528570[_0x2b40c5(0x40c)]='<i\x20class=\x22fas\x20fa-sync-alt\x22></i>',_0x528570[_0x2b40c5(0x260)][_0x2b40c5(0x369)]='var(--danger-color)',_0x528570[_0x2b40c5(0x44a)]=()=>{_0x235794(_0x2b2a5e),_0x58397b(_0x2b2a5e);},_0x458b0c['append'](_0x158391,_0x528570),_0x4ea4c5[_0x2b40c5(0x2ea)](_0x458b0c),_0x3812fc(_0x35dad2);}_0x4ea4c5[_0xc2a3a5(0x40c)]='',_0x4ea4c5[_0xc2a3a5(0x260)][_0xc2a3a5(0x3ac)]='16px',_0x4ea4c5[_0xc2a3a5(0x260)][_0xc2a3a5(0x3a9)]=_0xc2a3a5(0x44c),_0x4ea4c5['style']['flexDirection']=_0xc2a3a5(0x25d),_0x2b2a5e[_0xc2a3a5(0x394)][_0xc2a3a5(0x34b)](_0xc2a3a5(0x475));const _0x313d53=document[_0xc2a3a5(0x39e)]('h2');_0x313d53['className']=_0xc2a3a5(0x481),_0x313d53[_0xc2a3a5(0x45c)]='Choose\x20Timer\x20Duration',_0x4ea4c5[_0xc2a3a5(0x2ea)](_0x313d53);const _0xdaf5f=document['createElement'](_0xc2a3a5(0x450));_0xdaf5f['className']='countdown-selection-grid';const _0x46d9ae=[{'label':_0xc2a3a5(0x1e4),'seconds':0x1e},{'label':_0xc2a3a5(0x2dd),'seconds':0x3c},{'label':_0xc2a3a5(0x2da),'seconds':0x78},{'label':_0xc2a3a5(0x46a),'seconds':0x12c},{'label':'10\x20min','seconds':0x258},{'label':'15\x20min','seconds':0x384},{'label':_0xc2a3a5(0x330),'seconds':0x708},{'label':_0xc2a3a5(0x256),'seconds':0xe10}];_0x46d9ae[_0xc2a3a5(0x31b)](_0x189529=>{const _0x1dab9d=_0xc2a3a5,_0x8a3e4=document[_0x1dab9d(0x39e)]('button');_0x8a3e4[_0x1dab9d(0x3a8)]=_0x1dab9d(0x21e),_0x8a3e4[_0x1dab9d(0x45c)]=_0x189529[_0x1dab9d(0x462)],_0x8a3e4[_0x1dab9d(0x44a)]=()=>_0x487fbb(_0x189529[_0x1dab9d(0x453)]),_0xdaf5f[_0x1dab9d(0x2ea)](_0x8a3e4);}),_0x4ea4c5[_0xc2a3a5(0x2ea)](_0xdaf5f);}function _0x316450(_0x26b6c7){const _0x497533=_0x1d7bee,_0xd698e0=_0x26b6c7[_0x497533(0x38e)](_0x497533(0x2de));if(!_0xd698e0)return;_0xd698e0[_0x497533(0x40c)]='',_0xd698e0['style'][_0x497533(0x3ac)]='0',_0xd698e0[_0x497533(0x260)][_0x497533(0x3a9)]='flex',_0xd698e0[_0x497533(0x260)]['flexDirection']=_0x497533(0x25d);const _0x1dbcd9=document[_0x497533(0x39e)](_0x497533(0x450));_0x1dbcd9[_0x497533(0x3d6)]=!![],_0x1dbcd9[_0x497533(0x260)][_0x497533(0x44c)]='1',_0x1dbcd9[_0x497533(0x260)][_0x497533(0x3ac)]='16px',_0x1dbcd9[_0x497533(0x3f0)]('focus',()=>{_0x4cddcc=![];}),_0x1dbcd9[_0x497533(0x3f0)](_0x497533(0x37e),()=>{_0x4cddcc=!![];});const _0x33483d=document[_0x497533(0x39e)](_0x497533(0x450));_0x33483d[_0x497533(0x260)][_0x497533(0x3fb)]=_0x497533(0x20f),['fas\x20fa-plus',_0x497533(0x21b)][_0x497533(0x31b)](_0x17bd01=>{const _0xfafcf1=_0x497533,_0x1e368a=document[_0xfafcf1(0x39e)](_0xfafcf1(0x2be));_0x1e368a[_0xfafcf1(0x3a8)]=_0xfafcf1(0x39d),_0x1e368a[_0xfafcf1(0x40c)]=_0xfafcf1(0x283)+_0x17bd01+_0xfafcf1(0x44d),_0x1e368a[_0xfafcf1(0x260)][_0xfafcf1(0x23d)]='40px',_0x1e368a[_0xfafcf1(0x260)][_0xfafcf1(0x2e8)]='40px',_0x1e368a['style']['fontSize']=_0xfafcf1(0x1ec),_0x1e368a['onclick']=()=>{const _0x1b9e5c=_0xfafcf1,_0x2b94dd=parseInt(getComputedStyle(_0x1dbcd9)[_0x1b9e5c(0x275)],0xa);_0x1dbcd9[_0x1b9e5c(0x260)][_0x1b9e5c(0x275)]=_0x2b94dd+(_0x17bd01['includes'](_0x1b9e5c(0x2e4))?0x6:-0x6)+'px';},_0x33483d[_0xfafcf1(0x2ea)](_0x1e368a);}),_0xd698e0[_0x497533(0x41d)](_0x1dbcd9,_0x33483d),_0x1dbcd9[_0x497533(0x422)]();}function _0x2062d5(_0x46e3e2){const _0x372b70=_0x1d7bee,_0x1c901c=_0x46e3e2[_0x372b70(0x38e)](_0x372b70(0x2de));if(!_0x1c901c)return;_0x1c901c[_0x372b70(0x40c)]='',_0x1c901c[_0x372b70(0x260)]['padding']='0',_0x1c901c['style']['display']='flex',_0x1c901c['style'][_0x372b70(0x3fd)]=_0x372b70(0x25d);const _0x6d9a2b=document['createElement']('div');_0x6d9a2b[_0x372b70(0x3a8)]=_0x372b70(0x37c);const _0x57baba=document[_0x372b70(0x39e)](_0x372b70(0x450));_0x57baba[_0x372b70(0x3a8)]=_0x372b70(0x457),_0x1c901c[_0x372b70(0x41d)](_0x6d9a2b,_0x57baba);let _0x3a7234=0x1;const _0x453988=(_0x4a147d=0x1)=>{const _0x60fd94=_0x372b70,_0x278429=document[_0x60fd94(0x39e)](_0x60fd94(0x450));_0x278429[_0x60fd94(0x3a8)]=_0x60fd94(0x337),_0x278429[_0x60fd94(0x382)]['value']=_0x4a147d;for(let _0x1a5b33=0x1;_0x1a5b33<=0x9;_0x1a5b33++){const _0x1b7430=document[_0x60fd94(0x39e)]('div');_0x1b7430[_0x60fd94(0x3a8)]=_0x60fd94(0x261)+_0x1a5b33,_0x278429[_0x60fd94(0x2ea)](_0x1b7430);}return _0x278429;},_0xa3105f=document[_0x372b70(0x39e)](_0x372b70(0x450));_0xa3105f[_0x372b70(0x3a8)]=_0x372b70(0x25a);const _0x3ae820=(_0x38c769=!![])=>{const _0x2dff52=_0x372b70;let _0xcd2aa4=0x0;const _0x42e53c=_0x6d9a2b[_0x2dff52(0x3fa)](_0x2dff52(0x206));_0x42e53c[_0x2dff52(0x31b)](_0x595c29=>{const _0x296fd6=_0x2dff52,_0x449990=Math[_0x296fd6(0x431)](Math['random']()*0x6)+0x1;_0xcd2aa4+=_0x449990,_0x595c29['dataset']['value']=_0x449990,_0x38c769&&(_0x595c29[_0x296fd6(0x394)]['add'](_0x296fd6(0x279)),_0x595c29[_0x296fd6(0x3f0)](_0x296fd6(0x2df),()=>_0x595c29[_0x296fd6(0x394)][_0x296fd6(0x34b)]('rolling'),{'once':!![]}));}),_0xa3105f[_0x2dff52(0x45c)]='Total:\x20'+_0xcd2aa4;},_0xd9a43f=()=>{requestAnimationFrame(()=>{const _0x22fbcd=_0x6d96,_0x2ae7fd=getComputedStyle(_0x6d9a2b),_0x537aec=parseFloat(_0x2ae7fd[_0x22fbcd(0x3b5)])||0x20,_0x5c7d4e=_0x6d9a2b[_0x22fbcd(0x2b8)]-(parseFloat(_0x2ae7fd['paddingLeft'])+parseFloat(_0x2ae7fd[_0x22fbcd(0x244)])),_0xc79d34=_0x6d9a2b[_0x22fbcd(0x282)]-(parseFloat(_0x2ae7fd['paddingTop'])+parseFloat(_0x2ae7fd[_0x22fbcd(0x2b5)]));if(_0x5c7d4e<=0x0||_0xc79d34<=0x0)return;const _0x563bb7=Math['ceil'](Math[_0x22fbcd(0x2a3)](_0x3a7234)),_0x490d0b=Math[_0x22fbcd(0x3c7)](_0x3a7234/_0x563bb7),_0x471fdb=(_0x5c7d4e-(_0x563bb7-0x1)*_0x537aec)/_0x563bb7,_0x5933a4=(_0xc79d34-(_0x490d0b-0x1)*_0x537aec)/_0x490d0b,_0x2ac2c7=Math[_0x22fbcd(0x302)](0x30,Math[_0x22fbcd(0x431)](Math['min'](_0x471fdb,_0x5933a4)));_0x6d9a2b[_0x22fbcd(0x3fa)](_0x22fbcd(0x206))[_0x22fbcd(0x31b)](_0x1b6294=>{const _0x3a0567=_0x22fbcd;_0x1b6294[_0x3a0567(0x260)][_0x3a0567(0x23d)]=_0x2ac2c7+'px',_0x1b6294['style'][_0x3a0567(0x2e8)]=_0x2ac2c7+'px';});});},_0x2f2ede=()=>{const _0x2727d0=_0x372b70;_0x6d9a2b['innerHTML']='';for(let _0x249e49=0x0;_0x249e49<_0x3a7234;_0x249e49++){_0x6d9a2b[_0x2727d0(0x2ea)](_0x453988(0x1));}_0x3ae820(![]),_0xd9a43f();},_0x35297d=document[_0x372b70(0x39e)](_0x372b70(0x2be));_0x35297d['className']='icon-btn',_0x35297d['innerHTML']=_0x372b70(0x2d3),_0x35297d[_0x372b70(0x44a)]=()=>{_0x3a7234<0x6&&(_0x3a7234++,_0x2f2ede());};const _0x387f19=document[_0x372b70(0x39e)](_0x372b70(0x2be));_0x387f19[_0x372b70(0x3a8)]=_0x372b70(0x3fe),_0x387f19[_0x372b70(0x40c)]=_0x372b70(0x30a),_0x387f19[_0x372b70(0x44a)]=()=>{_0x3a7234>0x1&&(_0x3a7234--,_0x2f2ede());};const _0x2f6f57=document[_0x372b70(0x39e)](_0x372b70(0x2be));_0x2f6f57[_0x372b70(0x3a8)]=_0x372b70(0x3fe),_0x2f6f57[_0x372b70(0x40c)]=_0x372b70(0x3c6),_0x2f6f57[_0x372b70(0x260)][_0x372b70(0x369)]='var(--success-color)',_0x2f6f57[_0x372b70(0x44a)]=()=>_0x3ae820(!![]),_0x57baba[_0x372b70(0x41d)](_0x35297d,_0x387f19,_0x2f6f57,_0xa3105f);const _0x530be4=new ResizeObserver(_0xd9a43f);_0x46e3e2[_0x372b70(0x243)]=_0x530be4,_0x530be4[_0x372b70(0x3e9)](_0x1c901c),_0x2f2ede();}function _0x19cb19(_0x1fdf94){const _0x23dcbf=_0x1d7bee,_0x50b7b8=_0x1fdf94['querySelector'](_0x23dcbf(0x2de));if(!_0x50b7b8)return;_0x50b7b8[_0x23dcbf(0x40c)]='',_0x50b7b8[_0x23dcbf(0x260)]['padding']='0',_0x50b7b8[_0x23dcbf(0x260)][_0x23dcbf(0x3a9)]=_0x23dcbf(0x44c),_0x50b7b8[_0x23dcbf(0x260)][_0x23dcbf(0x3fd)]=_0x23dcbf(0x25d);const _0xe26fa3=document[_0x23dcbf(0x39e)]('div');_0xe26fa3[_0x23dcbf(0x3a8)]=_0x23dcbf(0x343),_0xe26fa3[_0x23dcbf(0x45c)]='00:00.00';const _0x223de0=document[_0x23dcbf(0x39e)]('div');_0x223de0[_0x23dcbf(0x3a8)]='stopwatch-controls',_0x50b7b8['append'](_0xe26fa3,_0x223de0);let _0x4aa94e=0x0,_0x3163c6=0x0,_0xb01f2c=![];const _0x51ab81=()=>{const _0x23ab86=_0x23dcbf,_0x41930c=_0x4aa94e,_0x259fe2=String(Math[_0x23ab86(0x431)](_0x41930c/0xea60))[_0x23ab86(0x22c)](0x2,'0'),_0x3efe69=String(Math['floor'](_0x41930c%0xea60/0x3e8))[_0x23ab86(0x22c)](0x2,'0'),_0x2b5060=String(Math['floor'](_0x41930c%0x3e8/0xa))[_0x23ab86(0x22c)](0x2,'0');_0xe26fa3[_0x23ab86(0x45c)]=_0x259fe2+':'+_0x3efe69+'.'+_0x2b5060;},_0x636019=document[_0x23dcbf(0x39e)]('button');_0x636019['className']=_0x23dcbf(0x3fe),_0x636019[_0x23dcbf(0x40c)]=_0x23dcbf(0x2fd),_0x636019[_0x23dcbf(0x260)]['backgroundColor']=_0x23dcbf(0x2eb),_0x636019['onclick']=()=>{const _0x2b2c2e=_0x23dcbf;_0xb01f2c?(clearInterval(_0x1fdf94[_0x2b2c2e(0x209)]),_0x1fdf94['activeInterval']=null,_0x4aa94e=Date[_0x2b2c2e(0x456)]()-_0x3163c6,_0x636019[_0x2b2c2e(0x40c)]=_0x2b2c2e(0x297)):(_0x3163c6=Date[_0x2b2c2e(0x456)]()-_0x4aa94e,_0x1fdf94[_0x2b2c2e(0x209)]=setInterval(()=>{_0x4aa94e=Date['now']()-_0x3163c6,_0x51ab81();},0xa),_0x636019[_0x2b2c2e(0x40c)]=_0x2b2c2e(0x2fd)),_0xb01f2c=!_0xb01f2c;};const _0x1cb4d2=document[_0x23dcbf(0x39e)](_0x23dcbf(0x2be));_0x1cb4d2['className']='icon-btn',_0x1cb4d2[_0x23dcbf(0x40c)]='<i\x20class=\x22fas\x20fa-sync-alt\x22></i>',_0x1cb4d2[_0x23dcbf(0x260)][_0x23dcbf(0x369)]='var(--danger-color)',_0x1cb4d2['onclick']=()=>{const _0x26efc7=_0x23dcbf;clearInterval(_0x1fdf94['activeInterval']),_0x1fdf94[_0x26efc7(0x209)]=null,_0xb01f2c=![],_0x4aa94e=0x0,_0x636019[_0x26efc7(0x40c)]=_0x26efc7(0x2fd),_0x51ab81();},_0x223de0[_0x23dcbf(0x41d)](_0x636019,_0x1cb4d2);const _0x25de4f=_0x19909a=>{const _0x556b4f=_0x23dcbf,_0x35c6ac=_0x19909a['clientWidth']/4.6;_0xe26fa3[_0x556b4f(0x260)]['fontSize']=_0x35c6ac+'px';},_0x2f5401=new ResizeObserver(_0x2bd007=>{const _0x6443e4=_0x23dcbf;for(let _0x238f8c of _0x2bd007){_0x25de4f(_0x238f8c[_0x6443e4(0x1e3)]);}});_0x1fdf94['toolResizeObserver']=_0x2f5401,_0x2f5401[_0x23dcbf(0x3e9)](_0x50b7b8),_0x25de4f(_0x50b7b8);}function _0x500759(_0x1518de){const _0x26c1d2=_0x1d7bee,_0x522ab7=_0x1518de[_0x26c1d2(0x38e)](_0x26c1d2(0x2de));if(!_0x522ab7)return;_0x522ab7[_0x26c1d2(0x40c)]='',_0x522ab7['style']['padding']='0',_0x522ab7[_0x26c1d2(0x260)][_0x26c1d2(0x3a9)]=_0x26c1d2(0x44c),_0x522ab7[_0x26c1d2(0x260)]['gap']='0',_0x522ab7[_0x26c1d2(0x260)][_0x26c1d2(0x321)]=_0x26c1d2(0x469),_0x1518de['dataset'][_0x26c1d2(0x2b1)]='true',_0x522ab7[_0x26c1d2(0x3f0)](_0x26c1d2(0x351),_0x34f9d3=>{const _0x381174=_0x26c1d2;_0x4cddcc=![],_0x34f9d3[_0x381174(0x419)]();});const _0x13efbf=(_0x1411f2,_0x5bd5e2)=>{const _0x3ec7e4=_0x26c1d2;let _0x5a7ad6=0x0;const _0x47f1fa=document['createElement'](_0x3ec7e4(0x450));_0x47f1fa['className']=_0x3ec7e4(0x361),_0x47f1fa['style'][_0x3ec7e4(0x369)]='var('+_0x5bd5e2+')',_0x47f1fa[_0x3ec7e4(0x260)][_0x3ec7e4(0x374)]=_0x3ec7e4(0x292);const _0x582255=document[_0x3ec7e4(0x39e)]('h2');_0x582255['textContent']=_0x1411f2;const _0x2683f3=document[_0x3ec7e4(0x39e)](_0x3ec7e4(0x450));_0x2683f3[_0x3ec7e4(0x3a8)]=_0x3ec7e4(0x381),_0x2683f3[_0x3ec7e4(0x45c)]=_0x5a7ad6;const _0x3f40a6=document[_0x3ec7e4(0x39e)](_0x3ec7e4(0x450));_0x3f40a6[_0x3ec7e4(0x3a8)]=_0x3ec7e4(0x223);const _0x3ab868=document[_0x3ec7e4(0x39e)]('button');_0x3ab868[_0x3ec7e4(0x40c)]='<i\x20class=\x22fas\x20fa-minus\x22></i>',_0x3ab868[_0x3ec7e4(0x44a)]=()=>{const _0x23f225=_0x3ec7e4;_0x5a7ad6>0x0&&(_0x5a7ad6--,_0x2683f3[_0x23f225(0x45c)]=_0x5a7ad6);};const _0x30fc0b=document['createElement']('button');return _0x30fc0b[_0x3ec7e4(0x40c)]=_0x3ec7e4(0x2d3),_0x30fc0b[_0x3ec7e4(0x44a)]=()=>{const _0x113386=_0x3ec7e4;_0x5a7ad6++,_0x2683f3[_0x113386(0x45c)]=_0x5a7ad6;},_0x3f40a6[_0x3ec7e4(0x41d)](_0x3ab868,_0x30fc0b),_0x47f1fa['append'](_0x582255,_0x2683f3,_0x3f40a6),_0x47f1fa;},_0x5d5f5c=_0x13efbf('Against',_0x26c1d2(0x36f)),_0x527ba0=_0x13efbf(_0x26c1d2(0x3e5),'--success-color');_0x522ab7[_0x26c1d2(0x41d)](_0x527ba0,_0x5d5f5c);const _0x289422=_0x411c6e=>{const _0x158d88=_0x26c1d2,_0x3a8ff8=_0x411c6e*0.1,_0x369387=_0x411c6e*0.3,_0x1fedd8=_0x411c6e*0.2,_0x31cd1b=_0x1fedd8*0.5,_0x67996=_0x411c6e*0.05;_0x522ab7[_0x158d88(0x3fa)]('.for-against-panel')['forEach'](_0x4b559b=>_0x4b559b[_0x158d88(0x260)][_0x158d88(0x3ac)]=Math[_0x158d88(0x302)](0xa,_0x67996)+'px'),_0x522ab7[_0x158d88(0x3fa)](_0x158d88(0x400))[_0x158d88(0x31b)](_0x10f686=>_0x10f686[_0x158d88(0x260)]['fontSize']=Math['max'](0xe,_0x3a8ff8)+'px'),_0x522ab7['querySelectorAll'](_0x158d88(0x3be))['forEach'](_0x4eda7b=>_0x4eda7b[_0x158d88(0x260)]['fontSize']=Math[_0x158d88(0x302)](0x1e,_0x369387)+'px'),_0x522ab7[_0x158d88(0x3fa)](_0x158d88(0x440))[_0x158d88(0x31b)](_0x1bb83a=>_0x1bb83a['style'][_0x158d88(0x3b5)]=Math[_0x158d88(0x302)](0xa,_0x67996)+'px'),_0x522ab7[_0x158d88(0x3fa)]('.for-against-controls\x20button')[_0x158d88(0x31b)](_0x2e22c6=>{const _0x1ac41c=_0x158d88;_0x2e22c6[_0x1ac41c(0x260)][_0x1ac41c(0x23d)]=Math['max'](0x23,_0x1fedd8)+'px',_0x2e22c6[_0x1ac41c(0x260)][_0x1ac41c(0x2e8)]=Math[_0x1ac41c(0x302)](0x23,_0x1fedd8)+'px',_0x2e22c6[_0x1ac41c(0x260)][_0x1ac41c(0x275)]=Math[_0x1ac41c(0x302)](0x10,_0x31cd1b)+'px';});},_0x2fa13d=new ResizeObserver(_0x2de0a9=>{const _0x19fb61=_0x26c1d2;for(let _0x19c0dc of _0x2de0a9){const {width:_0x4692e3,height:_0x4e9042}=_0x19c0dc['contentRect'],_0x793e3b=_0x4e9042>_0x4692e3*0.95;_0x793e3b?(_0x522ab7[_0x19fb61(0x260)][_0x19fb61(0x3fd)]=_0x19fb61(0x25d),[_0x5d5f5c,_0x527ba0][_0x19fb61(0x31b)](_0x43333a=>{const _0x20fc40=_0x19fb61;_0x43333a[_0x20fc40(0x260)]['height']='50%',_0x43333a['style'][_0x20fc40(0x23d)]=_0x20fc40(0x3a6);}),_0x289422(_0x4e9042/0x2)):(_0x522ab7[_0x19fb61(0x260)][_0x19fb61(0x3fd)]='row',[_0x5d5f5c,_0x527ba0][_0x19fb61(0x31b)](_0x3055fb=>{const _0x311436=_0x19fb61;_0x3055fb[_0x311436(0x260)]['height']=_0x311436(0x3a6),_0x3055fb[_0x311436(0x260)][_0x311436(0x23d)]=_0x311436(0x2c9);}),_0x289422(_0x4692e3/0x2));}});_0x1518de[_0x26c1d2(0x243)]=_0x2fa13d,_0x2fa13d[_0x26c1d2(0x3e9)](_0x522ab7);}function _0x3b1a0e(_0x198a31){const _0x4a9984=_0x1d7bee,_0x1c9c77=_0x198a31[_0x4a9984(0x38e)](_0x4a9984(0x2de));if(!_0x1c9c77)return;_0x235794(_0x198a31),_0x198a31[_0x4a9984(0x382)][_0x4a9984(0x483)]=_0x4a9984(0x370),_0x1c9c77['innerHTML']='',_0x1c9c77[_0x4a9984(0x260)][_0x4a9984(0x3ac)]='0',_0x1c9c77['style']['display']=_0x4a9984(0x44c),_0x1c9c77[_0x4a9984(0x260)][_0x4a9984(0x3fd)]='column';let _0x320719=[],_0x1d5512=0x0;const _0x3ad812=document[_0x4a9984(0x39e)](_0x4a9984(0x450));_0x3ad812[_0x4a9984(0x3a8)]=_0x4a9984(0x35d);const _0x5ea9ca=document[_0x4a9984(0x39e)](_0x4a9984(0x474));_0x5ea9ca[_0x4a9984(0x3a8)]=_0x4a9984(0x257),_0x5ea9ca[_0x4a9984(0x251)]=_0x4a9984(0x205);const _0x44a579=document[_0x4a9984(0x39e)]('p');_0x44a579[_0x4a9984(0x3a8)]=_0x4a9984(0x2d7),_0x44a579[_0x4a9984(0x45c)]=_0x4a9984(0x259),_0x3ad812[_0x4a9984(0x41d)](_0x5ea9ca,_0x44a579);const _0x158660=document[_0x4a9984(0x39e)](_0x4a9984(0x450));_0x158660[_0x4a9984(0x3a8)]='carousel-controls';const _0x2682c6=document[_0x4a9984(0x39e)](_0x4a9984(0x2be));_0x2682c6['className']=_0x4a9984(0x3d8),_0x2682c6[_0x4a9984(0x40c)]=_0x4a9984(0x2c2),_0x2682c6[_0x4a9984(0x288)]=!![];const _0x2bef00=document[_0x4a9984(0x39e)](_0x4a9984(0x2be));_0x2bef00[_0x4a9984(0x3a8)]=_0x4a9984(0x3d8),_0x2bef00[_0x4a9984(0x40c)]=_0x4a9984(0x338);const _0x1a31d8=document[_0x4a9984(0x39e)](_0x4a9984(0x2be));_0x1a31d8[_0x4a9984(0x3a8)]=_0x4a9984(0x3d8),_0x1a31d8[_0x4a9984(0x40c)]='<i\x20class=\x22fas\x20fa-arrow-right\x22></i>',_0x1a31d8[_0x4a9984(0x288)]=!![];const _0x451212=document['createElement'](_0x4a9984(0x428));_0x451212['type']=_0x4a9984(0x307),_0x451212[_0x4a9984(0x1fd)]=!![],_0x451212[_0x4a9984(0x463)]='image/*',_0x451212[_0x4a9984(0x260)][_0x4a9984(0x3a9)]=_0x4a9984(0x387),_0x158660[_0x4a9984(0x41d)](_0x2682c6,_0x2bef00,_0x1a31d8,_0x451212),_0x1c9c77[_0x4a9984(0x41d)](_0x3ad812,_0x158660);const _0x256b00=()=>{const _0x3d52d9=_0x4a9984;_0x320719[_0x3d52d9(0x25b)]>0x0?(_0x5ea9ca[_0x3d52d9(0x3e1)]=_0x320719[_0x1d5512],_0x5ea9ca[_0x3d52d9(0x260)]['display']=_0x3d52d9(0x309),_0x44a579['style'][_0x3d52d9(0x3a9)]=_0x3d52d9(0x387),_0x2682c6[_0x3d52d9(0x288)]=![],_0x1a31d8[_0x3d52d9(0x288)]=![]):(_0x5ea9ca[_0x3d52d9(0x260)]['display']=_0x3d52d9(0x387),_0x44a579['style'][_0x3d52d9(0x3a9)]=_0x3d52d9(0x309),_0x2682c6['disabled']=!![],_0x1a31d8[_0x3d52d9(0x288)]=!![]);};_0x2bef00[_0x4a9984(0x44a)]=()=>{const _0x2472b4=_0x4a9984;_0x451212[_0x2472b4(0x372)]();},_0x451212[_0x4a9984(0x20c)]=_0x1ab304=>{const _0x4ed927=_0x4a9984,_0x256d2e=_0x1ab304[_0x4ed927(0x1e3)][_0x4ed927(0x424)];if(!_0x256d2e||_0x256d2e[_0x4ed927(0x25b)]===0x0)return;_0x320719=Array[_0x4ed927(0x1ed)](_0x256d2e)['map'](_0x53b4eb=>URL[_0x4ed927(0x3bb)](_0x53b4eb)),_0x1d5512=0x0,_0x256b00();},_0x2682c6[_0x4a9984(0x44a)]=()=>{const _0x4a7e48=_0x4a9984;if(_0x320719[_0x4a7e48(0x25b)]===0x0)return;_0x1d5512=(_0x1d5512-0x1+_0x320719[_0x4a7e48(0x25b)])%_0x320719[_0x4a7e48(0x25b)],_0x256b00();},_0x1a31d8[_0x4a9984(0x44a)]=()=>{const _0x10dfef=_0x4a9984;if(_0x320719[_0x10dfef(0x25b)]===0x0)return;_0x1d5512=(_0x1d5512+0x1)%_0x320719[_0x10dfef(0x25b)],_0x256b00();};}function _0x4c33a1(_0x3b627d){const _0x4b46b2=_0x1d7bee,_0x3049c2=_0x3b627d[_0x4b46b2(0x38e)](_0x4b46b2(0x2de));if(!_0x3049c2)return;_0x3049c2[_0x4b46b2(0x40c)]='',_0x3049c2[_0x4b46b2(0x260)][_0x4b46b2(0x3ac)]='0',_0x3049c2['style'][_0x4b46b2(0x321)]=_0x4b46b2(0x469);const _0x2b685e=document['createElement']('div');_0x2b685e[_0x4b46b2(0x3a8)]=_0x4b46b2(0x267);const _0xe86730=document[_0x4b46b2(0x39e)]('div');_0xe86730[_0x4b46b2(0x3a8)]=_0x4b46b2(0x411);const _0x26edf9=document[_0x4b46b2(0x39e)](_0x4b46b2(0x450));_0x26edf9['id']='calc-expression',_0x26edf9[_0x4b46b2(0x40c)]=_0x4b46b2(0x3e4);const _0x2e928e=document['createElement'](_0x4b46b2(0x450));_0x2e928e['id']='calc-input',_0x2e928e[_0x4b46b2(0x45c)]='0',_0xe86730[_0x4b46b2(0x41d)](_0x26edf9,_0x2e928e);const _0x1129ac=document[_0x4b46b2(0x39e)](_0x4b46b2(0x450));_0x1129ac[_0x4b46b2(0x3a8)]=_0x4b46b2(0x3e2);const _0x59a860=[{'text':_0x4b46b2(0x33d),'class':_0x4b46b2(0x2ee)},{'text':_0x4b46b2(0x221),'class':_0x4b46b2(0x2ee)},{'text':_0x4b46b2(0x398),'class':_0x4b46b2(0x2ee)},{'text':_0x4b46b2(0x36c),'class':_0x4b46b2(0x2ee)},{'text':'ln','class':_0x4b46b2(0x2ee)},{'text':'(','class':'function'},{'text':')','class':_0x4b46b2(0x2ee)},{'text':'√','class':'function'},{'text':'^','class':'function'},{'text':'!','class':_0x4b46b2(0x2ee)},{'text':'7','class':_0x4b46b2(0x2c3)},{'text':'8','class':_0x4b46b2(0x2c3)},{'text':'9','class':'number'},{'text':'÷','class':_0x4b46b2(0x486)},{'text':'AC','class':'ac'},{'text':'4','class':_0x4b46b2(0x2c3)},{'text':'5','class':_0x4b46b2(0x2c3)},{'text':'6','class':_0x4b46b2(0x2c3)},{'text':'×','class':_0x4b46b2(0x486)},{'text':'C','class':'operator'},{'text':'1','class':_0x4b46b2(0x2c3)},{'text':'2','class':_0x4b46b2(0x2c3)},{'text':'3','class':_0x4b46b2(0x2c3)},{'text':'-','class':'operator'},{'text':'=','class':_0x4b46b2(0x37b)},{'text':'0','class':_0x4b46b2(0x2c3)},{'text':'.','class':_0x4b46b2(0x2c3)},{'text':'π','class':_0x4b46b2(0x2c3)},{'text':'+','class':_0x4b46b2(0x486)}];_0x59a860[_0x4b46b2(0x31b)](_0x1f816a=>{const _0x55d320=_0x4b46b2,_0x443eb8=document[_0x55d320(0x39e)](_0x55d320(0x2be));_0x443eb8['textContent']=_0x1f816a[_0x55d320(0x3c2)],_0x443eb8[_0x55d320(0x3a8)]=_0x55d320(0x3c3)+_0x1f816a[_0x55d320(0x1f6)],_0x443eb8[_0x55d320(0x382)][_0x55d320(0x3ed)]=_0x1f816a[_0x55d320(0x3c2)];if(_0x1f816a[_0x55d320(0x3c2)]==='=')_0x443eb8['style']['gridRow']='span\x202';_0x1129ac[_0x55d320(0x2ea)](_0x443eb8);}),_0x2b685e[_0x4b46b2(0x41d)](_0xe86730,_0x1129ac),_0x3049c2[_0x4b46b2(0x2ea)](_0x2b685e);let _0xcbdfca='',_0x3e1152='';const _0x38017b=()=>{const _0x3fa03a=_0x4b46b2;_0x26edf9['innerHTML']=_0xcbdfca['replace'](/\*/g,'×')[_0x3fa03a(0x39b)](/\//g,'÷')||_0x3fa03a(0x3e4),_0x2e928e[_0x3fa03a(0x45c)]=_0x3e1152||'0';},_0x5e26d2=_0x41bb83=>_0x41bb83<=0x1?0x1:_0x41bb83*_0x5e26d2(_0x41bb83-0x1);_0x1129ac[_0x4b46b2(0x3f0)](_0x4b46b2(0x372),_0x126792=>{const _0x457a78=_0x4b46b2;if(!_0x126792[_0x457a78(0x1e3)][_0x457a78(0x432)]('.calc-btn'))return;const _0x535bf4=_0x126792['target'][_0x457a78(0x382)][_0x457a78(0x3ed)];switch(_0x535bf4){case'AC':_0xcbdfca='',_0x3e1152='';break;case'C':_0xcbdfca=_0xcbdfca[_0x457a78(0x320)](0x0,-0x1);break;case'=':try{let _0x40ca3d=_0xcbdfca[_0x457a78(0x39b)](/×/g,'*')['replace'](/÷/g,'/')[_0x457a78(0x39b)](/√/g,_0x457a78(0x46b))[_0x457a78(0x39b)](/\^/g,'**')['replace'](/log/g,_0x457a78(0x24f))[_0x457a78(0x39b)](/ln/g,_0x457a78(0x23a))[_0x457a78(0x39b)](/sin/g,'Math.sin')['replace'](/cos/g,_0x457a78(0x3d5))[_0x457a78(0x39b)](/tan/g,_0x457a78(0x2b3))[_0x457a78(0x39b)](/π/g,_0x457a78(0x31c))[_0x457a78(0x39b)](/(\d+)!/g,(_0x461e93,_0x2e135a)=>_0x5e26d2(parseInt(_0x2e135a)));_0x3e1152=new Function('return\x20'+_0x40ca3d)(),_0xcbdfca=_0x3e1152[_0x457a78(0x480)]();}catch(_0x2d93f3){_0x3e1152='Error',_0xcbdfca='';}break;default:_0x3e1152===_0x457a78(0x28d)&&(_0x3e1152='',_0xcbdfca='');_0xcbdfca+=_0x535bf4;break;}_0x38017b();});const _0x445826=_0x2b685e['querySelectorAll']('.calc-btn'),_0x2e31e9=()=>{const _0x2ae401=_0x4b46b2,_0x1cc82a=_0x3049c2[_0x2ae401(0x2b8)],_0x1db351=_0x1cc82a/0x14;_0x2e928e['style'][_0x2ae401(0x275)]=Math[_0x2ae401(0x302)](0x18,_0x1db351*1.5)+'px',_0x26edf9['style'][_0x2ae401(0x275)]=Math[_0x2ae401(0x302)](0xe,_0x1db351*0.675)+'px',_0x445826['forEach'](_0x32171f=>{const _0x1811a2=_0x2ae401;_0x32171f[_0x1811a2(0x394)][_0x1811a2(0x45f)](_0x1811a2(0x2ee))?_0x32171f[_0x1811a2(0x260)][_0x1811a2(0x275)]=Math[_0x1811a2(0x302)](0xc,_0x1db351*0.675)+'px':_0x32171f[_0x1811a2(0x260)][_0x1811a2(0x275)]=Math[_0x1811a2(0x302)](0xe,_0x1db351*0.75)+'px';});},_0x19b166=new ResizeObserver(_0x2e31e9);_0x3b627d['toolResizeObserver']=_0x19b166,_0x19b166[_0x4b46b2(0x3e9)](_0x3049c2),_0x2e31e9();}function _0x45a882(){const _0x45d398=_0x1d7bee,_0xe65054=document['createElement'](_0x45d398(0x450));_0xe65054[_0x45d398(0x3a8)]=_0x45d398(0x347);const _0x2dd7a8=document[_0x45d398(0x3fa)](_0x45d398(0x2ff))[_0x45d398(0x25b)],_0x3d8301=_0x31feef();_0xe65054[_0x45d398(0x260)][_0x45d398(0x41f)]=0x1e*_0x2dd7a8+'px',_0xe65054[_0x45d398(0x260)]['top']=0x1e*_0x2dd7a8+'px',_0xe65054[_0x45d398(0x260)]['width']=(window[_0x45d398(0x26b)]-_0x3d8301)/0x2+'px',_0xe65054['style'][_0x45d398(0x2e8)]=window[_0x45d398(0x229)]/0x2+'px',_0xe65054['annotationCurrentColor']='#FFFFFF';const _0x43a840=document['createElement'](_0x45d398(0x450));_0x43a840[_0x45d398(0x3a8)]=_0x45d398(0x35b),_0xe65054[_0x45d398(0x2ea)](_0x43a840);const _0x26b017=document[_0x45d398(0x39e)]('div');_0x26b017[_0x45d398(0x3a8)]=_0x45d398(0x219);const _0x3fd4d8=document[_0x45d398(0x39e)](_0x45d398(0x2be));_0x3fd4d8[_0x45d398(0x40c)]=_0x45d398(0x1fa),_0x3fd4d8[_0x45d398(0x3df)]='Annotate',_0x3fd4d8[_0x45d398(0x394)][_0x45d398(0x20a)](_0x45d398(0x28a));const _0x4eae96=document['createElement'](_0x45d398(0x2be));_0x4eae96[_0x45d398(0x40c)]=_0x45d398(0x1e6),_0x4eae96[_0x45d398(0x3df)]='Change\x20Color';const _0x16c622=document[_0x45d398(0x39e)](_0x45d398(0x450));_0x16c622[_0x45d398(0x3a8)]='custom-color-palette\x20hidden',_0x26b017[_0x45d398(0x2ea)](_0x16c622);const _0x2df466=[_0x45d398(0x215),_0x45d398(0x417),_0x45d398(0x38c),_0x45d398(0x3b7),'#FF3B30','#D90429',_0x45d398(0x405),_0x45d398(0x2e9),_0x45d398(0x3c1),_0x45d398(0x30c),_0x45d398(0x23e),'#5AC8FA',_0x45d398(0x23f),_0x45d398(0x31a),_0x45d398(0x3c4),'#A2845E'];_0x2df466['forEach'](_0x37ee77=>{const _0x570f3c=_0x45d398,_0x10c2d4=document[_0x570f3c(0x39e)](_0x570f3c(0x450));_0x10c2d4[_0x570f3c(0x3a8)]=_0x570f3c(0x2f2),_0x10c2d4[_0x570f3c(0x260)][_0x570f3c(0x369)]=_0x37ee77,_0x10c2d4['addEventListener'](_0x570f3c(0x372),_0x350ff5=>{const _0x2c4cda=_0x570f3c;_0x350ff5[_0x2c4cda(0x419)](),_0xe65054[_0x2c4cda(0x216)]=_0x37ee77,_0x4eae96[_0x2c4cda(0x260)]['color']=_0x37ee77,_0xe65054[_0x2c4cda(0x3cf)]&&(_0xe65054[_0x2c4cda(0x3cf)][_0x2c4cda(0x41b)]=_0x37ee77),_0x16c622[_0x2c4cda(0x394)][_0x2c4cda(0x20a)]('hidden');}),_0x16c622['appendChild'](_0x10c2d4);}),_0x4eae96[_0x45d398(0x3f0)](_0x45d398(0x372),_0xe2e5f7=>{const _0x35cc62=_0x45d398;_0xe2e5f7[_0x35cc62(0x419)](),document['querySelectorAll'](_0x35cc62(0x454))[_0x35cc62(0x31b)](_0x46e515=>{const _0x547013=_0x35cc62;if(_0x46e515!==_0x16c622)_0x46e515[_0x547013(0x394)][_0x547013(0x20a)](_0x547013(0x469));}),_0x16c622[_0x35cc62(0x394)][_0x35cc62(0x362)](_0x35cc62(0x469));});const _0x142587=document['createElement'](_0x45d398(0x2be));_0x142587['innerHTML']=_0x45d398(0x238),_0x142587['title']=_0x45d398(0x263);const _0x49fa08=document[_0x45d398(0x39e)](_0x45d398(0x2be));_0x49fa08[_0x45d398(0x40c)]=_0x45d398(0x2d6),_0x49fa08['title']=_0x45d398(0x449),_0x26b017[_0x45d398(0x41d)](_0x3fd4d8,_0x4eae96,_0x142587,_0x49fa08),_0x43a840['appendChild'](_0x26b017),_0x3fd4d8['addEventListener'](_0x45d398(0x372),()=>{const _0x552e15=_0x45d398;_0x3fd4d8[_0x552e15(0x394)]['toggle'](_0x552e15(0x3ef));const _0x5da07a=_0xe65054['querySelector'](_0x552e15(0x2de));if(!_0x5da07a)return;if(_0x3fd4d8[_0x552e15(0x394)][_0x552e15(0x45f)](_0x552e15(0x3ef))){const _0x13d15e=document['createElement'](_0x552e15(0x3ec));_0x13d15e[_0x552e15(0x3a8)]=_0x552e15(0x324),_0x5da07a[_0x552e15(0x2ea)](_0x13d15e),_0xe65054[_0x552e15(0x224)]=_0x13d15e,_0xe65054['drawingHistory']=[];const _0x2078b3=_0x13d15e[_0x552e15(0x228)]('2d');_0xe65054['annotationContext']=_0x2078b3;let _0x2e0f04=![];const _0x2a242d=new ResizeObserver(_0x64ca51=>{const _0x3ac8b1=_0x552e15;for(let _0x67398e of _0x64ca51){const _0x3e4d70=_0x2078b3['getImageData'](0x0,0x0,_0x13d15e[_0x3ac8b1(0x23d)],_0x13d15e[_0x3ac8b1(0x2e8)]);_0x13d15e[_0x3ac8b1(0x23d)]=_0x67398e[_0x3ac8b1(0x3a5)][_0x3ac8b1(0x23d)],_0x13d15e[_0x3ac8b1(0x2e8)]=_0x67398e[_0x3ac8b1(0x3a5)][_0x3ac8b1(0x2e8)],_0x2078b3[_0x3ac8b1(0x295)](_0x3e4d70,0x0,0x0),_0x2078b3[_0x3ac8b1(0x41b)]=_0xe65054['annotationCurrentColor'],_0x2078b3[_0x3ac8b1(0x301)]=0x5,_0x2078b3[_0x3ac8b1(0x42c)]='round',_0x2078b3['lineJoin']=_0x3ac8b1(0x482);}});_0x2a242d[_0x552e15(0x3e9)](_0x5da07a),_0xe65054['annotationResizeObserver']=_0x2a242d,_0x13d15e['width']=_0x5da07a[_0x552e15(0x2b8)],_0x13d15e[_0x552e15(0x2e8)]=_0x5da07a['clientHeight'],_0x2078b3['strokeStyle']=_0xe65054['annotationCurrentColor'],_0x2078b3[_0x552e15(0x301)]=0x5,_0x2078b3[_0x552e15(0x42c)]=_0x552e15(0x482),_0x2078b3[_0x552e15(0x249)]=_0x552e15(0x482),_0x4eae96['style'][_0x552e15(0x439)]=_0xe65054[_0x552e15(0x216)];const _0xad3305=_0x141803=>{const _0x51feda=_0x552e15;_0x5a983d(_0x13d15e,_0x2078b3,_0xe65054[_0x51feda(0x473)]),_0x2e0f04=!![],_0x2078b3['beginPath']();const _0x12b850=_0x13d15e[_0x51feda(0x231)]();_0x2078b3['moveTo'](_0x141803[_0x51feda(0x1eb)]-_0x12b850[_0x51feda(0x41f)],_0x141803['clientY']-_0x12b850['top']);},_0x4357b2=_0x39d8d5=>{const _0x2526f7=_0x552e15;if(!_0x2e0f04)return;const _0x742c5a=_0x13d15e['getBoundingClientRect']();_0x2078b3['lineTo'](_0x39d8d5['clientX']-_0x742c5a['left'],_0x39d8d5[_0x2526f7(0x2c0)]-_0x742c5a['top']),_0x2078b3[_0x2526f7(0x402)]();},_0x2e3591=()=>{_0x2e0f04=![];};_0x13d15e[_0x552e15(0x3f0)](_0x552e15(0x351),_0xad3305),_0x13d15e[_0x552e15(0x3f0)]('pointermove',_0x4357b2),_0x13d15e[_0x552e15(0x3f0)](_0x552e15(0x39c),_0x2e3591),_0x13d15e[_0x552e15(0x3f0)](_0x552e15(0x203),_0x2e3591);}else _0xe65054[_0x552e15(0x224)]&&(_0xe65054[_0x552e15(0x224)][_0x552e15(0x34b)](),_0xe65054[_0x552e15(0x224)]=null,_0xe65054[_0x552e15(0x3cf)]=null),_0xe65054[_0x552e15(0x430)]&&(_0xe65054[_0x552e15(0x430)]['disconnect'](),_0xe65054[_0x552e15(0x430)]=null);}),_0x142587[_0x45d398(0x3f0)](_0x45d398(0x372),()=>{const _0x41d5c5=_0x45d398;if(!_0xe65054[_0x41d5c5(0x3cf)]||!_0xe65054[_0x41d5c5(0x473)]||_0xe65054['drawingHistory']['length']===0x0)return;const _0x2c12b3=_0xe65054['drawingHistory'][_0x41d5c5(0x2f5)]();_0xe65054[_0x41d5c5(0x3cf)]['putImageData'](_0x2c12b3,0x0,0x0);}),_0x49fa08['addEventListener'](_0x45d398(0x372),()=>{const _0x5200bf=_0x45d398;if(!_0xe65054[_0x5200bf(0x3cf)])return;const _0xc064e0=_0xe65054[_0x5200bf(0x3cf)];_0x5a983d(_0xe65054[_0x5200bf(0x224)],_0xc064e0,_0xe65054[_0x5200bf(0x473)]),_0xc064e0[_0x5200bf(0x255)](0x0,0x0,_0xc064e0[_0x5200bf(0x3ec)][_0x5200bf(0x23d)],_0xc064e0[_0x5200bf(0x3ec)][_0x5200bf(0x2e8)]);});const _0x54ed49=document[_0x45d398(0x39e)](_0x45d398(0x450));_0x54ed49['className']=_0x45d398(0x2f0),_0x43a840[_0x45d398(0x2ea)](_0x54ed49),_0xe65054['addEventListener']('pointerdown',()=>_0x38eb10(_0xe65054));let _0x5bf02d,_0x9aa027;_0x43a840[_0x45d398(0x34f)]=_0x27ee86=>{const _0x3a5b0d=_0x45d398;if(_0x27ee86[_0x3a5b0d(0x1e3)][_0x3a5b0d(0x233)](_0x3a5b0d(0x232)))return;_0x27ee86[_0x3a5b0d(0x419)](),_0xe65054[_0x3a5b0d(0x394)][_0x3a5b0d(0x34b)](_0x3a5b0d(0x30e)),_0xe65054[_0x3a5b0d(0x260)][_0x3a5b0d(0x26e)]='1';const _0x3dc150=_0xe65054[_0x3a5b0d(0x38e)](_0x3a5b0d(0x391));if(_0x3dc150)_0x3dc150[_0x3a5b0d(0x3ed)]=0x64;_0x5bf02d=_0x27ee86[_0x3a5b0d(0x1eb)]-_0xe65054['offsetLeft'],_0x9aa027=_0x27ee86[_0x3a5b0d(0x2c0)]-_0xe65054[_0x3a5b0d(0x317)];function _0x45c221(_0x5c10f3){const _0x4a3b76=_0x3a5b0d;let _0xcdafaa=_0x5c10f3['clientX']-_0x5bf02d,_0x3b710d=_0x5c10f3['clientY']-_0x9aa027;_0xcdafaa=Math[_0x4a3b76(0x482)](_0xcdafaa/_0xfdaabc)*_0xfdaabc,_0x3b710d=Math[_0x4a3b76(0x482)](_0x3b710d/_0xfdaabc)*_0xfdaabc;const _0x29bf9d=_0x31feef();_0xcdafaa=Math[_0x4a3b76(0x302)](0x0,Math['min'](_0xcdafaa,window['innerWidth']-_0x29bf9d-_0xe65054[_0x4a3b76(0x2b4)])),_0x3b710d=Math[_0x4a3b76(0x302)](0x0,Math['min'](_0x3b710d,window['innerHeight']-_0xe65054[_0x4a3b76(0x322)])),_0xe65054['style'][_0x4a3b76(0x41f)]=_0xcdafaa+'px',_0xe65054[_0x4a3b76(0x260)]['top']=_0x3b710d+'px';}function _0x5eca4a(){const _0x4cac2e=_0x3a5b0d;document[_0x4cac2e(0x415)]('pointermove',_0x45c221),document[_0x4cac2e(0x415)](_0x4cac2e(0x39c),_0x5eca4a),_0x44dc3f(_0xe65054);}document['addEventListener'](_0x3a5b0d(0x360),_0x45c221),document[_0x3a5b0d(0x3f0)](_0x3a5b0d(0x39c),_0x5eca4a);};const _0x182d3d=0xa;let _0x1dedc5=![],_0x28920f='';_0xe65054['addEventListener'](_0x45d398(0x351),_0x35544b=>{const _0x452783=_0x45d398,_0x2f2b6e=_0xe65054['getBoundingClientRect'](),_0x2f17c3=_0x35544b[_0x452783(0x2c0)]>=_0x2f2b6e[_0x452783(0x315)]&&_0x35544b[_0x452783(0x2c0)]<=_0x2f2b6e[_0x452783(0x315)]+_0x182d3d,_0x3878c6=_0x35544b[_0x452783(0x2c0)]<=_0x2f2b6e[_0x452783(0x43f)]&&_0x35544b[_0x452783(0x2c0)]>=_0x2f2b6e[_0x452783(0x43f)]-_0x182d3d,_0x20b083=_0x35544b[_0x452783(0x1eb)]>=_0x2f2b6e[_0x452783(0x41f)]&&_0x35544b[_0x452783(0x1eb)]<=_0x2f2b6e[_0x452783(0x41f)]+_0x182d3d,_0x129024=_0x35544b[_0x452783(0x1eb)]<=_0x2f2b6e[_0x452783(0x352)]&&_0x35544b[_0x452783(0x1eb)]>=_0x2f2b6e[_0x452783(0x352)]-_0x182d3d;if(!_0x2f17c3&&!_0x3878c6&&!_0x20b083&&!_0x129024)return;_0x1dedc5=!![],_0x28920f='';if(_0x2f17c3)_0x28920f+='n';if(_0x3878c6)_0x28920f+='s';if(_0x20b083)_0x28920f+='w';if(_0x129024)_0x28920f+='e';_0x35544b['preventDefault']();let _0x3187f6=_0x35544b[_0x452783(0x1eb)],_0x5db921=_0x35544b[_0x452783(0x2c0)];function _0x11cb22(_0x3461ed){const _0x638802=_0x452783,_0x37c593=_0x3461ed[_0x638802(0x1eb)]-_0x3187f6,_0x720137=_0x3461ed[_0x638802(0x2c0)]-_0x5db921;let _0x328bc1=_0xe65054[_0x638802(0x2b4)],_0x2b0d45=_0xe65054[_0x638802(0x322)],_0x1c6e12=_0xe65054[_0x638802(0x3b2)],_0x43a594=_0xe65054[_0x638802(0x317)];if(_0x28920f['includes']('e'))_0x328bc1+=_0x37c593;_0x28920f['includes']('w')&&(_0x328bc1-=_0x37c593,_0x1c6e12+=_0x37c593);if(_0x28920f[_0x638802(0x22a)]('s'))_0x2b0d45+=_0x720137;_0x28920f[_0x638802(0x22a)]('n')&&(_0x2b0d45-=_0x720137,_0x43a594+=_0x720137),_0xe65054[_0x638802(0x260)]['width']=_0x328bc1+'px',_0xe65054['style'][_0x638802(0x2e8)]=_0x2b0d45+'px',_0xe65054[_0x638802(0x260)][_0x638802(0x41f)]=_0x1c6e12+'px',_0xe65054[_0x638802(0x260)][_0x638802(0x315)]=_0x43a594+'px',_0x3187f6=_0x3461ed[_0x638802(0x1eb)],_0x5db921=_0x3461ed[_0x638802(0x2c0)];}function _0x539fa2(){const _0x5bc736=_0x452783;_0x1dedc5=![],document['removeEventListener'](_0x5bc736(0x360),_0x11cb22),document[_0x5bc736(0x415)](_0x5bc736(0x39c),_0x539fa2);}document[_0x452783(0x3f0)](_0x452783(0x360),_0x11cb22),document['addEventListener'](_0x452783(0x39c),_0x539fa2);}),_0xe65054[_0x45d398(0x3f0)](_0x45d398(0x208),_0x481ce4=>{const _0x40ae5c=_0x45d398;if(_0x1dedc5)return;const _0x4b24c1=_0xe65054['getBoundingClientRect'](),_0x3b4f2e=_0x481ce4[_0x40ae5c(0x2c0)]>=_0x4b24c1[_0x40ae5c(0x315)]&&_0x481ce4[_0x40ae5c(0x2c0)]<=_0x4b24c1[_0x40ae5c(0x315)]+_0x182d3d,_0x7a2491=_0x481ce4[_0x40ae5c(0x2c0)]<=_0x4b24c1[_0x40ae5c(0x43f)]&&_0x481ce4[_0x40ae5c(0x2c0)]>=_0x4b24c1[_0x40ae5c(0x43f)]-_0x182d3d,_0x2729d9=_0x481ce4[_0x40ae5c(0x1eb)]>=_0x4b24c1[_0x40ae5c(0x41f)]&&_0x481ce4[_0x40ae5c(0x1eb)]<=_0x4b24c1[_0x40ae5c(0x41f)]+_0x182d3d,_0x5090d8=_0x481ce4[_0x40ae5c(0x1eb)]<=_0x4b24c1[_0x40ae5c(0x352)]&&_0x481ce4[_0x40ae5c(0x1eb)]>=_0x4b24c1[_0x40ae5c(0x352)]-_0x182d3d;if(_0x3b4f2e&&_0x2729d9||_0x7a2491&&_0x5090d8)_0xe65054[_0x40ae5c(0x260)][_0x40ae5c(0x3f3)]=_0x40ae5c(0x410);else{if(_0x3b4f2e&&_0x5090d8||_0x7a2491&&_0x2729d9)_0xe65054[_0x40ae5c(0x260)][_0x40ae5c(0x3f3)]=_0x40ae5c(0x27f);else{if(_0x3b4f2e||_0x7a2491)_0xe65054[_0x40ae5c(0x260)][_0x40ae5c(0x3f3)]=_0x40ae5c(0x2ae);else{if(_0x2729d9||_0x5090d8)_0xe65054[_0x40ae5c(0x260)]['cursor']=_0x40ae5c(0x390);else _0xe65054['style']['cursor']=_0x40ae5c(0x294);}}}});const _0x1e6d45=document[_0x45d398(0x39e)](_0x45d398(0x428));_0x1e6d45[_0x45d398(0x3b9)]='range',_0x1e6d45[_0x45d398(0x3a8)]=_0x45d398(0x248),_0x1e6d45[_0x45d398(0x327)]='10',_0x1e6d45['max']='100',_0x1e6d45[_0x45d398(0x3ed)]='100',_0x1e6d45[_0x45d398(0x3df)]='Window\x20Opacity',_0x1e6d45[_0x45d398(0x446)]=_0x18f941=>{const _0x184355=_0x45d398;_0xe65054[_0x184355(0x260)]['opacity']=_0x18f941[_0x184355(0x1e3)][_0x184355(0x3ed)]/0x64;},_0x54ed49['appendChild'](_0x1e6d45);const _0x551bd4=[{'type':_0x45d398(0x47e),'content':_0x45d398(0x20e),'title':_0x45d398(0x1fe)},{'type':_0x45d398(0x264),'content':_0x45d398(0x291),'title':'Snap\x20to\x20Vertical\x20Half\x20(8)'},{'type':_0x45d398(0x24b),'content':_0x45d398(0x2d9),'title':_0x45d398(0x2cf)},{'type':'full','content':_0x45d398(0x396),'title':_0x45d398(0x207)},{'type':_0x45d398(0x423),'content':_0x45d398(0x28e),'title':_0x45d398(0x407)},{'type':_0x45d398(0x3a0),'content':'×','title':'Close\x20Window\x20(Backspace)'}];_0x551bd4[_0x45d398(0x31b)](_0x103b8b=>{const _0x1c827f=_0x45d398,_0x3e5221=document[_0x1c827f(0x39e)]('button');_0x3e5221[_0x1c827f(0x3a8)]=_0x103b8b[_0x1c827f(0x3b9)]==='close'?_0x1c827f(0x2d4):_0x1c827f(0x3d2),_0x3e5221[_0x1c827f(0x40c)]=_0x103b8b['content'],_0x3e5221[_0x1c827f(0x3df)]=_0x103b8b['title'],_0x3e5221[_0x1c827f(0x44a)]=()=>{const _0x38f0a7=_0x1c827f,_0x39f53b=_0x31feef(),_0x15eae9=window[_0x38f0a7(0x26b)]-_0x39f53b,_0x31cff6=window[_0x38f0a7(0x229)],_0x46cbee=_0x15eae9/0x2,_0x2a8ff5=_0x31cff6/0x2;if(_0x103b8b[_0x38f0a7(0x3b9)]===_0x38f0a7(0x47e)){const _0x260a20=_0xe65054[_0x38f0a7(0x3b2)]+_0xe65054[_0x38f0a7(0x2b4)]/0x2,_0x3e5fa2=_0xe65054['offsetTop']+_0xe65054[_0x38f0a7(0x322)]/0x2;_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x41f)]=_0x260a20<_0x46cbee?_0x38f0a7(0x2ba):_0x46cbee+'px',_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x315)]=_0x3e5fa2<_0x2a8ff5?'0px':_0x2a8ff5+'px',_0xe65054[_0x38f0a7(0x260)]['width']=_0x46cbee+'px',_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x2e8)]=_0x2a8ff5+'px';}else{if(_0x103b8b[_0x38f0a7(0x3b9)]===_0x38f0a7(0x264)){const _0x4eafe5=_0xe65054['offsetLeft']+_0xe65054[_0x38f0a7(0x2b4)]/0x2;_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x41f)]=_0x4eafe5<_0x46cbee?_0x38f0a7(0x2ba):_0x46cbee+'px',_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x315)]=_0x38f0a7(0x2ba),_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x23d)]=_0x46cbee+'px',_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x2e8)]=_0x31cff6+'px';}else{if(_0x103b8b['type']===_0x38f0a7(0x24b)){const _0x1c44b4=_0xe65054[_0x38f0a7(0x317)]+_0xe65054[_0x38f0a7(0x322)]/0x2;_0xe65054['style'][_0x38f0a7(0x315)]=_0x1c44b4<_0x2a8ff5?_0x38f0a7(0x2ba):_0x2a8ff5+'px',_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x41f)]=_0x38f0a7(0x2ba),_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x23d)]=_0x15eae9+'px',_0xe65054[_0x38f0a7(0x260)]['height']=_0x2a8ff5+'px';}else{if(_0x103b8b[_0x38f0a7(0x3b9)]===_0x38f0a7(0x2bf))_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x41f)]='0',_0xe65054['style'][_0x38f0a7(0x315)]='0',_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x23d)]=_0x15eae9+'px',_0xe65054[_0x38f0a7(0x260)][_0x38f0a7(0x2e8)]=_0x31cff6+'px';else{if(_0x103b8b[_0x38f0a7(0x3b9)]==='send-back'){const _0x406e16=document['querySelectorAll']('.floating');if(_0x406e16[_0x38f0a7(0x25b)]<0x2)return;let _0x31f3d7=Infinity;_0x406e16['forEach'](_0x3adf0b=>{const _0x4d3fd0=_0x38f0a7,_0x2a588d=parseInt(window['getComputedStyle'](_0x3adf0b)[_0x4d3fd0(0x426)],0xa);!isNaN(_0x2a588d)&&_0x2a588d<_0x31f3d7&&(_0x31f3d7=_0x2a588d);}),_0xe65054[_0x38f0a7(0x260)]['zIndex']=_0x31f3d7-0x1,_0xe65054[_0x38f0a7(0x394)]['remove'](_0x38f0a7(0x326));}else _0x103b8b[_0x38f0a7(0x3b9)]===_0x38f0a7(0x3a0)&&(_0x235794(_0xe65054),_0xe65054[_0x38f0a7(0x34b)]());}}}}},_0x54ed49[_0x1c827f(0x2ea)](_0x3e5221);}),_0xe65054[_0x45d398(0x3f0)](_0x45d398(0x2db),_0x56f33c=>_0x56f33c[_0x45d398(0x46d)]()),_0xe65054[_0x45d398(0x3f0)](_0x45d398(0x253),_0x2e9a38);const _0x325979=document['createElement']('div');_0x325979[_0x45d398(0x3a8)]=_0x45d398(0x1f2);const _0x5a10e7=document[_0x45d398(0x39e)](_0x45d398(0x450));_0x5a10e7['className']=_0x45d398(0x312);const _0x27faab=document[_0x45d398(0x39e)](_0x45d398(0x450));_0x27faab[_0x45d398(0x3a8)]='win-sidebar',_0x325979[_0x45d398(0x41d)](_0x5a10e7,_0x27faab),_0xe65054[_0x45d398(0x2ea)](_0x325979);const _0x24faa0=[{'key':'d','icon':_0x45d398(0x38b),'func':_0x15e395,'title':_0x45d398(0x379)},{'key':'t','icon':_0x45d398(0x290),'func':_0x316450,'title':_0x45d398(0x43a)},{'key':'0','icon':_0x45d398(0x314),'func':activateNumberedList,'title':'Numbered\x20List\x20(0)'},{'key':'w','icon':_0x45d398(0x24e),'func':_0x252bb2,'title':_0x45d398(0x3dd),'premium':!![]},{'key':'v','icon':_0x45d398(0x319),'func':_0x3b1a0e,'title':'Photo\x20Carousel\x20(V)','premium':!![]},{'key':'o','icon':_0x45d398(0x471),'func':_0x58397b,'title':_0x45d398(0x368),'premium':!![]},{'key':'h','icon':_0x45d398(0x458),'func':_0x19cb19,'title':_0x45d398(0x246),'premium':!![]},{'key':'g','icon':_0x45d398(0x399),'func':_0x2062d5,'title':'Dice\x20Roller\x20(G)','premium':!![]},{'key':'a','icon':_0x45d398(0x444),'func':_0x500759,'title':'For/Against\x20Counter\x20(A)','premium':!![]},{'key':'u','icon':_0x45d398(0x485),'func':_0x4c33a1,'title':_0x45d398(0x204),'premium':!![]}];_0x24faa0[_0x45d398(0x31b)](_0x7a7881=>{const _0x201e8b=_0x45d398,_0x4e861e=document['createElement']('button');_0x4e861e['className']='icon-btn';_0x7a7881[_0x201e8b(0x3c8)]&&_0x4e861e[_0x201e8b(0x394)][_0x201e8b(0x20a)]('premium-feature');_0x4e861e[_0x201e8b(0x382)]['hotkey']=_0x7a7881[_0x201e8b(0x1fb)],_0x4e861e['innerHTML']=_0x201e8b(0x283)+_0x7a7881[_0x201e8b(0x2ec)]+_0x201e8b(0x44d),_0x4e861e['onclick']=()=>{const _0x916065=_0x201e8b;if(_0x7a7881[_0x916065(0x3c8)]&&!window['TT'][_0x916065(0x3c0)]){_0x4cb854();return;}_0x235794(_0xe65054),_0x7a7881[_0x916065(0x3d3)](_0xe65054);};const _0xbeef=document['createElement'](_0x201e8b(0x277));_0xbeef[_0x201e8b(0x3a8)]=_0x201e8b(0x3bd),_0xbeef['textContent']=_0x7a7881[_0x201e8b(0x1fb)]['toUpperCase']();const _0xf82989=document[_0x201e8b(0x39e)](_0x201e8b(0x277));_0xf82989[_0x201e8b(0x3a8)]=_0x201e8b(0x403),_0xf82989[_0x201e8b(0x45c)]=_0x7a7881[_0x201e8b(0x3df)],_0x4e861e[_0x201e8b(0x41d)](_0xbeef,_0xf82989),_0x27faab[_0x201e8b(0x2ea)](_0x4e861e);});const _0x234abe=document[_0x45d398(0x39e)](_0x45d398(0x428));_0x234abe[_0x45d398(0x3b9)]='file',_0x234abe[_0x45d398(0x260)][_0x45d398(0x3a9)]=_0x45d398(0x387),_0x234abe['accept']=_0x45d398(0x455),_0xe65054['appendChild'](_0x234abe);const _0x37cc7b=document[_0x45d398(0x39e)](_0x45d398(0x2be));_0x37cc7b[_0x45d398(0x3a8)]=_0x45d398(0x298),_0x37cc7b[_0x45d398(0x3df)]='Import\x20File\x20(I)',_0x37cc7b[_0x45d398(0x40c)]=_0x45d398(0x235),_0x37cc7b[_0x45d398(0x44a)]=()=>_0x234abe[_0x45d398(0x372)](),_0x234abe[_0x45d398(0x20c)]=()=>{const _0x302132=_0x45d398;_0x234abe[_0x302132(0x424)][_0x302132(0x25b)]>0x0&&_0xc63f4a(_0xe65054,_0x234abe[_0x302132(0x424)][0x0]);},_0x27faab[_0x45d398(0x2ea)](_0x37cc7b);const _0x59b6b7=document[_0x45d398(0x39e)](_0x45d398(0x2be));_0x59b6b7[_0x45d398(0x3a8)]=_0x45d398(0x284),_0x59b6b7[_0x45d398(0x3df)]=_0x45d398(0x340),_0x59b6b7[_0x45d398(0x40c)]=_0x45d398(0x29d),_0x59b6b7['onclick']=()=>{const _0x52daa9=_0x45d398,_0x2f2632={'left':_0xe65054[_0x52daa9(0x260)][_0x52daa9(0x41f)],'top':_0xe65054[_0x52daa9(0x260)]['top'],'width':_0xe65054[_0x52daa9(0x260)][_0x52daa9(0x23d)],'height':_0xe65054[_0x52daa9(0x260)][_0x52daa9(0x2e8)],'opacity':_0xe65054[_0x52daa9(0x260)]['opacity']},_0x5162f3=_0xe65054[_0x52daa9(0x394)][_0x52daa9(0x45f)]('active-window');_0x235794(_0xe65054),_0xe65054[_0x52daa9(0x34b)]();const _0x33c930=_0x45a882();_0x33c930[_0x52daa9(0x260)][_0x52daa9(0x41f)]=_0x2f2632[_0x52daa9(0x41f)],_0x33c930[_0x52daa9(0x260)][_0x52daa9(0x315)]=_0x2f2632['top'],_0x33c930[_0x52daa9(0x260)]['width']=_0x2f2632['width'],_0x33c930[_0x52daa9(0x260)][_0x52daa9(0x2e8)]=_0x2f2632['opacity'];if(_0x5162f3)_0x38eb10(_0x33c930);},_0x27faab[_0x45d398(0x2ea)](_0x59b6b7);const _0xf96752=document[_0x45d398(0x39e)](_0x45d398(0x450));return _0xf96752[_0x45d398(0x3a8)]=_0x45d398(0x376),_0xf96752[_0x45d398(0x44a)]=()=>{const _0x14b8f0=_0x45d398,_0x3664b8=_0xe65054[_0x14b8f0(0x38e)](_0x14b8f0(0x3f7));_0x3664b8&&_0x3664b8[_0x14b8f0(0x372)]();},_0xf96752[_0x45d398(0x40c)]=_0x45d398(0x3aa),_0x5a10e7[_0x45d398(0x2ea)](_0xf96752),document['body'][_0x45d398(0x2ea)](_0xe65054),_0xe65054;}function _0x3b3509(_0xa823f8,_0x49f245){const _0xf3f32b=_0x1d7bee,_0x15036b=_0xa823f8['getBoundingClientRect'](),_0x4b58b9=_0x49f245[_0xf3f32b(0x231)](),_0x3b0d04=Math[_0xf3f32b(0x302)](_0x15036b[_0xf3f32b(0x41f)],_0x4b58b9['left']),_0x996d2a=Math['max'](_0x15036b[_0xf3f32b(0x315)],_0x4b58b9['top']),_0x153418=Math[_0xf3f32b(0x327)](_0x15036b['right'],_0x4b58b9[_0xf3f32b(0x352)]),_0x959199=Math['min'](_0x15036b[_0xf3f32b(0x43f)],_0x4b58b9[_0xf3f32b(0x43f)]),_0x30b3cf=_0x153418-_0x3b0d04,_0xfa1fcf=_0x959199-_0x996d2a;if(_0x30b3cf<=0x0||_0xfa1fcf<=0x0)return 0x0;const _0x48e28e=_0x30b3cf*_0xfa1fcf,_0x51ed03=_0x4b58b9[_0xf3f32b(0x23d)]*_0x4b58b9['height'];return _0x48e28e/_0x51ed03;}function _0x44dc3f(_0x16c94f){const _0x3f9c7b=_0x1d7bee,_0x539acb=document['querySelectorAll'](_0x3f9c7b(0x2ff));for(const _0xae375c of _0x539acb){if(_0x16c94f===_0xae375c)continue;const _0x4b0e5e=Math[_0x3f9c7b(0x325)](_0x16c94f['offsetWidth']-_0xae375c[_0x3f9c7b(0x2b4)])<0x5,_0x3fc009=Math[_0x3f9c7b(0x325)](_0x16c94f[_0x3f9c7b(0x322)]-_0xae375c[_0x3f9c7b(0x322)])<0x5;if(_0x4b0e5e&&_0x3fc009){const _0x552490=_0x3b3509(_0x16c94f,_0xae375c);if(_0x552490>=0.55){_0x16c94f[_0x3f9c7b(0x260)]['left']=_0xae375c[_0x3f9c7b(0x260)][_0x3f9c7b(0x41f)],_0x16c94f[_0x3f9c7b(0x260)][_0x3f9c7b(0x315)]=_0xae375c['style'][_0x3f9c7b(0x315)],_0x16c94f[_0x3f9c7b(0x260)][_0x3f9c7b(0x26e)]=_0x3f9c7b(0x2c7);const _0x24d686=_0x16c94f[_0x3f9c7b(0x38e)]('.opacity-slider');if(_0x24d686)_0x24d686[_0x3f9c7b(0x3ed)]=0x1e;_0x16c94f['classList'][_0x3f9c7b(0x20a)](_0x3f9c7b(0x30e));return;}}}}function _0x1bf4a0(_0x2c5517,_0x1968d7){const _0x1c7f36=_0x1d7bee;_0x1d7e88['activeLayout']===_0x2c5517?(_0x2bb750(),_0x1d7e88[_0x1c7f36(0x20b)]=null,_0x1d7e88[_0x1c7f36(0x364)]=!![],localStorage[_0x1c7f36(0x28f)]('ttx_lastLayout')):(_0x1968d7(),_0x1d7e88[_0x1c7f36(0x20b)]=_0x2c5517,_0x1d7e88['isVisible']=!![],localStorage[_0x1c7f36(0x3eb)](_0x1c7f36(0x2ab),_0x2c5517));}function _0x110f2e(_0x3c1404,_0x379d84=!![]){const _0x5027a6=_0x1d7bee,_0x1236c3=_0x31feef(),_0x4eaf4d=window[_0x5027a6(0x26b)]-_0x1236c3,_0x2f1bfd=window[_0x5027a6(0x229)],_0x2cf0e9=_0x4eaf4d/0x2,_0x54e47b=_0x2f1bfd/0x2;let _0x25c529=[];switch(_0x3c1404){case 0x1:_0x25c529[_0x5027a6(0x42e)]({'left':'0','top':'0','width':_0x4eaf4d+'px','height':_0x2f1bfd+'px'});break;case 0x2:_0x25c529[_0x5027a6(0x42e)]({'left':_0x5027a6(0x2ba),'top':_0x5027a6(0x2ba),'width':_0x2cf0e9+'px','height':_0x2f1bfd+'px'},{'left':_0x2cf0e9+'px','top':_0x5027a6(0x2ba),'width':_0x2cf0e9+'px','height':_0x2f1bfd+'px'});break;case 0x3:_0x25c529[_0x5027a6(0x42e)]({'left':_0x5027a6(0x2ba),'top':_0x5027a6(0x2ba),'width':_0x2cf0e9+'px','height':_0x2f1bfd+'px'},{'left':_0x2cf0e9+'px','top':_0x5027a6(0x2ba),'width':_0x2cf0e9+'px','height':_0x54e47b+'px'},{'left':_0x2cf0e9+'px','top':_0x54e47b+'px','width':_0x2cf0e9+'px','height':_0x54e47b+'px'});break;case 0x4:_0x25c529[_0x5027a6(0x42e)]({'left':_0x2cf0e9+'px','top':_0x5027a6(0x2ba),'width':_0x2cf0e9+'px','height':_0x2f1bfd+'px'},{'left':_0x5027a6(0x2ba),'top':_0x5027a6(0x2ba),'width':_0x2cf0e9+'px','height':_0x54e47b+'px'},{'left':_0x5027a6(0x2ba),'top':_0x54e47b+'px','width':_0x2cf0e9+'px','height':_0x54e47b+'px'});break;case 0x5:_0x25c529[_0x5027a6(0x42e)]({'left':_0x5027a6(0x2ba),'top':'0px','width':_0x2cf0e9+'px','height':_0x54e47b+'px'},{'left':_0x2cf0e9+'px','top':_0x5027a6(0x2ba),'width':_0x2cf0e9+'px','height':_0x54e47b+'px'},{'left':_0x5027a6(0x2ba),'top':_0x54e47b+'px','width':_0x2cf0e9+'px','height':_0x54e47b+'px'},{'left':_0x2cf0e9+'px','top':_0x54e47b+'px','width':_0x2cf0e9+'px','height':_0x54e47b+'px'});break;case 0x6:const _0x49b9b4=_0x4eaf4d*0.1573605,_0x47e634=_0x4eaf4d*0.429875,_0x586795=_0x4eaf4d*0.4127645,_0x213b00=_0x47e634,_0x65a9d7=_0x47e634+_0x586795;_0x25c529[_0x5027a6(0x42e)]({'left':_0x5027a6(0x2ba),'top':_0x5027a6(0x2ba),'width':_0x47e634+'px','height':_0x2f1bfd+'px'}),_0x25c529[_0x5027a6(0x42e)]({'left':_0x213b00+'px','top':'0px','width':_0x586795+'px','height':_0x2f1bfd+'px'}),_0x25c529[_0x5027a6(0x42e)]({'left':_0x65a9d7+'px','top':_0x5027a6(0x2ba),'width':_0x49b9b4+'px','height':_0x54e47b+'px'}),_0x25c529['push']({'left':_0x65a9d7+'px','top':_0x54e47b+'px','width':_0x49b9b4+'px','height':_0x54e47b+'px'});break;case 0x7:const _0x3b75fc=_0x4eaf4d*0.1573605,_0x1dbe01=_0x4eaf4d*0.429875,_0x775c1b=_0x4eaf4d*0.4127645,_0x50a01b=_0x1dbe01,_0x495154=_0x1dbe01+_0x775c1b;_0x25c529[_0x5027a6(0x42e)]({'left':_0x5027a6(0x2ba),'top':'0px','width':_0x1dbe01+'px','height':_0x2f1bfd+'px'}),_0x25c529[_0x5027a6(0x42e)]({'left':_0x50a01b+'px','top':_0x5027a6(0x2ba),'width':_0x775c1b+'px','height':_0x54e47b+'px'}),_0x25c529[_0x5027a6(0x42e)]({'left':_0x50a01b+'px','top':_0x54e47b+'px','width':_0x775c1b+'px','height':_0x54e47b+'px'}),_0x25c529[_0x5027a6(0x42e)]({'left':_0x495154+'px','top':_0x5027a6(0x2ba),'width':_0x3b75fc+'px','height':_0x54e47b+'px'}),_0x25c529['push']({'left':_0x495154+'px','top':_0x54e47b+'px','width':_0x3b75fc+'px','height':_0x54e47b+'px'});break;case 0x8:const _0xdd6008=_0x4eaf4d*0.75,_0x15d99d=_0x4eaf4d*0.25,_0x1c9f2a=_0xdd6008;_0x25c529[_0x5027a6(0x42e)]({'left':_0x5027a6(0x2ba),'top':'0px','width':_0xdd6008+'px','height':_0x2f1bfd+'px'}),_0x25c529[_0x5027a6(0x42e)]({'left':_0x1c9f2a+'px','top':_0x5027a6(0x2ba),'width':_0x15d99d+'px','height':_0x54e47b+'px'}),_0x25c529[_0x5027a6(0x42e)]({'left':_0x1c9f2a+'px','top':_0x54e47b+'px','width':_0x15d99d+'px','height':_0x54e47b+'px'});break;}_0x44f3c0(_0x25c529),_0x379d84&&_0x232102(String(_0x3c1404));}let _0x2aa140={};const _0x1d25a9=_0xafc051=>{const _0x58c990=_0x1d7bee;if(!_0x2aa140[_0x58c990(0x43c)])return;const _0x105e80=infoTranslations[_0xafc051]||infoTranslations['en'];let _0x5a2793=_0x58c990(0x45a)+_0x105e80[_0x58c990(0x3df)]+_0x58c990(0x3da)+_0x105e80[_0x58c990(0x1f7)]+'</p>';for(let _0x308fd0=0x1;_0x308fd0<=0x4;_0x308fd0++){_0x105e80['section'+_0x308fd0+_0x58c990(0x35e)]&&(_0x5a2793+=_0x58c990(0x33a)+_0x105e80[_0x58c990(0x2c1)+_0x308fd0+_0x58c990(0x35e)]+_0x58c990(0x1f8),_0x105e80[_0x58c990(0x2c1)+_0x308fd0+_0x58c990(0x287)][_0x58c990(0x31b)](_0x19ea56=>{const _0x926f18=_0x58c990,_0x4ff6=_0x19ea56[_0x926f18(0x303)](/:(.+)/s);_0x5a2793+=_0x926f18(0x328)+_0x4ff6[0x0]+_0x926f18(0x42a)+(_0x4ff6[_0x926f18(0x25b)]>0x1?_0x4ff6[0x1][_0x926f18(0x448)]():'')+_0x926f18(0x2a7);}),_0x5a2793+=_0x58c990(0x383));}_0x5a2793+=_0x58c990(0x1f1)+_0x105e80['conclusion']+_0x58c990(0x3f2),_0x2aa140[_0x58c990(0x43c)][_0x58c990(0x40c)]=_0x5a2793;},_0xd716aa=()=>{const _0x105323=_0x1d7bee;if(!_0x2aa140['wrapper'])return;_0x2aa140[_0x105323(0x43c)][_0x105323(0x260)][_0x105323(0x275)]='';let _0x1654bc=0x8,_0x811894=parseFloat(window[_0x105323(0x35f)](_0x2aa140[_0x105323(0x43c)])[_0x105323(0x275)]),_0x568fc0=_0x1654bc;for(let _0x552722=0x0;_0x552722<0xa;_0x552722++){let _0x991d5e=(_0x1654bc+_0x811894)/0x2;_0x2aa140[_0x105323(0x43c)]['style'][_0x105323(0x275)]=_0x991d5e+'px',_0x2aa140['wrapper'][_0x105323(0x2e5)]>_0x2aa140[_0x105323(0x43c)][_0x105323(0x282)]?_0x811894=_0x991d5e:(_0x568fc0=_0x991d5e,_0x1654bc=_0x991d5e);}_0x2aa140[_0x105323(0x43c)][_0x105323(0x260)][_0x105323(0x275)]=_0x568fc0+'px';};window['TT'][_0x1d7bee(0x47b)]=_0x3664be=>{const _0x17bdf6=_0x1d7bee,_0x271036=document[_0x17bdf6(0x38e)](_0x17bdf6(0x466));_0x271036&&(_0x1d25a9(_0x3664be),_0xd716aa());};function _0x1f5a0f(_0xe1be7c=!![]){const _0x157174=_0x1d7bee;_0x2bb750();const _0x24284c=_0x45a882(),_0x4f4750=_0x31feef();_0x24284c[_0x157174(0x260)][_0x157174(0x41f)]='0px',_0x24284c[_0x157174(0x260)][_0x157174(0x315)]=_0x157174(0x2ba),_0x24284c['style'][_0x157174(0x23d)]=window['innerWidth']-_0x4f4750+'px',_0x24284c[_0x157174(0x260)]['height']=window['innerHeight']+'px',_0x24284c[_0x157174(0x260)][_0x157174(0x3d7)]=_0x157174(0x387),_0x24284c[_0x157174(0x260)][_0x157174(0x1e7)]='0';const _0x223bfb=_0x24284c['querySelector']('.drag-bar');if(_0x223bfb)_0x223bfb[_0x157174(0x260)][_0x157174(0x3a9)]='none';const _0x1e59c1=document['createElement']('button');_0x1e59c1[_0x157174(0x3a8)]=_0x157174(0x44b),_0x1e59c1[_0x157174(0x40c)]=_0x157174(0x388),_0x1e59c1[_0x157174(0x3df)]=_0x157174(0x329),_0x1e59c1[_0x157174(0x44a)]=_0x4c7cbd=>{const _0x5012fa=_0x157174;_0x4c7cbd[_0x5012fa(0x419)](),_0x3fbd71();},_0x24284c[_0x157174(0x2ea)](_0x1e59c1);const _0x5ec6a5=_0x24284c['querySelector'](_0x157174(0x2ad));if(_0x5ec6a5)_0x5ec6a5[_0x157174(0x260)]['display']=_0x157174(0x387);const _0x587394=_0x24284c[_0x157174(0x38e)]('.win-main-area');_0x587394&&(_0x587394[_0x157174(0x40c)]='',_0x587394[_0x157174(0x260)][_0x157174(0x3ac)]='0',_0x587394[_0x157174(0x260)][_0x157174(0x321)]=_0x157174(0x469));const _0x4f0d27=document[_0x157174(0x39e)](_0x157174(0x450));_0x4f0d27[_0x157174(0x3a8)]=_0x157174(0x265),_0x4f0d27['style'][_0x157174(0x2e8)]='100%',_0x4f0d27['style'][_0x157174(0x308)]=_0x157174(0x393);const _0x436846=document[_0x157174(0x39e)](_0x157174(0x450));_0x436846[_0x157174(0x3a8)]=_0x157174(0x3a2),_0x2aa140[_0x157174(0x43c)]=_0x436846;const _0x1a625d=localStorage['getItem'](_0x157174(0x42d))||'en';_0x1d25a9(_0x1a625d),_0x4f0d27[_0x157174(0x41d)](_0x436846);if(_0x587394)_0x587394[_0x157174(0x2ea)](_0x4f0d27);setTimeout(()=>{const _0x2be9ed=_0x157174;_0x436846[_0x2be9ed(0x394)][_0x2be9ed(0x20a)](_0x2be9ed(0x240));},0xa);if(_0x587394){const _0x46e7ec=new ResizeObserver(()=>{requestAnimationFrame(_0xd716aa);});_0x46e7ec[_0x157174(0x3e9)](_0x587394),_0x24284c[_0x157174(0x243)]=_0x46e7ec;}setTimeout(_0xd716aa,0x32),_0x24284c['onclick']=_0x2424fa=>{const _0x4d9b64=_0x157174;(_0x2424fa[_0x4d9b64(0x1e3)]===_0x24284c||_0x2424fa[_0x4d9b64(0x1e3)]===_0x4f0d27||_0x2424fa[_0x4d9b64(0x1e3)]===_0x587394)&&_0x3fbd71();},_0xe1be7c&&_0x232102('i');}_0x2b7de3(_0x1d7bee(0x3c9))[_0x1d7bee(0x44a)]=()=>{const _0x54f6c6=_0x1d7bee,_0x19962f=_0x45a882();_0x38eb10(_0x19962f),_0x232102('+'),_0x1d7e88[_0x54f6c6(0x20b)]=null,localStorage[_0x54f6c6(0x28f)](_0x54f6c6(0x2ab));},document[_0x1d7bee(0x3fa)](_0x1d7bee(0x3a4))[_0x1d7bee(0x31b)](_0x49180e=>{_0x49180e['onclick']=()=>{const _0xb2673c=_0x6d96,_0x5cf200=parseInt(_0x49180e['id'][_0xb2673c(0x2a1)](/\d+/)[0x0]);_0x1bf4a0(_0x5cf200,()=>_0x110f2e(_0x5cf200));};}),_0x2b7de3(_0x1d7bee(0x1ef))[_0x1d7bee(0x44a)]=()=>{const _0x48fd08=_0x1d7bee;if(_0x3fbd71())return;_0x2b7de3('colorPicker')[_0x48fd08(0x372)](),_0x1d7e88[_0x48fd08(0x20b)]=null,localStorage['removeItem'](_0x48fd08(0x2ab));};const _0x5784d0=_0x2b7de3(_0x1d7bee(0x3e0)),_0x38e589=_0x2b7de3(_0x1d7bee(0x27e));_0x38e589&&(_0x38e589[_0x1d7bee(0x44a)]=_0x1259b9=>{const _0x810d9f=_0x1d7bee;_0x1259b9['stopPropagation']();if(_0x3fbd71())return;_0x5784d0[_0x810d9f(0x394)][_0x810d9f(0x362)]('hidden');});_0x5784d0&&_0x5784d0[_0x1d7bee(0x3f0)](_0x1d7bee(0x372),_0x3312be=>{const _0x5add09=_0x1d7bee;if(_0x3312be[_0x5add09(0x1e3)]['classList'][_0x5add09(0x45f)](_0x5add09(0x241))){const _0x3580e8=_0x3312be[_0x5add09(0x1e3)]['dataset']['color'];_0x3580e8&&(_0x4b00c2(_0x3580e8),localStorage[_0x5add09(0x3eb)](_0x5add09(0x1f0),_0x3580e8),_0x5784d0['classList']['add'](_0x5add09(0x469)));}});_0x2b7de3(_0x1d7bee(0x447))[_0x1d7bee(0x446)]=_0x4edd59=>{const _0x3b7f97=_0x1d7bee;if(_0x3fbd71())return;const _0x434437=_0x4edd59['target'][_0x3b7f97(0x3ed)];_0x4b00c2(_0x434437),localStorage[_0x3b7f97(0x3eb)](_0x3b7f97(0x1f0),_0x434437),_0x1d7e88[_0x3b7f97(0x20b)]=null;};function _0x4b00c2(_0x4d98f5){const _0x3cf495=_0x1d7bee;document[_0x3cf495(0x20d)][_0x3cf495(0x260)]['setProperty'](_0x3cf495(0x355),_0x4d98f5),document[_0x3cf495(0x1e5)][_0x3cf495(0x394)][_0x3cf495(0x362)](_0x3cf495(0x21c),_0x4d98f5['toLowerCase']()!==_0x4e76a6[_0x3cf495(0x300)]());const _0x4bd133=parseInt(_0x4d98f5[_0x3cf495(0x320)](0x1,0x3),0x10),_0x11705c=parseInt(_0x4d98f5[_0x3cf495(0x320)](0x3,0x5),0x10),_0x3fb939=parseInt(_0x4d98f5[_0x3cf495(0x320)](0x5,0x7),0x10);document[_0x3cf495(0x20d)][_0x3cf495(0x260)][_0x3cf495(0x2e3)](_0x3cf495(0x210),_0x4bd133+',\x20'+_0x11705c+',\x20'+_0x3fb939);}const _0x4bbf49=_0x2b7de3(_0x1d7bee(0x404));_0x4bbf49&&(_0x4bbf49[_0x1d7bee(0x44a)]=()=>{const _0xcc2896=_0x1d7bee;if(_0x3fbd71())return;_0x4b00c2(_0x4e76a6),localStorage[_0xcc2896(0x3eb)](_0xcc2896(0x1f0),_0x4e76a6),_0x232102('↺'),_0x1d7e88['activeLayout']=null;});let _0x312412=0x0;_0x2b7de3(_0x1d7bee(0x21a))[_0x1d7bee(0x44a)]=async()=>{const _0x258f3c=_0x1d7bee;if(_0x3fbd71())return;const _0x3fd427=Date[_0x258f3c(0x456)]();if(_0x3fd427-_0x312412<0x12c){_0x4b00c2(_0x4e76a6),localStorage[_0x258f3c(0x3eb)](_0x258f3c(0x1f0),_0x4e76a6),_0x232102('↺'),_0x312412=0x0,_0x1d7e88[_0x258f3c(0x20b)]=null;return;}_0x312412=_0x3fd427;const _0x169e99=new Map(),_0x5dd5e7=document[_0x258f3c(0x39e)](_0x258f3c(0x3ec)),_0x4f16e8=_0x5dd5e7['getContext']('2d',{'willReadFrequently':!![]}),_0x2e59f7=document[_0x258f3c(0x3fa)]('.floating:not(.hidden)\x20img,\x20.floating:not(.hidden)\x20canvas');if(_0x2e59f7[_0x258f3c(0x25b)]===0x0){_0x232102('?');return;}_0x232102(_0x258f3c(0x1f3));for(const _0x110400 of _0x2e59f7){try{if(_0x110400[_0x258f3c(0x2f4)]===_0x258f3c(0x2c6)){if(!_0x110400['complete'])await new Promise(_0x590a48=>{_0x110400['onload']=_0x590a48;});_0x5dd5e7[_0x258f3c(0x23d)]=_0x110400[_0x258f3c(0x270)],_0x5dd5e7[_0x258f3c(0x2e8)]=_0x110400[_0x258f3c(0x3f6)];}else _0x5dd5e7[_0x258f3c(0x23d)]=_0x110400[_0x258f3c(0x23d)],_0x5dd5e7[_0x258f3c(0x2e8)]=_0x110400['height'];const _0x25c41a=document['body'][_0x258f3c(0x394)][_0x258f3c(0x45f)](_0x258f3c(0x237)),_0x41ab4a=_0x25c41a?_0x258f3c(0x215):'#333';_0x4f16e8[_0x258f3c(0x3d0)]=_0x41ab4a,_0x4f16e8[_0x258f3c(0x242)](0x0,0x0,_0x5dd5e7['width'],_0x5dd5e7[_0x258f3c(0x2e8)]),_0x4f16e8[_0x258f3c(0x3e8)](_0x110400,0x0,0x0);const _0x314750=_0x4f16e8['getImageData'](0x0,0x0,_0x5dd5e7[_0x258f3c(0x23d)],_0x5dd5e7[_0x258f3c(0x2e8)])[_0x258f3c(0x460)];for(let _0x7db362=0x0;_0x7db362<_0x314750[_0x258f3c(0x25b)];_0x7db362+=0x14){const [_0x45210c,_0xd0c6da,_0x274444,_0x389171]=[_0x314750[_0x7db362],_0x314750[_0x7db362+0x1],_0x314750[_0x7db362+0x2],_0x314750[_0x7db362+0x3]];if(_0x389171<0x80||Math[_0x258f3c(0x325)](_0x45210c-_0xd0c6da)<0x14&&Math[_0x258f3c(0x325)](_0xd0c6da-_0x274444)<0x14||_0x45210c<0x14&&_0xd0c6da<0x14&&_0x274444<0x14||_0x45210c>0xeb&&_0xd0c6da>0xeb&&_0x274444>0xeb)continue;const _0x29adb1=_0x45210c>>0x4,_0x3463cd=_0xd0c6da>>0x4,_0x45cb87=_0x274444>>0x4,_0x5172f1=_0x29adb1+','+_0x3463cd+','+_0x45cb87;_0x169e99[_0x258f3c(0x2fa)](_0x5172f1,(_0x169e99[_0x258f3c(0x406)](_0x5172f1)||0x0)+0x1);}}catch(_0x2be772){console['error'](_0x258f3c(0x2f3),_0x2be772);}}if(_0x169e99[_0x258f3c(0x366)]===0x0){_0x232102('?');return;}const _0x58ac7b=[..._0x169e99[_0x258f3c(0x47c)]()]['reduce']((_0x374087,_0x2e9fac)=>_0x2e9fac[0x1]>_0x374087[0x1]?_0x2e9fac:_0x374087)[0x0],[_0x35bac4,_0x23853d,_0x330bd7]=_0x58ac7b['split'](',')['map'](_0x4d23a4=>parseInt(_0x4d23a4)<<0x4|parseInt(_0x4d23a4)),_0x332a1f=_0x3a3cfa=>_0x3a3cfa[_0x258f3c(0x480)](0x10)[_0x258f3c(0x22c)](0x2,'0'),_0x102097='#'+_0x332a1f(_0x35bac4)+_0x332a1f(_0x23853d)+_0x332a1f(_0x330bd7);_0x4b00c2(_0x102097),localStorage['setItem'](_0x258f3c(0x1f0),_0x102097),_0x232102('🎨'),_0x1d7e88[_0x258f3c(0x20b)]=null;},_0x2b7de3(_0x1d7bee(0x434))['onclick']=()=>{const _0x535a17=_0x1d7bee;if(_0x3fbd71())return;const _0x201595=_0x2b7de3('bellSound');_0x201595['currentTime']=0x0,_0x201595[_0x535a17(0x397)]();},_0x2b7de3('shhButton')['onclick']=()=>{const _0x13addc=_0x1d7bee;if(_0x3fbd71())return;const _0x2dd939=_0x2b7de3(_0x13addc(0x273));_0x2dd939[_0x13addc(0x365)]=0x0,_0x2dd939[_0x13addc(0x397)]()[_0x13addc(0x334)](()=>{});},(function(){const _0x150d41=_0x1d7bee;let _0x51c5d4=![],_0x5866f6=null;const _0x2f3c09=_0x1ec119=>{const _0x16b361=_0x6d96;if(!_0x5866f6)return;const _0x2caff=_0x1ec119['clientX']-0xa,_0x1b1b4f=_0x1ec119[_0x16b361(0x2c0)]-0xa;_0x5866f6[_0x16b361(0x260)][_0x16b361(0x3ab)]=_0x16b361(0x3ae)+_0x2caff+_0x16b361(0x2fe)+_0x1b1b4f+'px)';},_0x4f7d5d=()=>{const _0x1cc574=_0x6d96;if(_0x51c5d4)return;_0x5866f6=document[_0x1cc574(0x39e)](_0x1cc574(0x450)),_0x5866f6['id']=_0x1cc574(0x22f),document['body'][_0x1cc574(0x2ea)](_0x5866f6),document[_0x1cc574(0x3f0)](_0x1cc574(0x360),_0x2f3c09),_0x2b7de3(_0x1cc574(0x234))[_0x1cc574(0x394)][_0x1cc574(0x20a)](_0x1cc574(0x3ef)),_0x51c5d4=!![];},_0x4d9648=()=>{const _0x465434=_0x6d96;if(!_0x51c5d4)return;document['removeEventListener'](_0x465434(0x360),_0x2f3c09),_0x5866f6&&(_0x5866f6['remove'](),_0x5866f6=null),_0x2b7de3('laserButton')[_0x465434(0x394)][_0x465434(0x34b)]('active'),_0x51c5d4=![];},_0x5502fa=()=>{if(_0x3fbd71())return;_0x51c5d4?_0x4d9648():_0x4f7d5d();},_0x29dbab=_0x2b7de3(_0x150d41(0x234));_0x29dbab&&(_0x29dbab[_0x150d41(0x44a)]=_0x5502fa),global['TT']['turnOffLaser']=_0x4d9648;}()),_0x2b7de3(_0x1d7bee(0x345))[_0x1d7bee(0x44a)]=()=>{_0x1bf4a0('info',()=>_0x1f5a0f(!![]));};function _0x37d9c8(){const _0x4722a4=_0x1d7bee,_0x1b24f2=localStorage[_0x4722a4(0x2ac)](_0x4722a4(0x42d))||'en',_0x3ce09b=window[_0x4722a4(0x27b)][_0x1b24f2]||window['I18N']['en'],_0x59bc22=window['t'],_0x45b18f='https://www.teachertoybox.com',_0x2dae07=_0x4722a4(0x2fb),_0x147673=_0x4722a4(0x1f9),_0x30509d=document[_0x4722a4(0x39e)](_0x4722a4(0x450));_0x30509d[_0x4722a4(0x3a8)]=_0x4722a4(0x239);const _0x3af900=document['createElement']('div');_0x3af900['className']=_0x4722a4(0x2cc),_0x3af900[_0x4722a4(0x40c)]=_0x4722a4(0x247)+(_0x59bc22(_0x3ce09b,'panel.share.title')||'Share\x20with\x20a\x20Friend')+'</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22share-intro-text\x22>Like\x20this\x20free\x20tool?\x20Help\x20other\x20teachers\x20discover\x20it!</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22share-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(_0x45b18f)+_0x4722a4(0x3e3)+encodeURIComponent(_0x45b18f)+_0x4722a4(0x2cb)+encodeURIComponent(_0x2dae07)+'\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20twitter\x22><i\x20class=\x22fab\x20fa-twitter\x22></i>\x20Twitter</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://www.linkedin.com/shareArticle?mini=true&url='+encodeURIComponent(_0x45b18f)+'&title='+encodeURIComponent(_0x147673)+_0x4722a4(0x25c)+encodeURIComponent(_0x2dae07)+'\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20linkedin\x22><i\x20class=\x22fab\x20fa-linkedin-in\x22></i>\x20LinkedIn</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://api.whatsapp.com/send?text='+encodeURIComponent(_0x2dae07+'\x20'+_0x45b18f)+'\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20whatsapp\x22><i\x20class=\x22fab\x20fa-whatsapp\x22></i>\x20WhatsApp</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://www.reddit.com/submit?url='+encodeURIComponent(_0x45b18f)+_0x4722a4(0x433)+encodeURIComponent(_0x147673)+'\x22\x20target=\x22_blank\x22\x20class=\x22share-grid-btn\x20reddit\x22><i\x20class=\x22fab\x20fa-reddit-alien\x22></i>\x20Reddit</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22mailto:?subject='+encodeURIComponent(_0x147673)+_0x4722a4(0x22b)+encodeURIComponent(_0x2dae07)+_0x4722a4(0x392)+encodeURIComponent(_0x45b18f)+_0x4722a4(0x269)+_0x45b18f+_0x4722a4(0x2e2),document['body'][_0x4722a4(0x41d)](_0x30509d,_0x3af900),setTimeout(()=>{const _0x363911=_0x4722a4;_0x30509d[_0x363911(0x260)][_0x363911(0x26e)]='1',_0x3af900[_0x363911(0x260)]['opacity']='1',_0x3af900['style'][_0x363911(0x3ab)]=_0x363911(0x27d);},0xa);const _0x505355=()=>{const _0x2e6b05=_0x4722a4;_0x30509d['style'][_0x2e6b05(0x26e)]='0',_0x3af900[_0x2e6b05(0x260)][_0x2e6b05(0x26e)]='0',_0x3af900[_0x2e6b05(0x260)][_0x2e6b05(0x3ab)]=_0x2e6b05(0x305),setTimeout(()=>{const _0x2a3240=_0x2e6b05;_0x30509d['remove'](),_0x3af900[_0x2a3240(0x34b)]();},0x12c);};_0x30509d['onclick']=_0x505355,_0x3af900[_0x4722a4(0x38e)]('.close-modal-btn')[_0x4722a4(0x44a)]=_0x505355;const _0x33ba76=_0x3af900['querySelector'](_0x4722a4(0x33e)),_0x11e561=_0x3af900['querySelector'](_0x4722a4(0x3a3));_0x33ba76[_0x4722a4(0x44a)]=()=>{const _0x29abff=_0x4722a4,_0x2d837f=()=>{const _0x41f3c6=_0x6d96;_0x33ba76[_0x41f3c6(0x45c)]=_0x41f3c6(0x2b2),_0x33ba76[_0x41f3c6(0x260)]['backgroundColor']='var(--success-color)',setTimeout(()=>{const _0x125548=_0x41f3c6;_0x33ba76['textContent']='Copy\x20Link',_0x33ba76[_0x125548(0x260)]['backgroundColor']='';},0x7d0);};navigator['clipboard']?navigator[_0x29abff(0x3cd)][_0x29abff(0x3ad)](_0x45b18f)[_0x29abff(0x272)](_0x2d837f):(_0x11e561[_0x29abff(0x3d4)](),document[_0x29abff(0x348)](_0x29abff(0x3ca)),_0x2d837f());};}_0x2b7de3(_0x1d7bee(0x30b))['onclick']=()=>{if(_0x3fbd71())return;_0x37d9c8();},_0x2b7de3(_0x1d7bee(0x465))['onclick']=()=>{const _0x34f2d4=_0x1d7bee;global['TT'][_0x34f2d4(0x2bc)]&&global['TT'][_0x34f2d4(0x2bc)](),_0x2bb750(),_0x232102(_0x34f2d4(0x250)),_0x1d7e88[_0x34f2d4(0x20b)]=null,localStorage[_0x34f2d4(0x28f)](_0x34f2d4(0x2ab));},_0x2b7de3('extraToolsButton')[_0x1d7bee(0x44a)]=_0x2f8add=>{const _0x398ccc=_0x1d7bee;_0x2f8add[_0x398ccc(0x419)]();if(_0x3fbd71())return;_0x2b7de3(_0x398ccc(0x2cd))[_0x398ccc(0x394)][_0x398ccc(0x34b)](_0x398ccc(0x34e)),_0x2b7de3(_0x398ccc(0x3f5))[_0x398ccc(0x394)][_0x398ccc(0x34b)](_0x398ccc(0x34e)),_0x2b7de3(_0x398ccc(0x3f9))[_0x398ccc(0x394)]['remove']('open');if(_0x2ecbcd)_0x2ecbcd[_0x398ccc(0x394)][_0x398ccc(0x34b)]('open');if(_0x2b7de3(_0x398ccc(0x21f)))_0x2b7de3(_0x398ccc(0x21f))[_0x398ccc(0x394)][_0x398ccc(0x34b)](_0x398ccc(0x34e));_0x2b7de3(_0x398ccc(0x401))[_0x398ccc(0x394)][_0x398ccc(0x362)]('open');},_0x2b7de3('screenButton')[_0x1d7bee(0x44a)]=_0x142b48=>{const _0x51dc45=_0x1d7bee;_0x142b48[_0x51dc45(0x419)]();if(_0x3fbd71())return;_0x2b7de3('extra-tools-bar')['classList']['remove'](_0x51dc45(0x34e)),_0x2b7de3('management-bar')[_0x51dc45(0x394)][_0x51dc45(0x34b)](_0x51dc45(0x34e)),_0x2b7de3(_0x51dc45(0x3f9))[_0x51dc45(0x394)][_0x51dc45(0x34b)]('open');if(_0x2ecbcd)_0x2ecbcd[_0x51dc45(0x394)][_0x51dc45(0x34b)](_0x51dc45(0x34e));if(_0x2b7de3(_0x51dc45(0x21f)))_0x2b7de3(_0x51dc45(0x21f))[_0x51dc45(0x394)][_0x51dc45(0x34b)](_0x51dc45(0x34e));_0x2b7de3(_0x51dc45(0x2cd))['classList'][_0x51dc45(0x362)](_0x51dc45(0x34e));},_0x2b7de3(_0x1d7bee(0x2a9))[_0x1d7bee(0x44a)]=_0x444ef1=>{const _0x1041bd=_0x1d7bee;_0x444ef1['stopPropagation']();if(_0x3fbd71())return;_0x2b7de3('extra-tools-bar')[_0x1041bd(0x394)]['remove'](_0x1041bd(0x34e)),_0x2b7de3('layout-bar')[_0x1041bd(0x394)][_0x1041bd(0x34b)](_0x1041bd(0x34e)),_0x2b7de3(_0x1041bd(0x3f9))[_0x1041bd(0x394)][_0x1041bd(0x34b)](_0x1041bd(0x34e));if(_0x2ecbcd)_0x2ecbcd[_0x1041bd(0x394)]['remove'](_0x1041bd(0x34e));if(_0x2b7de3('communication-bar'))_0x2b7de3('communication-bar')[_0x1041bd(0x394)][_0x1041bd(0x34b)](_0x1041bd(0x34e));_0x2b7de3('management-bar')[_0x1041bd(0x394)]['toggle'](_0x1041bd(0x34e));},_0x2b7de3('helpButton')[_0x1d7bee(0x44a)]=_0x512ce3=>{const _0x17fcc5=_0x1d7bee;_0x512ce3[_0x17fcc5(0x419)]();if(_0x3fbd71())return;_0x2b7de3(_0x17fcc5(0x401))[_0x17fcc5(0x394)][_0x17fcc5(0x34b)]('open'),_0x2b7de3('layout-bar')[_0x17fcc5(0x394)][_0x17fcc5(0x34b)]('open'),_0x2b7de3('management-bar')[_0x17fcc5(0x394)][_0x17fcc5(0x34b)](_0x17fcc5(0x34e));if(_0x2ecbcd)_0x2ecbcd[_0x17fcc5(0x394)][_0x17fcc5(0x34b)](_0x17fcc5(0x34e));if(_0x2b7de3(_0x17fcc5(0x21f)))_0x2b7de3(_0x17fcc5(0x21f))[_0x17fcc5(0x394)][_0x17fcc5(0x34b)](_0x17fcc5(0x34e));_0x2b7de3('help-bar')[_0x17fcc5(0x394)][_0x17fcc5(0x362)](_0x17fcc5(0x34e));},_0x2b7de3(_0x1d7bee(0x3de))[_0x1d7bee(0x44a)]=_0x1d1ca1=>{const _0x1d93de=_0x1d7bee;_0x1d1ca1['stopPropagation']();if(_0x3fbd71())return;_0x2b7de3(_0x1d93de(0x401))[_0x1d93de(0x394)][_0x1d93de(0x34b)](_0x1d93de(0x34e)),_0x2b7de3(_0x1d93de(0x2cd))[_0x1d93de(0x394)][_0x1d93de(0x34b)](_0x1d93de(0x34e)),_0x2b7de3(_0x1d93de(0x3f5))[_0x1d93de(0x394)][_0x1d93de(0x34b)](_0x1d93de(0x34e)),_0x2b7de3(_0x1d93de(0x3f9))[_0x1d93de(0x394)]['remove']('open');if(_0x2ecbcd)_0x2ecbcd[_0x1d93de(0x394)][_0x1d93de(0x34b)]('open');_0x2b7de3(_0x1d93de(0x21f))[_0x1d93de(0x394)][_0x1d93de(0x362)](_0x1d93de(0x34e));};let _0x648705,_0xc1f523,_0x272255,_0x16aa91,_0x528fe7;const _0x3c89cb=(_0x1d0b3d,_0x303780,_0xdde09b)=>{const _0x13dc5d=_0x1d7bee,_0x38d493=_0x2b7de3(_0x1d0b3d),_0x5588f6=_0x2b7de3(_0x303780);if(!_0x38d493||!_0x5588f6)return;const _0x2354c7=()=>{const _0x3de68e=_0x6d96;clearTimeout(_0xdde09b),_0xdde09b=setTimeout(()=>_0x5588f6[_0x3de68e(0x394)][_0x3de68e(0x34b)]('open'),0x7d0);},_0x305af4=()=>clearTimeout(_0xdde09b);_0x38d493[_0x13dc5d(0x3f0)](_0x13dc5d(0x349),_0x2354c7),_0x5588f6[_0x13dc5d(0x3f0)]('mouseleave',_0x2354c7),_0x38d493[_0x13dc5d(0x3f0)](_0x13dc5d(0x21d),_0x305af4),_0x5588f6[_0x13dc5d(0x3f0)](_0x13dc5d(0x21d),_0x305af4);};_0x3c89cb('screenButton',_0x1d7bee(0x2cd),_0x648705),_0x3c89cb(_0x1d7bee(0x38d),_0x1d7bee(0x401),_0xc1f523),_0x3c89cb(_0x1d7bee(0x2a9),_0x1d7bee(0x3f5),_0x272255),_0x3c89cb('helpButton',_0x1d7bee(0x3f9),_0x16aa91),_0x3c89cb(_0x1d7bee(0x3de),_0x1d7bee(0x21f),_0x528fe7);const _0x1ede08=_0x2b7de3('feedbackButton'),_0x3a76b7=_0x2b7de3('feedback-panel'),_0xe40442=_0x2b7de3('feedback-backdrop'),_0x26dff8=_0x2b7de3(_0x1d7bee(0x3cc)),_0x42629e=document[_0x1d7bee(0x3fa)](_0x1d7bee(0x353)),_0x34404f=_0x2b7de3('submit-feedback-btn');let _0x19f020=0x0;function _0x367ae1(){const _0xc381c7=_0x1d7bee;_0xe40442&&_0x3a76b7&&(_0xe40442[_0xc381c7(0x394)][_0xc381c7(0x34b)](_0xc381c7(0x469)),_0x3a76b7[_0xc381c7(0x394)][_0xc381c7(0x20a)]('open'));}function _0x3abc2d(){const _0x5ba856=_0x1d7bee;if(_0x3a76b7&&_0xe40442){const _0x1f4e11=localStorage[_0x5ba856(0x2ac)](_0x5ba856(0x42d))||'en';_0x3a76b7[_0x5ba856(0x394)][_0x5ba856(0x34b)](_0x5ba856(0x34e)),_0xe40442[_0x5ba856(0x394)][_0x5ba856(0x20a)]('hidden'),setTimeout(()=>{const _0x77e4ec=_0x5ba856;_0x2b7de3('feedback-comment')[_0x77e4ec(0x3ed)]='',_0x19f020=0x0,_0x130998(),_0x34404f[_0x77e4ec(0x288)]=![],_0x34404f[_0x77e4ec(0x260)][_0x77e4ec(0x369)]='',_0x34404f[_0x77e4ec(0x45c)]=window['t'](window['I18N'][_0x1f4e11],_0x77e4ec(0x3d1))||_0x77e4ec(0x2c8);},0x190);}}function _0x130998(){_0x42629e['forEach'](_0x126b7f=>{const _0x529550=_0x6d96;parseInt(_0x126b7f['dataset'][_0x529550(0x3ed)])<=_0x19f020?(_0x126b7f['classList']['replace']('fa-regular',_0x529550(0x2d0)),_0x126b7f['style']['color']=_0x529550(0x429)):(_0x126b7f['classList'][_0x529550(0x39b)](_0x529550(0x2d0),'fa-regular'),_0x126b7f['style'][_0x529550(0x439)]='');});}if(_0x1ede08)_0x1ede08['onclick']=_0x367ae1;if(_0x26dff8)_0x26dff8[_0x1d7bee(0x44a)]=_0x3abc2d;if(_0xe40442)_0xe40442[_0x1d7bee(0x44a)]=_0x3abc2d;_0x42629e[_0x1d7bee(0x31b)](_0x57b9fa=>{const _0x3a29ff=_0x1d7bee;_0x57b9fa[_0x3a29ff(0x3f0)](_0x3a29ff(0x372),()=>{const _0x553e1c=_0x3a29ff;_0x19f020=parseInt(_0x57b9fa[_0x553e1c(0x382)]['value']),_0x130998();});});_0x34404f&&(_0x34404f[_0x1d7bee(0x44a)]=async()=>{const _0x111757=_0x1d7bee,_0x10530e=_0x2b7de3(_0x111757(0x414))[_0x111757(0x3ed)];if(_0x19f020===0x0&&!_0x10530e[_0x111757(0x448)]()){alert(_0x111757(0x225));return;}const _0x4cc2d4=localStorage[_0x111757(0x2ac)](_0x111757(0x42d))||'en';_0x34404f[_0x111757(0x288)]=!![],_0x34404f[_0x111757(0x45c)]=window['t'](window[_0x111757(0x27b)][_0x4cc2d4],_0x111757(0x487))||_0x111757(0x33b);const _0x96484a=new FormData();_0x96484a[_0x111757(0x41d)]('rating',_0x19f020),_0x96484a[_0x111757(0x41d)](_0x111757(0x2f8),_0x10530e);try{const _0x407d7e=await fetch('https://formspree.io/f/xovloydp',{'method':_0x111757(0x31e),'body':_0x96484a,'headers':{'Accept':_0x111757(0x296)}});if(_0x407d7e['ok'])_0x34404f[_0x111757(0x45c)]=window['t'](window[_0x111757(0x27b)][_0x4cc2d4],_0x111757(0x26f))||_0x111757(0x363),_0x34404f['style'][_0x111757(0x369)]=_0x111757(0x2eb),setTimeout(_0x3abc2d,0x5dc);else throw new Error(_0x111757(0x35a));}catch(_0x413465){console[_0x111757(0x342)]('Error\x20submitting\x20feedback:',_0x413465),alert(_0x111757(0x220)),_0x34404f[_0x111757(0x288)]=![],_0x34404f[_0x111757(0x45c)]=window['t'](window[_0x111757(0x27b)][_0x4cc2d4],_0x111757(0x3d1))||'Submit';}});const _0x36dd40=_0x2b7de3('policyButton'),_0x7c2cc3=_0x2b7de3(_0x1d7bee(0x217)),_0x35852c=_0x2b7de3('policy-backdrop'),_0x3c7cf4=_0x2b7de3(_0x1d7bee(0x40b));function _0x45c230(){const _0x1a737e=_0x1d7bee;_0x35852c&&_0x7c2cc3&&(_0x35852c['classList'][_0x1a737e(0x34b)](_0x1a737e(0x469)),_0x7c2cc3[_0x1a737e(0x394)][_0x1a737e(0x20a)](_0x1a737e(0x34e)));}function _0xf7dc78(){const _0x54d80b=_0x1d7bee;_0x7c2cc3&&_0x35852c&&(_0x7c2cc3['classList'][_0x54d80b(0x34b)](_0x54d80b(0x34e)),_0x35852c[_0x54d80b(0x394)][_0x54d80b(0x20a)]('hidden'));}if(_0x36dd40)_0x36dd40[_0x1d7bee(0x44a)]=_0x45c230;if(_0x3c7cf4)_0x3c7cf4['onclick']=_0xf7dc78;if(_0x35852c)_0x35852c[_0x1d7bee(0x44a)]=_0xf7dc78;const _0x88375b=_0x2b7de3(_0x1d7bee(0x211)),_0x213390=_0x2b7de3(_0x1d7bee(0x1ee)),_0x1e6029=_0x2b7de3('contact-backdrop'),_0x42bc64=_0x2b7de3(_0x1d7bee(0x2f9)),_0x83bd43=_0x2b7de3('contact-form');function _0x1a871a(){const _0x29deaa=_0x1d7bee;_0x1e6029&&_0x213390&&(_0x1e6029[_0x29deaa(0x394)]['remove'](_0x29deaa(0x469)),_0x213390[_0x29deaa(0x394)][_0x29deaa(0x20a)](_0x29deaa(0x34e)));}function _0x1b7d33(){const _0x220ccf=_0x1d7bee;_0x213390&&_0x1e6029&&(_0x213390[_0x220ccf(0x394)][_0x220ccf(0x34b)]('open'),_0x1e6029['classList'][_0x220ccf(0x20a)](_0x220ccf(0x469)));}if(_0x88375b)_0x88375b['onclick']=_0x1a871a;if(_0x42bc64)_0x42bc64['onclick']=_0x1b7d33;if(_0x1e6029)_0x1e6029[_0x1d7bee(0x44a)]=_0x1b7d33;_0x83bd43&&_0x83bd43['addEventListener']('submit',async _0x25d7db=>{const _0x3956f0=_0x1d7bee;_0x25d7db['preventDefault']();const _0x376d02=_0x2b7de3(_0x3956f0(0x41e)),_0xee94d9=new FormData(_0x83bd43),_0x4f1d41=localStorage[_0x3956f0(0x2ac)](_0x3956f0(0x42d))||'en';_0x376d02[_0x3956f0(0x288)]=!![],_0x376d02[_0x3956f0(0x45c)]=window['t'](window[_0x3956f0(0x27b)][_0x4f1d41],_0x3956f0(0x412))||_0x3956f0(0x33b);try{const _0x29e992=await fetch('https://formspree.io/f/mpwjrnag',{'method':_0x3956f0(0x31e),'body':_0xee94d9,'headers':{'Accept':_0x3956f0(0x296)}});if(_0x29e992['ok'])_0x376d02['textContent']=window['t'](window[_0x3956f0(0x27b)][_0x4f1d41],_0x3956f0(0x2e1))||_0x3956f0(0x30f),_0x376d02[_0x3956f0(0x260)][_0x3956f0(0x369)]=_0x3956f0(0x2eb),_0x83bd43['reset'](),setTimeout(()=>{_0x1b7d33(),setTimeout(()=>{const _0x3c2110=_0x6d96;_0x376d02[_0x3c2110(0x288)]=![],_0x376d02[_0x3c2110(0x260)]['backgroundColor']='',_0x376d02[_0x3c2110(0x45c)]=window['t'](window[_0x3c2110(0x27b)][_0x4f1d41],_0x3c2110(0x316))||_0x3c2110(0x3cb);},0x1f4);},0x7d0);else throw new Error('Form\x20submission\x20failed');}catch(_0x4462ad){console['error'](_0x3956f0(0x29e),_0x4462ad),alert(_0x3956f0(0x22e)),_0x376d02['disabled']=![],_0x376d02[_0x3956f0(0x45c)]=window['t'](window[_0x3956f0(0x27b)][_0x4f1d41],_0x3956f0(0x316))||'Send\x20Message';}});document[_0x1d7bee(0x3f0)](_0x1d7bee(0x29c),_0x1aaaed=>{const _0x442135=_0x1d7bee,_0x33eea3=document['querySelector'](_0x442135(0x36e)),_0x4c27eb=document[_0x442135(0x213)],_0x139013=_0x4c27eb&&(_0x4c27eb[_0x442135(0x3ba)]||['INPUT',_0x442135(0x3a1),_0x442135(0x42f)][_0x442135(0x22a)](_0x4c27eb[_0x442135(0x2f4)]));if(_0x1aaaed['key']===_0x442135(0x371)&&!_0x139013){_0x1aaaed[_0x442135(0x46d)](),_0x2bb750(),_0x4cddcc=!![],_0x232102(_0x442135(0x250)),_0x1d7e88[_0x442135(0x20b)]=null,localStorage[_0x442135(0x28f)]('ttx_lastLayout');return;}if(_0x1aaaed[_0x442135(0x1fb)]===_0x442135(0x464)&&!_0x139013){_0x1aaaed[_0x442135(0x46d)]();_0x33eea3&&_0x33eea3['querySelector'](_0x442135(0x218))?.['click']();return;}if(_0x33eea3&&_0x33eea3[_0x442135(0x394)]['contains'](_0x442135(0x475))){if(_0x1aaaed[_0x442135(0x1fb)]===_0x442135(0x40a))_0x1aaaed['preventDefault'](),_0x33eea3[_0x442135(0x38e)](_0x442135(0x280))?.[_0x442135(0x372)]();else _0x1aaaed[_0x442135(0x268)]===_0x442135(0x304)&&!_0x139013&&(_0x1aaaed[_0x442135(0x46d)](),_0x33eea3[_0x442135(0x38e)](_0x442135(0x323))?.[_0x442135(0x372)]());}if(!_0x4cddcc||_0x139013)return;if(_0x1aaaed['key']==='`'){document['querySelectorAll'](_0x442135(0x2e6))['forEach'](_0x52077e=>_0x52077e[_0x442135(0x260)]['display']=_0x52077e[_0x442135(0x260)][_0x442135(0x3a9)]==='block'?_0x442135(0x387):_0x442135(0x309));return;}const _0x50da34=['d','t','0','w','v','o','h','g','a','u'];if(_0x50da34[_0x442135(0x22a)](_0x1aaaed[_0x442135(0x1fb)][_0x442135(0x300)]())){if(_0x33eea3){_0x33eea3[_0x442135(0x38e)]('.win-sidebar\x20[data-hotkey=\x22'+_0x1aaaed['key'][_0x442135(0x300)]()+'\x22]')?.[_0x442135(0x372)]();return;}}if(_0x1aaaed['key'][_0x442135(0x300)]()==='i'&&_0x33eea3){_0x33eea3['querySelector'](_0x442135(0x2ce))?.[_0x442135(0x372)]();return;}if(_0x1aaaed[_0x442135(0x1fb)][_0x442135(0x300)]()==='e'&&_0x33eea3){_0x33eea3['querySelector']('.reset-content-btn')?.['click']();return;}const _0x3b5fec={'q':0x0,'9':0x2};if(_0x3b5fec[_0x442135(0x3a7)](_0x1aaaed[_0x442135(0x1fb)][_0x442135(0x300)]())){if(_0x33eea3){const _0x2bb017=_0x33eea3[_0x442135(0x3fa)](_0x442135(0x36d)),_0x1e0db8=_0x3b5fec[_0x1aaaed[_0x442135(0x1fb)][_0x442135(0x300)]()];_0x2bb017[_0x1e0db8]&&_0x2bb017[_0x1e0db8][_0x442135(0x372)]();}return;}if(_0x1aaaed[_0x442135(0x1fb)]===_0x442135(0x1ea)&&_0x33eea3){const _0x540d5a=_0x33eea3[_0x442135(0x38e)](_0x442135(0x425));_0x540d5a?.['click']();return;}if([_0x442135(0x389),_0x442135(0x3db),'ArrowLeft',_0x442135(0x311)][_0x442135(0x22a)](_0x1aaaed['key'])){_0x1aaaed[_0x442135(0x46d)]();if(!_0x33eea3)return;const _0x114527=_0x31feef(),_0x157585=window['innerWidth']-_0x114527,_0x2dfe6d=window[_0x442135(0x229)],_0x370915=_0x157585/0x2,_0x4e14e4=_0x2dfe6d/0x2,_0x4f4a9e=0xa,_0x3bee9b=Math['abs'](_0x33eea3[_0x442135(0x2b4)]-_0x370915)<_0x4f4a9e&&Math[_0x442135(0x325)](_0x33eea3[_0x442135(0x322)]-_0x4e14e4)<_0x4f4a9e,_0x494f9c=Math[_0x442135(0x325)](_0x33eea3['offsetWidth']-_0x370915)<_0x4f4a9e&&Math[_0x442135(0x325)](_0x33eea3['offsetHeight']-_0x2dfe6d)<_0x4f4a9e,_0x34bd45=Math['abs'](_0x33eea3['offsetWidth']-_0x157585)<_0x4f4a9e&&Math[_0x442135(0x325)](_0x33eea3[_0x442135(0x322)]-_0x4e14e4)<_0x4f4a9e;if(!_0x3bee9b&&!_0x494f9c&&!_0x34bd45)return;const _0x2017a0=_0x33eea3[_0x442135(0x3b2)],_0x225611=_0x33eea3['offsetTop'],_0x1afb9f=_0x2017a0<_0x4f4a9e,_0x47ee61=Math[_0x442135(0x325)](_0x2017a0-_0x370915)<_0x4f4a9e,_0x5bf59a=_0x225611<_0x4f4a9e,_0x1df918=Math[_0x442135(0x325)](_0x225611-_0x4e14e4)<_0x4f4a9e;if(_0x494f9c){if(_0x1aaaed[_0x442135(0x1fb)]===_0x442135(0x311)&&_0x1afb9f)_0x33eea3[_0x442135(0x260)][_0x442135(0x41f)]=_0x370915+'px';else _0x1aaaed[_0x442135(0x1fb)]==='ArrowLeft'&&_0x47ee61&&(_0x33eea3['style']['left']='0px');}else{if(_0x34bd45){if(_0x1aaaed['key']==='ArrowDown'&&_0x5bf59a)_0x33eea3[_0x442135(0x260)][_0x442135(0x315)]=_0x4e14e4+'px';else _0x1aaaed[_0x442135(0x1fb)]==='ArrowUp'&&_0x1df918&&(_0x33eea3[_0x442135(0x260)][_0x442135(0x315)]=_0x442135(0x2ba));}else{if(_0x3bee9b){if(_0x1aaaed['key']===_0x442135(0x311)&&_0x1afb9f)_0x33eea3[_0x442135(0x260)][_0x442135(0x41f)]=_0x370915+'px';else{if(_0x1aaaed[_0x442135(0x1fb)]===_0x442135(0x420)&&_0x47ee61)_0x33eea3['style'][_0x442135(0x41f)]=_0x442135(0x2ba);else{if(_0x1aaaed[_0x442135(0x1fb)]===_0x442135(0x3db)&&_0x5bf59a)_0x33eea3[_0x442135(0x260)]['top']=_0x4e14e4+'px';else _0x1aaaed[_0x442135(0x1fb)]==='ArrowUp'&&_0x1df918&&(_0x33eea3['style'][_0x442135(0x315)]=_0x442135(0x2ba));}}}}}return;}const _0x4f6851={'n':_0x442135(0x3c9),'1':'layout1Button','2':_0x442135(0x45d),'3':_0x442135(0x41a),'4':_0x442135(0x427),'5':_0x442135(0x357),'6':'layout6Button','7':'layout7Button','8':_0x442135(0x25e),'c':_0x442135(0x1ef),'m':'magicColorButton','b':_0x442135(0x434),'s':_0x442135(0x341),'p':_0x442135(0x234),'/':_0x442135(0x2a9),'r':_0x442135(0x465),'x':_0x442135(0x38d),'l':_0x442135(0x41c),'k':'clockButton','j':_0x442135(0x30b),'f':'communicationButton','z':_0x442135(0x27e),'?':_0x442135(0x2a0),'u':_0x442135(0x37f)},_0x2534c4=_0x1aaaed[_0x442135(0x1fb)][_0x442135(0x300)]();if(_0x4f6851[_0x2534c4]){if(_0x2534c4==='r'&&(_0x1aaaed['ctrlKey']||_0x1aaaed['shiftKey']||_0x1aaaed['altKey']||_0x1aaaed[_0x442135(0x378)]))return;_0x1aaaed['preventDefault'](),_0x2b7de3(_0x4f6851[_0x2534c4])?.[_0x442135(0x372)]();}else{if(_0x2534c4==='y'){_0x1aaaed['preventDefault']();const _0x485932=document[_0x442135(0x38e)]('.buyme-button');if(_0x485932)_0x485932[_0x442135(0x372)]();}}});let _0x34465a;window[_0x1d7bee(0x3f0)](_0x1d7bee(0x3d7),()=>{clearTimeout(_0x34465a),_0x34465a=setTimeout(()=>{const _0x2e7fa1=_0x6d96,_0x542271=window[_0x2e7fa1(0x26b)],_0x59e2d3=window[_0x2e7fa1(0x229)],_0x25da8a=_0x31feef(),_0xb07bf2=_0x233528-_0x25da8a,_0xe5cacd=_0x542271-_0x25da8a;document[_0x2e7fa1(0x3fa)](_0x2e7fa1(0x2ff))['forEach'](_0x1ba289=>{const _0xba3949=_0x2e7fa1;if(_0x1ba289['querySelector'](_0xba3949(0x466))){_0x1ba289['style'][_0xba3949(0x23d)]=_0xe5cacd+'px',_0x1ba289[_0xba3949(0x260)]['height']=_0x59e2d3+'px';return;}const _0x1d3ae0=_0x1ba289[_0xba3949(0x3b2)]/_0xb07bf2,_0x41b826=_0x1ba289[_0xba3949(0x317)]/_0x7192a7,_0x54796f=_0x1ba289['offsetWidth']/_0xb07bf2,_0x232567=_0x1ba289['offsetHeight']/_0x7192a7;_0x1ba289['style'][_0xba3949(0x41f)]=_0x1d3ae0*_0xe5cacd+'px',_0x1ba289['style'][_0xba3949(0x315)]=_0x41b826*_0x59e2d3+'px',_0x1ba289[_0xba3949(0x260)][_0xba3949(0x23d)]=_0x54796f*_0xe5cacd+'px',_0x1ba289[_0xba3949(0x260)][_0xba3949(0x2e8)]=_0x232567*_0x59e2d3+'px';}),_0x233528=_0x542271,_0x7192a7=_0x59e2d3;},0x64);});function _0x16332a(){const _0x101743=_0x1d7bee,_0x5a28a9=localStorage[_0x101743(0x2ac)](_0x101743(0x1f0));_0x5a28a9&&(_0x4b00c2(_0x5a28a9),_0x2b7de3('colorPicker')['value']=_0x5a28a9);const _0x1e6c63=localStorage[_0x101743(0x2ac)](_0x101743(0x344)),_0x4f0195=document['getElementById']('theme-toggle');_0x4f0195&&(_0x1e6c63!==_0x101743(0x1ff)&&(_0x4f0195[_0x101743(0x47a)]=!![],document['body'][_0x101743(0x394)][_0x101743(0x20a)](_0x101743(0x237))));const _0x68b13a=localStorage[_0x101743(0x2ac)](_0x101743(0x2ab));if(_0x68b13a){const _0xf3b1b=_0x2b7de3(_0x101743(0x34c)+_0x68b13a+_0x101743(0x299));_0xf3b1b&&_0xf3b1b['click']();}}_0x16332a(),document[_0x1d7bee(0x1e5)][_0x1d7bee(0x3f0)](_0x1d7bee(0x351),_0x3536d2=>{const _0x45390b=_0x1d7bee;!_0x3536d2[_0x45390b(0x1e3)][_0x45390b(0x233)](_0x45390b(0x3e7))&&(_0x4cddcc=!![]);const _0x1d5282=_0x3536d2[_0x45390b(0x1e3)]['closest'](_0x45390b(0x40f));if(_0x1d5282)return;(_0x3536d2[_0x45390b(0x1e3)]===document['body']||_0x3536d2[_0x45390b(0x1e3)][_0x45390b(0x233)]('#site-title'))&&(document[_0x45390b(0x1e5)][_0x45390b(0x394)][_0x45390b(0x362)](_0x45390b(0x3bf)),_0x3536d2[_0x45390b(0x1e3)]['closest'](_0x45390b(0x276))&&(_0x4b00c2(_0x4e76a6),localStorage['setItem'](_0x45390b(0x1f0),_0x4e76a6),_0x232102('↺')));}),document[_0x1d7bee(0x3f0)]('click',_0x37aaa4=>{const _0x3d8086=_0x1d7bee,_0x27ffe6=_0x37aaa4[_0x3d8086(0x1e3)][_0x3d8086(0x233)]('#sidebar-main-controls'),_0x97f17c=_0x37aaa4[_0x3d8086(0x1e3)][_0x3d8086(0x233)](_0x3d8086(0x2bd)),_0xb20cbc=_0x37aaa4[_0x3d8086(0x1e3)][_0x3d8086(0x233)](_0x3d8086(0x461)),_0x49c184=_0x37aaa4['target'][_0x3d8086(0x233)](_0x3d8086(0x38a)),_0x260564=_0x37aaa4['target'][_0x3d8086(0x233)](_0x3d8086(0x47f)),_0x36fbe9=_0x37aaa4[_0x3d8086(0x1e3)][_0x3d8086(0x233)]('#communication-tools-container');if(!_0x27ffe6&&!_0x97f17c&&!_0xb20cbc&&!_0x49c184&&!_0x260564&&!_0x36fbe9){if(_0x2b7de3('layout-bar'))_0x2b7de3('layout-bar')[_0x3d8086(0x394)][_0x3d8086(0x34b)](_0x3d8086(0x34e));if(_0x2b7de3(_0x3d8086(0x3f5)))_0x2b7de3(_0x3d8086(0x3f5))[_0x3d8086(0x394)][_0x3d8086(0x34b)](_0x3d8086(0x34e));if(_0x2b7de3(_0x3d8086(0x401)))_0x2b7de3(_0x3d8086(0x401))[_0x3d8086(0x394)][_0x3d8086(0x34b)]('open');if(_0x2b7de3('help-bar'))_0x2b7de3('help-bar')['classList'][_0x3d8086(0x34b)]('open');if(_0x2b7de3('communication-bar'))_0x2b7de3('communication-bar')[_0x3d8086(0x394)][_0x3d8086(0x34b)](_0x3d8086(0x34e));_0x55bb17(),_0x3abc2d(),_0xf7dc78(),_0x1b7d33(),document['querySelectorAll'](_0x3d8086(0x28c))[_0x3d8086(0x31b)](_0x2c4bd0=>{if(_0x2c4bd0)_0x2c4bd0['classList']['add']('hidden');});}}),(function(){const _0x24ba32=_0x1d7bee;let _0x40cb88=![],_0x308cc1=0x0,_0xb25de9,_0x3cdcf5,_0x523c6a;function _0xec3e7(){const _0x415590=_0x6d96;_0x308cc1=Date[_0x415590(0x456)]();if(!_0x40cb88)return;_0x40cb88=![];try{_0x3cdcf5&&_0x3cdcf5[_0x415590(0x34b)]();}catch(_0x32246b){}try{_0xb25de9&&_0xb25de9[_0x415590(0x34b)]();}catch(_0x144652){}const _0x2f11f4=document[_0x415590(0x29a)](_0x415590(0x25f));if(_0x2f11f4)_0x2f11f4[_0x415590(0x394)][_0x415590(0x34b)]('active');}function _0x298656(){const _0x53211f=_0x6d96;if(_0x40cb88)return;_0x40cb88=!![],_0xb25de9=document[_0x53211f(0x39e)](_0x53211f(0x450)),_0xb25de9['className']='demo-backdrop',_0xb25de9[_0x53211f(0x260)][_0x53211f(0x3fb)]=_0x53211f(0x36a),_0x3cdcf5=document['createElement']('div'),_0x3cdcf5[_0x53211f(0x3a8)]='demo-modal',_0x3cdcf5[_0x53211f(0x260)][_0x53211f(0x3fb)]=_0x53211f(0x46f),_0x523c6a=document['createElement'](_0x53211f(0x333));const _0x7337b9=document[_0x53211f(0x39e)]('source');_0x7337b9['src']=_0x53211f(0x201),_0x7337b9[_0x53211f(0x3b9)]='video/mp4',_0x523c6a[_0x53211f(0x2ea)](_0x7337b9),_0x523c6a['controls']=!![],_0x523c6a[_0x53211f(0x2d5)]=!![],_0x523c6a['style'][_0x53211f(0x3fb)]=_0x53211f(0x2a8),_0x3cdcf5[_0x53211f(0x2ea)](_0x523c6a),document[_0x53211f(0x1e5)][_0x53211f(0x2ea)](_0xb25de9),document[_0x53211f(0x1e5)][_0x53211f(0x2ea)](_0x3cdcf5);const _0x3c59da=async()=>{const _0x3e1623=_0x53211f;try{await _0x523c6a[_0x3e1623(0x397)]();}catch(_0x3babda){try{_0x523c6a[_0x3e1623(0x29f)]=!![],await _0x523c6a[_0x3e1623(0x397)]();}catch(_0x2fe7fb){}}};_0x523c6a['addEventListener'](_0x53211f(0x1f4),_0x3c59da),_0x3c59da();const _0x4fcc81=_0x2683de=>{const _0x1d514b=_0x53211f,_0x488d5a=_0x2683de['clientX'],_0x3f8f50=_0x2683de['clientY'];_0x2683de[_0x1d514b(0x46d)](),_0x2683de[_0x1d514b(0x419)](),_0xec3e7(),setTimeout(()=>{const _0x212fad=_0x1d514b,_0x32faba=document['elementFromPoint'](_0x488d5a,_0x3f8f50);if(!_0x32faba)return;try{_0x32faba[_0x212fad(0x451)](new PointerEvent(_0x212fad(0x351),{'bubbles':!![],'cancelable':!![],'clientX':_0x488d5a,'clientY':_0x3f8f50,'pointerType':'mouse'}));}catch(_0x198cb1){}try{_0x32faba[_0x212fad(0x451)](new MouseEvent('mousedown',{'bubbles':!![],'cancelable':!![],'clientX':_0x488d5a,'clientY':_0x3f8f50}));}catch(_0x365f64){}try{_0x32faba[_0x212fad(0x451)](new MouseEvent(_0x212fad(0x3b6),{'bubbles':!![],'cancelable':!![],'clientX':_0x488d5a,'clientY':_0x3f8f50}));}catch(_0x3a74aa){}_0x32faba['dispatchEvent'](new MouseEvent(_0x212fad(0x372),{'bubbles':!![],'cancelable':!![],'clientX':_0x488d5a,'clientY':_0x3f8f50}));},0x0);};_0xb25de9[_0x53211f(0x3f0)](_0x53211f(0x351),_0x4fcc81,{'capture':!![]}),_0xb25de9[_0x53211f(0x3f0)]('mousedown',_0x4fcc81,{'capture':!![]}),_0xb25de9[_0x53211f(0x3f0)](_0x53211f(0x372),_0x4fcc81,{'capture':!![]}),_0x3cdcf5['addEventListener'](_0x53211f(0x372),_0xec3e7);}const _0x43c9b7=document['getElementById'](_0x24ba32(0x25f));if(_0x43c9b7){const _0x3d09b4=_0x43c9b7[_0x24ba32(0x3ee)](!![]);_0x43c9b7['parentNode']['replaceChild'](_0x3d09b4,_0x43c9b7),_0x3d09b4[_0x24ba32(0x3f0)](_0x24ba32(0x372),_0x5b9131=>{const _0x4f4d3e=_0x24ba32;_0x5b9131['stopPropagation']();if(!_0x40cb88){if(Date[_0x4f4d3e(0x456)]()-_0x308cc1<0xc8)return;_0x3d09b4[_0x4f4d3e(0x394)][_0x4f4d3e(0x20a)](_0x4f4d3e(0x3ef)),_0x298656();}else _0xec3e7();});}}());const _0x40d2c3=new URLSearchParams(window[_0x1d7bee(0x2aa)][_0x1d7bee(0x484)]);if(_0x40d2c3[_0x1d7bee(0x406)](_0x1d7bee(0x438))===_0x1d7bee(0x1f5)){const _0x15fafa=setInterval(()=>{const _0x3c05c2=_0x1d7bee;typeof auth0Client!=='undefined'&&auth0Client&&(clearInterval(_0x15fafa),finalizePremiumAccess(),window[_0x3c05c2(0x286)][_0x3c05c2(0x2dc)]({},document[_0x3c05c2(0x3df)],'/'));},0x64);}});
+/**
+ * script.js
+ * © 2025 TeacherToybox.com. All Rights Reserved.
+ */
+
+// Core bootstrap & shared state
+const global = window;
+global.TT = global.TT || {};
+global.TT.isPremium = false;
+
+// --- Date Display & Localization ---
+global.TT.updateDateDisplay = function(lang) {
+    const dateDisplay = document.getElementById('date-display');
+    if (!dateDisplay) return;
+    
+    const today = new Date();
+    const options = {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    };
+
+    const formatter = new Intl.DateTimeFormat(lang, options);
+    dateDisplay.textContent = formatter.format(today);
+};
+
+// This function handles the checkout process using your Stripe LIVE keys.
+global.TT.initiateCheckout = async () => {
+  try {
+    const user = await auth0Client.getUser();
+    
+    if (!user || !user.sub || !user.email) {
+      console.error("Could not identify user or user email before checkout. Aborting.");
+      alert("Could not identify user. Please try logging in again.");
+      return;
+    }
+
+    // Your Stripe LIVE Publishable Key.
+    const stripe = Stripe('pk_live_51RyVoHFCA6YfGQJzhJ8SlyEuCayZQXmmbpI0AGeJoLGsNIxz1W8qICgjAqrjkJdSnStHH9U9XvFW49x0PnX2Gxyg000uNaxUaF');
+    
+    // Your Stripe LIVE Price ID for the $12/year plan.
+    const priceId = 'price_1S5Wf0FCA6YfGQJzLVuFpK0q';
+
+    const response = await fetch('/api/create-checkout-session', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId: user.sub, priceId: priceId, userEmail: user.email }), // Send the user's email
+    });
+
+    if (!response.ok) {
+      throw new Error('Failed to create checkout session.');
+    }
+
+    const { sessionId } = await response.json();
+    await stripe.redirectToCheckout({ sessionId });
+  } catch (error) {
+    console.error("Error redirecting to checkout:", error);
+    alert("Could not connect to the payment service. Please try again later.");
+  }
+};
+
+/**
+ * Handles the post-payment experience with a splash screen, logout, and reload.
+ */
+function finalizePremiumAccess() {
+    // Create a full-screen splash screen
+    const splash = document.createElement('div');
+    // Re-use existing splash screen styles and ID for consistency
+    splash.id = 'splash-screen';
+    splash.style.opacity = '1'; // Ensure it's visible
+    splash.style.transition = 'none'; // Prevent any default fade-out
+
+    splash.innerHTML = `
+        <div class="premium-splash-content">
+            <div class="logo-container">
+                <div class="logo-spinner"></div>
+                <img src="ttlogo.png" alt="Teacher Toybox Logo" class="premium-splash-logo">
+            </div>
+            <p>
+                <strong>Welcome to Premium!</strong><br>
+                <span class="splash-subtext-1">Your Teacher Toybox is now supercharged.</span><br>
+                <span class="splash-subtext-2">Please log in again to unlock all your new tools.</span>
+            </p>
+        </div>
+    `;
+    document.body.appendChild(splash);
+
+    // After 5 seconds, log the user out. The logout function will then reload the page.
+    setTimeout(() => {
+        // The logout function is defined globally in auth.js
+        if (window.logout) {
+            window.logout();
+        } else {
+            // Fallback if the logout function isn't available
+            console.error("Logout function not found. Reloading page.");
+            location.reload();
+        }
+    }, 5000); // 5-second delay
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // --- Splash Screen ---
+    const _splash = document.getElementById('splash-screen');
+    if (_splash) {
+        setTimeout(() => {
+            _splash.style.opacity = '0';
+            setTimeout(() => _splash.remove(), 500);
+        }, 1000);
+    }
+    // --- End Splash Screen ---
+
+    const $ = id => document.getElementById(id);
+
+    const upgradePanel = $('upgrade-panel');
+    const upgradeBackdrop = $('upgrade-backdrop');
+    const closeUpgradeBtn = $('close-upgrade-btn');
+    const panelUpgradeBtn = $('panel-upgrade-btn');
+    const upgradeButton = $('upgradeButton');
+
+    const openUpgradePanel = () => {
+        if (upgradeBackdrop && upgradePanel) {
+            upgradeBackdrop.classList.remove('hidden');
+            upgradePanel.classList.add('open');
+        }
+    };
+
+    const closeUpgradePanel = () => {
+        if (upgradeBackdrop && upgradePanel) {
+            upgradeBackdrop.classList.add('hidden');
+            upgradePanel.classList.remove('open');
+        }
+    };
+
+    if (upgradeButton) upgradeButton.onclick = openUpgradePanel;
+    if (closeUpgradeBtn) closeUpgradeBtn.onclick = closeUpgradePanel;
+    if (upgradeBackdrop) upgradeBackdrop.onclick = closeUpgradePanel;
+
+    if (panelUpgradeBtn) {
+        panelUpgradeBtn.onclick = async () => {
+            // First, check if the user is already logged in
+            if (window.TT && window.TT.isAuthenticated) {
+                // If yes, go directly to checkout
+                window.TT.initiateCheckout();
+            } else {
+                // If no, start the login process
+                login('upgrade');
+            }
+        };
+    }
+
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('change', () => {
+            document.body.classList.toggle('light-mode', themeToggle.checked);
+            localStorage.setItem('ttx_theme', themeToggle.checked ? 'light' : 'dark');
+        });
+    }
+
+    // --- Fullscreen API Toggle ---
+    const fullscreenButton = document.getElementById('fullscreenButton');
+    if (fullscreenButton) {
+        fullscreenButton.addEventListener('click', () => {
+            // Check if the page is currently in fullscreen mode
+            const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
+
+            if (!isFullscreen) {
+                // If not in fullscreen, request it
+                const el = document.documentElement;
+                if (el.requestFullscreen) {
+                    el.requestFullscreen();
+                } else if (el.webkitRequestFullscreen) { // Safari
+                    el.webkitRequestFullscreen();
+                } else if (el.msRequestFullscreen) { // IE11
+                    el.msRequestFullscreen();
+                }
+            } else {
+                // If in fullscreen, exit it
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) { // Safari
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) { // IE11
+                    document.msExitFullscreen();
+                }
+            }
+        });
+
+        // Listen for changes in fullscreen state to update the icon
+        document.addEventListener('fullscreenchange', updateIcon);
+        document.addEventListener('webkitfullscreenchange', updateIcon); // Safari
+        document.addEventListener('msfullscreenchange', updateIcon); // IE11
+
+        function updateIcon() {
+            const icon = fullscreenButton.querySelector('i');
+            const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement;
+            if (isFullscreen) {
+                icon.classList.remove('fa-expand');
+                icon.classList.add('fa-compress');
+            } else {
+                icon.classList.remove('fa-compress');
+                icon.classList.add('fa-expand');
+            }
+        }
+    }
+
+    const getSidebarWidth = () => $('sidebar').offsetWidth;
+
+    let lastWindowWidth = window.innerWidth;
+    let lastWindowHeight = window.innerHeight;
+
+    const clockButton = $('clockButton');
+    const digitalClockBar = $('digital-clock-bar');
+    const hourHand = document.querySelector('.hour-hand');
+    const minuteHand = document.querySelector('.minute-hand');
+    const secondHand = document.querySelector('.second-hand');
+
+    function setClocks() {
+        const now = new Date();
+        const seconds = now.getSeconds();
+        const minutes = now.getMinutes();
+        const hours = now.getHours();
+
+        const secondsDeg = (seconds / 60) * 360;
+        const minutesDeg = (minutes / 60) * 360 + (seconds / 60) * 6;
+        const hoursDeg = (hours / 12) * 360 + (minutes / 60) * 30;
+        
+        if (hourHand && minuteHand && secondHand) {
+            if (secondsDeg < 1) { 
+                secondHand.style.transition = 'none';
+            } else {
+                secondHand.style.transition = '';
+            }
+            secondHand.style.transform = `rotate(${secondsDeg}deg)`;
+            minuteHand.style.transform = `rotate(${minutesDeg}deg)`;
+            hourHand.style.transform = `rotate(${hoursDeg}deg)`;
+        }
+
+        if (digitalClockBar) {
+            const digitalHours = String(hours).padStart(2, '0');
+            const digitalMinutes = String(minutes).padStart(2, '0');
+            const digitalSeconds = String(seconds).padStart(2, '0');
+            digitalClockBar.textContent = `${digitalHours}:${digitalMinutes}:${digitalSeconds}`;
+        }
+    }
+
+    if (clockButton) {
+        clockButton.addEventListener('click', () => {
+            clockButton.classList.toggle('active');
+            digitalClockBar.classList.toggle('open');
+        });
+        if (digitalClockBar) {
+            digitalClockBar.addEventListener('mouseenter', () => {
+                clockButton.classList.remove('active');
+                digitalClockBar.classList.remove('open');
+            });
+        }
+        setClocks();
+        setInterval(setClocks, 1000);
+    }
+
+    const dateDisplay = $('date-display');
+    if (dateDisplay) {
+      const closeEnlargedDate = () => {
+        const backdrop = document.querySelector('.date-backdrop');
+        if (dateDisplay.classList.contains('date-enlarged')) {
+          dateDisplay.classList.remove('date-enlarged');
+        }
+        if (backdrop) {
+          backdrop.style.opacity = '0';
+          setTimeout(() => backdrop.remove(), 400);
+        }
+      };
+      const openEnlargedDate = () => {
+        if (!dateDisplay.classList.contains('date-enlarged')) {
+          dateDisplay.classList.add('date-enlarged');
+          const backdrop = document.createElement('div');
+          backdrop.className = 'date-backdrop';
+          backdrop.addEventListener('click', closeEnlargedDate);
+          document.body.appendChild(backdrop);
+          setTimeout(() => backdrop.style.opacity = '1', 10);
+        }
+      };
+      dateDisplay.addEventListener('click', () => {
+        if (dateDisplay.classList.contains('date-enlarged')) {
+          closeEnlargedDate();
+        } else {
+          openEnlargedDate();
+        }
+      });
+    }
+    
+    const toolStyles = `
+        .die-container { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: center; flex-grow: 1; padding: 10px; }
+        .die { width: 10rem; height: 10rem; background-color: white; border-radius: 8px; padding: 6px; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 4px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); border: 2px solid black; }
+        .die .die-dot { visibility: hidden; width: 100%; height: 100%; background-color: black; border-radius: 50%; }
+        .die[data-value="1"] .dot-5,
+        .die[data-value="2"] .dot-1, .die[data-value="2"] .dot-9,
+        .die[data-value="3"] .dot-1, .die[data-value="3"] .dot-5, .die[data-value="3"] .dot-9,
+        .die[data-value="4"] .dot-1, .die[data-value="4"] .dot-3, .die[data-value="4"] .dot-7, .die[data-value="4"] .dot-9,
+        .die[data-value="5"] .dot-1, .die[data-value="5"] .dot-3, .die[data-value="5"] .dot-5, .die[data-value="5"] .dot-7, .die[data-value="5"] .dot-9,
+        .die[data-value="6"] .dot-1, .die[data-value="6"] .dot-3, .die[data-value="6"] .dot-4, .die[data-value="6"] .dot-6, .die[data-value="6"] .dot-7, .die[data-value="6"] .dot-9 { visibility: visible; }
+        .dice-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.2); flex-shrink: 0; }
+        .dice-controls .icon-btn { width: 40px; height: 40px; font-size: 16px; }
+        .dice-total { font-size: 18px; font-weight: bold; color: white; min-width: 80px; text-align: center; }
+        .die.rolling { animation: roll 0.5s ease-in-out; }
+        @keyframes roll { 0% { transform: rotate(0deg) scale(1); } 25% { transform: rotate(15deg) scale(1.1); } 75% { transform: rotate(-15deg) scale(1.1); } 100% { transform: rotate(0deg) scale(1); } }
+        .stopwatch-display { font-size: clamp(3rem, 14vw, 10rem); font-weight: 700; color: white; text-align: center; flex-grow: 1; display: flex; justify-content: center; align-items: center; font-family: 'monospace'; }
+        .stopwatch-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.2); flex-shrink: 0; }
+        .stopwatch-controls .icon-btn { width: 50px; height: 50px; font-size: 20px; }
+        .countdown-title { color: var(--text-secondary); font-size: 1.5rem; font-weight: 500; text-align: center; margin-bottom: 1rem; }
+        .countdown-selection-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 12px; width: 100%; max-width: 500px; }
+        .countdown-btn { background-color: var(--sidebar-bg); border: 1px solid var(--border-color); color: var(--text-primary); padding: 20px 10px; border-radius: 8px; font-size: 1.1rem; font-weight: 500; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease; }
+        .countdown-btn:hover { background-color: var(--window-bg); border-color: var(--accent-color); }
+        .countdown-running-controls { display: flex; justify-content: center; align-items: center; gap: 12px; padding: 12px; flex-shrink: 0; }
+        .countdown-running-controls .icon-btn { width: 50px; height: 50px; font-size: 20px; }
+
+        /* FINAL PDF ZOOM FIX STYLES */
+        .pdf-canvas-container.is-zoomed {
+            display: block !important; /* Force block layout to allow overflow */
+            text-align: center; /* Center canvas when zoomed out, or align left when overflowing */
+            justify-content: initial !important; /* Override flex properties */
+            align-items: initial !important;
+        }
+        .pdf-canvas-container.is-zoomed canvas {
+             max-width: none !important; /* Critical: Allow canvas to have its own size */
+             max-height: none !important;
+        }
+        .pdf-zoom-controls { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+        .pdf-zoom-info { font-size: 14px; font-weight: 500; color: var(--text-primary); min-width: 50px; text-align: center; }
+    `;
+    const styleSheet = document.createElement("style");
+    styleSheet.innerText = toolStyles;
+    document.head.appendChild(styleSheet);
+
+    let hotkeysEnabled = true;
+    let layoutState = { activeLayout: null, isVisible: true };
+    const gridSizePx = 20;
+    const defaultAccentColor = getComputedStyle(document.documentElement).getPropertyValue('--accent-color').trim();
+
+    let dragCounter = 0;
+    window.addEventListener('dragenter', (e) => {
+        if (e.dataTransfer.types.includes('Files')) {
+            e.preventDefault();
+            dragCounter++;
+            document.body.classList.add('is-dragging');
+        }
+    });
+    window.addEventListener('dragleave', (e) => {
+        if (e.dataTransfer.types.includes('Files')) {
+            e.preventDefault();
+            dragCounter--;
+            if (dragCounter === 0) {
+                document.body.classList.remove('is-dragging');
+            }
+        }
+    });
+    window.addEventListener('drop', (e) => {
+        e.preventDefault();
+        dragCounter = 0;
+        document.body.classList.remove('is-dragging');
+    });
+
+    function closeInfoIfOpen() {
+        if (layoutState.activeLayout === 'info') {
+            clearWins();
+            layoutState.activeLayout = null;
+            return true;
+        }
+        return false;
+    }
+
+    function showOverlay(txt) {
+        const ov = document.createElement('div');
+        ov.className = 'overlay-number';
+        ov.textContent = txt;
+        document.body.appendChild(ov);
+        setTimeout(() => { ov.style.opacity = 0; ov.style.transform = 'translate(-50%, -50%) scale(1.5)'; }, 10);
+        setTimeout(() => ov.remove(), 2000);
+    }
+
+    function clearWins() {
+        document.querySelectorAll('.floating').forEach(w => {
+            cleanupWindowTools(w);
+            w.remove();
+        });
+    }
+
+    function setActiveWindow(win) {
+        document.querySelectorAll('.floating.active-window').forEach(aw => {
+            aw.classList.remove('active-window');
+            aw.style.zIndex = 1000;
+        });
+        if (win) {
+            win.classList.add('active-window');
+            win.style.zIndex = 1001;
+        }
+    }
+
+    function cleanupWindowTools(win) {
+        if (!win) return;
+        const drawControls = win.querySelector('.draw-controls-bar');
+        if (drawControls) {
+            drawControls.remove();
+        }
+        const leftControls = win.querySelector('.drag-bar .tool-controls');
+        if (leftControls) {
+            leftControls.style.display = 'flex';
+        }
+        win.removeAttribute('data-tool');
+        
+        if (win.activeInterval) {
+            clearInterval(win.activeInterval);
+            win.activeInterval = null;
+        }
+
+        if (win.toolResizeObserver) {
+            win.toolResizeObserver.disconnect();
+            win.toolResizeObserver = null;
+        }
+
+        if (win.annotationResizeObserver) {
+            win.annotationResizeObserver.disconnect();
+            win.annotationResizeObserver = null;
+        }
+    }
+
+    function saveDrawingState(canvas, ctx, history) {
+        if (!canvas || !ctx || !history) return;
+        if (history.length > 20) {
+            history.shift();
+        }
+        history.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+    }
+
+    function displayFileInWindow(win, file) {
+        if (!file) return;
+        cleanupWindowTools(win);
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+    
+        mainArea.innerHTML = '';
+        const url = URL.createObjectURL(file);
+        const cont = document.createElement('div');
+        cont.className = 'content-fill';
+    
+        if (file.type === 'application/pdf') {
+            win.dataset.tool = 'pdf';
+            mainArea.style.padding = '0';
+            mainArea.innerHTML = `
+                <div class="pdf-viewer-container">
+                    <div class="pdf-canvas-container">
+                        <canvas></canvas>
+                    </div>
+                    <div class="pdf-controls">
+                        <button class="pdf-prev-btn" title="Previous Page"><i class="fas fa-arrow-left"></i></button>
+                        <div class="pdf-page-input-group">
+                            <input type="number" class="pdf-page-input" min="1">
+                            <span class="pdf-page-info">/ <span>1</span></span>
+                            <button class="go-btn">Go</button>
+                        </div>
+                        <button class="pdf-next-btn" title="Next Page"><i class="fas fa-arrow-right"></i></button>
+                        <div class="pdf-zoom-controls">
+                            <button class="pdf-zoom-out-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                            <span class="pdf-zoom-info">100%</span>
+                            <button class="pdf-zoom-in-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                            <button class="pdf-zoom-reset-btn" title="Fit to Width"><i class="fas fa-expand-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        
+            const canvas = mainArea.querySelector('canvas');
+            const container = mainArea.querySelector('.pdf-canvas-container');
+            const prevBtn = mainArea.querySelector('.pdf-prev-btn');
+            const nextBtn = mainArea.querySelector('.pdf-next-btn');
+            const pageNumInput = mainArea.querySelector('.pdf-page-input');
+            const goBtn = mainArea.querySelector('.go-btn');
+            const pageCountSpan = mainArea.querySelector('.pdf-page-info span');
+            const zoomOutBtn = mainArea.querySelector('.pdf-zoom-out-btn');
+            const zoomInBtn = mainArea.querySelector('.pdf-zoom-in-btn');
+            const zoomResetBtn = mainArea.querySelector('.pdf-zoom-reset-btn');
+            const zoomInfo = mainArea.querySelector('.pdf-zoom-info');
+        
+            let pdfDoc = null;
+            let pageNum = 1;
+            let zoomLevel = 1.0;
+    
+            const updateZoomDisplay = () => {
+                zoomInfo.textContent = `${Math.round(zoomLevel * 100)}%`;
+            };
+        
+            const renderPage = num => {
+                if (!pdfDoc) return;
+                pageNum = num;
+        
+                pdfDoc.getPage(num).then(page => {
+                    const pixelRatio = window.devicePixelRatio || 1;
+                    
+                    // *** FINAL, CORRECTED LOGIC ***
+                    const viewport = page.getViewport({ scale: 1.0 });
+                    // This is the correct, simple calculation for the final scale
+                    const scale = (container.clientWidth / viewport.width) * zoomLevel;
+                    
+                    const scaledViewport = page.getViewport({ scale: scale * pixelRatio });
+                    const context = canvas.getContext('2d');
+                    
+                    canvas.height = scaledViewport.height;
+                    canvas.width = scaledViewport.width;
+                    canvas.style.height = `${scaledViewport.height / pixelRatio}px`;
+                    canvas.style.width = `${scaledViewport.width / pixelRatio}px`;
+                    
+                    if (zoomLevel !== 1.0) {
+                        container.classList.add('is-zoomed');
+                    } else {
+                        container.classList.remove('is-zoomed');
+                    }
+                    
+                    const renderContext = {
+                        canvasContext: context,
+                        viewport: scaledViewport
+                    };
+                    page.render(renderContext);
+                });
+        
+                pageNumInput.value = num;
+                prevBtn.disabled = (num <= 1);
+                nextBtn.disabled = (num >= pdfDoc.numPages);
+                updateZoomDisplay();
+            };
+        
+            const onNavClick = (direction) => {
+                if (direction === 'prev' && pageNum > 1) {
+                    renderPage(pageNum - 1);
+                } else if (direction === 'next' && pageNum < pdfDoc.numPages) {
+                    renderPage(pageNum + 1);
+                }
+            };
+        
+            const onGoClick = () => {
+                const desiredPage = parseInt(pageNumInput.value, 10);
+                if (desiredPage >= 1 && desiredPage <= pdfDoc.numPages) {
+                    renderPage(desiredPage);
+                } else {
+                    pageNumInput.value = pageNum;
+                }
+            };
+        
+            prevBtn.onclick = () => onNavClick('prev');
+            nextBtn.onclick = () => onNavClick('next');
+            goBtn.onclick = onGoClick;
+            pageNumInput.addEventListener('keydown', e => {
+                if (e.key === 'Enter') onGoClick();
+            });
+    
+            zoomInBtn.onclick = () => {
+                zoomLevel += 0.2;
+                renderPage(pageNum);
+            };
+            
+            zoomOutBtn.onclick = () => {
+                if (zoomLevel > 0.25) {
+                    zoomLevel -= 0.2;
+                    renderPage(pageNum);
+                }
+            };
+    
+            zoomResetBtn.onclick = () => {
+                zoomLevel = 1.0;
+                renderPage(pageNum);
+            };
+    
+            container.addEventListener('wheel', (e) => {
+                if (e.ctrlKey) {
+                    e.preventDefault();
+                    if (e.deltaY < 0) {
+                        zoomLevel += 0.1;
+                    } else {
+                        if (zoomLevel > 0.2) {
+                            zoomLevel -= 0.1;
+                        }
+                    }
+                    renderPage(pageNum);
+                }
+            }, { passive: false });
+    
+            const fileReader = new FileReader();
+            fileReader.onload = function() {
+                const typedarray = new Uint8Array(this.result);
+                pdfjsLib.getDocument(typedarray).promise.then(doc => {
+                    pdfDoc = doc;
+                    pageCountSpan.textContent = `/ ${doc.numPages}`;
+                    pageNumInput.max = doc.numPages;
+                    renderPage(1);
+                });
+            };
+            fileReader.readAsArrayBuffer(file);
+    
+            const resizeObserver = new ResizeObserver(() => {
+                if (pdfDoc) {
+                    renderPage(pageNum);
+                }
+            });
+            win.toolResizeObserver = resizeObserver;
+            resizeObserver.observe(container);
+    
+        } else if (file.type.startsWith('image/')) {
+            const img = document.createElement('img');
+            img.src = url;
+            img.style.objectFit = 'contain';
+            img.crossOrigin = "anonymous";
+            cont.appendChild(img);
+            mainArea.appendChild(cont);
+        } else if (file.type.startsWith('video/')) {
+            const vid = document.createElement('video');
+            vid.src = url;
+            vid.controls = true;
+            vid.autoplay = true;
+            cont.appendChild(vid);
+            mainArea.appendChild(cont);
+        } else if (file.type.startsWith('audio/')) {
+            const aud = document.createElement('audio');
+            aud.src = url;
+            aud.controls = true;
+            aud.autoplay = true;
+            cont.appendChild(aud);
+            mainArea.style.display = 'flex';
+            mainArea.style.alignItems = 'center';
+            mainArea.style.justifyContent = 'center';
+            mainArea.appendChild(cont);
+        } else if (file.name.toLowerCase().endsWith('.pptx') || file.name.toLowerCase().endsWith('.ppt')) {
+            cont.innerHTML = `
+                <div class="unsupported-file-message">
+                    <i class="fas fa-file-powerpoint"></i>
+                    <h3>PowerPoint File</h3>
+                    <p>To display this file, please convert it to a PDF first and then drop it here.</p>
+                </div>
+            `;
+            mainArea.appendChild(cont);
+        } else {
+            mainArea.style.display = 'flex';
+            mainArea.style.alignItems = 'center';
+            mainArea.style.justifyContent = 'center';
+            mainArea.innerHTML = `
+                <div style="text-align: center; color: var(--text-secondary); padding: 16px;">
+                    <h3>Oops!</h3>
+                    <p>That file type isn’t supported.<br>Try another format.</p>
+                </div>
+            `;
+    
+            setTimeout(() => {
+                if (win && win.parentElement) {
+                    mainArea.innerHTML = '';
+                    const dropZone = document.createElement('div');
+                    dropZone.className = 'drop-zone';
+                    dropZone.innerHTML = `
+                    <div class="drop-zone-inner">
+                        <i class="drop-zone-icon fas fa-upload"></i>
+                        <div class="drop-zone-file-types">
+                            <i class="fas fa-file-image"></i><i class="fas fa-file-video"></i><i class="fas fa-file-audio"></i><i class="fas fa-file-pdf"></i>
+                        </div>
+                    </div>`;
+                    mainArea.appendChild(dropZone);
+                }
+            }, 2000);
+        }
+    }
+
+    function handleDrop(e) {
+        e.preventDefault();
+        displayFileInWindow(this, e.dataTransfer.files[0]);
+    }
+
+    function createWinArrangement(arr) {
+        clearWins();
+        arr.forEach(cfg => {
+            const w = createWin();
+            w.style.left = cfg.left;
+            w.style.top = cfg.top;
+            w.style.width = cfg.width;
+            w.style.height = cfg.height;
+        });
+    }
+
+    function activateDraw(win) {
+        if (win.querySelector('.draw-controls-bar')) return;
+    
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        
+        cleanupWindowTools(win);
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+        
+        win.dataset.tool = 'draw';
+    
+        const leftControls = win.querySelector('.drag-bar .tool-controls');
+        if (leftControls) {
+            leftControls.style.display = 'none';
+        }
+
+        const canvas = document.createElement('canvas');
+        const cont = document.createElement('div');
+        cont.className = 'content-fill';
+        cont.style.position = 'relative';
+        cont.appendChild(canvas);
+    
+        const ctx = canvas.getContext('2d');
+        let drawing = false;
+        const hist = [];
+    
+        function saveState() {
+            if (hist.length > 30) hist.shift();
+            hist.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+        }
+    
+        const resizeObserver = new ResizeObserver(() => {
+            const oldData = hist.length > 0 ? hist[hist.length - 1] : null;
+            canvas.width = cont.clientWidth;
+            canvas.height = cont.clientHeight;
+            if (oldData) ctx.putImageData(oldData, 0, 0);
+            ctx.lineCap = 'round';
+            ctx.strokeStyle = controls.querySelector('.color-swatch.active')?.style.backgroundColor || '#FFFFFF';
+            ctx.lineWidth = sizeInput.value;
+        });
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(cont);
+    
+        canvas.style.background = '#333';
+        canvas.style.width = '100%';
+        canvas.style.height = '100%';
+    
+        canvas.addEventListener('pointerdown', e => {
+            drawing = true;
+            saveState();
+            ctx.beginPath();
+            ctx.moveTo(e.offsetX, e.offsetY);
+        });
+        canvas.addEventListener('pointermove', e => {
+            if (drawing) {
+                ctx.lineTo(e.offsetX, e.offsetY);
+                ctx.stroke();
+            }
+        });
+        canvas.addEventListener('pointerup', () => drawing = false);
+    
+        const controls = document.createElement('div');
+        controls.className = 'draw-controls-bar';
+    
+        const colorSwatches = [];
+        ['#FFFFFF', '#FF3B30', '#FF9500', '#FFCC00', '#34C759', '#007AFF', '#AF52DE'].forEach(color => {
+            const swatch = document.createElement('div');
+            swatch.className = 'color-swatch';
+            swatch.style.backgroundColor = color;
+            swatch.onclick = () => {
+                ctx.strokeStyle = color;
+                controls.querySelector('.color-swatch.active')?.classList.remove('active');
+                swatch.classList.add('active');
+            };
+            colorSwatches.push(swatch);
+        });
+    
+        const sizeInput = document.createElement('input');
+        sizeInput.type = 'range';
+        sizeInput.min = 1;
+        sizeInput.max = 50;
+        sizeInput.value = 5;
+        sizeInput.style.width = '80px';
+        sizeInput.oninput = e => { ctx.lineWidth = e.target.value; };
+    
+        const undoBtn = document.createElement('button');
+        undoBtn.innerHTML = '<i class="fas fa-undo"></i>';
+        undoBtn.onclick = () => { if (hist.length > 0) ctx.putImageData(hist.pop(), 0, 0); };
+    
+        const clearBtn = document.createElement('button');
+        clearBtn.innerHTML = '<i class="fas fa-trash"></i>';
+        clearBtn.onclick = () => { ctx.clearRect(0, 0, canvas.width, canvas.height); hist.length = 0; };
+    
+        controls.append(sizeInput, ...colorSwatches, undoBtn, clearBtn);
+        
+        mainArea.append(controls, cont);
+    
+        ctx.strokeStyle = '#FFFFFF';
+        colorSwatches[0].classList.add('active');
+    }
+
+    function activateCam(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                const v = document.createElement('video');
+                v.srcObject = stream;
+                v.autoplay = true;
+                v.muted = true;
+                v.style.width = '100%';
+                v.style.height = '100%';
+                v.style.objectFit = 'cover';
+                mainArea.appendChild(v);
+            }).catch(err => {
+                mainArea.textContent = "Could not access camera.";
+                console.error(err);
+            });
+    }
+
+    function activateTimer(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+
+        function setupRunningTimer(initialSeconds) {
+            mainArea.innerHTML = '';
+            mainArea.style.padding = '0';
+            mainArea.style.display = 'flex';
+            mainArea.style.flexDirection = 'column';
+            win.classList.add('timer-is-running');
+
+            let remainingSeconds = initialSeconds;
+            let isRunning = false;
+            let endTime;
+            
+            const displayContainer = document.createElement('div');
+            displayContainer.style.cssText = `flex-grow: 1; position: relative; width: 100%; display: flex; align-items: center; justify-content: center;`;
+            
+            const svgNS = "http://www.w3.org/2000/svg";
+            const svg = document.createElementNS(svgNS, "svg");
+            svg.style.position = 'absolute';
+            svg.style.width = '90%';
+            svg.style.height = '90%';
+            svg.setAttribute('viewBox', '0 0 100 100');
+            const bgCircle = document.createElementNS(svgNS, "circle");
+            bgCircle.setAttribute('cx', '50'); bgCircle.setAttribute('cy', '50'); bgCircle.setAttribute('r', '45');
+            bgCircle.setAttribute('stroke', 'rgba(255, 255, 255, 0.2)'); bgCircle.setAttribute('stroke-width', '5'); bgCircle.setAttribute('fill', 'transparent');
+            const fgCircle = document.createElementNS(svgNS, "circle");
+            fgCircle.setAttribute('cx', '50'); fgCircle.setAttribute('cy', '50'); fgCircle.setAttribute('r', '45');
+            fgCircle.setAttribute('stroke', getComputedStyle(document.documentElement).getPropertyValue('--accent-color').trim());
+            fgCircle.setAttribute('stroke-width', '5'); fgCircle.setAttribute('fill', 'transparent');
+            fgCircle.style.transformOrigin = 'center'; fgCircle.style.transform = 'rotate(-90deg)';
+            const radius = 45;
+            const circumference = 2 * Math.PI * radius;
+            fgCircle.setAttribute('stroke-dasharray', circumference);
+            fgCircle.setAttribute('stroke-dashoffset', 0);
+            fgCircle.style.transition = 'stroke-dashoffset 1s linear';
+            svg.append(bgCircle, fgCircle);
+            displayContainer.appendChild(svg);
+
+            const display = document.createElement('div');
+            display.style.cssText = `color: white; font-weight: 700; line-height: 1; position: relative; z-index: 1;`;
+            displayContainer.appendChild(display);
+            mainArea.appendChild(displayContainer);
+
+            const updateDisplay = (timeInSeconds) => {
+                const progress = timeInSeconds / initialSeconds;
+                const offset = circumference * (1 - progress);
+                fgCircle.setAttribute('stroke-dashoffset', offset);
+
+                if (timeInSeconds < 0) timeInSeconds = 0;
+
+                if (timeInSeconds < 60) {
+                    display.textContent = String(timeInSeconds).padStart(2, '0');
+                } else {
+                    const minutes = Math.floor(timeInSeconds / 60);
+                    const seconds = String(timeInSeconds % 60).padStart(2, '0');
+                    const minutesDisplay = (minutes > 0 && minutes < 10) ? String(minutes) : String(minutes).padStart(2, '0');
+                    display.textContent = `${minutesDisplay}:${seconds}`;
+                }
+                updateFontSize();
+            };
+            
+            const updateFontSize = () => {
+                const charCount = display.textContent.length > 2 ? 4.4 : 2.2;
+                const newSize = displayContainer.clientWidth / charCount;
+                display.style.fontSize = `${newSize}px`;
+            };
+            
+            const resizeObserver = new ResizeObserver(updateFontSize);
+            win.toolResizeObserver = resizeObserver;
+            resizeObserver.observe(displayContainer);
+
+            function timerTick() {
+                const secondsLeft = Math.round((endTime - Date.now()) / 1000);
+                remainingSeconds = secondsLeft;
+                updateDisplay(secondsLeft);
+
+                if (secondsLeft <= 0) {
+                    $('bellSound').play();
+                    cleanupWindowTools(win);
+                    activateTimer(win);
+                }
+            }
+
+            const controls = document.createElement('div');
+            controls.className = 'countdown-running-controls';
+
+            const startPauseBtn = document.createElement('button');
+            startPauseBtn.className = 'icon-btn timer-start-pause-btn';
+            startPauseBtn.title = 'Start/Pause Timer (Enter)';
+            startPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+            startPauseBtn.style.backgroundColor = 'var(--success-color)';
+            startPauseBtn.onclick = () => {
+                isRunning = !isRunning;
+                if (isRunning) {
+                    endTime = Date.now() + remainingSeconds * 1000;
+                    win.activeInterval = setInterval(timerTick, 1000);
+                    timerTick();
+                    startPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                } else {
+                    clearInterval(win.activeInterval);
+                    win.activeInterval = null;
+                    startPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+                }
+            };
+            
+            const resetBtn = document.createElement('button');
+            resetBtn.className = 'icon-btn timer-reset-btn';
+            resetBtn.title = 'Reset Timer (Spacebar)';
+            resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
+            resetBtn.style.backgroundColor = 'var(--danger-color)';
+            resetBtn.onclick = () => {
+                cleanupWindowTools(win);
+                activateTimer(win);
+            };
+
+            controls.append(startPauseBtn, resetBtn);
+            mainArea.appendChild(controls);
+
+            updateDisplay(initialSeconds);
+        }
+
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '16px';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+        win.classList.remove('timer-is-running');
+
+        const title = document.createElement('h2');
+        title.className = 'countdown-title';
+        title.textContent = 'Choose Timer Duration';
+        mainArea.appendChild(title);
+
+        const selectionGrid = document.createElement('div');
+        selectionGrid.className = 'countdown-selection-grid';
+        const times = [{ label: '30 sec', seconds: 30 }, { label: '1 min', seconds: 60 }, { label: '2 min', seconds: 120 }, { label: '5 min', seconds: 300 }, { label: '10 min', seconds: 600 }, { label: '15 min', seconds: 900 }, { label: '30 min', seconds: 1800 }, { label: '1 Hour', seconds: 3600 }];
+        times.forEach(time => {
+            const btn = document.createElement('button');
+            btn.className = 'countdown-btn';
+            btn.textContent = time.label;
+            btn.onclick = () => setupRunningTimer(time.seconds);
+            selectionGrid.appendChild(btn);
+        });
+        mainArea.appendChild(selectionGrid);
+    }
+
+    function activateType(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+
+        const ta = document.createElement('div');
+        ta.contentEditable = true;
+        ta.style.flex = '1';
+        ta.style.padding = '16px';
+        ta.addEventListener('focus', () => { hotkeysEnabled = false; });
+        ta.addEventListener('blur', () => { hotkeysEnabled = true; });
+
+        const ctrl = document.createElement('div');
+        ctrl.style.cssText = 'display:flex;justify-content:center;gap:12px;padding:8px;';
+        ['fas fa-plus', 'fas fa-minus'].forEach(icon => {
+            const b = document.createElement('button');
+            b.className = 'icon-btn text-editor-control-btn';
+            b.innerHTML = `<i class="${icon}"></i>`;
+            b.style.width = '40px'; b.style.height = '40px'; b.style.fontSize = '16px';
+            b.onclick = () => { const sz = parseInt(getComputedStyle(ta).fontSize, 10); ta.style.fontSize = `${sz + (icon.includes('plus') ? 6 : -6)}px`; };
+            ctrl.appendChild(b);
+        });
+
+        mainArea.append(ta, ctrl);
+        ta.focus();
+    }
+
+    function activateDiceRoller(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+
+        const diceContainer = document.createElement('div');
+        diceContainer.className = 'die-container';
+        const controlsContainer = document.createElement('div');
+        controlsContainer.className = 'dice-controls';
+        mainArea.append(diceContainer, controlsContainer);
+        let numDice = 1;
+        
+        const createDie = (value = 1) => { 
+            const die = document.createElement('div'); 
+            die.className = 'die'; 
+            die.dataset.value = value; 
+            for (let i = 1; i <= 9; i++) { 
+                const dot = document.createElement('div'); 
+                dot.className = `die-dot dot-${i}`; 
+                die.appendChild(dot); 
+            } 
+            return die; 
+        };
+        
+        const totalDisplay = document.createElement('div');
+        totalDisplay.className = 'dice-total';
+        
+        const rollDice = (animate = true) => { 
+            let total = 0; 
+            const dice = diceContainer.querySelectorAll('.die'); 
+            dice.forEach(die => { 
+                const value = Math.floor(Math.random() * 6) + 1; 
+                total += value; 
+                die.dataset.value = value; 
+                if (animate) { 
+                    die.classList.add('rolling'); 
+                    die.addEventListener('animationend', () => die.classList.remove('rolling'), { once: true }); 
+                } 
+            }); 
+            totalDisplay.textContent = `Total: ${total}`; 
+        };
+
+        const resizeDice = () => {
+            requestAnimationFrame(() => {
+                const containerStyle = getComputedStyle(diceContainer);
+                const gap = parseFloat(containerStyle.gap) || 32;
+                const containerWidth = diceContainer.clientWidth - (parseFloat(containerStyle.paddingLeft) + parseFloat(containerStyle.paddingRight));
+                const containerHeight = diceContainer.clientHeight - (parseFloat(containerStyle.paddingTop) + parseFloat(containerStyle.paddingBottom));
+
+                if (containerWidth <= 0 || containerHeight <= 0) return;
+
+                const cols = Math.ceil(Math.sqrt(numDice));
+                const rows = Math.ceil(numDice / cols);
+
+                const sizeFromWidth = (containerWidth - (cols - 1) * gap) / cols;
+                const sizeFromHeight = (containerHeight - (rows - 1) * gap) / rows;
+                
+                const optimalSize = Math.max(48, Math.floor(Math.min(sizeFromWidth, sizeFromHeight)));
+
+                diceContainer.querySelectorAll('.die').forEach(d => {
+                    d.style.width = `${optimalSize}px`;
+                    d.style.height = `${optimalSize}px`;
+                });
+            });
+        };
+        
+        const renderDice = () => { 
+            diceContainer.innerHTML = ''; 
+            for (let i = 0; i < numDice; i++) { 
+                diceContainer.appendChild(createDie(1)); 
+            } 
+            rollDice(false);
+            resizeDice();
+        };
+        
+        const addDieBtn = document.createElement('button');
+        addDieBtn.className = 'icon-btn'; addDieBtn.innerHTML = '<i class="fas fa-plus"></i>';
+        addDieBtn.onclick = () => { if (numDice < 6) { numDice++; renderDice(); } };
+
+        const removeDieBtn = document.createElement('button');
+        removeDieBtn.className = 'icon-btn'; removeDieBtn.innerHTML = '<i class="fas fa-minus"></i>';
+        removeDieBtn.onclick = () => { if (numDice > 1) { numDice--; renderDice(); } };
+
+        const rollBtn = document.createElement('button');
+        rollBtn.className = 'icon-btn'; rollBtn.innerHTML = '<i class="fas fa-dice-d6"></i>'; rollBtn.style.backgroundColor = 'var(--success-color)'; rollBtn.onclick = () => rollDice(true);
+        
+        controlsContainer.append(addDieBtn, removeDieBtn, rollBtn, totalDisplay);
+        
+        const resizeObserver = new ResizeObserver(resizeDice);
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(mainArea);
+        
+        renderDice();
+    }
+
+    function activateStopwatch(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+
+        const display = document.createElement('div');
+        display.className = 'stopwatch-display';
+        display.textContent = '00:00.00';
+        const controls = document.createElement('div');
+        controls.className = 'stopwatch-controls';
+        mainArea.append(display, controls);
+        let elapsedTime = 0, startTime = 0, isRunning = false;
+        const formatTime = () => { const diff = elapsedTime; const minutes = String(Math.floor(diff / 60000)).padStart(2, '0'); const seconds = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0'); const milliseconds = String(Math.floor((diff % 1000) / 10)).padStart(2, '0'); display.textContent = `${minutes}:${seconds}.${milliseconds}`; };
+        
+        const startStopBtn = document.createElement('button');
+        startStopBtn.className = 'icon-btn'; startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; startStopBtn.style.backgroundColor = 'var(--success-color)';
+        startStopBtn.onclick = () => { 
+            if (isRunning) { 
+                clearInterval(win.activeInterval);
+                win.activeInterval = null;
+                elapsedTime = Date.now() - startTime; 
+                startStopBtn.innerHTML = '<i class="fas fa-pause"></i>'; 
+            } else { 
+                startTime = Date.now() - elapsedTime; 
+                win.activeInterval = setInterval(() => { elapsedTime = Date.now() - startTime; formatTime(); }, 10); 
+                startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
+            } 
+            isRunning = !isRunning; 
+        };
+        
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'icon-btn'; resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>'; resetBtn.style.backgroundColor = 'var(--danger-color)';
+        resetBtn.onclick = () => { 
+            clearInterval(win.activeInterval);
+            win.activeInterval = null;
+            isRunning = false; 
+            elapsedTime = 0; 
+            startStopBtn.innerHTML = '<i class="fas fa-play"></i>'; 
+            formatTime(); 
+        };
+        
+        controls.append(startStopBtn, resetBtn);
+        const updateFontSize = (el) => { const newSize = el.clientWidth / 4.6; display.style.fontSize = `${newSize}px`; };
+        const resizeObserver = new ResizeObserver(entries => { for (let entry of entries) { updateFontSize(entry.target); } });
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(mainArea);
+        updateFontSize(mainArea);
+    }
+
+    function activateForAndAgainst(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.gap = '0';
+        mainArea.style.overflow = 'hidden';
+
+        win.dataset.disablesHotkeys = 'true';
+        mainArea.addEventListener('pointerdown', (e) => { hotkeysEnabled = false; e.stopPropagation(); });
+
+        const createPanel = (title, bgColor) => {
+            let count = 0;
+            const panel = document.createElement('div');
+            panel.className = 'for-against-panel'; panel.style.backgroundColor = `var(${bgColor})`; panel.style.boxSizing = 'border-box';
+            const titleEl = document.createElement('h2');
+            titleEl.textContent = title;
+            const display = document.createElement('div');
+            display.className = 'for-against-display'; display.textContent = count;
+            const controls = document.createElement('div');
+            controls.className = 'for-against-controls';
+            const minusBtn = document.createElement('button');
+            minusBtn.innerHTML = '<i class="fas fa-minus"></i>';
+            minusBtn.onclick = () => {
+                if (count > 0) {
+                    count--;
+                    display.textContent = count;
+                }
+            };
+            const plusBtn = document.createElement('button');
+            plusBtn.innerHTML = '<i class="fas fa-plus"></i>';
+            plusBtn.onclick = () => { count++; display.textContent = count; };
+            controls.append(minusBtn, plusBtn);
+            panel.append(titleEl, display, controls);
+            return panel;
+        };
+        const againstPanel = createPanel('Against', '--danger-color');
+        const forPanel = createPanel('For', '--success-color');
+        mainArea.append(forPanel, againstPanel);
+
+        const updateSizes = (baseDimension) => {
+            const titleSize = baseDimension * 0.1, displaySize = baseDimension * 0.3, buttonSize = baseDimension * 0.2, buttonIconSize = buttonSize * 0.5, paddingSize = baseDimension * 0.05;
+            mainArea.querySelectorAll('.for-against-panel').forEach(el => el.style.padding = `${Math.max(10, paddingSize)}px`);
+            mainArea.querySelectorAll('.for-against-panel h2').forEach(el => el.style.fontSize = `${Math.max(14, titleSize)}px`);
+            mainArea.querySelectorAll('.for-against-display').forEach(el => el.style.fontSize = `${Math.max(30, displaySize)}px`);
+            mainArea.querySelectorAll('.for-against-controls').forEach(el => el.style.gap = `${Math.max(10, paddingSize)}px`);
+            mainArea.querySelectorAll('.for-against-controls button').forEach(el => { el.style.width = `${Math.max(35, buttonSize)}px`; el.style.height = `${Math.max(35, buttonSize)}px`; el.style.fontSize = `${Math.max(16, buttonIconSize)}px`; });
+        };
+        const resizeObserver = new ResizeObserver(entries => {
+            for (let entry of entries) {
+                const { width, height } = entry.contentRect;
+                const isPortrait = height > width * 0.95;
+                if (isPortrait) {
+                    mainArea.style.flexDirection = 'column';
+                    [againstPanel, forPanel].forEach(p => { p.style.height = '50%'; p.style.width = '100%'; });
+                    updateSizes(height / 2);
+                } else {
+                    mainArea.style.flexDirection = 'row';
+                    [againstPanel, forPanel].forEach(p => { p.style.height = '100%'; p.style.width = '50%'; });
+                    updateSizes(width / 2);
+                }
+            }
+        });
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(mainArea);
+    }
+
+    function activateCarousel(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+
+        cleanupWindowTools(win);
+        win.dataset.tool = 'carousel';
+
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.display = 'flex';
+        mainArea.style.flexDirection = 'column';
+
+        let imageUrls = [];
+        let currentIndex = 0;
+
+        const imageViewer = document.createElement('div');
+        imageViewer.className = 'carousel-container';
+
+        const imageElement = document.createElement('img');
+        imageElement.className = 'carousel-image';
+        imageElement.alt = 'Carousel Image';
+        
+        const placeholderText = document.createElement('p');
+        placeholderText.className = 'carousel-placeholder';
+        placeholderText.textContent = 'Click the folder icon to select images';
+
+        imageViewer.append(imageElement, placeholderText);
+
+        const controls = document.createElement('div');
+        controls.className = 'carousel-controls';
+
+        const prevButton = document.createElement('button');
+        prevButton.className = 'carousel-btn';
+        prevButton.innerHTML = '<i class="fas fa-arrow-left"></i>';
+        prevButton.disabled = true;
+
+        const folderButton = document.createElement('button');
+        folderButton.className = 'carousel-btn';
+        folderButton.innerHTML = '<i class="fas fa-folder-open"></i>';
+
+        const nextButton = document.createElement('button');
+        nextButton.className = 'carousel-btn';
+        nextButton.innerHTML = '<i class="fas fa-arrow-right"></i>';
+        nextButton.disabled = true;
+
+        const fileInput = document.createElement('input');
+        fileInput.type = 'file';
+        fileInput.multiple = true;
+        fileInput.accept = 'image/*';
+        fileInput.style.display = 'none';
+
+        controls.append(prevButton, folderButton, nextButton, fileInput);
+        mainArea.append(imageViewer, controls);
+        
+        const showImage = () => {
+            if (imageUrls.length > 0) {
+                imageElement.src = imageUrls[currentIndex];
+                imageElement.style.display = 'block';
+                placeholderText.style.display = 'none';
+                prevButton.disabled = false;
+                nextButton.disabled = false;
+            } else {
+                imageElement.style.display = 'none';
+                placeholderText.style.display = 'block';
+                prevButton.disabled = true;
+                nextButton.disabled = true;
+            }
+        };
+
+        folderButton.onclick = () => {
+            fileInput.click();
+        };
+
+        fileInput.onchange = (e) => {
+            const files = e.target.files;
+            if (!files || files.length === 0) return;
+
+            imageUrls = Array.from(files).map(file => URL.createObjectURL(file));
+
+            currentIndex = 0;
+            showImage();
+        };
+
+        prevButton.onclick = () => {
+            if (imageUrls.length === 0) return;
+            currentIndex = (currentIndex - 1 + imageUrls.length) % imageUrls.length;
+            showImage();
+        };
+
+        nextButton.onclick = () => {
+            if (imageUrls.length === 0) return;
+            currentIndex = (currentIndex + 1) % imageUrls.length;
+            showImage();
+        };
+    }
+
+    function activateCalculator(win) {
+        const mainArea = win.querySelector('.win-main-area');
+        if (!mainArea) return;
+        mainArea.innerHTML = '';
+        mainArea.style.padding = '0';
+        mainArea.style.overflow = 'hidden';
+
+        const calcGrid = document.createElement('div');
+        calcGrid.className = 'calculator-grid';
+
+        const display = document.createElement('div');
+        display.className = 'calculator-display';
+        const expressionDiv = document.createElement('div');
+        expressionDiv.id = 'calc-expression';
+        expressionDiv.innerHTML = '&nbsp;';
+        const inputDiv = document.createElement('div');
+        inputDiv.id = 'calc-input';
+        inputDiv.textContent = '0';
+        display.append(expressionDiv, inputDiv);
+
+        const buttonsGrid = document.createElement('div');
+        buttonsGrid.className = 'calculator-buttons';
+
+        const buttons = [
+            { text: 'sin', class: 'function' }, { text: 'cos', class: 'function' }, { text: 'tan', class: 'function' }, { text: 'log', class: 'function' }, { text: 'ln', class: 'function' },
+            { text: '(', class: 'function' }, { text: ')', class: 'function' }, { text: '√', class: 'function' }, { text: '^', class: 'function' }, { text: '!', class: 'function' },
+            { text: '7', class: 'number' }, { text: '8', class: 'number' }, { text: '9', class: 'number' }, { text: '÷', class: 'operator' }, { text: 'AC', class: 'ac' },
+            { text: '4', class: 'number' }, { text: '5', class: 'number' }, { text: '6', class: 'number' }, { text: '×', class: 'operator' }, { text: 'C', class: 'operator' },
+            { text: '1', class: 'number' }, { text: '2', class: 'number' }, { text: '3', class: 'number' }, { text: '-', class: 'operator' }, { text: '=', class: 'equals' },
+            { text: '0', class: 'number' }, { text: '.', class: 'number' }, { text: 'π', class: 'number' }, { text: '+', class: 'operator' }
+        ];
+
+        buttons.forEach(btnDef => {
+            const button = document.createElement('button');
+            button.textContent = btnDef.text;
+            button.className = `calc-btn ${btnDef.class}`;
+            button.dataset.value = btnDef.text;
+            if (btnDef.text === '=') button.style.gridRow = 'span 2';
+            buttonsGrid.appendChild(button);
+        });
+
+        calcGrid.append(display, buttonsGrid);
+        mainArea.appendChild(calcGrid);
+
+        let expression = '';
+        let lastResult = '';
+        const updateDisplay = () => {
+            expressionDiv.innerHTML = expression.replace(/\*/g, '×').replace(/\//g, '÷') || '&nbsp;';
+            inputDiv.textContent = lastResult || '0';
+        };
+
+        const factorial = (n) => (n <= 1) ? 1 : n * factorial(n - 1);
+
+        buttonsGrid.addEventListener('click', (e) => {
+            if (!e.target.matches('.calc-btn')) return;
+            const value = e.target.dataset.value;
+
+            switch(value) {
+                case 'AC':
+                    expression = '';
+                    lastResult = '';
+                    break;
+                case 'C':
+                    expression = expression.slice(0, -1);
+                    break;
+                case '=':
+                    try {
+                        let evalExpr = expression
+                            .replace(/×/g, '*')
+                            .replace(/÷/g, '/')
+                            .replace(/√/g, 'Math.sqrt')
+                            .replace(/\^/g, '**')
+                            .replace(/log/g, 'Math.log10')
+                            .replace(/ln/g, 'Math.log')
+                            .replace(/sin/g, 'Math.sin')
+                            .replace(/cos/g, 'Math.cos')
+                            .replace(/tan/g, 'Math.tan')
+                            .replace(/π/g, 'Math.PI')
+                            .replace(/(\d+)!/g, (_, n) => factorial(parseInt(n)));
+                        
+                        lastResult = new Function('return ' + evalExpr)();
+                        expression = lastResult.toString();
+                    } catch (err) {
+                        lastResult = 'Error';
+                        expression = '';
+                    }
+                    break;
+                default:
+                    if (lastResult === 'Error') {
+                        lastResult = '';
+                        expression = '';
+                    }
+                    expression += value;
+                    break;
+            }
+            updateDisplay();
+        });
+
+        const allButtons = calcGrid.querySelectorAll('.calc-btn');
+        const updateCalcFontSize = () => {
+            const width = mainArea.clientWidth;
+            const baseSize = width / 20;
+            
+            inputDiv.style.fontSize = `${Math.max(24, baseSize * 1.5)}px`;
+            expressionDiv.style.fontSize = `${Math.max(14, baseSize * 0.675)}px`;
+            allButtons.forEach(btn => {
+                if (btn.classList.contains('function')) {
+                    btn.style.fontSize = `${Math.max(12, baseSize * 0.675)}px`;
+                } else {
+                    btn.style.fontSize = `${Math.max(14, baseSize * 0.75)}px`;
+                }
+            });
+        };
+
+        const resizeObserver = new ResizeObserver(updateCalcFontSize);
+        win.toolResizeObserver = resizeObserver;
+        resizeObserver.observe(mainArea);
+        updateCalcFontSize();
+    }
+
+    function createWin() {
+        const win = document.createElement('div');
+        win.className = 'floating';
+        const i = document.querySelectorAll('.floating').length;
+        const currentSidebarWidth = getSidebarWidth();
+        win.style.left = `${30 * i}px`;
+        win.style.top = `${30 * i}px`;
+        win.style.width = `${(window.innerWidth - currentSidebarWidth) / 2}px`;
+        win.style.height = `${window.innerHeight / 2}px`;
+
+        win.annotationCurrentColor = '#FFFFFF';
+
+        const bar = document.createElement('div');
+        bar.className = 'drag-bar';
+        win.appendChild(bar);
+
+        const leftControls = document.createElement('div');
+        leftControls.className = 'tool-controls';
+
+        const penBtn = document.createElement('button');
+        penBtn.innerHTML = '<i class="fas fa-pencil-alt"></i>';
+        penBtn.title = 'Annotate';
+        penBtn.classList.add('pen-btn');
+
+        const colorBtn = document.createElement('button');
+        colorBtn.innerHTML = '<i class="fas fa-palette"></i>';
+        colorBtn.title = 'Change Color';
+
+        const colorPalette = document.createElement('div');
+        colorPalette.className = 'custom-color-palette hidden';
+        leftControls.appendChild(colorPalette);
+
+        const paletteColors = [
+            '#FFFFFF', '#C1C1C1', '#888888', '#000000',
+            '#FF3B30', '#D90429', '#FF9500', '#FFCC00',
+            '#4CD964', '#34C759', '#30D5C8', '#5AC8FA',
+            '#007AFF', '#5856D6', '#AF52DE', '#A2845E'
+        ];
+
+        paletteColors.forEach(color => {
+            const swatch = document.createElement('div');
+            swatch.className = 'custom-color-swatch';
+            swatch.style.backgroundColor = color;
+            swatch.addEventListener('click', (e) => {
+                e.stopPropagation();
+                win.annotationCurrentColor = color;
+                colorBtn.style.color = color;
+                if (win.annotationContext) {
+                    win.annotationContext.strokeStyle = color;
+                }
+                colorPalette.classList.add('hidden');
+            });
+            colorPalette.appendChild(swatch);
+        });
+
+        colorBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            document.querySelectorAll('.custom-color-palette').forEach(p => {
+                if (p !== colorPalette) p.classList.add('hidden');
+            });
+            colorPalette.classList.toggle('hidden');
+        });
+
+        const undoBtn = document.createElement('button');
+        undoBtn.innerHTML = '<i class="fas fa-undo"></i>';
+        undoBtn.title = 'Undo';
+
+        const clearBtn = document.createElement('button');
+        clearBtn.innerHTML = '<i class="fas fa-trash"></i>';
+        clearBtn.title = 'Clear Annotations';
+
+        leftControls.append(penBtn, colorBtn, undoBtn, clearBtn);
+        bar.appendChild(leftControls);
+
+        penBtn.addEventListener('click', () => {
+            penBtn.classList.toggle('active');
+            const mainArea = win.querySelector('.win-main-area');
+            if (!mainArea) return;
+
+            if (penBtn.classList.contains('active')) {
+                const canvas = document.createElement('canvas');
+                canvas.className = 'annotation-canvas';
+                mainArea.appendChild(canvas);
+
+                win.annotationCanvas = canvas;
+                win.drawingHistory = [];
+                const ctx = canvas.getContext('2d');
+                win.annotationContext = ctx;
+                let drawing = false;
+
+                const resizeObserver = new ResizeObserver(entries => {
+                    for (let entry of entries) {
+                        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+                        canvas.width = entry.contentRect.width;
+                        canvas.height = entry.contentRect.height;
+                        ctx.putImageData(imageData, 0, 0);
+                        ctx.strokeStyle = win.annotationCurrentColor;
+                        ctx.lineWidth = 5;
+                        ctx.lineCap = 'round';
+                        ctx.lineJoin = 'round';
+                    }
+                });
+                resizeObserver.observe(mainArea);
+                win.annotationResizeObserver = resizeObserver;
+
+                canvas.width = mainArea.clientWidth;
+                canvas.height = mainArea.clientHeight;
+                ctx.strokeStyle = win.annotationCurrentColor;
+                ctx.lineWidth = 5;
+                ctx.lineCap = 'round';
+                ctx.lineJoin = 'round';
+                colorBtn.style.color = win.annotationCurrentColor;
+
+                const startDraw = (e) => {
+                    saveDrawingState(canvas, ctx, win.drawingHistory);
+                    drawing = true;
+                    ctx.beginPath();
+                    const rect = canvas.getBoundingClientRect();
+                    ctx.moveTo(e.clientX - rect.left, e.clientY - rect.top);
+                };
+                const draw = (e) => {
+                    if (!drawing) return;
+                    const rect = canvas.getBoundingClientRect();
+                    ctx.lineTo(e.clientX - rect.left, e.clientY - rect.top);
+                    ctx.stroke();
+                };
+                const stopDraw = () => { drawing = false; };
+
+                canvas.addEventListener('pointerdown', startDraw);
+                canvas.addEventListener('pointermove', draw);
+                canvas.addEventListener('pointerup', stopDraw);
+                canvas.addEventListener('pointerleave', stopDraw);
+
+            } else {
+                if (win.annotationCanvas) {
+                    win.annotationCanvas.remove();
+                    win.annotationCanvas = null;
+                    win.annotationContext = null;
+                }
+                if (win.annotationResizeObserver) {
+                    win.annotationResizeObserver.disconnect();
+                    win.annotationResizeObserver = null;
+                }
+            }
+        });
+        
+        undoBtn.addEventListener('click', () => {
+            if (!win.annotationContext || !win.drawingHistory || win.drawingHistory.length === 0) return;
+            const lastState = win.drawingHistory.pop();
+            win.annotationContext.putImageData(lastState, 0, 0);
+        });
+
+        clearBtn.addEventListener('click', () => {
+            if (!win.annotationContext) return;
+            const ctx = win.annotationContext;
+            saveDrawingState(win.annotationCanvas, ctx, win.drawingHistory);
+            ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+        });
+
+        const rightControls = document.createElement('div');
+        rightControls.className = 'window-management-controls';
+        bar.appendChild(rightControls);
+
+        win.addEventListener('pointerdown', () => setActiveWindow(win));
+
+        let dx, dy;
+        bar.onpointerdown = e => {
+            if (e.target.closest('button, .tool-controls, input, .draw-controls-bar, .window-management-controls')) return;
+            e.stopPropagation();
+            
+            win.classList.remove('snapped-window');
+            win.style.opacity = '1';
+            const opacitySlider = win.querySelector('.opacity-slider');
+            if (opacitySlider) opacitySlider.value = 100;
+            
+            dx = e.clientX - win.offsetLeft;
+            dy = e.clientY - win.offsetTop;
+            
+            function mv(ev) {
+                let nx = ev.clientX - dx;
+                let ny = ev.clientY - dy;
+                nx = Math.round(nx / gridSizePx) * gridSizePx;
+                ny = Math.round(ny / gridSizePx) * gridSizePx;
+                const currentSidebarWidth = getSidebarWidth();
+                nx = Math.max(0, Math.min(nx, window.innerWidth - currentSidebarWidth - win.offsetWidth));
+                ny = Math.max(0, Math.min(ny, window.innerHeight - win.offsetHeight));
+                win.style.left = `${nx}px`;
+                win.style.top = `${ny}px`;
+            }
+
+            function up() {
+                document.removeEventListener('pointermove', mv);
+                document.removeEventListener('pointerup', up);
+                checkForSnap(win);
+            }
+            document.addEventListener('pointermove', mv);
+            document.addEventListener('pointerup', up);
+        };
+        
+        const resizeHandleSize = 10;
+        let isResizing = false;
+        let resizeDirection = '';
+
+        win.addEventListener('pointerdown', e => {
+            const rect = win.getBoundingClientRect();
+            const onTopEdge = e.clientY >= rect.top && e.clientY <= rect.top + resizeHandleSize;
+            const onBottomEdge = e.clientY <= rect.bottom && e.clientY >= rect.bottom - resizeHandleSize;
+            const onLeftEdge = e.clientX >= rect.left && e.clientX <= rect.left + resizeHandleSize;
+            const onRightEdge = e.clientX <= rect.right && e.clientX >= rect.right - resizeHandleSize;
+
+            if (!onTopEdge && !onBottomEdge && !onLeftEdge && !onRightEdge) return;
+
+            isResizing = true;
+            resizeDirection = '';
+            if (onTopEdge) resizeDirection += 'n';
+            if (onBottomEdge) resizeDirection += 's';
+            if (onLeftEdge) resizeDirection += 'w';
+            if (onRightEdge) resizeDirection += 'e';
+
+            e.preventDefault();
+
+            let lastX = e.clientX;
+            let lastY = e.clientY;
+
+            function doResize(ev) {
+                const dx = ev.clientX - lastX;
+                const dy = ev.clientY - lastY;
+                let newWidth = win.offsetWidth;
+                let newHeight = win.offsetHeight;
+                let newLeft = win.offsetLeft;
+                let newTop = win.offsetTop;
+                
+                if (resizeDirection.includes('e')) newWidth += dx;
+                if (resizeDirection.includes('w')) { newWidth -= dx; newLeft += dx; }
+                if (resizeDirection.includes('s')) newHeight += dy;
+                if (resizeDirection.includes('n')) { newHeight -= dy; newTop += dy; }
+
+                win.style.width = `${newWidth}px`;
+                win.style.height = `${newHeight}px`;
+                win.style.left = `${newLeft}px`;
+                win.style.top = `${newTop}px`;
+
+                lastX = ev.clientX;
+                lastY = ev.clientY;
+            }
+
+            function stopResize() {
+                isResizing = false;
+                document.removeEventListener('pointermove', doResize);
+                document.removeEventListener('pointerup', stopResize);
+            }
+
+            document.addEventListener('pointermove', doResize);
+            document.addEventListener('pointerup', stopResize);
+        });
+
+        win.addEventListener('mousemove', e => {
+            if (isResizing) return;
+            const rect = win.getBoundingClientRect();
+            const onTopEdge = e.clientY >= rect.top && e.clientY <= rect.top + resizeHandleSize;
+            const onBottomEdge = e.clientY <= rect.bottom && e.clientY >= rect.bottom - resizeHandleSize;
+            const onLeftEdge = e.clientX >= rect.left && e.clientX <= rect.left + resizeHandleSize;
+            const onRightEdge = e.clientX <= rect.right && e.clientX >= rect.right - resizeHandleSize;
+            
+            if ((onTopEdge && onLeftEdge) || (onBottomEdge && onRightEdge)) win.style.cursor = 'nwse-resize';
+            else if ((onTopEdge && onRightEdge) || (onBottomEdge && onLeftEdge)) win.style.cursor = 'nesw-resize';
+            else if (onTopEdge || onBottomEdge) win.style.cursor = 'ns-resize';
+            else if (onLeftEdge || onRightEdge) win.style.cursor = 'ew-resize';
+            else win.style.cursor = 'default';
+        });
+
+        const opacitySlider = document.createElement('input');
+        opacitySlider.type = 'range';
+        opacitySlider.className = 'opacity-slider';
+        opacitySlider.min = '10';
+        opacitySlider.max = '100';
+        opacitySlider.value = '100';
+        opacitySlider.title = 'Window Opacity';
+        opacitySlider.oninput = (e) => {
+            win.style.opacity = e.target.value / 100;
+        };
+        rightControls.appendChild(opacitySlider);
+
+        const buttonDefs = [
+            { type: 'quadrant', content: '<i class="fa-solid fa-table-cells-large"></i>', title: 'Snap to Quadrant (Q)' },
+            { type: 'v-half', content: '<i class="fa-solid fa-columns"></i>', title: 'Snap to Vertical Half (8)' },
+            { type: 'h-half', content: '<i class="fa-solid fa-columns h-half-icon"></i>', title: 'Snap to Horizontal Half (9)' },
+            { type: 'full', content: '<i class="fa-solid fa-expand"></i>', title: 'Snap to Fullscreen' },
+            { type: 'send-back', content: '<i class="fas fa-level-down-alt"></i>', title: 'Send to Back (PageDown)' },
+            { type: 'close', content: '×', title: 'Close Window (Backspace)' }
+        ];
+    
+        buttonDefs.forEach(def => {
+            const b = document.createElement('button');
+            b.className = (def.type === 'close') ? 'close-btn' : 'resize-btn';
+            b.innerHTML = def.content;
+            b.title = def.title;
+
+            b.onclick = () => {
+                const sidebarW = getSidebarWidth();
+                const usableWidth = window.innerWidth - sidebarW;
+                const usableHeight = window.innerHeight;
+                const halfW = usableWidth / 2;
+                const halfH = usableHeight / 2;
+
+                if (def.type === 'quadrant') {
+                    const winCenterX = win.offsetLeft + win.offsetWidth / 2;
+                    const winCenterY = win.offsetTop + win.offsetHeight / 2;
+                    
+                    win.style.left = (winCenterX < halfW) ? '0px' : `${halfW}px`;
+                    win.style.top = (winCenterY < halfH) ? '0px' : `${halfH}px`;
+                    win.style.width = `${halfW}px`;
+                    win.style.height = `${halfH}px`;
+
+                } else if (def.type === 'v-half') {
+                    const winCenterX = win.offsetLeft + win.offsetWidth / 2;
+
+                    win.style.left = (winCenterX < halfW) ? '0px' : `${halfW}px`;
+                    win.style.top = '0px';
+                    win.style.width = `${halfW}px`;
+                    win.style.height = `${usableHeight}px`;
+
+                } else if (def.type === 'h-half') {
+                    const winCenterY = win.offsetTop + win.offsetHeight / 2;
+
+                    win.style.top = (winCenterY < halfH) ? '0px' : `${halfH}px`;
+                    win.style.left = '0px';
+                    win.style.width = `${usableWidth}px`;
+                    win.style.height = `${halfH}px`;
+
+                } else if (def.type === 'full') {
+                    win.style.left = '0';
+                    win.style.top = '0';
+                    win.style.width = `${usableWidth}px`;
+                    win.style.height = `${usableHeight}px`;
+                } else if (def.type === 'send-back') {
+                    const allWindows = document.querySelectorAll('.floating');
+                    if (allWindows.length < 2) return;
+
+                    let minZ = Infinity;
+                    allWindows.forEach(w => {
+                        const z = parseInt(window.getComputedStyle(w).zIndex, 10);
+                        if (!isNaN(z) && z < minZ) {
+                            minZ = z;
+                        }
+                    });
+
+                    win.style.zIndex = minZ - 1;
+                    win.classList.remove('active-window');
+                } else if (def.type === 'close') {
+                    cleanupWindowTools(win);
+                    win.remove(); 
+                }
+            };
+            rightControls.appendChild(b);
+        });
+
+        win.addEventListener('dragover', e => e.preventDefault());
+        win.addEventListener('drop', handleDrop);
+
+        const winBody = document.createElement('div');
+        winBody.className = 'win-body';
+        const mainArea = document.createElement('div');
+        mainArea.className = 'win-main-area';
+
+        const winSidebar = document.createElement('div');
+        winSidebar.className = 'win-sidebar';
+        winBody.append(mainArea, winSidebar);
+        win.appendChild(winBody);
+
+        const tools = [
+            { key: 'd', icon: 'fas fa-pencil-alt', func: activateDraw, title: 'Drawing Canvas (D)' },
+            { key: 't', icon: 'fas fa-font', func: activateType, title: 'Text Editor (T)' },
+            { key: '0', icon: 'fas fa-list-ol', func: activateNumberedList, title: 'Numbered List (0)' },
+            { key: 'w', icon: 'fas fa-camera', func: activateCam, title: 'Webcam (W)', premium: true },
+            { key: 'v', icon: 'fas fa-images', func: activateCarousel, title: 'Photo Carousel (V)', premium: true },
+            { key: 'o', icon: 'fas fa-hourglass-start', func: activateTimer, title: 'Countdown Timer (O)', premium: true },
+            { key: 'h', icon: 'fas fa-stopwatch', func: activateStopwatch, title: 'Stopwatch (H)', premium: true },
+            { key: 'g', icon: 'fas fa-dice', func: activateDiceRoller, title: 'Dice Roller (G)', premium: true },
+            { key: 'a', icon: 'fas fa-balance-scale', func: activateForAndAgainst, title: 'For/Against Counter (A)', premium: true },
+            { key: 'u', icon: 'fas fa-calculator', func: activateCalculator, title: 'Calculator (U)', premium: true }
+        ];
+
+        tools.forEach(tool => {
+            const btn = document.createElement('button');
+            btn.className = 'icon-btn';
+            if (tool.premium) {
+                btn.classList.add('premium-feature');
+            }
+            btn.dataset.hotkey = tool.key;
+            btn.innerHTML = `<i class="${tool.icon}"></i>`;
+            btn.onclick = () => {
+                if (tool.premium && !window.TT.isPremium) {
+                    openUpgradePanel();
+                    return;
+                }
+                cleanupWindowTools(win);
+                tool.func(win);
+            };
+
+            const hotkeyLabel = document.createElement('span');
+            hotkeyLabel.className = 'hotkey-label';
+            hotkeyLabel.textContent = tool.key.toUpperCase();
+            
+            const tooltip = document.createElement('span');
+            tooltip.className = 'tooltip';
+            tooltip.textContent = tool.title;
+            
+            btn.append(hotkeyLabel, tooltip);
+            winSidebar.appendChild(btn);
+        });
+        
+        const fileInput = document.createElement('input');
+        fileInput.type = 'file';
+        fileInput.style.display = 'none';
+        fileInput.accept = 'image/*,video/*,audio/*,.pdf';
+        win.appendChild(fileInput);
+
+        const uploadBtn = document.createElement('button');
+        uploadBtn.className = 'icon-btn upload-btn';
+        uploadBtn.title = 'Import File (I)';
+        uploadBtn.innerHTML = '<i class="fas fa-file-arrow-up"></i>';
+        uploadBtn.onclick = () => fileInput.click();
+
+        fileInput.onchange = () => {
+            if (fileInput.files.length > 0) {
+                displayFileInWindow(win, fileInput.files[0]);
+            }
+        };
+        winSidebar.appendChild(uploadBtn);
+        
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'icon-btn reset-content-btn';
+        resetBtn.title = 'Erase Content (E)';
+        resetBtn.innerHTML = '<i class="fas fa-sync-alt"></i>';
+        resetBtn.onclick = () => {
+            const pos = { left: win.style.left, top: win.style.top, width: win.style.width, height: win.style.height, opacity: win.style.opacity };
+            const wasActive = win.classList.contains('active-window');
+            cleanupWindowTools(win);
+            win.remove();
+            const n = createWin();
+            n.style.left = pos.left; n.style.top = pos.top; n.style.width = pos.width; n.style.height = pos.opacity;
+            if (wasActive) setActiveWindow(n);
+        };
+        winSidebar.appendChild(resetBtn);
+
+        const dropZone = document.createElement('div');
+        dropZone.className = 'drop-zone';
+        dropZone.onclick = () => {
+            const fileInput = win.querySelector('input[type="file"]');
+            if (fileInput) {
+                fileInput.click();
+            }
+        };
+        dropZone.innerHTML = `
+        <div class="drop-zone-inner">
+            <i class="drop-zone-icon fas fa-upload"></i>
+            <div class="drop-zone-file-types">
+                <i class="fas fa-file-image"></i><i class="fas fa-file-video"></i><i class="fas fa-file-audio"></i><i class="fas fa-file-pdf"></i>
+            </div>
+        </div>`;
+        mainArea.appendChild(dropZone);
+
+        document.body.appendChild(win);
+        return win;
+    }
+
+    function calculateIntersection(win1, win2) {
+        const rect1 = win1.getBoundingClientRect();
+        const rect2 = win2.getBoundingClientRect();
+
+        const interLeft = Math.max(rect1.left, rect2.left);
+        const interTop = Math.max(rect1.top, rect2.top);
+        const interRight = Math.min(rect1.right, rect2.right);
+        const interBottom = Math.min(rect1.bottom, rect2.bottom);
+
+        const interWidth = interRight - interLeft;
+        const interHeight = interBottom - interTop;
+
+        if (interWidth <= 0 || interHeight <= 0) return 0;
+
+        const intersectionArea = interWidth * interHeight;
+        const win2Area = rect2.width * rect2.height;
+
+        return intersectionArea / win2Area;
+    }
+
+    function checkForSnap(draggedWin) {
+        const allWindows = document.querySelectorAll('.floating');
+
+        for (const targetWin of allWindows) {
+            if (draggedWin === targetWin) continue;
+            
+            const sameWidth = Math.abs(draggedWin.offsetWidth - targetWin.offsetWidth) < 5;
+            const sameHeight = Math.abs(draggedWin.offsetHeight - targetWin.offsetHeight) < 5;
+
+            if (sameWidth && sameHeight) {
+                const overlap = calculateIntersection(draggedWin, targetWin);
+                if (overlap >= 0.55) {
+                    draggedWin.style.left = targetWin.style.left;
+                    draggedWin.style.top = targetWin.style.top;
+                    draggedWin.style.opacity = '0.3';
+
+                    const opacitySlider = draggedWin.querySelector('.opacity-slider');
+                    if (opacitySlider) opacitySlider.value = 30;
+                    
+                    draggedWin.classList.add('snapped-window');
+                    return; 
+                }
+            }
+        }
+    }
+
+    function handleLayout(layoutId, layoutFunction) {
+        if (layoutState.activeLayout === layoutId) {
+            clearWins();
+            layoutState.activeLayout = null;
+            layoutState.isVisible = true;
+            localStorage.removeItem('ttx_lastLayout');
+        } else {
+            layoutFunction();
+            layoutState.activeLayout = layoutId;
+            layoutState.isVisible = true;
+            localStorage.setItem('ttx_lastLayout', layoutId);
+        }
+    }
+
+    function buildAndShowLayout(layoutId, showAnim = true) {
+        const sidebarW = getSidebarWidth();
+        const w = window.innerWidth - sidebarW;
+        const h = window.innerHeight;
+        const hw = w / 2;
+        const hh = h / 2;
+        let configs = [];
+
+        switch (layoutId) {
+            case 1:
+                configs.push({ left: '0', top: '0', width: `${w}px`, height: `${h}px` });
+                break;
+            case 2:
+                configs.push({ left: '0px', top: '0px', width: `${hw}px`, height: `${h}px` }, { left: `${hw}px`, top: '0px', width: `${hw}px`, height: `${h}px` });
+                break;
+            case 3:
+                configs.push({ left: '0px', top: '0px', width: `${hw}px`, height: `${h}px` }, { left: `${hw}px`, top: '0px', width: `${hw}px`, height: `${hh}px` }, { left: `${hw}px`, top: `${hh}px`, width: `${hw}px`, height: `${hh}px` });
+                break;
+            case 4:
+                configs.push({ left: `${hw}px`, top: '0px', width: `${hw}px`, height: `${h}px` }, { left: '0px', top: '0px', width: `${hw}px`, height: `${hh}px` }, { left: '0px', top: `${hh}px`, width: `${hw}px`, height: `${hh}px` });
+                break;
+            case 5:
+                configs.push({ left: '0px', top: '0px', width: `${hw}px`, height: `${hh}px` }, { left: `${hw}px`, top: '0px', width: `${hw}px`, height: `${hh}px` }, { left: '0px', top: `${hh}px`, width: `${hw}px`, height: `${hh}px` }, { left: `${hw}px`, top: `${hh}px`, width: `${hw}px`, height: `${hh}px` });
+                break;
+            case 6:
+                const rightColWidth6 = w * 0.1573605;
+                const leftColWidth6 = w * 0.429875;
+                const middleColWidth6 = w * 0.4127645;
+                const middleColStart6 = leftColWidth6;
+                const rightColStart6 = leftColWidth6 + middleColWidth6;
+    
+                configs.push({ left: '0px', top: '0px', width: `${leftColWidth6}px`, height: `${h}px` });
+                configs.push({ left: `${middleColStart6}px`, top: '0px', width: `${middleColWidth6}px`, height: `${h}px` });
+                configs.push({ left: `${rightColStart6}px`, top: '0px', width: `${rightColWidth6}px`, height: `${hh}px` });
+                configs.push({ left: `${rightColStart6}px`, top: `${hh}px`, width: `${rightColWidth6}px`, height: `${hh}px` });
+                break;
+            case 7:
+                const rightColWidth7 = w * 0.1573605;
+                const leftColWidth7 = w * 0.429875;
+                const middleColWidth7 = w * 0.4127645;
+                const middleColStart7 = leftColWidth7;
+                const rightColStart7 = leftColWidth7 + middleColWidth7;
+
+                configs.push({ left: '0px', top: '0px', width: `${leftColWidth7}px`, height: `${h}px` });
+                configs.push({ left: `${middleColStart7}px`, top: '0px', width: `${middleColWidth7}px`, height: `${hh}px` });
+                configs.push({ left: `${middleColStart7}px`, top: `${hh}px`, width: `${middleColWidth7}px`, height: `${hh}px` });
+                configs.push({ left: `${rightColStart7}px`, top: '0px', width: `${rightColWidth7}px`, height: `${hh}px` });
+                configs.push({ left: `${rightColStart7}px`, top: `${hh}px`, width: `${rightColWidth7}px`, height: `${hh}px` });
+                break;
+            case 8:
+                const leftColWidth8 = w * 0.75;
+                const rightColWidth8 = w * 0.25;
+                const rightColStart8 = leftColWidth8;
+
+                configs.push({ left: '0px', top: '0px', width: `${leftColWidth8}px`, height: `${h}px` });
+                configs.push({ left: `${rightColStart8}px`, top: '0px', width: `${rightColWidth8}px`, height: `${hh}px` });
+                configs.push({ left: `${rightColStart8}px`, top: `${hh}px`, width: `${rightColWidth8}px`, height: `${hh}px` });
+                break;
+        }
+        createWinArrangement(configs);
+        if (showAnim) {
+            showOverlay(String(layoutId));
+        }
+    }
+
+    let infoWindowElements = {};
+
+    const renderInfoTextForWindow = (langCode) => {
+        if (!infoWindowElements.wrapper) return;
+        const t = infoTranslations[langCode] || infoTranslations['en'];
+        let htmlContent = `<img src="ttlogo.png" alt="Teacher Toybox Logo" class="info-window-logo"><h2>${t.title}</h2><p>${t.subtitle}</p>`;
+        for (let i = 1; i <= 4; i++) {
+            if (t[`section${i}_title`]) {
+                htmlContent += `<h3>${t[`section${i}_title`]}</h3><ul>`;
+                t[`section${i}_points`].forEach(point => {
+                    const parts = point.split(/:(.+)/s);
+                    htmlContent += `<li><strong>${parts[0]}:</strong> ${parts.length > 1 ? parts[1].trim() : ''}</li>`;
+                });
+                htmlContent += `</ul>`;
+            }
+        }
+        htmlContent += `<p><em>${t.conclusion}</em></p>`;
+        infoWindowElements.wrapper.innerHTML = htmlContent;
+    };
+
+    const fitInfoWindowText = () => {
+        if (!infoWindowElements.wrapper) return;
+        infoWindowElements.wrapper.style.fontSize = '';
+    
+        let minSize = 8;
+        let maxSize = parseFloat(window.getComputedStyle(infoWindowElements.wrapper).fontSize);
+        let finalSize = minSize;
+    
+        for (let i = 0; i < 10; i++) {
+            let midSize = (minSize + maxSize) / 2;
+            infoWindowElements.wrapper.style.fontSize = `${midSize}px`;
+    
+            if (infoWindowElements.wrapper.scrollHeight > infoWindowElements.wrapper.clientHeight) {
+                maxSize = midSize;
+            } else {
+                finalSize = midSize;
+                minSize = midSize;
+            }
+        }
+        infoWindowElements.wrapper.style.fontSize = `${finalSize}px`;
+    };
+
+    window.TT.updateInfoWindowLanguage = (lang) => {
+        const infoWindow = document.querySelector('.info-content-wrapper');
+        if (infoWindow) {
+            renderInfoTextForWindow(lang);
+            fitInfoWindowText();
+        }
+    };
+
+    function buildInfoWindow(showAnim = true) {
+        clearWins();
+        const w = createWin();
+        const currentSidebarWidth = getSidebarWidth();
+        w.style.left = '0px';
+        w.style.top = '0px';
+        w.style.width = `${window.innerWidth - currentSidebarWidth}px`;
+        w.style.height = `${window.innerHeight}px`;
+        w.style.resize = 'none';
+        w.style.borderRadius = '0';
+    
+        const bar = w.querySelector('.drag-bar');
+        if (bar) bar.style.display = 'none';
+
+        const closeBtn = document.createElement('button');
+        closeBtn.className = 'info-close-btn';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.title = 'Close';
+        closeBtn.onclick = (e) => {
+            e.stopPropagation();
+            closeInfoIfOpen();
+        };
+        w.appendChild(closeBtn);
+
+        const winSidebar = w.querySelector('.win-sidebar');
+        if (winSidebar) winSidebar.style.display = 'none';
+        
+        const mainArea = w.querySelector('.win-main-area');
+        if (mainArea) {
+            mainArea.innerHTML = '';
+            mainArea.style.padding = '0';
+            mainArea.style.overflow = 'hidden';
+        }
+    
+        const v = document.createElement('div');
+        v.className = 'content-fill';
+        v.style.height = '100%';
+        v.style.position = 'relative';
+    
+        const infoWrapper = document.createElement('div');
+        infoWrapper.className = 'info-content-wrapper';
+    
+        infoWindowElements.wrapper = infoWrapper;
+        
+        const initialLang = localStorage.getItem('ttx_lang') || 'en';
+        renderInfoTextForWindow(initialLang);
+
+        v.append(infoWrapper);
+        if(mainArea) mainArea.appendChild(v);
+    
+        setTimeout(() => {
+            infoWrapper.classList.add('info-fade-in');
+        }, 10);
+    
+        if (mainArea) {
+            const resizeObserver = new ResizeObserver(() => {
+                requestAnimationFrame(fitInfoWindowText);
+            });
+            resizeObserver.observe(mainArea);
+            w.toolResizeObserver = resizeObserver;
+        }
+    
+        setTimeout(fitInfoWindowText, 50);
+    
+        w.onclick = (e) => {
+            if (e.target === w || e.target === v || e.target === mainArea) {
+                 closeInfoIfOpen();
+            }
+        };
+    
+        if (showAnim) {
+            showOverlay('i');
+        }
+    }
+
+    $('addButton').onclick = () => {
+        const newWin = createWin();
+        setActiveWindow(newWin);
+        showOverlay('+');
+        layoutState.activeLayout = null;
+        localStorage.removeItem('ttx_lastLayout');
+    };
+
+    document.querySelectorAll('[id^="layout"][id$="Button"]').forEach(button => {
+        button.onclick = () => {
+            const layoutId = parseInt(button.id.match(/\d+/)[0]);
+            handleLayout(layoutId, () => buildAndShowLayout(layoutId));
+        };
+    });
+
+    $('colorButton').onclick = () => {
+        if (closeInfoIfOpen()) return;
+        $('colorPicker').click();
+        layoutState.activeLayout = null;
+        localStorage.removeItem('ttx_lastLayout');
+    };
+    
+    const colorPalette = $('color-palette');
+    const themePaletteButton = $('themePaletteButton');
+    if (themePaletteButton) {
+        themePaletteButton.onclick = (e) => {
+            e.stopPropagation();
+            if (closeInfoIfOpen()) return;
+            colorPalette.classList.toggle('hidden');
+        };
+    }
+    
+    if (colorPalette) {
+        colorPalette.addEventListener('click', (e) => {
+            if (e.target.classList.contains('palette-swatch')) {
+                const newColor = e.target.dataset.color;
+                if (newColor) {
+                    applyAccentColor(newColor);
+                    localStorage.setItem('ttx_accentColor', newColor);
+                    colorPalette.classList.add('hidden');
+                }
+            }
+        });
+    }
+
+    $('colorPicker').oninput = e => {
+        if (closeInfoIfOpen()) return;
+        const newColor = e.target.value;
+        applyAccentColor(newColor);
+        localStorage.setItem('ttx_accentColor', newColor);
+        layoutState.activeLayout = null;
+    };
+
+    function applyAccentColor(color) {
+        document.documentElement.style.setProperty('--accent-color', color);
+        document.body.classList.toggle('custom-color', color.toLowerCase() !== defaultAccentColor.toLowerCase());
+        const r = parseInt(color.slice(1, 3), 16);
+        const g = parseInt(color.slice(3, 5), 16);
+        const b = parseInt(color.slice(5, 7), 16);
+        document.documentElement.style.setProperty('--accent-color-rgb', `${r}, ${g}, ${b}`);
+    }
+
+    const originalColorButton = $('originalColorButton');
+    if (originalColorButton) {
+        originalColorButton.onclick = () => {
+            if (closeInfoIfOpen()) return;
+            applyAccentColor(defaultAccentColor);
+            localStorage.setItem('ttx_accentColor', defaultAccentColor);
+            showOverlay('↺');
+            layoutState.activeLayout = null;
+        };
+    }
+
+    let lastMagicClick = 0;
+    $('magicColorButton').onclick = async() => {
+        if (closeInfoIfOpen()) return;
+        const now = Date.now();
+        if (now - lastMagicClick < 300) {
+            applyAccentColor(defaultAccentColor);
+            localStorage.setItem('ttx_accentColor', defaultAccentColor);
+            showOverlay('↺');
+            lastMagicClick = 0;
+            layoutState.activeLayout = null;
+            return;
+        }
+        lastMagicClick = now;
+        const colorCounts = new Map();
+        const tempCanvas = document.createElement('canvas');
+        const tempCtx = tempCanvas.getContext('2d', { willReadFrequently: true });
+        const sources = document.querySelectorAll('.floating:not(.hidden) img, .floating:not(.hidden) canvas');
+        if (sources.length === 0) {
+            showOverlay('?');
+            return;
+        }
+        showOverlay('...');
+        for (const el of sources) {
+            try {
+                if (el.tagName === 'IMG') {
+                    if (!el.complete) await new Promise(resolve => { el.onload = resolve; });
+                    tempCanvas.width = el.naturalWidth;
+                    tempCanvas.height = el.naturalHeight;
+                } else {
+                    tempCanvas.width = el.width;
+                    tempCanvas.height = el.height;
+                }
+
+                const isLightMode = document.body.classList.contains('light-mode');
+                const bgColor = isLightMode ? '#FFFFFF' : '#333'; 
+                tempCtx.fillStyle = bgColor;
+                tempCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
+                
+                tempCtx.drawImage(el, 0, 0);
+                
+                const data = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height).data;
+                for (let i = 0; i < data.length; i += 20) {
+                    const [r, g, b, a] = [data[i], data[i + 1], data[i + 2], data[i + 3]];
+                    if (a < 128 || (Math.abs(r - g) < 20 && Math.abs(g - b) < 20) || (r < 20 && g < 20 && b < 20) || (r > 235 && g > 235 && b > 235)) {
+                        continue;
+                    }
+                    const quantR = r >> 4,
+                        quantG = g >> 4,
+                        quantB = b >> 4;
+                    const key = `${quantR},${quantG},${quantB}`;
+                    colorCounts.set(key, (colorCounts.get(key) || 0) + 1);
+                }
+            } catch (err) {
+                console.error("Could not process element for color extraction:", err);
+            }
+        }
+        if (colorCounts.size === 0) {
+            showOverlay('?');
+            return;
+        }
+        const prominentColorKey = [...colorCounts.entries()].reduce((a, e) => e[1] > a[1] ? e : a)[0];
+        const [r, g, b] = prominentColorKey.split(',').map(c => (parseInt(c) << 4) | (parseInt(c)));
+        const toHex = c => c.toString(16).padStart(2, '0');
+        const finalColor = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+
+        applyAccentColor(finalColor);
+        localStorage.setItem('ttx_accentColor', finalColor);
+        showOverlay('🎨');
+        layoutState.activeLayout = null;
+    };
+
+    $('bellButton').onclick = () => {
+        if (closeInfoIfOpen()) return;
+        const s = $('bellSound');
+        s.currentTime = 0;
+        s.play()
+    };
+    $('shhButton').onclick = () => {
+        if (closeInfoIfOpen()) return;
+        const s = $('shhSound');
+        s.currentTime = 0;
+        s.play().catch(() => {})
+    };
+
+    (function() {
+        let isActive = false;
+        let laserDotElement = null;
+
+        const updatePosition = (e) => {
+            if (!laserDotElement) return;
+            const x = e.clientX - 10;
+            const y = e.clientY - 10;
+            laserDotElement.style.transform = `translate(${x}px, ${y}px)`;
+        };
+
+        const turnOn = () => {
+            if (isActive) return;
+            laserDotElement = document.createElement('div');
+            laserDotElement.id = 'laserDot';
+            document.body.appendChild(laserDotElement);
+            document.addEventListener('pointermove', updatePosition);
+            $('laserButton').classList.add('active');
+            isActive = true;
+        };
+
+        const turnOff = () => {
+            if (!isActive) return;
+            document.removeEventListener('pointermove', updatePosition);
+            if (laserDotElement) {
+                laserDotElement.remove();
+                laserDotElement = null;
+            }
+            $('laserButton').classList.remove('active');
+            isActive = false;
+        };
+
+        const toggle = () => {
+            if (closeInfoIfOpen()) return;
+            isActive ? turnOff() : turnOn();
+        };
+
+        const laserButton = $('laserButton');
+        if (laserButton) {
+            laserButton.onclick = toggle;
+        }
+
+        global.TT.turnOffLaser = turnOff;
+    })();
+
+    $('infoButton').onclick = () => {
+        handleLayout('info', () => buildInfoWindow(true));
+    };
+
+    function showShareModal() {
+        const lang = localStorage.getItem('ttx_lang') || 'en';
+        const dict = window.I18N[lang] || window.I18N.en;
+        const t = window.t;
+    
+        const url = "https://www.teachertoybox.com";
+        const text = "Check out Teacher Toybox! A free interactive digital whiteboard for classrooms with fun and engaging tools.";
+        const title = "Teacher Toybox";
+    
+        const backdrop = document.createElement('div');
+        backdrop.className = 'share-backdrop';
+    
+        const modal = document.createElement('div');
+        modal.className = 'share-modal';
+        modal.innerHTML = `
+            <button class="close-modal-btn">&times;</button>
+            <h3 data-i18n="panel.share.title">${t(dict, 'panel.share.title') || 'Share with a Friend'}</h3>
+            <p class="share-intro-text">Like this free tool? Help other teachers discover it!</p>
+            <div class="share-grid">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" class="share-grid-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}" target="_blank" class="share-grid-btn twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}&summary=${encodeURIComponent(text)}" target="_blank" class="share-grid-btn linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                <a href="https://api.whatsapp.com/send?text=${encodeURIComponent(text + ' ' + url)}" target="_blank" class="share-grid-btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                 <a href="https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}" target="_blank" class="share-grid-btn reddit"><i class="fab fa-reddit-alien"></i> Reddit</a>
+                <a href="mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(text)}%0A%0A${encodeURIComponent(url)}" class="share-grid-btn email"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+            <p class="copy-link-heading">Or copy the link</p>
+            <div class="copy-link-area">
+                <input type="text" value="${url}" readonly>
+                <button>Copy Link</button>
+            </div>
+        `;
+        document.body.append(backdrop, modal);
+    
+        setTimeout(() => {
+            backdrop.style.opacity = '1';
+            modal.style.opacity = '1';
+            modal.style.transform = 'translate(-50%, -50%) scale(1)';
+        }, 10);
+    
+        const closeModal = () => {
+            backdrop.style.opacity = '0';
+            modal.style.opacity = '0';
+            modal.style.transform = 'translate(-50%, -50%) scale(0.9)';
+            setTimeout(() => {
+                backdrop.remove();
+                modal.remove();
+            }, 300);
+        };
+        
+        backdrop.onclick = closeModal;
+        modal.querySelector('.close-modal-btn').onclick = closeModal;
+        
+        const copyBtn = modal.querySelector('.copy-link-area button');
+        const urlInput = modal.querySelector('.copy-link-area input');
+        
+        copyBtn.onclick = () => {
+            const showSuccess = () => {
+                copyBtn.textContent = 'Copied!';
+                copyBtn.style.backgroundColor = 'var(--success-color)';
+                setTimeout(() => {
+                    copyBtn.textContent = 'Copy Link';
+                    copyBtn.style.backgroundColor = '';
+                }, 2000);
+            };
+    
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(url).then(showSuccess);
+            } else {
+                urlInput.select();
+                document.execCommand('copy');
+                showSuccess();
+            }
+        };
+    }
+
+    $('shareButton').onclick = () => {
+        if (closeInfoIfOpen()) return;
+        showShareModal();
+    };
+
+    $('refreshButton').onclick = () => {
+        if (global.TT.turnOffLaser) {
+            global.TT.turnOffLaser();
+        }
+        clearWins();
+        showOverlay('🗑️');
+        layoutState.activeLayout = null;
+        localStorage.removeItem('ttx_lastLayout');
+    };
+
+    $('extraToolsButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('layout-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
+        $('extra-tools-bar').classList.toggle('open');
+    };
+
+    $('screenButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('extra-tools-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
+        $('layout-bar').classList.toggle('open');
+    };
+
+    $('managementButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('extra-tools-bar').classList.remove('open');
+        $('layout-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
+        $('management-bar').classList.toggle('open');
+    };
+    
+    $('helpButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('extra-tools-bar').classList.remove('open');
+        $('layout-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        if($('communication-bar')) $('communication-bar').classList.remove('open');
+        $('help-bar').classList.toggle('open');
+    };
+
+    $('communicationButton').onclick = (e) => {
+        e.stopPropagation();
+        if (closeInfoIfOpen()) return;
+        $('extra-tools-bar').classList.remove('open');
+        $('layout-bar').classList.remove('open');
+        $('management-bar').classList.remove('open');
+        $('help-bar').classList.remove('open');
+        if (upgradePanel) upgradePanel.classList.remove('open');
+        $('communication-bar').classList.toggle('open');
+    };
+
+    let layoutTimeout, extraToolsTimeout, managementTimeout, helpTimeout, communicationTimeout;
+    const setupToolbarAutoRetract = (buttonId, barId, timeoutVar) => {
+        const button = $(buttonId);
+        const bar = $(barId);
+        if (!button || !bar) return;
+
+        const startTimer = () => {
+            clearTimeout(timeoutVar);
+            timeoutVar = setTimeout(() => bar.classList.remove('open'), 2000);
+        };
+        const cancelTimer = () => clearTimeout(timeoutVar);
+
+        button.addEventListener('mouseleave', startTimer);
+        bar.addEventListener('mouseleave', startTimer);
+        button.addEventListener('mouseenter', cancelTimer);
+        bar.addEventListener('mouseenter', cancelTimer);
+    };
+
+    setupToolbarAutoRetract('screenButton', 'layout-bar', layoutTimeout);
+    setupToolbarAutoRetract('extraToolsButton', 'extra-tools-bar', extraToolsTimeout);
+    setupToolbarAutoRetract('managementButton', 'management-bar', managementTimeout);
+    setupToolbarAutoRetract('helpButton', 'help-bar', helpTimeout);
+    setupToolbarAutoRetract('communicationButton', 'communication-bar', communicationTimeout);
+    
+    const feedbackButton = $('feedbackButton');
+    const feedbackPanel = $('feedback-panel');
+    const feedbackBackdrop = $('feedback-backdrop');
+    const closeFeedbackBtn = $('close-feedback-btn');
+    const stars = document.querySelectorAll('.star-rating .fa-regular.fa-star');
+    const submitFeedbackBtn = $('submit-feedback-btn');
+
+    let currentRating = 0;
+
+    function openFeedbackPanel() {
+        if(feedbackBackdrop && feedbackPanel) {
+            feedbackBackdrop.classList.remove('hidden');
+            feedbackPanel.classList.add('open');
+        }
+    }
+
+    function closeFeedbackPanel() {
+        if(feedbackPanel && feedbackBackdrop) {
+            const currentLang = localStorage.getItem('ttx_lang') || 'en';
+            feedbackPanel.classList.remove('open');
+            feedbackBackdrop.classList.add('hidden');
+            setTimeout(() => {
+                $('feedback-comment').value = '';
+                currentRating = 0;
+                updateStars();
+                submitFeedbackBtn.disabled = false;
+                submitFeedbackBtn.style.backgroundColor = '';
+                submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButton') || 'Submit';
+            }, 400);
+        }
+    }
+
+    function updateStars() {
+        stars.forEach(star => {
+            if (parseInt(star.dataset.value) <= currentRating) {
+                star.classList.replace('fa-regular', 'fa-solid');
+                star.style.color = '#fdd835';
+            } else {
+                star.classList.replace('fa-solid', 'fa-regular');
+                star.style.color = '';
+            }
+        });
+    }
+
+    if (feedbackButton) feedbackButton.onclick = openFeedbackPanel;
+    if (closeFeedbackBtn) closeFeedbackBtn.onclick = closeFeedbackPanel;
+    if (feedbackBackdrop) feedbackBackdrop.onclick = closeFeedbackPanel;
+
+    stars.forEach(star => {
+        star.addEventListener('click', () => {
+            currentRating = parseInt(star.dataset.value);
+            updateStars();
+        });
+    });
+    
+    if (submitFeedbackBtn) {
+        submitFeedbackBtn.onclick = async () => {
+            const comment = $('feedback-comment').value;
+            if (currentRating === 0 && !comment.trim()) {
+                alert('Please provide a rating or a comment.');
+                return;
+            }
+            const currentLang = localStorage.getItem('ttx_lang') || 'en';
+
+            submitFeedbackBtn.disabled = true;
+            submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButtonSending') || 'Sending...';
+
+            const formData = new FormData();
+            formData.append('rating', currentRating);
+            formData.append('comment', comment);
+            try {
+                const response = await fetch('https://formspree.io/f/xovloydp', {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (response.ok) {
+                    submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButtonSuccess') || 'Thank You!';
+                    submitFeedbackBtn.style.backgroundColor = 'var(--success-color)';
+                    setTimeout(closeFeedbackPanel, 1500);
+                } else { throw new Error('Form submission failed'); }
+            } catch (error) {
+                console.error('Error submitting feedback:', error);
+                alert('Sorry, there was an error sending your feedback.');
+                submitFeedbackBtn.disabled = false;
+                submitFeedbackBtn.textContent = window.t(window.I18N[currentLang], 'panel.feedback.submitButton') || 'Submit';
+            }
+        };
+    }
+
+    const policyButton = $('policyButton');
+    const policyPanel = $('policy-panel');
+    const policyBackdrop = $('policy-backdrop');
+    const closePolicyBtn = $('close-policy-btn');
+
+    function openPolicyPanel() {
+        if(policyBackdrop && policyPanel) {
+            policyBackdrop.classList.remove('hidden');
+            policyPanel.classList.add('open');
+        }
+    }
+
+    function closePolicyPanel() {
+        if(policyPanel && policyBackdrop) {
+            policyPanel.classList.remove('open');
+            policyBackdrop.classList.add('hidden');
+        }
+    }
+
+    if (policyButton) policyButton.onclick = openPolicyPanel;
+    if (closePolicyBtn) closePolicyBtn.onclick = closePolicyPanel;
+    if (policyBackdrop) policyBackdrop.onclick = closePolicyPanel;
+
+    // --- START: Contact Us Panel ---
+    const contactButton = $('contactButton');
+    const contactPanel = $('contact-panel');
+    const contactBackdrop = $('contact-backdrop');
+    const closeContactBtn = $('close-contact-btn');
+    const contactForm = $('contact-form');
+
+    function openContactPanel() {
+        if(contactBackdrop && contactPanel) {
+            contactBackdrop.classList.remove('hidden');
+            contactPanel.classList.add('open');
+        }
+    }
+
+    function closeContactPanel() {
+        if(contactPanel && contactBackdrop) {
+            contactPanel.classList.remove('open');
+            contactBackdrop.classList.add('hidden');
+        }
+    }
+
+    if (contactButton) contactButton.onclick = openContactPanel;
+    if (closeContactBtn) closeContactBtn.onclick = closeContactPanel;
+    if (contactBackdrop) contactBackdrop.onclick = closeContactPanel;
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const submitBtn = $('submit-contact-btn');
+            const formData = new FormData(contactForm);
+            const currentLang = localStorage.getItem('ttx_lang') || 'en';
+    
+            submitBtn.disabled = true;
+            submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButtonSending') || 'Sending...';
+    
+            try {
+                // IMPORTANT: Replace with your new Formspree endpoint for support@teachertoybox.com
+                const response = await fetch('https://formspree.io/f/mpwjrnag', {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (response.ok) {
+                    submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButtonSuccess') || 'Message Sent!';
+                    submitBtn.style.backgroundColor = 'var(--success-color)';
+                    contactForm.reset();
+                    setTimeout(() => {
+                        closeContactPanel();
+                        // Reset button after a delay
+                        setTimeout(() => {
+                             submitBtn.disabled = false;
+                             submitBtn.style.backgroundColor = '';
+                             submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButton') || 'Send Message';
+                        }, 500);
+                    }, 2000);
+                } else { throw new Error('Form submission failed'); }
+            } catch (error) {
+                console.error('Error submitting contact form:', error);
+                alert('Sorry, there was an error sending your message.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = window.t(window.I18N[currentLang], 'panel.contact.submitButton') || 'Send Message';
+            }
+        });
+    }
+    // --- END: Contact Us Panel ---
+
+
+    document.addEventListener('keydown', e => {
+        const activeWin = document.querySelector('.floating.active-window');
+        const focusedElement = document.activeElement;
+        const isEditing = focusedElement && (focusedElement.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(focusedElement.tagName));
+
+        if (e.key === 'Delete' && !isEditing) {
+            e.preventDefault();
+            clearWins();
+            hotkeysEnabled = true;
+            showOverlay('🗑️');
+            layoutState.activeLayout = null;
+            localStorage.removeItem('ttx_lastLayout');
+            return;
+        }
+        
+        if (e.key === 'Backspace' && !isEditing) {
+            e.preventDefault();
+            if (activeWin) {
+                activeWin.querySelector('.close-btn')?.click();
+            }
+            return;
+        }
+
+        if (activeWin && activeWin.classList.contains('timer-is-running')) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                activeWin.querySelector('.timer-start-pause-btn')?.click();
+            } else if (e.code === 'Space' && !isEditing) {
+                e.preventDefault();
+                activeWin.querySelector('.timer-reset-btn')?.click();
+            }
+        }
+        
+        if (!hotkeysEnabled || isEditing) return;
+
+        if (e.key === '`') {
+            document.querySelectorAll('.hotkey-label').forEach(l => l.style.display = (l.style.display === 'block' ? 'none' : 'block'));
+            return;
+        }
+        
+        const toolKeys = ['d', 't', '0', 'w', 'v', 'o', 'h', 'g', 'a', 'u'];
+        if (toolKeys.includes(e.key.toLowerCase())) {
+            if (activeWin) {
+                activeWin.querySelector(`.win-sidebar [data-hotkey="${e.key.toLowerCase()}"]`)?.click();
+                return;
+            }
+        }
+        if (e.key.toLowerCase() === 'i' && activeWin) {
+            activeWin.querySelector('.upload-btn')?.click();
+            return;
+        }
+        if (e.key.toLowerCase() === 'e' && activeWin) {
+            activeWin.querySelector('.reset-content-btn')?.click();
+            return;
+        }
+
+        const resizeKeyMap = { 'q': 0, '9': 2 };
+        if (resizeKeyMap.hasOwnProperty(e.key.toLowerCase())) {
+            if (activeWin) {
+                const resizeButtons = activeWin.querySelectorAll('.resize-btn');
+                const buttonIndex = resizeKeyMap[e.key.toLowerCase()];
+                if (resizeButtons[buttonIndex]) {
+                    resizeButtons[buttonIndex].click();
+                }
+            }
+            return;
+        }
+        
+        if (e.key === 'PageDown' && activeWin) {
+            const sendBackButton = activeWin.querySelector('.resize-btn[title*="Send to Back"]');
+            sendBackButton?.click();
+            return;
+        }
+
+        if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+            e.preventDefault();
+            if (!activeWin) return;
+
+            const sidebarW = getSidebarWidth();
+            const winW = window.innerWidth - sidebarW;
+            const winH = window.innerHeight;
+            const halfW = winW / 2;
+            const halfH = winH / 2;
+
+            const tolerance = 10;
+            const isQuarter = Math.abs(activeWin.offsetWidth - halfW) < tolerance && Math.abs(activeWin.offsetHeight - halfH) < tolerance;
+            const isHalfV = Math.abs(activeWin.offsetWidth - halfW) < tolerance && Math.abs(activeWin.offsetHeight - winH) < tolerance;
+            const isHalfH = Math.abs(activeWin.offsetWidth - winW) < tolerance && Math.abs(activeWin.offsetHeight - halfH) < tolerance;
+            
+            if (!isQuarter && !isHalfV && !isHalfH) return;
+
+            const currentX = activeWin.offsetLeft;
+            const currentY = activeWin.offsetTop;
+            
+            const onLeftHalf = currentX < tolerance;
+            const onRightHalf = Math.abs(currentX - halfW) < tolerance;
+            const onTopHalf = currentY < tolerance;
+            const onBottomHalf = Math.abs(currentY - halfH) < tolerance;
+
+            if (isHalfV) {
+                if (e.key === 'ArrowRight' && onLeftHalf) {
+                    activeWin.style.left = `${halfW}px`;
+                } else if (e.key === 'ArrowLeft' && onRightHalf) {
+                    activeWin.style.left = '0px';
+                }
+            } else if (isHalfH) {
+                if (e.key === 'ArrowDown' && onTopHalf) {
+                    activeWin.style.top = `${halfH}px`;
+                } else if (e.key === 'ArrowUp' && onBottomHalf) {
+                    activeWin.style.top = '0px';
+                }
+            } else if (isQuarter) {
+                if (e.key === 'ArrowRight' && onLeftHalf) {
+                    activeWin.style.left = `${halfW}px`;
+                } else if (e.key === 'ArrowLeft' && onRightHalf) {
+                    activeWin.style.left = '0px';
+                } else if (e.key === 'ArrowDown' && onTopHalf) {
+                    activeWin.style.top = `${halfH}px`;
+                } else if (e.key === 'ArrowUp' && onBottomHalf) {
+                    activeWin.style.top = '0px';
+                }
+            }
+            return;
+        }
+
+        const mainKeyMap = { 
+            'n': 'addButton', 
+            '1': 'layout1Button', '2': 'layout2Button', '3': 'layout3Button', '4': 'layout4Button', '5': 'layout5Button', '6': 'layout6Button', '7': 'layout7Button', '8': 'layout8Button',
+            'c': 'colorButton', 'm': 'magicColorButton', 'b': 'bellButton', 's': 'shhButton', 
+            'p': 'laserButton', '/': 'managementButton', 'r': 'refreshButton', 'x': 'extraToolsButton', 
+            'l': 'screenButton', 'k': 'clockButton', 'j': 'shareButton', 'f': 'communicationButton',
+            'z': 'themePaletteButton', '?': 'helpButton', 'u': 'upgradeButton'
+        };
+
+        const key = e.key.toLowerCase();
+        if (mainKeyMap[key]) {
+            if (key === 'r' && (e.ctrlKey || e.shiftKey || e.altKey || e.metaKey)) {
+                return;
+            }
+    
+            e.preventDefault();
+            $(mainKeyMap[key])?.click();
+        } else if (key === 'y') {
+            e.preventDefault();
+            const coffeeLink = document.querySelector('.buyme-button');
+            if (coffeeLink) coffeeLink.click();
+        }
+    });
+
+    let resizeDebounceTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeDebounceTimeout);
+        resizeDebounceTimeout = setTimeout(() => {
+            const newWidth = window.innerWidth;
+            const newHeight = window.innerHeight;
+            const sidebarW = getSidebarWidth();
+            const oldUsableWidth = lastWindowWidth - sidebarW;
+            const newUsableWidth = newWidth - sidebarW;
+
+            document.querySelectorAll('.floating').forEach(win => {
+                if (win.querySelector('.info-content-wrapper')) {
+                    win.style.width = `${newUsableWidth}px`;
+                    win.style.height = `${newHeight}px`;
+                    return;
+                }
+                
+                const oldRelX = win.offsetLeft / oldUsableWidth;
+                const oldRelY = win.offsetTop / lastWindowHeight;
+                const oldRelW = win.offsetWidth / oldUsableWidth;
+                const oldRelH = win.offsetHeight / lastWindowHeight;
+
+                win.style.left = `${oldRelX * newUsableWidth}px`;
+                win.style.top = `${oldRelY * newHeight}px`;
+                win.style.width = `${oldRelW * newUsableWidth}px`;
+                win.style.height = `${oldRelH * newHeight}px`;
+            });
+
+            lastWindowWidth = newWidth;
+            lastWindowHeight = newHeight;
+        }, 100);
+    });
+
+    function loadSettings() {
+        const savedColor = localStorage.getItem('ttx_accentColor');
+        if (savedColor) {
+            applyAccentColor(savedColor);
+            $('colorPicker').value = savedColor;
+        }
+        
+        const savedTheme = localStorage.getItem('ttx_theme');
+        const themeToggleInput = document.getElementById('theme-toggle');
+        if (themeToggleInput) {
+            // Default to light mode unless 'dark' is explicitly saved
+            if (savedTheme !== 'dark') {
+                themeToggleInput.checked = true;
+                document.body.classList.add('light-mode');
+            }
+        }
+
+        const savedLayout = localStorage.getItem('ttx_lastLayout');
+        if (savedLayout) {
+            const layoutButton = $(`layout${savedLayout}Button`);
+            if (layoutButton) {
+                layoutButton.click();
+            }
+        }
+    }
+
+    loadSettings();
+
+    document.body.addEventListener('pointerdown', (e) => {
+        if (!e.target.closest('.floating[data-disables-hotkeys="true"]')) {
+            hotkeysEnabled = true;
+        }
+    
+        const isClickOnLangPicker = e.target.closest('#lang-picker-wrap');
+        if (isClickOnLangPicker) {
+            return;
+        }
+
+        if (e.target === document.body || e.target.closest('#site-title')) {
+            document.body.classList.toggle('no-grid');
+    
+            if (e.target.closest('#site-title')) {
+                applyAccentColor(defaultAccentColor);
+                localStorage.setItem('ttx_accentColor', defaultAccentColor);
+                showOverlay('↺');
+            }
+        }
+    });
+    
+    document.addEventListener('click', (e) => {
+        const isClickInsideSidebar = e.target.closest('#sidebar-main-controls');
+        const isClickInsideFeedbackPanel = e.target.closest('#feedback-panel');
+        const isClickInsideUpgradePanel = e.target.closest('#upgrade-panel');
+        const isClickInsidePolicyPanel = e.target.closest('#policy-panel');
+        const isClickInsideContactPanel = e.target.closest('#contact-panel');
+        const isClickInsideCommunicationPanel = e.target.closest('#communication-tools-container');
+
+        if (!isClickInsideSidebar && !isClickInsideFeedbackPanel && !isClickInsideUpgradePanel && !isClickInsidePolicyPanel && !isClickInsideContactPanel && !isClickInsideCommunicationPanel) {
+            if($('layout-bar')) $('layout-bar').classList.remove('open');
+            if($('management-bar')) $('management-bar').classList.remove('open');
+            if($('extra-tools-bar')) $('extra-tools-bar').classList.remove('open');
+            if($('help-bar')) $('help-bar').classList.remove('open');
+            if($('communication-bar')) $('communication-bar').classList.remove('open');
+
+            closeUpgradePanel();
+            closeFeedbackPanel();
+            closePolicyPanel();
+            closeContactPanel();
+            
+            document.querySelectorAll('.custom-color-palette, #color-palette').forEach(p => {
+                if (p) p.classList.add('hidden');
+            });
+        }
+    });
+        
+    (function() {
+      let demoOpen = false;
+      let demoJustClosedAt = 0;
+      let backdrop, modal, video;
+    
+      function closeDemoModal() {
+        demoJustClosedAt = Date.now();
+        if (!demoOpen) return;
+        demoOpen = false;
+        try { modal && modal.remove(); } catch(e) {}
+        try { backdrop && backdrop.remove(); } catch(e) {}
+        const btn = document.getElementById('demoButton');
+        if (btn) btn.classList.remove('active');
+      }
+    
+function openDemoModal() {
+        if (demoOpen) return;
+        demoOpen = true;
+    
+        backdrop = document.createElement('div');
+        backdrop.className = 'demo-backdrop';
+        backdrop.style.cssText = 'position:fixed;inset:0;background:transparent;z-index:9998;'
+    
+        modal = document.createElement('div');
+        modal.className = 'demo-modal';
+        modal.style.cssText = 'position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:75vw;height:75vh;display:flex;align-items:center;justify-content:center;z-index:9999;'
+    
+        video = document.createElement('video');
+        const source = document.createElement('source');
+        source.src = 'demo.mp4';
+        source.type = 'video/mp4';
+        video.appendChild(source);
+        video.controls = true;
+        video.playsInline = true;
+        video.style.cssText = 'width:100%;height:100%;object-fit:contain;border-radius:12px;';
+    
+        modal.appendChild(video);
+        document.body.appendChild(backdrop);
+        document.body.appendChild(modal);
+    
+        const tryPlay = async () => {
+          try { await video.play(); }
+          catch (err) { try { video.muted = true; await video.play(); } catch (e2) {} }
+        };
+        video.addEventListener('loadedmetadata', tryPlay);
+        tryPlay();
+    
+        const passThrough = (ev) => {
+          const x = ev.clientX, y = ev.clientY;
+          ev.preventDefault();
+          ev.stopPropagation();
+          closeDemoModal();
+          setTimeout(() => {
+            const el = document.elementFromPoint(x, y);
+            if (!el) return;
+            try { el.dispatchEvent(new PointerEvent('pointerdown', { bubbles:true, cancelable:true, clientX:x, clientY:y, pointerType:'mouse' })); } catch(e) {}
+            try { el.dispatchEvent(new MouseEvent('mousedown', { bubbles:true, cancelable:true, clientX:x, clientY:y })); } catch(e) {}
+            try { el.dispatchEvent(new MouseEvent('mouseup', { bubbles:true, cancelable:true, clientX:x, clientY:y })); } catch(e) {}
+            el.dispatchEvent(new MouseEvent('click', { bubbles:true, cancelable:true, clientX:x, clientY:y }));
+          }, 0);
+        };
+    
+        backdrop.addEventListener('pointerdown', passThrough, { capture:true });
+        backdrop.addEventListener('mousedown', passThrough, { capture:true });
+        backdrop.addEventListener('click', passThrough, { capture:true });
+    
+        modal.addEventListener('click', closeDemoModal);
+      }
+    
+      const demoBtn = document.getElementById('demoButton');
+      if (demoBtn) {
+          const replacement = demoBtn.cloneNode(true);
+          demoBtn.parentNode.replaceChild(replacement, demoBtn);
+          replacement.addEventListener('click', (e) => {
+              e.stopPropagation();
+              if (!demoOpen) {
+                  if (Date.now() - demoJustClosedAt < 200) return;
+                  replacement.classList.add('active');
+                  openDemoModal();
+              } else {
+                  closeDemoModal();
+              }
+          });
+      }
+    })();
+
+    // Check for the '?payment=success' URL parameter and trigger the status check.
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('payment') === 'success') {
+        // We need to wait for the Auth0 client to be ready before we check
+        const checkAuthReady = setInterval(() => {
+            if (typeof auth0Client !== 'undefined' && auth0Client) {
+                clearInterval(checkAuthReady);
+                // Call the splash screen and logout function
+                finalizePremiumAccess();
+                // Clean the URL so the check doesn't run on every refresh
+                window.history.replaceState({}, document.title, "/");
+            }
+        }, 100);
+    }
+});
