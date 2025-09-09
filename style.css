@@ -2126,3 +2126,7 @@ body.light-mode .pdf-viewer-container {
     color: var(--text-secondary);
     line-height: 1.5;
 }
+
+/* --- REMOVED STYLES FOR GOLD, CENTERED CROWN --- */
+/* The large centered crown styles have been removed to fix the layout issue. */
+/* The original #close-upgrade-btn styles will now apply correctly. */
